@@ -1,0 +1,237 @@
+// adv10_maps.grif - GRIF format
+@roommap.1.0
+	@writeline("\n  +-------+  ")
+@roommap.1.n
+	@writeline("\n      |      \n  +---N---+  ")
+@roommap.2.0
+	@writeline("  |       |  ")
+@roommap.2.u
+	@writeline("  |     U |  ")
+@roommap.3.0
+	@writeline("  |       |  ")
+@roommap.3.e
+	@writeline("  |       E--")
+@roommap.3.w
+	@writeline("--W       |  ")
+@roommap.3.we
+	@writeline("--W       E--")
+@roommap.4.0
+	@writeline("  |       |  ")
+@roommap.4.d
+	@writeline("  | D     |  ")
+@roommap.5.0
+	@writeline("  +-------+  ")
+@roommap.5.s
+	@writeline("  +---S---+  \n      |      ")
+modmsg.maps
+	The "roommaps" mod is installed. Room images will show current exits.
+room.1.roommap
+	@roommap.1.0
+	@roommap.2.0
+	@roommap.3.we
+	@roommap.4.d
+	@roommap.5.s
+room.2.roommap
+	@roommap.1.0
+	@roommap.2.0
+	@roommap.3.e
+	@roommap.4.0
+	@roommap.5.0
+room.3.roommap
+	@roommap.1.0
+	@roommap.2.0
+	@roommap.3.0
+	@roommap.4.0
+	@roommap.5.0
+room.4.roommap
+	@roommap.1.0
+	@roommap.2.0
+	@roommap.3.w
+	@roommap.4.0
+	@roommap.5.0
+room.5.roommap
+	@roommap.1.0
+	@roommap.2.0
+	@roommap.3.0
+	@roommap.4.0
+	@roommap.5.s
+room.6.roommap
+	@roommap.1.0
+	@roommap.2.0
+	@roommap.3.0
+	@roommap.4.d
+	@roommap.5.0
+room.7.roommap
+	@roommap.1.n
+	@roommap.2.0
+	@roommap.3.0
+	@roommap.4.0
+	@roommap.5.0
+room.8.roommap
+	@roommap.1.0
+	@roommap.2.u
+	@roommap.3.0
+	@roommap.4.0
+	@roommap.5.0
+room.9.roommap
+	@roommap.1.n
+	@roommap.2.0
+	@roommap.3.we
+	@roommap.4.0
+	@roommap.5.s
+room.10.roommap
+	@roommap.1.0
+	@roommap.2.0
+	@roommap.3.0
+	@roommap.4.d
+	@roommap.5.0
+room.11.roommap
+	@roommap.1.0
+	@roommap.2.0
+	@roommap.3.e
+	@roommap.4.0
+	@roommap.5.0
+room.12.roommap
+	@roommap.1.0
+	@roommap.2.0
+	@roommap.3.0
+	@roommap.4.0
+	@roommap.5.0
+room.13.roommap
+	@roommap.1.0
+	@roommap.2.0
+	@roommap.3.0
+	@roommap.4.0
+	@roommap.5.0
+room.14.roommap
+	@roommap.1.0
+	@roommap.2.0
+	@roommap.3.0
+	@roommap.4.0
+	@roommap.5.0
+room.15.roommap
+	@roommap.1.0
+	@roommap.2.0
+	@roommap.3.0
+	@roommap.4.0
+	@roommap.5.0
+room.16.roommap
+	@roommap.1.0
+	@roommap.2.0
+	@roommap.3.0
+	@roommap.4.0
+	@roommap.5.0
+room.17.roommap
+	@roommap.1.0
+	@roommap.2.0
+	@roommap.3.0
+	@roommap.4.0
+	@roommap.5.s
+room.18.roommap
+	@roommap.1.0
+	@roommap.2.0
+	@roommap.3.e
+	@roommap.4.0
+	@roommap.5.0
+room.19.roommap
+	@roommap.1.0
+	@roommap.2.0
+	@roommap.3.0
+	@roommap.4.d
+	@roommap.5.0
+room.20.roommap
+	@roommap.1.0
+	@roommap.2.0
+	@roommap.3.w
+	@roommap.4.0
+	@roommap.5.0
+room.21.roommap
+	@roommap.1.0
+	@roommap.2.0
+	@roommap.3.e
+	@roommap.4.0
+	@roommap.5.0
+room.22.roommap
+	@roommap.1.0
+	@roommap.2.0
+	@roommap.3.we
+	@roommap.4.0
+	@roommap.5.s
+room.23.roommap
+	@roommap.1.0
+	@roommap.2.0
+	@roommap.3.w
+	@roommap.4.0
+	@roommap.5.s
+room.24.roommap
+	@roommap.1.n
+	@roommap.2.0
+	@roommap.3.0
+	@roommap.4.0
+	@roommap.5.0
+room.25.roommap
+	@roommap.1.n
+	@roommap.2.0
+	@roommap.3.we
+	@roommap.4.0
+	@roommap.5.s
+room.26.roommap
+	@roommap.1.n
+	@roommap.2.0
+	@roommap.3.we
+	@roommap.4.0
+	@roommap.5.s
+room.27.roommap
+	@roommap.1.n
+	@roommap.2.0
+	@roommap.3.we
+	@roommap.4.0
+	@roommap.5.s
+room.28.roommap
+	@roommap.1.n
+	@roommap.2.0
+	@roommap.3.we
+	@roommap.4.0
+	@roommap.5.s
+room.29.roommap
+	@roommap.1.0
+	@roommap.2.0
+	@roommap.3.e
+	@roommap.4.0
+	@roommap.5.0
+room.30.roommap
+	@roommap.1.0
+	@roommap.2.0
+	@roommap.3.0
+	@roommap.4.0
+	@roommap.5.0
+room.31.roommap
+	@roommap.1.0
+	@roommap.2.0
+	@roommap.3.0
+	@roommap.4.0
+	@roommap.5.0
+room.32.roommap
+	@roommap.1.0
+	@roommap.2.0
+	@roommap.3.e
+	@roommap.4.0
+	@roommap.5.0
+room.33.roommap
+	@roommap.1.n
+	@roommap.2.0
+	@roommap.3.we
+	@roommap.4.d
+	@roommap.5.s
+room.34.roommap
+	@roommap.1.0
+	@roommap.2.0
+	@roommap.3.0
+	@roommap.4.0
+	@roommap.5.0
+script.before_look
+	@if @true(@get(value.roommap)) @then
+		@script(@concat("room.",@room,".roommap"))
+	@endif
+value.roommap
+	true

@@ -1,0 +1,1846 @@
+// adv03.grif - GRIF format
+@atstartroom(x)
+	@eq(@get(item.$x.location),@get(value.startroom))
+@carry(x)
+	@eq(@get(item.$x.location),@inv)
+@drop(x)
+	@sendto($x,@room)
+@goto(x)
+	@set(value.room,$x)
+@here(x)
+	@eq(@get(item.$x.location),@room)
+@herecarry(x)
+	@if @eq(@get(item.$x.location),@room) @or @eq(@get(item.$x.location),@inv) @then
+		@write("true")
+	@else
+		@write("false")
+	@endif
+@inv
+	-1
+@invcount
+	@set(temp.count,0)
+	@for(x,1,@get(system.itemcount))
+		@if @carry($x) @then
+			@addto(temp.count,1)
+		@endif
+	@endfor
+	@write(@get(temp.count))
+@isroom(x)
+	@eq(@room,$x)
+@look
+	@debug(@concat("### ROOM #",@room,"\n"))
+	@if @true(@get(value.flag.dark)) @and @not @herecarry(9) @then
+		@msg(message.cant_see)
+	@else
+		@script(script.before_look)
+		@msg(@concat("room.",@room,".longdesc"))
+		@nl
+		@msg(message.obvious_exits)
+		@msg(@concat("room.",@room,".exitlist"))
+		@set(temp.found,false)
+		@for(i,0,@get(system.itemcount))
+			@if @here($i) @then
+				@if @false(@get(temp.found)) @then
+					@nl
+					@msg(message.also_see)
+					@set(temp.found,true)
+				@endif
+				@debug(@concat("### ITEM #",$i,"\n"))
+				@msg(item.$i.longdesc)
+			@endif
+		@endfor
+	@endif
+@modmessages
+	@foreachkey(i,"modmsg.")
+		@nl
+		@msg(modmsg.$i)
+	@endforeachkey
+@nowhere(x)
+	@eq(@get(item.$x.location),0)
+@picture(x)
+	@setoutchannel("#PICTURE;",$x)
+@quit
+	@setoutchannel("#GAMEOVER;")
+@room
+	@get(value.room)
+@sendto(x,y)
+	@set(item.$x.location,$y)
+@sleep(x)
+	@setoutchannel("#SLEEP;",$x)
+@somewhere(x)
+	@ne(@get(item.$x.location),0)
+@take(x)
+	@sendto($x,@inv)
+background.0
+	@if @rand(15) @and @nowhere(29) @then
+		@comment("WIRE CUT BOOM SOON")
+		@sendto(9,0)
+	@endif
+background.1
+	@if @nowhere(9) @and @not @carry(10) @then
+		@comment("BOOOM SOON")
+		@sendto(2,0)
+		@msg(message.3)
+		@msg(message.4)
+		@take(10)
+	@endif
+background.2
+	@if @rand(30) @and @not @herecarry(3) @and @nowhere(42) @and @atstartroom(3) @then
+		@comment("STEAL TAPE PLAYER")
+		@sendto(3,0)
+	@endif
+background.3
+	@comment("DEC COUNTER")
+	@if @gt(value.counter,0) @then
+		@subto(value.counter,1)
+	@endif
+background.4
+	@if @rand(9) @and @carry(10) @then
+		@comment("BOOOM")
+		@script(script.inventory)
+		@msg(message.12)
+		@quit
+	@endif
+background.5
+	@if @le(value.counter,40) @and @ge(value.counter,0) @and @not @carry(10) @then
+		@comment("MSG DOOM")
+		@msg(message.73)
+		@get(value.counter)
+		@msg(message.74)
+	@endif
+background.6
+	@if @isfalse(@get(value.flag.12)) @then
+		@comment("FIRST IN")
+		@msg(message.34)
+		@msg(message.68)
+		@set(value.flag.12,true)
+		@set(value.counter,300)
+	@endif
+background.7
+	@if @rand(30) @and @nowhere(42) @and @not @isroom(10) @and @le(value.counter,275) @then
+		@comment("SABETOUR")
+		@sendto(42,10)
+		@msg(message.50)
+	@endif
+background.8
+	@if @rand(30) @and @nowhere(42) @and @not @isroom(4) @and @le(value.counter,275) @then
+		@comment("SABETOUR")
+		@sendto(42,4)
+		@msg(message.50)
+	@endif
+background.9
+	@if @rand(30) @and @nowhere(42) @and @not @isroom(3) @and @le(value.counter,275) @then
+		@comment("SABETOUR")
+		@sendto(42,3)
+		@msg(message.50)
+	@endif
+background.10
+	@if @rand(25) @and @isroom(10) @then
+		@comment("VOICE")
+		@msg(message.18)
+		@msg(message.19)
+	@endif
+background.11
+	@if @rand(15) @and @nowhere(42) @then
+		@comment("RAN IN AND LEFT")
+		@msg(message.69)
+	@endif
+background.12
+	@if @rand(25) @and @isroom(9) @then
+		@comment("SHOW AUTHORIZATION")
+		@msg(message.18)
+		@msg(message.19)
+	@endif
+background.13
+	@if @rand(25) @and @isroom(11) @then
+		@comment("SHOW AUTHORIZATION")
+		@msg(message.18)
+		@msg(message.19)
+	@endif
+background.14
+	@if @rand(80) @and @isroom(13) @and @istrue(@get(value.flag.13)) @then
+		@comment("TV")
+		@msg(message.62)
+	@endif
+background.15
+	@if @rand(40) @and @isroom(13) @and @isfalse(@get(value.flag.13)) @then
+		@comment("TV")
+		@msg(message.63)
+	@endif
+background.16
+	@if @istrue(@get(value.flag.1)) @and @carry(9) @then
+		@comment("ALREADY SET DETECTOR")
+		@set(value.flag.1,false)
+	@endif
+background.17
+	@if @istrue(@get(value.flag.2)) @and @carry(2) @then
+		@comment("DITTO")
+		@set(value.flag.2,false)
+	@endif
+background.18
+	@if @istrue(@get(value.flag.1)) @and @somewhere(9) @then
+		@comment("SET GREEN")
+		@msg(message.3)
+		@swap(item.9.location,item.2.location)
+		@msg(message.14)
+		@set(value.flag.1,false)
+	@endif
+background.19
+	@if @istrue(@get(value.flag.2)) @and @somewhere(9) @then
+		@comment("SET YELLO")
+		@msg(message.3)
+		@swap(item.9.location,item.2.location)
+		@msg(message.15)
+		@set(value.flag.2,false)
+	@endif
+background.20
+	@if @rand(80) @and @isroom(21) @and @carry(24) @then
+		@comment("PAIL")
+		@swap(item.24.location,item.30.location)
+		@msg(message.31)
+		@msg(message.47)
+	@endif
+background.21
+	@if @rand(80) @and @isroom(21) @and @carry(27) @then
+		@comment("NO SUIT")
+		@msg(message.32)
+		@msg(message.33)
+		@quit
+	@endif
+background.22
+	@if @rand(80) @and @isroom(21) @and @somewhere(27) @then
+		@comment("NO SUIT")
+		@msg(message.35)
+		@msg(message.33)
+		@quit
+	@endif
+background.23
+	@if @le(value.counter,0) @then
+		@comment("BOMB TRIGGED")
+		@sendto(9,0)
+	@endif
+background.intro
+	@if @false(@get(system.introdone)) @then
+		@modmessages
+		@look
+		@set(system.introdone,true)
+	@endif
+command.1.1
+	@if @gt(@get(@concat("room.",@room,".exit.n")),0) @then
+		@goto(@get(@concat("room.",@room,".exit.n")))
+		@look
+	@else
+		@msg(message.cant_go)
+	@endif
+command.1.2
+	@if @gt(@get(@concat("room.",@room,".exit.s")),0) @then
+		@goto(@get(@concat("room.",@room,".exit.s")))
+		@look
+	@else
+		@msg(message.cant_go)
+	@endif
+command.1.3
+	@if @gt(@get(@concat("room.",@room,".exit.e")),0) @then
+		@goto(@get(@concat("room.",@room,".exit.e")))
+		@look
+	@else
+		@msg(message.cant_go)
+	@endif
+command.1.4
+	@if @gt(@get(@concat("room.",@room,".exit.w")),0) @then
+		@goto(@get(@concat("room.",@room,".exit.w")))
+		@look
+	@else
+		@msg(message.cant_go)
+	@endif
+command.1.5
+	@if @gt(@get(@concat("room.",@room,".exit.u")),0) @then
+		@goto(@get(@concat("room.",@room,".exit.u")))
+		@look
+	@else
+		@msg(message.cant_go)
+	@endif
+command.1.6
+	@if @gt(@get(@concat("room.",@room,".exit.d")),0) @then
+		@goto(@get(@concat("room.",@room,".exit.d")))
+		@look
+	@else
+		@msg(message.cant_go)
+	@endif
+command.1.20
+	@comment("Cmd 119 - go doo")
+	@if @here(33) @and @carry(28) @then
+		@msg(message.38)
+		@comment("...continued into Cmd 120")
+	@elseif @here(33) @then
+		@goto(15)
+		@look
+		@comment("...continued into Cmd 125")
+	@elseif @here(35) @and @here(36) @then
+		@goto(19)
+		@look
+		@comment("...continued into Cmd 126")
+	@elseif @here(35) @and @not @here(36) @then
+		@msg(message.6)
+		@msg(message.43)
+	@endif
+command.1.21
+	@comment("Cmd 67 - go win")
+	@if @here(17) @and @istrue(@get(value.flag.13)) @then
+		@comment("BOOM SOON")
+		@sendto(9,0)
+		@goto(16)
+		@look
+		@comment("...continued into Cmd 68")
+	@elseif @here(17) @and @isfalse(@get(value.flag.13)) @then
+		@comment("THRU WINDOW SAFE")
+		@goto(16)
+		@look
+		@comment("...continued into Cmd 69")
+	@elseif @isroom(16) @then
+		@goto(13)
+		@look
+	@endif
+command.1.33
+	@comment("Cmd 108 - go cha")
+	@if @isroom(4) @then
+		@msg(message.64)
+	@endif
+command.5
+	@comment("Cmd 52 - inv")
+	@if @somewhere(27) @then
+		@script(script.inventory)
+		@comment("...continued into Cmd 53")
+	@elseif @nowhere(27) @then
+		@script(script.inventory)
+		@msg(message.36)
+	@endif
+command.6
+	@comment("Cmd 79 - pou")
+	@if @isroom(19) @and @herecarry(24) @and @herecarry(28) @then
+		@msg(message.44)
+		@msg(message.45)
+		@quit
+		@comment("...continued into Cmd 80")
+	@elseif @isroom(20) @and @herecarry(24) @and @herecarry(28) @then
+		@comment("WON!!!")
+		@msg(message.44)
+		@msg(message.46)
+		@quit
+		@comment("...continued into Cmd 83")
+	@elseif @herecarry(24) @then
+		@swap(item.24.location,item.23.location)
+		@msg(message.47)
+	@endif
+command.9
+	@comment("Cmd 136 - hel")
+	@msg(message.65)
+command.10.*
+	@set(temp.found,false)
+	@foreachlist(x,@concat("nounitem.",@get(input.noun)))
+		@if @here($x) @and @false(@get(temp.found)) @then
+			@take($x)
+			@set(temp.found,true)
+			@msg(message.ok)
+		@endif
+	@endforeachlist
+	@if @false(@get(temp.found)) @then
+		@msg(message.dont_see)
+	@endif
+command.10.5
+	@comment("Cmd 51 - get up")
+	@if @isroom(5) @then
+		@comment("STAND UP")
+		@goto(4)
+		@look
+	@endif
+command.10.7
+	@comment("Cmd 50 - get tap")
+	@if @herecarry(3) @then
+		@comment("TAPE")
+		@take(3)
+		@comment("...continued into Cmd 117")
+	@elseif @here(33) @then
+		@msg(message.6)
+		@msg(message.37)
+	@endif
+command.10.28
+	@comment("Cmd 115 - get wat")
+	@if @herecarry(23) @and @here(25) @then
+		@swap(item.23.location,item.24.location)
+	@endif
+command.10.29
+	@comment("Cmd 75 - get bom")
+	@if @here(28) @and @nowhere(29) @then
+		@take(28)
+		@comment("...continued into Cmd 77")
+	@elseif @here(28) @and @nowhere(43) @then
+		@msg(message.6)
+		@msg(message.53)
+	@endif
+command.10.33
+	@comment("Cmd 98 - get cha")
+	@msg(message.6)
+	@msg(message.37)
+command.10.47
+	@comment("Cmd 63 - get inv")
+	@if @somewhere(27) @then
+		@script(script.inventory)
+		@comment("...continued into Cmd 64")
+	@elseif @nowhere(27) @then
+		@script(script.inventory)
+		@msg(message.36)
+	@endif
+command.13
+	@comment("Cmd 36 - cle")
+	@if @herecarry(16) @and @somewhere(11) @then
+		@msg(message.67)
+		@msg(message.2)
+		@comment("...continued into Cmd 94")
+	@elseif @herecarry(16) @and @nowhere(11) @then
+		@msg(message.54)
+		@msg(message.55)
+	@endif
+command.15
+	@comment("Cmd 74 - wit")
+	@if @istrue(@get(value.flag.8)) @and @herecarry(28) @then
+		@comment("END IS NEAR")
+		@set(value.flag.8,false)
+		@msg(message.55)
+		@sendto(9,0)
+		@msg(message.54)
+		@comment("...continued into Cmd 142")
+	@elseif @isfalse(@get(value.flag.10)) @then
+		@msg(message.67)
+		@comment("...continued into Cmd 150")
+	@elseif @istrue(@get(value.flag.10)) @then
+		@set(value.flag.10,false)
+		@msg(message.16)
+		@msg(message.2)
+		@msg(message.25)
+	@endif
+command.15.7
+	@comment("Cmd 96 - wit tap")
+	@if @here(14) @and @herecarry(3) @and @istrue(@get(value.flag.7)) @then
+		@comment("BREAK WINDOW")
+		@comment("continue")
+		@sendto(3,1)
+		@msg(message.26)
+		@comment("...continued into Cmd 97")
+		@set(value.flag.7,false)
+		@set(value.flag.2,true)
+		@swap(item.17.location,item.14.location)
+		@set(value.flag.13,true)
+	@endif
+command.15.32
+	@comment("Cmd 104 - wit cut")
+	@if @herecarry(26) @and @istrue(@get(value.flag.11)) @then
+		@drop(11)
+		@msg(message.51)
+		@set(value.flag.10,false)
+		@set(value.flag.11,false)
+	@endif
+command.15.53
+	@comment("Cmd 143 - wit han")
+	@if @istrue(@get(value.flag.10)) @then
+		@set(value.flag.10,false)
+		@msg(message.77)
+		@msg(message.2)
+	@endif
+command.16
+	@comment("Cmd 153 - una")
+	@msg(message.58)
+command.18.*
+	@set(temp.found,false)
+	@foreachlist(x,@concat("nounitem.",@get(input.noun)))
+		@if @carry($x) @and @false(@get(temp.found)) @then
+			@drop($x)
+			@set(temp.found,true)
+			@msg(message.ok)
+		@endif
+	@endforeachlist
+	@if @false(@get(temp.found)) @then
+		@msg(message.not_carrying)
+	@endif
+command.18.29
+	@comment("Cmd 78 - dro bom")
+	@if @carry(28) @then
+		@comment("BOOM NEAR")
+		@msg(message.55)
+		@sendto(9,0)
+		@msg(message.54)
+		@drop(28)
+	@endif
+command.18.42
+	@comment("Cmd 82 - dro mop")
+	@if @carry(16) @and @nowhere(11) @then
+		@msg(message.16)
+		@msg(message.55)
+		@drop(16)
+		@comment("...continued into Cmd 87")
+	@elseif @carry(16) @and @somewhere(11) @then
+		@drop(16)
+	@endif
+command.18.48
+	@comment("Cmd 112 - dro sui")
+	@if @nowhere(27) @then
+		@drop(27)
+		@comment("...continued into Cmd 113")
+	@elseif @carry(27) @then
+		@drop(27)
+	@endif
+command.22
+	@comment("Cmd 76 - cha")
+	@msg(message.70)
+command.24
+	@comment("Cmd 147 - rea")
+	@msg(message.6)
+	@msg(message.52)
+command.24.52
+	@comment("Cmd 26 - rea lea")
+	@if @herecarry(49) @then
+		@msg(message.72)
+	@endif
+command.25
+	@comment("Cmd 48 - pre")
+	@if @here(6) @then
+		@msg(message.5)
+		@comment("...continued into Cmd 138")
+	@else
+		@msg(message.2)
+	@endif
+command.25.9
+	@comment("Cmd 40 - pre red")
+	@if @here(6) @and @not @carry(2) @then
+		@comment("DANGER")
+		@set(value.flag.2,true)
+		@msg(message.5)
+		@comment("...continued into Cmd 47")
+	@elseif @here(6) @and @carry(2) @then
+		@comment("CLICK?")
+		@msg(message.5)
+		@sendto(9,0)
+	@endif
+command.25.10
+	@comment("Cmd 31 - pre whi")
+	@if @not @carry(9) @and @here(6) @then
+		@comment("GIVE BADGES")
+		@set(value.flag.1,true)
+		@goto(1)
+		@comment("continue")
+		@msg(message.5)
+		@comment("...continued into Cmd 32")
+		@if @here(1) @then
+			@sendto(1,4)
+			@goto(5)
+			@msg(message.11)
+		@endif
+		@comment("...continued into Cmd 33")
+		@if @here(8) @then
+			@sendto(8,4)
+			@goto(5)
+			@msg(message.11)
+		@endif
+		@comment("...continued into Cmd 34")
+		@if @here(7) @then
+			@sendto(7,4)
+			@goto(5)
+			@msg(message.11)
+		@endif
+		@comment("...continued into Cmd 35")
+		@if @isroom(1) @then
+			@goto(5)
+			@msg(message.2)
+			@msg(message.16)
+		@endif
+		@comment("...continued into Cmd 65")
+	@elseif @isroom(13) @then
+		@msg(message.5)
+		@goto(9)
+		@msg(message.21)
+	@endif
+command.25.11
+	@comment("Cmd 42 - pre blu")
+	@if @isfalse(@get(value.flag.4)) @and @here(6) @then
+		@comment("LOCKED")
+		@msg(message.6)
+		@msg(message.7)
+		@comment("...continued into Cmd 44")
+	@elseif @here(6) @and @nowhere(1) @then
+		@comment("MOVE PICTURE")
+		@sendto(1,1)
+		@msg(message.5)
+		@comment("...continued into Cmd 70")
+	@elseif @isroom(15) @then
+		@msg(message.5)
+		@msg(message.21)
+		@goto(11)
+	@endif
+command.25.12
+	@comment("Cmd 43 - pre yel")
+	@if @isfalse(@get(value.flag.3)) @and @here(6) @then
+		@comment("LOCKED")
+		@msg(message.6)
+		@msg(message.7)
+		@comment("...continued into Cmd 46")
+	@elseif @here(6) @and @nowhere(8) @then
+		@comment("MOVE PIC")
+		@sendto(8,1)
+		@msg(message.5)
+		@comment("...continued into Cmd 66")
+	@elseif @isroom(14) @then
+		@msg(message.5)
+		@msg(message.21)
+		@goto(10)
+	@endif
+command.25.19
+	@comment("Cmd 45 - pre but")
+	@msg(message.48)
+command.25.20
+	@comment("Cmd 122 - pre doo")
+	@if @here(35) @then
+		@msg(message.16)
+		@msg(message.39)
+		@msg(message.40)
+		@msg(message.37)
+	@endif
+command.25.46
+	@comment("Cmd 58 - pre gre")
+	@if @here(15) @and @somewhere(20) @then
+		@comment("MOVIE")
+		@msg(message.27)
+		@msg(message.16)
+		@msg(message.28)
+		@msg(message.29)
+		@comment("...continued into Cmd 59")
+	@elseif @here(15) @and @nowhere(20) @then
+		@comment("MOVIE")
+		@msg(message.27)
+		@msg(message.30)
+		@msg(message.29)
+	@endif
+command.25.51
+	@comment("Cmd 123 - pre har")
+	@if @here(35) @and @not @here(36) @then
+		@msg(message.39)
+		@msg(message.41)
+		@msg(message.42)
+		@drop(36)
+		@comment("...continued into Cmd 124")
+	@elseif @here(35) @and @here(36) @then
+		@msg(message.16)
+		@msg(message.39)
+		@msg(message.41)
+		@msg(message.37)
+	@endif
+command.28
+	@comment("Cmd 152 - wai")
+	@subto(value.counter,30)
+	@msg(message.75)
+command.29
+	@comment("Cmd 71 - loa")
+	@if @herecarry(22) @and @herecarry(20) @then
+		@swap(item.20.location,item.21.location)
+		@sendto(22,0)
+		@look
+	@endif
+command.31
+	@comment("Cmd 145 - kic")
+	@msg(message.77)
+	@msg(message.2)
+command.31.20
+	@comment("Cmd 127 - kic doo")
+	@if @here(35) @and @not @here(36) @then
+		@msg(message.77)
+		@msg(message.42)
+		@drop(36)
+	@endif
+command.32
+	@comment("Cmd 37 - jum")
+	@if @isroom(16) @then
+		@msg(message.54)
+		@msg(message.12)
+		@quit
+	@endif
+command.33.5
+	@comment("Cmd 129 - sui up")
+	@if @herecarry(27) @then
+		@sendto(27,0)
+	@endif
+command.34
+	@comment("Cmd 146 - sho")
+	@msg(message.16)
+	@msg(message.2)
+command.34.14
+	@comment("Cmd 25 - sho pic")
+	@if @isroom(13) @and @not @herecarry(42) @and @herecarry(41) @and @istrue(@get(value.flag.13)) @then
+		@comment("NEED SAB TOO")
+		@msg(message.18)
+		@msg(message.20)
+		@msg(message.71)
+		@comment("...continued into Cmd 84")
+	@elseif @isroom(9) @and @carry(7) @then
+		@msg(message.18)
+		@msg(message.78)
+		@msg(message.21)
+		@goto(13)
+		@comment("...continued into Cmd 85")
+	@elseif @isroom(9) @and @carry(8) @then
+		@msg(message.18)
+		@msg(message.78)
+		@msg(message.21)
+		@goto(13)
+		@comment("...continued into Cmd 86")
+	@elseif @isroom(9) @and @carry(1) @then
+		@msg(message.18)
+		@msg(message.78)
+		@msg(message.21)
+		@goto(13)
+		@comment("...continued into Cmd 88")
+	@elseif @isroom(10) @and @carry(1) @then
+		@msg(message.18)
+		@msg(message.78)
+		@msg(message.21)
+		@goto(14)
+		@comment("...continued into Cmd 89")
+	@elseif @isroom(10) @and @carry(8) @then
+		@msg(message.18)
+		@msg(message.78)
+		@msg(message.21)
+		@goto(14)
+		@comment("...continued into Cmd 90")
+	@elseif @isroom(11) @and @carry(1) @then
+		@msg(message.18)
+		@msg(message.78)
+		@msg(message.21)
+		@goto(15)
+		@comment("...continued into Cmd 91")
+	@elseif @isroom(10) @then
+		@msg(message.18)
+		@msg(message.20)
+		@comment("...continued into Cmd 92")
+	@elseif @isroom(9) @then
+		@msg(message.18)
+		@msg(message.20)
+		@comment("...continued into Cmd 93")
+	@elseif @isroom(11) @then
+		@msg(message.18)
+		@msg(message.20)
+		@comment("...continued into Cmd 107")
+	@elseif @herecarry(42) @and @isroom(13) @and @herecarry(41) @then
+		@set(value.flag.13,false)
+		@msg(message.18)
+		@msg(message.56)
+		@comment("...continued into Cmd 130")
+	@elseif @isroom(13) @and @istrue(@get(value.flag.13)) @then
+		@msg(message.18)
+		@msg(message.20)
+	@endif
+command.35
+	@comment("Cmd 137 - pul")
+	@msg(message.37)
+command.36
+	@comment("Cmd 101 - sit")
+	@if @here(5) @then
+		@goto(5)
+		@look
+	@endif
+command.37
+	@comment("Cmd 61 - unl")
+	@if @here(6) @and @herecarry(11) @and @isfalse(@get(value.flag.4)) @then
+		@set(value.flag.4,true)
+		@msg(message.9)
+		@msg(message.8)
+		@comment("...continued into Cmd 62")
+	@elseif @here(6) @and @herecarry(12) @and @isfalse(@get(value.flag.3)) @then
+		@comment("UNLOCK")
+		@set(value.flag.3,true)
+		@msg(message.10)
+		@msg(message.8)
+		@comment("...continued into Cmd 72")
+	@elseif @herecarry(21) @then
+		@comment("UNLOAD MOVIE")
+		@take(22)
+		@swap(item.21.location,item.20.location)
+		@look
+	@endif
+command.37.19
+	@comment("Cmd 41 - unl but")
+	@msg(message.48)
+command.37.20
+	@comment("Cmd 131 - unl doo")
+	@msg(message.2)
+	@msg(message.17)
+command.37.21
+	@comment("Cmd 105 - unl win")
+	@msg(message.2)
+	@msg(message.17)
+command.38
+	@comment("Cmd 148 - fin")
+	@msg(message.6)
+	@msg(message.57)
+command.40
+	@comment("Cmd 161 - loo")
+	@msg(message.66)
+	@look
+command.40.7
+	@comment("Cmd 54 - loo tap")
+	@if @herecarry(3) @then
+		@msg(message.59)
+	@endif
+command.40.21
+	@comment("Cmd 99 - loo win")
+	@if @isroom(13) @then
+		@msg(message.22)
+		@comment("...continued into Cmd 114")
+	@elseif @isroom(22) @then
+		@msg(message.49)
+	@endif
+command.40.29
+	@comment("Cmd 110 - loo bom")
+	@if @herecarry(28) @then
+		@msg(message.61)
+	@endif
+command.40.30
+	@comment("Cmd 111 - loo det")
+	@script(script.inventory)
+command.40.33
+	@comment("Cmd 109 - loo cha")
+	@if @isroom(4) @then
+		@msg(message.64)
+	@endif
+command.40.37
+	@comment("Cmd 155 - loo cam")
+	@if @isroom(13) @and @istrue(@get(value.flag.13)) @then
+		@msg(message.62)
+		@comment("...continued into Cmd 156")
+	@elseif @isroom(13) @and @isfalse(@get(value.flag.13)) @then
+		@msg(message.63)
+	@endif
+command.40.39
+	@comment("Cmd 57 - loo sab")
+	@if @herecarry(42) @then
+		@msg(message.66)
+		@msg(message.60)
+	@endif
+command.40.42
+	@comment("Cmd 39 - loo mop")
+	@if @herecarry(16) @and @nowhere(11) @then
+		@msg(message.55)
+	@endif
+command.40.52
+	@comment("Cmd 154 - loo lea")
+	@if @herecarry(49) @then
+		@msg(message.76)
+	@endif
+command.42.20
+	@comment("Cmd 128 - clo doo")
+	@msg(message.37)
+command.43.20
+	@comment("Cmd 30 - ope doo")
+	@if @not @isroom(15) @then
+		@msg(message.6)
+		@msg(message.7)
+		@msg(message.17)
+		@comment("...continued into Cmd 118")
+	@elseif @here(33) @then
+		@msg(message.6)
+		@msg(message.37)
+		@comment("...continued into Cmd 121")
+	@elseif @here(35) @then
+		@comment("OPE")
+		@msg(message.16)
+		@msg(message.39)
+		@msg(message.40)
+		@msg(message.37)
+	@endif
+command.43.21
+	@comment("Cmd 102 - ope win")
+	@msg(message.6)
+	@msg(message.7)
+	@msg(message.17)
+command.45
+	@comment("Cmd 149 - bre")
+	@msg(message.24)
+	@set(value.flag.10,true)
+command.45.21
+	@comment("Cmd 95 - bre win")
+	@if @here(14) @and @herecarry(3) @then
+		@msg(message.24)
+		@set(value.flag.7,true)
+		@set(value.flag.10,true)
+	@endif
+command.45.29
+	@comment("Cmd 73 - bre bom")
+	@if @herecarry(28) @then
+		@msg(message.24)
+		@set(value.flag.8,true)
+	@endif
+command.45.31
+	@comment("Cmd 81 - bre wir")
+	@if @here(29) @and @herecarry(26) @then
+		@swap(item.43.location,item.29.location)
+		@set(value.flag.2,true)
+		@look
+	@endif
+command.45.42
+	@comment("Cmd 103 - bre mop")
+	@if @herecarry(16) @then
+		@set(value.flag.10,true)
+		@set(value.flag.11,true)
+		@msg(message.24)
+	@endif
+command.49.13
+	@comment("Cmd 55 - sav gam")
+	@script(script.save)
+command.50
+	@comment("Cmd 56 - qui")
+	@msg(message.12)
+	@quit
+command.51
+	@comment("Cmd 100 - sco")
+	@msg(message.23)
+command.52.48
+	@comment("Cmd 116 - wea sui")
+	@if @herecarry(27) @then
+		@comment("PUT ON SUIT")
+		@sendto(27,0)
+	@endif
+command.53
+	@comment("Cmd 135 - kno")
+	@if @isroom(9) @then
+		@msg(message.18)
+		@msg(message.19)
+		@comment("...continued into Cmd 139")
+	@elseif @isroom(10) @then
+		@msg(message.18)
+		@msg(message.19)
+		@comment("...continued into Cmd 140")
+	@elseif @isroom(11) @then
+		@msg(message.18)
+		@msg(message.19)
+		@comment("...continued into Cmd 141")
+	@else
+		@msg(message.2)
+	@endif
+command.54
+	@comment("Cmd 144 - fri")
+	@msg(message.2)
+command.54.39
+	@comment("Cmd 132 - fri sab")
+	@if @herecarry(42) @and @nowhere(39) @then
+		@drop(39)
+		@drop(40)
+		@drop(41)
+		@comment("continue")
+		@comment("...continued into Cmd 133")
+		@drop(0)
+		@drop(37)
+		@msg(message.51)
+		@drop(49)
+		@comment("...continued into Cmd 134")
+		@if @nowhere(3) @then
+			@drop(3)
+		@endif
+	@endif
+command.54.42
+	@comment("Cmd 28 - fri mop")
+	@if @herecarry(16) @and @nowhere(11) @then
+		@drop(11)
+		@msg(message.51)
+	@endif
+command.57
+	@comment("Cmd 151 - act")
+	@msg(message.58)
+command.57.5
+	@comment("Cmd 49 - act up")
+	@if @isroom(5) @then
+		@comment("STAND UP")
+		@goto(4)
+		@look
+	@endif
+command.57.7
+	@comment("Cmd 60 - act tap")
+	@if @herecarry(3) @then
+		@msg(message.1)
+		@msg(message.13)
+	@endif
+item.0.location
+	0
+item.0.longdesc
+	Torn up map
+item.1.location
+	0
+item.1.longdesc
+	Picture of me stamped -security-
+item.2.location
+	1
+item.2.longdesc
+	Bomb detector flashing yellow (bomb is now armed)
+item.2.scenery
+	true
+item.3.location
+	2
+item.3.longdesc
+	Large tape recorder
+item.4.location
+	4
+item.4.longdesc
+	Box with apparatus pointing at chair
+item.4.scenery
+	true
+item.5.location
+	4
+item.5.longdesc
+	Chair bolted to floor
+item.5.scenery
+	true
+item.6.location
+	5
+item.6.longdesc
+	Row of 4 buttons -red white blue yellow-
+item.6.scenery
+	true
+item.7.location
+	1
+item.7.longdesc
+	Picture of me stamped: -visitor-
+item.8.location
+	0
+item.8.longdesc
+	Picture of me stamped -maintenance-
+item.9.location
+	-1
+item.9.longdesc
+	Surgically implanted bomb detector glows green (bomb's -safe-)
+item.9.scenery
+	true
+item.10.location
+	0
+item.10.longdesc
+	Bomb detector glowing red (final countdown active)
+item.10.scenery
+	true
+item.11.location
+	0
+item.11.longdesc
+	Blue key
+item.12.location
+	16
+item.12.longdesc
+	Yellow key
+item.13.location
+	9
+item.13.longdesc
+	Closed white door with tv camera mounted over it
+item.13.scenery
+	true
+item.14.location
+	13
+item.14.longdesc
+	Plate glass window with embeded red wires
+item.14.scenery
+	true
+item.15.location
+	13
+item.15.longdesc
+	Panel of buttons -white green-
+item.15.scenery
+	true
+item.16.location
+	17
+item.16.longdesc
+	Old fashioned yarn mop
+item.17.location
+	0
+item.17.longdesc
+	Empty window frame
+item.17.scenery
+	true
+item.18.location
+	13
+item.18.longdesc
+	Tv camera mounted over window
+item.18.scenery
+	true
+item.19.location
+	16
+item.19.longdesc
+	Broken glass
+item.20.location
+	18
+item.20.longdesc
+	Empty movie projector
+item.20.scenery
+	true
+item.21.location
+	0
+item.21.longdesc
+	Movie projector with film cartridge
+item.21.scenery
+	true
+item.22.location
+	19
+item.22.longdesc
+	Movie film cartridge
+item.23.location
+	12
+item.23.longdesc
+	Empty plastic pail
+item.24.location
+	0
+item.24.longdesc
+	Water filled plastic pail
+item.25.location
+	23
+item.25.longdesc
+	Vat of heavy water
+item.25.scenery
+	true
+item.26.location
+	17
+item.26.longdesc
+	Wire cutters
+item.27.location
+	23
+item.27.longdesc
+	Anti-radiation suit
+item.28.location
+	21
+item.28.longdesc
+	Very large time bomb
+item.28.scenery
+	true
+item.29.location
+	21
+item.29.longdesc
+	Red wire going from bomb into wall
+item.29.scenery
+	true
+item.30.location
+	0
+item.30.longdesc
+	Strange lump of glowing plastic
+item.31.location
+	19
+item.31.longdesc
+	Sign `No beverages, Please use Break Room.`
+item.31.scenery
+	true
+item.32.location
+	10
+item.32.longdesc
+	Yellow door with tv camera over it
+item.32.scenery
+	true
+item.33.location
+	19
+item.33.longdesc
+	Metal door jammed partially open by remains of a tape recorder
+item.33.scenery
+	true
+item.34.location
+	11
+item.34.longdesc
+	Blue door with tv camera over it
+item.34.scenery
+	true
+item.35.location
+	15
+item.35.longdesc
+	Plain metal door with sign -control room-
+item.35.scenery
+	true
+item.36.location
+	0
+item.36.longdesc
+	The door is partially open
+item.36.scenery
+	true
+item.37.location
+	0
+item.37.longdesc
+	Empty pill case
+item.38.location
+	22
+item.38.longdesc
+	6 inch window
+item.38.scenery
+	true
+item.39.location
+	0
+item.39.longdesc
+	Empty manila envelope
+item.40.location
+	0
+item.40.longdesc
+	Piece of yarn
+item.41.location
+	0
+item.41.longdesc
+	Picture of saboteur stamped -window maintance-
+item.42.location
+	0
+item.42.longdesc
+	Dead saboteur
+item.43.location
+	0
+item.43.longdesc
+	Loose red wire going into wall
+item.43.scenery
+	true
+item.44.location
+	19
+item.44.longdesc
+	Steps leading down into the reactor core
+item.44.scenery
+	true
+item.45.location
+	14
+item.45.longdesc
+	Yellow button
+item.45.scenery
+	true
+item.46.location
+	15
+item.46.longdesc
+	Blue button
+item.46.scenery
+	true
+item.47.location
+	5
+item.47.longdesc
+	Keyholes under buttons
+item.47.scenery
+	true
+item.48.location
+	19
+item.48.longdesc
+	Exposed dials and gauges everywhere
+item.48.scenery
+	true
+item.49.location
+	0
+item.49.longdesc
+	A leaflet
+message.1
+	Good morning Mr. Phelps. Your Mission (should you decide to\naccept it) is to prevent this automated nuclear reactor\nfrom being destroyed by a saboteur's TIME BOMB!\n
+message.2
+	Nothing happened
+message.3
+	My bomb detector
+message.4
+	wails ALARMINGLY!
+message.5
+	CLICK!
+message.6
+	I can't do that
+message.7
+	It appears locked
+message.8
+	button is now unlocked
+message.9
+	Blue
+message.10
+	Yellow
+message.11
+	There's a Bright flash & I hear something fall to the floor.\nI can't see what it is from here though.\n
+message.12
+	*   B O O O O O O O O O M ! * * * * * *
+message.13
+	The saboteur (who also rewired the security system) is a heart\npatient. He plans to SUICIDE with the reactor! He is still loosein the building.\nYou'll find Security keys & a map in the manila envelope lying\nnext to the tape player.
+message.14
+	politely beeps...\n
+message.15
+	angrily buzzes...\n
+message.16
+	Strange...
+message.17
+	Most doors & windows are under automated security control.
+message.18
+	Metallic voice says:
+message.19
+	`Show authorization please`\n
+message.20
+	`Authorization INSUFFICIENT for access`\n
+message.21
+	The door opens just long enough for me to scurry through.
+message.22
+	I'm on the 2nd floor. Below I see the control room surronding\nthe reactor core. There's a wide ledge just under the window.
+message.23
+	In this Adventure there's NO score. Either you make it or ...\n
+message.24
+	Tell me with what? Example: `WITH FIST`
+message.25
+	Be sure I'm carrying it!
+message.26
+	Recorder goes flying thru the glass landing in the control room.Boy what a MESS!\n
+message.27
+	Click!\nRoom lights dim and a screen drops from the ceiling.\nYou hear a hidden projector start.
+message.28
+	The screen illuminates for awhile, but no movie!?
+message.29
+	The projector stops, the screen rises, and the lights return.
+message.30
+	A movie runs telling about the reactor and its construction\ninteresting highlights:\n1) Plastic DEFORMS strangely in radiation\n2) Even short exposure to HIGH radiation is LETHAL, so suit up\n
+message.31
+	The radiation did something to my pail!
+message.32
+	Holding a Radiation Suit
+message.33
+	doesn't provide much protection for me\nas I fall down retching I hear/FEEL THE BOMB explode!\n
+message.34
+	Welcome to Adventure number 3 `MISSION IMPOSSIBLE`\nby Scott Adams, Dedicated to Maegen Adams.\n
+message.35
+	A business suit
+message.36
+	I'm WEARING an anti-radiation suit.
+message.37
+	It won't budge!
+message.38
+	Something won't fit thru the door.
+message.39
+	I turn the knob and push
+message.40
+	gently on the door
+message.41
+	hard on the door
+message.42
+	it opens slightly
+message.43
+	its closed
+message.44
+	the water spills on the bomb and
+message.45
+	the control panel which immediately shorts out triggering\nthe bomb
+message.46
+	defuses it! FANTASTIC, You completed an IMPOSSIBLE mission!
+message.47
+	the water soaks into the floor
+message.48
+	say again & use a color!
+message.49
+	I'm looking into the control room. I notice that the door is\nblocked by some debris.
+message.50
+	In the distance you hear a dull thud; as if someone fell or\ndropped something heavy.
+message.51
+	Something fell to the floor.
+message.52
+	its unreadable
+message.53
+	its still connected
+message.54
+	Oh Boy...I think I did something...
+message.55
+	It made an odd sound.
+message.56
+	`TV deactivated`\n
+message.57
+	I don't know where to look
+message.58
+	Tell me how?
+message.59
+	Try starting it.
+message.60
+	Maybe I should FRISK him?
+message.61
+	Its a seamless box with 1 small hole for the red wire.
+message.62
+	TV camera is slow scanning the window area.
+message.63
+	TV camera is powered down.\n
+message.64
+	It seems safe. Shall I sit down?
+message.65
+	Only help I can think of is to: `Examine everything closely!`\n
+message.66
+	I see nothing special.
+message.67
+	HUH?
+message.68
+	A minute ago someone ran out of this room! By the way I seem\nto be carrying something!\n
+message.69
+	Someone came in the room, he saw me and ran out!
+message.70
+	I see no one here.
+message.71
+	`Owner of badge is not present!`
+message.72
+	Hi! Look for Adventure number 4: `VOODOO CASTLE` at your\nfavorite computer store! (Now back to our current program.)
+message.73
+	Final countdown starts in
+message.74
+	turns!
+message.75
+	Some time passes...
+message.76
+	There is something written there
+message.77
+	OW! That HURT! Anyway
+message.78
+	`ACCEPTED`
+message.also_see
+	You can see:
+message.cant_go
+	Can't go that way.
+message.cant_see
+	You can't see. It is too dark!
+message.carrying
+	You are carrying:
+message.dont_see
+	I don't see that here.
+message.nothing
+	Nothing.
+message.not_carrying
+	You aren't carrying that.
+message.obvious_exits
+	Obvious exits:
+message.ok
+	OK
+message.percent_complete
+	On a scale of 0 to 100 that rates a {0}.
+message.score
+	I've stored {0} treasures.
+message.well_done
+	Well done.
+noun.1
+	nor,n
+noun.2
+	sou,s
+noun.3
+	eas,e
+noun.4
+	wes,w
+noun.5
+	up,u
+noun.6
+	dow,d
+noun.7
+	tap,rec
+noun.9
+	red
+noun.10
+	whi
+noun.11
+	blu
+noun.12
+	yel
+noun.13
+	gam
+noun.14
+	pic,pas,bad,aut
+noun.18
+	aro
+noun.19
+	but
+noun.20
+	doo
+noun.21
+	win,gla
+noun.23
+	yar
+noun.24
+	fil,car
+noun.26
+	pro
+noun.27
+	cas
+noun.28
+	wat
+noun.29
+	bom
+noun.30
+	det
+noun.31
+	wir
+noun.32
+	cut
+noun.33
+	cha
+noun.34
+	key
+noun.35
+	env,man
+noun.37
+	cam,box
+noun.39
+	sab,him,the
+noun.42
+	mop
+noun.43
+	map
+noun.44
+	pai,pla
+noun.46
+	gre
+noun.47
+	inv
+noun.48
+	sui,ant,rad
+noun.51
+	har
+noun.52
+	lea
+noun.53
+	han,fis,foo,fee
+noun.57
+	flo,wal
+noun.59
+	vat
+noun.60
+	dia,gau
+noun.62
+	deb
+nounitem.7
+	3
+nounitem.14
+	1,7,8,41
+nounitem.21
+	19
+nounitem.23
+	40
+nounitem.24
+	22
+nounitem.27
+	37
+nounitem.32
+	26
+nounitem.34
+	11,12
+nounitem.35
+	39
+nounitem.39
+	42
+nounitem.42
+	16
+nounitem.43
+	0
+nounitem.44
+	23,24,30
+nounitem.48
+	27
+nounitem.52
+	49
+room.2.exit.w
+	3
+room.2.exitlist
+	West
+room.2.longdesc
+	I'm in a briefing room.
+room.3.exit.d
+	7
+room.3.exit.e
+	2
+room.3.exit.n
+	8
+room.3.exit.s
+	4
+room.3.exit.u
+	6
+room.3.exit.w
+	12
+room.3.exitlist
+	North South East West Up Down
+room.3.longdesc
+	I'm in a long sloping grey corridor.
+room.4.exit.n
+	3
+room.4.exitlist
+	North
+room.4.longdesc
+	I'm in a grey room.
+room.5.exitlist
+	none!
+room.5.longdesc
+	I'm sitting in a grey chair\nthere's a box pointing at me.
+room.6.exit.d
+	3
+room.6.exit.e
+	8
+room.6.exit.n
+	9
+room.6.exitlist
+	North East Down
+room.6.longdesc
+	I'm in a twisting white hallway.
+room.7.exit.n
+	10
+room.7.exit.u
+	3
+room.7.exitlist
+	North Up
+room.7.longdesc
+	I'm in a twisting yellow hallway.
+room.8.exit.n
+	11
+room.8.exit.s
+	3
+room.8.exit.w
+	6
+room.8.exitlist
+	North South West
+room.8.longdesc
+	I'm in a twisting blue hallway.
+room.9.exit.s
+	6
+room.9.exitlist
+	South
+room.9.longdesc
+	I'm in a white room.
+room.10.exit.s
+	7
+room.10.exitlist
+	South
+room.10.longdesc
+	I'm in a yellow room.
+room.11.exit.s
+	8
+room.11.exitlist
+	South
+room.11.longdesc
+	I'm in a blue room.
+room.12.exit.e
+	3
+room.12.exitlist
+	East
+room.12.longdesc
+	I'm in a maintenance room 1.
+room.13.exitlist
+	none!
+room.13.longdesc
+	I'm in a large white visitors room.
+room.14.exit.w
+	17
+room.14.exitlist
+	West
+room.14.longdesc
+	I'm in a yellow corridor.
+room.15.exit.u
+	22
+room.15.exit.w
+	23
+room.15.exitlist
+	West Up
+room.15.longdesc
+	I'm in a blue anteroom.
+room.16.exitlist
+	none!
+room.16.longdesc
+	I'm on a ledge outside of a window\nhigh above the reactor core.
+room.17.exit.e
+	14
+room.17.exit.u
+	18
+room.17.exitlist
+	East Up
+room.17.longdesc
+	I'm in a maintenance room 2.
+room.18.exit.d
+	17
+room.18.exitlist
+	Down
+room.18.longdesc
+	I'm in a projectionist room.
+room.19.exit.d
+	21
+room.19.exit.e
+	20
+room.19.exitlist
+	East Down
+room.19.longdesc
+	I'm in a Control room surronding\nthe reactor core.
+room.20.exit.w
+	19
+room.20.exitlist
+	West
+room.20.longdesc
+	I'm in a break room.
+room.21.exit.u
+	19
+room.21.exitlist
+	Up
+room.21.longdesc
+	I'm in a reactor core.
+room.22.exit.d
+	15
+room.22.exitlist
+	Down
+room.22.longdesc
+	I'm in a small viewing room.
+room.23.exit.e
+	15
+room.23.exitlist
+	East
+room.23.longdesc
+	I'm in a storage room.
+script.inventory
+	@msg(message.carrying)
+	@set(temp.found,false)
+	@for(i,0,@get(system.itemcount))
+		@if @carry($i) @then
+			@if @false(@get(temp.found)) @then
+				@set(temp.found,true)
+			@endif
+			@debug(@concat("### ITEM #",$i,"\n"))
+			@msg(item.$i.longdesc)
+		@endif
+	@endfor
+	@if @false(@get(temp.found)) @then
+		@msg(message.nothing)
+	@endif
+script.restore
+	@setoutchannel("#RESTORE;")
+	@setoutchannel("@msg(message.ok) @nl @look")
+script.save
+	@setoutchannel("#SAVE;")
+	@setoutchannel("@msg(message.1024)")
+script.score
+	@set(temp.count,0)
+	@for(x,1,@get(system.itemcount))
+		@if @true(@get(item.$x.treasure)) @and @eq(@get(item.$x.location),@get(value.treasureroom)) @then
+			@addto(temp.count,1)
+		@endif
+	@endfor
+	@write(@format(@get(message.score),@get(temp.count)))
+	@nl
+	@set(temp.percent,@div(@mul(@get(temp.count),100),@get(value.treasurecount)))
+	@write(@format(@get(message.percent_complete),@get(temp.percent)))
+	@nl
+	@if @eq(@get(temp.count),@get(value.treasurecount)) @then
+		@msg(message.well_done)
+		@quit
+	@endif
+system.commandcount
+	161
+system.dont_understand
+	I don't understand "{0}".
+system.do_what_with
+	Do what with the "{0}"?
+system.gamename
+	adv03
+system.introdone
+	false
+system.itemcount
+	53
+system.messagecount
+	81
+system.prompt
+	\n>
+system.roomcount
+	23
+system.verbnouncount
+	64
+system.wordsize
+	3
+value.flag.0
+	false
+value.flag.1
+	false
+value.flag.2
+	false
+value.flag.3
+	false
+value.flag.4
+	false
+value.flag.5
+	false
+value.flag.6
+	false
+value.flag.7
+	false
+value.flag.8
+	false
+value.flag.9
+	false
+value.flag.10
+	false
+value.flag.11
+	false
+value.flag.12
+	false
+value.flag.13
+	false
+value.flag.14
+	false
+value.flag.15
+	false
+value.flag.dark
+	false
+value.lightmoves
+	10000
+value.maxinventory
+	7
+value.room
+	2
+value.startroom
+	2
+value.treasurecount
+	0
+value.treasureroom
+	1
+verb.1
+	go,ent,wal,run
+verb.5
+	inv
+verb.6
+	pou,spi,emp
+verb.9
+	hel
+verb.10
+	get,tak,mov
+verb.13
+	cle,mop
+verb.15
+	wit
+verb.16
+	una,dis
+verb.18
+	dro,put,lea,rem
+verb.22
+	cha,fol
+verb.24
+	rea
+verb.25
+	pre,tou,pus
+verb.28
+	wai
+verb.29
+	loa,ins
+verb.31
+	kic
+verb.32
+	jum
+verb.33
+	sui
+verb.34
+	sho
+verb.35
+	pul
+verb.36
+	sit
+verb.37
+	unl
+verb.38
+	fin,loc
+verb.40
+	loo,exa
+verb.42
+	clo
+verb.43
+	ope
+verb.45
+	bre,sma,cut,unb
+verb.49
+	sav
+verb.50
+	qui
+verb.51
+	sco
+verb.52
+	wea
+verb.53
+	kno
+verb.54
+	fri,sea,sha
+verb.57
+	act,sta,pla

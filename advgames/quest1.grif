@@ -1,0 +1,2659 @@
+// quest1.grif - GRIF format
+@atstartroom(x)
+	@eq(@get(item.$x.location),@get(value.startroom))
+@carry(x)
+	@eq(@get(item.$x.location),@inv)
+@drop(x)
+	@sendto($x,@room)
+@goto(x)
+	@set(value.room,$x)
+@here(x)
+	@eq(@get(item.$x.location),@room)
+@herecarry(x)
+	@if @eq(@get(item.$x.location),@room) @or @eq(@get(item.$x.location),@inv) @then
+		@write("true")
+	@else
+		@write("false")
+	@endif
+@inv
+	-1
+@invcount
+	@set(temp.count,0)
+	@for(x,1,@get(system.itemcount))
+		@if @carry($x) @then
+			@addto(temp.count,1)
+		@endif
+	@endfor
+	@write(@get(temp.count))
+@isroom(x)
+	@eq(@room,$x)
+@look
+	@debug(@concat("### ROOM #",@room,"\n"))
+	@if @true(@get(value.flag.dark)) @and @not @herecarry(9) @then
+		@msg(message.cant_see)
+	@else
+		@script(script.before_look)
+		@msg(@concat("room.",@room,".longdesc"))
+		@nl
+		@msg(message.obvious_exits)
+		@msg(@concat("room.",@room,".exitlist"))
+		@set(temp.found,false)
+		@for(i,0,@get(system.itemcount))
+			@if @here($i) @then
+				@if @false(@get(temp.found)) @then
+					@nl
+					@msg(message.also_see)
+					@set(temp.found,true)
+				@endif
+				@debug(@concat("### ITEM #",$i,"\n"))
+				@msg(item.$i.longdesc)
+			@endif
+		@endfor
+	@endif
+@modmessages
+	@foreachkey(i,"modmsg.")
+		@nl
+		@msg(modmsg.$i)
+	@endforeachkey
+@nowhere(x)
+	@eq(@get(item.$x.location),0)
+@picture(x)
+	@setoutchannel("#PICTURE;",$x)
+@quit
+	@setoutchannel("#GAMEOVER;")
+@room
+	@get(value.room)
+@sendto(x,y)
+	@set(item.$x.location,$y)
+@sleep(x)
+	@setoutchannel("#SLEEP;",$x)
+@somewhere(x)
+	@ne(@get(item.$x.location),0)
+@take(x)
+	@sendto($x,@inv)
+background.2
+	@if @isfalse(@get(value.flag.2)) @then
+		@comment("INTRO")
+		@set(value.flag.2,true)
+		@set(value.counter,0)
+		@comment("continue")
+		@comment("...continued into Cmd 3")
+		@set(temp.swap,@get(value.counter))
+		@set(value.counter,@get(value.counter.1))
+		@set(value.counter.1,@get(temp.swap))
+		@set(value.counter,0)
+		@set(temp.swap,@get(value.counter))
+		@set(value.counter,@get(value.counter.2))
+		@set(value.counter.2,@get(temp.swap))
+		@set(value.counter,0)
+		@comment("...continued into Cmd 4")
+		@set(temp.swap,@get(value.counter))
+		@set(value.counter,@get(value.counter.3))
+		@set(value.counter.3,@get(temp.swap))
+		@set(value.counter,0)
+		@goto(16)
+		@set(temp.swap,@get(value.room))
+		@set(value.room,@get(value.locationswap))
+		@set(value.locationswap,@get(temp.swap))
+		@comment("...continued into Cmd 5")
+		@goto(1)
+		@msg(message.11)
+		@msg(message.98)
+		@look
+	@endif
+background.6
+	@if @isroom(3) @and @not @carry(1) @and @istrue(@get(value.flag.5)) @then
+		@comment("TUNNEL RAGE")
+		@set(value.counter,2)
+	@endif
+background.7
+	@if @isroom(5) @and @not @carry(1) @and @istrue(@get(value.flag.5)) @then
+		@comment("DITTO")
+		@set(value.counter,2)
+	@endif
+background.8
+	@if @isroom(6) @and @not @carry(1) @and @istrue(@get(value.flag.5)) @then
+		@comment("DITTO")
+		@set(value.counter,2)
+	@endif
+background.9
+	@if @isroom(15) @and @istrue(@get(value.flag.4)) @then
+		@comment("IN SMALL ROOM")
+		@set(value.flag.3,false)
+		@set(value.flag.4,false)
+	@endif
+background.11
+	@if @istrue(@get(value.flag.7)) @then
+		@comment("INTO HULK")
+		@take(1)
+		@msg(message.18)
+		@msg(message.10)
+		@comment("continue")
+		@comment("...continued into Cmd 12")
+		@set(value.flag.7,false)
+		@msg(message.22)
+	@endif
+background.13
+	@if @istrue(@get(value.flag.8)) @then
+		@msg(message.21)
+		@set(value.flag.8,false)
+		@goto(2)
+		@comment("continue")
+		@comment("...continued into Cmd 14")
+	@endif
+background.15
+	@if @isroom(10) @then
+		@comment("IN HOLE10")
+		@comment("continue")
+		@set(temp.swap,@get(value.counter))
+		@set(value.counter,@get(value.counter.2))
+		@set(value.counter.2,@get(temp.swap))
+		@comment("...continued into Cmd 16")
+		@if @eq(value.counter,4) @and @nowhere(16) @then
+			@drop(16)
+			@look
+			@msg(message.5)
+			@msg(message.28)
+		@endif
+		@comment("...continued into Cmd 17")
+		@if @eq(value.counter,10) @then
+			@msg(message.10)
+			@msg(message.29)
+			@set(value.flag.dark,false)
+			@goto(20)
+		@endif
+		@comment("...continued into Cmd 18")
+		@if @ge(value.counter,8) @then
+			@msg(message.72)
+		@endif
+		@comment("...continued into Cmd 19")
+		@set(temp.swap,@get(value.counter))
+		@set(value.counter,@get(value.counter.2))
+		@set(value.counter.2,@get(temp.swap))
+	@endif
+background.20
+	@if @isroom(11) @then
+		@comment("IN HOLE11")
+		@set(temp.swap,@get(value.counter))
+		@set(value.counter,@get(value.counter.3))
+		@set(value.counter.3,@get(temp.swap))
+		@comment("continue")
+		@comment("...continued into Cmd 21")
+		@if @eq(value.counter,7) @and @nowhere(44) @then
+			@drop(44)
+			@look
+			@msg(message.5)
+			@msg(message.28)
+		@endif
+		@comment("...continued into Cmd 22")
+		@if @eq(value.counter,10) @then
+			@msg(message.10)
+			@msg(message.29)
+			@set(value.flag.dark,false)
+			@goto(20)
+		@endif
+		@comment("...continued into Cmd 23")
+		@if @ge(value.counter,8) @then
+			@msg(message.72)
+		@endif
+		@comment("...continued into Cmd 24")
+		@set(temp.swap,@get(value.counter))
+		@set(value.counter,@get(value.counter.3))
+		@set(value.counter.3,@get(temp.swap))
+	@endif
+background.25
+	@if @herecarry(20) @and @not @here(47) @then
+		@comment("ANTS ATTACK")
+		@msg(message.32)
+		@msg(message.38)
+		@comment("continue")
+		@comment("...continued into Cmd 26")
+		@if @isfalse(@get(value.flag.11)) @then
+			@msg(message.33)
+			@set(value.flag.dark,false)
+			@goto(20)
+			@sendto(20,0)
+		@endif
+		@comment("...continued into Cmd 27")
+		@if @herecarry(20) @and @isfalse(@get(value.flag.10)) @then
+			@msg(message.35)
+			@set(value.flag.dark,false)
+			@goto(20)
+			@sendto(20,0)
+		@endif
+		@comment("...continued into Cmd 28")
+		@if @herecarry(20) @and @isfalse(@get(value.flag.12)) @then
+			@msg(message.34)
+			@set(value.flag.dark,false)
+			@goto(20)
+			@sendto(20,0)
+		@endif
+		@comment("...continued into Cmd 29")
+		@if @not @carry(1) @then
+			@msg(message.12)
+			@msg(message.22)
+			@set(value.flag.dark,false)
+			@goto(20)
+			@sendto(20,0)
+		@endif
+		@comment("...continued into Cmd 30")
+		@if @herecarry(20) @then
+			@msg(message.36)
+		@endif
+	@endif
+background.31
+	@if @nowhere(20) @and @isroom(7) @then
+		@comment("SWARM ANTS")
+		@drop(20)
+		@look
+		@msg(message.32)
+		@msg(message.37)
+	@endif
+background.33
+	@if @isroom(14) @and @carry(1) @and @isfalse(@get(value.flag.21)) @and @nowhere(26) @then
+		@comment("STRANGE")
+		@drop(26)
+		@look
+		@msg(message.2)
+		@comment("continue")
+		@comment("...continued into Cmd 34")
+		@msg(message.5)
+		@sleep(2000)
+		@sleep(2000)
+		@sleep(2000)
+		@comment("...continued into Cmd 35")
+		@sleep(2000)
+		@sleep(2000)
+	@endif
+background.36
+	@if @rand(45) @and @isroom(14) @and @carry(1) @and @here(26) @and @not @here(28) @then
+		@comment("STRANGE POINT")
+		@msg(message.2)
+		@msg(message.52)
+	@endif
+background.37
+	@if @istrue(@get(value.flag.3)) @and @not @carry(1) @then
+		@comment("SQUISH")
+		@msg(message.13)
+		@msg(message.18)
+		@msg(message.14)
+		@set(value.flag.dark,false)
+		@goto(20)
+	@endif
+background.38
+	@if @herecarry(17) @and @istrue(@get(value.flag.9)) @then
+		@comment("EGG BLOWS!")
+		@sendto(18,0)
+		@msg(message.31)
+		@sendto(17,0)
+		@comment("continue")
+		@comment("...continued into Cmd 39")
+		@if @not @carry(1) @then
+			@set(value.flag.dark,false)
+			@goto(20)
+		@endif
+	@endif
+background.40
+	@if @herecarry(17) @then
+		@comment("NEXT MOVE EGG")
+		@set(value.flag.9,true)
+		@msg(message.69)
+	@endif
+background.41
+	@if @isroom(9) @then
+		@comment("IN HOLE 9")
+		@comment("continue")
+		@set(temp.swap,@get(value.counter))
+		@set(value.counter,@get(value.counter.1))
+		@set(value.counter.1,@get(temp.swap))
+		@comment("...continued into Cmd 42")
+		@if @eq(value.counter,10) @then
+			@msg(message.10)
+			@msg(message.29)
+			@set(value.flag.dark,false)
+			@goto(20)
+		@endif
+		@comment("...continued into Cmd 43")
+		@if @eq(value.counter,1) @and @nowhere(37) @then
+			@drop(37)
+			@look
+			@msg(message.5)
+			@msg(message.28)
+		@endif
+		@comment("...continued into Cmd 44")
+		@if @ge(value.counter,8) @then
+			@msg(message.72)
+		@endif
+		@comment("...continued into Cmd 45")
+		@set(temp.swap,@get(value.counter))
+		@set(value.counter,@get(value.counter.1))
+		@set(value.counter.1,@get(temp.swap))
+	@endif
+background.46
+	@if @rand(50) @and @not @atstartroom(18) @and @not @herecarry(18) @then
+		@comment("BIO LEAVE")
+		@sendto(18,0)
+	@endif
+background.47
+	@if @not @herecarry(20) @and @somewhere(20) @then
+		@comment("ANTS LEAVE")
+		@sendto(20,0)
+	@endif
+background.48
+	@if @rand(20) @and @isroom(18) @and @isfalse(@get(value.flag.23)) @then
+		@comment("FRM FUZZY")
+		@goto(19)
+		@look
+		@set(value.flag.23,true)
+	@endif
+background.49
+	@if @rand(33) @and @isroom(18) @then
+		@comment("FRM FZY")
+		@goto(7)
+		@look
+	@endif
+background.50
+	@if @rand(40) @and @isroom(18) @then
+		@comment("FRM FUZZY")
+		@goto(8)
+		@look
+	@endif
+background.51
+	@if @isroom(18) @then
+		@comment("FROM FUZZY")
+		@goto(4)
+		@look
+	@endif
+background.52
+	@if @carry(18) @and @herecarry(20) @then
+		@comment("ANTS GEM")
+		@sendto(18,0)
+		@script(script.inventory)
+		@msg(message.89)
+	@endif
+background.53
+	@if @isroom(17) @then
+		@comment("TO FUZZY")
+		@goto(16)
+		@look
+	@endif
+background.54
+	@if @carry(1) @and @ge(value.counter,3) @then
+		@comment("TOO MAD")
+		@msg(message.78)
+		@set(value.counter,1)
+		@goto(16)
+		@set(value.flag.4,true)
+	@endif
+background.55
+	@if @not @isroom(15) @then
+		@comment("NOT UNGRND")
+		@set(temp.swap,@get(value.counter))
+		@set(value.counter,@get(value.counter.4))
+		@set(value.counter.4,@get(temp.swap))
+		@set(value.counter,7)
+		@set(temp.swap,@get(value.counter))
+		@set(value.counter,@get(value.counter.4))
+		@set(value.counter.4,@get(temp.swap))
+	@endif
+background.56
+	@if @isroom(15) @and @not @carry(1) @then
+		@comment("UNDERGRND")
+		@set(temp.swap,@get(value.counter))
+		@set(value.counter,@get(value.counter.4))
+		@set(value.counter.4,@get(temp.swap))
+		@if @gt(value.counter,0) @then
+			@subto(value.counter,1)
+		@endif
+		@comment("continue")
+		@comment("...continued into Cmd 57")
+		@if @le(value.counter,1) @then
+			@msg(message.83)
+			@set(value.flag.dark,false)
+			@goto(20)
+		@endif
+		@comment("...continued into Cmd 58")
+		@set(temp.swap,@get(value.counter))
+		@set(value.counter,@get(value.counter.4))
+		@set(value.counter.4,@get(temp.swap))
+		@comment("...continued into Cmd 59")
+		@comment("...continued into Cmd 60")
+		@comment("...continued into Cmd 61")
+	@endif
+background.62
+	@if @carry(1) @and @isfalse(@get(value.flag.4)) @and @not @here(28) @then
+		@comment("GAS")
+		@if @gt(value.counter,0) @then
+			@subto(value.counter,1)
+		@endif
+		@msg(message.19)
+		@comment("continue")
+		@comment("...continued into Cmd 63")
+		@if @le(value.counter,0) @then
+			@sendto(1,0)
+			@msg(message.18)
+			@msg(message.12)
+			@msg(message.22)
+		@endif
+	@endif
+background.64
+	@if @not @carry(1) @then
+		@comment("RESET MAD CNTR")
+		@set(value.counter,0)
+	@endif
+background.65
+	@if @somewhere(26) @and @not @carry(1) @then
+		@comment("STRANGE GONE")
+		@sendto(26,0)
+		@look
+	@endif
+background.66
+	@if @isroom(20) @then
+		@comment("DEAD")
+		@set(value.flag.4,false)
+		@set(value.flag.3,false)
+		@sendto(1,0)
+		@comment("continue")
+		@comment("...continued into Cmd 67")
+		@set(value.flag.11,false)
+	@endif
+background.68
+	@if @here(45) @and @herecarry(20) @then
+		@comment("ANT-MAN FREE")
+		@msg(message.87)
+		@sendto(45,0)
+		@sendto(47,0)
+		@comment("continue")
+		@comment("...continued into Cmd 69")
+		@sendto(20,0)
+		@drop(46)
+		@look
+		@comment("...continued into Cmd 70")
+	@endif
+background.intro
+	@if @false(@get(system.introdone)) @then
+		@modmessages
+		@look
+		@set(system.introdone,true)
+	@endif
+command.1.1
+	@if @gt(@get(@concat("room.",@room,".exit.n")),0) @then
+		@goto(@get(@concat("room.",@room,".exit.n")))
+		@look
+	@else
+		@msg(message.cant_go)
+	@endif
+command.1.2
+	@if @gt(@get(@concat("room.",@room,".exit.s")),0) @then
+		@goto(@get(@concat("room.",@room,".exit.s")))
+		@look
+	@else
+		@msg(message.cant_go)
+	@endif
+command.1.3
+	@if @gt(@get(@concat("room.",@room,".exit.e")),0) @then
+		@goto(@get(@concat("room.",@room,".exit.e")))
+		@look
+	@else
+		@msg(message.cant_go)
+	@endif
+command.1.4
+	@if @gt(@get(@concat("room.",@room,".exit.w")),0) @then
+		@goto(@get(@concat("room.",@room,".exit.w")))
+		@look
+	@else
+		@msg(message.cant_go)
+	@endif
+command.1.5
+	@if @gt(@get(@concat("room.",@room,".exit.u")),0) @then
+		@goto(@get(@concat("room.",@room,".exit.u")))
+		@look
+	@else
+		@msg(message.cant_go)
+	@endif
+command.1.6
+	@if @gt(@get(@concat("room.",@room,".exit.d")),0) @then
+		@goto(@get(@concat("room.",@room,".exit.d")))
+		@look
+	@else
+		@msg(message.cant_go)
+	@endif
+command.1.35
+	@comment("Cmd 162 - go mesh")
+	@msg(message.6)
+	@msg(message.9)
+	@msg(message.18)
+	@msg(message.43)
+command.1.55
+	@comment("Cmd 151 - go dome")
+	@if @here(10) @then
+		@goto(5)
+		@set(value.flag.3,false)
+		@set(value.flag.4,false)
+		@look
+		@comment("...continued into Cmd 152")
+	@elseif @here(5) @then
+		@goto(3)
+		@set(value.flag.3,false)
+		@set(value.flag.4,false)
+		@look
+		@comment("...continued into Cmd 153")
+	@elseif @isroom(3) @then
+		@goto(4)
+		@set(value.flag.3,true)
+		@set(value.flag.4,true)
+		@look
+		@comment("...continued into Cmd 154")
+	@elseif @isroom(5) @then
+		@goto(7)
+		@set(value.flag.3,true)
+		@set(value.flag.4,true)
+		@look
+		@comment("...continued into Cmd 155")
+	@elseif @isroom(6) @then
+		@comment("GO")
+		@goto(8)
+		@set(value.flag.3,true)
+		@set(value.flag.4,true)
+		@look
+		@comment("...continued into Cmd 243")
+	@elseif @here(11) @then
+		@goto(6)
+		@set(value.flag.3,false)
+		@set(value.flag.4,false)
+		@look
+	@endif
+command.1.66
+	@comment("Cmd 129 - go hole")
+	@if @here(13) @then
+		@msg(message.1)
+		@goto(9)
+		@look
+		@comment("...continued into Cmd 130")
+	@elseif @here(14) @then
+		@msg(message.1)
+		@goto(10)
+		@look
+		@comment("...continued into Cmd 131")
+	@elseif @here(15) @then
+		@msg(message.1)
+		@goto(11)
+		@look
+		@comment("...continued into Cmd 174")
+	@elseif @here(34) @then
+		@msg(message.1)
+		@goto(15)
+		@look
+		@comment("...continued into Cmd 191")
+	@elseif @here(39) @then
+		@msg(message.1)
+		@goto(2)
+		@look
+	@endif
+command.1.115
+	@comment("Cmd 197 - go crac")
+	@if @here(40) @then
+		@msg(message.1)
+		@goto(12)
+		@look
+		@comment("...continued into Cmd 198")
+	@elseif @here(41) @then
+		@msg(message.1)
+		@goto(15)
+		@look
+	@endif
+command.1.121
+	@comment("Cmd 189 - go cage")
+	@if @here(47) @then
+		@msg(message.6)
+		@msg(message.86)
+	@endif
+command.1.123
+	@comment("Cmd 220 - go door")
+	@if @isroom(19) @then
+		@msg(message.90)
+		@goto(16)
+		@look
+	@endif
+command.1.125
+	@comment("Cmd 79 - go insi")
+	@msg(message.94)
+command.7
+	@comment("Cmd 80 - free")
+	@if @here(47) @then
+		@msg(message.6)
+		@msg(message.86)
+	@endif
+command.7.61
+	@comment("Cmd 246 - free nose")
+	@if @isfalse(@get(value.flag.22)) @and @istrue(@get(value.flag.10)) @then
+		@msg(message.1)
+		@set(value.flag.10,false)
+	@endif
+command.10.*
+	@set(temp.found,false)
+	@foreachlist(x,@concat("nounitem.",@get(input.noun)))
+		@if @here($x) @and @false(@get(temp.found)) @then
+			@take($x)
+			@set(temp.found,true)
+			@msg(message.ok)
+		@endif
+	@endforeachlist
+	@if @false(@get(temp.found)) @then
+		@msg(message.dont_see)
+	@endif
+command.10.5
+	@comment("Cmd 121 - get up")
+	@if @isroom(0) @then
+	@endif
+command.10.7
+	@comment("Cmd 74 - get loos")
+	@if @isroom(0) @then
+	@endif
+command.10.8
+	@comment("Cmd 221 - get inve")
+	@if @isfalse(@get(value.flag.15)) @and @not @isroom(1) @then
+		@msg(message.1)
+		@script(script.inventory)
+	@endif
+command.10.10
+	@comment("Cmd 257 - get prog")
+	@if @isroom(19) @then
+		@msg(message.90)
+		@goto(16)
+		@look
+	@endif
+command.10.27
+	@comment("Cmd 120 - get mad")
+	@msg(message.9)
+command.10.33
+	@comment("Cmd 160 - get wax")
+	@if @here(24) @and @not @carry(1) @and @here(21) @then
+		@msg(message.6)
+		@msg(message.51)
+		@msg(message.20)
+		@set(value.flag.7,true)
+		@comment("...continued into Cmd 161")
+	@elseif @herecarry(21) @then
+		@msg(message.1)
+		@take(21)
+		@comment("...continued into Cmd 182")
+	@elseif @here(28) @then
+		@msg(message.1)
+		@swap(item.27.location,item.28.location)
+		@take(21)
+		@comment("...continued into Cmd 185")
+	@elseif @istrue(@get(value.flag.12)) @then
+		@msg(message.1)
+		@set(value.flag.12,false)
+		@take(21)
+		@comment("...continued into Cmd 244")
+	@elseif @istrue(@get(value.flag.22)) @then
+		@msg(message.1)
+		@set(value.flag.22,false)
+		@set(value.flag.10,false)
+		@take(21)
+	@endif
+command.10.55
+	@comment("Cmd 196 - get dome")
+	@msg(message.6)
+	@msg(message.73)
+command.10.61
+	@comment("Cmd 136 - get nose")
+	@msg(message.1)
+	@set(value.flag.10,true)
+command.10.120
+	@comment("Cmd 211 - get ultr")
+	@if @here(45) @then
+		@msg(message.6)
+		@msg(message.86)
+	@endif
+command.10.121
+	@comment("Cmd 210 - get cage")
+	@if @here(47) @then
+		@msg(message.6)
+		@msg(message.86)
+	@endif
+command.10.124
+	@comment("Cmd 170 - get bio")
+	@if @herecarry(18) @then
+		@msg(message.1)
+		@take(18)
+	@endif
+command.17
+	@comment("Cmd 256 - scra")
+	@msg(message.3)
+	@msg(message.4)
+	@msg(message.23)
+command.17.110
+	@comment("Cmd 92 - scra wall")
+	@if @nowhere(40) @and @isroom(15) @and @carry(1) @then
+		@drop(40)
+		@msg(message.2)
+		@msg(message.5)
+		@msg(message.23)
+		@comment("...continued into Cmd 200")
+	@elseif @not @carry(1) @then
+		@msg(message.6)
+		@msg(message.44)
+		@msg(message.18)
+		@msg(message.75)
+		@comment("...continued into Cmd 242")
+	@elseif @carry(1) @then
+		@msg(message.3)
+		@msg(message.4)
+		@msg(message.23)
+	@endif
+command.18.*
+	@set(temp.found,false)
+	@foreachlist(x,@concat("nounitem.",@get(input.noun)))
+		@if @carry($x) @and @false(@get(temp.found)) @then
+			@drop($x)
+			@set(temp.found,true)
+			@msg(message.ok)
+		@endif
+	@endforeachlist
+	@if @false(@get(temp.found)) @then
+		@msg(message.not_carrying)
+	@endif
+command.18.27
+	@comment("Cmd 241 - drop mad")
+	@if @carry(1) @then
+		@sendto(1,0)
+		@msg(message.18)
+		@msg(message.12)
+		@msg(message.22)
+	@endif
+command.18.124
+	@comment("Cmd 171 - drop bio")
+	@if @herecarry(18) @then
+		@msg(message.1)
+		@drop(18)
+	@endif
+command.22
+	@comment("Cmd 248 - make")
+	@msg(message.6)
+	@msg(message.7)
+	@msg(message.8)
+	@msg(message.22)
+command.24
+	@comment("Cmd 158 - thin")
+	@msg(message.9)
+	@msg(message.53)
+command.25
+	@comment("Cmd 226 - find")
+	@msg(message.6)
+	@msg(message.9)
+command.28.34
+	@comment("Cmd 147 - wave fan")
+	@if @not @carry(1) @and @carry(23) @then
+		@msg(message.77)
+		@msg(message.3)
+		@msg(message.4)
+		@msg(message.23)
+		@comment("...continued into Cmd 148")
+	@elseif @carry(1) @and @carry(23) @then
+		@msg(message.46)
+		@comment("continue")
+		@msg(message.40)
+		@msg(message.48)
+		@comment("...continued into Cmd 149")
+		@if @here(20) @then
+			@sendto(20,0)
+		@endif
+		@comment("...continued into Cmd 150")
+		@set(value.flag.17,true)
+	@endif
+command.29
+	@comment("Cmd 86 - at")
+	@if @not @carry(1) @and @istrue(@get(value.flag.17)) @then
+		@comment("NOT HULK")
+		@set(value.flag.17,false)
+		@msg(message.77)
+		@msg(message.3)
+		@msg(message.23)
+		@comment("...continued into Cmd 227")
+	@elseif @istrue(@get(value.flag.17)) @and @carry(1) @then
+		@msg(message.49)
+		@msg(message.3)
+		@msg(message.23)
+		@set(value.flag.17,false)
+		@comment("...continued into Cmd 228")
+	@elseif @istrue(@get(value.flag.17)) @then
+		@msg(message.3)
+		@msg(message.4)
+		@msg(message.23)
+		@set(value.flag.17,false)
+		@comment("...continued into Cmd 234")
+	@else
+		@msg(message.6)
+		@msg(message.41)
+		@msg(message.39)
+	@endif
+command.29.21
+	@comment("Cmd 87 - at bees")
+	@if @istrue(@get(value.flag.17)) @and @carry(23) @and @here(24) @then
+		@comment("AS HULK")
+		@msg(message.49)
+		@set(value.flag.17,false)
+		@sendto(24,0)
+		@comment("...continued into Cmd 93")
+	@elseif @istrue(@get(value.flag.17)) @and @isroom(6) @and @carry(23) @then
+		@comment("BEES GONE")
+		@msg(message.1)
+		@msg(message.49)
+		@set(value.flag.17,false)
+		@sendto(24,0)
+		@comment("...continued into Cmd 96")
+	@elseif @not @here(24) @then
+		@msg(message.2)
+		@msg(message.66)
+	@endif
+command.29.35
+	@comment("Cmd 110 - at mesh")
+	@if @istrue(@get(value.flag.17)) @and @here(11) @and @carry(23) @then
+		@comment("BEES GONE")
+		@msg(message.1)
+		@msg(message.49)
+		@set(value.flag.17,false)
+		@sendto(24,0)
+	@endif
+command.29.55
+	@comment("Cmd 97 - at dome")
+	@if @istrue(@get(value.flag.17)) @and @here(11) @and @carry(23) @then
+		@comment("BEES GONE")
+		@msg(message.1)
+		@msg(message.49)
+		@set(value.flag.17,false)
+		@sendto(24,0)
+	@endif
+command.29.72
+	@comment("Cmd 169 - at ants")
+	@if @istrue(@get(value.flag.17)) @and @here(20) @and @carry(23) @then
+		@msg(message.49)
+		@msg(message.45)
+		@set(value.flag.17,false)
+		@sendto(20,0)
+	@endif
+command.31
+	@comment("Cmd 122 - quit")
+	@msg(message.1)
+	@script(script.score)
+	@quit
+command.32
+	@comment("Cmd 253 - say")
+	@if @isroom(19) @then
+		@msg(message.90)
+		@goto(16)
+		@look
+		@comment("...continued into Cmd 261")
+	@else
+		@set(value.flag.6,false)
+		@msg(message.1)
+		@write(@get(temp.noun))
+		@nl
+	@endif
+command.32.72
+	@comment("Cmd 212 - say ants")
+	@if @here(47) @then
+		@msg(message.88)
+	@endif
+command.32.77
+	@comment("Cmd 175 - say dr")
+	@if @here(26) @and @isfalse(@get(value.flag.19)) @then
+		@msg(message.1)
+		@msg(message.54)
+		@set(value.flag.19,true)
+		@msg(message.55)
+		@comment("...continued into Cmd 176")
+	@elseif @here(26) @and @istrue(@get(value.flag.19)) @and @isfalse(@get(value.flag.20)) @then
+		@msg(message.54)
+		@msg(message.61)
+		@set(value.flag.20,true)
+		@comment("...continued into Cmd 178")
+	@elseif @here(26) @and @istrue(@get(value.flag.20)) @then
+		@msg(message.56)
+		@set(value.flag.21,true)
+		@sendto(26,0)
+		@drop(35)
+	@endif
+command.32.120
+	@comment("Cmd 199 - say ultr")
+	@if @here(45) @then
+		@msg(message.96)
+	@endif
+command.39
+	@comment("Cmd 260 - look")
+	@if @isfalse(@get(value.flag.15)) @then
+		@msg(message.2)
+		@msg(message.3)
+		@msg(message.4)
+		@look
+	@endif
+command.39.9
+	@comment("Cmd 101 - look mirr")
+	@if @herecarry(2) @and @isfalse(@get(value.flag.15)) @and @not @carry(1) @then
+		@comment("BANNER******")
+		@msg(message.1)
+		@msg(message.2)
+		@msg(message.12)
+		@comment("...continued into Cmd 102")
+	@elseif @herecarry(2) @and @isfalse(@get(value.flag.15)) @and @carry(1) @then
+		@comment("HULK")
+		@msg(message.2)
+		@msg(message.10)
+		@comment("continue")
+		@msg(message.17)
+		@comment("...continued into Cmd 103")
+		@if @ge(value.counter,0) @then
+			@msg(message.15)
+		@endif
+		@comment("...continued into Cmd 104")
+		@if @ge(value.counter,1) @then
+			@msg(message.15)
+		@endif
+		@comment("...continued into Cmd 105")
+		@if @ge(value.counter,2) @then
+			@msg(message.15)
+		@endif
+		@comment("...continued into Cmd 106")
+		@msg(message.16)
+		@comment("...continued into Cmd 107")
+	@endif
+command.39.10
+	@comment("Cmd 217 - look prog")
+	@if @isroom(19) @then
+		@msg(message.2)
+		@msg(message.93)
+	@endif
+command.39.26
+	@comment("Cmd 163 - look base")
+	@if @isroom(14) @and @isfalse(@get(value.flag.15)) @and @not @here(27) @and @not @here(28) @then
+		@drop(27)
+		@msg(message.2)
+		@msg(message.5)
+		@look
+	@endif
+command.39.34
+	@comment("Cmd 190 - look fan")
+	@if @herecarry(23) @then
+		@msg(message.1)
+		@msg(message.2)
+		@msg(message.65)
+	@endif
+command.39.35
+	@comment("Cmd 83 - look mesh")
+	@if @isroom(8) @then
+		@msg(message.1)
+		@msg(message.2)
+		@msg(message.81)
+		@comment("...continued into Cmd 159")
+	@elseif @here(25) @then
+		@msg(message.1)
+		@msg(message.2)
+		@msg(message.50)
+	@endif
+command.39.41
+	@comment("Cmd 95 - look gem")
+	@if @herecarry(18) @then
+		@msg(message.1)
+		@msg(message.2)
+		@msg(message.70)
+	@endif
+command.39.54
+	@comment("Cmd 71 - look sign")
+	@if @here(53) @then
+		@msg(message.97)
+		@msg(message.99)
+		@comment("...continued into Cmd 123")
+	@elseif @here(6) @and @isfalse(@get(value.flag.15)) @then
+		@msg(message.1)
+		@msg(message.2)
+		@msg(message.27)
+		@comment("...continued into Cmd 124")
+	@elseif @here(7) @and @isfalse(@get(value.flag.15)) @then
+		@msg(message.1)
+		@msg(message.2)
+		@msg(message.27)
+		@comment("...continued into Cmd 125")
+	@elseif @here(8) @and @isfalse(@get(value.flag.15)) @then
+		@msg(message.1)
+		@msg(message.2)
+		@msg(message.27)
+		@comment("...continued into Cmd 187")
+	@elseif @here(38) @then
+		@msg(message.1)
+		@msg(message.2)
+		@msg(message.63)
+		@comment("...continued into Cmd 201")
+	@elseif @here(43) @then
+		@msg(message.1)
+		@msg(message.2)
+		@msg(message.76)
+	@endif
+command.39.55
+	@comment("Cmd 84 - look dome")
+	@if @isroom(8) @then
+		@msg(message.1)
+		@msg(message.2)
+		@msg(message.80)
+	@endif
+command.39.66
+	@comment("Cmd 184 - look hole")
+	@if @here(25) @then
+		@msg(message.1)
+		@msg(message.2)
+		@msg(message.50)
+		@comment("...continued into Cmd 188")
+	@elseif @here(27) @then
+		@msg(message.1)
+		@msg(message.2)
+		@msg(message.64)
+	@endif
+command.39.95
+	@comment("Cmd 192 - look area")
+	@if @isroom(16) @then
+		@msg(message.1)
+		@msg(message.2)
+		@msg(message.67)
+	@endif
+command.39.108
+	@comment("Cmd 195 - look egg")
+	@if @here(17) @then
+		@msg(message.1)
+		@msg(message.2)
+		@msg(message.95)
+	@endif
+command.39.110
+	@comment("Cmd 91 - look wall")
+	@if @isroom(15) @then
+		@msg(message.1)
+		@msg(message.2)
+		@msg(message.74)
+	@endif
+command.39.121
+	@comment("Cmd 209 - look cage")
+	@if @here(47) @then
+		@msg(message.1)
+		@msg(message.2)
+		@msg(message.85)
+	@endif
+command.39.126
+	@comment("Cmd 254 - look chie")
+	@if @isroom(19) @then
+		@msg(message.92)
+		@drop(49)
+		@look
+	@endif
+command.39.128
+	@comment("Cmd 76 - look desk")
+	@if @isroom(19) @and @nowhere(48) @then
+		@drop(48)
+		@look
+		@msg(message.2)
+		@msg(message.5)
+	@endif
+command.45
+	@comment("Cmd 77 - cove")
+	@msg(message.39)
+	@set(value.flag.24,true)
+command.47
+	@comment("Cmd 202 - scor")
+	@set(temp.swap,@get(value.counter))
+	@set(value.counter,@get(value.counter.5))
+	@set(value.counter.5,@get(temp.swap))
+	@set(value.counter,4)
+	@set(temp.swap,@get(value.room))
+	@set(value.room,@get(value.locationswap))
+	@set(value.locationswap,@get(temp.swap))
+	@comment("continue")
+	@comment("...continued into Cmd 203")
+	@if @here(4) @and @here(12) @and @here(16) @and @here(18) @and @here(19) @then
+		@if @gt(value.counter,0) @then
+			@subto(value.counter,1)
+		@endif
+	@endif
+	@comment("...continued into Cmd 204")
+	@if @eq(value.counter,3) @and @here(29) @and @here(30) @and @here(31) @and @here(32) @then
+		@if @gt(value.counter,0) @then
+			@subto(value.counter,1)
+		@endif
+	@endif
+	@comment("...continued into Cmd 205")
+	@if @eq(value.counter,2) @and @here(37) @and @here(35) @and @here(42) @and @here(44) @then
+		@if @gt(value.counter,0) @then
+			@subto(value.counter,1)
+		@endif
+	@endif
+	@comment("...continued into Cmd 206")
+	@if @eq(value.counter,1) @and @here(46) @and @here(48) @and @here(50) @and @here(51) @then
+		@if @gt(value.counter,0) @then
+			@subto(value.counter,1)
+		@endif
+	@endif
+	@comment("...continued into Cmd 207")
+	@if @eq(value.counter,0) @then
+		@msg(message.84)
+		@sleep(2000)
+		@sleep(2000)
+	@endif
+	@comment("...continued into Cmd 208")
+	@set(temp.swap,@get(value.counter))
+	@set(value.counter,@get(value.counter.5))
+	@set(value.counter.5,@get(temp.swap))
+	@set(temp.swap,@get(value.room))
+	@set(value.room,@get(value.locationswap))
+	@set(value.locationswap,@get(temp.swap))
+	@look
+	@script(script.score)
+command.48.11
+	@comment("Cmd 100 - save game")
+	@msg(message.1)
+	@script(script.save)
+command.49
+	@comment("Cmd 219 - help")
+	@msg(message.6)
+	@msg(message.7)
+	@msg(message.8)
+	@msg(message.91)
+command.50
+	@comment("Cmd 222 - inve")
+	@if @isfalse(@get(value.flag.15)) @and @not @isroom(1) @then
+		@msg(message.1)
+		@script(script.inventory)
+	@endif
+command.51
+	@comment("Cmd 99 - hit")
+	@if @isroom(1) @then
+		@comment("IN CHAIR")
+		@msg(message.7)
+		@msg(message.8)
+		@msg(message.22)
+		@comment("...continued into Cmd 236")
+	@elseif @carry(1) @then
+		@msg(message.6)
+		@msg(message.10)
+		@msg(message.57)
+		@comment("...continued into Cmd 237")
+	@elseif @not @carry(1) @then
+		@msg(message.6)
+		@msg(message.3)
+		@msg(message.4)
+		@msg(message.23)
+	@endif
+command.51.12
+	@comment("Cmd 114 - hit me")
+	@if @not @carry(1) @then
+		@msg(message.20)
+		@set(value.flag.7,true)
+		@set(value.flag.6,false)
+		@comment("...continued into Cmd 118")
+	@elseif @carry(1) @then
+		@msg(message.1)
+		@msg(message.7)
+		@msg(message.25)
+		@msg(message.3)
+	@endif
+command.51.21
+	@comment("Cmd 181 - hit bees")
+	@if @here(24) @and @not @carry(1) @then
+		@msg(message.6)
+		@msg(message.51)
+		@msg(message.20)
+		@set(value.flag.7,true)
+	@endif
+command.51.72
+	@comment("Cmd 98 - hit ants")
+	@if @carry(1) @and @here(20) @then
+		@msg(message.1)
+		@msg(message.45)
+		@msg(message.37)
+	@endif
+command.51.77
+	@comment("Cmd 194 - hit dr")
+	@if @here(26) @then
+		@msg(message.54)
+		@msg(message.68)
+		@sendto(26,0)
+		@set(value.flag.21,true)
+	@endif
+command.51.120
+	@comment("Cmd 81 - hit ultr")
+	@if @here(45) @then
+		@msg(message.6)
+		@msg(message.86)
+	@endif
+command.51.126
+	@comment("Cmd 168 - hit chie")
+	@if @isroom(19) @then
+		@msg(message.90)
+		@goto(16)
+		@look
+	@endif
+command.68.88
+	@comment("Cmd 179 - push butt")
+	@if @here(36) @and @isfalse(@get(value.flag.5)) @then
+		@msg(message.1)
+		@set(value.flag.5,true)
+		@msg(message.58)
+		@msg(message.59)
+		@comment("...continued into Cmd 180")
+	@elseif @here(36) @and @istrue(@get(value.flag.5)) @then
+		@msg(message.1)
+		@set(value.flag.5,false)
+		@msg(message.58)
+		@msg(message.60)
+	@endif
+command.68.120
+	@comment("Cmd 255 - push ultr")
+	@if @here(45) @then
+		@msg(message.86)
+	@endif
+command.70
+	@comment("Cmd 230 - bite")
+	@msg(message.6)
+	@msg(message.7)
+	@msg(message.8)
+	@msg(message.28)
+command.70.12
+	@comment("Cmd 115 - bite me")
+	@if @not @isroom(1) @and @not @carry(1) @then
+		@msg(message.20)
+		@set(value.flag.7,true)
+		@set(value.flag.6,false)
+		@comment("...continued into Cmd 116")
+	@elseif @isroom(1) @then
+		@msg(message.41)
+		@msg(message.42)
+		@comment("...continued into Cmd 117")
+	@elseif @carry(1) @then
+		@msg(message.1)
+		@msg(message.7)
+		@msg(message.25)
+		@msg(message.3)
+	@endif
+command.70.46
+	@comment("Cmd 108 - bite tong")
+	@if @isroom(1) @then
+		@msg(message.20)
+		@set(value.flag.7,true)
+		@set(value.flag.8,true)
+		@set(value.flag.6,false)
+		@comment("...continued into Cmd 109")
+	@elseif @not @carry(1) @then
+		@msg(message.20)
+		@set(value.flag.7,true)
+		@set(value.flag.6,false)
+		@comment("...continued into Cmd 119")
+	@elseif @carry(1) @then
+		@msg(message.1)
+		@msg(message.7)
+		@msg(message.25)
+		@msg(message.3)
+	@endif
+command.70.69
+	@comment("Cmd 75 - bite rope")
+	@if @isroom(1) @then
+		@msg(message.6)
+		@msg(message.7)
+		@msg(message.8)
+		@msg(message.28)
+	@endif
+command.70.108
+	@comment("Cmd 156 - bite egg")
+	@if @herecarry(17) @and @carry(1) @then
+		@msg(message.1)
+		@sendto(17,0)
+		@comment("...continued into Cmd 157")
+	@elseif @herecarry(17) @and @not @carry(1) @then
+		@msg(message.31)
+		@set(value.flag.dark,false)
+		@goto(20)
+		@sendto(17,0)
+		@sendto(18,0)
+	@endif
+command.75
+	@comment("Cmd 183 - fan")
+	@msg(message.62)
+command.76
+	@comment("Cmd 112 - rock")
+	@if @isroom(1) @then
+		@msg(message.7)
+		@msg(message.26)
+		@set(value.flag.7,true)
+		@set(value.flag.8,true)
+	@endif
+command.76.121
+	@comment("Cmd 250 - rock cage")
+	@if @here(47) @then
+		@msg(message.6)
+		@msg(message.86)
+	@endif
+command.80.5
+	@comment("Cmd 216 - jump up")
+	@msg(message.1)
+	@msg(message.3)
+	@msg(message.4)
+	@msg(message.23)
+command.82
+	@comment("Cmd 126 - dig")
+	@if @isroom(4) @then
+		@comment("********")
+		@msg(message.1)
+		@drop(13)
+		@comment("...continued into Cmd 127")
+	@elseif @isroom(7) @then
+		@comment("********")
+		@msg(message.1)
+		@drop(14)
+		@comment("...continued into Cmd 128")
+	@elseif @isroom(8) @then
+		@comment("HOLES *******")
+		@msg(message.1)
+		@drop(15)
+		@comment("...continued into Cmd 132")
+	@elseif @isroom(9) @then
+		@msg(message.1)
+		@set(temp.swap,@get(value.counter))
+		@set(value.counter,@get(value.counter.1))
+		@set(value.counter.1,@get(temp.swap))
+		@addto(value.counter,1)
+		@set(temp.swap,@get(value.counter))
+		@set(value.counter,@get(value.counter.1))
+		@set(value.counter.1,@get(temp.swap))
+		@comment("...continued into Cmd 133")
+	@elseif @isroom(10) @then
+		@msg(message.1)
+		@set(temp.swap,@get(value.counter))
+		@set(value.counter,@get(value.counter.2))
+		@set(value.counter.2,@get(temp.swap))
+		@addto(value.counter,1)
+		@set(temp.swap,@get(value.counter))
+		@set(value.counter,@get(value.counter.2))
+		@set(value.counter.2,@get(temp.swap))
+		@comment("...continued into Cmd 134")
+	@elseif @isroom(11) @then
+		@msg(message.1)
+		@set(temp.swap,@get(value.counter))
+		@set(value.counter,@get(value.counter.3))
+		@set(value.counter.3,@get(temp.swap))
+		@addto(value.counter,1)
+		@set(temp.swap,@get(value.counter))
+		@set(value.counter,@get(value.counter.3))
+		@set(value.counter.3,@get(temp.swap))
+		@comment("...continued into Cmd 193")
+	@else
+		@msg(message.7)
+		@msg(message.8)
+		@msg(message.28)
+	@endif
+command.83
+	@comment("Cmd 259 - lift")
+	@msg(message.3)
+	@msg(message.4)
+	@msg(message.23)
+command.83.55
+	@comment("Cmd 88 - lift dome")
+	@if @here(10) @and @nowhere(50) @and @carry(1) @then
+		@drop(50)
+		@msg(message.5)
+		@msg(message.28)
+		@look
+		@comment("...continued into Cmd 89")
+	@elseif @here(5) @and @nowhere(51) @and @carry(1) @then
+		@msg(message.5)
+		@msg(message.28)
+		@drop(51)
+		@look
+		@comment("...continued into Cmd 135")
+	@elseif @here(11) @and @nowhere(19) @and @carry(1) @then
+		@comment("*********")
+		@drop(19)
+		@msg(message.5)
+		@msg(message.28)
+	@endif
+command.83.83
+	@comment("Cmd 90 - lift ring")
+	@if @herecarry(33) @and @not @carry(1) @then
+		@msg(message.6)
+		@msg(message.24)
+		@comment("...continued into Cmd 172")
+	@elseif @herecarry(33) @and @carry(1) @then
+		@msg(message.1)
+		@swap(item.33.location,item.34.location)
+		@look
+		@comment("continue")
+		@comment("...continued into Cmd 173")
+		@sendto(39,15)
+	@endif
+command.83.121
+	@comment("Cmd 249 - lift cage")
+	@if @here(47) @then
+		@msg(message.6)
+		@msg(message.86)
+	@endif
+command.87
+	@comment("Cmd 239 - slee")
+	@if @carry(1) @then
+		@sendto(1,0)
+		@msg(message.18)
+		@msg(message.12)
+		@msg(message.22)
+		@comment("...continued into Cmd 240")
+	@elseif @not @carry(1) @then
+		@msg(message.3)
+		@msg(message.4)
+		@msg(message.23)
+	@endif
+command.90
+	@comment("Cmd 78 - use")
+	@if @istrue(@get(value.flag.24)) @then
+		@set(value.flag.24,false)
+		@msg(message.44)
+		@comment("...continued into Cmd 225")
+	@else
+		@msg(message.6)
+		@msg(message.9)
+	@endif
+command.90.33
+	@comment("Cmd 111 - use wax")
+	@if @not @carry(21) @then
+		@comment("NO WAX")
+		@msg(message.9)
+		@script(script.inventory)
+		@set(value.flag.13,false)
+		@set(value.flag.14,false)
+		@comment("...continued into Cmd 140")
+	@elseif @istrue(@get(value.flag.13)) @and @herecarry(21) @then
+		@comment("EARS")
+		@msg(message.1)
+		@set(value.flag.13,false)
+		@sendto(21,0)
+		@set(value.flag.12,true)
+		@comment("...continued into Cmd 145")
+	@elseif @istrue(@get(value.flag.14)) @and @herecarry(21) @then
+		@comment("NOSE")
+		@comment("continue")
+		@set(value.flag.14,false)
+		@sendto(21,0)
+		@set(value.flag.10,true)
+		@comment("...continued into Cmd 146")
+		@set(value.flag.22,true)
+		@msg(message.1)
+		@comment("...continued into Cmd 165")
+	@elseif @istrue(@get(value.flag.18)) @and @herecarry(21) @and @herecarry(27) @then
+		@comment("GAS OUTLET")
+		@msg(message.1)
+		@swap(item.27.location,item.28.location)
+		@comment("continue")
+		@comment("...continued into Cmd 166")
+		@sendto(21,0)
+		@set(value.flag.18,false)
+	@endif
+command.90.37
+	@comment("Cmd 143 - use fing")
+	@msg(message.6)
+	@msg(message.43)
+	@msg(message.44)
+command.90.41
+	@comment("Cmd 218 - use gem")
+	@msg(message.6)
+	@msg(message.43)
+	@set(value.flag.13,false)
+	@set(value.flag.14,false)
+command.92.61
+	@comment("Cmd 245 - unpl nose")
+	@if @istrue(@get(value.flag.22)) @then
+		@msg(message.1)
+		@set(value.flag.22,false)
+		@set(value.flag.10,false)
+		@take(21)
+	@endif
+command.92.64
+	@comment("Cmd 141 - unpl ears")
+	@if @istrue(@get(value.flag.12)) @then
+		@msg(message.1)
+		@set(value.flag.12,false)
+		@take(21)
+	@endif
+command.92.66
+	@comment("Cmd 167 - unpl hole")
+	@if @here(28) @then
+		@msg(message.1)
+		@swap(item.27.location,item.28.location)
+		@take(21)
+	@endif
+command.93.33
+	@comment("Cmd 142 - plug wax")
+	@msg(message.41)
+	@msg(message.42)
+command.93.61
+	@comment("Cmd 144 - plug nose")
+	@msg(message.39)
+	@msg(message.40)
+	@set(value.flag.14,true)
+	@msg(message.47)
+command.93.64
+	@comment("Cmd 139 - plug ears")
+	@msg(message.39)
+	@msg(message.40)
+	@set(value.flag.13,true)
+	@msg(message.47)
+command.93.66
+	@comment("Cmd 85 - plug hole")
+	@if @here(22) @then
+		@msg(message.6)
+		@msg(message.79)
+		@comment("...continued into Cmd 164")
+	@elseif @here(27) @then
+		@msg(message.39)
+		@msg(message.40)
+		@msg(message.47)
+		@set(value.flag.18,true)
+	@endif
+command.99.62
+	@comment("Cmd 138 - open eyes")
+	@msg(message.1)
+	@set(value.flag.11,false)
+	@set(value.flag.dark,false)
+	@look
+command.99.121
+	@comment("Cmd 186 - open cage")
+	@if @here(47) @then
+		@msg(message.6)
+		@msg(message.86)
+	@endif
+command.99.123
+	@comment("Cmd 177 - open door")
+	@if @isroom(19) @then
+		@msg(message.90)
+		@goto(16)
+		@look
+	@endif
+command.100
+	@comment("Cmd 233 - kill")
+	@msg(message.9)
+command.102
+	@comment("Cmd 238 - reme")
+	@msg(message.3)
+	@msg(message.4)
+	@msg(message.23)
+command.102.84
+	@comment("Cmd 72 - reme nigh")
+	@if @carry(1) @then
+		@addto(value.counter,2)
+		@msg(message.10)
+		@msg(message.15)
+		@comment("continue")
+		@comment("...continued into Cmd 73")
+		@msg(message.16)
+	@endif
+command.104.55
+	@comment("Cmd 94 - clim dome")
+	@msg(message.6)
+	@msg(message.7)
+	@msg(message.71)
+command.104.110
+	@comment("Cmd 82 - clim wall")
+	@msg(message.18)
+	@msg(message.82)
+command.105
+	@comment("Cmd 229 - wigg")
+	@msg(message.3)
+	@msg(message.4)
+	@msg(message.23)
+command.117
+	@comment("Cmd 252 - stop")
+	@msg(message.9)
+command.118
+	@comment("Cmd 232 - beco")
+	@msg(message.9)
+command.121
+	@comment("Cmd 231 - unti")
+	@if @isroom(0) @then
+	@endif
+command.125
+	@comment("Cmd 258 - clos")
+	@msg(message.9)
+command.125.46
+	@comment("Cmd 251 - clos tong")
+	@msg(message.1)
+command.125.62
+	@comment("Cmd 137 - clos eyes")
+	@msg(message.1)
+	@set(value.flag.11,true)
+	@set(value.flag.dark,true)
+	@look
+command.127
+	@comment("Cmd 247 - turn")
+	@msg(message.6)
+	@msg(message.3)
+	@msg(message.4)
+	@msg(message.23)
+command.127.83
+	@comment("Cmd 213 - turn ring")
+	@if @here(33) @and @not @carry(1) @then
+		@msg(message.6)
+		@msg(message.24)
+		@comment("...continued into Cmd 214")
+	@elseif @here(33) @and @carry(1) @then
+		@sendto(33,0)
+		@msg(message.6)
+		@msg(message.30)
+		@msg(message.14)
+	@endif
+item.1.location
+	0
+item.1.longdesc
+	Rage
+item.1.scenery
+	true
+item.2.location
+	2
+item.2.longdesc
+	Mirror
+item.3.location
+	2
+item.3.longdesc
+	Broken chair
+item.4.location
+	2
+item.4.longdesc
+	*Gem
+item.4.treasure
+	true
+item.5.location
+	4
+item.5.longdesc
+	Large dome
+item.5.scenery
+	true
+item.6.location
+	3
+item.6.longdesc
+	Sign
+item.6.scenery
+	true
+item.7.location
+	5
+item.7.longdesc
+	Sign
+item.7.scenery
+	true
+item.8.location
+	6
+item.8.longdesc
+	Sign
+item.8.scenery
+	true
+item.9.location
+	0
+item.9.longdesc
+	.
+item.9.scenery
+	true
+item.10.location
+	7
+item.10.longdesc
+	Large dome
+item.10.scenery
+	true
+item.11.location
+	8
+item.11.longdesc
+	Large dome
+item.11.scenery
+	true
+item.12.location
+	4
+item.12.longdesc
+	*Gem
+item.12.treasure
+	true
+item.13.location
+	0
+item.13.longdesc
+	Large hole
+item.13.scenery
+	true
+item.14.location
+	0
+item.14.longdesc
+	Large hole
+item.14.scenery
+	true
+item.15.location
+	0
+item.15.longdesc
+	Large hole
+item.15.scenery
+	true
+item.16.location
+	0
+item.16.longdesc
+	*Gem
+item.16.treasure
+	true
+item.17.location
+	15
+item.17.longdesc
+	Natter energy egg
+item.18.location
+	15
+item.18.longdesc
+	*Bio gem
+item.18.treasure
+	true
+item.19.location
+	0
+item.19.longdesc
+	*Gem
+item.19.treasure
+	true
+item.20.location
+	0
+item.20.longdesc
+	Alien army ants
+item.21.location
+	13
+item.21.longdesc
+	Wax
+item.22.location
+	7
+item.22.longdesc
+	Tiny holes
+item.22.scenery
+	true
+item.23.location
+	2
+item.23.longdesc
+	Metal Hand Fan
+item.24.location
+	13
+item.24.longdesc
+	Killer Bees
+item.24.scenery
+	true
+item.25.location
+	13
+item.25.longdesc
+	Wire mesh in wall with bee size holes
+item.25.scenery
+	true
+item.26.location
+	0
+item.26.longdesc
+	Astral projection of Dr. Strange
+item.26.scenery
+	true
+item.27.location
+	0
+item.27.longdesc
+	Small gas outlet
+item.27.scenery
+	true
+item.28.location
+	0
+item.28.longdesc
+	Plugged gas outlet
+item.28.scenery
+	true
+item.29.location
+	14
+item.29.longdesc
+	*Gem
+item.29.treasure
+	true
+item.30.location
+	5
+item.30.longdesc
+	*Gem
+item.30.treasure
+	true
+item.31.location
+	8
+item.31.longdesc
+	*Gem
+item.31.treasure
+	true
+item.32.location
+	7
+item.32.longdesc
+	*Gem
+item.32.treasure
+	true
+item.33.location
+	2
+item.33.longdesc
+	Large iron ring set in floor
+item.33.scenery
+	true
+item.34.location
+	0
+item.34.longdesc
+	Open hole in floor
+item.34.scenery
+	true
+item.35.location
+	0
+item.35.longdesc
+	*Gem
+item.35.treasure
+	true
+item.36.location
+	3
+item.36.longdesc
+	Button in wall
+item.36.scenery
+	true
+item.37.location
+	0
+item.37.longdesc
+	*Gem
+item.37.treasure
+	true
+item.38.location
+	16
+item.38.longdesc
+	Sign
+item.38.scenery
+	true
+item.39.location
+	0
+item.39.longdesc
+	Hole in ceiling
+item.39.scenery
+	true
+item.40.location
+	0
+item.40.longdesc
+	Crack in floor
+item.40.scenery
+	true
+item.41.location
+	12
+item.41.longdesc
+	Crack in rock
+item.41.scenery
+	true
+item.42.location
+	12
+item.42.longdesc
+	*Gem
+item.42.treasure
+	true
+item.43.location
+	20
+item.43.longdesc
+	Sign
+item.43.scenery
+	true
+item.44.location
+	0
+item.44.longdesc
+	*Gem
+item.44.treasure
+	true
+item.45.location
+	12
+item.45.longdesc
+	ULTRON
+item.45.scenery
+	true
+item.46.location
+	0
+item.46.longdesc
+	*Gem
+item.46.treasure
+	true
+item.47.location
+	12
+item.47.longdesc
+	Small cage
+item.47.scenery
+	true
+item.48.location
+	0
+item.48.longdesc
+	*Gem
+item.48.treasure
+	true
+item.49.location
+	0
+item.49.longdesc
+	Program
+item.49.scenery
+	true
+item.50.location
+	0
+item.50.longdesc
+	*Gem
+item.50.treasure
+	true
+item.51.location
+	0
+item.51.longdesc
+	*Gem
+item.51.treasure
+	true
+item.52.location
+	19
+item.52.longdesc
+	Door
+item.52.scenery
+	true
+item.53.location
+	2
+item.53.longdesc
+	Sign
+item.53.scenery
+	true
+message.1
+	O.K.
+message.2
+	I see
+message.3
+	Nothing
+message.4
+	special
+message.5
+	something
+message.6
+	Sorry,
+message.7
+	I
+message.8
+	can't do that
+message.9
+	How?
+message.10
+	The Incredible Hulk (Tm)
+message.11
+	Scott Adams presents Marvel Adventure #1 by Scott Adams\nwith Art by John Romita Sr, Mark Gruenwald & Kem McNair.\nSeries outline by Scott Adams and John Byrne & Bob Budiansky.\nDedicated: Stan Lee, My wife Alexis & CIS CBers!
+message.12
+	Bruce Banner
+message.13
+	High Gravity!
+message.14
+	crushed!
+message.15
+	very
+message.16
+	mad.\n
+message.17
+	who is
+message.18
+	I'm
+message.19
+	\nSome gas fills room & permeates my skin!\n
+message.20
+	Ouch! I scream!\n
+message.21
+	Rope Breaks!\n
+message.22
+	now!\n
+message.23
+	happens.
+message.24
+	won't budge!
+message.25
+	feel
+message.26
+	fall & hit head!\n
+message.27
+	Warning Hi Grav Ahead!
+message.28
+	here.
+message.29
+	hits molten core!
+message.30
+	it's
+message.31
+	Egg explodes ...
+message.32
+	\nAnts
+message.33
+	eyes.
+message.34
+	ears.
+message.35
+	nose.
+message.36
+	but find no opening.
+message.37
+	swarm from holes
+message.38
+	attack
+message.39
+	With what?
+message.40
+	Use 2 words like:
+message.41
+	Say again but tell me
+message.42
+	where?
+message.43
+	Too big!
+message.44
+	Doesn't work!
+message.45
+	more
+message.46
+	at what?
+message.47
+	USE GEM
+message.48
+	AT TREE
+message.49
+	I send a gale at it!
+message.50
+	outside
+message.51
+	I'm stung!
+message.52
+	Dr Strange points to baseboard.
+message.53
+	you're doing my thinking!
+message.54
+	Strange says:
+message.55
+	`Remember your worst enemy NIGHTMARE`
+message.56
+	Arcane energies blaze and he vanishes!
+message.57
+	is no vandal!
+message.58
+	Voice says: `Delay
+message.59
+	on`
+message.60
+	off`
+message.61
+	`Look for Scott's next Marvel Adventure at your\nfavorite store!` - Nuff said.
+message.62
+	Wave it!
+message.63
+	leave gems here: SCORE.
+message.64
+	it's just a hole.
+message.65
+	no moving parts.
+message.66
+	none here!
+message.67
+	space is warped here!
+message.68
+	`That's not nice!`
+message.69
+	Egg pulsates!
+message.70
+	it's alive & moving around!
+message.71
+	slide down.
+message.72
+	Getting warm!
+message.73
+	won't fit in my inventory.
+message.74
+	wall has scratch marks on it.
+message.75
+	too weak!
+message.76
+	`Bad move, please be more careful! Now try again!`\n- signed Chief Examiner.
+message.77
+	I make a tiny breeze.
+message.78
+	You've lost control... Hulk rampages off!
+message.79
+	too many.
+message.80
+	wire mesh in the side.
+message.81
+	inside the dome.
+message.82
+	not that mad!
+message.83
+	\nPoison nerve gas fills room.
+message.84
+	Chief Examiner appears & says:\n`Save this password: ARIA`.\n
+message.85
+	Ant-Man in it!
+message.86
+	ULTRON's pressor beams stop me!
+message.87
+	Ant-Man controlled ants sneak up on Ultron\nthen free Ant-Man! He leaves something.
+message.88
+	Ant-Man says: `Help me! Bring my friends!`
+message.89
+	Ants ate it!
+message.90
+	Chief Examiner notices me & says:\n`How did you get out of the Computer? I'm not ready for you\nyet! No matter...  BEGONE!`\n
+message.91
+	\nBut ask for a Scott Adams Hint Book at your favorite store!
+message.92
+	He's writing a computer program!
+message.93
+	it's the next Scott Adams Marvel Adventure!
+message.94
+	Try: ENTER DOME
+message.95
+	it's size of a chicken egg but glowing!
+message.96
+	ULTRON says:`Stay back! You'll never free my creator from my\nclutches!`
+message.97
+	This computer model has been created so that you will learn\nto perform as the HULK!\n
+message.98
+	\nWith Special Thanks to Joe Calamari & Jim Shooter!
+message.99
+	To prove you can supply the brains as well as control the\nHulk's brawn you must collect all the *Gems and store them\ninto the proper location. Good Luck!
+message.also_see
+	You can see:
+message.cant_go
+	Can't go that way.
+message.cant_see
+	You can't see. It is too dark!
+message.carrying
+	You are carrying:
+message.dont_see
+	I don't see that here.
+message.nothing
+	Nothing.
+message.not_carrying
+	You aren't carrying that.
+message.obvious_exits
+	Obvious exits:
+message.ok
+	OK
+message.percent_complete
+	On a scale of 0 to 100 that rates a {0}.
+message.score
+	I've stored {0} treasures.
+message.well_done
+	Well done.
+noun.1
+	nort,n
+noun.2
+	sout,s
+noun.3
+	east,e
+noun.4
+	west,w
+noun.5
+	up,u
+noun.6
+	down,d
+noun.7
+	loos
+noun.8
+	inve
+noun.9
+	mirr
+noun.10
+	prog
+noun.11
+	game
+noun.12
+	me,myse,self,bann,hulk,you,your,head,face
+noun.21
+	bees,bee
+noun.23
+	ceil,ciel,roof
+noun.26
+	base
+noun.27
+	mad,ange,rage,upse,angr
+noun.32
+	chai
+noun.33
+	wax
+noun.34
+	fan
+noun.35
+	mesh,wire
+noun.37
+	fing,hand,foot,feet
+noun.41
+	gem
+noun.42
+	back,forw,over
+noun.46
+	tong,lip,chee,tung,tonq,skin,mout
+noun.53
+	fiel
+noun.54
+	sign
+noun.55
+	dome,tunn,out,outs
+noun.60
+	ener
+noun.61
+	nose
+noun.62
+	eyes,eye
+noun.64
+	ears,ear
+noun.66
+	hole,outl,gas
+noun.69
+	rope,ties,bond
+noun.72
+	ants,ant,ant-,man
+noun.76
+	floo
+noun.77
+	dr,astr,stra,dr.,dr.s,proj
+noun.83
+	ring
+noun.84
+	nigh
+noun.85
+	modo
+noun.86
+	abom
+noun.87
+	alam
+noun.88
+	butt
+noun.89
+	hell
+noun.90
+	hi
+noun.91
+	bye
+noun.92
+	good
+noun.93
+	howd
+noun.94
+	help
+noun.95
+	area,fuzz
+noun.97
+	arou
+noun.98
+	beam
+noun.99
+	scot
+noun.100
+	adam
+noun.101
+	pant
+noun.102
+	to
+noun.103
+	into
+noun.104
+	brea
+noun.105
+	in
+noun.106
+	it
+noun.107
+	at
+noun.108
+	egg,natt
+noun.110
+	wall,room
+noun.112
+	mach
+noun.113
+	scra
+noun.114
+	mark
+noun.115
+	crac
+noun.116
+	limb
+noun.117
+	spac
+noun.118
+	warp
+noun.119
+	dirt
+noun.120
+	ultr
+noun.121
+	cage
+noun.122
+	cave
+noun.123
+	door
+noun.124
+	bio
+noun.125
+	insi
+noun.126
+	chie,exam
+noun.128
+	desk
+nounitem.9
+	2
+nounitem.32
+	3
+nounitem.33
+	21
+nounitem.34
+	23
+nounitem.41
+	4,12,16,18,19,29,30,31,32,35,37,42,44,46,48,50,51
+nounitem.72
+	20
+nounitem.108
+	17
+room.1.exitlist
+	none!
+room.1.longdesc
+	I'm Bruce Banner, tied hand & foot to a chair.
+room.2.exit.e
+	3
+room.2.exitlist
+	East
+room.2.longdesc
+	I'm in a dome.
+room.3.exit.w
+	2
+room.3.exitlist
+	West
+room.3.longdesc
+	I'm in a tunnel going outside.
+room.4.exit.e
+	17
+room.4.exit.n
+	17
+room.4.exit.s
+	17
+room.4.exit.w
+	17
+room.4.exitlist
+	North South East West
+room.4.longdesc
+	I'm in a field.
+room.5.exit.w
+	14
+room.5.exitlist
+	West
+room.5.longdesc
+	I'm in a tunnel going out.
+room.6.exit.w
+	13
+room.6.exitlist
+	West
+room.6.longdesc
+	I'm in a tunnel going out.
+room.7.exit.e
+	17
+room.7.exit.n
+	17
+room.7.exit.s
+	17
+room.7.exit.w
+	17
+room.7.exitlist
+	North South East West
+room.7.longdesc
+	I'm in a field.
+room.8.exit.e
+	17
+room.8.exit.n
+	17
+room.8.exit.s
+	17
+room.8.exit.w
+	17
+room.8.exitlist
+	North South East West
+room.8.longdesc
+	I'm in a field.
+room.9.exit.u
+	4
+room.9.exitlist
+	Up
+room.9.longdesc
+	I'm in a hole.
+room.10.exit.u
+	7
+room.10.exitlist
+	Up
+room.10.longdesc
+	I'm in a hole.
+room.11.exit.u
+	8
+room.11.exitlist
+	Up
+room.11.longdesc
+	I'm in a hole.
+room.12.exitlist
+	none!
+room.12.longdesc
+	I'm in a cavern.
+room.13.exit.e
+	6
+room.13.exitlist
+	East
+room.13.longdesc
+	I'm in a dome.
+room.14.exit.e
+	5
+room.14.exitlist
+	East
+room.14.longdesc
+	I'm in a dome.
+room.15.exitlist
+	none!
+room.15.longdesc
+	I'm in a small underground room.
+room.16.exit.e
+	18
+room.16.exit.n
+	15
+room.16.exit.s
+	18
+room.16.exit.w
+	18
+room.16.exitlist
+	North South East West
+room.16.longdesc
+	I'm in a fuzzy area.
+room.17.exitlist
+	none!
+room.17.longdesc
+	I'm in a warp.
+room.18.exitlist
+	none!
+room.18.longdesc
+	I'm in a warp.
+room.19.exitlist
+	none!
+room.19.longdesc
+	I'm in a room with the Chief Examiner working\nbehind a desk, he doesn't notice me.
+room.20.exit.d
+	2
+room.20.exitlist
+	Down
+room.20.longdesc
+	I'm in a state of limbo.
+script.inventory
+	@msg(message.carrying)
+	@set(temp.found,false)
+	@for(i,0,@get(system.itemcount))
+		@if @carry($i) @then
+			@if @false(@get(temp.found)) @then
+				@set(temp.found,true)
+			@endif
+			@debug(@concat("### ITEM #",$i,"\n"))
+			@msg(item.$i.longdesc)
+		@endif
+	@endfor
+	@if @false(@get(temp.found)) @then
+		@msg(message.nothing)
+	@endif
+script.restore
+	@setoutchannel("#RESTORE;")
+	@setoutchannel("@msg(message.ok) @nl @look")
+script.save
+	@setoutchannel("#SAVE;")
+	@setoutchannel("@msg(message.1024)")
+script.score
+	@set(temp.count,0)
+	@for(x,1,@get(system.itemcount))
+		@if @true(@get(item.$x.treasure)) @and @eq(@get(item.$x.location),@get(value.treasureroom)) @then
+			@addto(temp.count,1)
+		@endif
+	@endfor
+	@write(@format(@get(message.score),@get(temp.count)))
+	@nl
+	@set(temp.percent,@div(@mul(@get(temp.count),100),@get(value.treasurecount)))
+	@write(@format(@get(message.percent_complete),@get(temp.percent)))
+	@nl
+	@if @eq(@get(temp.count),@get(value.treasurecount)) @then
+		@msg(message.well_done)
+		@quit
+	@endif
+system.commandcount
+	261
+system.dont_understand
+	I don't understand "{0}".
+system.do_what_with
+	Do what with the "{0}"?
+system.gamename
+	quest1
+system.introdone
+	false
+system.itemcount
+	54
+system.messagecount
+	99
+system.prompt
+	\n>
+system.roomcount
+	20
+system.verbnouncount
+	128
+system.wordsize
+	4
+value.flag.0
+	false
+value.flag.1
+	false
+value.flag.2
+	false
+value.flag.3
+	false
+value.flag.4
+	false
+value.flag.5
+	false
+value.flag.6
+	false
+value.flag.7
+	false
+value.flag.8
+	false
+value.flag.9
+	false
+value.flag.10
+	false
+value.flag.11
+	false
+value.flag.12
+	false
+value.flag.13
+	false
+value.flag.14
+	false
+value.flag.15
+	false
+value.flag.dark
+	false
+value.lightmoves
+	150
+value.maxinventory
+	10
+value.room
+	1
+value.startroom
+	1
+value.treasurecount
+	17
+value.treasureroom
+	16
+verb.1
+	go,walk,run,ente,g,foll
+verb.7
+	free,rele,unca
+verb.10
+	get,take,grab,carr,hold,catc,stan
+verb.17
+	scra
+verb.18
+	drop,leav,thro
+verb.22
+	make,crea
+verb.24
+	thin
+verb.25
+	find,sear,loca
+verb.28
+	wave
+verb.29
+	at,towa
+verb.31
+	quit
+verb.32
+	say,yell,scre,talk,spea,call,ask
+verb.39
+	look,l,exam,see,desc,read
+verb.45
+	cove,bloc
+verb.47
+	scor
+verb.48
+	save
+verb.49
+	help
+verb.50
+	inve
+verb.51
+	hit,kick,punc,slug,poun,smas,pinc,dest,hurt,step,rip,brea,dest,stam,swat,figh,stom
+verb.68
+	push,pres
+verb.70
+	bite,chew,eat,swal,bit
+verb.75
+	fan
+verb.76
+	rock,tip,lean,shak
+verb.80
+	jump,boun
+verb.82
+	dig
+verb.83
+	lift,pull,move,pry
+verb.87
+	slee,rela,calm
+verb.90
+	use,with
+verb.92
+	unpl
+verb.93
+	plug,stuf,inse,stic,in,into
+verb.99
+	open
+verb.100
+	kill,slay
+verb.102
+	reme,remm
+verb.104
+	clim
+verb.105
+	wigg,danc,clap,smil,wait,laug,blow,smel,list,feel,touc
+verb.117
+	stop
+verb.118
+	beco,chan,tran
+verb.121
+	unti,cut,slic
+verb.125
+	clos,shut
+verb.127
+	turn,twis
