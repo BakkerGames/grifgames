@@ -5381,7 +5381,7 @@ script.wwolf
 		@endif
 	@endif
 system.after_prompt
-	null
+	""
 system.dont_understand
 	\n  I don't understand "{0}".
 system.dont_understand_that
@@ -5408,7 +5408,7 @@ system.output_width
 system.prompt
 	\n
 system.version
-	2026.04.06
+	2026.04.08
 system.player.location
 	value.room
 system.wordsize
