@@ -5405,12 +5405,12 @@ system.intro
 	@endif
 system.output_width
 	-1
+system.player.location
+	value.room
 system.prompt
 	\n
 system.version
-	2026.04.08
-system.player.location
-	value.room
+	2026.04.11
 system.wordsize
 	4
 value.bat
