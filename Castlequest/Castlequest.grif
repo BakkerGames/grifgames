@@ -2592,42 +2592,68 @@ item.37.hint
 item.39.hint
 	@comment("master")
 	@set(temp.hint,@get(message.hint.13))
+item.39.shortdesc
+	master
 item.46.hint
 	@comment("book")
 	@set(temp.hint,@get(message.hint.14))
+item.46.shortdesc
+	book
 item.48.hint
 	@comment("drawer")
 	@set(temp.hint,@get(message.hint.15))
+item.48.shortdesc
+	drawer
 item.49.hint
 	@comment("butler")
 	@set(temp.hint,@get(message.hint.16))
+item.49.shortdesc
+	butler
 item.50.hint
 	@comment("mirror")
 	@set(temp.hint,@get(message.hint.17))
+item.50.shortdesc
+	mirror
 item.54.hint
 	@comment("bars")
 	@set(temp.hint,@get(message.hint.18))
+item.54.shortdesc
+	bars
 item.55.hint
 	@comment("bat")
 	@set(temp.hint,@get(message.hint.19))
+item.55.shortdesc
+	bat
 item.56.hint
 	@comment("board")
 	@set(temp.hint,@get(message.hint.20))
+item.56.shortdesc
+	board
 item.76.hint
 	@comment("wolf")
 	@set(temp.hint,@get(message.hint.11))
+item.76.shortdesc
+	wolf
 item.77.hint
 	@comment("gnome")
 	@set(temp.hint,@get(message.hint.24))
+item.77.shortdesc
+	gnome
 item.78.hint
 	@comment("cyclops")
 	@set(temp.hint,@get(message.hint.23))
+item.78.shortdesc
+	cyclops
 item.79.hint
 	@comment("glacier")
 	@set(temp.hint,@get(message.hint.27))
+item.79.shortdesc
+	glacier
 item.80.hint
 	@comment("wizard")
 	@set(temp.hint,@get(message.hint.28))
+item.80.shortdesc
+	wizard
 message.1000
 	\s Castlequest (C) 1980\n\n\s By Michael S. Holtzman and Mark Kershenblatt.\n\n\s Port to GRIF by Scott Bakker (C) 2024\n
 message.1001
