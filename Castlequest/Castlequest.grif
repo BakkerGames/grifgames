@@ -2589,6 +2589,8 @@ item.30.treasurevalue
 item.37.hint
 	@comment("window")
 	@set(temp.hint,@get(message.hint.12))
+item.37.shortdesc
+	window
 item.39.hint
 	@comment("master")
 	@set(temp.hint,@get(message.hint.13))
@@ -2655,7 +2657,7 @@ item.80.hint
 item.80.shortdesc
 	wizard
 message.1000
-	\s Castlequest (C) 1980\n\n\s By Michael S. Holtzman and Mark Kershenblatt.\n\n\s Port to GRIF by Scott Bakker (C) 2024\n
+	\s Castlequest (C) 1980\n\n  By Michael S. Holtzman and Mark Kershenblatt.\n\n  Port to GRIF by Scott Bakker (C) 2024\n
 message.1001
 	\s Welcome to CASTLEQUEST!! Would you like instructions?
 message.1002
@@ -5436,7 +5438,7 @@ system.player.location
 system.prompt
 	\n
 system.version
-	2026.04.11
+	2026.04.13
 system.wordsize
 	4
 value.bat
