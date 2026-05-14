@@ -2883,7 +2883,7 @@ message.1113
 message.1114
 	THAT IS A PRIVILEGED INSTRUCTION.
 message.1115
-	\n ROOM #---
+	ROOM #---
 message.1116
 	Some ice has melted, leaving a large hole.
 message.1117
@@ -5405,7 +5405,7 @@ script.wwolf
 		@endif
 	@endif
 system.after_prompt
-	""
+	null
 system.dont_understand
 	I don't understand "{0}".
 system.dont_understand_that
