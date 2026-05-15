@@ -2222,30 +2222,54 @@ command.61
 	@comment("brief")
 	@set(value.ibrief,1)
 	@msgcq(message.1073)
-direction.1
-	N,NORT
-direction.2
-	NE
-direction.3
-	E,EAST
-direction.4
-	SE
-direction.5
-	S,SOUT
-direction.6
-	SW
-direction.7
-	W,WEST
-direction.8
-	NW
-direction.9
-	CLIM,U,UP
-direction.10
+direction.d
 	D,DOWN
-direction.13
+direction.d.command
+	10
+direction.e
+	E,EAST
+direction.e.command
+	3
+direction.enter
 	ENTE,IN
-direction.14
+direction.enter.command
+	13
+direction.leave
 	EXIT,LEAV,OUT
+direction.leave.command
+	14
+direction.n
+	N,NORT
+direction.n.command
+	1
+direction.ne
+	NE
+direction.ne.command
+	2
+direction.nw
+	NW
+direction.nw.command
+	8
+direction.s
+	S,SOUT
+direction.s.command
+	5
+direction.se
+	SE
+direction.se.command
+	4
+direction.sw
+	SW
+direction.sw.command
+	6
+direction.u
+	CLIM,U,UP
+direction.u.command
+	9
+direction.w
+	W,WEST
+direction.w.command
+	7
 item.1.hint
 	@comment("kerosene")
 	@set(temp.hint,@get(message.hint.29))
@@ -5433,7 +5457,7 @@ system.player.location
 system.prompt
 	\n
 system.version
-	2026.05.14
+	2026.05.15
 system.wordsize
 	4
 value.bat
@@ -5644,34 +5668,10 @@ value.wolf
 	false
 value.wolf.comment
 	IS THE WOLF IN THE ROOM?
-verb.1
-	N,NORT
-verb.2
-	NE
-verb.3
-	E,EAST
-verb.4
-	SE
-verb.5
-	S,SOUT
-verb.6
-	SW
-verb.7
-	W,WEST
-verb.8
-	NW
-verb.9
-	CLIM,U,UP
-verb.10
-	D,DOWN
 verb.11
 	T,TAKE
 verb.12
 	DROP
-verb.13
-	ENTE,IN
-verb.14
-	EXIT,LEAV,OUT
 verb.15
 	ATTA,KILL
 verb.17
