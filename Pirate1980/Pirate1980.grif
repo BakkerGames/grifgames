@@ -1786,7 +1786,9 @@ system.dont_understand
 system.do_what_with
 	DO WHAT WITH THE "{0}"?
 system.gamename
-	Pirate1980
+	PirateAdventure
+system.gametitle
+	Pirate's Adventure
 system.intro
 	@msg(message.1002)
 	@nl
@@ -1810,12 +1812,16 @@ system.itemcount
 	60
 system.messagecount
 	71
+system.player.location
+	value.room
 system.prompt
 	\n>
 system.roomcount
 	33
 system.verbnouncount
 	59
+system.version
+	2026.05.16
 system.wordsize
 	3
 value.flag.0

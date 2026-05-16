@@ -1,4 +1,4 @@
-// blankgame.grif - GRIF format
+// BlankGame.grif - GRIF format
 @inv
 	player
 @look
@@ -303,7 +303,7 @@ system.prompt
 system.tab_length
 	4
 system.version
-	2026.03.25
+	2026.05.15
 value.intro
 	false
 verb.drop
