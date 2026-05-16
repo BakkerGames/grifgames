@@ -1,0 +1,1499 @@
+
+  Castlequest (C) 1980
+  
+  By Michael S. Holtzman and Mark Kershenblatt.
+  
+  Port to GRIF by Scott Bakker (C) 2024
+  
+  Version 2026.05.15
+
+  Welcome to CASTLEQUEST!! Would you like instructions?
+
+YES
+
+  
+    The "corrections" mod is installed. Message and description typos have been corrected.
+
+  
+    The "norandom" mod is installed. All random events are removed.
+
+  
+    You are in a large, tarnished brass bed in an old, musty bedroom.
+    Cobwebs hang from the ceiling.  A few rays of light filter through
+    the shutters.  There is a nightstand nearby with a single wooden
+    drawer.  The door west creaks in the breeze.  A macabre portrait
+    hangs to the left of an empty fireplace.
+
+  The shutters are closed.
+
+  There is a silver bullet here.
+
+YES
+
+YES
+
+  I don't understand "YES".
+
+OPEN DRAWER
+
+  I don't understand "YES".
+
+TAKE ALL
+
+  There is a silver cross in the drawer!
+
+OPEN SHUTTER
+
+  OK
+
+W
+
+  The shutter is open, but there are bars over the window.
+
+  Something on the ground outside is glistening brightly.
+
+D
+
+  You are in a dim corridor lit by gaslight.  Doors exit
+  to the east and west.  A stairway leads down.
+
+TAKE ALL
+
+  
+    You are in the parlor, an old fashioned sitting room.  A display
+    case of dueling pistols hangs over the mantle.  Stairs lead up to
+    a dimly lit corridor.  Open double doors lead west.  Two wide
+    hallways lead north and south.
+
+  There is some "HORROR HOTEL" writing paper here.
+
+  There is an old gun here.
+
+LOAD GUN
+
+  OK
+
+N
+
+  OK
+
+TAKE AXE
+
+  This is the armor room.  Suits of armor are lined up in
+  rows throughout the room.  Medieval instruments of war
+  are on display along each wall.  The door exits south.
+
+  There is a blood stained hatchet here.
+
+S
+
+  OK
+
+W
+
+  You're in the parlor.
+
+N
+
+  This is the dining room.  A long table is set for 12 guests.
+  A swinging door leads north, and an arched passage leads
+  south.  Open double doors exit to the east.
+
+BREAK BOARD
+
+  You are now in the kitchen.  Twelve Swanson's frozen entrees rest
+  on the counter, below a microwave oven.  "THE BEGINNER'S GUIDE TO
+  COOKING" lies on a small table.  A swinging door exits south.
+  Other doors lead east and north.
+
+  Somebody left some tasty food here.
+
+OPEN DOOR
+
+  The door can now be opened.
+
+W
+
+  The door opens to a brick wall.  ---DEAD END---
+  
+  A note on the wall reads "L 8 R 31 L 59".
+
+N
+
+  You are in the kitchen.
+
+  Somebody left some tasty food here.
+
+TAKE BOTTLE
+
+  You are in a small pantry full of various foodstuffs.  To
+  your left is a beautiful china closet filled with dishes
+  pilfered from various restaurants.  On you right is an
+  open drawer full of plastic knives and forks.
+
+  An empty bottle is discarded nearby.
+
+S
+
+  OK
+
+S
+
+  You are in the kitchen.
+
+  Somebody left some tasty food here.
+
+S
+
+  You are in the dining room.
+
+U
+
+  
+    You are in the foyer.  An umbrella near the door is dripping on the
+    thick pile carpet.  A black cape is draped neatly over the banister
+    of a grand staircase leading up.  A magnificent archway leads north.
+    Corridors lead south and southeast, a small hallway heads west,
+    and a narrow stairway goes down.
+
+  The butler is sound asleep.
+
+W
+
+  You are in the upstairs hallway, a long corridor with passages
+  to the north, east, and west.  Stairs lead up and down.
+
+TAKE PEN
+
+  You are in a small boudoir.  The pink walls reflect the
+  soft lighting with a warm glow.  The door exits east.
+
+  There is an old quill pen here.
+
+E
+
+  OK
+
+E
+
+  You're in the upstairs hallway.
+
+OPEN BOOK
+
+  This is the library.  All four walls are lined with bookcases.
+  The room is brightly lit, although there is no apparent source
+  of light.
+
+  A copy of Shakespeare's "HAMLET" lies on the desk.
+
+  There are matches from the Vampire Diner here.
+
+TAKE ALL
+
+  A skeleton key falls out of the book.
+
+W
+
+  OK
+
+D
+
+  You're in the upstairs hallway.
+
+DROP PAPER
+
+  You're in foyer.
+
+  The butler is sound asleep.
+
+DROP PEN
+
+  OK
+
+WAKE BUTLER
+
+  OK
+
+READ NOTE
+
+  The butler is holding out a note.
+
+E
+
+  "Look behind the mirror."
+
+U
+
+  You're in the parlor.
+
+W
+
+  You have fallen through a trap door and find...
+
+  You are in a dark stone E/W passage.
+
+NW
+
+  You are at the proverbial fork in the road.  Paths
+  lead east, northwest, and southwest.
+
+TAKE TORCH
+
+  You are in a small room with a high ceiling.  A huge
+  granite slab rests in the middle of the room.  The
+  exits lead SE and NW.
+
+  There is a rusty acetylene torch here.
+
+SE
+
+  OK
+
+E
+
+  You're at the fork.
+
+E
+
+  You are in a dark E/W passage.
+
+TAKE ACID
+
+  
+    You are in a vast room full of laboratory equipment.  Several
+    experiments appear to be in progress, and the remnants of some
+    that failed are strewn about the room.  A giant door hewn out of
+    granite leads south and an entrance leads west into darkness.
+
+  There is a small flask of nitric acid here.
+
+W
+
+  OK
+
+TAKE BLOOD
+
+  You are in a dark E/W corridor.  A small but walkable
+  tunnel leads off to the north.
+
+  There is a small pool of blood here.
+
+W
+
+  OK
+
+TAKE ROPE
+
+  You are in an extremely dark, unfinished room.  The only light
+  emanates from a narrow slit in the ceiling.
+
+  There is a long piece of rope lying on the floor.
+
+E
+
+  OK
+
+N
+
+  You're in a dark E/W corridor.
+
+BREAK MIRROR
+
+  You are in a low, dark chamber.  A single mirror
+  is set into the far wall.  The exit goes south.
+
+D
+
+  A secret tunnel descends into darkness.
+
+W
+
+  You are in the library.
+
+  A copy of Shakespeare's "HAMLET" lies on the desk.
+
+  A secret tunnel descends into darkness.
+
+D
+
+  You're in the upstairs hallway.
+
+DROP TORCH
+
+  You're in foyer.
+
+  The butler is sleeping once again.
+
+W
+
+  OK
+
+TAKE STAKE
+
+  This is the garden.  Tomato plants are growing neatly in rows.
+  A narrow path goes east and a wider one goes west.
+
+  To one side lies a wooden stake.
+
+E
+
+  OK
+
+U
+
+  You're in foyer.
+
+  The butler is sleeping once again.
+
+  There is a rusty acetylene torch here.
+
+U
+
+  You're in the upstairs hallway.
+
+FEED BAT
+
+  You are in a musty room that appears to be an entrance to
+  an attic.  A small passage leads north and stairs descend
+  down behind you.
+
+N
+
+  The bat gulps down the blood and flitters away.
+
+E
+
+  You are in an old attic filled with old-fashioned clothes, a pile
+  of newspapers and some antiques.  An entrance to a cedar closet
+  is to the east and there is a door to a crawlspace to the west.
+
+TAKE LAMP
+
+  You're in a cedar closet that smells of fresh cedar.  Racks of more
+  old-fashioned clothes lie to your right and left.
+
+  There is a small kerosene lamp here.
+
+W
+
+  OK
+
+LEFT 31
+
+  You are in an old attic.
+
+LEFT 8
+
+  
+    You blew it.  I think you'd better start over.
+
+RIGHT 31
+
+  I don't understand "LEFT 8".
+
+LEFT 59
+
+  
+    You blew it.  I think you'd better start over.
+
+OPEN DOOR
+
+  
+    You blew it.  I think you'd better start over.
+
+W
+
+  The door is locked.
+
+W
+
+  A combination lock bars the door.
+
+LIGHT LAMP
+
+  A combination lock bars the door.
+
+W
+
+  OK
+
+OPEN COFFIN
+
+  A combination lock bars the door.
+
+THROW STAKE
+
+  I don't know how to apply that here.
+
+E
+
+  OK
+
+E
+
+  You're in a cedar closet.
+
+EXTINGUISH LAMP
+
+  There is no way to go in that direction.
+
+E
+
+  The light is out.
+
+S
+
+  There is no way to go in that direction.
+
+D
+
+  There is no way to go in that direction.
+
+N
+
+  There is no way to go in that direction.
+
+W
+
+  There is no way to go in that direction.
+
+S
+
+  You are in an old attic.
+
+  To one side lies a wooden stake.
+
+UNLOCK DOOR
+
+  You are in the attic entrance.
+
+OPEN DOOR
+
+  The door will neither open nor close.
+
+DROP KEY
+
+  The door will neither open nor close.
+
+E
+
+  OK
+
+THROW ACID
+
+  There is no way to go in that direction.
+
+TIE ROPE
+
+  The acid has burned a hole in the floor.
+
+THROW ROPE
+
+  I don't know how to apply that here.
+
+D
+
+  OK
+
+TAKE STATUE
+
+  You're in the upstairs hallway.
+
+U
+
+  I don't see that here.
+
+TAKE ROPE
+
+  You are in the attic entrance.
+
+  There is an ornate skeleton key here!
+
+  There is a long piece of rope lying on the floor.
+
+W
+
+  OK
+
+D
+
+  There is no way to go in that direction.
+
+S
+
+  You're in the upstairs hallway.
+
+DROP STATUE
+
+  There is no way to go in that direction.
+
+DROP ROPE
+
+  You don't have it with you.
+
+DROP CROSS
+
+  OK
+
+SE
+
+  OK
+
+TAKE CIGAR
+
+  There is no way to go in that direction.
+
+N
+
+  I don't see that here.
+
+S
+
+  You are in a narrow "L" shaped corridor, which leads
+  west and south.
+
+TAKE HOOK
+
+  You're in the upstairs hallway.
+
+  There is a long piece of rope lying on the floor.
+
+  There is a silver cross nearby!
+
+N
+
+  I don't see that here.
+
+D
+
+  You are in "L" shaped corridor.
+
+W
+
+  There is no way to go in that direction.
+
+TAKE KEROSENE
+
+  
+    This is the mirror maze.  A myriad of mirrors reflect your
+    image in a dazzling array of light.  The reflections make it
+    impossible to discern a direction.
+
+E
+
+  I don't see that here.
+
+U
+
+  You are in "L" shaped corridor.
+
+DROP HOOK
+
+  There is no way to go in that direction.
+
+DROP CIGAR
+
+  You don't have it with you.
+
+DROP MATCH
+
+  You don't have it with you.
+
+W
+
+  OK
+
+W
+
+  You are wandering around the mirror maze.
+
+N
+
+  You're in the boudoir.
+
+TAKE WATER
+
+  There is no way to go in that direction.
+
+S
+
+  I don't see that here.
+
+E
+
+  There is no way to go in that direction.
+
+E
+
+  You're in the upstairs hallway.
+
+  There is a long piece of rope lying on the floor.
+
+  There is a silver cross nearby!
+
+E
+
+  You are in the library.
+
+  A copy of Shakespeare's "HAMLET" lies on the desk.
+
+  A secret tunnel descends into darkness.
+
+U
+
+  There is no way to go in that direction.
+
+TAKE KEY
+
+  There is no way to go in that direction.
+
+W
+
+  I don't see that here.
+
+D
+
+  You're in the upstairs hallway.
+
+  There is a long piece of rope lying on the floor.
+
+  There is a silver cross nearby!
+
+LIGHT LAMP
+
+  You're in foyer.
+
+  The butler is sleeping once again.
+
+  There is a rusty acetylene torch here.
+
+S
+
+  OK
+
+S
+
+  You are in the workshop.  A myriad of tools clutter the workbench
+  and surrounding tables.  A thick layer of sawdust covers the floor.
+  Footprints in the sawdust indicate that you are not alone.
+
+  There is a heavy steel grappling hook here.
+
+E
+
+  There is no way to go in that direction.
+
+NE
+
+  There is no way to go in that direction.
+
+NE
+
+  There is no way to go in that direction.
+
+TAKE CHAMPAGNE
+
+  There is no way to go in that direction.
+
+SW
+
+  I don't see that here.
+
+SW
+
+  There is no way to go in that direction.
+
+W
+
+  There is no way to go in that direction.
+
+S
+
+  There is no way to go in that direction.
+
+EXTINGUISH FIRE
+
+  There is no way to go in that direction.
+
+W
+
+  I don't see that here.
+
+S
+
+  There is no way to go in that direction.
+
+W
+
+  There is no way to go in that direction.
+
+W
+
+  There is no way to go in that direction.
+
+TAKE FIGURE
+
+  There is no way to go in that direction.
+
+E
+
+  I don't see that here.
+
+E
+
+  There is no way to go in that direction.
+
+S
+
+  There is no way to go in that direction.
+
+E
+
+  There is no way to go in that direction.
+
+DROP BOTTLE
+
+  There is no way to go in that direction.
+
+W
+
+  OK
+
+N
+
+  There is no way to go in that direction.
+
+E
+
+  You're in foyer.
+
+  The butler is sleeping once again.
+
+  There is a rusty acetylene torch here.
+
+E
+
+  You're in the parlor.
+
+NE
+
+  There is no way to go in that direction.
+
+N
+
+  There is no way to go in that direction.
+
+POOF
+
+  You are in the armor room.
+
+EXTINGUISH LAMP
+
+  Nothing happens.
+
+E
+
+  The light is out.
+
+D
+
+  There is no way to go in that direction.
+
+TAKE STATUE
+
+  There is no way to go in that direction.
+
+TAKE CROSS
+
+  I don't see that here.
+
+U
+
+  I don't see that here.
+
+W
+
+  There is no way to go in that direction.
+
+POOF
+
+  There is no way to go in that direction.
+
+LIGHT LAMP
+
+  Nothing happens.
+
+S
+
+  OK
+
+S
+
+  You're in the parlor.
+
+E
+
+  You're in foyer.
+
+  The butler is sleeping once again.
+
+  There is a rusty acetylene torch here.
+
+D
+
+  You're in the parlor.
+
+W
+
+  There is no way to go in that direction.
+
+DROP FIGURE
+
+  You are in the dining room.
+
+DROP CHAMPAGNE
+
+  You don't have it with you.
+
+DROP STATUE
+
+  You don't have it with you.
+
+DROP CROSS
+
+  You don't have it with you.
+
+E
+
+  You don't have it with you.
+
+U
+
+  You're in the parlor.
+
+W
+
+  You are in the dim corridor.
+
+N
+
+  The door is locked.
+
+N
+
+  You're in the parlor.
+
+POOF
+
+  You are in the armor room.
+
+EXTINGUISH LAMP
+
+  Nothing happens.
+
+E
+
+  The light is out.
+
+D
+
+  There is no way to go in that direction.
+
+INVENTORY
+
+  There is no way to go in that direction.
+
+TAKE ALL
+
+  You are carrying the following 3 objects:
+     Bloody hatchet
+     Bullet in gun
+     Brass lantern
+
+INVENTORY
+
+  I don't see that here.
+
+TIE ROPE
+
+  You are carrying the following 3 objects:
+     Bloody hatchet
+     Bullet in gun
+     Brass lantern
+
+U
+
+  I don't see that here.
+
+W
+
+  There is no way to go in that direction.
+
+POOF
+
+  There is no way to go in that direction.
+
+LIGHT LAMP
+
+  Nothing happens.
+
+S
+
+  OK
+
+W
+
+  You're in the parlor.
+
+W
+
+  You are in the dining room.
+
+N
+
+  There is no way to go in that direction.
+
+NE
+
+  You are in the kitchen.
+
+  Somebody left some tasty food here.
+
+W
+
+  There is no way to go in that direction.
+
+D
+
+  There is no way to go in that direction.
+
+LIGHT MATCH
+
+  There is no way to go in that direction.
+
+LIGHT TORCH
+
+  I don't see that here.
+
+EXTINGUISH MATCH
+
+  I don't see that here.
+
+MELT GLACIER
+
+  I don't see that here.
+
+EXTINGUISH TORCH
+
+  I don't see that here.
+
+DROP TORCH
+
+  I don't see that here.
+
+N
+
+  You don't have it with you.
+
+E
+
+  You're in pantry.
+
+TAKE SWAN
+
+  There is no way to go in that direction.
+
+W
+
+  I don't see that here.
+
+S
+
+  There is no way to go in that direction.
+
+U
+
+  You are in the kitchen.
+
+  Somebody left some tasty food here.
+
+W
+
+  There is no way to go in that direction.
+
+W
+
+  There is no way to go in that direction.
+
+UNLOCK DOOR
+
+  There is no way to go in that direction.
+
+OPEN DOOR
+
+  The door is already open.
+
+U
+
+  You're at a brick wall.
+
+D
+
+  There is no way to go in that direction.
+
+E
+
+  There is no way to go in that direction.
+
+E
+
+  There is no way to go in that direction.
+
+D
+
+  There is no way to go in that direction.
+
+SW
+
+  There is no way to go in that direction.
+
+S
+
+  There is no way to go in that direction.
+
+W
+
+  There is no way to go in that direction.
+
+S
+
+  You are in the kitchen.
+
+  Somebody left some tasty food here.
+
+THROW HOOK
+
+  You are in the dining room.
+
+E
+
+  You don't have it with you.
+
+TAKE SAPPHIRE
+
+  You're in the parlor.
+
+S
+
+  I don't see that here.
+
+U
+
+  You're in foyer.
+
+  The butler is sleeping once again.
+
+  There is a rusty acetylene torch here.
+
+W
+
+  You're in the upstairs hallway.
+
+  There is a long piece of rope lying on the floor.
+
+  There is a silver cross nearby!
+
+THROW CIGAR
+
+  You're in the boudoir.
+
+LIGHT MATCH
+
+  You don't have it with you.
+
+LIGHT CIGAR
+
+  I don't see that here.
+
+EXTINGUISH MATCH
+
+  You have nothing to light it with.
+
+S
+
+  I don't see that here.
+
+TAKE SWORD
+
+  There is no way to go in that direction.
+
+N
+
+  I don't see that here.
+
+W
+
+  There is no way to go in that direction.
+
+N
+
+  There is no way to go in that direction.
+
+N
+
+  There is no way to go in that direction.
+
+WAVE SWORD
+
+  There is no way to go in that direction.
+
+W
+
+  You don't have it with you.
+
+TAKE MONEY
+
+  There is no way to go in that direction.
+
+E
+
+  I don't see that here.
+
+E
+
+  You're in the upstairs hallway.
+
+  There is a long piece of rope lying on the floor.
+
+  There is a silver cross nearby!
+
+E
+
+  You are in the library.
+
+  A copy of Shakespeare's "HAMLET" lies on the desk.
+
+  A secret tunnel descends into darkness.
+
+SE
+
+  There is no way to go in that direction.
+
+N
+
+  There is no way to go in that direction.
+
+D
+
+  There is no way to go in that direction.
+
+S
+
+  You're in single mirror chamber.
+
+  A secret tunnel descends into darkness.
+
+SW
+
+  You're in a dark E/W corridor.
+
+E
+
+  There is no way to go in that direction.
+
+NE
+
+  You are in the lab.
+
+S
+
+  There is no way to go in that direction.
+
+E
+
+  You are in a dark E/W passage.
+
+D
+
+  You are in the lab.
+
+W
+
+  There is no way to go in that direction.
+
+DROP SWORD
+
+  You're in a dark E/W corridor.
+
+DROP SAPPHIRE
+
+  You don't have it with you.
+
+DROP MONEY
+
+  You don't have it with you.
+
+DROP SWAN
+
+  You don't have it with you.
+
+DROP KEY
+
+  You don't have it with you.
+
+E
+
+  You don't have it with you.
+
+U
+
+  You are in the lab.
+
+W
+
+  There is no way to go in that direction.
+
+N
+
+  You're in a dark E/W corridor.
+
+N
+
+  You're in single mirror chamber.
+
+  A secret tunnel descends into darkness.
+
+POOF
+
+  There is no way to go in that direction.
+
+EXTINGUISH LAMP
+
+  Nothing happens.
+
+E
+
+  The light is out.
+
+D
+
+  There is no way to go in that direction.
+
+W
+
+  You are in the library.
+
+  A copy of Shakespeare's "HAMLET" lies on the desk.
+
+  A secret tunnel descends into darkness.
+
+W
+
+  You're in the upstairs hallway.
+
+  There is a long piece of rope lying on the floor.
+
+  There is a silver cross nearby!
+
+N
+
+  You're in the boudoir.
+
+TAKE BOAT
+
+  There is no way to go in that direction.
+
+CROSS
+
+  I don't see that here.
+
+D
+
+  You dont have a boat to cross in.
+
+LIGHT LAMP
+
+  There is no way to go in that direction.
+
+E
+
+  OK
+
+E
+
+  You're in the upstairs hallway.
+
+  There is a long piece of rope lying on the floor.
+
+  There is a silver cross nearby!
+
+D
+
+  You are in the library.
+
+  A copy of Shakespeare's "HAMLET" lies on the desk.
+
+  A secret tunnel descends into darkness.
+
+E
+
+  You're in single mirror chamber.
+
+  A secret tunnel descends into darkness.
+
+N
+
+  There is no way to go in that direction.
+
+SW
+
+  There is no way to go in that direction.
+
+S
+
+  There is no way to go in that direction.
+
+S
+
+  You're in a dark E/W corridor.
+
+E
+
+  There is no way to go in that direction.
+
+TAKE BOTTLE
+
+  You are in the lab.
+
+CROSS
+
+  I don't see that here.
+
+DROP BOTTLE
+
+  You dont have a boat to cross in.
+
+TAKE RUBY
+
+  You don't have it with you.
+
+CROSS
+
+  I don't see that here.
+
+DROP BOAT
+
+  You dont have a boat to cross in.
+
+W
+
+  You don't have it with you.
+
+N
+
+  You're in a dark E/W corridor.
+
+E
+
+  You're in single mirror chamber.
+
+  A secret tunnel descends into darkness.
+
+E
+
+  There is no way to go in that direction.
+
+NE
+
+  There is no way to go in that direction.
+
+S
+
+  There is no way to go in that direction.
+
+E
+
+  You're in a dark E/W corridor.
+
+D
+
+  You are in the lab.
+
+W
+
+  There is no way to go in that direction.
+
+DROP RUBY
+
+  You're in a dark E/W corridor.
+
+E
+
+  You don't have it with you.
+
+U
+
+  You are in the lab.
+
+BREAK DOOR
+
+  There is no way to go in that direction.
+
+N
+
+  You are not strong enough to break it.
+
+WAVE AXE
+
+  There is no way to go in that direction.
+
+W
+
+  Nothing happens.
+
+  You'd better hurry.  The sun is setting.
+
+WAVE AXE
+
+  You're in a dark E/W corridor.
+
+E
+
+  Nothing happens.
+
+N
+
+  You are in the lab.
+
+WAVE AXE
+
+  There is no way to go in that direction.
+
+S
+
+  Nothing happens.
+
+E
+
+  You are in a dark E/W passage.
+
+WAVE AXE
+
+  You are in the lab.
+
+W
+
+  Nothing happens.
+
+S
+
+  You're in a dark E/W corridor.
+
+SCORE
+
+  There is no way to go in that direction.
+
+HONK
+
+  You made 159 moves, and scored 55 points.
+
