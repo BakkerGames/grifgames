@@ -1,3 +1,52 @@
+// roommaps.grif - GRIF format
+@roommap.1.0
+	@writeline("\n  +-------+  ")
+@roommap.1.n
+	@writeline("\n      |      \n  +---N---+  ")
+@roommap.1.ne
+	@writeline("\n           / \n  +------NE  ")
+@roommap.1.nne
+	@writeline("\n      |    / \n  +---N--NE  ")
+@roommap.1.nw
+	@writeline("\n \           \n  NW------+  ")
+@roommap.1.nwn
+	@writeline("\n \    |      \n  NW--N---+  ")
+@roommap.1.nwne
+	@writeline("\n \         / \n  NW-----NE  ")
+@roommap.1.nwnne
+	@writeline("\n \    |    / \n  NW--N--NE  ")
+@roommap.2.0
+	@writeline("  |       |  ")
+@roommap.2.u
+	@writeline("  |     U |  ")
+@roommap.3.0
+	@writeline("  |       |  ")
+@roommap.3.e
+	@writeline("  |       E--")
+@roommap.3.w
+	@writeline("--W       |  ")
+@roommap.3.we
+	@writeline("--W       E--")
+@roommap.4.0
+	@writeline("  |       |  ")
+@roommap.4.d
+	@writeline("  | D     |  ")
+@roommap.5.0
+	@writeline("  +-------+  ")
+@roommap.5.s
+	@writeline("  +---S---+  \n      |      ")
+@roommap.5.se
+	@writeline("  +------SE  \n           \ ")
+@roommap.5.sse
+	@writeline("  +---S--SE  \n      |    \ ")
+@roommap.5.sw
+	@writeline("  SW------+  \n /           ")
+@roommap.5.sws
+	@writeline("  SW--S---+  \n /    |      ")
+@roommap.5.swse
+	@writeline("  SW-----SE  \n /         \ ")
+@roommap.5.swsse
+	@writeline("  SW--S--SE  \n /    |    \ ")
 modmsg.maps
 	\n  The "roommaps" mod is installed. Room images will show current exits.
 room.1.roommap
@@ -636,57 +685,43 @@ room.100.roommap
 	@roommap.3.0
 	@roommap.4.0
 	@roommap.5.0
-@roommap.1.0
-	@writeline("\n  +-------+  ")
-@roommap.1.n
-	@writeline("\n      |      \n  +---N---+  ")
-@roommap.1.ne
-	@writeline("\n           / \n  +------NE  ")
-@roommap.1.nne
-	@writeline("\n      |    / \n  +---N--NE  ")
-@roommap.1.nw
-	@writeline("\n \           \n  NW------+  ")
-@roommap.1.nwn
-	@writeline("\n \    |      \n  NW--N---+  ")
-@roommap.1.nwne
-	@writeline("\n \         / \n  NW-----NE  ")
-@roommap.1.nwnne
-	@writeline("\n \    |    / \n  NW--N--NE  ")
-@roommap.2.0
-	@writeline("  |       |  ")
-@roommap.2.u
-	@writeline("  |     U |  ")
-@roommap.3.0
-	@writeline("  |       |  ")
-@roommap.3.e
-	@writeline("  |       E--")
-@roommap.3.w
-	@writeline("--W       |  ")
-@roommap.3.we
-	@writeline("--W       E--")
-@roommap.4.0
-	@writeline("  |       |  ")
-@roommap.4.d
-	@writeline("  | D     |  ")
-@roommap.5.0
-	@writeline("  +-------+  ")
-@roommap.5.s
-	@writeline("  +---S---+  \n      |      ")
-@roommap.5.se
-	@writeline("  +------SE  \n           \ ")
-@roommap.5.sse
-	@writeline("  +---S--SE  \n      |    \ ")
-@roommap.5.sw
-	@writeline("  SW------+  \n /           ")
-@roommap.5.sws
-	@writeline("  SW--S---+  \n /    |      ")
-@roommap.5.swse
-	@writeline("  SW-----SE  \n /         \ ")
-@roommap.5.swsse
-	@writeline("  SW--S--SE  \n /    |    \ ")
 script.roomimage
 	@if @true(@get(value.roommap)) @then
 		@script(@concat("room.",@room,".roommap"))
 	@endif
+system.pattern.item.location
+	{itemprefix}.{item}.location
+system.pattern.item.longdesc
+	{itemprefix}.{item}.longdesc
+system.pattern.item.shortdesc
+	{itemprefix}.{item}.shortdesc
+system.pattern.room.exit
+	{roomprefix}.{room}.exit.{direction}
+system.pattern.room.longdesc
+	{roomprefix}.{room}.longdesc
+system.pattern.room.shortdesc
+	{roomprefix}.{room}.shortdesc
+system.player.location
+	value.room
+system.prefix.command
+	command
+system.prefix.direction
+	direction
+system.prefix.item
+	item
+system.prefix.message
+	message,modmsg
+system.prefix.room
+	room
+system.prefix.script
+	script,background
+system.prefix.system
+	system
+system.prefix.value
+	value
+system.prefix.vocabulary
+	verb,noun,adjective,preposition,article
+system.version
+	2026.05.17
 value.roommap
 	true

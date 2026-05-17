@@ -2605,7 +2605,7 @@ item.80.hint
 	@comment("wizard")
 	@set(temp.hint,@get(message.hint.28))
 message.1000
-	\s Castlequest (C) 1980\n\n\s By Michael S. Holtzman and Mark Kershenblatt.\n\n\s Port to GRIF by Scott Bakker (C) 2024\n
+	\s Castlequest (C) 1980\n\n  By Michael S. Holtzman and Mark Kershenblatt.\n\n  Port to GRIF by Scott Bakker (C) 2024\n
 message.1001
 	\s Welcome to CASTLEQUEST!! Would you like instructions?
 message.1002
@@ -5366,6 +5366,8 @@ system.do_what_with
 	\n  Do what with the "{0}"?
 system.gamename
 	Castlequest
+system.gametitle
+	Castlequest
 system.intro
 	@comment("show intro")
 	@if @false(@get(value.introdone)) @then
@@ -5379,10 +5381,42 @@ system.intro
 	@endif
 system.output_width
 	-1
+system.pattern.item.location
+	{itemprefix}.{item}.location
+system.pattern.item.longdesc
+	{itemprefix}.{item}.longdesc
+system.pattern.item.shortdesc
+	{itemprefix}.{item}.shortdesc
+system.pattern.room.exit
+	{roomprefix}.{room}.exit.{direction}
+system.pattern.room.longdesc
+	{roomprefix}.{room}.longdesc
+system.pattern.room.shortdesc
+	{roomprefix}.{room}.shortdesc
+system.player.location
+	value.room
+system.prefix.command
+	command
+system.prefix.direction
+	direction
+system.prefix.item
+	item
+system.prefix.message
+	message,modmsg
+system.prefix.room
+	room
+system.prefix.script
+	script,background
+system.prefix.system
+	system
+system.prefix.value
+	value
+system.prefix.vocabulary
+	verb,noun,adjective,preposition,article
 system.prompt
 	\n
 system.version
-	2026.01.19
+	2026.05.17
 system.wordsize
 	4
 value.bat

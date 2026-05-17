@@ -1,3 +1,4 @@
+// corrections.grif - GRIF format
 message.1014
 	\n  You blew it.  I think you'd better start over.
 message.1064
@@ -32,3 +33,37 @@ room.89.longdesc
 	\n  You are in an extremely cold chamber embedded deep\n  within the glacier.  Stalactites of ice hang from\n  the ceiling far above you.  An ominous tunnel leaves\n  to the west.
 room.100.longdesc
 	\n  You feel the elevator jump as you are whisked up towards\n  ground level.  You emerge in the open air in the village\n  square amidst cheers from the local villagers.  Banners\n  proclaiming the death of count Vladimir hang from most\n  of the old buildings around the square.  The mayor\n  presents you with a key to the city and makes your\n  birthday a holiday.  You watch the sun rise as you\n  bask in your newfound fame.
+system.pattern.item.location
+	{itemprefix}.{item}.location
+system.pattern.item.longdesc
+	{itemprefix}.{item}.longdesc
+system.pattern.item.shortdesc
+	{itemprefix}.{item}.shortdesc
+system.pattern.room.exit
+	{roomprefix}.{room}.exit.{direction}
+system.pattern.room.longdesc
+	{roomprefix}.{room}.longdesc
+system.pattern.room.shortdesc
+	{roomprefix}.{room}.shortdesc
+system.player.location
+	value.room
+system.prefix.command
+	command
+system.prefix.direction
+	direction
+system.prefix.item
+	item
+system.prefix.message
+	message,modmsg
+system.prefix.room
+	room
+system.prefix.script
+	script,background
+system.prefix.system
+	system
+system.prefix.value
+	value
+system.prefix.vocabulary
+	verb,noun,adjective,preposition,article
+system.version
+	2026.05.17
