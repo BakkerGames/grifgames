@@ -2319,11 +2319,7 @@ item.10.afterdrop
 		@script(script.check_butler_note)
 		@if @eq(@get(value.but),2) @then
 			@msg(@concat("message.des.",@add(@get(value.but),400)))
-		@else
-			@msg(message.1008)
 		@endif
-	@else
-		@msg(message.1008)
 	@endif
 item.10.hint
 	@comment("paper")
