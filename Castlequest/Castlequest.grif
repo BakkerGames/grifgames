@@ -60,12 +60,23 @@
 		@endif
 		@script(script.roomimage)
 		@script(@concat("room.",@room,".beforelook"))
-		@if @true(@get(@concat("room.",@room,".visited"))) @or @eq(@get(value.ibrief),1) @then
+		@set(_full,true)
+		@if @true(@get(@concat("room.",@room,".visited"))) @then
+			@set(_full,false)
+		@endif
+		@if @eq(@get(value.ibrief),1) @then
+			@set(_full,false)
+		@endif
+		@if @true(@get(value.lookfull)) @then
+			@set(_full,true)
+		@endif
+		@if @false(@get(_full)) @then
 			@msg(@concat("room.",@room,".shortdesc"))
 		@else
 			@msg(@concat("room.",@room,".longdesc"))
 			@set(@concat("room.",@room,".visited"),true)
 		@endif
+		@set(value.lookfull,false)
 		@script(@concat("room.",@room,".afterlook"))
 		@for(i,1,@get(value.nitems))
 			@if @here($i) @then
@@ -89,7 +100,7 @@
 		@endfor
 	@endif
 @lookfull
-	@set(@concat("room.",@room,".visited"),false)
+	@set(value.lookfull,true)
 	@look
 @modmessages
 	@foreachkey(i,"modmsg.")
@@ -2220,6 +2231,54 @@ command.61
 	@comment("brief")
 	@set(value.ibrief,1)
 	@msg(message.1073)
+direction.d
+	D,DOWN
+direction.d.command
+	10
+direction.e
+	E,EAST
+direction.e.command
+	3
+direction.enter
+	ENTE,IN
+direction.enter.command
+	13
+direction.leave
+	LEAV,OUT,EXIT
+direction.leave.command
+	14
+direction.n
+	N,NORT
+direction.n.command
+	1
+direction.ne
+	NE
+direction.ne.command
+	2
+direction.nw
+	NW
+direction.nw.command
+	8
+direction.s
+	S,SOUT
+direction.s.command
+	5
+direction.se
+	SE
+direction.se.command
+	4
+direction.sw
+	SW
+direction.sw.command
+	6
+direction.u
+	U,UP,CLIM
+direction.u.command
+	9
+direction.w
+	W,WEST
+direction.w.command
+	7
 item.1.hint
 	@comment("kerosene")
 	@set(temp.hint,@get(message.hint.29))
@@ -5412,7 +5471,7 @@ system.prefix.vocabulary
 system.prompt
 	\n
 system.version
-	2026.05.17
+	2026.05.20
 system.wordsize
 	4
 value.bat
@@ -5623,34 +5682,10 @@ value.wolf
 	false
 value.wolf.comment
 	IS THE WOLF IN THE ROOM?
-verb.1
-	N,NORT
-verb.2
-	NE
-verb.3
-	E,EAST
-verb.4
-	SE
-verb.5
-	S,SOUT
-verb.6
-	SW
-verb.7
-	W,WEST
-verb.8
-	NW
-verb.9
-	CLIM,U,UP
-verb.10
-	D,DOWN
 verb.11
 	T,TAKE
 verb.12
 	DROP
-verb.13
-	ENTE,IN
-verb.14
-	EXIT,LEAV,OUT
 verb.15
 	ATTA,KILL
 verb.17
