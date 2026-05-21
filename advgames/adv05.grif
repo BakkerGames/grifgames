@@ -2313,6 +2313,8 @@ system.do_what_with
 	Do what with the "{0}"?
 system.gamename
 	adv05
+system.gametitle
+	The Count
 system.introdone
 	false
 system.itemcount

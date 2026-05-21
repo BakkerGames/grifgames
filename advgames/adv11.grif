@@ -2450,6 +2450,8 @@ system.do_what_with
 	Do what with the "{0}"?
 system.gamename
 	adv11
+system.gametitle
+	Savage Island, Part 2
 system.introdone
 	false
 system.itemcount

@@ -2028,6 +2028,8 @@ system.do_what_with
 	Do what with the "{0}"?
 system.gamename
 	adv02
+system.gametitle
+	Pirate Adventure
 system.introdone
 	false
 system.itemcount

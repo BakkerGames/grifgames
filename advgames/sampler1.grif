@@ -1846,6 +1846,8 @@ system.do_what_with
 	Do what with the "{0}"?
 system.gamename
 	sampler1
+system.gametitle
+	Mini-Adventure Sampler
 system.introdone
 	false
 system.itemcount

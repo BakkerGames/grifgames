@@ -1718,6 +1718,8 @@ system.do_what_with
 	Do what with the "{0}"?
 system.gamename
 	adv03
+system.gametitle
+	Mission Impossible
 system.introdone
 	false
 system.itemcount

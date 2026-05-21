@@ -2468,6 +2468,8 @@ system.do_what_with
 	Do what with the "{0}"?
 system.gamename
 	adv08
+system.gametitle
+	Pyramid of Doom
 system.introdone
 	false
 system.itemcount

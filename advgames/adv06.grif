@@ -2344,6 +2344,8 @@ system.do_what_with
 	Do what with the "{0}"?
 system.gamename
 	adv06
+system.gametitle
+	Strange Odyssey
 system.introdone
 	false
 system.itemcount

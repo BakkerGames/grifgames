@@ -2057,6 +2057,8 @@ system.do_what_with
 	Do what with the "{0}"?
 system.gamename
 	adv01
+system.gametitle
+	Adventureland
 system.introdone
 	false
 system.itemcount
