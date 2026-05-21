@@ -93,7 +93,7 @@ background.4
 		@quit
 	@endif
 background.5
-	@if @isfalse(@get(value.flag.1)) @then
+	@if @false(@get(value.flag.1)) @then
 		@comment("INTRO")
 		@set(value.flag.1,true)
 		@comment("continue")
@@ -211,7 +211,7 @@ background.18
 		@set(value.counter.4,@get(temp.swap))
 	@endif
 background.22
-	@if @istrue(@get(value.flag.4)) @then
+	@if @true(@get(value.flag.4)) @then
 		@comment("PHASER FIRED")
 		@comment("continue")
 		@set(value.flag.4,false)
@@ -219,14 +219,14 @@ background.22
 		@set(value.counter,@get(value.counter.2))
 		@set(value.counter.2,@get(temp.swap))
 		@comment("...continued into Cmd 23")
-		@if @isfalse(@get(value.flag.3)) @then
+		@if @false(@get(value.flag.3)) @then
 			@subto(value.counter,4)
 			@set(temp.swap,@get(value.counter))
 			@set(value.counter,@get(value.counter.2))
 			@set(value.counter.2,@get(temp.swap))
 		@endif
 		@comment("...continued into Cmd 24")
-		@if @istrue(@get(value.flag.3)) @then
+		@if @true(@get(value.flag.3)) @then
 			@subto(value.counter,7)
 			@set(temp.swap,@get(value.counter))
 			@set(value.counter,@get(value.counter.2))
@@ -235,7 +235,7 @@ background.22
 		@comment("...continued into Cmd 25")
 	@endif
 background.26
-	@if @istrue(@get(value.flag.2)) @and @not @carry(7) @then
+	@if @true(@get(value.flag.2)) @and @not @carry(7) @then
 		@comment("DIE NO AIR")
 		@msg(message.10)
 		@msg(message.8)
@@ -304,7 +304,7 @@ background.39
 		@quit
 	@endif
 background.40
-	@if @istrue(@get(value.flag.9)) @then
+	@if @true(@get(value.flag.9)) @then
 		@set(temp.swap,@get(value.counter))
 		@set(value.counter,@get(value.counter.5))
 		@set(value.counter.5,@get(temp.swap))
@@ -329,7 +329,7 @@ background.40
 		@set(value.counter.5,@get(temp.swap))
 	@endif
 background.44
-	@if @carry(52) @and @isfalse(@get(value.flag.9)) @and @isfalse(@get(value.flag.15)) @then
+	@if @carry(52) @and @false(@get(value.flag.9)) @and @false(@get(value.flag.15)) @then
 		@comment("WEAR OFF GOGGLES")
 		@set(value.flag.dark,true)
 		@look
@@ -391,7 +391,7 @@ command.1.9
 	@endif
 command.1.31
 	@comment("Cmd 65 - go door")
-	@if @here(19) @and @isfalse(@get(value.flag.7)) @then
+	@if @here(19) @and @false(@get(value.flag.7)) @then
 		@msg(message.3)
 		@goto(12)
 		@look
@@ -406,7 +406,7 @@ command.1.31
 		@goto(2)
 		@look
 		@comment("...continued into Cmd 134")
-	@elseif @here(19) @and @istrue(@get(value.flag.7)) @then
+	@elseif @here(19) @and @true(@get(value.flag.7)) @then
 		@msg(message.3)
 		@goto(22)
 		@drop(2)
@@ -414,7 +414,7 @@ command.1.31
 	@endif
 command.1.32
 	@comment("Cmd 120 - go curt")
-	@if @isroom(6) @and @istrue(@get(value.flag.6)) @then
+	@if @isroom(6) @and @true(@get(value.flag.6)) @then
 		@comment("OUT NO AIR")
 		@set(temp.swap,@get(value.room))
 		@set(value.room,@get(value.locationswap))
@@ -432,7 +432,7 @@ command.1.32
 		@set(value.flag.2,false)
 		@msg(message.3)
 		@comment("...continued into Cmd 122")
-	@elseif @isroom(6) @and @isfalse(@get(value.flag.6)) @then
+	@elseif @isroom(6) @and @false(@get(value.flag.6)) @then
 		@comment("OUT AIR")
 		@set(temp.swap,@get(value.room))
 		@set(value.room,@get(value.locationswap))
@@ -618,13 +618,13 @@ command.15.24
 	@msg(message.39)
 command.17.39
 	@comment("Cmd 88 - pull rod")
-	@if @here(27) @and @isfalse(@get(value.flag.5)) @then
+	@if @here(27) @and @false(@get(value.flag.5)) @then
 		@msg(message.2)
 		@msg(message.33)
 		@msg(message.34)
 		@msg(message.36)
 		@comment("...continued into Cmd 103")
-	@elseif @here(27) @and @istrue(@get(value.flag.5)) @then
+	@elseif @here(27) @and @true(@get(value.flag.5)) @then
 		@msg(message.37)
 		@msg(message.44)
 		@msg(message.34)
@@ -695,7 +695,7 @@ command.24.74
 		@comment("...continued into Cmd 194")
 		@msg(message.5)
 		@comment("...continued into Cmd 195")
-		@if @istrue(@get(value.flag.2)) @then
+		@if @true(@get(value.flag.2)) @then
 			@msg(message.8)
 		@endif
 		@comment("...continued into Cmd 196")
@@ -722,12 +722,12 @@ command.25.27
 		@swap(item.20.location,item.21.location)
 		@comment("continue")
 		@comment("...continued into Cmd 54")
-		@if @isfalse(@get(value.flag.7)) @and @here(19) @then
+		@if @false(@get(value.flag.7)) @and @here(19) @then
 			@set(value.flag.2,true)
 			@msg(message.62)
 		@endif
 		@comment("...continued into Cmd 55")
-		@if @isfalse(@get(value.flag.7)) @and @here(18) @then
+		@if @false(@get(value.flag.7)) @and @here(18) @then
 			@set(value.flag.2,false)
 		@endif
 	@endif
@@ -739,11 +739,11 @@ command.25.28
 		@msg(message.19)
 		@msg(message.2)
 		@comment("...continued into Cmd 132")
-	@elseif @here(5) @and @somewhere(37) @and @isfalse(@get(value.flag.7)) @then
+	@elseif @here(5) @and @somewhere(37) @and @false(@get(value.flag.7)) @then
 		@msg(message.52)
 		@set(value.flag.7,true)
 		@comment("...continued into Cmd 133")
-	@elseif @here(5) @and @somewhere(37) @and @istrue(@get(value.flag.7)) @then
+	@elseif @here(5) @and @somewhere(37) @and @true(@get(value.flag.7)) @then
 		@msg(message.52)
 		@set(value.flag.7,false)
 	@endif
@@ -756,7 +756,7 @@ command.25.37
 		@msg(message.3)
 		@msg(message.12)
 		@comment("...continued into Cmd 58")
-	@elseif @herecarry(22) @and @herecarry(23) @and @isfalse(@get(value.flag.8)) @then
+	@elseif @herecarry(22) @and @herecarry(23) @and @false(@get(value.flag.8)) @then
 		@msg(message.3)
 		@msg(message.12)
 		@msg(message.10)
@@ -767,7 +767,7 @@ command.25.37
 		@set(value.flag.dark,false)
 		@goto(35)
 		@comment("...continued into Cmd 60")
-	@elseif @herecarry(22) @and @herecarry(23) @and @istrue(@get(value.flag.8)) @then
+	@elseif @herecarry(22) @and @herecarry(23) @and @true(@get(value.flag.8)) @then
 		@comment("CHARGE SUIT")
 		@set(temp.swap,@get(value.counter))
 		@set(value.counter,@get(value.counter.1))
@@ -791,13 +791,13 @@ command.25.37
 	@endif
 command.25.39
 	@comment("Cmd 89 - push rod")
-	@if @here(27) @and @istrue(@get(value.flag.5)) @then
+	@if @here(27) @and @true(@get(value.flag.5)) @then
 		@msg(message.2)
 		@msg(message.33)
 		@msg(message.35)
 		@msg(message.36)
 		@comment("...continued into Cmd 100")
-	@elseif @here(27) @and @isfalse(@get(value.flag.5)) @then
+	@elseif @here(27) @and @false(@get(value.flag.5)) @then
 		@comment("continue")
 		@msg(message.37)
 		@msg(message.44)
@@ -827,15 +827,15 @@ command.25.41
 	@endif
 command.25.77
 	@comment("Cmd 188 - push yell")
-	@if @herecarry(51) @and @isfalse(@get(value.flag.10)) @and @isfalse(@get(value.flag.9)) @then
+	@if @herecarry(51) @and @false(@get(value.flag.10)) @and @false(@get(value.flag.9)) @then
 		@msg(message.3)
 		@set(value.flag.9,true)
 		@comment("...continued into Cmd 190")
-	@elseif @herecarry(51) @and @isfalse(@get(value.flag.10)) @and @istrue(@get(value.flag.9)) @then
+	@elseif @herecarry(51) @and @false(@get(value.flag.10)) @and @true(@get(value.flag.9)) @then
 		@msg(message.3)
 		@set(value.flag.9,false)
 		@comment("...continued into Cmd 191")
-	@elseif @herecarry(51) @and @istrue(@get(value.flag.10)) @then
+	@elseif @herecarry(51) @and @true(@get(value.flag.10)) @then
 		@comment("BURNT OUT")
 		@msg(message.3)
 		@msg(message.2)
@@ -843,12 +843,12 @@ command.25.77
 	@endif
 command.25.79
 	@comment("Cmd 57 - push whit")
-	@if @herecarry(22) @and @isfalse(@get(value.flag.8)) @then
+	@if @herecarry(22) @and @false(@get(value.flag.8)) @then
 		@msg(message.3)
 		@msg(message.2)
 		@set(value.flag.8,true)
 		@comment("...continued into Cmd 72")
-	@elseif @herecarry(22) @and @istrue(@get(value.flag.8)) @then
+	@elseif @herecarry(22) @and @true(@get(value.flag.8)) @then
 		@msg(message.3)
 		@msg(message.2)
 		@set(value.flag.8,false)
@@ -885,7 +885,7 @@ command.33.32
 	@endif
 command.33.41
 	@comment("Cmd 98 - touc plas")
-	@if @here(25) @and @isfalse(@get(value.flag.5)) @then
+	@if @here(25) @and @false(@get(value.flag.5)) @then
 		@comment("OUT")
 		@msg(message.40)
 		@comment("continue")
@@ -898,7 +898,7 @@ command.33.41
 		@set(value.counter,@get(value.counter.3))
 		@set(value.counter.3,@get(temp.swap))
 		@comment("...continued into Cmd 105")
-	@elseif @here(25) @and @istrue(@get(value.flag.5)) @then
+	@elseif @here(25) @and @true(@get(value.flag.5)) @then
 		@comment("IN")
 		@comment("continue")
 		@set(temp.swap,@get(value.counter))
@@ -965,18 +965,18 @@ command.37
 	@look
 command.37.8
 	@comment("Cmd 181 - look houn")
-	@if @herecarry(30) @and @isfalse(@get(value.flag.15)) @then
+	@if @herecarry(30) @and @false(@get(value.flag.15)) @then
 		@msg(message.79)
 	@endif
 command.37.10
 	@comment("Cmd 128 - look view")
-	@if @here(32) @and @isfalse(@get(value.flag.15)) @then
+	@if @here(32) @and @false(@get(value.flag.15)) @then
 		@msg(message.3)
 		@msg(message.48)
 	@endif
 command.37.12
 	@comment("Cmd 167 - look crys")
-	@if @herecarry(36) @and @isfalse(@get(value.flag.15)) @then
+	@if @herecarry(36) @and @false(@get(value.flag.15)) @then
 		@msg(message.68)
 	@endif
 command.37.20
@@ -986,7 +986,7 @@ command.37.20
 	@endif
 command.37.22
 	@comment("Cmd 83 - look phas")
-	@if @herecarry(10) @and @isfalse(@get(value.flag.15)) @then
+	@if @herecarry(10) @and @false(@get(value.flag.15)) @then
 		@comment("continue")
 		@set(temp.swap,@get(value.counter))
 		@set(value.counter,@get(value.counter.2))
@@ -994,7 +994,7 @@ command.37.22
 		@msg(message.32)
 		@get(value.counter)
 		@comment("...continued into Cmd 84")
-		@if @istrue(@get(value.flag.3)) @then
+		@if @true(@get(value.flag.3)) @then
 			@msg(message.13)
 			@msg(message.14)
 			@set(temp.swap,@get(value.counter))
@@ -1002,7 +1002,7 @@ command.37.22
 			@set(value.counter.2,@get(temp.swap))
 		@endif
 		@comment("...continued into Cmd 85")
-		@if @isfalse(@get(value.flag.3)) @then
+		@if @false(@get(value.flag.3)) @then
 			@msg(message.13)
 			@msg(message.15)
 			@set(temp.swap,@get(value.counter))
@@ -1010,14 +1010,14 @@ command.37.22
 			@set(value.counter.2,@get(temp.swap))
 		@endif
 		@comment("...continued into Cmd 86")
-	@elseif @herecarry(11) @and @isfalse(@get(value.flag.15)) @then
+	@elseif @herecarry(11) @and @false(@get(value.flag.15)) @then
 		@comment("EMPTY")
 		@msg(message.32)
 		@msg(message.31)
 	@endif
 command.37.24
 	@comment("Cmd 130 - look mach")
-	@if @herecarry(22) @and @isfalse(@get(value.flag.15)) @then
+	@if @herecarry(22) @and @false(@get(value.flag.15)) @then
 		@msg(message.3)
 		@msg(message.49)
 	@endif
@@ -1033,31 +1033,31 @@ command.37.32
 	@endif
 command.37.41
 	@comment("Cmd 173 - look plas")
-	@if @here(25) @and @isfalse(@get(value.flag.15)) @then
+	@if @here(25) @and @false(@get(value.flag.15)) @then
 		@msg(message.75)
 	@endif
 command.37.58
 	@comment("Cmd 159 - look belt")
-	@if @herecarry(44) @and @isfalse(@get(value.flag.15)) @then
+	@if @herecarry(44) @and @false(@get(value.flag.15)) @then
 		@msg(message.72)
 	@endif
 command.37.59
 	@comment("Cmd 131 - look pain")
-	@if @herecarry(47) @and @istrue(@get(value.flag.9)) @and @carry(52) @and @isfalse(@get(value.flag.15)) @then
+	@if @herecarry(47) @and @true(@get(value.flag.9)) @and @carry(52) @and @false(@get(value.flag.15)) @then
 		@msg(message.3)
 		@msg(message.73)
 		@comment("...continued into Cmd 160")
-	@elseif @herecarry(47) @and @isfalse(@get(value.flag.15)) @then
+	@elseif @herecarry(47) @and @false(@get(value.flag.15)) @then
 		@msg(message.3)
 		@msg(message.81)
 		@comment("...continued into Cmd 189")
-	@elseif @herecarry(47) @and @not @carry(52) @and @isfalse(@get(value.flag.15)) @then
+	@elseif @herecarry(47) @and @not @carry(52) @and @false(@get(value.flag.15)) @then
 		@msg(message.3)
 		@msg(message.81)
 	@endif
 command.37.69
 	@comment("Cmd 177 - look scul")
-	@if @herecarry(50) @and @isfalse(@get(value.flag.15)) @then
+	@if @herecarry(50) @and @false(@get(value.flag.15)) @then
 		@comment("continue")
 		@msg(message.3)
 		@msg(message.77)
@@ -1079,7 +1079,7 @@ command.37.74
 	@endif
 command.37.75
 	@comment("Cmd 185 - look gogg")
-	@if @herecarry(51) @and @isfalse(@get(value.flag.15)) @then
+	@if @herecarry(51) @and @false(@get(value.flag.15)) @then
 		@msg(message.80)
 	@endif
 command.41
@@ -1126,21 +1126,21 @@ command.48.75
 	@endif
 command.51
 	@comment("Cmd 80 - shoo")
-	@if @carry(10) @and @istrue(@get(value.flag.3)) @and @isroom(1) @then
+	@if @carry(10) @and @true(@get(value.flag.3)) @and @isroom(1) @then
 		@comment("IN SHIP")
 		@msg(message.23)
 		@goto(35)
 		@msg(message.29)
 		@quit
 		@comment("...continued into Cmd 81")
-	@elseif @carry(10) @and @istrue(@get(value.flag.3)) @and @isroom(7) @then
+	@elseif @carry(10) @and @true(@get(value.flag.3)) @and @isroom(7) @then
 		@comment("IN SHIP")
 		@msg(message.23)
 		@goto(35)
 		@msg(message.29)
 		@quit
 		@comment("...continued into Cmd 82")
-	@elseif @carry(10) @and @istrue(@get(value.flag.3)) @and @isroom(2) @then
+	@elseif @carry(10) @and @true(@get(value.flag.3)) @and @isroom(2) @then
 		@comment("IN SHIP")
 		@msg(message.23)
 		@goto(35)
@@ -1161,13 +1161,13 @@ command.51
 	@endif
 command.51.8
 	@comment("Cmd 123 - shoo houn")
-	@if @carry(10) @and @herecarry(30) @and @istrue(@get(value.flag.3)) @then
+	@if @carry(10) @and @herecarry(30) @and @true(@get(value.flag.3)) @then
 		@set(value.flag.4,true)
 		@msg(message.23)
 		@msg(message.24)
 		@sendto(30,0)
 		@comment("...continued into Cmd 124")
-	@elseif @carry(10) @and @herecarry(30) @and @isfalse(@get(value.flag.3)) @then
+	@elseif @carry(10) @and @herecarry(30) @and @false(@get(value.flag.3)) @then
 		@comment("STUN IT")
 		@set(value.flag.4,true)
 		@msg(message.23)
@@ -1196,7 +1196,7 @@ command.51.32
 	@endif
 command.51.34
 	@comment("Cmd 78 - shoo ship")
-	@if @carry(10) @and @istrue(@get(value.flag.3)) @and @here(2) @then
+	@if @carry(10) @and @true(@get(value.flag.3)) @and @here(2) @then
 		@msg(message.23)
 		@set(value.flag.4,true)
 		@msg(message.24)
@@ -1204,7 +1204,7 @@ command.51.34
 	@endif
 command.51.39
 	@comment("Cmd 93 - shoo rod")
-	@if @carry(10) @and @istrue(@get(value.flag.3)) @and @here(27) @then
+	@if @carry(10) @and @true(@get(value.flag.3)) @and @here(27) @then
 		@msg(message.23)
 		@msg(message.24)
 		@sendto(27,0)
@@ -1212,17 +1212,17 @@ command.51.39
 	@endif
 command.51.41
 	@comment("Cmd 94 - shoo plas")
-	@if @carry(10) @and @istrue(@get(value.flag.3)) @and @here(25) @then
+	@if @carry(10) @and @true(@get(value.flag.3)) @and @here(25) @then
 		@msg(message.23)
 		@msg(message.24)
 		@sendto(25,0)
 		@set(value.flag.4,true)
 		@comment("...continued into Cmd 95")
-	@elseif @carry(10) @and @isfalse(@get(value.flag.3)) @and @here(25) @then
+	@elseif @carry(10) @and @false(@get(value.flag.3)) @and @here(25) @then
 		@msg(message.40)
 		@set(value.flag.4,true)
 		@comment("...continued into Cmd 97")
-	@elseif @carry(10) @and @istrue(@get(value.flag.3)) @and @herecarry(29) @then
+	@elseif @carry(10) @and @true(@get(value.flag.3)) @and @herecarry(29) @then
 		@msg(message.23)
 		@msg(message.24)
 		@sendto(29,0)
@@ -1230,13 +1230,13 @@ command.51.41
 	@endif
 command.51.44
 	@comment("Cmd 136 - shoo moun")
-	@if @carry(10) @and @istrue(@get(value.flag.3)) @and @here(38) @then
+	@if @carry(10) @and @true(@get(value.flag.3)) @and @here(38) @then
 		@msg(message.23)
 		@msg(message.24)
 		@sendto(38,0)
 		@set(value.flag.4,true)
 		@comment("...continued into Cmd 138")
-	@elseif @isroom(24) @and @istrue(@get(value.flag.3)) @and @carry(10) @then
+	@elseif @isroom(24) @and @true(@get(value.flag.3)) @and @carry(10) @then
 		@goto(18)
 		@set(value.flag.4,true)
 		@msg(message.24)
@@ -1244,7 +1244,7 @@ command.51.44
 	@endif
 command.51.58
 	@comment("Cmd 182 - shoo belt")
-	@if @herecarry(50) @and @carry(10) @and @istrue(@get(value.flag.3)) @then
+	@if @herecarry(50) @and @carry(10) @and @true(@get(value.flag.3)) @then
 		@sendto(50,0)
 		@set(value.flag.4,true)
 		@comment("continue")
@@ -1255,7 +1255,7 @@ command.51.58
 	@endif
 command.51.71
 	@comment("Cmd 70 - shoo boul")
-	@if @carry(10) @and @istrue(@get(value.flag.3)) @and @here(24) @then
+	@if @carry(10) @and @true(@get(value.flag.3)) @and @here(24) @then
 		@msg(message.23)
 		@comment("continue")
 		@set(value.flag.4,true)

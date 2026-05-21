@@ -87,7 +87,7 @@ background.1
 		@sendto(23,0)
 	@endif
 background.2
-	@if @carry(26) @and @not @herecarry(27) @and @isfalse(@get(value.flag.11)) @then
+	@if @carry(26) @and @not @herecarry(27) @and @false(@get(value.flag.11)) @then
 		@comment("RUG FLAG 11 GOT KEYS")
 		@msg(message.1)
 		@drop(27)
@@ -100,18 +100,18 @@ background.3
 		@msg(message.62)
 	@endif
 background.4
-	@if @isroom(14) @and @istrue(@get(value.flag.15)) @then
+	@if @isroom(14) @and @true(@get(value.flag.15)) @then
 		@comment("LITE")
 		@set(value.flag.dark,false)
 		@look
 	@endif
 background.5
-	@if @istrue(@get(value.flag.1)) @and @herecarry(33) @and @herecarry(20) @then
+	@if @true(@get(value.flag.1)) @and @herecarry(33) @and @herecarry(20) @then
 		@comment("FLAG 1. BUILD BOAT. NEED SAIL/LUMBER/BEACH")
 		@set(value.flag.2,true)
 	@endif
 background.6
-	@if @istrue(@get(value.flag.2)) @then
+	@if @true(@get(value.flag.2)) @then
 		@comment("FLAG 2.READY TO BUILD BOAT")
 		@set(value.flag.1,false)
 		@sendto(33,0)
@@ -119,19 +119,19 @@ background.6
 		@msg(message.52)
 	@endif
 background.7
-	@if @istrue(@get(value.flag.1)) @then
+	@if @true(@get(value.flag.1)) @then
 		@comment("NOT READY TO BUILD")
 		@msg(message.25)
 		@set(value.flag.1,false)
 	@endif
 background.8
-	@if @istrue(@get(value.flag.0)) @then
+	@if @true(@get(value.flag.0)) @then
 		@comment("UNLOCK DOOR. FLAG 0")
 		@swap(item.35.location,item.36.location)
 		@set(value.flag.0,false)
 	@endif
 background.9
-	@if @istrue(@get(value.flag.2)) @then
+	@if @true(@get(value.flag.2)) @then
 		@comment("BUILDINg BOAT")
 		@set(value.flag.2,false)
 		@sendto(32,0)
@@ -161,7 +161,7 @@ background.12
 		@sendto(12,0)
 	@endif
 background.13
-	@if @istrue(@get(value.flag.0)) @then
+	@if @true(@get(value.flag.0)) @then
 		@comment("PIRATE RUM ATTIC FLAG 0")
 		@set(value.flag.0,false)
 		@sendto(7,4)
@@ -174,7 +174,7 @@ background.14
 		@sendto(21,10)
 	@endif
 background.15
-	@if @isfalse(@get(value.flag.6)) @then
+	@if @false(@get(value.flag.6)) @then
 		@comment("FLAG 6 INTRO")
 		@msg(message.43)
 		@set(value.flag.6,true)
@@ -187,13 +187,13 @@ background.16
 		@sendto(12,0)
 	@endif
 background.17
-	@if @rand(35) @and @herecarry(24) @and @isfalse(@get(value.flag.3)) @then
+	@if @rand(35) @and @herecarry(24) @and @false(@get(value.flag.3)) @then
 		@comment("PARROT BAG")
 		@msg(message.54)
 		@msg(message.55)
 	@endif
 background.18
-	@if @rand(7) @and @herecarry(24) @and @isfalse(@get(value.flag.12)) @then
+	@if @rand(7) @and @herecarry(24) @and @false(@get(value.flag.12)) @then
 		@comment("PARROT CHEST")
 		@msg(message.54)
 		@msg(message.56)
@@ -214,32 +214,32 @@ background.20
 		@goto(26)
 	@endif
 background.21
-	@if @rand(10) @and @isfalse(@get(value.flag.10)) @then
+	@if @rand(10) @and @false(@get(value.flag.10)) @then
 		@comment("TIDE WITH ANCHOR")
 		@swap(item.52.location,item.53.location)
 		@swap(item.15.location,item.55.location)
 		@set(value.flag.0,true)
 	@endif
 background.22
-	@if @rand(10) @and @istrue(@get(value.flag.10)) @and @isfalse(@get(value.flag.4)) @then
+	@if @rand(10) @and @true(@get(value.flag.10)) @and @false(@get(value.flag.4)) @then
 		@comment("TIDE NO ANCHOR NOT T.I.")
 		@swap(item.52.location,item.53.location)
 		@set(value.flag.0,true)
 	@endif
 background.23
-	@if @herecarry(24) @and @istrue(@get(value.flag.0)) @then
+	@if @herecarry(24) @and @true(@get(value.flag.0)) @then
 		@comment("PARROT TIDE")
 		@msg(message.54)
 		@msg(message.69)
 		@set(value.flag.0,false)
 	@endif
 background.24
-	@if @istrue(@get(value.flag.0)) @then
+	@if @true(@get(value.flag.0)) @then
 		@comment("RESET FLAG 0")
 		@set(value.flag.0,false)
 	@endif
 background.25
-	@if @isroom(5) @and @istrue(@get(value.flag.15)) @then
+	@if @isroom(5) @and @true(@get(value.flag.15)) @then
 		@comment("LITE")
 		@set(value.flag.dark,false)
 		@look
@@ -275,7 +275,7 @@ background.30
 		@msg(message.83)
 	@endif
 background.31
-	@if @istrue(@get(value.flag.16)) @then
+	@if @true(@get(value.flag.16)) @then
 		@comment("BURNT LAMP")
 		@swap(item.63.location,item.9.location)
 		@set(value.flag.16,false)
@@ -443,17 +443,17 @@ command.1.50
 	@endif
 command.1.51
 	@comment("Cmd 100 - go sho")
-	@if @isroom(20) @and @istrue(@get(value.flag.4)) @and @here(12) @then
+	@if @isroom(20) @and @true(@get(value.flag.4)) @and @here(12) @then
 		@comment("FLAG 4 WE AT TREASUE ISLE")
 		@goto(21)
 		@drop(12)
 		@msg(message.71)
 		@comment("...continued into Cmd 101")
-	@elseif @isroom(20) @and @isfalse(@get(value.flag.4)) @then
+	@elseif @isroom(20) @and @false(@get(value.flag.4)) @then
 		@goto(6)
 		@look
 		@comment("...continued into Cmd 111")
-	@elseif @isroom(20) @and @istrue(@get(value.flag.4)) @then
+	@elseif @isroom(20) @and @true(@get(value.flag.4)) @then
 		@comment("AT T.I.")
 		@goto(21)
 		@look
@@ -548,11 +548,11 @@ command.10.29
 	@endif
 command.10.32
 	@comment("Cmd 133 - get anc")
-	@if @here(15) @and @istrue(@get(value.flag.10)) @then
+	@if @here(15) @and @true(@get(value.flag.10)) @then
 		@take(15)
 		@msg(message.64)
 		@comment("...continued into Cmd 134")
-	@elseif @here(15) @and @isfalse(@get(value.flag.10)) @then
+	@elseif @here(15) @and @false(@get(value.flag.10)) @then
 		@msg(message.18)
 		@msg(message.63)
 		@comment("...continued into Cmd 135")
@@ -689,11 +689,11 @@ command.27.13
 	@endif
 command.27.18
 	@comment("Cmd 51 - loo bag")
-	@if @herecarry(5) @and @isfalse(@get(value.flag.3)) @then
+	@if @herecarry(5) @and @false(@get(value.flag.3)) @then
 		@msg(message.4)
 		@msg(message.46)
 		@comment("...continued into Cmd 52")
-	@elseif @herecarry(5) @and @istrue(@get(value.flag.3)) @then
+	@elseif @herecarry(5) @and @true(@get(value.flag.3)) @then
 		@msg(message.44)
 	@endif
 command.27.33
@@ -711,19 +711,19 @@ command.27.38
 		@msg(message.18)
 		@msg(message.13)
 		@comment("...continued into Cmd 48")
-	@elseif @here(28) @and @isfalse(@get(value.flag.5)) @and @isfalse(@get(value.flag.12)) @then
+	@elseif @here(28) @and @false(@get(value.flag.5)) @and @false(@get(value.flag.12)) @then
 		@comment("FLAG 12 CHEST EMPTY")
 		@msg(message.15)
 		@drop(29)
 		@set(value.flag.5,true)
 		@comment("...continued into Cmd 49")
-	@elseif @isfalse(@get(value.flag.12)) @and @here(28) @and @istrue(@get(value.flag.5)) @then
+	@elseif @false(@get(value.flag.12)) @and @here(28) @and @true(@get(value.flag.5)) @then
 		@comment("CHEST MAP")
 		@msg(message.41)
 		@drop(45)
 		@set(value.flag.12,true)
 		@comment("...continued into Cmd 50")
-	@elseif @istrue(@get(value.flag.12)) @and @here(28) @then
+	@elseif @true(@get(value.flag.12)) @and @here(28) @then
 		@comment("EMPTY")
 		@msg(message.44)
 	@endif
@@ -845,13 +845,13 @@ command.39.11
 	@endif
 command.39.18
 	@comment("Cmd 89 - ope bag")
-	@if @herecarry(5) @and @isfalse(@get(value.flag.3)) @then
+	@if @herecarry(5) @and @false(@get(value.flag.3)) @then
 		@comment("FLAG 3 EMPTY BAG")
 		@msg(message.30)
 		@drop(10)
 		@set(value.flag.3,true)
 		@comment("...continued into Cmd 90")
-	@elseif @istrue(@get(value.flag.3)) @then
+	@elseif @true(@get(value.flag.3)) @then
 		@msg(message.3)
 		@msg(message.44)
 	@endif
@@ -977,7 +977,7 @@ command.50.30
 		@msg(message.18)
 		@msg(message.79)
 		@comment("...continued into Cmd 87")
-	@elseif @isroom(20) @and @here(12) @and @somewhere(52) @and @isfalse(@get(value.flag.4)) @then
+	@elseif @isroom(20) @and @here(12) @and @somewhere(52) @and @false(@get(value.flag.4)) @then
 		@comment("WAIT FOR FOR TIDE")
 		@msg(message.65)
 		@comment("...continued into Cmd 102")
@@ -989,13 +989,13 @@ command.50.30
 		@msg(message.18)
 		@msg(message.38)
 		@comment("...continued into Cmd 104")
-	@elseif @isroom(20) @and @isfalse(@get(value.flag.4)) @then
+	@elseif @isroom(20) @and @false(@get(value.flag.4)) @then
 		@comment("GO TREASURE ISLE")
 		@msg(message.39)
 		@set(value.flag.4,true)
 		@sendto(37,21)
 		@comment("...continued into Cmd 105")
-	@elseif @isroom(20) @and @istrue(@get(value.flag.4)) @then
+	@elseif @isroom(20) @and @true(@get(value.flag.4)) @then
 		@comment("RETURN FROM TR ISLE")
 		@msg(message.39)
 		@set(value.flag.4,false)
@@ -1018,13 +1018,13 @@ command.52
 		@msg(message.48)
 		@look
 		@comment("...continued into Cmd 122")
-	@elseif @isroom(23) @and @istrue(@get(value.flag.7)) @and @carry(46) @and @nowhere(57) @then
+	@elseif @isroom(23) @and @true(@get(value.flag.7)) @and @carry(46) @and @nowhere(57) @then
 		@comment("GOT IT")
 		@drop(57)
 		@msg(message.48)
 		@look
 		@comment("...continued into Cmd 141")
-	@elseif @carry(46) @and @isfalse(@get(value.flag.10)) @and @here(15) @then
+	@elseif @carry(46) @and @false(@get(value.flag.10)) @and @here(15) @then
 		@comment("FREE ANCHOR FLAG 10")
 		@set(value.flag.10,true)
 		@msg(message.64)
@@ -1072,11 +1072,11 @@ command.59
 	@msg(message.82)
 command.63
 	@comment("Cmd 148 - wai")
-	@if @istrue(@get(value.flag.10)) @then
+	@if @true(@get(value.flag.10)) @then
 		@swap(item.52.location,item.53.location)
 		@msg(message.69)
 		@comment("...continued into Cmd 176")
-	@elseif @isfalse(@get(value.flag.10)) @then
+	@elseif @false(@get(value.flag.10)) @then
 		@swap(item.52.location,item.53.location)
 		@swap(item.15.location,item.55.location)
 		@msg(message.64)

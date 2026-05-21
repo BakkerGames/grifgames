@@ -103,7 +103,7 @@ background.8
 		@msg(message.14)
 	@endif
 background.10
-	@if @isroom(15) @and @istrue(@get(value.flag.15)) @then
+	@if @isroom(15) @and @true(@get(value.flag.15)) @then
 		@set(value.flag.dark,false)
 		@look
 	@endif
@@ -113,7 +113,7 @@ background.11
 		@goto(11)
 	@endif
 background.12
-	@if @isroom(3) @and @istrue(@get(value.flag.15)) @then
+	@if @isroom(3) @and @true(@get(value.flag.15)) @then
 		@set(value.flag.dark,false)
 		@look
 	@endif
@@ -135,7 +135,7 @@ background.17
 		@quit
 	@endif
 background.18
-	@if @isfalse(@get(value.flag.7)) @then
+	@if @false(@get(value.flag.7)) @then
 		@msg(message.75)
 		@set(value.flag.7,true)
 	@endif
@@ -369,17 +369,17 @@ command.10.32
 	@endif
 command.10.40
 	@comment("Cmd 66 - get hea")
-	@if @isfalse(@get(value.flag.0)) @and @herecarry(33) @and @here(3) @then
+	@if @false(@get(value.flag.0)) @and @herecarry(33) @and @here(3) @then
 		@take(3)
 		@drop(37)
 		@msg(message.20)
 		@set(value.flag.0,true)
 		@comment("...continued into Cmd 69")
-	@elseif @istrue(@get(value.flag.0)) @and @herecarry(3) @then
+	@elseif @true(@get(value.flag.0)) @and @herecarry(3) @then
 		@take(3)
 		@msg(message.20)
 		@comment("...continued into Cmd 85")
-	@elseif @isfalse(@get(value.flag.0)) @and @herecarry(3) @then
+	@elseif @false(@get(value.flag.0)) @and @herecarry(3) @then
 		@msg(message.61)
 		@msg(message.62)
 	@endif
@@ -415,7 +415,7 @@ command.10.52
 	@endif
 command.10.56
 	@comment("Cmd 158 - get boa")
-	@if @herecarry(45) @and @isfalse(@get(value.flag.8)) @then
+	@if @herecarry(45) @and @false(@get(value.flag.8)) @then
 		@take(45)
 		@drop(48)
 		@set(value.flag.8,true)
@@ -430,7 +430,7 @@ command.10.57
 		@take(47)
 		@msg(message.20)
 		@comment("...continued into Cmd 119")
-	@elseif @here(34) @and @isfalse(@get(value.flag.5)) @then
+	@elseif @here(34) @and @false(@get(value.flag.5)) @then
 		@take(47)
 		@msg(message.20)
 		@set(value.flag.5,true)
@@ -550,7 +550,7 @@ command.24.61
 		@msg(message.6)
 		@sleep(2000)
 		@comment("...continued into Cmd 110")
-		@if @herecarry(9) @and @isroom(1) @and @istrue(@get(value.flag.3)) @then
+		@if @herecarry(9) @and @isroom(1) @and @true(@get(value.flag.3)) @then
 			@sleep(2000)
 			@msg(message.32)
 			@msg(message.66)
@@ -630,7 +630,7 @@ command.35.19
 	@endif
 command.35.25
 	@comment("Cmd 59 - rea wri")
-	@if @herecarry(2) @and @herecarry(4) @and @istrue(@get(value.flag.15)) @then
+	@if @herecarry(2) @and @herecarry(4) @and @true(@get(value.flag.15)) @then
 		@msg(message.30)
 		@comment("...continued into Cmd 123")
 	@elseif @herecarry(2) @and @not @herecarry(4) @then
@@ -732,7 +732,7 @@ command.39.35
 	@endif
 command.40.37
 	@comment("Cmd 70 - tur 38")
-	@if @isfalse(@get(value.flag.1)) @and @here(37) @then
+	@if @false(@get(value.flag.1)) @and @here(37) @then
 		@set(value.flag.1,true)
 		@msg(message.20)
 		@comment("...continued into Cmd 188")
@@ -742,7 +742,7 @@ command.40.37
 	@endif
 command.40.39
 	@comment("Cmd 71 - tur 33")
-	@if @istrue(@get(value.flag.1)) @and @here(37) @then
+	@if @true(@get(value.flag.1)) @and @here(37) @then
 		@swap(item.34.location,item.37.location)
 		@msg(message.20)
 		@comment("...continued into Cmd 187")
@@ -1037,7 +1037,7 @@ command.64.23
 	@endif
 command.64.64
 	@comment("Cmd 95 - yel cha")
-	@if @isroom(1) @and @herecarry(9) @and @herecarry(14) @and @istrue(@get(value.flag.6)) @and @herecarry(44) @then
+	@if @isroom(1) @and @herecarry(9) @and @herecarry(14) @and @true(@get(value.flag.6)) @and @herecarry(44) @then
 		@comment("continue")
 		@msg(message.32)
 		@sleep(2000)

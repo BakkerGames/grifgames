@@ -109,7 +109,7 @@ background.5
 		@msg(message.74)
 	@endif
 background.6
-	@if @isfalse(@get(value.flag.12)) @then
+	@if @false(@get(value.flag.12)) @then
 		@comment("FIRST IN")
 		@msg(message.34)
 		@msg(message.68)
@@ -158,27 +158,27 @@ background.13
 		@msg(message.19)
 	@endif
 background.14
-	@if @rand(80) @and @isroom(13) @and @istrue(@get(value.flag.13)) @then
+	@if @rand(80) @and @isroom(13) @and @true(@get(value.flag.13)) @then
 		@comment("TV")
 		@msg(message.62)
 	@endif
 background.15
-	@if @rand(40) @and @isroom(13) @and @isfalse(@get(value.flag.13)) @then
+	@if @rand(40) @and @isroom(13) @and @false(@get(value.flag.13)) @then
 		@comment("TV")
 		@msg(message.63)
 	@endif
 background.16
-	@if @istrue(@get(value.flag.1)) @and @carry(9) @then
+	@if @true(@get(value.flag.1)) @and @carry(9) @then
 		@comment("ALREADY SET DETECTOR")
 		@set(value.flag.1,false)
 	@endif
 background.17
-	@if @istrue(@get(value.flag.2)) @and @carry(2) @then
+	@if @true(@get(value.flag.2)) @and @carry(2) @then
 		@comment("DITTO")
 		@set(value.flag.2,false)
 	@endif
 background.18
-	@if @istrue(@get(value.flag.1)) @and @somewhere(9) @then
+	@if @true(@get(value.flag.1)) @and @somewhere(9) @then
 		@comment("SET GREEN")
 		@msg(message.3)
 		@swap(item.9.location,item.2.location)
@@ -186,7 +186,7 @@ background.18
 		@set(value.flag.1,false)
 	@endif
 background.19
-	@if @istrue(@get(value.flag.2)) @and @somewhere(9) @then
+	@if @true(@get(value.flag.2)) @and @somewhere(9) @then
 		@comment("SET YELLO")
 		@msg(message.3)
 		@swap(item.9.location,item.2.location)
@@ -286,13 +286,13 @@ command.1.20
 	@endif
 command.1.21
 	@comment("Cmd 67 - go win")
-	@if @here(17) @and @istrue(@get(value.flag.13)) @then
+	@if @here(17) @and @true(@get(value.flag.13)) @then
 		@comment("BOOM SOON")
 		@sendto(9,0)
 		@goto(16)
 		@look
 		@comment("...continued into Cmd 68")
-	@elseif @here(17) @and @isfalse(@get(value.flag.13)) @then
+	@elseif @here(17) @and @false(@get(value.flag.13)) @then
 		@comment("THRU WINDOW SAFE")
 		@goto(16)
 		@look
@@ -403,17 +403,17 @@ command.13
 	@endif
 command.15
 	@comment("Cmd 74 - wit")
-	@if @istrue(@get(value.flag.8)) @and @herecarry(28) @then
+	@if @true(@get(value.flag.8)) @and @herecarry(28) @then
 		@comment("END IS NEAR")
 		@set(value.flag.8,false)
 		@msg(message.55)
 		@sendto(9,0)
 		@msg(message.54)
 		@comment("...continued into Cmd 142")
-	@elseif @isfalse(@get(value.flag.10)) @then
+	@elseif @false(@get(value.flag.10)) @then
 		@msg(message.67)
 		@comment("...continued into Cmd 150")
-	@elseif @istrue(@get(value.flag.10)) @then
+	@elseif @true(@get(value.flag.10)) @then
 		@set(value.flag.10,false)
 		@msg(message.16)
 		@msg(message.2)
@@ -421,7 +421,7 @@ command.15
 	@endif
 command.15.7
 	@comment("Cmd 96 - wit tap")
-	@if @here(14) @and @herecarry(3) @and @istrue(@get(value.flag.7)) @then
+	@if @here(14) @and @herecarry(3) @and @true(@get(value.flag.7)) @then
 		@comment("BREAK WINDOW")
 		@comment("continue")
 		@sendto(3,1)
@@ -434,7 +434,7 @@ command.15.7
 	@endif
 command.15.32
 	@comment("Cmd 104 - wit cut")
-	@if @herecarry(26) @and @istrue(@get(value.flag.11)) @then
+	@if @herecarry(26) @and @true(@get(value.flag.11)) @then
 		@drop(11)
 		@msg(message.51)
 		@set(value.flag.10,false)
@@ -442,7 +442,7 @@ command.15.32
 	@endif
 command.15.53
 	@comment("Cmd 143 - wit han")
-	@if @istrue(@get(value.flag.10)) @then
+	@if @true(@get(value.flag.10)) @then
 		@set(value.flag.10,false)
 		@msg(message.77)
 		@msg(message.2)
@@ -561,7 +561,7 @@ command.25.10
 	@endif
 command.25.11
 	@comment("Cmd 42 - pre blu")
-	@if @isfalse(@get(value.flag.4)) @and @here(6) @then
+	@if @false(@get(value.flag.4)) @and @here(6) @then
 		@comment("LOCKED")
 		@msg(message.6)
 		@msg(message.7)
@@ -578,7 +578,7 @@ command.25.11
 	@endif
 command.25.12
 	@comment("Cmd 43 - pre yel")
-	@if @isfalse(@get(value.flag.3)) @and @here(6) @then
+	@if @false(@get(value.flag.3)) @and @here(6) @then
 		@comment("LOCKED")
 		@msg(message.6)
 		@msg(message.7)
@@ -673,7 +673,7 @@ command.34
 	@msg(message.2)
 command.34.14
 	@comment("Cmd 25 - sho pic")
-	@if @isroom(13) @and @not @herecarry(42) @and @herecarry(41) @and @istrue(@get(value.flag.13)) @then
+	@if @isroom(13) @and @not @herecarry(42) @and @herecarry(41) @and @true(@get(value.flag.13)) @then
 		@comment("NEED SAB TOO")
 		@msg(message.18)
 		@msg(message.20)
@@ -732,7 +732,7 @@ command.34.14
 		@msg(message.18)
 		@msg(message.56)
 		@comment("...continued into Cmd 130")
-	@elseif @isroom(13) @and @istrue(@get(value.flag.13)) @then
+	@elseif @isroom(13) @and @true(@get(value.flag.13)) @then
 		@msg(message.18)
 		@msg(message.20)
 	@endif
@@ -747,12 +747,12 @@ command.36
 	@endif
 command.37
 	@comment("Cmd 61 - unl")
-	@if @here(6) @and @herecarry(11) @and @isfalse(@get(value.flag.4)) @then
+	@if @here(6) @and @herecarry(11) @and @false(@get(value.flag.4)) @then
 		@set(value.flag.4,true)
 		@msg(message.9)
 		@msg(message.8)
 		@comment("...continued into Cmd 62")
-	@elseif @here(6) @and @herecarry(12) @and @isfalse(@get(value.flag.3)) @then
+	@elseif @here(6) @and @herecarry(12) @and @false(@get(value.flag.3)) @then
 		@comment("UNLOCK")
 		@set(value.flag.3,true)
 		@msg(message.10)
@@ -811,10 +811,10 @@ command.40.33
 	@endif
 command.40.37
 	@comment("Cmd 155 - loo cam")
-	@if @isroom(13) @and @istrue(@get(value.flag.13)) @then
+	@if @isroom(13) @and @true(@get(value.flag.13)) @then
 		@msg(message.62)
 		@comment("...continued into Cmd 156")
-	@elseif @isroom(13) @and @isfalse(@get(value.flag.13)) @then
+	@elseif @isroom(13) @and @false(@get(value.flag.13)) @then
 		@msg(message.63)
 	@endif
 command.40.39

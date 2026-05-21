@@ -72,7 +72,7 @@
 @take(x)
 	@sendto($x,@inv)
 background.2
-	@if @isfalse(@get(value.flag.2)) @then
+	@if @false(@get(value.flag.2)) @then
 		@comment("INTRO")
 		@set(value.flag.2,true)
 		@set(value.counter,0)
@@ -102,28 +102,28 @@ background.2
 		@look
 	@endif
 background.6
-	@if @isroom(3) @and @not @carry(1) @and @istrue(@get(value.flag.5)) @then
+	@if @isroom(3) @and @not @carry(1) @and @true(@get(value.flag.5)) @then
 		@comment("TUNNEL RAGE")
 		@set(value.counter,2)
 	@endif
 background.7
-	@if @isroom(5) @and @not @carry(1) @and @istrue(@get(value.flag.5)) @then
+	@if @isroom(5) @and @not @carry(1) @and @true(@get(value.flag.5)) @then
 		@comment("DITTO")
 		@set(value.counter,2)
 	@endif
 background.8
-	@if @isroom(6) @and @not @carry(1) @and @istrue(@get(value.flag.5)) @then
+	@if @isroom(6) @and @not @carry(1) @and @true(@get(value.flag.5)) @then
 		@comment("DITTO")
 		@set(value.counter,2)
 	@endif
 background.9
-	@if @isroom(15) @and @istrue(@get(value.flag.4)) @then
+	@if @isroom(15) @and @true(@get(value.flag.4)) @then
 		@comment("IN SMALL ROOM")
 		@set(value.flag.3,false)
 		@set(value.flag.4,false)
 	@endif
 background.11
-	@if @istrue(@get(value.flag.7)) @then
+	@if @true(@get(value.flag.7)) @then
 		@comment("INTO HULK")
 		@take(1)
 		@msg(message.18)
@@ -134,7 +134,7 @@ background.11
 		@msg(message.22)
 	@endif
 background.13
-	@if @istrue(@get(value.flag.8)) @then
+	@if @true(@get(value.flag.8)) @then
 		@msg(message.21)
 		@set(value.flag.8,false)
 		@goto(2)
@@ -208,21 +208,21 @@ background.25
 		@msg(message.38)
 		@comment("continue")
 		@comment("...continued into Cmd 26")
-		@if @isfalse(@get(value.flag.11)) @then
+		@if @false(@get(value.flag.11)) @then
 			@msg(message.33)
 			@set(value.flag.dark,false)
 			@goto(20)
 			@sendto(20,0)
 		@endif
 		@comment("...continued into Cmd 27")
-		@if @herecarry(20) @and @isfalse(@get(value.flag.10)) @then
+		@if @herecarry(20) @and @false(@get(value.flag.10)) @then
 			@msg(message.35)
 			@set(value.flag.dark,false)
 			@goto(20)
 			@sendto(20,0)
 		@endif
 		@comment("...continued into Cmd 28")
-		@if @herecarry(20) @and @isfalse(@get(value.flag.12)) @then
+		@if @herecarry(20) @and @false(@get(value.flag.12)) @then
 			@msg(message.34)
 			@set(value.flag.dark,false)
 			@goto(20)
@@ -250,7 +250,7 @@ background.31
 		@msg(message.37)
 	@endif
 background.33
-	@if @isroom(14) @and @carry(1) @and @isfalse(@get(value.flag.21)) @and @nowhere(26) @then
+	@if @isroom(14) @and @carry(1) @and @false(@get(value.flag.21)) @and @nowhere(26) @then
 		@comment("STRANGE")
 		@drop(26)
 		@look
@@ -272,7 +272,7 @@ background.36
 		@msg(message.52)
 	@endif
 background.37
-	@if @istrue(@get(value.flag.3)) @and @not @carry(1) @then
+	@if @true(@get(value.flag.3)) @and @not @carry(1) @then
 		@comment("SQUISH")
 		@msg(message.13)
 		@msg(message.18)
@@ -281,7 +281,7 @@ background.37
 		@goto(20)
 	@endif
 background.38
-	@if @herecarry(17) @and @istrue(@get(value.flag.9)) @then
+	@if @herecarry(17) @and @true(@get(value.flag.9)) @then
 		@comment("EGG BLOWS!")
 		@sendto(18,0)
 		@msg(message.31)
@@ -340,7 +340,7 @@ background.47
 		@sendto(20,0)
 	@endif
 background.48
-	@if @rand(20) @and @isroom(18) @and @isfalse(@get(value.flag.23)) @then
+	@if @rand(20) @and @isroom(18) @and @false(@get(value.flag.23)) @then
 		@comment("FRM FUZZY")
 		@goto(19)
 		@look
@@ -421,7 +421,7 @@ background.56
 		@comment("...continued into Cmd 61")
 	@endif
 background.62
-	@if @carry(1) @and @isfalse(@get(value.flag.4)) @and @not @here(28) @then
+	@if @carry(1) @and @false(@get(value.flag.4)) @and @not @here(28) @then
 		@comment("GAS")
 		@if @gt(value.counter,0) @then
 			@subto(value.counter,1)
@@ -626,7 +626,7 @@ command.7
 	@endif
 command.7.61
 	@comment("Cmd 246 - free nose")
-	@if @isfalse(@get(value.flag.22)) @and @istrue(@get(value.flag.10)) @then
+	@if @false(@get(value.flag.22)) @and @true(@get(value.flag.10)) @then
 		@msg(message.1)
 		@set(value.flag.10,false)
 	@endif
@@ -652,7 +652,7 @@ command.10.7
 	@endif
 command.10.8
 	@comment("Cmd 221 - get inve")
-	@if @isfalse(@get(value.flag.15)) @and @not @isroom(1) @then
+	@if @false(@get(value.flag.15)) @and @not @isroom(1) @then
 		@msg(message.1)
 		@script(script.inventory)
 	@endif
@@ -683,12 +683,12 @@ command.10.33
 		@swap(item.27.location,item.28.location)
 		@take(21)
 		@comment("...continued into Cmd 185")
-	@elseif @istrue(@get(value.flag.12)) @then
+	@elseif @true(@get(value.flag.12)) @then
 		@msg(message.1)
 		@set(value.flag.12,false)
 		@take(21)
 		@comment("...continued into Cmd 244")
-	@elseif @istrue(@get(value.flag.22)) @then
+	@elseif @true(@get(value.flag.22)) @then
 		@msg(message.1)
 		@set(value.flag.22,false)
 		@set(value.flag.10,false)
@@ -806,20 +806,20 @@ command.28.34
 	@endif
 command.29
 	@comment("Cmd 86 - at")
-	@if @not @carry(1) @and @istrue(@get(value.flag.17)) @then
+	@if @not @carry(1) @and @true(@get(value.flag.17)) @then
 		@comment("NOT HULK")
 		@set(value.flag.17,false)
 		@msg(message.77)
 		@msg(message.3)
 		@msg(message.23)
 		@comment("...continued into Cmd 227")
-	@elseif @istrue(@get(value.flag.17)) @and @carry(1) @then
+	@elseif @true(@get(value.flag.17)) @and @carry(1) @then
 		@msg(message.49)
 		@msg(message.3)
 		@msg(message.23)
 		@set(value.flag.17,false)
 		@comment("...continued into Cmd 228")
-	@elseif @istrue(@get(value.flag.17)) @then
+	@elseif @true(@get(value.flag.17)) @then
 		@msg(message.3)
 		@msg(message.4)
 		@msg(message.23)
@@ -832,13 +832,13 @@ command.29
 	@endif
 command.29.21
 	@comment("Cmd 87 - at bees")
-	@if @istrue(@get(value.flag.17)) @and @carry(23) @and @here(24) @then
+	@if @true(@get(value.flag.17)) @and @carry(23) @and @here(24) @then
 		@comment("AS HULK")
 		@msg(message.49)
 		@set(value.flag.17,false)
 		@sendto(24,0)
 		@comment("...continued into Cmd 93")
-	@elseif @istrue(@get(value.flag.17)) @and @isroom(6) @and @carry(23) @then
+	@elseif @true(@get(value.flag.17)) @and @isroom(6) @and @carry(23) @then
 		@comment("BEES GONE")
 		@msg(message.1)
 		@msg(message.49)
@@ -851,7 +851,7 @@ command.29.21
 	@endif
 command.29.35
 	@comment("Cmd 110 - at mesh")
-	@if @istrue(@get(value.flag.17)) @and @here(11) @and @carry(23) @then
+	@if @true(@get(value.flag.17)) @and @here(11) @and @carry(23) @then
 		@comment("BEES GONE")
 		@msg(message.1)
 		@msg(message.49)
@@ -860,7 +860,7 @@ command.29.35
 	@endif
 command.29.55
 	@comment("Cmd 97 - at dome")
-	@if @istrue(@get(value.flag.17)) @and @here(11) @and @carry(23) @then
+	@if @true(@get(value.flag.17)) @and @here(11) @and @carry(23) @then
 		@comment("BEES GONE")
 		@msg(message.1)
 		@msg(message.49)
@@ -869,7 +869,7 @@ command.29.55
 	@endif
 command.29.72
 	@comment("Cmd 169 - at ants")
-	@if @istrue(@get(value.flag.17)) @and @here(20) @and @carry(23) @then
+	@if @true(@get(value.flag.17)) @and @here(20) @and @carry(23) @then
 		@msg(message.49)
 		@msg(message.45)
 		@set(value.flag.17,false)
@@ -900,18 +900,18 @@ command.32.72
 	@endif
 command.32.77
 	@comment("Cmd 175 - say dr")
-	@if @here(26) @and @isfalse(@get(value.flag.19)) @then
+	@if @here(26) @and @false(@get(value.flag.19)) @then
 		@msg(message.1)
 		@msg(message.54)
 		@set(value.flag.19,true)
 		@msg(message.55)
 		@comment("...continued into Cmd 176")
-	@elseif @here(26) @and @istrue(@get(value.flag.19)) @and @isfalse(@get(value.flag.20)) @then
+	@elseif @here(26) @and @true(@get(value.flag.19)) @and @false(@get(value.flag.20)) @then
 		@msg(message.54)
 		@msg(message.61)
 		@set(value.flag.20,true)
 		@comment("...continued into Cmd 178")
-	@elseif @here(26) @and @istrue(@get(value.flag.20)) @then
+	@elseif @here(26) @and @true(@get(value.flag.20)) @then
 		@msg(message.56)
 		@set(value.flag.21,true)
 		@sendto(26,0)
@@ -924,7 +924,7 @@ command.32.120
 	@endif
 command.39
 	@comment("Cmd 260 - look")
-	@if @isfalse(@get(value.flag.15)) @then
+	@if @false(@get(value.flag.15)) @then
 		@msg(message.2)
 		@msg(message.3)
 		@msg(message.4)
@@ -932,13 +932,13 @@ command.39
 	@endif
 command.39.9
 	@comment("Cmd 101 - look mirr")
-	@if @herecarry(2) @and @isfalse(@get(value.flag.15)) @and @not @carry(1) @then
+	@if @herecarry(2) @and @false(@get(value.flag.15)) @and @not @carry(1) @then
 		@comment("BANNER******")
 		@msg(message.1)
 		@msg(message.2)
 		@msg(message.12)
 		@comment("...continued into Cmd 102")
-	@elseif @herecarry(2) @and @isfalse(@get(value.flag.15)) @and @carry(1) @then
+	@elseif @herecarry(2) @and @false(@get(value.flag.15)) @and @carry(1) @then
 		@comment("HULK")
 		@msg(message.2)
 		@msg(message.10)
@@ -968,7 +968,7 @@ command.39.10
 	@endif
 command.39.26
 	@comment("Cmd 163 - look base")
-	@if @isroom(14) @and @isfalse(@get(value.flag.15)) @and @not @here(27) @and @not @here(28) @then
+	@if @isroom(14) @and @false(@get(value.flag.15)) @and @not @here(27) @and @not @here(28) @then
 		@drop(27)
 		@msg(message.2)
 		@msg(message.5)
@@ -1006,17 +1006,17 @@ command.39.54
 		@msg(message.97)
 		@msg(message.99)
 		@comment("...continued into Cmd 123")
-	@elseif @here(6) @and @isfalse(@get(value.flag.15)) @then
+	@elseif @here(6) @and @false(@get(value.flag.15)) @then
 		@msg(message.1)
 		@msg(message.2)
 		@msg(message.27)
 		@comment("...continued into Cmd 124")
-	@elseif @here(7) @and @isfalse(@get(value.flag.15)) @then
+	@elseif @here(7) @and @false(@get(value.flag.15)) @then
 		@msg(message.1)
 		@msg(message.2)
 		@msg(message.27)
 		@comment("...continued into Cmd 125")
-	@elseif @here(8) @and @isfalse(@get(value.flag.15)) @then
+	@elseif @here(8) @and @false(@get(value.flag.15)) @then
 		@msg(message.1)
 		@msg(message.2)
 		@msg(message.27)
@@ -1158,7 +1158,7 @@ command.49
 	@msg(message.91)
 command.50
 	@comment("Cmd 222 - inve")
-	@if @isfalse(@get(value.flag.15)) @and @not @isroom(1) @then
+	@if @false(@get(value.flag.15)) @and @not @isroom(1) @then
 		@msg(message.1)
 		@script(script.inventory)
 	@endif
@@ -1232,13 +1232,13 @@ command.51.126
 	@endif
 command.68.88
 	@comment("Cmd 179 - push butt")
-	@if @here(36) @and @isfalse(@get(value.flag.5)) @then
+	@if @here(36) @and @false(@get(value.flag.5)) @then
 		@msg(message.1)
 		@set(value.flag.5,true)
 		@msg(message.58)
 		@msg(message.59)
 		@comment("...continued into Cmd 180")
-	@elseif @here(36) @and @istrue(@get(value.flag.5)) @then
+	@elseif @here(36) @and @true(@get(value.flag.5)) @then
 		@msg(message.1)
 		@set(value.flag.5,false)
 		@msg(message.58)
@@ -1447,7 +1447,7 @@ command.87
 	@endif
 command.90
 	@comment("Cmd 78 - use")
-	@if @istrue(@get(value.flag.24)) @then
+	@if @true(@get(value.flag.24)) @then
 		@set(value.flag.24,false)
 		@msg(message.44)
 		@comment("...continued into Cmd 225")
@@ -1464,14 +1464,14 @@ command.90.33
 		@set(value.flag.13,false)
 		@set(value.flag.14,false)
 		@comment("...continued into Cmd 140")
-	@elseif @istrue(@get(value.flag.13)) @and @herecarry(21) @then
+	@elseif @true(@get(value.flag.13)) @and @herecarry(21) @then
 		@comment("EARS")
 		@msg(message.1)
 		@set(value.flag.13,false)
 		@sendto(21,0)
 		@set(value.flag.12,true)
 		@comment("...continued into Cmd 145")
-	@elseif @istrue(@get(value.flag.14)) @and @herecarry(21) @then
+	@elseif @true(@get(value.flag.14)) @and @herecarry(21) @then
 		@comment("NOSE")
 		@comment("continue")
 		@set(value.flag.14,false)
@@ -1481,7 +1481,7 @@ command.90.33
 		@set(value.flag.22,true)
 		@msg(message.1)
 		@comment("...continued into Cmd 165")
-	@elseif @istrue(@get(value.flag.18)) @and @herecarry(21) @and @herecarry(27) @then
+	@elseif @true(@get(value.flag.18)) @and @herecarry(21) @and @herecarry(27) @then
 		@comment("GAS OUTLET")
 		@msg(message.1)
 		@swap(item.27.location,item.28.location)
@@ -1503,7 +1503,7 @@ command.90.41
 	@set(value.flag.14,false)
 command.92.61
 	@comment("Cmd 245 - unpl nose")
-	@if @istrue(@get(value.flag.22)) @then
+	@if @true(@get(value.flag.22)) @then
 		@msg(message.1)
 		@set(value.flag.22,false)
 		@set(value.flag.10,false)
@@ -1511,7 +1511,7 @@ command.92.61
 	@endif
 command.92.64
 	@comment("Cmd 141 - unpl ears")
-	@if @istrue(@get(value.flag.12)) @then
+	@if @true(@get(value.flag.12)) @then
 		@msg(message.1)
 		@set(value.flag.12,false)
 		@take(21)
