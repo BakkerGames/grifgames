@@ -337,7 +337,7 @@ background.41
 background.42
 	@if @herecarry(23) @and @not @here(21) @and @not @here(21) @then
 		@comment("DROP THREAD")
-		@sendto(23,@get(item.0..location))
+		@sendto(23,@get(item.0.location))
 		@msg(message.35)
 		@msg(message.48)
 	@endif
@@ -898,7 +898,7 @@ command.23.30
 	@if @false(@get(value.flag.9)) @and @herecarry(4) @then
 		@msg(message.27)
 		@set(value.flag.9,true)
-		@sendto(5,@get(item.4..location))
+		@sendto(5,@get(item.4.location))
 		@look
 	@endif
 command.23.32
@@ -2451,7 +2451,7 @@ system.do_what_with
 system.gamename
 	adv11
 system.gametitle
-	Savage Island, Part 2
+	Savage Island, Part II
 system.introdone
 	false
 system.itemcount

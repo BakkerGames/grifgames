@@ -1331,7 +1331,7 @@ command.62.39
 command.62.57
 	@comment("Cmd 157 - bend buck")
 	@if @herecarry(44) @and @nowhere(46) @then
-		@sendto(46,@get(item.44..location))
+		@sendto(46,@get(item.44.location))
 		@msg(message.3)
 		@msg(message.70)
 		@comment("...continued into Cmd 158")

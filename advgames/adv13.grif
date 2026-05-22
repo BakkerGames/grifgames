@@ -356,7 +356,7 @@ background.42
 	@if @rand(45) @and @true(@get(value.flag.14)) @then
 		@comment("THROW CAN")
 		@set(value.flag.14,false)
-		@sendto(68,@get(item.50..location))
+		@sendto(68,@get(item.50.location))
 		@msg(message.63)
 		@sendto(50,0)
 	@endif
@@ -2844,7 +2844,7 @@ system.do_what_with
 system.gamename
 	adv13
 system.gametitle
-	Adventure 13
+	Sorcerer of Claymorgue Castle
 system.introdone
 	false
 system.itemcount

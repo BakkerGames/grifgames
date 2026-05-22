@@ -261,7 +261,7 @@ background.28
 	@if @rand(30) @and @herecarry(24) @and @not @herecarry(60) @and @not @herecarry(12) @then
 		@comment("BIRD FOLLOWS CRACKERS")
 		@msg(message.75)
-		@sendto(24,@get(item.60..location))
+		@sendto(24,@get(item.60.location))
 	@endif
 background.29
 	@if @rand(20) @and @herecarry(24) @and @herecarry(60) @then
