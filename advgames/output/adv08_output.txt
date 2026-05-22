@@ -1,0 +1,1627 @@
+Unknown        = 4877
+ItemCount      = 100
+CommandCount   = 229
+VerbNounCount  = 84
+RoomCount      = 27
+MaxInventory   = 8
+StartRoom      = 3
+TreasureCount  = 13
+WordLength     = 3
+LightMoves     = 555
+MessageCount   = 88
+TreasureRoom   = 15
+
+Cmd   0:    100     69     60      0      0      0   8707   1200
+Cmd   1:     50   1421      0      0      0      0   6864   9150
+Cmd   2:    100    328    193    180    160      0  10876      0
+Cmd   3:      2    554    540      0      0      0   7971      0
+Cmd   4:    100    289    280     80      0      0   8779      0
+Cmd   5:    100    248    561     36      0      0   3978   4050
+Cmd   6:    100    248    240      0      0      0   9000      0
+Cmd   7:     70    228    220    540      0      0   4374   9055
+Cmd   8:    100    228    220      0      0      0   9115      0
+Cmd   9:     10    582    580    640      0      0  10831      0
+Cmd  10:     20    642      0      0      0      0   4861      0
+Cmd  11:     10    381    380   1020      0      0   8903  19350
+Cmd  12:     25    542    224    400   1194    408  18960      0
+Cmd  13:    100   1082    962   1180   1160      0   7249   8003
+Cmd  14:    100   1082    962   1080    960   1060   8305   8250
+Cmd  15:    100    553    545    540      0      0   7950      0
+Cmd  16:    100   1262     62     60    200   1280   8353   8753
+Cmd  17:     20    542    384      0      0      0  19050      0
+Cmd  18:     25    542   1262   1294    408    400  19260      0
+Cmd  19:    100    348   1934   1920    420   1720   9359      0
+Cmd  20:    100     62   1422     60   1420   1380   8322      0
+Cmd  21:     30   1462      0      0      0      0  16914   9150
+Cmd  22:     10   1422      0      0      0      0   6864   9150
+Cmd  23:     40   1602      0      0      0      0   6211      0
+Cmd  24:     20   1902      0      0      0      0  18061      0
+Cmd  25:    100    464    308      0      0      0   8626      0
+Cmd  26:    100    504    183    180    160      0  10934  11400
+Cmd  27:    100    544      0      0      0      0   9813      0
+Cmd  28:    100     28     20     20      0      0   9083      0
+Cmd  29:      1    542    566      0      0      0   3511      0
+Cmd  30:      0      0      0      0      0      0      0      0
+Cmd  31:   4527    304      0      0      0      0  19763      0
+Cmd  32:   7800    404      0      0      0      0  19766   9150
+Cmd  33:   7800      0      0      0      0      0  19696      0
+Cmd  34:   6218    224   1101      0      0      0   7500      0
+Cmd  35:   4546     23      0      0      0      0  19763      0
+Cmd  36:      0      0      0      0      0      0      0      0
+Cmd  37:   7650    484      0      0      0      0  19694      0
+Cmd  38:   7650    404      0      0      0      0  19766   9150
+Cmd  39:   6046     21     20      0      0      0   8081      0
+Cmd  40:   4583   1122    274   1814    260    349    203      0
+Cmd  41:   4050    221    254     24    240      0    203      0
+Cmd  42:   4050    226      0      0      0      0    300      0
+Cmd  43:   4050    221    253     24      0      0  18300      0
+Cmd  44:   4557   1522   1634   1620      0      0   5753      0
+Cmd  45:   1516    240      0      0      0      0   9958      0
+Cmd  46:   6900    240      0      0      0      0   9958      0
+Cmd  47:   4050     44      0      0      0      0  18300      0
+Cmd  48:   4050     44    273      0      0      0  18300      0
+Cmd  49:   1546     84     22    334    320     20   7960   7800
+Cmd  50:   1507    484     81     80    100      0   8302      0
+Cmd  51:   1507    282     86      0      0      0    750      0
+Cmd  52:   1507    282    101      0      0      0      0    900
+Cmd  53:    162     64    480      0      0      0   8176      0
+Cmd  54:   1507     64     81     80    100      0   8302      0
+Cmd  55:    160    342     84    120      0      0   8156  11400
+Cmd  56:    160    322     84      0      0      0   1950      0
+Cmd  57:   4050    221    134     84    120      0   7950      0
+Cmd  58:   4050    221    122      0      0      0  18300      0
+Cmd  59:    203    122    100      0      0      0   8176      0
+Cmd  60:   2110    322    361    128    340    320  10800      0
+Cmd  61:   2110    322    366      0      0      0   1950      0
+Cmd  62:   1809    302      0      0      0      0   1350      0
+Cmd  63:   2550      0      0      0      0      0   9450      0
+Cmd  64:   2110    322    361    129      0      0   2161      0
+Cmd  65:   2110    104    241    120    140    520   1660   8772
+Cmd  66:   2110    104    246      0      0      0   1950      0
+Cmd  67:    160    104    128      0      0      0   2250      0
+Cmd  68:   6607    101    100     80      0      0   2622      0
+Cmd  69:   2114    402    440    400      0      0  10800      0
+Cmd  70:    164    442    140      0      0      0   8176   8400
+Cmd  71:   1963   1082    480   1080      0      0   2719  10800
+Cmd  72:   3313   1082    480   1080      0      0   2719  10800
+Cmd  73:    160    124    502     80      0      0   8157  11400
+Cmd  74:    173    582    742      0      0      0   4984      0
+Cmd  75:   3750      0      0      0      0      0   3750      0
+Cmd  76:   3600    566      0      0      0      0    300      0
+Cmd  77:   3600     19      0      0      0      0   4200      0
+Cmd  78:   3617    220     20      0      0      0   8758      0
+Cmd  79:    907    101    622    720    620     40  10858  10950
+Cmd  80:      0     48    100     80      0      0  10873      0
+Cmd  81:      0     48    582    660    580     40  10860  10950
+Cmd  82:      0     48    642    640    660     40  10860      0
+Cmd  83:   1520    605      0      0      0      0    600      0
+Cmd  84:   1520    582      0      0      0      0   4984      0
+Cmd  85:   1522    582      0      0      0      0   4984   5250
+Cmd  86:   1521    622      0      0      0      0   4500      0
+Cmd  87:   3622    582    580    640     20      0   5472   8700
+Cmd  88:   3622    642     20      0      0      0   5458      0
+Cmd  89:   2008   1801      0      0      0      0    600      0
+Cmd  90:   4524    963   1014   1000      0      0   7988      0
+Cmd  91:   4537    983   1034   1020    394    493    188   7950
+Cmd  92:  11867    542      0      0      0      0   5145   3300
+Cmd  93:   3622   1082     20      0      0      0   5458      0
+Cmd  94:   1548    202    200    220      0      0   8302      0
+Cmd  95:   5318   1062      0      0      0      0   7500      0
+Cmd  96:    218   1062      0      0      0      0   7500      0
+Cmd  97:    186   1162    360      0      0      0   8176      0
+Cmd  98:    193    264    209      0      0      0  15600      0
+Cmd  99:    193    264    208   1266    280      0   8176      0
+Cmd 100:   1576   1202   1200   1373      0      0  19702      0
+Cmd 101:   1546     22     20      0      0      0   7931      0
+Cmd 102:   6226   1103   1203   1360   1374      0    203      0
+Cmd 103:   4277    161    329    160    180      0  10876      0
+Cmd 104:   2400      0      0      0      0      0   9750      0
+Cmd 105:   2177    181    160    180      0      0  10876      0
+Cmd 106:   4555    324   1494   1480      0      0    203      0
+Cmd 107:   4532   1474    324    874   1460      0   7951      0
+Cmd 108:   1554   1462      0      0      0      0  16914   9150
+Cmd 109:   4842    324    874   1301    860   1460   5603   8323
+Cmd 110:      0   1500    340      0      0      0   9300      0
+Cmd 111:   1532    842    874   1460      0      0   5753      0
+Cmd 112:    224    324    862    340      0      0   8176      0
+Cmd 113:    205    324   1494      0      0      0    150      0
+Cmd 114:    224    344   1502    320      0      0   8176      0
+Cmd 115:   4842   1301      0      0      0      0  19500      0
+Cmd 116:   1576   1202   1200   1374      0      0   7931   1650
+Cmd 117:   4558   1542   1654   1640      0      0    203      0
+Cmd 118:   4558   1542   1653      0      0      0  15961      0
+Cmd 119:    209   1562      0      0      0      0   1950      0
+Cmd 120:    209   1582      0      0      0      0  19861      0
+Cmd 121:   2159   1562   1600   1580   1560      0   8022      0
+Cmd 122:   3663   1602     20      0      0      0   5458      0
+Cmd 123:   9000      0      0      0      0      0  16350      0
+Cmd 124:   6029    404    901    900   1700      0   8303      0
+Cmd 125:    179    404   1702    420      0      0   8176      0
+Cmd 126:    203    404   1702    420      0      0   8176      0
+Cmd 127:    203    404   1714      0      0      0   7500      0
+Cmd 128:   1536   1162      0      0      0      0  16500      0
+Cmd 129:   3900    424   1120      0      0      0   6055      0
+Cmd 130:    162    404      0      0      0      0  17461      0
+Cmd 131:   1507    404    101      0      0      0    900      0
+Cmd 132:   1507    404     81     80      0      0  17517   8250
+Cmd 133:   1507    404     86      0      0      0    750      0
+Cmd 134:    188   1722   1880   1720      0      0   2922   1500
+Cmd 135:    188   1882   1880   1900   1840      0   1519  10853
+Cmd 136:   5288   1722   1880   1720      0      0   2922   1500
+Cmd 137:   5288   1882   1880   1900   1840      0   1519  10853
+Cmd 138:    212   1902      0      0      0      0  17734      0
+Cmd 139:    212   1842   1914    440      0      0   8176      0
+Cmd 140:   2166    424   1734   1894   1914   1874  10950      0
+Cmd 141:      0   1860      0      0      0      0    203      0
+Cmd 142:   2166    424      0      0      0      0  17734      0
+Cmd 143:   6058   1801    404   1800   1900   1880   8305   8323
+Cmd 144:      0    340      0      0      0      0   8831  18150
+Cmd 145:   1867    424      0      0      0      0  17850      0
+Cmd 146:   1509    302      0      0      0      0  16500      0
+Cmd 147:   6607    404      0      0      0      0  17461      0
+Cmd 148:   1558   1802   1882   1800   1900   1880   7872   1500
+Cmd 149:   1558   1802   1722   1800   1900   1720   7872   1500
+Cmd 150:    218    444   1962    460      0      0   8176      0
+Cmd 151:   6218    444   1101   2000   1960      0  10800      0
+Cmd 152:   2168    444   1101   2000   1960      0  10800      0
+Cmd 153:   2171   1982    381   1980    880    241  10800      0
+Cmd 154:   2171   1982    386    241      0      0   1861      0
+Cmd 155:   6334   1021   1020    380      0      0  10800      0
+Cmd 156:   8734    381   1020    380      0      0  10800      0
+Cmd 157:    160    782    500      0      0      0   8231      0
+Cmd 158:   1846     23    307      0      0      0  16050      0
+Cmd 159:    230      0      0      0      0      0    600      0
+Cmd 160:   5100      0      0      0      0      0   5250      0
+Cmd 161:    907    101    100     80      0      0  19722      0
+Cmd 162:   4050    221      0      0      0      0  18300      0
+Cmd 163:   6825      0      0      0      0      0  10650      0
+Cmd 164:   5288    424   1734   1914   1894   1840   7951      0
+Cmd 165:    188    424   1734   1914   1894   1840   7951      0
+Cmd 166:   4571    882   1954   1940      0      0   7951      0
+Cmd 167:   2014    504      0      0      0      0  20611      0
+Cmd 168:    173    742    585    200      0      0   8176      0
+Cmd 169:    907    101     80    100      0      0  10810      0
+Cmd 170:   1350    400      0      0      0      0   8823      0
+Cmd 171:   1540   1262      0      0      0      0  18600      0
+Cmd 172:   1540   1265      0      0      0      0  18750      0
+Cmd 173:   6058   1801   1800      0      0      0  19703      0
+Cmd 174:  11250    814    504    800      0      0  20753      0
+Cmd 175:    212    144    160      0      0      0   8176      0
+Cmd 176:    229    104      0      0      0      0    600      0
+Cmd 177:    160    104      0      0      0      0    600      0
+Cmd 178:   1558   1802   1800      0      0      0   7931      0
+Cmd 179:   1520    585    645    754    740    600   8024  19650
+Cmd 180:   1520    642      0      0      0      0   4984      0
+Cmd 181:    229    742    582      0      0      0   4984      0
+Cmd 182:    229    742    585    200      0      0   8176      0
+Cmd 183:   4509    302      0      0      0      0   1350      0
+Cmd 184:   4567    424      0      0      0      0  17850      0
+Cmd 185:   3652   1422    344   1420    280     20   9415   8716
+Cmd 186:   3652   1422   1422   1420    340     20   9415   8716
+Cmd 187:   7521    622      0      0      0      0  20400      0
+Cmd 188:   6029    901    900      0      0      0   8081      0
+Cmd 189:   5714    442    440    400      0      0  10931      0
+Cmd 190:   4537    983    494    480      0      0    188   7950
+Cmd 191:   1581      0      0      0      0      0  20250      0
+Cmd 192:   7394    561      0      0      0      0  19950      0
+Cmd 193:   4572    263      0      0      0      0   6450      0
+Cmd 194:   6046     21     20      0      0      0   7996      0
+Cmd 195:   1568    224      0      0      0      0   7500      0
+Cmd 196:  11860    762    760    780    381      0  10931   2700
+Cmd 197:   6000      0      0      0      0      0   3085      0
+Cmd 198:   4500      0      0      0      0      0  18376      0
+Cmd 199:   1532    842    840      0      0      0   7931      0
+Cmd 200:   8895     61     60      0      0      0  19667   8250
+Cmd 201:   3600     20      0      0      0      0  19708  17250
+Cmd 202:   7950      0      0      0      0      0   6900      0
+Cmd 203:   9167    542      0      0      0      0   3300      0
+Cmd 204:   2140   1262      0      0      0      0  15600      0
+Cmd 205:   1827    304     32      0      0      0  16050      0
+Cmd 206:   1827    304     23      0      0      0  19752      0
+Cmd 207:   1846     23    304      0      0      0  19752      0
+Cmd 208:  11302   1422     63   1420   1380     60  19722   8250
+Cmd 209:   6607    484      0      0      0      0  19667      0
+Cmd 210:    224    184      0      0      0      0  16200      0
+Cmd 211:  11290   1262     61     60    200   1280   8308   8053
+Cmd 212:   1555    822      0      0      0      0    630      0
+Cmd 213:   1520    585    645    753    600      0  19724      0
+Cmd 214:   6188   1101   1522      0      0      0   6300      0
+Cmd 215:   6188   1101   1722      0      0      0   6300      0
+Cmd 216:  10557   1522      0      0      0      0   6300      0
+Cmd 217:   9150      0      0      0      0      0   6900      0
+Cmd 218:   5288   1902      0      0      0      0  19669  19050
+Cmd 219:    951      0      0      0      0      0  16350      0
+Cmd 220:   5700      0      0      0      0      0    600      0
+Cmd 221:   1521    722    720      0      0      0   7931      0
+Cmd 222:   1568   1342   1340      0      0      0   7931      0
+Cmd 223:   2171   1982    246      0      0      0   7050      0
+Cmd 224:  10872    263    260   1800    103      0  10931      0
+Cmd 225:  10872    263    260   1800    484      0  10931      0
+Cmd 226:   1950      0      0      0      0      0    600      0
+Cmd 227:  11850    386      0      0      0      0    300      0
+Cmd 228:   3300    542      0      0      0      0    300      0
+Cmd 229:  11250      0      0      0      0      0   5250      0
+
+Verb  0: AUT    Noun  0: ANY
+Verb  1: GO     Noun  1: NORTH
+Verb  2: *ENT   Noun  2: SOUTH
+Verb  3: *WAL   Noun  3: EAST
+Verb  4: *RUN   Noun  4: WEST
+Verb  5: *CLI   Noun  5: UP
+Verb  6: POU    Noun  6: DOWN
+Verb  7: *SPI   Noun  7: WAT
+Verb  8: *EMP   Noun  8: *LIQ
+Verb  9: HEL    Noun  9: SIG
+Verb 10: GET    Noun 10: DOO
+Verb 11: *TAK   Noun 11: *BRI
+Verb 12: REA    Noun 12: POO
+Verb 13: BRE    Noun 13: SKE
+Verb 14: UNL    Noun 14: SAR
+Verb 15: *OPE   Noun 15: BAN
+Verb 16: SCO    Noun 16: INV
+Verb 17: QUI    Noun 17: NOM
+Verb 18: DRO    Noun 18: BRA
+Verb 19: *PUT   Noun 19: BON
+Verb 20: *LEA   Noun 20: TAP
+Verb 21: PET    Noun 21: LEA
+Verb 22: ATT    Noun 22: MUM
+Verb 23: *KIL   Noun 23: ALC
+Verb 24: SHO    Noun 24: SKU
+Verb 25: YES    Noun 25: CRO
+Verb 26: BUR    Noun 26: FLO
+Verb 27: DIG    Noun 27: HIE
+Verb 28: LIG    Noun 28: THR
+Verb 29: *FLA   Noun 29: ROP
+Verb 30: LOO    Noun 30: PLA
+Verb 31: *SEA   Noun 31: BLO
+Verb 32: PLA    Noun 32: BAS
+Verb 33: BAL    Noun 33: TEE
+Verb 34: RUB    Noun 34: GLO
+Verb 35: PUL    Noun 35: SAW
+Verb 36: *GRA   Noun 36: LAD
+Verb 37: PLA    Noun 37: BOX
+Verb 38: CLO    Noun 38: CHA
+Verb 39: *SHU   Noun 39: ARO
+Verb 40: THR    Noun 40: OYS
+Verb 41: SAW    Noun 41: PEA
+Verb 42: WEA    Noun 42: FLU
+Verb 43: GLO    Noun 43: ARC
+Verb 44: DRI    Noun 44: PIS
+Verb 45: SAV    Noun 45: JER
+Verb 46: INV    Noun 46: STO
+Verb 47: DRA    Noun 47: *MAR
+Verb 48: .      Noun 48: POL
+Verb 49: LOA    Noun 49: SHO
+Verb 50: SMO    Noun 50: NEC
+Verb 51: SWI    Noun 51: CAN
+Verb 52: JUM    Noun 52: RAT
+Verb 53: SHA    Noun 53: HOL
+Verb 54: *.     Noun 54: COB
+Verb 55: *SME   Noun 55: ASH
+Verb 56: *PUS   Noun 56: KEY
+Verb 57: *WAV   Noun 57: EXP
+Verb 58: REM    Noun 58: RUB
+Verb 59: EAT    Noun 59: POR
+Verb 60: WET    Noun 60: PIN
+Verb 61: ASK    Noun 61: CAR
+Verb 62: *TAL   Noun 62: STA
+Verb 63: *YEL   Noun 63: WOR
+Verb 64: *SAY   Noun 64: MIR
+Verb 65: *SCR   Noun 65: SAP
+Verb 66: *KIC   Noun 66: CHE
+Verb 67: *TIC   Noun 67: MUR
+Verb 68: .      Noun 68: BAR
+Verb 69: HUG    Noun 69: *WIN
+Verb 70: UNC    Noun 70: .
+Verb 71:        Noun 71: COF
+Verb 72: CLE    Noun 72: COA
+Verb 73: *WAS   Noun 73: COI
+Verb 74:        Noun 74: PAS
+Verb 75: FEE    Noun 75: GAM
+Verb 76: *TOU   Noun 76: TAB
+Verb 77: *GRO   Noun 77: FLA
+Verb 78:        Noun 78: STA
+Verb 79: PUN    Noun 79: ENT
+Verb 80: *HIT   Noun 80: PYR
+Verb 81:        Noun 81: HEA
+Verb 82:        Noun 82: SCA
+Verb 83:        Noun 83: FIR
+Verb 84:        Noun 84: ALT
+
+Room  0: 
+
+Room  1: desert
+         S:     4
+         W:     2
+
+Room  2: desert
+         S:     3
+         E:     1
+
+Room  3: desert
+         N:     2
+         E:     4
+
+Room  4: desert next to a pyramid
+         N:     1
+         W:     3
+
+Room  5: hole
+         U:     4
+
+Room  6: rocky entrance-way
+         N:    12
+         S:    16
+
+Room  7: sarcophagus
+         W:     6
+         D:     8
+
+Room  8: burial room
+         N:     9
+         S:    11
+         U:     7
+
+Room  9: long, narrow passageway
+         S:     8
+
+Room 10: hidden alcove
+         W:     8
+
+Room 11: tall room
+         N:     8
+
+Room 12: dining hall
+         S:     6
+         E:    13
+
+Room 13: hallway
+         W:    12
+
+Room 14: round altar room
+         N:    13
+         S:    17
+         E:    15
+
+Room 15: hieroglyphics room
+         W:    14
+
+Room 16: sitting room
+         N:     6
+
+Room 17: sloping crawlway
+         N:    14
+
+Room 18: Revolving cavern
+         N:    19
+         S:    20
+         D:    11
+
+Room 19: prison cell
+         S:    20
+         W:    18
+
+Room 20: *I'm on a narrow ledge
+         S:    19
+         W:    18
+
+Room 21: throne room
+         D:    20
+
+Room 22: treasure room
+         D:    21
+
+Room 23: *I'm on top of a pyramid
+         W:    22
+
+Room 24: Pool of water
+         E:     3
+
+Room 25: .
+         N:     9
+         S:     9
+         E:    26
+         W:     9
+         U:     9
+         D:     9
+
+Room 26: dressing room
+         W:    25
+
+Room 27: lot of TROUBLE!
+
+Msg   0: 
+Msg   1: I see something.
+Msg   2: Bare-handed?
+Msg   3: .
+Msg   4: I can't.
+Msg   5: No container.
+Msg   6: Canteen is full.
+Msg   7: Welcome to Adventure: 8 `PYRAMID OF DOOM`
+Msg   8: By Alvin Files & Scott Adams Dedicated to Ray Harshaw!
+Msg   9: Sign: He who defiles the tombs of Egypt shall surely perish!
+Msg  10: The sound of machinery.
+Msg  11: I hear strange noises!
+Msg  12: ARRGH! Poison needle in the lock.
+Msg  13: The right key could help (maybe).
+Msg  14: Large stone falls on me!
+Msg  15: Something won't fit.
+Msg  16: Noise scares them off
+Msg  17: Thanks.
+Msg  18: Crash!!!
+Msg  19: I hear a hollow laugh. . .
+Msg  20: I don't see any reason to throw a 
+Msg  21: A small desert nomad appears...
+Msg  22: The nomad stuck out his tongue at me.
+Msg  23: What! The nomad jumped me while my back was turned!
+Msg  24: Nomad vanishes in a puff of yellow smoke.
+Msg  25: Sorry, won't work.
+Msg  26: Pistol has
+Msg  27: bullets
+Msg  28: No bullets.
+Msg  29: Got him!!
+Msg  30: Too hot.
+Msg  31: Mummy moves toward me.
+Msg  32: Mummy has me by the throat!
+Msg  33: Mummy
+Msg  34: won't let me
+Msg  35: You be weird. Cut that out.
+Msg  36: Doesn't bother him.
+Msg  37: Cobra crawls out, presses a loose brick and then disappears intoa passage which appeared.
+Msg  38: Something falls out.
+Msg  39: .
+Msg  40: .
+Msg  41: Purple worm devours me.
+Msg  42: Chain too tough.
+Msg  43: Its black, dirty & dusty
+Msg  44: That feels good.
+Msg  45: Rats
+Msg  46: Strange . . . Nothing happens.
+Msg  47: Its locked.
+Msg  48: Skeleton places skull on his shoulders, grasps
+Msg  49: metal bar, pulls down ladder
+Msg  50: I can't reach it.
+Msg  51: I'm not an arsonist.
+Msg  52: It says: `LEAVE *TREASURES* HERE!`
+Msg  53: Oyster makes a slobbering noise
+Msg  54: Oyster won't let me
+Msg  55: It attacks!
+Msg  56: I just caught dengue fever. Very bad.
+Msg  57: Confusing. Part appears missing.
+Msg  58: I'm there.
+Msg  59: Pour water?
+Msg  60: It's stuck.
+Msg  61: .
+Msg  62: Cobra
+Msg  63: Strange markings are present.
+Msg  64: attacks!
+Msg  65: Missed...
+Msg  66: Liquid is acid.
+Msg  67: Canteen dissolves.
+Msg  68: Iron Statue
+Msg  69: Mural: Seek ye well the HEART of Iron.
+Msg  70: Iron Statue tears me apart!
+Msg  71: Ruby falls into pool of acid, burns up.
+Msg  72: I see nothing special.
+Msg  73: A tiny voice says: `SEARCH AND YE SHALL FIND!`
+Msg  74: I can't lift it. This is a big oyster
+Msg  75: I don't see it
+Msg  76: Nomad: `Look up decapitated!`
+Msg  77: Nomad: `RUN YOU FOOL!`
+Msg  78: Nomad: `Oyster thirsty?`
+Msg  79: Glove falls off my sweaty hand
+Msg  80: Ah, 'tis music to my ears.
+Msg  81: OK
+Msg  82: Into the worm's mouth!
+Msg  83: TRY: `TAKE INVENTORY`
+Msg  84: Mirrors EVERYWHERE! Light blinds me, so I shut it OFF!
+Msg  85: Pharoah's heart is red like yours, yet evil has darkened it!
+Msg  86: WOW, man, crazy...
+Msg  87: 1000 years bad luck starts with a cave in!
+Msg  88: I feel a coin on the floor
+
+Item  0: Loc:  0 - 
+Item  1: Loc:  4 - Stone/STO/
+Item  2: Loc:  0 - Door with large keyhole
+Item  3: Loc: 15 - Dried Camel Jerky/JER/
+Item  4: Loc: 255 - Empty canteen/CAN/
+Item  5: Loc:  0 - Full canteen/CAN/
+Item  6: Loc:  0 - Hole
+Item  7: Loc:  5 - Tiny locked door
+Item  8: Loc: 255 - Unlit flashlite/FLA/
+Item  9: Loc:  0 - Lit flashlite/FLA/
+Item 10: Loc:  3 - Wooden pole sticking from sand
+Item 11: Loc:  0 - Shovel/SHO/
+Item 12: Loc:  0 - Tiny key/KEY/
+Item 13: Loc:  0 - Lump of coal/COA/
+Item 14: Loc:  3 - Pool of liquid
+Item 15: Loc:  4 - Sign
+Item 16: Loc:  0 - Door with large keyhole
+Item 17: Loc:  0 - Open door
+Item 18: Loc: 24 - Large key/KEY/
+Item 19: Loc:  0 - I'm wearing an iron glove
+Item 20: Loc:  6 - Closed sarcophagus
+Item 21: Loc:  6 - Mouldy bandages/BAN/
+Item 22: Loc:  0 - Open sarcophagus
+Item 23: Loc:  7 - Stairs
+Item 24: Loc:  0 - Bones/BON/
+Item 25: Loc:  6 - Open door
+Item 26: Loc:  0 - Tiny open door
+Item 27: Loc:  0 - Small Nomad
+Item 28: Loc:  6 - Pistol/PIS/
+Item 29: Loc:  8 - Fearsome mummy
+Item 30: Loc:  8 - * ANTIQUE TAPESTRY */TAP/
+Item 31: Loc:  8 - Burning tanna leaves
+Item 32: Loc:  0 - Enraged mummy
+Item 33: Loc:  0 - Sleeping mummy
+Item 34: Loc: 26 - * GOLD SCARAB */SCA/
+Item 35: Loc:  0 - .
+Item 36: Loc:  0 - Wet tanna leaves/LEA/
+Item 37: Loc:  0 - Entrance to an alcove
+Item 38: Loc:  9 - Bricked up doorway
+Item 39: Loc:  0 - Open door
+Item 40: Loc:  0 - * GOLD COIN */COI/
+Item 41: Loc: 16 - Ashes
+Item 42: Loc: 16 - Basket/BAS/
+Item 43: Loc:  0 - Passageway behind fireplace
+Item 44: Loc:  0 - Open treasure coffer
+Item 45: Loc:  9 - Rope/ROP/
+Item 46: Loc:  0 -  
+Item 47: Loc: 10 - Chopping block/BLO/
+Item 48: Loc: 10 - Skull/SKU/
+Item 49: Loc: 10 - Box/BOX/
+Item 50: Loc:  0 - * GOLD TEETH */TEE/
+Item 51: Loc:  0 - Iron glove/GLO/
+Item 52: Loc: 13 - Archway
+Item 53: Loc: 11 - Metal bar protruding from ceiling
+Item 54: Loc: 11 - Decapitated skeleton
+Item 55: Loc: 11 - Saw/SAW/
+Item 56: Loc: 16 - Fireplace
+Item 57: Loc:  0 -  
+Item 58: Loc:  0 - Ladder
+Item 59: Loc:  0 - Glowing skeleton
+Item 60: Loc: 12 - Table/TAB/
+Item 61: Loc:  0 -   
+Item 62: Loc:  0 -  
+Item 63: Loc: 13 - Giant Oyster
+Item 64: Loc:  0 - * BLACK PEARL */PEA/
+Item 65: Loc: 13 - Flute/FLU/
+Item 66: Loc: 14 - Blood-stained altar
+Item 67: Loc: 23 - * PLATINUM BAR */BAR/
+Item 68: Loc:  0 - * DIAMOND NECKLACE */NEC/
+Item 69: Loc:  0 - Satisfied rats/RAT/
+Item 70: Loc:  0 -  
+Item 71: Loc: 17 - Starving rats/RAT/
+Item 72: Loc:  0 -  
+Item 73: Loc:  0 - Hissing cobra
+Item 74: Loc:  0 - * GOLD NECKLACE */NEC/
+Item 75: Loc:  0 - Passageway
+Item 76: Loc: 19 - Dead explorer chained to wall
+Item 77: Loc: 19 - Pile of Rubbish
+Item 78: Loc: 19 - Closed portal
+Item 79: Loc:  0 - Open portal
+Item 80: Loc:  0 - Purple Worm
+Item 81: Loc:  0 - * GOLD PIN */PIN/
+Item 82: Loc:  0 - * JADE CARVING */CAR/
+Item 83: Loc: 20 - * SAPPHIRE */SAP/
+Item 84: Loc: 20 - Hole in the ceiling
+Item 85: Loc:  0 - Rope hanging from ceiling
+Item 86: Loc: 21 - Iron statue of Pharoah seated on throne
+Item 87: Loc: 21 - Chain hanging from ceiling
+Item 88: Loc: 21 - Chest
+Item 89: Loc: 21 - Wall Mural
+Item 90: Loc:  0 -  * RUBY */RUB/
+Item 91: Loc: 20 - Pool of liquid (far below ledge)
+Item 92: Loc:  0 - Spiral Staircase
+Item 93: Loc:  0 - * PLATINUM CROWN */CRO/
+Item 94: Loc:  0 - Standing iron statue
+Item 95: Loc:  0 - Iron Statue, slowly advancing. . .
+Item 96: Loc:  0 - Pile of Melted iron
+Item 97: Loc:  0 - * EMERALD BRACELET */BRA/
+Item 98: Loc:  0 - Open window
+Item 99: Loc: 22 - Treasure coffer
+Item 100: Loc: 22 - Barred window
+
+Version         = 125
+AdventureNumber = 8
+MagicNumber     = 683
+
+Cmd   0 |     0   100 |    9   3   0   3   0   0   0   0   0   0 |   58   7   8   0 | INTRO
+                 100% | IF FLAG(3)=FALSE
+                      | SET FLAG(3)=TRUE
+                      | MESSAGE 7="Welcome to Adventure: 8 `PY..."
+                      | MESSAGE 8="By Alvin Files & Scott Adam..."
+Cmd   1 |     0    50 |    1  71   0   0   0   0   0   0   0   0 |   45 114  61   0 | RATS HOLD
+                  50% | IF CARRY(71="Starving rats")
+                      | MESSAGE 45="Rats"
+                      | MESSAGE 64="attacks!"
+                      | DEAD
+Cmd   2 |     0   100 |    8  16  13   9   0   9   0   8   0   0 |   72  76   0   0 |
+                 100% | IF FLAG(16)=TRUE
+                      | IF SOMEWHERE(9="Lit flashlite")
+                      | SWAP ITEMS 9="Lit flashlite" AND 8="Unlit flashlite"
+                      | LOOK
+Cmd   3 |     0     2 |   14  27   0  27   0   0   0   0   0   0 |   53  21   0   0 | ARAB
+                   2% | IF NOWHERE(27="Small Nomad")
+                      | DROP 27="Small Nomad"
+                      | MESSAGE 21="A small desert nomad appear..."
+Cmd   4 |     0   100 |    9  14   0  14   0   4   0   0   0   0 |   58  79   0   0 | AMMO
+                 100% | IF FLAG(14)=FALSE
+                      | SET FLAG(14)=TRUE
+                      | SET COUNTER=4
+Cmd   5 |     0   100 |    8  12   1  28  16   1   0   0   0   0 |   26  78  27   0 | PISTOL
+                 100% | IF FLAG(12)=TRUE
+                      | IF CARRY(28="Pistol")
+                      | IF GE(COUNTER,1)
+                      | MESSAGE 26="Pistol has"
+                      | PRINT_COUNTER
+                      | MESSAGE 27="bullets"
+Cmd   6 |     0   100 |    8  12   0  12   0   0   0   0   0   0 |   60   0   0   0 | PISTOL
+                 100% | IF FLAG(12)=TRUE
+                      | SET FLAG(12)=FALSE
+Cmd   7 |     0    70 |    8  11   0  11   0  27   0   0   0   0 |   29  24  60  55 | SHOOT ARAB
+                  70% | IF FLAG(11)=TRUE
+                      | MESSAGE 29="Got him!!"
+                      | MESSAGE 24="Nomad vanishes in a puff of..."
+                      | SET FLAG(11)=FALSE
+                      | DESTROY 27="Small Nomad"
+Cmd   8 |     0   100 |    8  11   0  11   0   0   0   0   0   0 |   60 115   0   0 |
+                 100% | IF FLAG(11)=TRUE
+                      | SET FLAG(11)=FALSE
+                      | MESSAGE 65="Missed..."
+Cmd   9 |     0    10 |    2  29   0  29   0  32   0   0   0   0 |   72  31   0   0 |
+                  10% | IF HERE(29="Fearsome mummy")
+                      | SWAP ITEMS 29="Fearsome mummy" AND 32="Enraged mummy"
+                      | MESSAGE 31="Mummy moves toward me."
+Cmd  10 |     0    20 |    2  32   0   0   0   0   0   0   0   0 |   32  61   0   0 |
+                  20% | IF HERE(32="Enraged mummy")
+                      | MESSAGE 32="Mummy has me by the throat!"
+                      | DEAD
+Cmd  11 |     0    10 |    1  19   0  19   0  51   0   0   0   0 |   59  53 129   0 | GLOVE
+                  10% | IF CARRY(19="I'm wearing an iron glove")
+                      | DESTROY 19="I'm wearing an iron glove"
+                      | DROP 51="Iron glove"
+                      | MESSAGE 79="Glove falls off my sweaty hand"
+Cmd  12 |     0    25 |    2  27   4  11   0  20  14  59   8  20 |  126  60   0   0 | ARAB HELP
+                  25% | IF HERE(27="Small Nomad")
+                      | IF ISROOM(11="tall room")
+                      | IF NOWHERE(59="Glowing skeleton")
+                      | IF FLAG(20)=TRUE
+                      | MESSAGE 76="Nomad: `Look up decapitated!`"
+                      | SET FLAG(20)=FALSE
+Cmd  13 |     0   100 |    2  54   2  48   0  59   0  58   0   0 |   48  49  53  53 | HEAD
+                 100% | IF HERE(54="Decapitated skeleton")
+                      | IF HERE(48="Skull")
+                      | MESSAGE 48="Skeleton places skull on hi..."
+                      | MESSAGE 49="metal bar, pulls down ladder"
+                      | DROP 59="Glowing skeleton"
+                      | DROP 58="Ladder"
+Cmd  14 |     0   100 |    2  54   2  48   0  54   0  48   0  53 |   55  55  55   0 |
+                 100% | IF HERE(54="Decapitated skeleton")
+                      | IF HERE(48="Skull")
+                      | DESTROY 54="Decapitated skeleton"
+                      | DESTROY 48="Skull"
+                      | DESTROY 53="Metal bar protruding from c..."
+Cmd  15 |     0   100 |   13  27   5  27   0  27   0   0   0   0 |   53   0   0   0 | ARAB FOLLOWS
+                 100% | IF SOMEWHERE(27="Small Nomad")
+                      | IF NOT HERE(27="Small Nomad")
+                      | DROP 27="Small Nomad"
+Cmd  16 |     0   100 |    2  63   2   3   0   3   0  10   0  64 |   55 103  58  53 | CLAM
+                 100% | IF HERE(63="Giant Oyster")
+                      | IF HERE(3="Dried Camel Jerky")
+                      | DESTROY 3="Dried Camel Jerky"
+                      | MESSAGE 53="Oyster makes a slobbering n..."
+                      | SET FLAG(10)=TRUE
+                      | DROP 64="* BLACK PEARL *"
+Cmd  17 |     0    20 |    2  27   4  19   0   0   0   0   0   0 |  127   0   0   0 | ARAB RUN
+                  20% | IF HERE(27="Small Nomad")
+                      | IF ISROOM(19="prison cell")
+                      | MESSAGE 77="Nomad: `RUN YOU FOOL!`"
+Cmd  18 |     0    25 |    2  27   2  63  14  64   8  20   0  20 |  128  60   0   0 | OYSTER CLUE
+                  25% | IF HERE(27="Small Nomad")
+                      | IF HERE(63="Giant Oyster")
+                      | IF NOWHERE(64="* BLACK PEARL *")
+                      | IF FLAG(20)=TRUE
+                      | MESSAGE 78="Nomad: `Oyster thirsty?`"
+                      | SET FLAG(20)=FALSE
+Cmd  19 |     0   100 |    8  17  14  96   0  96   0  21   0  86 |   62  59   0   0 | STAT FINI
+                 100% | IF FLAG(17)=TRUE
+                      | IF NOWHERE(96="Pile of Melted iron")
+                      | SEND 96="Pile of Melted iron" TO 21="throne room"
+                      | DESTROY 86="Iron statue of Pharoah seat..."
+Cmd  20 |     0   100 |    2   3   2  71   0   3   0  71   0  69 |   55  72   0   0 | RATS EAT
+                 100% | IF HERE(3="Dried Camel Jerky")
+                      | IF HERE(71="Starving rats")
+                      | DESTROY 3="Dried Camel Jerky"
+                      | SWAP ITEMS 71="Starving rats" AND 69="Satisfied rats"
+Cmd  21 |     0    30 |    2  73   0   0   0   0   0   0   0   0 |  112 114  61   0 |
+                  30% | IF HERE(73="Hissing cobra")
+                      | MESSAGE 62="Cobra"
+                      | MESSAGE 64="attacks!"
+                      | DEAD
+Cmd  22 |     0    10 |    2  71   0   0   0   0   0   0   0   0 |   45 114  61   0 | RATS ATTACK
+                  10% | IF HERE(71="Starving rats")
+                      | MESSAGE 45="Rats"
+                      | MESSAGE 64="attacks!"
+                      | DEAD
+Cmd  23 |     0    40 |    2  80   0   0   0   0   0   0   0   0 |   41  61   0   0 | WORM
+                  40% | IF HERE(80="Purple Worm")
+                      | MESSAGE 41="Purple worm devours me."
+                      | DEAD
+Cmd  24 |     0    20 |    2  95   0   0   0   0   0   0   0   0 |  120  61   0   0 | STATUE
+                  20% | IF HERE(95="Iron Statue, slowly advanci...")
+                      | MESSAGE 70="Iron Statue tears me apart!"
+                      | DEAD
+Cmd  25 |     0   100 |    4  23   8  15   0   0   0   0   0   0 |   57  76   0   0 |
+                 100% | IF ISROOM(23="on top of a pyramid")
+                      | IF FLAG(15)=TRUE
+                      | SET DARK=FALSE
+                      | LOOK
+Cmd  26 |     0   100 |    4  25   3   9   0   9   0   8   0   0 |   72 134  76   0 | MIRROR ROOM
+                 100% | IF ISROOM(25="")
+                      | IF HERECARRY(9="Lit flashlite")
+                      | SWAP ITEMS 9="Lit flashlite" AND 8="Unlit flashlite"
+                      | MESSAGE 84="Mirrors EVERYWHERE! Light b..."
+                      | LOOK
+Cmd  27 |     0   100 |    4  27   0   0   0   0   0   0   0   0 |   65  63   0   0 | DEATH
+                 100% | IF ISROOM(27="lot of TROUBLE!")
+                      | SCORE
+                      | QUIT
+Cmd  28 |     0   100 |    8   1   0   1   0   1   0   0   0   0 |   60  83   0   0 | AMMO USE
+                 100% | IF FLAG(1)=TRUE
+                      | SET FLAG(1)=FALSE
+                      | SUBTO COUNTER 1
+Cmd  29 |     0     1 |    2  27   6  28   0   0   0   0   0   0 |   23  61   0   0 | ARAB ATTACK
+                   1% | IF HERE(27="Small Nomad")
+                      | IF NOT CARRY(28="Pistol")
+                      | MESSAGE 23="What! The nomad jumped me w..."
+                      | DEAD
+Cmd  30 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd  31 |    30    27 |    4  15   0   0   0   0   0   0   0   0 |  131 113   0   0 |
+            loo   hie | IF ISROOM(15="hieroglyphics room")
+                      | MESSAGE 81="OK"
+                      | MESSAGE 63="Strange markings are present."
+Cmd  32 |    52     0 |    4  20   0   0   0   0   0   0   0   0 |  131 116  61   0 |
+            jum       | IF ISROOM(20="on a narrow ledge")
+                      | MESSAGE 81="OK"
+                      | MESSAGE 66="Liquid is acid."
+                      | DEAD
+Cmd  33 |    52     0 |    0   0   0   0   0   0   0   0   0   0 |  131  46   0   0 |
+            jum       | MESSAGE 81="OK"
+                      | MESSAGE 46="Strange . . . Nothing happens."
+Cmd  34 |    41    68 |    4  11   1  55   0   0   0   0   0   0 |   50   0   0   0 |
+            saw   bar | IF ISROOM(11="tall room")
+                      | IF CARRY(55="Saw")
+                      | MESSAGE 50="I can't reach it."
+Cmd  35 |    30    46 |    3   1   0   0   0   0   0   0   0   0 |  131 113   0   0 |
+            loo   sto | IF HERECARRY(1="Stone")
+                      | MESSAGE 81="OK"
+                      | MESSAGE 63="Strange markings are present."
+Cmd  36 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd  37 |    51     0 |    4  24   0   0   0   0   0   0   0   0 |  131  44   0   0 |
+            swi       | IF ISROOM(24="Pool of water")
+                      | MESSAGE 81="OK"
+                      | MESSAGE 44="That feels good."
+Cmd  38 |    51     0 |    4  20   0   0   0   0   0   0   0   0 |  131 116  61   0 |
+            swi       | IF ISROOM(20="on a narrow ledge")
+                      | MESSAGE 81="OK"
+                      | MESSAGE 66="Liquid is acid."
+                      | DEAD
+Cmd  39 |    40    46 |    1   1   0   1   0   0   0   0   0   0 |   53 131   0   0 |
+            thr   sto | IF CARRY(1="Stone")
+                      | DROP 1="Stone"
+                      | MESSAGE 81="OK"
+Cmd  40 |    30    83 |    2  56  14  13  14  90   0  13   9  17 |    1  53   0   0 |
+            loo   fir | IF HERE(56="Fireplace")
+                      | IF NOWHERE(13="Lump of coal")
+                      | IF NOWHERE(90=" * RUBY *")
+                      | IF FLAG(17)=FALSE
+                      | MESSAGE 1="I see something."
+                      | DROP 13="Lump of coal"
+Cmd  41 |    27     0 |    1  11  14  12   4   1   0  12   0   0 |    1  53   0   0 | DIG
+            dig       | IF CARRY(11="Shovel")
+                      | IF NOWHERE(12="Tiny key")
+                      | IF ISROOM(1="desert")
+                      | MESSAGE 1="I see something."
+                      | DROP 12="Tiny key"
+Cmd  42 |    27     0 |    6  11   0   0   0   0   0   0   0   0 |    2   0   0   0 |
+            dig       | IF NOT CARRY(11="Shovel")
+                      | MESSAGE 2="Bare-handed?"
+Cmd  43 |    27     0 |    1  11  13  12   4   1   0   0   0   0 |  122   0   0   0 |
+            dig       | IF CARRY(11="Shovel")
+                      | IF SOMEWHERE(12="Tiny key")
+                      | IF ISROOM(1="desert")
+                      | MESSAGE 72="I see nothing special."
+Cmd  44 |    30    57 |    2  76  14  81   0  81   0   0   0   0 |   38  53   0   0 | SEARCH
+            loo   exp | IF HERE(76="Dead explorer chained to wall")
+                      | IF NOWHERE(81="* GOLD PIN *")
+                      | MESSAGE 38="Something falls out."
+                      | DROP 81="* GOLD PIN *"
+Cmd  45 |    10    16 |    0  12   0   0   0   0   0   0   0   0 |   66  58   0   0 | INVENTORY
+            get   inv | INVENTORY
+                      | SET FLAG(12)=TRUE
+Cmd  46 |    46     0 |    0  12   0   0   0   0   0   0   0   0 |   66  58   0   0 | INVENTORY
+            inv       | INVENTORY
+                      | SET FLAG(12)=TRUE
+Cmd  47 |    27     0 |    4   2   0   0   0   0   0   0   0   0 |  122   0   0   0 |
+            dig       | IF ISROOM(2="desert")
+                      | MESSAGE 72="I see nothing special."
+Cmd  48 |    27     0 |    4   2  13  13   0   0   0   0   0   0 |  122   0   0   0 |
+            dig       | IF ISROOM(2="desert")
+                      | IF SOMEWHERE(13="Lump of coal")
+                      | MESSAGE 72="I see nothing special."
+Cmd  49 |    10    46 |    4   4   2   1  14  16   0  16   0   1 |   53  10  52   0 |
+            get   sto | IF ISROOM(4="desert next to a pyramid")
+                      | IF HERE(1="Stone")
+                      | IF NOWHERE(16="Door with large keyhole")
+                      | DROP 16="Door with large keyhole"
+                      | MESSAGE 10="The sound of machinery."
+                      | TAKE 1="Stone"
+Cmd  50 |    10     7 |    4  24   1   4   0   4   0   5   0   0 |   55  52   0   0 | WATER
+            get   wat | IF ISROOM(24="Pool of water")
+                      | IF CARRY(4="Empty canteen")
+                      | DESTROY 4="Empty canteen"
+                      | TAKE 5="Full canteen"
+Cmd  51 |    10     7 |    2  14   6   4   0   0   0   0   0   0 |    5   0   0   0 |
+            get   wat | IF HERE(14="Pool of liquid")
+                      | IF NOT CARRY(4="Empty canteen")
+                      | MESSAGE 5="No container."
+Cmd  52 |    10     7 |    2  14   1   5   0   0   0   0   0   0 |    0   0   6   0 |
+            get   wat | IF HERE(14="Pool of liquid")
+                      | IF CARRY(5="Full canteen")
+                      | MESSAGE 6="Canteen is full."
+Cmd  53 |     1    12 |    4   3   0  24   0   0   0   0   0   0 |   54  76   0   0 | POOL
+             go   poo | IF ISROOM(3="desert")
+                      | GOTO 24="Pool of water"
+                      | LOOK
+Cmd  54 |    10     7 |    4   3   1   4   0   4   0   5   0   0 |   55  52   0   0 |
+            get   wat | IF ISROOM(3="desert")
+                      | IF CARRY(4="Empty canteen")
+                      | DESTROY 4="Empty canteen"
+                      | TAKE 5="Full canteen"
+Cmd  55 |     1    10 |    2  17   4   4   0   6   0   0   0   0 |   54  56  76   0 |
+             go   doo | IF HERE(17="Open door")
+                      | IF ISROOM(4="desert next to a pyramid")
+                      | GOTO 6="rocky entrance-way"
+                      | SET DARK=TRUE
+                      | LOOK
+Cmd  56 |     1    10 |    2  16   4   4   0   0   0   0   0   0 |   13   0   0   0 |
+             go   doo | IF HERE(16="Door with large keyhole")
+                      | IF ISROOM(4="desert next to a pyramid")
+                      | MESSAGE 13="The right key could help (m..."
+Cmd  57 |    27     0 |    1  11  14   6   4   4   0   6   0   0 |   53   0   0   0 |
+            dig       | IF CARRY(11="Shovel")
+                      | IF NOWHERE(6="Hole")
+                      | IF ISROOM(4="desert next to a pyramid")
+                      | DROP 6="Hole"
+Cmd  58 |    27     0 |    1  11   2   6   0   0   0   0   0   0 |  122   0   0   0 |
+            dig       | IF CARRY(11="Shovel")
+                      | IF HERE(6="Hole")
+                      | MESSAGE 72="I see nothing special."
+Cmd  59 |     1    53 |    2   6   0   5   0   0   0   0   0   0 |   54  76   0   0 |
+             go   hol | IF HERE(6="Hole")
+                      | GOTO 5="hole"
+                      | LOOK
+Cmd  60 |    14    10 |    2  16   1  18   8   6   0  17   0  16 |   72   0   0   0 |
+            unl   doo | IF HERE(16="Door with large keyhole")
+                      | IF CARRY(18="Large key")
+                      | IF FLAG(6)=TRUE
+                      | SWAP ITEMS 17="Open door" AND 16="Door with large keyhole"
+Cmd  61 |    14    10 |    2  16   6  18   0   0   0   0   0   0 |   13   0   0   0 |
+            unl   doo | IF HERE(16="Door with large keyhole")
+                      | IF NOT CARRY(18="Large key")
+                      | MESSAGE 13="The right key could help (m..."
+Cmd  62 |    12     9 |    2  15   0   0   0   0   0   0   0   0 |    9   0   0   0 |
+            rea   sig | IF HERE(15="Sign")
+                      | MESSAGE 9="Sign: He who defiles the to..."
+Cmd  63 |    17     0 |    0   0   0   0   0   0   0   0   0   0 |   63   0   0   0 | QUIT
+            qui       | QUIT
+Cmd  64 |    14    10 |    2  16   1  18   9   6   0   0   0   0 |   14  61   0   0 |
+            unl   doo | IF HERE(16="Door with large keyhole")
+                      | IF CARRY(18="Large key")
+                      | IF FLAG(6)=FALSE
+                      | MESSAGE 14="Large stone falls on me!"
+                      | DEAD
+Cmd  65 |    14    10 |    4   5   1  12   0   6   0   7   0  26 |   11  10  58  72 | TRAP OFF
+            unl   doo | IF ISROOM(5="hole")
+                      | IF CARRY(12="Tiny key")
+                      | MESSAGE 11="I hear strange noises!"
+                      | MESSAGE 10="The sound of machinery."
+                      | SET FLAG(6)=TRUE
+                      | SWAP ITEMS 7="Tiny locked door" AND 26="Tiny open door"
+Cmd  66 |    14    10 |    4   5   6  12   0   0   0   0   0   0 |   13   0   0   0 |
+            unl   doo | IF ISROOM(5="hole")
+                      | IF NOT CARRY(12="Tiny key")
+                      | MESSAGE 13="The right key could help (m..."
+Cmd  67 |     1    10 |    4   5   8   6   0   0   0   0   0   0 |   15   0   0   0 |
+             go   doo | IF ISROOM(5="hole")
+                      | IF FLAG(6)=TRUE
+                      | MESSAGE 15="Something won't fit."
+Cmd  68 |    44     7 |    1   5   0   5   0   4   0   0   0   0 |   17  72   0   0 |
+            dri   wat | IF CARRY(5="Full canteen")
+                      | MESSAGE 17="Thanks."
+                      | SWAP ITEMS 5="Full canteen" AND 4="Empty canteen"
+Cmd  69 |    14    14 |    2  20   0  22   0  20   0   0   0   0 |   72   0   0   0 |
+            unl   sar | IF HERE(20="Closed sarcophagus")
+                      | SWAP ITEMS 22="Open sarcophagus" AND 20="Closed sarcophagus"
+Cmd  70 |     1    14 |    2  22   0   7   0   0   0   0   0   0 |   54  76  56   0 |
+             go   sar | IF HERE(22="Open sarcophagus")
+                      | GOTO 7="sarcophagus"
+                      | LOOK
+                      | SET DARK=TRUE
+Cmd  71 |    13    13 |    2  54   0  24   0  54   0   0   0   0 |   18  19  72   0 |
+            bre   ske | IF HERE(54="Decapitated skeleton")
+                      | MESSAGE 18="Crash!!!"
+                      | MESSAGE 19="I hear a hollow laugh. . ."
+                      | SWAP ITEMS 24="Bones" AND 54="Decapitated skeleton"
+Cmd  72 |    22    13 |    2  54   0  24   0  54   0   0   0   0 |   18  19  72   0 |
+            att   ske | IF HERE(54="Decapitated skeleton")
+                      | MESSAGE 18="Crash!!!"
+                      | MESSAGE 19="I hear a hollow laugh. . ."
+                      | SWAP ITEMS 24="Bones" AND 54="Decapitated skeleton"
+Cmd  73 |     1    10 |    4   6   2  25   0   4   0   0   0   0 |   54  57  76   0 |
+             go   doo | IF ISROOM(6="rocky entrance-way")
+                      | IF HERE(25="Open door")
+                      | GOTO 4="desert next to a pyramid"
+                      | SET DARK=FALSE
+                      | LOOK
+Cmd  74 |     1    23 |    2  29   2  37   0   0   0   0   0   0 |   33  34   0   0 |
+             go   alc | IF HERE(29="Fearsome mummy")
+                      | IF HERE(37="Entrance to an alcove")
+                      | MESSAGE 33="Mummy"
+                      | MESSAGE 34="won't let me"
+Cmd  75 |    25     0 |    0   0   0   0   0   0   0   0   0   0 |   25   0   0   0 |
+            yes       | MESSAGE 25="Sorry, won't work."
+Cmd  76 |    24     0 |    6  28   0   0   0   0   0   0   0   0 |    2   0   0   0 | SHOOT
+            sho       | IF NOT CARRY(28="Pistol")
+                      | MESSAGE 2="Bare-handed?"
+Cmd  77 |    24     0 |   19   0   0   0   0   0   0   0   0   0 |   28   0   0   0 |
+            sho       | IF EQ(COUNTER,0)
+                      | MESSAGE 28="No bullets."
+Cmd  78 |    24    17 |    0  11   0   1   0   0   0   0   0   0 |   58  58   0   0 |
+            sho   nom | SET FLAG(11)=TRUE
+                      | SET FLAG(1)=TRUE
+Cmd  79 |     6     7 |    1   5   2  31   0  36   0  31   0   2 |   72  58  73   0 |
+            pou   wat | IF CARRY(5="Full canteen")
+                      | IF HERE(31="Burning tanna leaves")
+                      | SWAP ITEMS 36="Wet tanna leaves" AND 31="Burning tanna leaves"
+                      | SET FLAG(2)=TRUE
+                      | CONTINUE_NEXT_LINE
+Cmd  80 |     0     0 |    8   2   0   5   0   4   0   0   0   0 |   72  73   0   0 |
+            continued | IF FLAG(2)=TRUE
+                      | SWAP ITEMS 5="Full canteen" AND 4="Empty canteen"
+                      | CONTINUE_NEXT_LINE
+Cmd  81 |     0     0 |    8   2   2  29   0  33   0  29   0   2 |   72  60  73   0 |
+            continued | IF FLAG(2)=TRUE
+                      | IF HERE(29="Fearsome mummy")
+                      | SWAP ITEMS 33="Sleeping mummy" AND 29="Fearsome mummy"
+                      | SET FLAG(2)=FALSE
+                      | CONTINUE_NEXT_LINE
+Cmd  82 |     0     0 |    8   2   2  32   0  32   0  33   0   2 |   72  60   0   0 | POU
+            continued | IF FLAG(2)=TRUE
+                      | IF HERE(32="Enraged mummy")
+                      | SWAP ITEMS 32="Enraged mummy" AND 33="Sleeping mummy"
+                      | SET FLAG(2)=FALSE
+Cmd  83 |    10    20 |    5  30   0   0   0   0   0   0   0   0 |    4   0   0   0 |
+            get   tap | IF NOT HERE(30="* ANTIQUE TAPESTRY *")
+                      | MESSAGE 4="I can't."
+Cmd  84 |    10    20 |    2  29   0   0   0   0   0   0   0   0 |   33  34   0   0 |
+            get   tap | IF HERE(29="Fearsome mummy")
+                      | MESSAGE 33="Mummy"
+                      | MESSAGE 34="won't let me"
+Cmd  85 |    10    22 |    2  29   0   0   0   0   0   0   0   0 |   33  34  35   0 |
+            get   mum | IF HERE(29="Fearsome mummy")
+                      | MESSAGE 33="Mummy"
+                      | MESSAGE 34="won't let me"
+                      | MESSAGE 35="You be weird. Cut that out."
+Cmd  86 |    10    21 |    2  31   0   0   0   0   0   0   0   0 |   30   0   0   0 |
+            get   lea | IF HERE(31="Burning tanna leaves")
+                      | MESSAGE 30="Too hot."
+Cmd  87 |    24    22 |    2  29   0  29   0  32   0   1   0   0 |   36  72  58   0 |
+            sho   mum | IF HERE(29="Fearsome mummy")
+                      | MESSAGE 36="Doesn't bother him."
+                      | SWAP ITEMS 29="Fearsome mummy" AND 32="Enraged mummy"
+                      | SET FLAG(1)=TRUE
+Cmd  88 |    24    22 |    2  32   0   1   0   0   0   0   0   0 |   36  58   0   0 |
+            sho   mum | IF HERE(32="Enraged mummy")
+                      | MESSAGE 36="Doesn't bother him."
+                      | SET FLAG(1)=TRUE
+Cmd  89 |    13    58 |    1  90   0   0   0   0   0   0   0   0 |    4   0   0   0 |
+            bre   rub | IF CARRY(90=" * RUBY *")
+                      | MESSAGE 4="I can't."
+Cmd  90 |    30    24 |    3  48  14  50   0  50   0   0   0   0 |   53  38   0   0 |
+            loo   sku | IF HERECARRY(48="Skull")
+                      | IF NOWHERE(50="* GOLD TEETH *")
+                      | DROP 50="* GOLD TEETH *"
+                      | MESSAGE 38="Something falls out."
+Cmd  91 |    30    37 |    3  49  14  51   0  51  14  19  13  24 |    1  38  53   0 |
+            loo   box | IF HERECARRY(49="Box")
+                      | IF NOWHERE(51="Iron glove")
+                      | IF NOWHERE(19="I'm wearing an iron glove")
+                      | IF SOMEWHERE(24="Bones")
+                      | MESSAGE 1="I see something."
+                      | MESSAGE 38="Something falls out."
+                      | DROP 51="Iron glove"
+Cmd  92 |    79    17 |    2  27   0   0   0   0   0   0   0   0 |   34  45  22   0 |
+            pun   nom | IF HERE(27="Small Nomad")
+                      | MESSAGE 34="won't let me"
+                      | MESSAGE 45="Rats"
+                      | MESSAGE 22="The nomad stuck out his ton..."
+Cmd  93 |    24    22 |    2  54   0   1   0   0   0   0   0   0 |   36  58   0   0 |
+            sho   mum | IF HERE(54="Decapitated skeleton")
+                      | MESSAGE 36="Doesn't bother him."
+                      | SET FLAG(1)=TRUE
+Cmd  94 |    10    48 |    2  10   0  10   0  11   0   0   0   0 |   55  52   0   0 |
+            get   pol | IF HERE(10="Wooden pole sticking from sand")
+                      | DESTROY 10="Wooden pole sticking from sand"
+                      | TAKE 11="Shovel"
+Cmd  95 |    35    68 |    2  53   0   0   0   0   0   0   0   0 |   50   0   0   0 |
+            pul   bar | IF HERE(53="Metal bar protruding from c...")
+                      | MESSAGE 50="I can't reach it."
+Cmd  96 |     1    68 |    2  53   0   0   0   0   0   0   0   0 |   50   0   0   0 |
+             go   bar | IF HERE(53="Metal bar protruding from c...")
+                      | MESSAGE 50="I can't reach it."
+Cmd  97 |     1    36 |    2  58   0  18   0   0   0   0   0   0 |   54  76   0   0 |
+             go   lad | IF HERE(58="Ladder")
+                      | GOTO 18="Revolving cavern"
+                      | LOOK
+Cmd  98 |     1    43 |    4  13   9  10   0   0   0   0   0   0 |  104   0   0   0 |
+             go   arc | IF ISROOM(13="hallway")
+                      | IF FLAG(10)=FALSE
+                      | MESSAGE 54="Oyster won't let me"
+Cmd  99 |     1    43 |    4  13   8  10   6  63   0  14   0   0 |   54  76   0   0 |
+             go   arc | IF ISROOM(13="hallway")
+                      | IF FLAG(10)=TRUE
+                      | IF NOT CARRY(63="Giant Oyster")
+                      | GOTO 14="round altar room"
+                      | LOOK
+Cmd 100 |    10    76 |    2  60   0  60  13  68   0   0   0   0 |  131  52   0   0 | .
+            get   tab | IF HERE(60="Table")
+                      | IF SOMEWHERE(68="* DIAMOND NECKLACE *")
+                      | MESSAGE 81="OK"
+                      | TAKE 60="Table"
+Cmd 101 |    10    46 |    2   1   0   1   0   0   0   0   0   0 |   52 131   0   0 |
+            get   sto | IF HERE(1="Stone")
+                      | TAKE 1="Stone"
+                      | MESSAGE 81="OK"
+Cmd 102 |    41    76 |    3  55   3  60   0  68  14  68   0   0 |    1  53   0   0 |
+            saw   tab | IF HERECARRY(55="Saw")
+                      | IF HERECARRY(60="Table")
+                      | IF NOWHERE(68="* DIAMOND NECKLACE *")
+                      | MESSAGE 1="I see something."
+                      | DROP 68="* DIAMOND NECKLACE *"
+Cmd 103 |    28    77 |    1   8   9  16   0   8   0   9   0   0 |   72  76   0   0 |
+            lig   fla | IF CARRY(8="Unlit flashlite")
+                      | IF FLAG(16)=FALSE
+                      | SWAP ITEMS 8="Unlit flashlite" AND 9="Lit flashlite"
+                      | LOOK
+Cmd 104 |    16     0 |    0   0   0   0   0   0   0   0   0   0 |   65   0   0   0 | SCORE
+            sco       | SCORE
+Cmd 105 |    14    77 |    1   9   0   8   0   9   0   0   0   0 |   72  76   0   0 |
+            unl   fla | IF CARRY(9="Lit flashlite")
+                      | SWAP ITEMS 8="Unlit flashlite" AND 9="Lit flashlite"
+                      | LOOK
+Cmd 106 |    30    55 |    4  16  14  74   0  74   0   0   0   0 |    1  53   0   0 |
+            loo   ash | IF ISROOM(16="sitting room")
+                      | IF NOWHERE(74="* GOLD NECKLACE *")
+                      | MESSAGE 1="I see something."
+                      | DROP 74="* GOLD NECKLACE *"
+Cmd 107 |    30    32 |   14  73   4  16  14  43   0  73   0   0 |   53   1   0   0 |
+            loo   bas | IF NOWHERE(73="Hissing cobra")
+                      | IF ISROOM(16="sitting room")
+                      | IF NOWHERE(43="Passageway behind fireplace")
+                      | DROP 73="Hissing cobra"
+                      | MESSAGE 1="I see something."
+Cmd 108 |    10    54 |    2  73   0   0   0   0   0   0   0   0 |  112 114  61   0 |
+            get   cob | IF HERE(73="Hissing cobra")
+                      | MESSAGE 62="Cobra"
+                      | MESSAGE 64="attacks!"
+                      | DEAD
+Cmd 109 |    32    42 |    4  16  14  43   1  65   0  43   0  73 |   37  53  55  73 |
+            pla   flu | IF ISROOM(16="sitting room")
+                      | IF NOWHERE(43="Passageway behind fireplace")
+                      | IF CARRY(65="Flute")
+                      | MESSAGE 37="Cobra crawls out, presses a..."
+                      | DROP 43="Passageway behind fireplace"
+                      | DESTROY 73="Hissing cobra"
+                      | CONTINUE_NEXT_LINE
+Cmd 110 |     0     0 |    0  75   0  17   0   0   0   0   0   0 |   62   0   0   0 |
+            continued | SEND 75="Passageway" TO 17="sloping crawlway"
+Cmd 111 |    10    32 |    2  42  14  43   0  73   0   0   0   0 |   38  53   0   0 |
+            get   bas | IF HERE(42="Basket")
+                      | IF NOWHERE(43="Passageway behind fireplace")
+                      | MESSAGE 38="Something falls out."
+                      | DROP 73="Hissing cobra"
+Cmd 112 |     1    74 |    4  16   2  43   0  17   0   0   0   0 |   54  76   0   0 |
+             go   pas | IF ISROOM(16="sitting room")
+                      | IF HERE(43="Passageway behind fireplace")
+                      | GOTO 17="sloping crawlway"
+                      | LOOK
+Cmd 113 |     1    55 |    4  16  14  74   0   0   0   0   0   0 |    1   0   0   0 |
+             go   ash | IF ISROOM(16="sitting room")
+                      | IF NOWHERE(74="* GOLD NECKLACE *")
+                      | MESSAGE 1="I see something."
+Cmd 114 |     1    74 |    4  17   2  75   0  16   0   0   0   0 |   54  76   0   0 |
+             go   pas | IF ISROOM(17="sloping crawlway")
+                      | IF HERE(75="Passageway")
+                      | GOTO 16="sitting room"
+                      | LOOK
+Cmd 115 |    32    42 |    1  65   0   0   0   0   0   0   0   0 |  130   0   0   0 |
+            pla   flu | IF CARRY(65="Flute")
+                      | MESSAGE 80="Ah, 'tis music to my ears."
+Cmd 116 |    10    76 |    2  60   0  60  14  68   0   0   0   0 |   52 131  11   0 |
+            get   tab | IF HERE(60="Table")
+                      | IF NOWHERE(68="* DIAMOND NECKLACE *")
+                      | TAKE 60="Table"
+                      | MESSAGE 81="OK"
+                      | MESSAGE 11="I hear strange noises!"
+Cmd 117 |    30    58 |    2  77  14  82   0  82   0   0   0   0 |    1  53   0   0 | RUBBISH
+            loo   rub | IF HERE(77="Pile of Rubbish")
+                      | IF NOWHERE(82="* JADE CARVING *")
+                      | MESSAGE 1="I see something."
+                      | DROP 82="* JADE CARVING *"
+Cmd 118 |    30    58 |    2  77  13  82   0   0   0   0   0   0 |  106  61   0   0 |
+            loo   rub | IF HERE(77="Pile of Rubbish")
+                      | IF SOMEWHERE(82="* JADE CARVING *")
+                      | MESSAGE 56="I just caught dengue fever...."
+                      | DEAD
+Cmd 119 |     1    59 |    2  78   0   0   0   0   0   0   0   0 |   13   0   0   0 |
+             go   por | IF HERE(78="Closed portal")
+                      | MESSAGE 13="The right key could help (m..."
+Cmd 120 |     1    59 |    2  79   0   0   0   0   0   0   0   0 |  132  61   0   0 |
+             go   por | IF HERE(79="Open portal")
+                      | MESSAGE 82="Into the worm's mouth!"
+                      | DEAD
+Cmd 121 |    14    59 |    2  78   0  80   0  79   0  78   0   0 |   53  72   0   0 |
+            unl   por | IF HERE(78="Closed portal")
+                      | DROP 80="Purple Worm"
+                      | SWAP ITEMS 79="Open portal" AND 78="Closed portal"
+Cmd 122 |    24    63 |    2  80   0   1   0   0   0   0   0   0 |   36  58   0   0 | WORM
+            sho   wor | IF HERE(80="Purple Worm")
+                      | MESSAGE 36="Doesn't bother him."
+                      | SET FLAG(1)=TRUE
+Cmd 123 |    60     0 |    0   0   0   0   0   0   0   0   0   0 |  109   0   0   0 |
+            wet       | MESSAGE 59="Pour water?"
+Cmd 124 |    40    29 |    4  20   1  45   0  45   0  85   0   0 |   55  53   0   0 | ROPE
+            thr   rop | IF ISROOM(20="on a narrow ledge")
+                      | IF CARRY(45="Rope")
+                      | DESTROY 45="Rope"
+                      | DROP 85="Rope hanging from ceiling"
+Cmd 125 |     1    29 |    4  20   2  85   0  21   0   0   0   0 |   54  76   0   0 |
+             go   rop | IF ISROOM(20="on a narrow ledge")
+                      | IF HERE(85="Rope hanging from ceiling")
+                      | GOTO 21="throne room"
+                      | LOOK
+Cmd 126 |     1    53 |    4  20   2  85   0  21   0   0   0   0 |   54  76   0   0 |
+             go   hol | IF ISROOM(20="on a narrow ledge")
+                      | IF HERE(85="Rope hanging from ceiling")
+                      | GOTO 21="throne room"
+                      | LOOK
+Cmd 127 |     1    53 |    4  20  14  85   0   0   0   0   0   0 |   50   0   0   0 |
+             go   hol | IF ISROOM(20="on a narrow ledge")
+                      | IF NOWHERE(85="Rope hanging from ceiling")
+                      | MESSAGE 50="I can't reach it."
+Cmd 128 |    10    36 |    2  58   0   0   0   0   0   0   0   0 |  110   0   0   0 |
+            get   lad | IF HERE(58="Ladder")
+                      | MESSAGE 60="It's stuck."
+Cmd 129 |    26     0 |    4  21   0  56   0   0   0   0   0   0 |   40  55   0   0 |
+            bur       | IF ISROOM(21="throne room")
+                      | MESSAGE 40="."
+                      | DESTROY 56="Fireplace"
+Cmd 130 |     1    12 |    4  20   0   0   0   0   0   0   0   0 |  116  61   0   0 |
+             go   poo | IF ISROOM(20="on a narrow ledge")
+                      | MESSAGE 66="Liquid is acid."
+                      | DEAD
+Cmd 131 |    10     7 |    4  20   1   5   0   0   0   0   0   0 |    6   0   0   0 |
+            get   wat | IF ISROOM(20="on a narrow ledge")
+                      | IF CARRY(5="Full canteen")
+                      | MESSAGE 6="Canteen is full."
+Cmd 132 |    10     7 |    4  20   1   4   0   4   0   0   0   0 |  116 117  55   0 |
+            get   wat | IF ISROOM(20="on a narrow ledge")
+                      | IF CARRY(4="Empty canteen")
+                      | MESSAGE 66="Liquid is acid."
+                      | MESSAGE 67="Canteen dissolves."
+                      | DESTROY 4="Empty canteen"
+Cmd 133 |    10     7 |    4  20   6   4   0   0   0   0   0   0 |    5   0   0   0 |
+            get   wat | IF ISROOM(20="on a narrow ledge")
+                      | IF NOT CARRY(4="Empty canteen")
+                      | MESSAGE 5="No container."
+Cmd 134 |     1    38 |    2  86   0  94   0  86   0   0   0   0 |   19  72  10   0 |
+             go   cha | IF HERE(86="Iron statue of Pharoah seat...")
+                      | MESSAGE 19="I hear a hollow laugh. . ."
+                      | SWAP ITEMS 94="Standing iron statue" AND 86="Iron statue of Pharoah seat..."
+                      | MESSAGE 10="The sound of machinery."
+Cmd 135 |     1    38 |    2  94   0  94   0  95   0  92   0   0 |   10  19  72  53 |
+             go   cha | IF HERE(94="Standing iron statue")
+                      | MESSAGE 10="The sound of machinery."
+                      | MESSAGE 19="I hear a hollow laugh. . ."
+                      | SWAP ITEMS 94="Standing iron statue" AND 95="Iron Statue, slowly advanci..."
+                      | DROP 92="Spiral Staircase"
+Cmd 136 |    35    38 |    2  86   0  94   0  86   0   0   0   0 |   19  72  10   0 |
+            pul   cha | IF HERE(86="Iron statue of Pharoah seat...")
+                      | MESSAGE 19="I hear a hollow laugh. . ."
+                      | SWAP ITEMS 94="Standing iron statue" AND 86="Iron statue of Pharoah seat..."
+                      | MESSAGE 10="The sound of machinery."
+Cmd 137 |    35    38 |    2  94   0  94   0  95   0  92   0   0 |   10  19  72  53 |
+            pul   cha | IF HERE(94="Standing iron statue")
+                      | MESSAGE 10="The sound of machinery."
+                      | MESSAGE 19="I hear a hollow laugh. . ."
+                      | SWAP ITEMS 94="Standing iron statue" AND 95="Iron Statue, slowly advanci..."
+                      | DROP 92="Spiral Staircase"
+Cmd 138 |     1    62 |    2  95   0   0   0   0   0   0   0   0 |  118  34   0   0 |
+             go   sta | IF HERE(95="Iron Statue, slowly advanci...")
+                      | MESSAGE 68="Iron Statue"
+                      | MESSAGE 34="won't let me"
+Cmd 139 |     1    62 |    2  92  14  95   0  22   0   0   0   0 |   54  76   0   0 |
+             go   sta | IF HERE(92="Spiral Staircase")
+                      | IF NOWHERE(95="Iron Statue, slowly advanci...")
+                      | GOTO 22="treasure room"
+                      | LOOK
+Cmd 140 |    14    66 |    4  21  14  86  14  94  14  95  14  93 |   73   0   0   0 |
+            unl   che | IF ISROOM(21="throne room")
+                      | IF NOWHERE(86="Iron statue of Pharoah seat...")
+                      | IF NOWHERE(94="Standing iron statue")
+                      | IF NOWHERE(95="Iron Statue, slowly advanci...")
+                      | IF NOWHERE(93="* PLATINUM CROWN *")
+                      | CONTINUE_NEXT_LINE
+Cmd 141 |     0     0 |    0  93   0   0   0   0   0   0   0   0 |    1  53   0   0 |
+            continued | MESSAGE 1="I see something."
+                      | DROP 93="* PLATINUM CROWN *"
+Cmd 142 |    14    66 |    4  21   0   0   0   0   0   0   0   0 |  118  34   0   0 |
+            unl   che | IF ISROOM(21="throne room")
+                      | MESSAGE 68="Iron Statue"
+                      | MESSAGE 34="won't let me"
+Cmd 143 |    40    58 |    1  90   4  20   0  90   0  95   0  94 |   55  55  55  73 |
+            thr   rub | IF CARRY(90=" * RUBY *")
+                      | IF ISROOM(20="on a narrow ledge")
+                      | DESTROY 90=" * RUBY *"
+                      | DESTROY 95="Iron Statue, slowly advanci..."
+                      | DESTROY 94="Standing iron statue"
+                      | CONTINUE_NEXT_LINE
+Cmd 144 |     0     0 |    0  17   0   0   0   0   0   0   0   0 |   58 131 121   0 |
+            continued | SET FLAG(17)=TRUE
+                      | MESSAGE 81="OK"
+                      | MESSAGE 71="Ruby falls into pool of aci..."
+Cmd 145 |    12    67 |    4  21   0   0   0   0   0   0   0   0 |  119   0   0   0 |
+            rea   mur | IF ISROOM(21="throne room")
+                      | MESSAGE 69="Mural: Seek ye well the HEA..."
+Cmd 146 |    10     9 |    2  15   0   0   0   0   0   0   0   0 |  110   0   0   0 |
+            get   sig | IF HERE(15="Sign")
+                      | MESSAGE 60="It's stuck."
+Cmd 147 |    44     7 |    4  20   0   0   0   0   0   0   0   0 |  116  61   0   0 |
+            dri   wat | IF ISROOM(20="on a narrow ledge")
+                      | MESSAGE 66="Liquid is acid."
+                      | DEAD
+Cmd 148 |    10    58 |    2  90   2  94   0  90   0  95   0  94 |   52  72  10   0 |
+            get   rub | IF HERE(90=" * RUBY *")
+                      | IF HERE(94="Standing iron statue")
+                      | TAKE 90=" * RUBY *"
+                      | SWAP ITEMS 95="Iron Statue, slowly advanci..." AND 94="Standing iron statue"
+                      | MESSAGE 10="The sound of machinery."
+Cmd 149 |    10    58 |    2  90   2  86   0  90   0  95   0  86 |   52  72  10   0 |
+            get   rub | IF HERE(90=" * RUBY *")
+                      | IF HERE(86="Iron statue of Pharoah seat...")
+                      | TAKE 90=" * RUBY *"
+                      | SWAP ITEMS 95="Iron Statue, slowly advanci..." AND 86="Iron statue of Pharoah seat..."
+                      | MESSAGE 10="The sound of machinery."
+Cmd 150 |     1    68 |    4  22   2  98   0  23   0   0   0   0 |   54  76   0   0 |
+             go   bar | IF ISROOM(22="treasure room")
+                      | IF HERE(98="Open window")
+                      | GOTO 23="on top of a pyramid"
+                      | LOOK
+Cmd 151 |    41    68 |    4  22   1  55   0 100   0  98   0   0 |   72   0   0   0 |
+            saw   bar | IF ISROOM(22="treasure room")
+                      | IF CARRY(55="Saw")
+                      | SWAP ITEMS 100="Barred window" AND 98="Open window"
+Cmd 152 |    14    68 |    4  22   1  55   0 100   0  98   0   0 |   72   0   0   0 |
+            unl   bar | IF ISROOM(22="treasure room")
+                      | IF CARRY(55="Saw")
+                      | SWAP ITEMS 100="Barred window" AND 98="Open window"
+Cmd 153 |    14    71 |    2  99   1  19   0  99   0  44   1  12 |   72   0   0   0 |
+            unl   cof | IF HERE(99="Treasure coffer")
+                      | IF CARRY(19="I'm wearing an iron glove")
+                      | IF CARRY(12="Tiny key")
+                      | SWAP ITEMS 99="Treasure coffer" AND 44="Open treasure coffer"
+Cmd 154 |    14    71 |    2  99   6  19   1  12   0   0   0   0 |   12  61   0   0 |
+            unl   cof | IF HERE(99="Treasure coffer")
+                      | IF NOT CARRY(19="I'm wearing an iron glove")
+                      | IF CARRY(12="Tiny key")
+                      | MESSAGE 12="ARRGH! Poison needle in the..."
+                      | DEAD
+Cmd 155 |    42    34 |    1  51   0  51   0  19   0   0   0   0 |   72   0   0   0 |
+            wea   glo | IF CARRY(51="Iron glove")
+                      | SWAP ITEMS 51="Iron glove" AND 19="I'm wearing an iron glove"
+Cmd 156 |    58    34 |    1  19   0  51   0  19   0   0   0   0 |   72   0   0   0 |
+            rem   glo | IF CARRY(19="I'm wearing an iron glove")
+                      | SWAP ITEMS 51="Iron glove" AND 19="I'm wearing an iron glove"
+Cmd 157 |     1    10 |    2  39   0  25   0   0   0   0   0   0 |   54 131   0   0 |
+             go   doo | IF HERE(39="Open door")
+                      | GOTO 25=""
+                      | MESSAGE 81="OK"
+Cmd 158 |    12    46 |    3   1   7  15   0   0   0   0   0   0 |  107   0   0   0 |
+            rea   sto | IF HERECARRY(1="Stone")
+                      | IF NOT ISROOM(15)
+                      | MESSAGE 57="Confusing. Part appears mis..."
+Cmd 159 |     1    80 |    0   0   0   0   0   0   0   0   0   0 |    4   0   0   0 |
+             go   pyr | MESSAGE 4="I can't."
+Cmd 160 |    34     0 |    0   0   0   0   0   0   0   0   0   0 |   35   0   0   0 |
+            rub       | MESSAGE 35="You be weird. Cut that out."
+Cmd 161 |     6     7 |    1   5   0   5   0   4   0   0   0   0 |  131  72   0   0 |
+            pou   wat | IF CARRY(5="Full canteen")
+                      | MESSAGE 81="OK"
+                      | SWAP ITEMS 5="Full canteen" AND 4="Empty canteen"
+Cmd 162 |    27     0 |    1  11   0   0   0   0   0   0   0   0 |  122   0   0   0 |
+            dig       | IF CARRY(11="Shovel")
+                      | MESSAGE 72="I see nothing special."
+Cmd 163 |    45    75 |    0   0   0   0   0   0   0   0   0   0 |   71   0   0   0 |
+            sav   gam | SAVEGAME
+Cmd 164 |    35    38 |    4  21  14  86  14  95  14  94   0  92 |   53   1   0   0 |
+            pul   cha | IF ISROOM(21="throne room")
+                      | IF NOWHERE(86="Iron statue of Pharoah seat...")
+                      | IF NOWHERE(95="Iron Statue, slowly advanci...")
+                      | IF NOWHERE(94="Standing iron statue")
+                      | DROP 92="Spiral Staircase"
+                      | MESSAGE 1="I see something."
+Cmd 165 |     1    38 |    4  21  14  86  14  95  14  94   0  92 |   53   1   0   0 |
+             go   cha | IF ISROOM(21="throne room")
+                      | IF NOWHERE(86="Iron statue of Pharoah seat...")
+                      | IF NOWHERE(95="Iron Statue, slowly advanci...")
+                      | IF NOWHERE(94="Standing iron statue")
+                      | DROP 92="Spiral Staircase"
+                      | MESSAGE 1="I see something."
+Cmd 166 |    30    71 |    2  44  14  97   0  97   0   0   0   0 |   53   1   0   0 |
+            loo   cof | IF HERE(44="Open treasure coffer")
+                      | IF NOWHERE(97="* EMERALD BRACELET *")
+                      | DROP 97="* EMERALD BRACELET *"
+                      | MESSAGE 1="I see something."
+Cmd 167 |    13    64 |    4  25   0   0   0   0   0   0   0   0 |  137  61   0   0 |
+            bre   mir | IF ISROOM(25="")
+                      | MESSAGE 87="1000 years bad luck starts..."
+                      | DEAD
+Cmd 168 |     1    23 |    2  37   5  29   0  10   0   0   0   0 |   54  76   0   0 |
+             go   alc | IF HERE(37="Entrance to an alcove")
+                      | IF NOT HERE(29="Fearsome mummy")
+                      | GOTO 10="hidden alcove"
+                      | LOOK
+Cmd 169 |     6     7 |    1   5   0   4   0   5   0   0   0   0 |   72  10   0   0 |
+            pou   wat | IF CARRY(5="Full canteen")
+                      | SWAP ITEMS 4="Empty canteen" AND 5="Full canteen"
+                      | MESSAGE 10="The sound of machinery."
+Cmd 170 |     9     0 |    0  20   0   0   0   0   0   0   0   0 |   58 123   0   0 |
+            hel       | SET FLAG(20)=TRUE
+                      | MESSAGE 73="A tiny voice says: `SEARCH..."
+Cmd 171 |    10    40 |    2  63   0   0   0   0   0   0   0   0 |  124   0   0   0 |
+            get   oys | IF HERE(63="Giant Oyster")
+                      | MESSAGE 74="I can't lift it. This is a..."
+Cmd 172 |    10    40 |    5  63   0   0   0   0   0   0   0   0 |  125   0   0   0 |
+            get   oys | IF NOT HERE(63="Giant Oyster")
+                      | MESSAGE 75="I don't see it"
+Cmd 173 |    40    58 |    1  90   0  90   0   0   0   0   0   0 |  131  53   0   0 |
+            thr   rub | IF CARRY(90=" * RUBY *")
+                      | MESSAGE 81="OK"
+                      | DROP 90=" * RUBY *"
+Cmd 174 |    75     0 |   14  40   4  25   0  40   0   0   0   0 |  138  53   0   0 |
+            fee       | IF NOWHERE(40="* GOLD COIN *")
+                      | IF ISROOM(25="")
+                      | MESSAGE 88="I feel a coin on the floor"
+                      | DROP 40="* GOLD COIN *"
+Cmd 175 |     1    62 |    4   7   0   8   0   0   0   0   0   0 |   54  76   0   0 |
+             go   sta | IF ISROOM(7="sarcophagus")
+                      | GOTO 8="burial room"
+                      | LOOK
+Cmd 176 |     1    79 |    4   5   0   0   0   0   0   0   0   0 |    4   0   0   0 |
+             go   ent | IF ISROOM(5="hole")
+                      | MESSAGE 4="I can't."
+Cmd 177 |     1    10 |    4   5   0   0   0   0   0   0   0   0 |    4   0   0   0 |
+             go   doo | IF ISROOM(5="hole")
+                      | MESSAGE 4="I can't."
+Cmd 178 |    10    58 |    2  90   0  90   0   0   0   0   0   0 |   52 131   0   0 |
+            get   rub | IF HERE(90=" * RUBY *")
+                      | TAKE 90=" * RUBY *"
+                      | MESSAGE 81="OK"
+Cmd 179 |    10    20 |    5  29   5  32  14  37   0  37   0  30 |   53  74 131   0 |
+            get   tap | IF NOT HERE(29="Fearsome mummy")
+                      | IF NOT HERE(32="Enraged mummy")
+                      | IF NOWHERE(37="Entrance to an alcove")
+                      | DROP 37="Entrance to an alcove"
+                      | TAKE_NOCHECK 30="* ANTIQUE TAPESTRY *"
+                      | MESSAGE 81="OK"
+Cmd 180 |    10    20 |    2  32   0   0   0   0   0   0   0   0 |   33  34   0   0 |
+            get   tap | IF HERE(32="Enraged mummy")
+                      | MESSAGE 33="Mummy"
+                      | MESSAGE 34="won't let me"
+Cmd 181 |     1    79 |    2  37   2  29   0   0   0   0   0   0 |   33  34   0   0 |
+             go   ent | IF HERE(37="Entrance to an alcove")
+                      | IF HERE(29="Fearsome mummy")
+                      | MESSAGE 33="Mummy"
+                      | MESSAGE 34="won't let me"
+Cmd 182 |     1    79 |    2  37   5  29   0  10   0   0   0   0 |   54  76   0   0 |
+             go   ent | IF HERE(37="Entrance to an alcove")
+                      | IF NOT HERE(29="Fearsome mummy")
+                      | GOTO 10="hidden alcove"
+                      | LOOK
+Cmd 183 |    30     9 |    2  15   0   0   0   0   0   0   0   0 |    9   0   0   0 |
+            loo   sig | IF HERE(15="Sign")
+                      | MESSAGE 9="Sign: He who defiles the to..."
+Cmd 184 |    30    67 |    4  21   0   0   0   0   0   0   0   0 |  119   0   0   0 |
+            loo   mur | IF ISROOM(21="throne room")
+                      | MESSAGE 69="Mural: Seek ye well the HEA..."
+Cmd 185 |    24    52 |    2  71   4  17   0  71   0  14   0   1 |   62 115  58  16 |
+            sho   rat | IF HERE(71="Starving rats")
+                      | IF ISROOM(17="sloping crawlway")
+                      | SEND 71="Starving rats" TO 14="round altar room"
+                      | MESSAGE 65="Missed..."
+                      | SET FLAG(1)=TRUE
+                      | MESSAGE 16="Noise scares them off"
+Cmd 186 |    24    52 |    2  71   2  71   0  71   0  17   0   1 |   62 115  58  16 |
+            sho   rat | IF HERE(71="Starving rats")
+                      | IF HERE(71="Starving rats")
+                      | SEND 71="Starving rats" TO 17="sloping crawlway"
+                      | MESSAGE 65="Missed..."
+                      | SET FLAG(1)=TRUE
+                      | MESSAGE 16="Noise scares them off"
+Cmd 187 |    50    21 |    2  31   0   0   0   0   0   0   0   0 |  136   0   0   0 |
+            smo   lea | IF HERE(31="Burning tanna leaves")
+                      | MESSAGE 86="WOW, man, crazy..."
+Cmd 188 |    40    29 |    1  45   0  45   0   0   0   0   0   0 |   53 131   0   0 |
+            thr   rop | IF CARRY(45="Rope")
+                      | DROP 45="Rope"
+                      | MESSAGE 81="OK"
+Cmd 189 |    38    14 |    2  22   0  22   0  20   0   0   0   0 |   72 131   0   0 |
+            clo   sar | IF HERE(22="Open sarcophagus")
+                      | SWAP ITEMS 22="Open sarcophagus" AND 20="Closed sarcophagus"
+                      | MESSAGE 81="OK"
+Cmd 190 |    30    37 |    3  49  14  24   0  24   0   0   0   0 |    1  38  53   0 |
+            loo   box | IF HERECARRY(49="Box")
+                      | IF NOWHERE(24="Bones")
+                      | MESSAGE 1="I see something."
+                      | MESSAGE 38="Something falls out."
+                      | DROP 24="Bones"
+Cmd 191 |    10    81 |    0   0   0   0   0   0   0   0   0   0 |  135   0   0   0 |
+            get   hea | MESSAGE 85="Pharoah's heart is red like..."
+Cmd 192 |    49    44 |    1  28   0   0   0   0   0   0   0   0 |  133   0   0   0 |
+            loa   pis | IF CARRY(28="Pistol")
+                      | MESSAGE 83="TRY: `TAKE INVENTORY`"
+Cmd 193 |    30    72 |    3  13   0   0   0   0   0   0   0   0 |   43   0   0   0 |
+            loo   coa | IF HERECARRY(13="Lump of coal")
+                      | MESSAGE 43="Its black, dirty & dusty"
+Cmd 194 |    40    46 |    1   1   0   1   0   0   0   0   0   0 |   53  46   0   0 |
+            thr   sto | IF CARRY(1="Stone")
+                      | DROP 1="Stone"
+                      | MESSAGE 46="Strange . . . Nothing happens."
+Cmd 195 |    10    68 |    4  11   0   0   0   0   0   0   0   0 |   50   0   0   0 |
+            get   bar | IF ISROOM(11="tall room")
+                      | MESSAGE 50="I can't reach it."
+Cmd 196 |    79    10 |    2  38   0  38   0  39   1  19   0   0 |   72 131  18   0 |
+            pun   doo | IF HERE(38="Bricked up doorway")
+                      | IF CARRY(19="I'm wearing an iron glove")
+                      | SWAP ITEMS 38="Bricked up doorway" AND 39="Open door"
+                      | MESSAGE 81="OK"
+                      | MESSAGE 18="Crash!!!"
+Cmd 197 |    40     0 |    0   0   0   0   0   0   0   0   0   0 |   20  85   0   0 |
+            thr       | MESSAGE 20="I don't see any reason to t..."
+                      | WRITELINE NOUN
+Cmd 198 |    30     0 |    0   0   0   0   0   0   0   0   0   0 |  122  76   0   0 |
+            loo       | MESSAGE 72="I see nothing special."
+                      | LOOK
+Cmd 199 |    10    32 |    2  42   0  42   0   0   0   0   0   0 |   52 131   0   0 |
+            get   bas | IF HERE(42="Basket")
+                      | TAKE 42="Basket"
+                      | MESSAGE 81="OK"
+Cmd 200 |    59    45 |    1   3   0   3   0   0   0   0   0   0 |  131  17  55   0 |
+            eat   jer | IF CARRY(3="Dried Camel Jerky")
+                      | MESSAGE 81="OK"
+                      | MESSAGE 17="Thanks."
+                      | DESTROY 3="Dried Camel Jerky"
+Cmd 201 |    24     0 |    0   1   0   0   0   0   0   0   0   0 |  131  58 115   0 |
+            sho       | MESSAGE 81="OK"
+                      | SET FLAG(1)=TRUE
+                      | MESSAGE 65="Missed..."
+Cmd 202 |    53     0 |    0   0   0   0   0   0   0   0   0   0 |   46   0   0   0 |
+            sha       | MESSAGE 46="Strange . . . Nothing happens."
+Cmd 203 |    61    17 |    2  27   0   0   0   0   0   0   0   0 |   22   0   0   0 |
+            ask   nom | IF HERE(27="Small Nomad")
+                      | MESSAGE 22="The nomad stuck out his ton..."
+Cmd 204 |    14    40 |    2  63   0   0   0   0   0   0   0   0 |  104   0   0   0 |
+            unl   oys | IF HERE(63="Giant Oyster")
+                      | MESSAGE 54="Oyster won't let me"
+Cmd 205 |    12    27 |    4  15  12   1   0   0   0   0   0   0 |  107   0   0   0 |
+            rea   hie | IF ISROOM(15="hieroglyphics room")
+                      | IF NOT HERECARRY(1="Stone")
+                      | MESSAGE 57="Confusing. Part appears mis..."
+Cmd 206 |    12    27 |    4  15   3   1   0   0   0   0   0   0 |  131 102   0   0 |
+            rea   hie | IF ISROOM(15="hieroglyphics room")
+                      | IF HERECARRY(1="Stone")
+                      | MESSAGE 81="OK"
+                      | MESSAGE 52="It says: `LEAVE *TREASURES*..."
+Cmd 207 |    12    46 |    3   1   4  15   0   0   0   0   0   0 |  131 102   0   0 |
+            rea   sto | IF HERECARRY(1="Stone")
+                      | IF ISROOM(15="hieroglyphics room")
+                      | MESSAGE 81="OK"
+                      | MESSAGE 52="It says: `LEAVE *TREASURES*..."
+Cmd 208 |    75    52 |    2  71   3   3   0  71   0  69   0   3 |  131  72  55   0 |
+            fee   rat | IF HERE(71="Starving rats")
+                      | IF HERECARRY(3="Dried Camel Jerky")
+                      | MESSAGE 81="OK"
+                      | SWAP ITEMS 71="Starving rats" AND 69="Satisfied rats"
+                      | DESTROY 3="Dried Camel Jerky"
+Cmd 209 |    44     7 |    4  24   0   0   0   0   0   0   0   0 |  131  17   0   0 |
+            dri   wat | IF ISROOM(24="Pool of water")
+                      | MESSAGE 81="OK"
+                      | MESSAGE 17="Thanks."
+Cmd 210 |     1    74 |    4   9   0   0   0   0   0   0   0   0 |  108   0   0   0 |
+             go   pas | IF ISROOM(9="long, narrow passageway")
+                      | MESSAGE 58="I'm there."
+Cmd 211 |    75    40 |    2  63   1   3   0   3   0  10   0  64 |   55  58  53 103 |
+            fee   oys | IF HERE(63="Giant Oyster")
+                      | IF CARRY(3="Dried Camel Jerky")
+                      | DESTROY 3="Dried Camel Jerky"
+                      | SET FLAG(10)=TRUE
+                      | DROP 64="* BLACK PEARL *"
+                      | MESSAGE 53="Oyster makes a slobbering n..."
+Cmd 212 |    10    55 |    2  41   0   0   0   0   0   0   0   0 |    4  30   0   0 |
+            get   ash | IF HERE(41="Ashes")
+                      | MESSAGE 4="I can't."
+                      | MESSAGE 30="Too hot."
+Cmd 213 |    10    20 |    5  29   5  32  13  37   0  30   0   0 |  131  74   0   0 |
+            get   tap | IF NOT HERE(29="Fearsome mummy")
+                      | IF NOT HERE(32="Enraged mummy")
+                      | IF SOMEWHERE(37="Entrance to an alcove")
+                      | MESSAGE 81="OK"
+                      | TAKE_NOCHECK 30="* ANTIQUE TAPESTRY *"
+Cmd 214 |    41    38 |    1  55   2  76   0   0   0   0   0   0 |   42   0   0   0 |
+            saw   cha | IF CARRY(55="Saw")
+                      | IF HERE(76="Dead explorer chained to wall")
+                      | MESSAGE 42="Chain too tough."
+Cmd 215 |    41    38 |    1  55   2  86   0   0   0   0   0   0 |   42   0   0   0 |
+            saw   cha | IF CARRY(55="Saw")
+                      | IF HERE(86="Iron statue of Pharoah seat...")
+                      | MESSAGE 42="Chain too tough."
+Cmd 216 |    70    57 |    2  76   0   0   0   0   0   0   0   0 |   42   0   0   0 |
+            unc   exp | IF HERE(76="Dead explorer chained to wall")
+                      | MESSAGE 42="Chain too tough."
+Cmd 217 |    61     0 |    0   0   0   0   0   0   0   0   0   0 |   46   0   0   0 |
+            ask       | MESSAGE 46="Strange . . . Nothing happens."
+Cmd 218 |    35    38 |    2  95   0   0   0   0   0   0   0   0 |  131  19 127   0 |
+            pul   cha | IF HERE(95="Iron Statue, slowly advanci...")
+                      | MESSAGE 81="OK"
+                      | MESSAGE 19="I hear a hollow laugh. . ."
+                      | MESSAGE 77="Nomad: `RUN YOU FOOL!`"
+Cmd 219 |     6    51 |    0   0   0   0   0   0   0   0   0   0 |  109   0   0   0 |
+            pou   can | MESSAGE 59="Pour water?"
+Cmd 220 |    38     0 |    0   0   0   0   0   0   0   0   0   0 |    4   0   0   0 |
+            clo       | MESSAGE 4="I can't."
+Cmd 221 |    10    21 |    2  36   0  36   0   0   0   0   0   0 |   52 131   0   0 |
+            get   lea | IF HERE(36="Wet tanna leaves")
+                      | TAKE 36="Wet tanna leaves"
+                      | MESSAGE 81="OK"
+Cmd 222 |    10    68 |    2  67   0  67   0   0   0   0   0   0 |   52 131   0   0 |
+            get   bar | IF HERE(67="* PLATINUM BAR *")
+                      | TAKE 67="* PLATINUM BAR *"
+                      | MESSAGE 81="OK"
+Cmd 223 |    14    71 |    2  99   6  12   0   0   0   0   0   0 |   47   0   0   0 |
+            unl   cof | IF HERE(99="Treasure coffer")
+                      | IF NOT CARRY(12="Tiny key")
+                      | MESSAGE 47="Its locked."
+Cmd 224 |    72    72 |    3  13   0  13   0  90   3   5   0   0 |   72 131   0   0 |
+            cle   coa | IF HERECARRY(13="Lump of coal")
+                      | IF HERECARRY(5="Full canteen")
+                      | SWAP ITEMS 13="Lump of coal" AND 90=" * RUBY *"
+                      | MESSAGE 81="OK"
+Cmd 225 |    72    72 |    3  13   0  13   0  90   4  24   0   0 |   72 131   0   0 |
+            cle   coa | IF HERECARRY(13="Lump of coal")
+                      | IF ISROOM(24="Pool of water")
+                      | SWAP ITEMS 13="Lump of coal" AND 90=" * RUBY *"
+                      | MESSAGE 81="OK"
+Cmd 226 |    13     0 |    0   0   0   0   0   0   0   0   0   0 |    4   0   0   0 |
+            bre       | MESSAGE 4="I can't."
+Cmd 227 |    79     0 |    6  19   0   0   0   0   0   0   0   0 |    2   0   0   0 |
+            pun       | IF NOT CARRY(19="I'm wearing an iron glove")
+                      | MESSAGE 2="Bare-handed?"
+Cmd 228 |    22     0 |    2  27   0   0   0   0   0   0   0   0 |    2   0   0   0 |
+            att       | IF HERE(27="Small Nomad")
+                      | MESSAGE 2="Bare-handed?"
+Cmd 229 |    75     0 |    0   0   0   0   0   0   0   0   0   0 |   35   0   0   0 | .
+            fee       | MESSAGE 35="You be weird. Cut that out."
+
+// END OF FILE

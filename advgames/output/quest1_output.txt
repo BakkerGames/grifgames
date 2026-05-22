@@ -1,0 +1,1879 @@
+Unknown        = 4730
+ItemCount      = 54
+CommandCount   = 261
+VerbNounCount  = 128
+RoomCount      = 20
+MaxInventory   = 10
+StartRoom      = 1
+TreasureCount  = 17
+WordLength     = 4
+LightMoves     = 150
+MessageCount   = 99
+TreasureRoom   = 16
+
+Cmd   0:      0      0      0      0      0      0      0      0
+Cmd   1:      0      0      0      0      0      0      0      0
+Cmd   2:    100     49     40      0      0      0   8779  10950
+Cmd   3:      0     20      0     40      0      0  12229  12229
+Cmd   4:      0     60      0    320      0      0  12229   8180
+Cmd   5:      0     20      0      0      0      0   8111  22276
+Cmd   6:    100     64     40     26    108      0  11850      0
+Cmd   7:    100    104     40     26    108      0  11850      0
+Cmd   8:    100    124     40     26    108      0  11850      0
+Cmd   9:    100    304     88     60     80      0   9060      0
+Cmd  10:      0      0      0      0      0      0      0      0
+Cmd  11:    100    148     20      0      0      0  11118   1573
+Cmd  12:      0    140      0      0      0      0   9022      0
+Cmd  13:    100    168    160     40      0      0   3210   8173
+Cmd  14:      0   1680   1660   1720      0      0      0      0
+Cmd  15:    100    204     40      0      0      0  11031      0
+Cmd  16:      0     99    334    320      0      0   8026    778
+Cmd  17:      0    219      0      0      0      0   1529   9150
+Cmd  18:      0    176      0      0      0      0  18300      0
+Cmd  19:      0     40      0      0      0      0  12150      0
+Cmd  20:    100    224     60      0      0      0  12223      0
+Cmd  21:      0    159    894    880      0      0   8026    778
+Cmd  22:      0    219      0      0      0      0   1529   9150
+Cmd  23:      0    176      0      0      0      0  18300      0
+Cmd  24:      0     60      0      0      0      0  12150      0
+Cmd  25:    100    403    945      0      0      0   4838  10950
+Cmd  26:      0    229    400      0      0      0   5011   8850
+Cmd  27:      0    403    209    400      0      0   5311   8850
+Cmd  28:      0    403    249    400      0      0   5161   8850
+Cmd  29:      0     26    400      0      0      0   1822   9209
+Cmd  30:      0    403      0      0      0      0   5400      0
+Cmd  31:    100    414    144    400      0      0   8026   4837
+Cmd  32:      0      0      0      0      0      0      0      0
+Cmd  33:    100    284    520     21    429    534   8026    373
+Cmd  34:      0      0      0      0      0      0    838  13288
+Cmd  35:      0      0      0      0      0      0  13288      0
+Cmd  36:     45    284     21    522    565      0    402      0
+Cmd  37:    100     68     26      0      0      0   1968   2161
+Cmd  38:    100    343    188    360    340      0   8881   8923
+Cmd  39:      0     26      0      0      0      0   9150      0
+Cmd  40:    100    343    180      0      0      0   8819      0
+Cmd  41:    100    184     20      0      0      0  11031      0
+Cmd  42:      0    219      0      0      0      0   1529   9150
+Cmd  43:      0     39    754    740      0      0   8026    778
+Cmd  44:      0    176      0      0      0      0  18300      0
+Cmd  45:      0     20      0      0      0      0  12150      0
+Cmd  46:     50    378    372    360      0      0   8850      0
+Cmd  47:    100    412    413    400      0      0   8850      0
+Cmd  48:     20    364    380    469    460      0   8176   8700
+Cmd  49:     33    364    140      0      0      0   8176      0
+Cmd  50:     40    364    160      0      0      0   8176      0
+Cmd  51:    100    364     80      0      0      0   8176      0
+Cmd  52:    100    361    403    360      0      0   8916  20850
+Cmd  53:    100    344    320      0      0      0   8176      0
+Cmd  54:    100     21     76     20    320     80  19279   8158
+Cmd  55:    100    307     80    140     80      0  12229  12150
+Cmd  56:    100    304     80     26      0      0  12227  10950
+Cmd  57:      0     35      0      0      0      0  20011      0
+Cmd  58:      0     80      0      0      0      0  12150      0
+Cmd  59:      0      0      0      0      0      0      0      0
+Cmd  60:      0      0      0      0      0      0      0      0
+Cmd  61:      0      0      0      0      0      0      0      0
+Cmd  62:    100     21     89    565      0      0  11569  10950
+Cmd  63:      0     15     20      0      0      0   8868   1822
+Cmd  64:    100     26      0      0      0      0  11850      0
+Cmd  65:    100    533     26    520      0      0   8926      0
+Cmd  66:    100    404     80     60     20      0   9060   8923
+Cmd  67:      0    220      0      0      0      0   9000      0
+Cmd  68:    100    902    403    900    940      0  20609   8923
+Cmd  69:      0    400    920      0      0      0   8903  11400
+Cmd  70:      0      0      0      0      0      0      0      0
+Cmd  71:   5904   1062      0      0      0      0  22199      0
+Cmd  72:  15384     21     40      0      0      0  12310   2323
+Cmd  73:      0   1760      0      0      0      0   2400      0
+Cmd  74:   1507      4      0      0      0      0      0      0
+Cmd  75:  10569     24      0      0      0      0    907   1228
+Cmd  76:   5978    384    960    974      0      0   8026    305
+Cmd  77:   6750    480      0      0      0      0   5908      0
+Cmd  78:  13500    488    480      0      0      0   9044      0
+Cmd  79:    275      0      0      0      0      0  21600      0
+Cmd  80:   1050    942      0      0      0      0   1036      0
+Cmd  81:   7770    902      0      0      0      0   1036      0
+Cmd  82:  15710      0      0      0      0      0   2832      0
+Cmd  83:   5885    164      0      0      0      0    152  19650
+Cmd  84:   5905    164      0      0      0      0    152  19500
+Cmd  85:  14016    442      0      0      0      0   1029      0
+Cmd  86:   4350     26    348    340      0      0   9127    473
+Cmd  87:   4371    348    461    482    340    480   7410   8850
+Cmd  88:  12505    202   1014     21   1000      0   7955   4276
+Cmd  89:  12505    102   1034     21   1020      0    778   8026
+Cmd  90:  12533    663     26      0      0      0    924      0
+Cmd  91:   5960    304      0      0      0      0    152  18600
+Cmd  92:   2660    814    304    800     21      0   7952    773
+Cmd  93:   4371    348    124    340    480    461    199   9059
+Cmd  94:  15655      0      0      0      0      0    907  18150
+Cmd  95:   5891    363      0      0      0      0    152  18000
+Cmd  96:   4371    485      0      0      0      0    416      0
+Cmd  97:   4405    348    222    340    480    461    199   9059
+Cmd  98:   7722     21    402      0      0      0    195   5550
+Cmd  99:   7650     24      0      0      0      0   1058   3300
+Cmd 100:   7211      0      0      0      0      0    221      0
+Cmd 101:   5859     43    309   1640     26      0    152   1800
+Cmd 102:   5859     43    309     21      0      0    310  10967
+Cmd 103:      0     16      0      0      0      0   2250      0
+Cmd 104:      0     36      0      0      0      0   2250      0
+Cmd 105:      0     56      0      0      0      0   2250      0
+Cmd 106:      0   1620      0      0      0      0   2400      0
+Cmd 107:      0      0      0      0      0      0      0      0
+Cmd 108:  10546     24    140    160    120      0   3058   8760
+Cmd 109:  10546     26    140    120      0      0   3058   9000
+Cmd 110:   4385    348    222    340    480    461    199   9059
+Cmd 111:  13533    426    260    280      0      0   1416   9060
+Cmd 112:  11400     24    140    160      0      0   1076   8758
+Cmd 113:      0      0      0      0      0      0      0      0
+Cmd 114:   7662     26    140    120      0      0   3058   9000
+Cmd 115:  10512     27     26    140    120      0   3058   9000
+Cmd 116:  10512     24      0      0      0      0   6192      0
+Cmd 117:  10512     21      0      0      0      0    157   3753
+Cmd 118:   7662     21      0      0      0      0    157   3753
+Cmd 119:  10546     21      0      0      0      0    157   3753
+Cmd 120:   1527      0      0      0      0      0   1350      0
+Cmd 121:   1505      4      0      0      0      0      0      0
+Cmd 122:   4650      0      0      0      0      0    215   9450
+Cmd 123:   5904    122    309      0      0      0    152   4050
+Cmd 124:   5904    142    309      0      0      0    152   4050
+Cmd 125:   5904    162    309      0      0      0    152   4050
+Cmd 126:  12300     84    260   1780      0      0    203      0
+Cmd 127:  12300    144    280   1780      0      0    203      0
+Cmd 128:  12300    164    300   1780      0      0    203      0
+Cmd 129:    216    262    180      0      0      0    204  11400
+Cmd 130:    216    282    200      0      0      0    204  11400
+Cmd 131:    216    302    220      0      0      0    204  11400
+Cmd 132:  12300    184     20     20     20      0    231  12381
+Cmd 133:  12300    204     40     20     40      0    231  12381
+Cmd 134:  12300    224     60     20     60      0    231  12381
+Cmd 135:  12505    222    394    380   1700     21   7955   4200
+Cmd 136:   1561    200      0      0      0      0    208      0
+Cmd 137:  18812    220      0      0      0      0    208   8476
+Cmd 138:  14912    220      0      0      0      0    210   8626
+Cmd 139:  14014    260      0      0      0      0   5890   8747
+Cmd 140:  13533    268    260    423    420    240    210   8908
+Cmd 141:  13864    248    240    420      0      0    210  11100
+Cmd 142:  13983      0      0      0      0      0   6192      0
+Cmd 143:  13537      0      0      0      0      0    943   6600
+Cmd 144:  14011    280      0      0      0      0   5890   8747
+Cmd 145:  13533    288    280    423    420    200  11010   8908
+Cmd 146:      0    440      0      0      0      0   8701      0
+Cmd 147:   4234     26    461      0      0      0  19053    623
+Cmd 148:   4234     21    461      0      0      0   6973   6048
+Cmd 149:      0    402    400      0      0      0   8850      0
+Cmd 150:      0    340      0      0      0      0   8700      0
+Cmd 151:    205    202    100     60     80      0   8160   9076
+Cmd 152:    205    102     60     60     80      0   8160   9076
+Cmd 153:    205     64     80     60     80      0   8158   8776
+Cmd 154:    205    104    140     60     80      0   8158   8776
+Cmd 155:    205    124    160     60     80      0   8158   8776
+Cmd 156:  10608    343    340     21      0      0    209      0
+Cmd 157:  10608    343     26    340    360      0   4711   8909
+Cmd 158:   3600      0      0      0      0      0   1453      0
+Cmd 159:   5885    502      0      0      0      0    152   7500
+Cmd 160:   1533    482    140     26    422      0    951   3058
+Cmd 161:   1533    423    420      0      0      0    224      0
+Cmd 162:    185      0      0      0      0      0    909   2743
+Cmd 163:   5876    284    540    309    545    565   7952    826
+Cmd 164:  14016    542    360      0      0      0   5890   7108
+Cmd 165:  13533    368    423    543    540    560    222  10950
+Cmd 166:      0    420    360      0      0      0   8910      0
+Cmd 167:  13866    562    540    560    420      0    222  11100
+Cmd 168:   7776    384    320      0      0      0  21054  11400
+Cmd 169:   4422    348    402    340    400    461   7395   9059
+Cmd 170:   1624    363    360      0      0      0    224      0
+Cmd 171:   2824    363    360      0      0      0    203      0
+Cmd 172:  12533    663     21    660    680      0    222  11473
+Cmd 173:      0    780    300      0      0      0   9300      0
+Cmd 174:    216    682    300      0      0      0    204  11400
+Cmd 175:   4877    522    380    389      0      0    254   8805
+Cmd 176:   4877    522    388    400    409      0  15711   8700
+Cmd 177:  14973    384    320      0      0      0  21054  11400
+Cmd 178:   4877    522    408    420    520    700  15958   8903
+Cmd 179:  10288    722    109    100      0      0    208  16309
+Cmd 180:  10288    722    108    100      0      0    210  16310
+Cmd 181:   7671    482     26    140      0      0    951   3058
+Cmd 182:   1533    562    540    560    420      0    222  11100
+Cmd 183:  11250      0      0      0      0      0  16800      0
+Cmd 184:   5916    502      0      0      0      0    152   7500
+Cmd 185:   1533    248    240    420      0      0    210  11100
+Cmd 186:  14971    942      0      0      0      0   1036      0
+Cmd 187:   5904    762      0      0      0      0    152  16950
+Cmd 188:   5916    542      0      0      0      0    152  17100
+Cmd 189:    271    942      0      0      0      0   1036      0
+Cmd 190:   5884    463      0      0      0      0    152  17250
+Cmd 191:    216    782     40      0      0      0    204  11400
+Cmd 192:   5945    324      0      0      0      0    152  17550
+Cmd 193:  12300      0      0      0      0      0   1058   4200
+Cmd 194:   7727    522    520    420      0      0  15718   8908
+Cmd 195:   5958    342      0      0      0      0    152  21750
+Cmd 196:   1555      0      0      0      0      0   1023      0
+Cmd 197:    265    802    240      0      0      0    204  11400
+Cmd 198:    265    822    300      0      0      0    204  11400
+Cmd 199:   4920    902      0      0      0      0  21900      0
+Cmd 200:   2660     26      0      0      0      0    944   2825
+Cmd 201:   5904    862      0      0      0      0    152  18900
+Cmd 202:   7050    100     80      0      0      0  12229  12073
+Cmd 203:      0     82    242    322    362    382  11550      0
+Cmd 204:      0     79    582    602    622    642  11550      0
+Cmd 205:      0     59    742    702    842    882  11550      0
+Cmd 206:      0     39    922    962   1002   1022  11550      0
+Cmd 207:      0     19   1740      0      0      0  20188  13200
+Cmd 208:      0    100      0      0      0      0  12230  11465
+Cmd 209:   5971    942      0      0      0      0    152  20250
+Cmd 210:   1621    942      0      0      0      0   1036      0
+Cmd 211:   1620    902      0      0      0      0   1036      0
+Cmd 212:   4872    942      0      0      0      0  20700      0
+Cmd 213:  19133    662     26      0      0      0    924      0
+Cmd 214:  19133    662     21    660      0      0   8856   4514
+Cmd 215:      0      0      0      0      0      0      0      0
+Cmd 216:  12005      0      0      0      0      0    153    623
+Cmd 217:   5860    384      0      0      0      0    443      0
+Cmd 218:  13541    260    280      0      0      0    943   9060
+Cmd 219:   7350      0      0      0      0      0    907   1341
+Cmd 220:    273    384    320      0      0      0  21054  11400
+Cmd 221:   1508    309     27      0      0      0    216      0
+Cmd 222:   7500    309     27      0      0      0    216      0
+Cmd 223:      0      0      0      0      0      0      0      0
+Cmd 224:      0      0      0      0      0      0      0      0
+Cmd 225:  13500      0      0      0      0      0    909      0
+Cmd 226:   3750      0      0      0      0      0    909      0
+Cmd 227:   4350    348    340     21      0      0   7353   3510
+Cmd 228:   4350    348    340      0      0      0    454   3510
+Cmd 229:  15750      0      0      0      0      0    454   3450
+Cmd 230:  10500      0      0      0      0      0    907   1228
+Cmd 231:  18150      4      0      0      0      0      0      0
+Cmd 232:  17700      0      0      0      0      0   1350      0
+Cmd 233:  15000      0      0      0      0      0   1350      0
+Cmd 234:   4350      0      0      0      0      0    941   5850
+Cmd 235:      0      0      0      0      0      0      0      0
+Cmd 236:   7650     21      0      0      0      0    910  16050
+Cmd 237:   7650     26      0      0      0      0    903    623
+Cmd 238:  15300      0      0      0      0      0    454   3450
+Cmd 239:  13050     21     20      0      0      0   8868   1822
+Cmd 240:  13050     26      0      0      0      0    454   3450
+Cmd 241:   2727     21     20      0      0      0   8868   1822
+Cmd 242:   2660     21      0      0      0      0    454   3450
+Cmd 243:    205    222    120     60     80      0   8160   9076
+Cmd 244:   1533    448    440    200    420      0    210   9074
+Cmd 245:  13861    448    440    200    420      0    210   9074
+Cmd 246:   1111    449    208    200      0      0    210      0
+Cmd 247:  19050      0      0      0      0      0    903    623
+Cmd 248:   3300      0      0      0      0      0    907   1222
+Cmd 249:  12571    942      0      0      0      0   1036      0
+Cmd 250:  11521    942      0      0      0      0   1036      0
+Cmd 251:  18796      0      0      0      0      0    150      0
+Cmd 252:  17550      0      0      0      0      0   1350      0
+Cmd 253:   4800    384    320      0      0      0  21054  11400
+Cmd 254:   5976    384    980      0      0      0  21353  11400
+Cmd 255:  10320    902      0      0      0      0  20400      0
+Cmd 256:   2550      0      0      0      0      0    454   3450
+Cmd 257:   1510    384    320      0      0      0  21054  11400
+Cmd 258:  18750      0      0      0      0      0   1350      0
+Cmd 259:  12450      0      0      0      0      0    454   3450
+Cmd 260:   5850    309      0      0      0      0    303    676
+Cmd 261:   4800    120      0      0      0      0   9001  12750
+
+Verb  0: AUTO   Noun  0: ANY
+Verb  1: GO     Noun  1: NORTH
+Verb  2: *WALK  Noun  2: SOUTH
+Verb  3: *RUN   Noun  3: EAST
+Verb  4: *ENTE  Noun  4: WEST
+Verb  5: *G     Noun  5: UP
+Verb  6: *FOLL  Noun  6: DOWN
+Verb  7: FREE   Noun  7: LOOS
+Verb  8: *RELE  Noun  8: INVE
+Verb  9: *UNCA  Noun  9: MIRR
+Verb 10: GET    Noun 10: PROG
+Verb 11: *TAKE  Noun 11: GAME
+Verb 12: *GRAB  Noun 12: ME
+Verb 13: *CARR  Noun 13: *MYSE
+Verb 14: *HOLD  Noun 14: *SELF
+Verb 15: *CATC  Noun 15: *BANN
+Verb 16: *STAN  Noun 16: *HULK
+Verb 17: SCRA   Noun 17: *YOU
+Verb 18: DROP   Noun 18: *YOUR
+Verb 19: *LEAV  Noun 19: *HEAD
+Verb 20: *THRO  Noun 20: *FACE
+Verb 21: .      Noun 21: BEES
+Verb 22: MAKE   Noun 22: *BEE
+Verb 23: *CREA  Noun 23: CEIL
+Verb 24: THIN   Noun 24: *CIEL
+Verb 25: FIND   Noun 25: *ROOF
+Verb 26: *SEAR  Noun 26: BASE
+Verb 27: *LOCA  Noun 27: MAD
+Verb 28: WAVE   Noun 28: *ANGE
+Verb 29: AT     Noun 29: *RAGE
+Verb 30: *TOWA  Noun 30: *UPSE
+Verb 31: QUIT   Noun 31: *ANGR
+Verb 32: SAY    Noun 32: CHAI
+Verb 33: *YELL  Noun 33: WAX
+Verb 34: *SCRE  Noun 34: FAN
+Verb 35: *TALK  Noun 35: MESH
+Verb 36: *SPEA  Noun 36: *WIRE
+Verb 37: *CALL  Noun 37: FING
+Verb 38: *ASK   Noun 38: *HAND
+Verb 39: LOOK   Noun 39: *FOOT
+Verb 40: *L     Noun 40: *FEET
+Verb 41: *EXAM  Noun 41: GEM
+Verb 42: *SEE   Noun 42: BACK
+Verb 43: *DESC  Noun 43: *FORW
+Verb 44: *READ  Noun 44: *OVER
+Verb 45: COVE   Noun 45: .
+Verb 46: *BLOC  Noun 46: TONG
+Verb 47: SCOR   Noun 47: *LIP
+Verb 48: SAVE   Noun 48: *CHEE
+Verb 49: HELP   Noun 49: *TUNG
+Verb 50: INVE   Noun 50: *TONQ
+Verb 51: HIT    Noun 51: *SKIN
+Verb 52: *KICK  Noun 52: *MOUT
+Verb 53: *PUNC  Noun 53: FIEL
+Verb 54: *SLUG  Noun 54: SIGN
+Verb 55: *POUN  Noun 55: DOME
+Verb 56: *SMAS  Noun 56: *TUNN
+Verb 57: *PINC  Noun 57: *OUT
+Verb 58: *DEST  Noun 58: *OUTS
+Verb 59: *HURT  Noun 59: .
+Verb 60: *STEP  Noun 60: ENER
+Verb 61: *RIP   Noun 61: NOSE
+Verb 62: *BREA  Noun 62: EYES
+Verb 63: *DEST  Noun 63: *EYE
+Verb 64: *STAM  Noun 64: EARS
+Verb 65: *SWAT  Noun 65: *EAR
+Verb 66: *FIGH  Noun 66: HOLE
+Verb 67: *STOM  Noun 67: *OUTL
+Verb 68: PUSH   Noun 68: *GAS
+Verb 69: *PRES  Noun 69: ROPE
+Verb 70: BITE   Noun 70: *TIES
+Verb 71: *CHEW  Noun 71: *BOND
+Verb 72: *EAT   Noun 72: ANTS
+Verb 73: *SWAL  Noun 73: *ANT
+Verb 74: *BIT   Noun 74: *ANT-
+Verb 75: FAN    Noun 75: *MAN
+Verb 76: ROCK   Noun 76: FLOO
+Verb 77: *TIP   Noun 77: DR
+Verb 78: *LEAN  Noun 78: *ASTR
+Verb 79: *SHAK  Noun 79: *STRA
+Verb 80: JUMP   Noun 80: *DR.
+Verb 81: *BOUN  Noun 81: *DR.S
+Verb 82: DIG    Noun 82: *PROJ
+Verb 83: LIFT   Noun 83: RING
+Verb 84: *PULL  Noun 84: NIGH
+Verb 85: *MOVE  Noun 85: MODO
+Verb 86: *PRY   Noun 86: ABOM
+Verb 87: SLEE   Noun 87: ALAM
+Verb 88: *RELA  Noun 88: BUTT
+Verb 89: *CALM  Noun 89: HELL
+Verb 90: USE    Noun 90: HI
+Verb 91: *WITH  Noun 91: BYE
+Verb 92: UNPL   Noun 92: GOOD
+Verb 93: PLUG   Noun 93: HOWD
+Verb 94: *STUF  Noun 94: HELP
+Verb 95: *INSE  Noun 95: AREA
+Verb 96: *STIC  Noun 96: *FUZZ
+Verb 97: *IN    Noun 97: AROU
+Verb 98: *INTO  Noun 98: BEAM
+Verb 99: OPEN   Noun 99: SCOT
+Verb 100: KILL   Noun 100: ADAM
+Verb 101: *SLAY  Noun 101: PANT
+Verb 102: REME   Noun 102: TO
+Verb 103: *REMM  Noun 103: INTO
+Verb 104: CLIM   Noun 104: BREA
+Verb 105: WIGG   Noun 105: IN
+Verb 106: *DANC  Noun 106: IT
+Verb 107: *CLAP  Noun 107: AT
+Verb 108: *SMIL  Noun 108: EGG
+Verb 109: *WAIT  Noun 109: *NATT
+Verb 110: *LAUG  Noun 110: WALL
+Verb 111: *BLOW  Noun 111: *ROOM
+Verb 112: *SMEL  Noun 112: MACH
+Verb 113: *LIST  Noun 113: SCRA
+Verb 114: *FEEL  Noun 114: MARK
+Verb 115: *TOUC  Noun 115: CRAC
+Verb 116:        Noun 116: LIMB
+Verb 117: STOP   Noun 117: SPAC
+Verb 118: BECO   Noun 118: WARP
+Verb 119: *CHAN  Noun 119: DIRT
+Verb 120: *TRAN  Noun 120: ULTR
+Verb 121: UNTI   Noun 121: CAGE
+Verb 122: *CUT   Noun 122: CAVE
+Verb 123: *SLIC  Noun 123: DOOR
+Verb 124:        Noun 124: BIO
+Verb 125: CLOS   Noun 125: INSI
+Verb 126: *SHUT  Noun 126: CHIE
+Verb 127: TURN   Noun 127: *EXAM
+Verb 128: *TWIS  Noun 128: DESK
+
+Room  0: 
+
+Room  1: *I'm Bruce Banner, tied hand & foot to a chair
+
+Room  2: dome
+         E:     3
+
+Room  3: tunnel going outside
+         W:     2
+
+Room  4: field
+         N:    17
+         S:    17
+         E:    17
+         W:    17
+
+Room  5: tunnel going out
+         W:    14
+
+Room  6: tunnel going out
+         W:    13
+
+Room  7: field
+         N:    17
+         S:    17
+         E:    17
+         W:    17
+
+Room  8: field
+         N:    17
+         S:    17
+         E:    17
+         W:    17
+
+Room  9: hole
+         U:     4
+
+Room 10: hole
+         U:     7
+
+Room 11: hole
+         U:     8
+
+Room 12: cavern
+
+Room 13: dome
+         E:     6
+
+Room 14: dome
+         E:     5
+
+Room 15: small underground room
+
+Room 16: fuzzy area
+         N:    15
+         S:    18
+         E:    18
+         W:    18
+
+Room 17: warp
+
+Room 18: warp
+
+Room 19: room with the Chief Examiner working\\behind a desk, he doesn't notice me
+
+Room 20: state of limbo
+         D:     2
+
+Msg   0: 
+Msg   1: O.K.
+Msg   2: I see
+Msg   3: Nothing
+Msg   4: special
+Msg   5: something
+Msg   6: Sorry,
+Msg   7: I
+Msg   8: can't do that
+Msg   9: How?
+Msg  10: The Incredible Hulk (Tm)
+Msg  11: Scott Adams presents Marvel Adventure #1 by Scott Adams\\with Art by John Romita Sr, Mark Gruenwald & Kem McNair.\\Series outline by Scott Adams and John Byrne & Bob Budiansky.\\Dedicated: Stan Lee, My wife Alexis & CIS CBers!
+Msg  12: Bruce Banner
+Msg  13: High Gravity!
+Msg  14: crushed!
+Msg  15: very
+Msg  16: mad.\\
+Msg  17: who is
+Msg  18: I'm
+Msg  19: \\Some gas fills room & permeates my skin!\\
+Msg  20: Ouch! I scream!\\
+Msg  21: Rope Breaks!\\
+Msg  22: now!\\
+Msg  23: happens.
+Msg  24: won't budge!
+Msg  25: feel
+Msg  26: fall & hit head!\\
+Msg  27: Warning Hi Grav Ahead!
+Msg  28: here.
+Msg  29: hits molten core!
+Msg  30: it's
+Msg  31: Egg explodes ...
+Msg  32: \\Ants
+Msg  33: eyes.
+Msg  34: ears.
+Msg  35: nose.
+Msg  36: but find no opening.
+Msg  37: swarm from holes
+Msg  38: attack
+Msg  39: With what?
+Msg  40: Use 2 words like:
+Msg  41: Say again but tell me
+Msg  42: where?
+Msg  43: Too big!
+Msg  44: Doesn't work!
+Msg  45: more
+Msg  46: at what?
+Msg  47: USE GEM
+Msg  48: AT TREE
+Msg  49: I send a gale at it!
+Msg  50: outside
+Msg  51: I'm stung!
+Msg  52: Dr Strange points to baseboard.
+Msg  53: you're doing my thinking!
+Msg  54: Strange says:
+Msg  55: `Remember your worst enemy NIGHTMARE`
+Msg  56: Arcane energies blaze and he vanishes!
+Msg  57: is no vandal!
+Msg  58: Voice says: `Delay
+Msg  59: on`
+Msg  60: off`
+Msg  61: `Look for Scott's next Marvel Adventure at your\\favorite store!` - Nuff said.
+Msg  62: Wave it!
+Msg  63: leave gems here: SCORE.
+Msg  64: it's just a hole.
+Msg  65: no moving parts.
+Msg  66: none here!
+Msg  67: space is warped here!
+Msg  68: `That's not nice!`
+Msg  69: Egg pulsates!
+Msg  70: it's alive & moving around!
+Msg  71: slide down.
+Msg  72: Getting warm!
+Msg  73: won't fit in my inventory.
+Msg  74: wall has scratch marks on it.
+Msg  75: too weak!
+Msg  76: `Bad move, please be more careful! Now try again!`\\- signed Chief Examiner.
+Msg  77: I make a tiny breeze.
+Msg  78: You've lost control... Hulk rampages off!
+Msg  79: too many.
+Msg  80: wire mesh in the side.
+Msg  81: inside the dome.
+Msg  82: not that mad!
+Msg  83: \\Poison nerve gas fills room.
+Msg  84: Chief Examiner appears & says:\\`Save this password: ARIA`.\\
+Msg  85: Ant-Man in it!
+Msg  86: ULTRON's pressor beams stop me!
+Msg  87: Ant-Man controlled ants sneak up on Ultron\\then free Ant-Man! He leaves something.
+Msg  88: Ant-Man says: `Help me! Bring my friends!`
+Msg  89: Ants ate it!
+Msg  90: Chief Examiner notices me & says:\\`How did you get out of the Computer? I'm not ready for you\\yet! No matter...  BEGONE!`\\
+Msg  91: \\But ask for a Scott Adams Hint Book at your favorite store!
+Msg  92: He's writing a computer program!
+Msg  93: it's the next Scott Adams Marvel Adventure!
+Msg  94: Try: ENTER DOME
+Msg  95: it's size of a chicken egg but glowing!
+Msg  96: ULTRON says:`Stay back! You'll never free my creator from my\\clutches!`
+Msg  97: This computer model has been created so that you will learn\\to perform as the HULK!\\
+Msg  98: \\With Special Thanks to Joe Calamari & Jim Shooter!
+Msg  99: To prove you can supply the brains as well as control the\\Hulk's brawn you must collect all the *Gems and store them\\into the proper location. Good Luck! 
+
+Item  0: Loc:  0 - 
+Item  1: Loc:  0 - Rage
+Item  2: Loc:  2 - Mirror/MIRR/
+Item  3: Loc:  2 - Broken chair/CHAI/
+Item  4: Loc:  2 - *Gem/GEM/
+Item  5: Loc:  4 - Large dome
+Item  6: Loc:  3 - Sign
+Item  7: Loc:  5 - Sign
+Item  8: Loc:  6 - Sign
+Item  9: Loc:  0 - .
+Item 10: Loc:  7 - Large dome
+Item 11: Loc:  8 - Large dome
+Item 12: Loc:  4 - *Gem/GEM/
+Item 13: Loc:  0 - Large hole
+Item 14: Loc:  0 - Large hole
+Item 15: Loc:  0 - Large hole
+Item 16: Loc:  0 - *Gem/GEM/
+Item 17: Loc: 15 - Natter energy egg/EGG/
+Item 18: Loc: 15 - *Bio gem/GEM/
+Item 19: Loc:  0 - *Gem/GEM/
+Item 20: Loc:  0 - Alien army ants/ANTS/
+Item 21: Loc: 13 - Wax/WAX/
+Item 22: Loc:  7 - Tiny holes
+Item 23: Loc:  2 - Metal Hand Fan/FAN/
+Item 24: Loc: 13 - Killer Bees
+Item 25: Loc: 13 - Wire mesh in wall with bee size holes
+Item 26: Loc:  0 - Astral projection of Dr. Strange
+Item 27: Loc:  0 - Small gas outlet
+Item 28: Loc:  0 - Plugged gas outlet
+Item 29: Loc: 14 - *Gem/GEM/
+Item 30: Loc:  5 - *Gem/GEM/
+Item 31: Loc:  8 - *Gem/GEM/
+Item 32: Loc:  7 - *Gem/GEM/
+Item 33: Loc:  2 - Large iron ring set in floor
+Item 34: Loc:  0 - Open hole in floor
+Item 35: Loc:  0 - *Gem/GEM/
+Item 36: Loc:  3 - Button in wall
+Item 37: Loc:  0 - *Gem/GEM/
+Item 38: Loc: 16 - Sign
+Item 39: Loc:  0 - Hole in ceiling
+Item 40: Loc:  0 - Crack in floor
+Item 41: Loc: 12 - Crack in rock
+Item 42: Loc: 12 - *Gem/GEM/
+Item 43: Loc: 20 - Sign
+Item 44: Loc:  0 - *Gem/GEM/
+Item 45: Loc: 12 - ULTRON
+Item 46: Loc:  0 - *Gem/GEM/
+Item 47: Loc: 12 - Small cage
+Item 48: Loc:  0 - *Gem/GEM/
+Item 49: Loc:  0 - Program
+Item 50: Loc:  0 - *Gem/GEM/
+Item 51: Loc:  0 - *Gem/GEM/
+Item 52: Loc: 19 - Door
+Item 53: Loc:  2 - Sign
+Item 54: Loc:  0 - 
+
+Version         = 127
+AdventureNumber = 2
+MagicNumber     = 703
+
+Cmd   0 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 | .
+            continued | Cmd   1 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd   2 |     0   100 |    9   2   0   2   0   0   0   0   0   0 |   58  79  73   0 | INTRO
+                 100% | IF FLAG(2)=FALSE
+                      | SET FLAG(2)=TRUE
+                      | SET COUNTER=0
+                      | CONTINUE_NEXT_LINE
+Cmd   3 |     0     0 |    0   1   0   0   0   2   0   0   0   0 |   81  79  81  79 |
+            continued | SWAP COUNTER WITH COUNTER(1)
+                      | SET COUNTER=0
+                      | SWAP COUNTER WITH COUNTER(2)
+                      | SET COUNTER=0
+Cmd   4 |     0     0 |    0   3   0   0   0  16   0   0   0   0 |   81  79  54  80 |
+            continued | SWAP COUNTER WITH COUNTER(3)
+                      | SET COUNTER=0
+                      | GOTO 16="fuzzy area"
+                      | GOTO LOCATION_SWAP
+Cmd   5 |     0     0 |    0   1   0   0   0   0   0   0   0   0 |   54  11 148  76 | .
+            continued | GOTO 1="Bruce Banner, tied hand & f..."
+                      | MESSAGE 11="Scott Adams presents Marvel..."
+                      | MESSAGE 98=""
+                      | LOOK
+Cmd   6 |     0   100 |    4   3   0   2   6   1   8   5   0   0 |   79   0   0   0 | TUNNEL RAGE
+                 100% | IF ISROOM(3="tunnel going outside")
+                      | IF NOT CARRY(1="Rage")
+                      | IF FLAG(5)=TRUE
+                      | SET COUNTER=2
+Cmd   7 |     0   100 |    4   5   0   2   6   1   8   5   0   0 |   79   0   0   0 | DITTO
+                 100% | IF ISROOM(5="tunnel going out")
+                      | IF NOT CARRY(1="Rage")
+                      | IF FLAG(5)=TRUE
+                      | SET COUNTER=2
+Cmd   8 |     0   100 |    4   6   0   2   6   1   8   5   0   0 |   79   0   0   0 | DITTO
+                 100% | IF ISROOM(6="tunnel going out")
+                      | IF NOT CARRY(1="Rage")
+                      | IF FLAG(5)=TRUE
+                      | SET COUNTER=2
+Cmd   9 |     0   100 |    4  15   8   4   0   3   0   4   0   0 |   60  60   0   0 | IN SMALL ROOM
+                 100% | IF ISROOM(15="small underground room")
+                      | IF FLAG(4)=TRUE
+                      | SET FLAG(3)=FALSE
+                      | SET FLAG(4)=FALSE
+Cmd  10 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd  11 |     0   100 |    8   7   0   1   0   0   0   0   0   0 |   74  18  10  73 | INTO HULK
+                 100% | IF FLAG(7)=TRUE
+                      | TAKE_NOCHECK 1="Rage"
+                      | MESSAGE 18="I'm"
+                      | MESSAGE 10="The Incredible Hulk (Tm)"
+                      | CONTINUE_NEXT_LINE
+Cmd  12 |     0     0 |    0   7   0   0   0   0   0   0   0   0 |   60  22   0   0 | .
+            continued | SET FLAG(7)=FALSE
+                      | MESSAGE 22="now!"
+Cmd  13 |     0   100 |    8   8   0   8   0   2   0   0   0   0 |   21  60  54  73 | .
+                 100% | IF FLAG(8)=TRUE
+                      | MESSAGE 21="Rope Breaks!"
+                      | SET FLAG(8)=FALSE
+                      | GOTO 2="dome"
+                      | CONTINUE_NEXT_LINE
+Cmd  14 |     0     0 |    0  84   0  83   0  86   0   0   0   0 |    0   0   0   0 | ****** PICS
+            continued | Cmd  15 |     0   100 |    4  10   0   2   0   0   0   0   0   0 |   73  81   0   0 | IN HOLE10
+                 100% | IF ISROOM(10="hole")
+                      | CONTINUE_NEXT_LINE
+                      | SWAP COUNTER WITH COUNTER(2)
+Cmd  16 |     0     0 |   19   4  14  16   0  16   0   0   0   0 |   53  76   5  28 | GEM
+            continued | IF EQ(COUNTER,4)
+                      | IF NOWHERE(16="*Gem")
+                      | DROP 16="*Gem"
+                      | LOOK
+                      | MESSAGE 5="something"
+                      | MESSAGE 28="here."
+Cmd  17 |     0     0 |   19  10   0   0   0   0   0   0   0   0 |   10  29  61   0 |
+            continued | IF EQ(COUNTER,10)
+                      | MESSAGE 10="The Incredible Hulk (Tm)"
+                      | MESSAGE 29="hits molten core!"
+                      | DEAD
+Cmd  18 |     0     0 |   16   8   0   0   0   0   0   0   0   0 |  122   0   0   0 |
+            continued | IF GE(COUNTER,8)
+                      | MESSAGE 72="Getting warm!"
+Cmd  19 |     0     0 |    0   2   0   0   0   0   0   0   0   0 |   81   0   0   0 |
+            continued | SWAP COUNTER WITH COUNTER(2)
+Cmd  20 |     0   100 |    4  11   0   3   0   0   0   0   0   0 |   81  73   0   0 | IN HOLE11
+                 100% | IF ISROOM(11="hole")
+                      | SWAP COUNTER WITH COUNTER(3)
+                      | CONTINUE_NEXT_LINE
+Cmd  21 |     0     0 |   19   7  14  44   0  44   0   0   0   0 |   53  76   5  28 |
+            continued | IF EQ(COUNTER,7)
+                      | IF NOWHERE(44="*Gem")
+                      | DROP 44="*Gem"
+                      | LOOK
+                      | MESSAGE 5="something"
+                      | MESSAGE 28="here."
+Cmd  22 |     0     0 |   19  10   0   0   0   0   0   0   0   0 |   10  29  61   0 |
+            continued | IF EQ(COUNTER,10)
+                      | MESSAGE 10="The Incredible Hulk (Tm)"
+                      | MESSAGE 29="hits molten core!"
+                      | DEAD
+Cmd  23 |     0     0 |   16   8   0   0   0   0   0   0   0   0 |  122   0   0   0 |
+            continued | IF GE(COUNTER,8)
+                      | MESSAGE 72="Getting warm!"
+Cmd  24 |     0     0 |    0   3   0   0   0   0   0   0   0   0 |   81   0   0   0 |
+            continued | SWAP COUNTER WITH COUNTER(3)
+Cmd  25 |     0   100 |    3  20   5  47   0   0   0   0   0   0 |   32  38  73   0 | ANTS ATTACK
+                 100% | IF HERECARRY(20="Alien army ants")
+                      | IF NOT HERE(47="Small cage")
+                      | MESSAGE 32=""
+                      | MESSAGE 38="attack"
+                      | CONTINUE_NEXT_LINE
+Cmd  26 |     0     0 |    9  11   0  20   0   0   0   0   0   0 |   33  61  59   0 |
+            continued | IF FLAG(11)=FALSE
+                      | MESSAGE 33="eyes."
+                      | DEAD
+                      | DESTROY 20="Alien army ants"
+Cmd  27 |     0     0 |    3  20   9  10   0  20   0   0   0   0 |   35  61  59   0 |
+            continued | IF HERECARRY(20="Alien army ants")
+                      | IF FLAG(10)=FALSE
+                      | MESSAGE 35="nose."
+                      | DEAD
+                      | DESTROY 20="Alien army ants"
+Cmd  28 |     0     0 |    3  20   9  12   0  20   0   0   0   0 |   34  61  59   0 |
+            continued | IF HERECARRY(20="Alien army ants")
+                      | IF FLAG(12)=FALSE
+                      | MESSAGE 34="ears."
+                      | DEAD
+                      | DESTROY 20="Alien army ants"
+Cmd  29 |     0     0 |    6   1   0  20   0   0   0   0   0   0 |   12  22  61  59 |
+            continued | IF NOT CARRY(1="Rage")
+                      | MESSAGE 12="Bruce Banner"
+                      | MESSAGE 22="now!"
+                      | DEAD
+                      | DESTROY 20="Alien army ants"
+Cmd  30 |     0     0 |    3  20   0   0   0   0   0   0   0   0 |   36   0   0   0 | .
+            continued | IF HERECARRY(20="Alien army ants")
+                      | MESSAGE 36="but find no opening."
+Cmd  31 |     0   100 |   14  20   4   7   0  20   0   0   0   0 |   53  76  32  37 | SWARM ANTS
+                 100% | IF NOWHERE(20="Alien army ants")
+                      | IF ISROOM(7="field")
+                      | DROP 20="Alien army ants"
+                      | LOOK
+                      | MESSAGE 32=""
+                      | MESSAGE 37="swarm from holes"
+Cmd  32 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd  33 |     0   100 |    4  14   0  26   1   1   9  21  14  26 |   53  76   2  73 | STRANGE
+                 100% | IF ISROOM(14="dome")
+                      | IF CARRY(1="Rage")
+                      | IF FLAG(21)=FALSE
+                      | IF NOWHERE(26="Astral projection of Dr. St...")
+                      | DROP 26="Astral projection of Dr. St..."
+                      | LOOK
+                      | MESSAGE 2="I see"
+                      | CONTINUE_NEXT_LINE
+Cmd  34 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    5  88  88  88 | BRIEFLY
+            continued | MESSAGE 5="something"
+                      | SLEEP 2 SECONDS
+                      | SLEEP 2 SECONDS
+                      | SLEEP 2 SECONDS
+Cmd  35 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |   88  88   0   0 |
+            continued | SLEEP 2 SECONDS
+                      | SLEEP 2 SECONDS
+Cmd  36 |     0    45 |    4  14   1   1   2  26   5  28   0   0 |    2 102   0   0 | STRANGE POINT
+                  45% | IF ISROOM(14="dome")
+                      | IF CARRY(1="Rage")
+                      | IF HERE(26="Astral projection of Dr. St...")
+                      | IF NOT HERE(28="Plugged gas outlet")
+                      | MESSAGE 2="I see"
+                      | MESSAGE 52="Dr Strange points to basebo..."
+Cmd  37 |     0   100 |    8   3   6   1   0   0   0   0   0   0 |   13  18  14  61 | SQUISH
+                 100% | IF FLAG(3)=TRUE
+                      | IF NOT CARRY(1="Rage")
+                      | MESSAGE 13="High Gravity!"
+                      | MESSAGE 18="I'm"
+                      | MESSAGE 14="crushed!"
+                      | DEAD
+Cmd  38 |     0   100 |    3  17   8   9   0  18   0  17   0   0 |   59  31  59  73 | EGG BLOWS!
+                 100% | IF HERECARRY(17="Natter energy egg")
+                      | IF FLAG(9)=TRUE
+                      | DESTROY 18="*Bio gem"
+                      | MESSAGE 31="Egg explodes ..."
+                      | DESTROY 17="Natter energy egg"
+                      | CONTINUE_NEXT_LINE
+Cmd  39 |     0     0 |    6   1   0   0   0   0   0   0   0   0 |   61   0   0   0 | EGG DEAD!
+            continued | IF NOT CARRY(1="Rage")
+                      | DEAD
+Cmd  40 |     0   100 |    3  17   0   9   0   0   0   0   0   0 |   58 119   0   0 | NEXT MOVE EGG
+                 100% | IF HERECARRY(17="Natter energy egg")
+                      | SET FLAG(9)=TRUE
+                      | MESSAGE 69="Egg pulsates!"
+Cmd  41 |     0   100 |    4   9   0   1   0   0   0   0   0   0 |   73  81   0   0 | IN HOLE 9
+                 100% | IF ISROOM(9="hole")
+                      | CONTINUE_NEXT_LINE
+                      | SWAP COUNTER WITH COUNTER(1)
+Cmd  42 |     0     0 |   19  10   0   0   0   0   0   0   0   0 |   10  29  61   0 |
+            continued | IF EQ(COUNTER,10)
+                      | MESSAGE 10="The Incredible Hulk (Tm)"
+                      | MESSAGE 29="hits molten core!"
+                      | DEAD
+Cmd  43 |     0     0 |   19   1  14  37   0  37   0   0   0   0 |   53  76   5  28 |
+            continued | IF EQ(COUNTER,1)
+                      | IF NOWHERE(37="*Gem")
+                      | DROP 37="*Gem"
+                      | LOOK
+                      | MESSAGE 5="something"
+                      | MESSAGE 28="here."
+Cmd  44 |     0     0 |   16   8   0   0   0   0   0   0   0   0 |  122   0   0   0 |
+            continued | IF GE(COUNTER,8)
+                      | MESSAGE 72="Getting warm!"
+Cmd  45 |     0     0 |    0   1   0   0   0   0   0   0   0   0 |   81   0   0   0 |
+            continued | SWAP COUNTER WITH COUNTER(1)
+Cmd  46 |     0    50 |   18  18  12  18   0  18   0   0   0   0 |   59   0   0   0 | BIO LEAVE
+                  50% | IF NOT ATSTARTROOM(18)
+                      | IF NOT HERECARRY(18="*Bio gem")
+                      | DESTROY 18="*Bio gem"
+Cmd  47 |     0   100 |   12  20  13  20   0  20   0   0   0   0 |   59   0   0   0 | ANTS LEAVE
+                 100% | IF NOT HERECARRY(20="Alien army ants")
+                      | IF SOMEWHERE(20="Alien army ants")
+                      | DESTROY 20="Alien army ants"
+Cmd  48 |     0    20 |    4  18   0  19   9  23   0  23   0   0 |   54  76  58   0 | FRM FUZZY
+                  20% | IF ISROOM(18="warp")
+                      | IF FLAG(23)=FALSE
+                      | GOTO 19="room with the Chief Examine..."
+                      | LOOK
+                      | SET FLAG(23)=TRUE
+Cmd  49 |     0    33 |    4  18   0   7   0   0   0   0   0   0 |   54  76   0   0 | FRM FZY
+                  33% | IF ISROOM(18="warp")
+                      | GOTO 7="field"
+                      | LOOK
+Cmd  50 |     0    40 |    4  18   0   8   0   0   0   0   0   0 |   54  76   0   0 | FRM FUZZY
+                  40% | IF ISROOM(18="warp")
+                      | GOTO 8="field"
+                      | LOOK
+Cmd  51 |     0   100 |    4  18   0   4   0   0   0   0   0   0 |   54  76   0   0 | FROM FUZZY
+                 100% | IF ISROOM(18="warp")
+                      | GOTO 4="field"
+                      | LOOK
+Cmd  52 |     0   100 |    1  18   3  20   0  18   0   0   0   0 |   59  66 139   0 | ANTS GEM
+                 100% | IF CARRY(18="*Bio gem")
+                      | IF HERECARRY(20="Alien army ants")
+                      | DESTROY 18="*Bio gem"
+                      | INVENTORY
+                      | MESSAGE 89="Ants ate it!"
+Cmd  53 |     0   100 |    4  17   0  16   0   0   0   0   0   0 |   54  76   0   0 | TO FUZZY
+                 100% | IF ISROOM(17="warp")
+                      | GOTO 16="fuzzy area"
+                      | LOOK
+Cmd  54 |     0   100 |    1   1  16   3   0   1   0  16   0   4 |  128  79  54  58 | TOO MAD
+                 100% | IF CARRY(1="Rage")
+                      | IF GE(COUNTER,3)
+                      | MESSAGE 78="You've lost control... Hulk..."
+                      | SET COUNTER=1
+                      | GOTO 16="fuzzy area"
+                      | SET FLAG(4)=TRUE
+Cmd  55 |     0   100 |    7  15   0   4   0   7   0   4   0   0 |   81  79  81   0 | NOT UNGRND
+                 100% | IF NOT ISROOM(15)
+                      | SWAP COUNTER WITH COUNTER(4)
+                      | SET COUNTER=7
+                      | SWAP COUNTER WITH COUNTER(4)
+Cmd  56 |     0   100 |    4  15   0   4   6   1   0   0   0   0 |   81  77  73   0 | UNDERGRND
+                 100% | IF ISROOM(15="small underground room")
+                      | IF NOT CARRY(1="Rage")
+                      | SWAP COUNTER WITH COUNTER(4)
+                      | DECREMENT_COUNTER
+                      | CONTINUE_NEXT_LINE
+Cmd  57 |     0     0 |   15   1   0   0   0   0   0   0   0   0 |  133  61   0   0 | POISON GAS
+            continued | IF LE(COUNTER,1)
+                      | MESSAGE 83=""
+                      | DEAD
+Cmd  58 |     0     0 |    0   4   0   0   0   0   0   0   0   0 |   81   0   0   0 |
+            continued | SWAP COUNTER WITH COUNTER(4)
+Cmd  59 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd  60 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd  61 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd  62 |     0   100 |    1   1   9   4   5  28   0   0   0   0 |   77  19  73   0 | GAS
+                 100% | IF CARRY(1="Rage")
+                      | IF FLAG(4)=FALSE
+                      | IF NOT HERE(28="Plugged gas outlet")
+                      | DECREMENT_COUNTER
+                      | MESSAGE 19=""
+                      | CONTINUE_NEXT_LINE
+Cmd  63 |     0     0 |   15   0   0   1   0   0   0   0   0   0 |   59  18  12  22 |
+            continued | IF LE(COUNTER,0)
+                      | DESTROY 1="Rage"
+                      | MESSAGE 18="I'm"
+                      | MESSAGE 12="Bruce Banner"
+                      | MESSAGE 22="now!"
+Cmd  64 |     0   100 |    6   1   0   0   0   0   0   0   0   0 |   79   0   0   0 | RESET MAD CNTR
+                 100% | IF NOT CARRY(1="Rage")
+                      | SET COUNTER=0
+Cmd  65 |     0   100 |   13  26   6   1   0  26   0   0   0   0 |   59  76   0   0 | STRANGE GONE
+                 100% | IF SOMEWHERE(26="Astral projection of Dr. St...")
+                      | IF NOT CARRY(1="Rage")
+                      | DESTROY 26="Astral projection of Dr. St..."
+                      | LOOK
+Cmd  66 |     0   100 |    4  20   0   4   0   3   0   1   0   0 |   60  60  59  73 | DEAD
+                 100% | IF ISROOM(20="state of limbo")
+                      | SET FLAG(4)=FALSE
+                      | SET FLAG(3)=FALSE
+                      | DESTROY 1="Rage"
+                      | CONTINUE_NEXT_LINE
+Cmd  67 |     0     0 |    0  11   0   0   0   0   0   0   0   0 |   60   0   0   0 | OPEN EYES
+            continued | SET FLAG(11)=FALSE
+Cmd  68 |     0   100 |    2  45   3  20   0  45   0  47   0   0 |  137  59  59  73 | ANT-MAN FREE
+                 100% | IF HERE(45="ULTRON")
+                      | IF HERECARRY(20="Alien army ants")
+                      | MESSAGE 87="Ant-Man controlled ants sne..."
+                      | DESTROY 45="ULTRON"
+                      | DESTROY 47="Small cage"
+                      | CONTINUE_NEXT_LINE
+Cmd  69 |     0     0 |    0  20   0  46   0   0   0   0   0   0 |   59  53  76   0 |
+            continued | DESTROY 20="Alien army ants"
+                      | DROP 46="*Gem"
+                      | LOOK
+Cmd  70 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd  71 |    39    54 |    2  53   0   0   0   0   0   0   0   0 |  147 149   0   0 |
+           look  sign | IF HERE(53="Sign")
+                      | MESSAGE 97="This computer model has bee..."
+                      | MESSAGE 99="To prove you can supply the..."
+Cmd  72 |   102    84 |    1   1   0   2   0   0   0   0   0   0 |   82  10  15  73 |
+           reme  nigh | IF CARRY(1="Rage")
+                      | ADDTO COUNTER 2
+                      | MESSAGE 10="The Incredible Hulk (Tm)"
+                      | MESSAGE 15="very"
+                      | CONTINUE_NEXT_LINE
+Cmd  73 |     0     0 |    0  88   0   0   0   0   0   0   0   0 |   16   0   0   0 | NIGHTMARE*****
+            continued | MESSAGE 16="mad."
+Cmd  74 |    10     7 |    4   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            get  loos | IF ISROOM(0="")
+Cmd  75 |    70    69 |    4   1   0   0   0   0   0   0   0   0 |    6   7   8  28 |
+           bite  rope | IF ISROOM(1="Bruce Banner, tied hand & f...")
+                      | MESSAGE 6="Sorry,"
+                      | MESSAGE 7="I"
+                      | MESSAGE 8="can't do that"
+                      | MESSAGE 28="here."
+Cmd  76 |    39   128 |    4  19   0  48  14  48   0   0   0   0 |   53  76   2   5 |
+           look  desk | IF ISROOM(19="room with the Chief Examine...")
+                      | IF NOWHERE(48="*Gem")
+                      | DROP 48="*Gem"
+                      | LOOK
+                      | MESSAGE 2="I see"
+                      | MESSAGE 5="something"
+Cmd  77 |    45     0 |    0  24   0   0   0   0   0   0   0   0 |   39  58   0   0 |
+           cove       | MESSAGE 39="With what?"
+                      | SET FLAG(24)=TRUE
+Cmd  78 |    90     0 |    8  24   0  24   0   0   0   0   0   0 |   60  44   0   0 |
+            use       | IF FLAG(24)=TRUE
+                      | SET FLAG(24)=FALSE
+                      | MESSAGE 44="Doesn't work!"
+Cmd  79 |     1   125 |    0   0   0   0   0   0   0   0   0   0 |  144   0   0   0 |
+             go  insi | MESSAGE 94="Try: ENTER DOME"
+Cmd  80 |     7     0 |    2  47   0   0   0   0   0   0   0   0 |    6 136   0   0 |
+           free       | IF HERE(47="Small cage")
+                      | MESSAGE 6="Sorry,"
+                      | MESSAGE 86="ULTRON's pressor beams stop..."
+Cmd  81 |    51   120 |    2  45   0   0   0   0   0   0   0   0 |    6 136   0   0 |
+            hit  ultr | IF HERE(45="ULTRON")
+                      | MESSAGE 6="Sorry,"
+                      | MESSAGE 86="ULTRON's pressor beams stop..."
+Cmd  82 |   104   110 |    0   0   0   0   0   0   0   0   0   0 |   18 132   0   0 |
+           clim  wall | MESSAGE 18="I'm"
+                      | MESSAGE 82="not that mad!"
+Cmd  83 |    39    35 |    4   8   0   0   0   0   0   0   0   0 |    1   2 131   0 |
+           look  mesh | IF ISROOM(8="field")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 2="I see"
+                      | MESSAGE 81="inside the dome."
+Cmd  84 |    39    55 |    4   8   0   0   0   0   0   0   0   0 |    1   2 130   0 |
+           look  dome | IF ISROOM(8="field")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 2="I see"
+                      | MESSAGE 80="wire mesh in the side."
+Cmd  85 |    93    66 |    2  22   0   0   0   0   0   0   0   0 |    6 129   0   0 |
+           plug  hole | IF HERE(22="Tiny holes")
+                      | MESSAGE 6="Sorry,"
+                      | MESSAGE 79="too many."
+Cmd  86 |    29     0 |    6   1   8  17   0  17   0   0   0   0 |   60 127   3  23 | NOT HULK
+             at       | IF NOT CARRY(1="Rage")
+                      | IF FLAG(17)=TRUE
+                      | SET FLAG(17)=FALSE
+                      | MESSAGE 77="I make a tiny breeze."
+                      | MESSAGE 3="Nothing"
+                      | MESSAGE 23="happens."
+Cmd  87 |    29    21 |    8  17   1  23   2  24   0  17   0  24 |   49  60  59   0 | AS HULK
+             at  bees | IF FLAG(17)=TRUE
+                      | IF CARRY(23="Metal Hand Fan")
+                      | IF HERE(24="Killer Bees")
+                      | MESSAGE 49="I send a gale at it!"
+                      | SET FLAG(17)=FALSE
+                      | DESTROY 24="Killer Bees"
+Cmd  88 |    83    55 |    2  10  14  50   1   1   0  50   0   0 |   53   5  28  76 |
+           lift  dome | IF HERE(10="Large dome")
+                      | IF NOWHERE(50="*Gem")
+                      | IF CARRY(1="Rage")
+                      | DROP 50="*Gem"
+                      | MESSAGE 5="something"
+                      | MESSAGE 28="here."
+                      | LOOK
+Cmd  89 |    83    55 |    2   5  14  51   1   1   0  51   0   0 |    5  28  53  76 |
+           lift  dome | IF HERE(5="Large dome")
+                      | IF NOWHERE(51="*Gem")
+                      | IF CARRY(1="Rage")
+                      | MESSAGE 5="something"
+                      | MESSAGE 28="here."
+                      | DROP 51="*Gem"
+                      | LOOK
+Cmd  90 |    83    83 |    3  33   6   1   0   0   0   0   0   0 |    6  24   0   0 |
+           lift  ring | IF HERECARRY(33="Large iron ring set in floor")
+                      | IF NOT CARRY(1="Rage")
+                      | MESSAGE 6="Sorry,"
+                      | MESSAGE 24="won't budge!"
+Cmd  91 |    39   110 |    4  15   0   0   0   0   0   0   0   0 |    1   2 124   0 |
+           look  wall | IF ISROOM(15="small underground room")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 2="I see"
+                      | MESSAGE 74="wall has scratch marks on it."
+Cmd  92 |    17   110 |   14  40   4  15   0  40   1   1   0   0 |   53   2   5  23 |
+           scra  wall | IF NOWHERE(40="Crack in floor")
+                      | IF ISROOM(15="small underground room")
+                      | IF CARRY(1="Rage")
+                      | DROP 40="Crack in floor"
+                      | MESSAGE 2="I see"
+                      | MESSAGE 5="something"
+                      | MESSAGE 23="happens."
+Cmd  93 |    29    21 |    8  17   4   6   0  17   0  24   1  23 |    1  49  60  59 | BEES GONE
+             at  bees | IF FLAG(17)=TRUE
+                      | IF ISROOM(6="tunnel going out")
+                      | IF CARRY(23="Metal Hand Fan")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 49="I send a gale at it!"
+                      | SET FLAG(17)=FALSE
+                      | DESTROY 24="Killer Bees"
+Cmd  94 |   104    55 |    0   0   0   0   0   0   0   0   0   0 |    6   7 121   0 |
+           clim  dome | MESSAGE 6="Sorry,"
+                      | MESSAGE 7="I"
+                      | MESSAGE 71="slide down."
+Cmd  95 |    39    41 |    3  18   0   0   0   0   0   0   0   0 |    1   2 120   0 |
+           look   gem | IF HERECARRY(18="*Bio gem")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 2="I see"
+                      | MESSAGE 70="it's alive & moving around!"
+Cmd  96 |    29    21 |    5  24   0   0   0   0   0   0   0   0 |    2 116   0   0 |
+             at  bees | IF NOT HERE(24="Killer Bees")
+                      | MESSAGE 2="I see"
+                      | MESSAGE 66="none here!"
+Cmd  97 |    29    55 |    8  17   2  11   0  17   0  24   1  23 |    1  49  60  59 | BEES GONE
+             at  dome | IF FLAG(17)=TRUE
+                      | IF HERE(11="Large dome")
+                      | IF CARRY(23="Metal Hand Fan")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 49="I send a gale at it!"
+                      | SET FLAG(17)=FALSE
+                      | DESTROY 24="Killer Bees"
+Cmd  98 |    51    72 |    1   1   2  20   0   0   0   0   0   0 |    1  45  37   0 |
+            hit  ants | IF CARRY(1="Rage")
+                      | IF HERE(20="Alien army ants")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 45="more"
+                      | MESSAGE 37="swarm from holes"
+Cmd  99 |    51     0 |    4   1   0   0   0   0   0   0   0   0 |    7   8  22   0 | IN CHAIR
+            hit       | IF ISROOM(1="Bruce Banner, tied hand & f...")
+                      | MESSAGE 7="I"
+                      | MESSAGE 8="can't do that"
+                      | MESSAGE 22="now!"
+Cmd 100 |    48    11 |    0   0   0   0   0   0   0   0   0   0 |    1  71   0   0 |
+           save  game | MESSAGE 1="O.K."
+                      | SAVEGAME
+Cmd 101 |    39     9 |    3   2   9  15   0  82   6   1   0   0 |    1   2  12   0 | BANNER******
+           look  mirr | IF HERECARRY(2="Mirror")
+                      | IF FLAG(15)=FALSE
+                      | IF NOT CARRY(1="Rage")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 2="I see"
+                      | MESSAGE 12="Bruce Banner"
+Cmd 102 |    39     9 |    3   2   9  15   1   1   0   0   0   0 |    2  10  73  17 | HULK
+           look  mirr | IF HERECARRY(2="Mirror")
+                      | IF FLAG(15)=FALSE
+                      | IF CARRY(1="Rage")
+                      | MESSAGE 2="I see"
+                      | MESSAGE 10="The Incredible Hulk (Tm)"
+                      | CONTINUE_NEXT_LINE
+                      | MESSAGE 17="who is"
+Cmd 103 |     0     0 |   16   0   0   0   0   0   0   0   0   0 |   15   0   0   0 | VERY
+            continued | IF GE(COUNTER,0)
+                      | MESSAGE 15="very"
+Cmd 104 |     0     0 |   16   1   0   0   0   0   0   0   0   0 |   15   0   0   0 | VERY
+            continued | IF GE(COUNTER,1)
+                      | MESSAGE 15="very"
+Cmd 105 |     0     0 |   16   2   0   0   0   0   0   0   0   0 |   15   0   0   0 | VERY
+            continued | IF GE(COUNTER,2)
+                      | MESSAGE 15="very"
+Cmd 106 |     0     0 |    0  81   0   0   0   0   0   0   0   0 |   16   0   0   0 | MAD ******
+            continued | MESSAGE 16="mad."
+Cmd 107 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd 108 |    70    46 |    4   1   0   7   0   8   0   6   0   0 |   20  58  58  60 |
+           bite  tong | IF ISROOM(1="Bruce Banner, tied hand & f...")
+                      | MESSAGE 20="Ouch! I scream!"
+                      | SET FLAG(7)=TRUE
+                      | SET FLAG(8)=TRUE
+                      | SET FLAG(6)=FALSE
+Cmd 109 |    70    46 |    6   1   0   7   0   6   0   0   0   0 |   20  58  60   0 |
+           bite  tong | IF NOT CARRY(1="Rage")
+                      | MESSAGE 20="Ouch! I scream!"
+                      | SET FLAG(7)=TRUE
+                      | SET FLAG(6)=FALSE
+Cmd 110 |    29    35 |    8  17   2  11   0  17   0  24   1  23 |    1  49  60  59 | BEES GONE
+             at  mesh | IF FLAG(17)=TRUE
+                      | IF HERE(11="Large dome")
+                      | IF CARRY(23="Metal Hand Fan")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 49="I send a gale at it!"
+                      | SET FLAG(17)=FALSE
+                      | DESTROY 24="Killer Bees"
+Cmd 111 |    90    33 |    6  21   0  13   0  14   0   0   0   0 |    9  66  60  60 | NO WAX
+            use   wax | IF NOT CARRY(21="Wax")
+                      | MESSAGE 9="How?"
+                      | INVENTORY
+                      | SET FLAG(13)=FALSE
+                      | SET FLAG(14)=FALSE
+Cmd 112 |    76     0 |    4   1   0   7   0   8   0   0   0   0 |    7  26  58  58 |
+           rock       | IF ISROOM(1="Bruce Banner, tied hand & f...")
+                      | MESSAGE 7="I"
+                      | MESSAGE 26="fall & hit head!"
+                      | SET FLAG(7)=TRUE
+                      | SET FLAG(8)=TRUE
+Cmd 113 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd 114 |    51    12 |    6   1   0   7   0   6   0   0   0   0 |   20  58  60   0 |
+            hit    me | IF NOT CARRY(1="Rage")
+                      | MESSAGE 20="Ouch! I scream!"
+                      | SET FLAG(7)=TRUE
+                      | SET FLAG(6)=FALSE
+Cmd 115 |    70    12 |    7   1   6   1   0   7   0   6   0   0 |   20  58  60   0 |
+           bite    me | IF NOT ISROOM(1)
+                      | IF NOT CARRY(1="Rage")
+                      | MESSAGE 20="Ouch! I scream!"
+                      | SET FLAG(7)=TRUE
+                      | SET FLAG(6)=FALSE
+Cmd 116 |    70    12 |    4   1   0   0   0   0   0   0   0   0 |   41  42   0   0 |
+           bite    me | IF ISROOM(1="Bruce Banner, tied hand & f...")
+                      | MESSAGE 41="Say again but tell me"
+                      | MESSAGE 42="where?"
+Cmd 117 |    70    12 |    1   1   0   0   0   0   0   0   0   0 |    1   7  25   3 |
+           bite    me | IF CARRY(1="Rage")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 7="I"
+                      | MESSAGE 25="feel"
+                      | MESSAGE 3="Nothing"
+Cmd 118 |    51    12 |    1   1   0   0   0   0   0   0   0   0 |    1   7  25   3 |
+            hit    me | IF CARRY(1="Rage")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 7="I"
+                      | MESSAGE 25="feel"
+                      | MESSAGE 3="Nothing"
+Cmd 119 |    70    46 |    1   1   0   0   0   0   0   0   0   0 |    1   7  25   3 |
+           bite  tong | IF CARRY(1="Rage")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 7="I"
+                      | MESSAGE 25="feel"
+                      | MESSAGE 3="Nothing"
+Cmd 120 |    10    27 |    0   0   0   0   0   0   0   0   0   0 |    9   0   0   0 |
+            get   mad | MESSAGE 9="How?"
+Cmd 121 |    10     5 |    4   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            get    up | IF ISROOM(0="")
+Cmd 122 |    31     0 |    0   0   0   0   0   0   0   0   0   0 |    1  65  63   0 |
+           quit       | MESSAGE 1="O.K."
+                      | SCORE
+                      | QUIT
+Cmd 123 |    39    54 |    2   6   9  15   0   0   0   0   0   0 |    1   2  27   0 |
+           look  sign | IF HERE(6="Sign")
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 2="I see"
+                      | MESSAGE 27="Warning Hi Grav Ahead!"
+Cmd 124 |    39    54 |    2   7   9  15   0   0   0   0   0   0 |    1   2  27   0 |
+           look  sign | IF HERE(7="Sign")
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 2="I see"
+                      | MESSAGE 27="Warning Hi Grav Ahead!"
+Cmd 125 |    39    54 |    2   8   9  15   0   0   0   0   0   0 |    1   2  27   0 |
+           look  sign | IF HERE(8="Sign")
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 2="I see"
+                      | MESSAGE 27="Warning Hi Grav Ahead!"
+Cmd 126 |    82     0 |    4   4   0  13   0  89   0   0   0   0 |    1  53   0   0 | ********
+            dig       | IF ISROOM(4="field")
+                      | MESSAGE 1="O.K."
+                      | DROP 13="Large hole"
+Cmd 127 |    82     0 |    4   7   0  14   0  89   0   0   0   0 |    1  53   0   0 | ********
+            dig       | IF ISROOM(7="field")
+                      | MESSAGE 1="O.K."
+                      | DROP 14="Large hole"
+Cmd 128 |    82     0 |    4   8   0  15   0  89   0   0   0   0 |    1  53   0   0 | HOLES *******
+            dig       | IF ISROOM(8="field")
+                      | MESSAGE 1="O.K."
+                      | DROP 15="Large hole"
+Cmd 129 |     1    66 |    2  13   0   9   0   0   0   0   0   0 |    1  54  76   0 |
+             go  hole | IF HERE(13="Large hole")
+                      | MESSAGE 1="O.K."
+                      | GOTO 9="hole"
+                      | LOOK
+Cmd 130 |     1    66 |    2  14   0  10   0   0   0   0   0   0 |    1  54  76   0 |
+             go  hole | IF HERE(14="Large hole")
+                      | MESSAGE 1="O.K."
+                      | GOTO 10="hole"
+                      | LOOK
+Cmd 131 |     1    66 |    2  15   0  11   0   0   0   0   0   0 |    1  54  76   0 |
+             go  hole | IF HERE(15="Large hole")
+                      | MESSAGE 1="O.K."
+                      | GOTO 11="hole"
+                      | LOOK
+Cmd 132 |    82     0 |    4   9   0   1   0   1   0   1   0   0 |    1  81  82  81 |
+            dig       | IF ISROOM(9="hole")
+                      | MESSAGE 1="O.K."
+                      | SWAP COUNTER WITH COUNTER(1)
+                      | ADDTO COUNTER 1
+                      | SWAP COUNTER WITH COUNTER(1)
+Cmd 133 |    82     0 |    4  10   0   2   0   1   0   2   0   0 |    1  81  82  81 |
+            dig       | IF ISROOM(10="hole")
+                      | MESSAGE 1="O.K."
+                      | SWAP COUNTER WITH COUNTER(2)
+                      | ADDTO COUNTER 1
+                      | SWAP COUNTER WITH COUNTER(2)
+Cmd 134 |    82     0 |    4  11   0   3   0   1   0   3   0   0 |    1  81  82  81 |
+            dig       | IF ISROOM(11="hole")
+                      | MESSAGE 1="O.K."
+                      | SWAP COUNTER WITH COUNTER(3)
+                      | ADDTO COUNTER 1
+                      | SWAP COUNTER WITH COUNTER(3)
+Cmd 135 |    83    55 |    2  11  14  19   0  19   0  85   1   1 |   53   5  28   0 | *********
+           lift  dome | IF HERE(11="Large dome")
+                      | IF NOWHERE(19="*Gem")
+                      | IF CARRY(1="Rage")
+                      | DROP 19="*Gem"
+                      | MESSAGE 5="something"
+                      | MESSAGE 28="here."
+Cmd 136 |    10    61 |    0  10   0   0   0   0   0   0   0   0 |    1  58   0   0 |
+            get  nose | MESSAGE 1="O.K."
+                      | SET FLAG(10)=TRUE
+Cmd 137 |   125    62 |    0  11   0   0   0   0   0   0   0   0 |    1  58  56  76 |
+           clos  eyes | MESSAGE 1="O.K."
+                      | SET FLAG(11)=TRUE
+                      | SET DARK=TRUE
+                      | LOOK
+Cmd 138 |    99    62 |    0  11   0   0   0   0   0   0   0   0 |    1  60  57  76 |
+           open  eyes | MESSAGE 1="O.K."
+                      | SET FLAG(11)=FALSE
+                      | SET DARK=FALSE
+                      | LOOK
+Cmd 139 |    93    64 |    0  13   0   0   0   0   0   0   0   0 |   39  40  58  47 |
+           plug  ears | MESSAGE 39="With what?"
+                      | MESSAGE 40="Use 2 words like:"
+                      | SET FLAG(13)=TRUE
+                      | MESSAGE 47="USE GEM"
+Cmd 140 |    90    33 |    8  13   0  13   3  21   0  21   0  12 |    1  60  59  58 | EARS
+            use   wax | IF FLAG(13)=TRUE
+                      | IF HERECARRY(21="Wax")
+                      | MESSAGE 1="O.K."
+                      | SET FLAG(13)=FALSE
+                      | DESTROY 21="Wax"
+                      | SET FLAG(12)=TRUE
+Cmd 141 |    92    64 |    8  12   0  12   0  21   0   0   0   0 |    1  60  74   0 |
+           unpl  ears | IF FLAG(12)=TRUE
+                      | MESSAGE 1="O.K."
+                      | SET FLAG(12)=FALSE
+                      | TAKE_NOCHECK 21="Wax"
+Cmd 142 |    93    33 |    0   0   0   0   0   0   0   0   0   0 |   41  42   0   0 |
+           plug   wax | MESSAGE 41="Say again but tell me"
+                      | MESSAGE 42="where?"
+Cmd 143 |    90    37 |    0   0   0   0   0   0   0   0   0   0 |    6  43  44   0 |
+            use  fing | MESSAGE 6="Sorry,"
+                      | MESSAGE 43="Too big!"
+                      | MESSAGE 44="Doesn't work!"
+Cmd 144 |    93    61 |    0  14   0   0   0   0   0   0   0   0 |   39  40  58  47 |
+           plug  nose | MESSAGE 39="With what?"
+                      | MESSAGE 40="Use 2 words like:"
+                      | SET FLAG(14)=TRUE
+                      | MESSAGE 47="USE GEM"
+Cmd 145 |    90    33 |    8  14   0  14   3  21   0  21   0  10 |   73  60  59  58 | NOSE
+            use   wax | IF FLAG(14)=TRUE
+                      | IF HERECARRY(21="Wax")
+                      | CONTINUE_NEXT_LINE
+                      | SET FLAG(14)=FALSE
+                      | DESTROY 21="Wax"
+                      | SET FLAG(10)=TRUE
+Cmd 146 |     0     0 |    0  22   0   0   0   0   0   0   0   0 |   58   1   0   0 |
+            continued | SET FLAG(22)=TRUE
+                      | MESSAGE 1="O.K."
+Cmd 147 |    28    34 |    6   1   1  23   0   0   0   0   0   0 |  127   3   4  23 |
+           wave   fan | IF NOT CARRY(1="Rage")
+                      | IF CARRY(23="Metal Hand Fan")
+                      | MESSAGE 77="I make a tiny breeze."
+                      | MESSAGE 3="Nothing"
+                      | MESSAGE 4="special"
+                      | MESSAGE 23="happens."
+Cmd 148 |    28    34 |    1   1   1  23   0   0   0   0   0   0 |   46  73  40  48 |
+           wave   fan | IF CARRY(1="Rage")
+                      | IF CARRY(23="Metal Hand Fan")
+                      | MESSAGE 46="at what?"
+                      | CONTINUE_NEXT_LINE
+                      | MESSAGE 40="Use 2 words like:"
+                      | MESSAGE 48="AT TREE"
+Cmd 149 |     0     0 |    2  20   0  20   0   0   0   0   0   0 |   59   0   0   0 | REMOVE ANTS BRIEFLY
+            continued | IF HERE(20="Alien army ants")
+                      | DESTROY 20="Alien army ants"
+Cmd 150 |     0     0 |    0  17   0   0   0   0   0   0   0   0 |   58   0   0   0 |
+            continued | SET FLAG(17)=TRUE
+Cmd 151 |     1    55 |    2  10   0   5   0   3   0   4   0   0 |   54  60  60  76 |
+             go  dome | IF HERE(10="Large dome")
+                      | GOTO 5="tunnel going out"
+                      | SET FLAG(3)=FALSE
+                      | SET FLAG(4)=FALSE
+                      | LOOK
+Cmd 152 |     1    55 |    2   5   0   3   0   3   0   4   0   0 |   54  60  60  76 |
+             go  dome | IF HERE(5="Large dome")
+                      | GOTO 3="tunnel going outside"
+                      | SET FLAG(3)=FALSE
+                      | SET FLAG(4)=FALSE
+                      | LOOK
+Cmd 153 |     1    55 |    4   3   0   4   0   3   0   4   0   0 |   54  58  58  76 |
+             go  dome | IF ISROOM(3="tunnel going outside")
+                      | GOTO 4="field"
+                      | SET FLAG(3)=TRUE
+                      | SET FLAG(4)=TRUE
+                      | LOOK
+Cmd 154 |     1    55 |    4   5   0   7   0   3   0   4   0   0 |   54  58  58  76 |
+             go  dome | IF ISROOM(5="tunnel going out")
+                      | GOTO 7="field"
+                      | SET FLAG(3)=TRUE
+                      | SET FLAG(4)=TRUE
+                      | LOOK
+Cmd 155 |     1    55 |    4   6   0   8   0   3   0   4   0   0 |   54  58  58  76 | GO
+             go  dome | IF ISROOM(6="tunnel going out")
+                      | GOTO 8="field"
+                      | SET FLAG(3)=TRUE
+                      | SET FLAG(4)=TRUE
+                      | LOOK
+Cmd 156 |    70   108 |    3  17   0  17   1   1   0   0   0   0 |    1  59   0   0 |
+           bite   egg | IF HERECARRY(17="Natter energy egg")
+                      | IF CARRY(1="Rage")
+                      | MESSAGE 1="O.K."
+                      | DESTROY 17="Natter energy egg"
+Cmd 157 |    70   108 |    3  17   6   1   0  17   0  18   0   0 |   31  61  59  59 |
+           bite   egg | IF HERECARRY(17="Natter energy egg")
+                      | IF NOT CARRY(1="Rage")
+                      | MESSAGE 31="Egg explodes ..."
+                      | DEAD
+                      | DESTROY 17="Natter energy egg"
+                      | DESTROY 18="*Bio gem"
+Cmd 158 |    24     0 |    0   0   0   0   0   0   0   0   0   0 |    9 103   0   0 |
+           thin       | MESSAGE 9="How?"
+                      | MESSAGE 53="you're doing my thinking!"
+Cmd 159 |    39    35 |    2  25   0   0   0   0   0   0   0   0 |    1   2  50   0 |
+           look  mesh | IF HERE(25="Wire mesh in wall with bee...")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 2="I see"
+                      | MESSAGE 50="outside"
+Cmd 160 |    10    33 |    2  24   0   7   6   1   2  21   0   0 |    6  51  20  58 |
+            get   wax | IF HERE(24="Killer Bees")
+                      | IF NOT CARRY(1="Rage")
+                      | IF HERE(21="Wax")
+                      | MESSAGE 6="Sorry,"
+                      | MESSAGE 51="I'm stung!"
+                      | MESSAGE 20="Ouch! I scream!"
+                      | SET FLAG(7)=TRUE
+Cmd 161 |    10    33 |    3  21   0  21   0   0   0   0   0   0 |    1  74   0   0 |
+            get   wax | IF HERECARRY(21="Wax")
+                      | MESSAGE 1="O.K."
+                      | TAKE_NOCHECK 21="Wax"
+Cmd 162 |     1    35 |    0   0   0   0   0   0   0   0   0   0 |    6   9  18  43 |
+             go  mesh | MESSAGE 6="Sorry,"
+                      | MESSAGE 9="How?"
+                      | MESSAGE 18="I'm"
+                      | MESSAGE 43="Too big!"
+Cmd 163 |    39    26 |    4  14   0  27   9  15   5  27   5  28 |   53   2   5  76 |
+           look  base | IF ISROOM(14="dome")
+                      | IF FLAG(15)=FALSE
+                      | IF NOT HERE(27="Small gas outlet")
+                      | IF NOT HERE(28="Plugged gas outlet")
+                      | DROP 27="Small gas outlet"
+                      | MESSAGE 2="I see"
+                      | MESSAGE 5="something"
+                      | LOOK
+Cmd 164 |    93    66 |    2  27   0  18   0   0   0   0   0   0 |   39  40  47  58 |
+           plug  hole | IF HERE(27="Small gas outlet")
+                      | MESSAGE 39="With what?"
+                      | MESSAGE 40="Use 2 words like:"
+                      | MESSAGE 47="USE GEM"
+                      | SET FLAG(18)=TRUE
+Cmd 165 |    90    33 |    8  18   3  21   3  27   0  27   0  28 |    1  72  73   0 | GAS OUTLET
+            use   wax | IF FLAG(18)=TRUE
+                      | IF HERECARRY(21="Wax")
+                      | IF HERECARRY(27="Small gas outlet")
+                      | MESSAGE 1="O.K."
+                      | SWAP ITEMS 27="Small gas outlet" AND 28="Plugged gas outlet"
+                      | CONTINUE_NEXT_LINE
+Cmd 166 |     0     0 |    0  21   0  18   0   0   0   0   0   0 |   59  60   0   0 |
+            continued | DESTROY 21="Wax"
+                      | SET FLAG(18)=FALSE
+Cmd 167 |    92    66 |    2  28   0  27   0  28   0  21   0   0 |    1  72  74   0 |
+           unpl  hole | IF HERE(28="Plugged gas outlet")
+                      | MESSAGE 1="O.K."
+                      | SWAP ITEMS 27="Small gas outlet" AND 28="Plugged gas outlet"
+                      | TAKE_NOCHECK 21="Wax"
+Cmd 168 |    51   126 |    4  19   0  16   0   0   0   0   0   0 |  140  54  76   0 |
+            hit  chie | IF ISROOM(19="room with the Chief Examine...")
+                      | MESSAGE 90="Chief Examiner notices me &..."
+                      | GOTO 16="fuzzy area"
+                      | LOOK
+Cmd 169 |    29    72 |    8  17   2  20   0  17   0  20   1  23 |   49  45  60  59 |
+             at  ants | IF FLAG(17)=TRUE
+                      | IF HERE(20="Alien army ants")
+                      | IF CARRY(23="Metal Hand Fan")
+                      | MESSAGE 49="I send a gale at it!"
+                      | MESSAGE 45="more"
+                      | SET FLAG(17)=FALSE
+                      | DESTROY 20="Alien army ants"
+Cmd 170 |    10   124 |    3  18   0  18   0   0   0   0   0   0 |    1  74   0   0 |
+            get   bio | IF HERECARRY(18="*Bio gem")
+                      | MESSAGE 1="O.K."
+                      | TAKE_NOCHECK 18="*Bio gem"
+Cmd 171 |    18   124 |    3  18   0  18   0   0   0   0   0   0 |    1  53   0   0 |
+           drop   bio | IF HERECARRY(18="*Bio gem")
+                      | MESSAGE 1="O.K."
+                      | DROP 18="*Bio gem"
+Cmd 172 |    83    83 |    3  33   1   1   0  33   0  34   0   0 |    1  72  76  73 |
+           lift  ring | IF HERECARRY(33="Large iron ring set in floor")
+                      | IF CARRY(1="Rage")
+                      | MESSAGE 1="O.K."
+                      | SWAP ITEMS 33="Large iron ring set in floor" AND 34="Open hole in floor"
+                      | LOOK
+                      | CONTINUE_NEXT_LINE
+Cmd 173 |     0     0 |    0  39   0  15   0   0   0   0   0   0 |   62   0   0   0 |
+            continued | SEND 39="Hole in ceiling" TO 15="small underground room"
+Cmd 174 |     1    66 |    2  34   0  15   0   0   0   0   0   0 |    1  54  76   0 |
+             go  hole | IF HERE(34="Open hole in floor")
+                      | MESSAGE 1="O.K."
+                      | GOTO 15="small underground room"
+                      | LOOK
+Cmd 175 |    32    77 |    2  26   0  19   9  19   0   0   0   0 |    1 104  58 105 |
+            say    dr | IF HERE(26="Astral projection of Dr. St...")
+                      | IF FLAG(19)=FALSE
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 54="Strange says:"
+                      | SET FLAG(19)=TRUE
+                      | MESSAGE 55="`Remember your worst enemy..."
+Cmd 176 |    32    77 |    2  26   8  19   0  20   9  20   0   0 |  104 111  58   0 |
+            say    dr | IF HERE(26="Astral projection of Dr. St...")
+                      | IF FLAG(19)=TRUE
+                      | IF FLAG(20)=FALSE
+                      | MESSAGE 54="Strange says:"
+                      | MESSAGE 61="`Look for Scott's next Marv..."
+                      | SET FLAG(20)=TRUE
+Cmd 177 |    99   123 |    4  19   0  16   0   0   0   0   0   0 |  140  54  76   0 |
+           open  door | IF ISROOM(19="room with the Chief Examine...")
+                      | MESSAGE 90="Chief Examiner notices me &..."
+                      | GOTO 16="fuzzy area"
+                      | LOOK
+Cmd 178 |    32    77 |    2  26   8  20   0  21   0  26   0  35 |  106  58  59  53 |
+            say    dr | IF HERE(26="Astral projection of Dr. St...")
+                      | IF FLAG(20)=TRUE
+                      | MESSAGE 56="Arcane energies blaze and h..."
+                      | SET FLAG(21)=TRUE
+                      | DESTROY 26="Astral projection of Dr. St..."
+                      | DROP 35="*Gem"
+Cmd 179 |    68    88 |    2  36   9   5   0   5   0   0   0   0 |    1  58 108 109 |
+           push  butt | IF HERE(36="Button in wall")
+                      | IF FLAG(5)=FALSE
+                      | MESSAGE 1="O.K."
+                      | SET FLAG(5)=TRUE
+                      | MESSAGE 58="Voice says: `Delay"
+                      | MESSAGE 59="on`"
+Cmd 180 |    68    88 |    2  36   8   5   0   5   0   0   0   0 |    1  60 108 110 |
+           push  butt | IF HERE(36="Button in wall")
+                      | IF FLAG(5)=TRUE
+                      | MESSAGE 1="O.K."
+                      | SET FLAG(5)=FALSE
+                      | MESSAGE 58="Voice says: `Delay"
+                      | MESSAGE 60="off`"
+Cmd 181 |    51    21 |    2  24   6   1   0   7   0   0   0   0 |    6  51  20  58 |
+            hit  bees | IF HERE(24="Killer Bees")
+                      | IF NOT CARRY(1="Rage")
+                      | MESSAGE 6="Sorry,"
+                      | MESSAGE 51="I'm stung!"
+                      | MESSAGE 20="Ouch! I scream!"
+                      | SET FLAG(7)=TRUE
+Cmd 182 |    10    33 |    2  28   0  27   0  28   0  21   0   0 |    1  72  74   0 |
+            get   wax | IF HERE(28="Plugged gas outlet")
+                      | MESSAGE 1="O.K."
+                      | SWAP ITEMS 27="Small gas outlet" AND 28="Plugged gas outlet"
+                      | TAKE_NOCHECK 21="Wax"
+Cmd 183 |    75     0 |    0   0   0   0   0   0   0   0   0   0 |  112   0   0   0 |
+            fan       | MESSAGE 62="Wave it!"
+Cmd 184 |    39    66 |    2  25   0   0   0   0   0   0   0   0 |    1   2  50   0 |
+           look  hole | IF HERE(25="Wire mesh in wall with bee...")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 2="I see"
+                      | MESSAGE 50="outside"
+Cmd 185 |    10    33 |    8  12   0  12   0  21   0   0   0   0 |    1  60  74   0 |
+            get   wax | IF FLAG(12)=TRUE
+                      | MESSAGE 1="O.K."
+                      | SET FLAG(12)=FALSE
+                      | TAKE_NOCHECK 21="Wax"
+Cmd 186 |    99   121 |    2  47   0   0   0   0   0   0   0   0 |    6 136   0   0 |
+           open  cage | IF HERE(47="Small cage")
+                      | MESSAGE 6="Sorry,"
+                      | MESSAGE 86="ULTRON's pressor beams stop..."
+Cmd 187 |    39    54 |    2  38   0   0   0   0   0   0   0   0 |    1   2 113   0 |
+           look  sign | IF HERE(38="Sign")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 2="I see"
+                      | MESSAGE 63="leave gems here: SCORE."
+Cmd 188 |    39    66 |    2  27   0   0   0   0   0   0   0   0 |    1   2 114   0 |
+           look  hole | IF HERE(27="Small gas outlet")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 2="I see"
+                      | MESSAGE 64="it's just a hole."
+Cmd 189 |     1   121 |    2  47   0   0   0   0   0   0   0   0 |    6 136   0   0 |
+             go  cage | IF HERE(47="Small cage")
+                      | MESSAGE 6="Sorry,"
+                      | MESSAGE 86="ULTRON's pressor beams stop..."
+Cmd 190 |    39    34 |    3  23   0   0   0   0   0   0   0   0 |    1   2 115   0 |
+           look   fan | IF HERECARRY(23="Metal Hand Fan")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 2="I see"
+                      | MESSAGE 65="no moving parts."
+Cmd 191 |     1    66 |    2  39   0   2   0   0   0   0   0   0 |    1  54  76   0 |
+             go  hole | IF HERE(39="Hole in ceiling")
+                      | MESSAGE 1="O.K."
+                      | GOTO 2="dome"
+                      | LOOK
+Cmd 192 |    39    95 |    4  16   0   0   0   0   0   0   0   0 |    1   2 117   0 |
+           look  area | IF ISROOM(16="fuzzy area")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 2="I see"
+                      | MESSAGE 67="space is warped here!"
+Cmd 193 |    82     0 |    0   0   0   0   0   0   0   0   0   0 |    7   8  28   0 |
+            dig       | MESSAGE 7="I"
+                      | MESSAGE 8="can't do that"
+                      | MESSAGE 28="here."
+Cmd 194 |    51    77 |    2  26   0  26   0  21   0   0   0   0 |  104 118  59  58 |
+            hit    dr | IF HERE(26="Astral projection of Dr. St...")
+                      | MESSAGE 54="Strange says:"
+                      | MESSAGE 68="`That's not nice!`"
+                      | DESTROY 26="Astral projection of Dr. St..."
+                      | SET FLAG(21)=TRUE
+Cmd 195 |    39   108 |    2  17   0   0   0   0   0   0   0   0 |    1   2 145   0 |
+           look   egg | IF HERE(17="Natter energy egg")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 2="I see"
+                      | MESSAGE 95="it's size of a chicken egg..."
+Cmd 196 |    10    55 |    0   0   0   0   0   0   0   0   0   0 |    6 123   0   0 |
+            get  dome | MESSAGE 6="Sorry,"
+                      | MESSAGE 73="won't fit in my inventory."
+Cmd 197 |     1   115 |    2  40   0  12   0   0   0   0   0   0 |    1  54  76   0 |
+             go  crac | IF HERE(40="Crack in floor")
+                      | MESSAGE 1="O.K."
+                      | GOTO 12="cavern"
+                      | LOOK
+Cmd 198 |     1   115 |    2  41   0  15   0   0   0   0   0   0 |    1  54  76   0 |
+             go  crac | IF HERE(41="Crack in rock")
+                      | MESSAGE 1="O.K."
+                      | GOTO 15="small underground room"
+                      | LOOK
+Cmd 199 |    32   120 |    2  45   0   0   0   0   0   0   0   0 |  146   0   0   0 |
+            say  ultr | IF HERE(45="ULTRON")
+                      | MESSAGE 96="ULTRON says:`Stay back! You..."
+Cmd 200 |    17   110 |    6   1   0   0   0   0   0   0   0   0 |    6  44  18 125 |
+           scra  wall | IF NOT CARRY(1="Rage")
+                      | MESSAGE 6="Sorry,"
+                      | MESSAGE 44="Doesn't work!"
+                      | MESSAGE 18="I'm"
+                      | MESSAGE 75="too weak!"
+Cmd 201 |    39    54 |    2  43   0   0   0   0   0   0   0   0 |    1   2 126   0 |
+           look  sign | IF HERE(43="Sign")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 2="I see"
+                      | MESSAGE 76="`Bad move, please be more c..."
+Cmd 202 |    47     0 |    0   5   0   4   0   0   0   0   0   0 |   81  79  80  73 |
+           scor       | SWAP COUNTER WITH COUNTER(5)
+                      | SET COUNTER=4
+                      | GOTO LOCATION_SWAP
+                      | CONTINUE_NEXT_LINE
+Cmd 203 |     0     0 |    2   4   2  12   2  16   2  18   2  19 |   77   0   0   0 | .
+            continued | IF HERE(4="*Gem")
+                      | IF HERE(12="*Gem")
+                      | IF HERE(16="*Gem")
+                      | IF HERE(18="*Bio gem")
+                      | IF HERE(19="*Gem")
+                      | DECREMENT_COUNTER
+Cmd 204 |     0     0 |   19   3   2  29   2  30   2  31   2  32 |   77   0   0   0 |
+            continued | IF EQ(COUNTER,3)
+                      | IF HERE(29="*Gem")
+                      | IF HERE(30="*Gem")
+                      | IF HERE(31="*Gem")
+                      | IF HERE(32="*Gem")
+                      | DECREMENT_COUNTER
+Cmd 205 |     0     0 |   19   2   2  37   2  35   2  42   2  44 |   77   0   0   0 |
+            continued | IF EQ(COUNTER,2)
+                      | IF HERE(37="*Gem")
+                      | IF HERE(35="*Gem")
+                      | IF HERE(42="*Gem")
+                      | IF HERE(44="*Gem")
+                      | DECREMENT_COUNTER
+Cmd 206 |     0     0 |   19   1   2  46   2  48   2  50   2  51 |   77   0   0   0 |
+            continued | IF EQ(COUNTER,1)
+                      | IF HERE(46="*Gem")
+                      | IF HERE(48="*Gem")
+                      | IF HERE(50="*Gem")
+                      | IF HERE(51="*Gem")
+                      | DECREMENT_COUNTER
+Cmd 207 |     0     0 |   19   0   0  87   0   0   0   0   0   0 |  134  88  88   0 | WON?*********
+            continued | IF EQ(COUNTER,0)
+                      | MESSAGE 84="Chief Examiner appears & says:"
+                      | SLEEP 2 SECONDS
+                      | SLEEP 2 SECONDS
+Cmd 208 |     0     0 |    0   5   0   0   0   0   0   0   0   0 |   81  80  76  65 |
+            continued | SWAP COUNTER WITH COUNTER(5)
+                      | GOTO LOCATION_SWAP
+                      | LOOK
+                      | SCORE
+Cmd 209 |    39   121 |    2  47   0   0   0   0   0   0   0   0 |    1   2 135   0 |
+           look  cage | IF HERE(47="Small cage")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 2="I see"
+                      | MESSAGE 85="Ant-Man in it!"
+Cmd 210 |    10   121 |    2  47   0   0   0   0   0   0   0   0 |    6 136   0   0 |
+            get  cage | IF HERE(47="Small cage")
+                      | MESSAGE 6="Sorry,"
+                      | MESSAGE 86="ULTRON's pressor beams stop..."
+Cmd 211 |    10   120 |    2  45   0   0   0   0   0   0   0   0 |    6 136   0   0 |
+            get  ultr | IF HERE(45="ULTRON")
+                      | MESSAGE 6="Sorry,"
+                      | MESSAGE 86="ULTRON's pressor beams stop..."
+Cmd 212 |    32    72 |    2  47   0   0   0   0   0   0   0   0 |  138   0   0   0 |
+            say  ants | IF HERE(47="Small cage")
+                      | MESSAGE 88="Ant-Man says: `Help me! Bri..."
+Cmd 213 |   127    83 |    2  33   6   1   0   0   0   0   0   0 |    6  24   0   0 |
+           turn  ring | IF HERE(33="Large iron ring set in floor")
+                      | IF NOT CARRY(1="Rage")
+                      | MESSAGE 6="Sorry,"
+                      | MESSAGE 24="won't budge!"
+Cmd 214 |   127    83 |    2  33   1   1   0  33   0   0   0   0 |   59   6  30  14 |
+           turn  ring | IF HERE(33="Large iron ring set in floor")
+                      | IF CARRY(1="Rage")
+                      | DESTROY 33="Large iron ring set in floor"
+                      | MESSAGE 6="Sorry,"
+                      | MESSAGE 30="it's"
+                      | MESSAGE 14="crushed!"
+Cmd 215 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd 216 |    80     5 |    0   0   0   0   0   0   0   0   0   0 |    1   3   4  23 |
+           jump    up | MESSAGE 1="O.K."
+                      | MESSAGE 3="Nothing"
+                      | MESSAGE 4="special"
+                      | MESSAGE 23="happens."
+Cmd 217 |    39    10 |    4  19   0   0   0   0   0   0   0   0 |    2 143   0   0 |
+           look  prog | IF ISROOM(19="room with the Chief Examine...")
+                      | MESSAGE 2="I see"
+                      | MESSAGE 93="it's the next Scott Adams M..."
+Cmd 218 |    90    41 |    0  13   0  14   0   0   0   0   0   0 |    6  43  60  60 |
+            use   gem | MESSAGE 6="Sorry,"
+                      | MESSAGE 43="Too big!"
+                      | SET FLAG(13)=FALSE
+                      | SET FLAG(14)=FALSE
+Cmd 219 |    49     0 |    0   0   0   0   0   0   0   0   0   0 |    6   7   8 141 |
+           help       | MESSAGE 6="Sorry,"
+                      | MESSAGE 7="I"
+                      | MESSAGE 8="can't do that"
+                      | MESSAGE 91=""
+Cmd 220 |     1   123 |    4  19   0  16   0   0   0   0   0   0 |  140  54  76   0 |
+             go  door | IF ISROOM(19="room with the Chief Examine...")
+                      | MESSAGE 90="Chief Examiner notices me &..."
+                      | GOTO 16="fuzzy area"
+                      | LOOK
+Cmd 221 |    10     8 |    9  15   7   1   0   0   0   0   0   0 |    1  66   0   0 |
+            get  inve | IF FLAG(15)=FALSE
+                      | IF NOT ISROOM(1)
+                      | MESSAGE 1="O.K."
+                      | INVENTORY
+Cmd 222 |    50     0 |    9  15   7   1   0   0   0   0   0   0 |    1  66   0   0 |
+           inve       | IF FLAG(15)=FALSE
+                      | IF NOT ISROOM(1)
+                      | MESSAGE 1="O.K."
+                      | INVENTORY
+Cmd 223 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd 224 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd 225 |    90     0 |    0   0   0   0   0   0   0   0   0   0 |    6   9   0   0 |
+            use       | MESSAGE 6="Sorry,"
+                      | MESSAGE 9="How?"
+Cmd 226 |    25     0 |    0   0   0   0   0   0   0   0   0   0 |    6   9   0   0 |
+           find       | MESSAGE 6="Sorry,"
+                      | MESSAGE 9="How?"
+Cmd 227 |    29     0 |    8  17   0  17   1   1   0   0   0   0 |   49   3  23  60 |
+             at       | IF FLAG(17)=TRUE
+                      | IF CARRY(1="Rage")
+                      | MESSAGE 49="I send a gale at it!"
+                      | MESSAGE 3="Nothing"
+                      | MESSAGE 23="happens."
+                      | SET FLAG(17)=FALSE
+Cmd 228 |    29     0 |    8  17   0  17   0   0   0   0   0   0 |    3   4  23  60 |
+             at       | IF FLAG(17)=TRUE
+                      | MESSAGE 3="Nothing"
+                      | MESSAGE 4="special"
+                      | MESSAGE 23="happens."
+                      | SET FLAG(17)=FALSE
+Cmd 229 |   105     0 |    0   0   0   0   0   0   0   0   0   0 |    3   4  23   0 |
+           wigg       | MESSAGE 3="Nothing"
+                      | MESSAGE 4="special"
+                      | MESSAGE 23="happens."
+Cmd 230 |    70     0 |    0   0   0   0   0   0   0   0   0   0 |    6   7   8  28 |
+           bite       | MESSAGE 6="Sorry,"
+                      | MESSAGE 7="I"
+                      | MESSAGE 8="can't do that"
+                      | MESSAGE 28="here."
+Cmd 231 |   121     0 |    4   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+           unti       | IF ISROOM(0="")
+Cmd 232 |   118     0 |    0   0   0   0   0   0   0   0   0   0 |    9   0   0   0 |
+           beco       | MESSAGE 9="How?"
+Cmd 233 |   100     0 |    0   0   0   0   0   0   0   0   0   0 |    9   0   0   0 |
+           kill       | MESSAGE 9="How?"
+Cmd 234 |    29     0 |    0   0   0   0   0   0   0   0   0   0 |    6  41  39   0 |
+             at       | MESSAGE 6="Sorry,"
+                      | MESSAGE 41="Say again but tell me"
+                      | MESSAGE 39="With what?"
+Cmd 235 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd 236 |    51     0 |    1   1   0   0   0   0   0   0   0   0 |    6  10 107   0 |
+            hit       | IF CARRY(1="Rage")
+                      | MESSAGE 6="Sorry,"
+                      | MESSAGE 10="The Incredible Hulk (Tm)"
+                      | MESSAGE 57="is no vandal!"
+Cmd 237 |    51     0 |    6   1   0   0   0   0   0   0   0   0 |    6   3   4  23 |
+            hit       | IF NOT CARRY(1="Rage")
+                      | MESSAGE 6="Sorry,"
+                      | MESSAGE 3="Nothing"
+                      | MESSAGE 4="special"
+                      | MESSAGE 23="happens."
+Cmd 238 |   102     0 |    0   0   0   0   0   0   0   0   0   0 |    3   4  23   0 |
+           reme       | MESSAGE 3="Nothing"
+                      | MESSAGE 4="special"
+                      | MESSAGE 23="happens."
+Cmd 239 |    87     0 |    1   1   0   1   0   0   0   0   0   0 |   59  18  12  22 |
+           slee       | IF CARRY(1="Rage")
+                      | DESTROY 1="Rage"
+                      | MESSAGE 18="I'm"
+                      | MESSAGE 12="Bruce Banner"
+                      | MESSAGE 22="now!"
+Cmd 240 |    87     0 |    6   1   0   0   0   0   0   0   0   0 |    3   4  23   0 |
+           slee       | IF NOT CARRY(1="Rage")
+                      | MESSAGE 3="Nothing"
+                      | MESSAGE 4="special"
+                      | MESSAGE 23="happens."
+Cmd 241 |    18    27 |    1   1   0   1   0   0   0   0   0   0 |   59  18  12  22 |
+           drop   mad | IF CARRY(1="Rage")
+                      | DESTROY 1="Rage"
+                      | MESSAGE 18="I'm"
+                      | MESSAGE 12="Bruce Banner"
+                      | MESSAGE 22="now!"
+Cmd 242 |    17   110 |    1   1   0   0   0   0   0   0   0   0 |    3   4  23   0 |
+           scra  wall | IF CARRY(1="Rage")
+                      | MESSAGE 3="Nothing"
+                      | MESSAGE 4="special"
+                      | MESSAGE 23="happens."
+Cmd 243 |     1    55 |    2  11   0   6   0   3   0   4   0   0 |   54  60  60  76 |
+             go  dome | IF HERE(11="Large dome")
+                      | GOTO 6="tunnel going out"
+                      | SET FLAG(3)=FALSE
+                      | SET FLAG(4)=FALSE
+                      | LOOK
+Cmd 244 |    10    33 |    8  22   0  22   0  10   0  21   0   0 |    1  60  60  74 |
+            get   wax | IF FLAG(22)=TRUE
+                      | MESSAGE 1="O.K."
+                      | SET FLAG(22)=FALSE
+                      | SET FLAG(10)=FALSE
+                      | TAKE_NOCHECK 21="Wax"
+Cmd 245 |    92    61 |    8  22   0  22   0  10   0  21   0   0 |    1  60  60  74 |
+           unpl  nose | IF FLAG(22)=TRUE
+                      | MESSAGE 1="O.K."
+                      | SET FLAG(22)=FALSE
+                      | SET FLAG(10)=FALSE
+                      | TAKE_NOCHECK 21="Wax"
+Cmd 246 |     7    61 |    9  22   8  10   0  10   0   0   0   0 |    1  60   0   0 |
+           free  nose | IF FLAG(22)=FALSE
+                      | IF FLAG(10)=TRUE
+                      | MESSAGE 1="O.K."
+                      | SET FLAG(10)=FALSE
+Cmd 247 |   127     0 |    0   0   0   0   0   0   0   0   0   0 |    6   3   4  23 |
+           turn       | MESSAGE 6="Sorry,"
+                      | MESSAGE 3="Nothing"
+                      | MESSAGE 4="special"
+                      | MESSAGE 23="happens."
+Cmd 248 |    22     0 |    0   0   0   0   0   0   0   0   0   0 |    6   7   8  22 |
+           make       | MESSAGE 6="Sorry,"
+                      | MESSAGE 7="I"
+                      | MESSAGE 8="can't do that"
+                      | MESSAGE 22="now!"
+Cmd 249 |    83   121 |    2  47   0   0   0   0   0   0   0   0 |    6 136   0   0 |
+           lift  cage | IF HERE(47="Small cage")
+                      | MESSAGE 6="Sorry,"
+                      | MESSAGE 86="ULTRON's pressor beams stop..."
+Cmd 250 |    76   121 |    2  47   0   0   0   0   0   0   0   0 |    6 136   0   0 |
+           rock  cage | IF HERE(47="Small cage")
+                      | MESSAGE 6="Sorry,"
+                      | MESSAGE 86="ULTRON's pressor beams stop..."
+Cmd 251 |   125    46 |    0   0   0   0   0   0   0   0   0   0 |    1   0   0   0 |
+           clos  tong | MESSAGE 1="O.K."
+Cmd 252 |   117     0 |    0   0   0   0   0   0   0   0   0   0 |    9   0   0   0 |
+           stop       | MESSAGE 9="How?"
+Cmd 253 |    32     0 |    4  19   0  16   0   0   0   0   0   0 |  140  54  76   0 |
+            say       | IF ISROOM(19="room with the Chief Examine...")
+                      | MESSAGE 90="Chief Examiner notices me &..."
+                      | GOTO 16="fuzzy area"
+                      | LOOK
+Cmd 254 |    39   126 |    4  19   0  49   0   0   0   0   0   0 |  142  53  76   0 |
+           look  chie | IF ISROOM(19="room with the Chief Examine...")
+                      | MESSAGE 92="He's writing a computer pro..."
+                      | DROP 49="Program"
+                      | LOOK
+Cmd 255 |    68   120 |    2  45   0   0   0   0   0   0   0   0 |  136   0   0   0 |
+           push  ultr | IF HERE(45="ULTRON")
+                      | MESSAGE 86="ULTRON's pressor beams stop..."
+Cmd 256 |    17     0 |    0   0   0   0   0   0   0   0   0   0 |    3   4  23   0 |
+           scra       | MESSAGE 3="Nothing"
+                      | MESSAGE 4="special"
+                      | MESSAGE 23="happens."
+Cmd 257 |    10    10 |    4  19   0  16   0   0   0   0   0   0 |  140  54  76   0 |
+            get  prog | IF ISROOM(19="room with the Chief Examine...")
+                      | MESSAGE 90="Chief Examiner notices me &..."
+                      | GOTO 16="fuzzy area"
+                      | LOOK
+Cmd 258 |   125     0 |    0   0   0   0   0   0   0   0   0   0 |    9   0   0   0 |
+           clos       | MESSAGE 9="How?"
+Cmd 259 |    83     0 |    0   0   0   0   0   0   0   0   0   0 |    3   4  23   0 |
+           lift       | MESSAGE 3="Nothing"
+                      | MESSAGE 4="special"
+                      | MESSAGE 23="happens."
+Cmd 260 |    39     0 |    9  15   0   0   0   0   0   0   0   0 |    2   3   4  76 |
+           look       | IF FLAG(15)=FALSE
+                      | MESSAGE 2="I see"
+                      | MESSAGE 3="Nothing"
+                      | MESSAGE 4="special"
+                      | LOOK
+Cmd 261 |    32     0 |    0   6   0   0   0   0   0   0   0   0 |   60   1  85   0 |
+            say       | SET FLAG(6)=FALSE
+                      | MESSAGE 1="O.K."
+                      | WRITELINE NOUN
+
+// END OF FILE

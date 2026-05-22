@@ -1,0 +1,1347 @@
+Unknown        = 0
+ItemCount      = 65
+CommandCount   = 189
+VerbNounCount  = 89
+RoomCount      = 25
+MaxInventory   = 9
+StartRoom      = 1
+TreasureCount  = 0
+WordLength     = 3
+LightMoves     = 15000
+MessageCount   = 99
+TreasureRoom   = 0
+
+Cmd   0:     25    202      0      0      0      0   1950      0
+Cmd   1:    100    184    202    292    200    380   1272      0
+Cmd   2:    100    187    393    200    380      0  10800      0
+Cmd   3:      0      0      0      0      0      0      0      0
+Cmd   4:      0      0      0      0      0      0      0      0
+Cmd   5:     45    384    294      0      0      0   4200      0
+Cmd   6:     30    723    146    500      0      0   8164   2173
+Cmd   7:      0      0      0      0      0      0   3631      0
+Cmd   8:     30    723    141      0      0      0   2100      0
+Cmd   9:      0      0      0      0      0      0      0      0
+Cmd  10:    100    304    308      0      0      0   8626      0
+Cmd  11:     50    421    220    204      0      0   6054      0
+Cmd  12:    100     64    308      0      0      0   8626      0
+Cmd  13:      0      0      0      0      0      0      0      0
+Cmd  14:    100    364    713      0      0      0  15600      0
+Cmd  15:     35    284    713      0      0      0  15600      0
+Cmd  16:     35    304    713      0      0      0  15600      0
+Cmd  17:    100    504      0      0      0      0   6963      0
+Cmd  18:    100    149    140      0      0      0  18808      0
+Cmd  19:      7    861      0      0      0      0  19481      0
+Cmd  20:     35    583      0      0      0      0  21150      0
+Cmd  21:      0      0      0      0      0      0      0      0
+Cmd  22:      0      0      0      0      0      0      0      0
+Cmd  23:   1552    702      0      0      0      0  16650      0
+Cmd  24:   1520   1183   1180      0      0      0   3052      0
+Cmd  25:   3644    164    634    523    620   1220   4888  13272
+Cmd  26:   5767    286      0      0      0      0    750      0
+Cmd  27:    217   1122    285    420      0      0  10622   8164
+Cmd  28:   6325     43      0      0      0      0   2700      0
+Cmd  29:   1510      0      0      0      0      0   9900      0
+Cmd  30:   4815    382      0      0      0      0   2250      0
+Cmd  31:   4361    102    125    120      0      0   7970      0
+Cmd  32:   1522    362      0      0      0      0   2852      0
+Cmd  33:   1516    282    280      0      0      0   7800      0
+Cmd  34:   6320    302    294      0      0      0   1824   4650
+Cmd  35:   1516    294    384    280      0      0   7820      0
+Cmd  36:   6320    302    293      0      0      0   3631      0
+Cmd  37:    193    162    400      0      0      0  10554   9600
+Cmd  38:   6328    742      0      0      0      0   3150      0
+Cmd  39:   6328    682    940    954      0      0   8067      0
+Cmd  40:   5735    242    240    260    220      0  10820   7950
+Cmd  41:   5885    262    240    260    220      0  10820   8850
+Cmd  42:    162    122    320      0      0      0   8156  10564
+Cmd  43:    185    304    262    280      0      0   8454  10564
+Cmd  44:   6387   1203      0      0      0      0   2700      0
+Cmd  45:   6322    124    362     80      0      0   1554  11403
+Cmd  46:      0      0      0      0      0      0      0      0
+Cmd  47:    184    402    300      0      0      0   8176      0
+Cmd  48:   5717    264      0      0      0      0   3000      0
+Cmd  49:   3632    482    501    560    480      0  10822      0
+Cmd  50:    168    562    160      0      0      0   3054  11400
+Cmd  51:   1532    542    514    500      0      0   7820      0
+Cmd  52:   7229    323      0      0      0      0   4888  18063
+Cmd  53:   5708    342    340    540      0      0  10820      0
+Cmd  54:   5858    542    340    540      0      0  10820      0
+Cmd  55:   1530   1142      0      0      0      0    786      0
+Cmd  56:   4822    124      0      0      0      0   9178   4713
+Cmd  57:   5717    482      0      0      0      0    861      0
+Cmd  58:   1544    523    593    520      0      0   7820      0
+Cmd  59:   5275     43     83    308      0      0   4500      0
+Cmd  60:    168    562    160      0      0      0   8176      0
+Cmd  61:    168    602      0      0      0      0   4050      0
+Cmd  62:   6344    523   1054   1093      0      0  20100      0
+Cmd  63:   6758      0     24      0      0      0  10970    988
+Cmd  64:      0    654    183      1     60      0   8732   8514
+Cmd  65:   6342    803      0      0      0      0  17850      0
+Cmd  66:   1540      9    663     60    740     62   7853   3067
+Cmd  67:   5728    104    682      0      0      0   3000      0
+Cmd  68:   6328    104    682    953      0      0   3140      0
+Cmd  69:   1540      8     63     60      0      0   7820      0
+Cmd  70:   6037     29    742     20      0      0   8720      0
+Cmd  71:   6039     28    742    680    740      0  10820      0
+Cmd  72:   6344    523   1094   1054    593      0  20235      0
+Cmd  73:   5313   1043      0      0      0      0  16950      0
+Cmd  74:   9623    474    124    460      0      0   3085   8096
+Cmd  75:    174    262    280      0      0      0   8156  11400
+Cmd  76:   5269    763      0      0      0      0   2550      0
+Cmd  77:   7242    803    820    440    760      0   4873  10859
+Cmd  78:      0    800      0      0      0      0   8938  13235
+Cmd  79:   9665   1063   1060    580      0      0   8903  11035
+Cmd  80:      0      0      0      0      0      0  17841      0
+Cmd  81:   5149      0      0      0      0      0  10650      0
+Cmd  82:   1511    102      0      0      0      0    786      0
+Cmd  83:    167    442      0      0      0      0    787  22050
+Cmd  84:   6600      0      0      0      0      0   9900      0
+Cmd  85:   1540      9     63      0      0      0  16762      0
+Cmd  86:   2747    641      0      0      0      0   5850      0
+Cmd  87:   3503    643    640    542      0      0   3032   8850
+Cmd  88:   1545    882      0      0      0      0    861      0
+Cmd  89:   4102    364    702    700   1020      0   6205  11100
+Cmd  90:   5301   1023      0      0      0      0  16200      0
+Cmd  91:   6355    883      0      0      0      0   7050      0
+Cmd  92:   6308    542      0      0      0      0   3601  10975
+Cmd  93:      0    654      0      0      0      0   6450      0
+Cmd  94:      0    514      0      0      0      0   3900      0
+Cmd  95:   9664     24    183    283    128    883  10982  13229
+Cmd  96:      0   1300      0      0      0      0   8026   5163
+Cmd  97:   1575    843    840      0      0      0   3052      0
+Cmd  98:    216   1122      0      0      0      0   3000      0
+Cmd  99:   6342    763      0      0      0      0   2550      0
+Cmd 100:   6366    323      0      0      0      0  18150      0
+Cmd 101:   1547    654    542    640      0      0   7820      0
+Cmd 102:   1547    643    640      0      0      0   7820      0
+Cmd 103:    165    202    440      0      0      0   8120  11400
+Cmd 104:   3759    863    180    860      0      0   6372  11400
+Cmd 105:   4361    122    120    122      0      0   8850      0
+Cmd 106:   6311    102     64    134      0      0   3051   7500
+Cmd 107:   5867      0      0      0      0      0  16650      0
+Cmd 108:   7202    102    900      0      0      0   3055      0
+Cmd 109:   3661    883      0      0      0      0  10970    988
+Cmd 110:      0    183     24     68    120      0  13232  17458
+Cmd 111:   7520    962    981    960      0      0  15470  11005
+Cmd 112:      0   1000   1180      0      0      0   8055  11100
+Cmd 113:   4109   1002    360      0      0      0  15954  11400
+Cmd 114:   7050      0      0      0      0      0   9450      0
+Cmd 115:    227    622    460      0      0      0   3054  11400
+Cmd 116:   6343   1063      0      0      0      0  16350      0
+Cmd 117:   8400    583      0      0      0      0   4950      0
+Cmd 118:   1557    943    940      0      0      0   7820      0
+Cmd 119:   1557    682    109    940    100      0   7820   8700
+Cmd 120:   5339   1283      0      0      0      0  18600      0
+Cmd 121:   3600      0      0      0      0      0   3006      0
+Cmd 122:   8100      0      0      0      0      0  18900      0
+Cmd 123:   5275     43     92      0      0      0    754      0
+Cmd 124:   5744    593    523      0      0      0   3000      0
+Cmd 125:   6367    224      0      0      0      0   1500      0
+Cmd 126:   4380   1143      0      0      0      0   3000      0
+Cmd 127:   1544    522      0      0      0      0  19050      0
+Cmd 128:   5275     43     83      0      0      0    761      0
+Cmd 129:    220    184     22      0      0      0   7350      0
+Cmd 130:   8400    304    713      0      0      0  15732      0
+Cmd 131:   8400    713    284      0      0      0  15733      0
+Cmd 132:    158    542      0      0      0      0  19200      0
+Cmd 133:   1502    102      0      0      0      0  19500      0
+Cmd 134:    162   1242    120    460      0      0   8176   5759
+Cmd 135:   6332    503      0      0      0      0   2700      0
+Cmd 136:  10359    863      3      0      0      0  19481      0
+Cmd 137:  10350      3      0      0      0      0   3006  22350
+Cmd 138:   6344   1053   1094    593    523      0  20250      0
+Cmd 139:   1563    523    593   1040   1054      0   7820      0
+Cmd 140:   1563   1043   1040      0      0      0   7820      0
+Cmd 141:   1561    523   1094   1080    593      0   7820      0
+Cmd 142:   1561   1083   1080      0      0      0   7820      0
+Cmd 143:    167    822    380      0      0      0   8176      0
+Cmd 144:   9013      4      0      0      0      0      0      0
+Cmd 145:   6309    863      0      0      0      0  20410      0
+Cmd 146:   6309    183      0      0      0      0  20550      0
+Cmd 147:   3320    783      0      0      0      0   2988      0
+Cmd 148:   7500    981   1162    220      0      0  18504   9600
+Cmd 149:   8481    184      0      0      0      0   7350      0
+Cmd 150:   5715      4      0      0      0      0      0      0
+Cmd 151:   9300    562    160      0      0      0   8176      0
+Cmd 152:   8400    702      0      0      0      0   6750      0
+Cmd 153:   2250    204      0      0      0      0  20850      0
+Cmd 154:   9450      0      0      0      0      0   3006      0
+Cmd 155:   9600      0      0      0      0      0   3085    900
+Cmd 156:   1575    922    941    920    900    840  15372  11100
+Cmd 157:   3524    641    640      0      0      0   7970      0
+Cmd 158:   1556    903    900    169    960    160   7853   8700
+Cmd 159:   1556    903    900      0      0      0   7820      0
+Cmd 160:   1529      0      0      0      0      0  19500      0
+Cmd 161:   2250    962      0      0      0      0  21450      0
+Cmd 162:   7692    763    800    760      0      0  10820      0
+Cmd 163:   2302    702      0      0      0      0  18900      0
+Cmd 164:  10809    863      0      0      0      0  19481      0
+Cmd 165:   6300      0      0      0      0      0  11410      0
+Cmd 166:  10350      6      0      0      0      0    894      0
+Cmd 167:   8400      0      0      0      0      0  16500      0
+Cmd 168:   1532    502    500      0      0      0   7820      0
+Cmd 169:  11016      0      0      0      0      0  17250      0
+Cmd 170:   4833    723    146    500      0      0   8164   2173
+Cmd 171:   7500    981      0      0      0      0   3006      0
+Cmd 172:   5337   1203      0      0      0      0   3009      0
+Cmd 173:   3300    783      0      0      0      0   3006      0
+Cmd 174:    227   1222      0      0      0      0    787  22050
+Cmd 175:   2250      0      0      0      0      0    900      0
+Cmd 176:   5728    742      0      0      0      0   3150      0
+Cmd 177:   4843   1063   1060   1260      0      0   3072      0
+Cmd 178:   6083    742     20      0      0      0   9020      0
+Cmd 179:   6084    742     20      0      0      0   9020      0
+Cmd 180:   6085    742     20      0      0      0   9020      0
+Cmd 181:   6086    742     20      0      0      0   9020      0
+Cmd 182:   5282    503      0      0      0      0  21750      0
+Cmd 183:   5715    382      0      0      0      0  16650      0
+Cmd 184:  10832    503      0      0      0      0   2700      0
+Cmd 185:  10800      0      0      0      0      0   3006      0
+Cmd 186:   6069    742      0      0      0      0  22200      0
+Cmd 187:   6039    742     20      0      0      0   9020      0
+Cmd 188:   6037    742     20      0      0      0   9020      0
+Cmd 189:  11305    883      0      0      0      0   3450      0
+
+Verb  0: AUT    Noun  0: ANY
+Verb  1: GO     Noun  1: NOR
+Verb  2: *ENT   Noun  2: SOU
+Verb  3: *WAL   Noun  3: EAS
+Verb  4: *CLI   Noun  4: WES
+Verb  5: *RUN   Noun  5: UP
+Verb  6: .      Noun  6: DOW
+Verb  7:        Noun  7: KNI
+Verb  8:        Noun  8: COF
+Verb  9:        Noun  9: IDO
+Verb 10: GET    Noun 10: INV
+Verb 11: *TAK   Noun 11: KET
+Verb 12: *PIC   Noun 12: HOL
+Verb 13: *REM   Noun 13: SWO
+Verb 14: *PUL   Noun 14: PAT
+Verb 15: HEL    Noun 15: WIN
+Verb 16: *RES   Noun 16: CLO
+Verb 17: .      Noun 17: DOO
+Verb 18: DRO    Noun 18: CHU
+Verb 19: *PUT   Noun 19: LAB
+Verb 20: *LEA   Noun 20: GRA
+Verb 21: *THR   Noun 21: WAL
+Verb 22: DIG    Noun 22: BAL
+Verb 23: ON     Noun 23: MED
+Verb 24: WAV    Noun 24: CHI
+Verb 25: DUS    Noun 25: WRI
+Verb 26: *CLE   Noun 26: *PLA
+Verb 27: PRE    Noun 27: SHI
+Verb 28: *PUS   Noun 28: SAF
+Verb 29: MOV    Noun 29: BRE
+Verb 30: *SHO   Noun 30: ARM
+Verb 31: *KIC   Noun 31: GLA
+Verb 32: BRE    Noun 32: RIN
+Verb 33: *SMA   Noun 33: TUB
+Verb 34: SAV    Noun 34: FIR
+Verb 35: REA    Noun 35: FLU
+Verb 36: .      Noun 36: *CHI
+Verb 37:        Noun 37: 38
+Verb 38: OPE    Noun 38: SOO
+Verb 39: CLO    Noun 39: 33
+Verb 40: TUR    Noun 40: HEA
+Verb 41: *DIA   Noun 41: *ANI
+Verb 42: LOO    Noun 42: CHE
+Verb 43: *EXA   Noun 43: STA
+Verb 44: INV    Noun 44: BAG
+Verb 45: CIR    Noun 45: PIN
+Verb 46: .      Noun 46: SAW
+Verb 47: QUI    Noun 47: FOO
+Verb 48: DRI    Noun 48: *RAB
+Verb 49: *EAT   Noun 49: GAM
+Verb 50: SAW    Noun 50: SHO
+Verb 51: MIX    Noun 51: PAP
+Verb 52: HAM    Noun 52: SWE
+Verb 53: .      Noun 53: MAN
+Verb 54: SHR    Noun 54: *CRI
+Verb 55: .      Noun 55: DOL
+Verb 56: LIS    Noun 56: BOA
+Verb 57: *HEA   Noun 57: HAM
+Verb 58: STA    Noun 58: GRA
+Verb 59:        Noun 59: BUT
+Verb 60: SHA    Noun 60: PUP
+Verb 61:        Noun 61: STI
+Verb 62: SLI    Noun 62: STA
+Verb 63: DAN    Noun 63: BOO
+Verb 64: YEL    Noun 64: CHA
+Verb 65: *SCR   Noun 65: ZAP
+Verb 66: *SUM   Noun 66: POT
+Verb 67: *SAY   Noun 67: CEL
+Verb 68: *CRY   Noun 68: BAR
+Verb 69: CUT    Noun 69: LOC
+Verb 70: *STA   Noun 70: LED
+Verb 71:        Noun 71: WOO
+Verb 72: RUB    Noun 72: VOI
+Verb 73: SMO    Noun 73: SIG
+Verb 74: .      Noun 74: FLO
+Verb 75: HUG    Noun 75: NAI
+Verb 76:        Noun 76: MUM
+Verb 77:        Noun 77: CRA
+Verb 78:        Noun 78: SAP
+Verb 79:        Noun 79: ROC
+Verb 80:        Noun 80: ARO
+Verb 81:        Noun 81: CRY
+Verb 82:        Noun 82: *RAV
+Verb 83:        Noun 83: 34
+Verb 84:        Noun 84: 35
+Verb 85:        Noun 85: 36
+Verb 86:        Noun 86: 37
+Verb 87:        Noun 87: LEA
+Verb 88:        Noun 88: MOA
+Verb 89:        Noun 89: PAG
+
+Room  0: 
+
+Room  1: chapel
+         N:     9
+         S:     2
+         E:     4
+         W:    10
+
+Room  2: Dingy Looking Stairwell
+         N:     1
+         S:    24
+         E:     3
+         W:    11
+
+Room  3: room in the castle
+         N:     5
+         W:     2
+
+Room  4: Tunnel
+         W:     1
+
+Room  5: room in the castle
+         S:     3
+         E:     7
+
+Room  6: *I'm in Medium Maegen's Mad Room
+         W:     8
+
+Room  7: room in the castle
+         E:    17
+         W:     5
+
+Room  8: room in the castle
+
+Room  9: room in the castle
+         S:     1
+
+Room 10: Ballroom
+         E:     1
+
+Room 11: dungeon
+         S:    13
+         E:     2
+
+Room 12: *I'm in the Armory
+         W:    13
+
+Room 13: torture chamber
+         N:    11
+         E:    12
+
+Room 14: Chimney
+         D:    15
+
+Room 15: large fireplace
+         S:    10
+
+Room 16: room in the castle
+         U:     3
+
+Room 17: Lab
+         W:     7
+
+Room 18: narrow part of the chimney
+         D:    14
+
+Room 19: Graveyard
+         E:    13
+
+Room 20: parlor
+         D:     2
+
+Room 21: Jail Cell
+
+Room 22: *I'm on a ledge
+         S:     9
+
+Room 23: hidden VOODOO room
+         S:     8
+
+Room 24: room in the castle
+         N:     2
+
+Room 25: lot of TROUBLE!
+
+Msg   0: 
+Msg   1: Count Cristo's been CURSED! There's one way for him to flee!\\Find it, and he'll go FREE!
+Msg   2: It belongs to the medium
+Msg   3: Spirit vibrations drive me from room.
+Msg   4: Prints too small for the unaided eye.
+Msg   5: I can't do that
+Msg   6: Nothing happened
+Msg   7: Windows open
+Msg   8: Window just slAmmed shut
+Msg   9: For a reading just `SUMMON MEDIUM MAEGEN` today!!
+Msg  10: I see nothing very special.
+Msg  11: Phosphorescent letters are very hard to read in bright light!
+Msg  12: Amongst the GRAVES is a four leaf clover.
+Msg  13: Raven crys something outside
+Msg  14: One of the test tubes EXPLODED!
+Msg  15: This glass can't be broken
+Msg  16: .
+Msg  17: They appear to be mixable.
+Msg  18: There's something written there
+Msg  19: A sepulchral voice says:
+Msg  20: OK
+Msg  21: Safe's combination lock is numbered from 33 to 38.
+Msg  22: Ring glows briefly & door vanishes
+Msg  23: OUCH
+Msg  24: A sign here says:
+Msg  25: There's a man here
+Msg  26: Wearing a sapphire ring
+Msg  27: I slide back down
+Msg  28: A beam of light shines on grave
+Msg  29: Pins fall out of doll
+Msg  30: Plaque says: `safe --> 38 33`
+Msg  31: This grAve reserved for you!
+Msg  32: There's a CLAP OF THUNDER!
+Msg  33: Ju-Ju man says:`My bag is now yours! Its magic will help you\\-CRACK- the curse!`.
+Msg  34: HURRAH! Look who is in the room!
+Msg  35: I'm now 4 feet tall!
+Msg  36: It's much to heavy to LIFT!
+Msg  37: I'm too big
+Msg  38: You startled medium & she vanished
+Msg  39: On what?
+Msg  40: Maid chased me with broom for tracking soot through the Ball-\\room. I wonder where I am?
+Msg  41: Sweep pops out, thanks me, hands me a piece of paper then\\vanishes!
+Msg  42: As I dust of the Idol it begins to glow!
+Msg  43: He's wearing a rabbit's foot
+Msg  44: .
+Msg  45: HELP ME, I'm stuck!
+Msg  46: Luck wasn't with me!
+Msg  47: Doll looks like Count Cristo. There're pins in it!
+Msg  48: .
+Msg  49: Bird says: `ask for ADVENTURE 5, -THE COUNT- at your\\favorite computer dealer. It will be LOVE AT FIRST BYTE!`\\
+Msg  50: There's some soup here.
+Msg  51: I see a hole under it!
+Msg  52: Nails were rusted but I got them out.
+Msg  53: It's hArd work but it seems to be coming loose
+Msg  54: I hear strange sounds, as if someone were moaning.
+Msg  55: I've got it!
+Msg  56: Heavy duty exhaust fan comes on & sucks me up!
+Msg  57: .
+Msg  58: says: `SAY ZAP   to restore someone changed to stone!`
+Msg  59: Statue is made of stone
+Msg  60: I hear nothing.
+Msg  61: won't budge!
+Msg  62: I'll need something to pry it off the wall!
+Msg  63: It's a book on removing curses. Says: `With knife in hand you\\take a stand. Circle coffin and...` The rest of the page is\\missing!!!
+Msg  64: Its very dark, the only light is from the idol.
+Msg  65: That's illegal!
+Msg  66: Double bubble toil & trouble the encAntAtions Are About to peAk!
+Msg  67: There's an antique hammer here
+Msg  68: There's a Clap of Thunder & then suddenly the stone statue\\begins to crack. I may be in trouble now, there's someone in\\the room with me!
+Msg  69: Looks almost like lemonade. Yummy!
+Msg  70: You've been turned into a broomstick & a witch rides off on you!
+Msg  71: There's witch's brew there
+Msg  72: Cell door slams shut
+Msg  73: You've been sprung
+Msg  74: ...wave the stick and hold the lamp and don't forget to yell\\`CHANT`! Oh yes, to help it succeed, a doll you'll need...
+Msg  75: Welcome to ADVENTURE:4, `VOODOO CASTLE` by Alexis ADAMS.\\Dedicated to all MOMS!
+Msg  76: how?
+Msg  77: It appears stuck to the floor!
+Msg  78: There's no room in there for me!
+Msg  79: My idol acted strange
+Msg  80: I've no container.
+Msg  81: Some dust fell off it and it glowed briefly.
+Msg  82: Its very faint.
+Msg  83: Its much louder up here.
+Msg  84: There's a book there.
+Msg  85: There's a stick there.
+Msg  86: Boy it looks dusty.
+Msg  87: Its glowing.
+Msg  88: Strange hobby you have
+Msg  89: Check out the fireplace.
+Msg  90: Its empty.
+Msg  91: I hear someone mumbling.
+Msg  92: .
+Msg  93: Saw grating!
+Msg  94: I haven't got a knife!
+Msg  95: Inscription on ring says: `WAVE ME!`
+Msg  96: Medium appears, says: `Keep a good luck charm on you & your\\friend. I also see a -moving- bag helping you through a tight\\squeeze!`
+Msg  97: It will take some strong magic to get me through that!
+Msg  98: Use a number!
+Msg  99: Knife made no impression on it!
+
+Item  0: Loc:  4 - Bloody Knife/KNI/
+Item  1: Loc:  0 - Ledge
+Item  2: Loc:  8 - Plaque/WRI/
+Item  3: Loc:  5 - Animal heads/HEA/
+Item  4: Loc:  2 - Broken glass/GLA/
+Item  5: Loc:  3 - Big kettle
+Item  6: Loc:  0 - Dark hole
+Item  7: Loc: 12 - Shield/SHI/
+Item  8: Loc:  2 - Stairs
+Item  9: Loc:  0 - Brightly glowing idol/IDO/
+Item 10: Loc:  9 - Open Window
+Item 11: Loc:  0 - Dark Chimney
+Item 12: Loc: 15 - Closed Flue
+Item 13: Loc:  0 - Open Flue
+Item 14: Loc:  0 - Four leaf clover/CLO/
+Item 15: Loc: 19 - GrAves
+Item 16: Loc:  7 - Cast iron pot/POT/
+Item 17: Loc:  1 - Closed Coffin
+Item 18: Loc:  6 - Crystal Ball
+Item 19: Loc:  0 - Closed Window
+Item 20: Loc: 10 - Large fireplace
+Item 21: Loc: 14 - Soot/SOO/
+Item 22: Loc: 13 - Tiny open door
+Item 23: Loc:  0 - Spirit Medium
+Item 24: Loc:  4 - Massive stone door with a SAPPHIRE set into it
+Item 25: Loc:  0 - Sapphire ring/RIN/
+Item 26: Loc: 17 - Ju-Ju bag/BAG/
+Item 27: Loc:  0 - Open Coffin
+Item 28: Loc:  0 - Slick chute leading downward
+Item 29: Loc:  0 - Ju-Ju man
+Item 30: Loc:  8 - Slippery chute leading up
+Item 31: Loc:  0 - Wide crack in the wall
+Item 32: Loc: 16 - Rabbit's foot/FOO/
+Item 33: Loc: 12 - Dull & broken sword/SWO/
+Item 34: Loc:  0 - Open SAfe
+Item 35: Loc: 18 - Stuck Chimney Sweep
+Item 36: Loc: 17 - Chem tubes/TUB/
+Item 37: Loc:  0 - Closed SAfe
+Item 38: Loc: 17 - Labeled chemicals/CHE/
+Item 39: Loc: 11 - Pocket Shovel/SHO/
+Item 40: Loc:  0 - Mixed Chemicals/CHE/
+Item 41: Loc:  0 - Wide open door
+Item 42: Loc:  0 - Nails/NAI/
+Item 43: Loc: 15 - Dusty Idol/IDO/
+Item 44: Loc: 22 - Doll/DOL/
+Item 45: Loc:  0 - Wooden boards/BOA/
+Item 46: Loc: 14 - Wood boards nailed to chimney wall
+Item 47: Loc:  0 - Antique hammer/HAM/
+Item 48: Loc:  0 - GrAting
+Item 49: Loc: 19 - Rusting SAW/SAW/
+Item 50: Loc:  0 - Button in the wall
+Item 51: Loc:  0 - Paper/PAP/
+Item 52: Loc:  0 - Voodoo book/BOO/
+Item 53: Loc: 20 - Ju-Ju man statue/STA/
+Item 54: Loc:  0 - Stick/STI/
+Item 55: Loc:  0 - Open wall
+Item 56: Loc: 11 - Open jail cell
+Item 57: Loc: 12 - Knight's Suit of Armor
+Item 58: Loc: 21 - Closed cell door
+Item 59: Loc:  0 - Broken grating/GRA/
+Item 60: Loc: 21 - Advertising leaflet/LEA/
+Item 61: Loc:  8 - Crack in the wall
+Item 62: Loc:  8 - Hole in the wall
+Item 63: Loc:  0 - Pieces of rock/ROC/
+Item 64: Loc: 23 - Page torn from a book/PAG/
+Item 65: Loc:  0 - Smiling Count Cristo
+
+Version         = 119
+AdventureNumber = 4
+MagicNumber     = 0
+
+Cmd   0 |     0    25 |    2  10   0   0   0   0   0   0   0   0 |   13   0   0   0 |
+                  25% | IF HERE(10="Open Window")
+                      | MESSAGE 13="Raven crys something outside"
+Cmd   1 |     0   100 |    4   9   2  10  12  14   0  10   0  19 |    8  72   0   0 |
+                 100% | IF ISROOM(9="room in the castle")
+                      | IF HERE(10="Open Window")
+                      | IF NOT HERECARRY(14="Four leaf clover")
+                      | MESSAGE 8="Window just slAmmed shut"
+                      | SWAP ITEMS 10="Open Window" AND 19="Closed Window"
+Cmd   2 |     0   100 |    7   9  13  19   0  10   0  19   0   0 |   72   0   0   0 |
+                 100% | IF NOT ISROOM(9)
+                      | IF SOMEWHERE(19="Closed Window")
+                      | SWAP ITEMS 10="Open Window" AND 19="Closed Window"
+Cmd   3 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd   4 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd   5 |     0    45 |    4  19  14  14   0   0   0   0   0   0 |   28   0   0   0 |
+                  45% | IF ISROOM(19="Graveyard")
+                      | IF NOWHERE(14="Four leaf clover")
+                      | MESSAGE 28="A beam of light shines on g..."
+Cmd   6 |     0    30 |    3  36   6   7   0  25   0   0   0   0 |   54  64  14  73 |
+                  30% | IF HERECARRY(36="Chem tubes")
+                      | IF NOT CARRY(7="Shield")
+                      | GOTO 25="lot of TROUBLE!"
+                      | LOOK
+                      | MESSAGE 14="One of the test tubes EXPLO..."
+                      | CONTINUE_NEXT_LINE
+Cmd   7 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |   24  31   0   0 |
+            continued | MESSAGE 24="A sign here says:"
+                      | MESSAGE 31="This grAve reserved for you!"
+Cmd   8 |     0    30 |    3  36   1   7   0   0   0   0   0   0 |   14   0   0   0 |
+                  30% | IF HERECARRY(36="Chem tubes")
+                      | IF CARRY(7="Shield")
+                      | MESSAGE 14="One of the test tubes EXPLO..."
+Cmd   9 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd  10 |     0   100 |    4  15   8  15   0   0   0   0   0   0 |   57  76   0   0 |
+                 100% | IF ISROOM(15="large fireplace")
+                      | IF FLAG(15)=TRUE
+                      | SET DARK=FALSE
+                      | LOOK
+Cmd  11 |     0    50 |    1  21   0  11   4  10   0   0   0   0 |   40  54   0   0 |
+                  50% | IF CARRY(21="Soot")
+                      | IF ISROOM(10="Ballroom")
+                      | MESSAGE 40="Maid chased me with broom f..."
+                      | GOTO 11="dungeon"
+Cmd  12 |     0   100 |    4   3   8  15   0   0   0   0   0   0 |   57  76   0   0 |
+                 100% | IF ISROOM(3="room in the castle")
+                      | IF FLAG(15)=TRUE
+                      | SET DARK=FALSE
+                      | LOOK
+Cmd  13 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd  14 |     0   100 |    4  18  13  35   0   0   0   0   0   0 |  104   0   0   0 |
+                 100% | IF ISROOM(18="narrow part of the chimney")
+                      | IF SOMEWHERE(35="Stuck Chimney Sweep")
+                      | MESSAGE 54="I hear strange sounds, as i..."
+Cmd  15 |     0    35 |    4  14  13  35   0   0   0   0   0   0 |  104   0   0   0 |
+                  35% | IF ISROOM(14="Chimney")
+                      | IF SOMEWHERE(35="Stuck Chimney Sweep")
+                      | MESSAGE 54="I hear strange sounds, as i..."
+Cmd  16 |     0    35 |    4  15  13  35   0   0   0   0   0   0 |  104   0   0   0 |
+                  35% | IF ISROOM(15="large fireplace")
+                      | IF SOMEWHERE(35="Stuck Chimney Sweep")
+                      | MESSAGE 54="I hear strange sounds, as i..."
+Cmd  17 |     0   100 |    4  25   0   0   0   0   0   0   0   0 |   46  63   0   0 |
+                 100% | IF ISROOM(25="lot of TROUBLE!")
+                      | MESSAGE 46="Luck wasn't with me!"
+                      | QUIT
+Cmd  18 |     0   100 |    9   7   0   7   0   0   0   0   0   0 |  125  58   0   0 |
+                 100% | IF FLAG(7)=FALSE
+                      | MESSAGE 75="Welcome to ADVENTURE:4, `VO..."
+                      | SET FLAG(7)=TRUE
+Cmd  19 |     0     7 |    1  43   0   0   0   0   0   0   0   0 |  129 131   0   0 |
+                   7% | IF CARRY(43="Dusty Idol")
+                      | MESSAGE 79="My idol acted strange"
+                      | MESSAGE 81="Some dust fell off it and i..."
+Cmd  20 |     0    35 |    3  29   0   0   0   0   0   0   0   0 |  141   0   0   0 |
+                  35% | IF HERECARRY(29="Ju-Ju man")
+                      | MESSAGE 91="I hear someone mumbling."
+Cmd  21 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd  22 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd  23 |    10    52 |    2  35   0   0   0   0   0   0   0   0 |  111   0   0   0 |
+            get   swe | IF HERE(35="Stuck Chimney Sweep")
+                      | MESSAGE 61="won't budge!"
+Cmd  24 |    10    20 |    3  59   0  59   0   0   0   0   0   0 |   20  52   0   0 |
+            get   gra | IF HERECARRY(59="Broken grating")
+                      | MESSAGE 20="OK"
+                      | TAKE 59="Broken grating"
+Cmd  25 |    24    44 |    4   8  14  31   3  26   0  31   0  61 |   32  88  88  72 |
+            wav   bag | IF ISROOM(8="room in the castle")
+                      | IF NOWHERE(31="Wide crack in the wall")
+                      | IF HERECARRY(26="Ju-Ju bag")
+                      | MESSAGE 32="There's a CLAP OF THUNDER!"
+                      | SLEEP 2 SECONDS
+                      | SLEEP 2 SECONDS
+                      | SWAP ITEMS 31="Wide crack in the wall" AND 61="Crack in the wall"
+Cmd  26 |    38    67 |    6  14   0   0   0   0   0   0   0   0 |    5   0   0   0 |
+            ope   cel | IF NOT CARRY(14="Four leaf clover")
+                      | MESSAGE 5="I can't do that"
+Cmd  27 |     1    67 |    2  56   5  14   0  21   0   0   0   0 |   70 122  54  64 |
+             go   cel | IF HERE(56="Open jail cell")
+                      | IF NOT HERE(14="Four leaf clover")
+                      | CLEARSCREEN
+                      | MESSAGE 72="Cell door slams shut"
+                      | GOTO 21="Jail Cell"
+                      | LOOK
+Cmd  28 |    42    25 |    3   2   0   0   0   0   0   0   0   0 |   18   0   0   0 |
+            loo   wri | IF HERECARRY(2="Plaque")
+                      | MESSAGE 18="There's something written t..."
+Cmd  29 |    10    10 |    0   0   0   0   0   0   0   0   0   0 |   66   0   0   0 |
+            get   inv | INVENTORY
+Cmd  30 |    32    15 |    2  19   0   0   0   0   0   0   0   0 |   15   0   0   0 |
+            bre   win | IF HERE(19="Closed Window")
+                      | MESSAGE 15="This glass can't be broken"
+Cmd  31 |    29    11 |    2   5   5   6   0   6   0   0   0   0 |   53  20   0   0 |
+            mov   ket | IF HERE(5="Big kettle")
+                      | IF NOT HERE(6="Dark hole")
+                      | DROP 6="Dark hole"
+                      | MESSAGE 20="OK"
+Cmd  32 |    10    22 |    2  18   0   0   0   0   0   0   0   0 |   19   2   0   0 |
+            get   bal | IF HERE(18="Crystal Ball")
+                      | MESSAGE 19="A sepulchral voice says:"
+                      | MESSAGE 2="It belongs to the medium"
+Cmd  33 |    10    16 |    2  14   0  14   0   0   0   0   0   0 |   52   0   0   0 |
+            get   clo | IF HERE(14="Four leaf clover")
+                      | TAKE 14="Four leaf clover"
+Cmd  34 |    42    20 |    2  15  14  14   0   0   0   0   0   0 |   12  24  31   0 |
+            loo   gra | IF HERE(15="GrAves")
+                      | IF NOWHERE(14="Four leaf clover")
+                      | MESSAGE 12="Amongst the GRAVES is a fou..."
+                      | MESSAGE 24="A sign here says:"
+                      | MESSAGE 31="This grAve reserved for you!"
+Cmd  35 |    10    16 |   14  14   4  19   0  14   0   0   0   0 |   52  20   0   0 |
+            get   clo | IF NOWHERE(14="Four leaf clover")
+                      | IF ISROOM(19="Graveyard")
+                      | TAKE 14="Four leaf clover"
+                      | MESSAGE 20="OK"
+Cmd  36 |    42    20 |    2  15  13  14   0   0   0   0   0   0 |   24  31   0   0 |
+            loo   gra | IF HERE(15="GrAves")
+                      | IF SOMEWHERE(14="Four leaf clover")
+                      | MESSAGE 24="A sign here says:"
+                      | MESSAGE 31="This grAve reserved for you!"
+Cmd  37 |     1    43 |    2   8   0  20   0   0   0   0   0   0 |   70  54  64   0 |
+             go   sta | IF HERE(8="Stairs")
+                      | CLEARSCREEN
+                      | GOTO 20="parlor"
+                      | LOOK
+Cmd  38 |    42    28 |    2  37   0   0   0   0   0   0   0   0 |   21   0   0   0 |
+            loo   saf | IF HERE(37="Closed SAfe")
+                      | MESSAGE 21="Safe's combination lock is..."
+Cmd  39 |    42    28 |    2  34   0  47  14  47   0   0   0   0 |   53 117   0   0 |
+            loo   saf | IF HERE(34="Open SAfe")
+                      | IF NOWHERE(47="Antique hammer")
+                      | DROP 47="Antique hammer"
+                      | MESSAGE 67="There's an antique hammer here"
+Cmd  40 |    38    35 |    2  12   0  12   0  13   0  11   0   0 |   72  20  53   0 |
+            ope   flu | IF HERE(12="Closed Flue")
+                      | SWAP ITEMS 12="Closed Flue" AND 13="Open Flue"
+                      | MESSAGE 20="OK"
+                      | DROP 11="Dark Chimney"
+Cmd  41 |    39    35 |    2  13   0  12   0  13   0  11   0   0 |   72  20  59   0 |
+            clo   flu | IF HERE(13="Open Flue")
+                      | SWAP ITEMS 12="Closed Flue" AND 13="Open Flue"
+                      | MESSAGE 20="OK"
+                      | DESTROY 11="Dark Chimney"
+Cmd  42 |     1    12 |    2   6   0  16   0   0   0   0   0   0 |   54  56  70  64 |
+             go   hol | IF HERE(6="Dark hole")
+                      | GOTO 16="room in the castle"
+                      | SET DARK=TRUE
+                      | CLEARSCREEN
+                      | LOOK
+Cmd  43 |     1    35 |    4  15   2  13   0  14   0   0   0   0 |   56  54  70  64 |
+             go   flu | IF ISROOM(15="large fireplace")
+                      | IF HERE(13="Open Flue")
+                      | SET DARK=TRUE
+                      | GOTO 14="Chimney"
+                      | CLEARSCREEN
+                      | LOOK
+Cmd  44 |    42    87 |    3  60   0   0   0   0   0   0   0   0 |   18   0   0   0 |
+            loo   lea | IF HERECARRY(60="Advertising leaflet")
+                      | MESSAGE 18="There's something written t..."
+Cmd  45 |    42    22 |    4   6   2  18   0   4   0   0   0   0 |   10  54  76   3 |
+            loo   bal | IF ISROOM(6="in Medium Maegen's Mad Room")
+                      | IF HERE(18="Crystal Ball")
+                      | MESSAGE 10="I see nothing very special."
+                      | GOTO 4="Tunnel"
+                      | LOOK
+                      | MESSAGE 3="Spirit vibrations drive me..."
+Cmd  46 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd  47 |     1    34 |    2  20   0  15   0   0   0   0   0   0 |   54  76   0   0 |
+             go   fir | IF HERE(20="Large fireplace")
+                      | GOTO 15="large fireplace"
+                      | LOOK
+Cmd  48 |    38    17 |    4  13   0   0   0   0   0   0   0   0 |   20   0   0   0 |
+            ope   doo | IF ISROOM(13="torture chamber")
+                      | MESSAGE 20="OK"
+Cmd  49 |    24    32 |    2  24   1  25   0  28   0  24   0   0 |   72  22   0   0 |
+            wav   rin | IF HERE(24="Massive stone door with a S...")
+                      | IF CARRY(25="Sapphire ring")
+                      | SWAP ITEMS 28="Slick chute leading downward" AND 24="Massive stone door with a S..."
+                      | MESSAGE 22="Ring glows briefly & door v..."
+Cmd  50 |     1    18 |    2  28   0   8   0   0   0   0   0   0 |   20  54  76   0 |
+             go   chu | IF HERE(28="Slick chute leading downward")
+                      | MESSAGE 20="OK"
+                      | GOTO 8="room in the castle"
+                      | LOOK
+Cmd  51 |    10    32 |    2  27  14  25   0  25   0   0   0   0 |   52  20   0   0 |
+            get   rin | IF HERE(27="Open Coffin")
+                      | IF NOWHERE(25="Sapphire ring")
+                      | TAKE 25="Sapphire ring"
+                      | MESSAGE 20="OK"
+Cmd  52 |    48    29 |    3  16   0   0   0   0   0   0   0   0 |   32  88 120  63 |
+            dri   bre | IF HERECARRY(16="Cast iron pot")
+                      | MESSAGE 32="There's a CLAP OF THUNDER!"
+                      | SLEEP 2 SECONDS
+                      | MESSAGE 70="You've been turned into a b..."
+                      | QUIT
+Cmd  53 |    38     8 |    2  17   0  17   0  27   0   0   0   0 |   72  20   0   0 |
+            ope   cof | IF HERE(17="Closed Coffin")
+                      | SWAP ITEMS 17="Closed Coffin" AND 27="Open Coffin"
+                      | MESSAGE 20="OK"
+Cmd  54 |    39     8 |    2  27   0  17   0  27   0   0   0   0 |   72  20   0   0 |
+            clo   cof | IF HERE(27="Open Coffin")
+                      | SWAP ITEMS 17="Closed Coffin" AND 27="Open Coffin"
+                      | MESSAGE 20="OK"
+Cmd  55 |    10    30 |    2  57   0   0   0   0   0   0   0   0 |    5  36   0   0 |
+            get   arm | IF HERE(57="Knight's Suit of Armor")
+                      | MESSAGE 5="I can't do that"
+                      | MESSAGE 36="It's much to heavy to LIFT!"
+Cmd  56 |    32    22 |    4   6   0   0   0   0   0   0   0   0 |   61  28  31  63 |
+            bre   bal | IF ISROOM(6="in Medium Maegen's Mad Room")
+                      | DEAD
+                      | MESSAGE 28="A beam of light shines on g..."
+                      | MESSAGE 31="This grAve reserved for you!"
+                      | QUIT
+Cmd  57 |    38    17 |    2  24   0   0   0   0   0   0   0   0 |    5 111   0   0 |
+            ope   doo | IF HERE(24="Massive stone door with a S...")
+                      | MESSAGE 5="I can't do that"
+                      | MESSAGE 61="won't budge!"
+Cmd  58 |    10    44 |    3  26  13  29   0  26   0   0   0   0 |   52  20   0   0 |
+            get   bag | IF HERECARRY(26="Ju-Ju bag")
+                      | IF SOMEWHERE(29="Ju-Ju man")
+                      | TAKE 26="Ju-Ju bag"
+                      | MESSAGE 20="OK"
+Cmd  59 |    35    25 |    3   2   3   4   8  15   0   0   0   0 |   30   0   0   0 |
+            rea   wri | IF HERECARRY(2="Plaque")
+                      | IF HERECARRY(4="Broken glass")
+                      | IF FLAG(15)=TRUE
+                      | MESSAGE 30="Plaque says: `safe --> 38 33`"
+Cmd  60 |     1    18 |    2  28   0   8   0   0   0   0   0   0 |   54  76   0   0 |
+             go   chu | IF HERE(28="Slick chute leading downward")
+                      | GOTO 8="room in the castle"
+                      | LOOK
+Cmd  61 |     1    18 |    2  30   0   0   0   0   0   0   0   0 |   27   0   0   0 |
+             go   chu | IF HERE(30="Slippery chute leading up")
+                      | MESSAGE 27="I slide back down"
+Cmd  62 |    42    44 |    3  26  14  52  13  54   0   0   0   0 |  134   0   0   0 |
+            loo   bag | IF HERECARRY(26="Ju-Ju bag")
+                      | IF NOWHERE(52="Voodoo book")
+                      | IF SOMEWHERE(54="Stick")
+                      | MESSAGE 84="There's a book there."
+Cmd  63 |    45     8 |    0   0   4   1   0   0   0   0   0   0 |   73  20   6  88 |
+            cir   cof | IF ISROOM(1="chapel")
+                      | CONTINUE_NEXT_LINE
+                      | MESSAGE 20="OK"
+                      | MESSAGE 6="Nothing happened"
+                      | SLEEP 2 SECONDS
+Cmd  64 |     0     0 |   14  32   3   9   1   0   0   3   0   0 |   58  32  56 114 |
+            continued | IF NOWHERE(32="Rabbit's foot")
+                      | IF HERECARRY(9="Brightly glowing idol")
+                      | IF CARRY(0="Bloody Knife")
+                      | SET FLAG(3)=TRUE
+                      | MESSAGE 32="There's a CLAP OF THUNDER!"
+                      | SET DARK=TRUE
+                      | MESSAGE 64="Its very dark, the only lig..."
+Cmd  65 |    42    42 |    3  40   0   0   0   0   0   0   0   0 |  119   0   0   0 |
+            loo   che | IF HERECARRY(40="Mixed Chemicals")
+                      | MESSAGE 69="Looks almost like lemonade...."
+Cmd  66 |    10    40 |    9   0   3  33   0   3   0  37   2   3 |   52  53  20  67 |
+            get   hea | IF FLAG(0)=FALSE
+                      | IF HERECARRY(33="Dull & broken sword")
+                      | IF HERE(3="Animal heads")
+                      | TAKE 3="Animal heads"
+                      | DROP 37="Closed SAfe"
+                      | MESSAGE 20="OK"
+                      | SET FLAG(0)=TRUE
+Cmd  67 |    38    28 |    4   5   2  34   0   0   0   0   0   0 |   20   0   0   0 |
+            ope   saf | IF ISROOM(5="room in the castle")
+                      | IF HERE(34="Open SAfe")
+                      | MESSAGE 20="OK"
+Cmd  68 |    42    28 |    4   5   2  34  13  47   0   0   0   0 |   20 140   0   0 |
+            loo   saf | IF ISROOM(5="room in the castle")
+                      | IF HERE(34="Open SAfe")
+                      | IF SOMEWHERE(47="Antique hammer")
+                      | MESSAGE 20="OK"
+                      | MESSAGE 90="Its empty."
+Cmd  69 |    10    40 |    8   0   3   3   0   3   0   0   0   0 |   52  20   0   0 |
+            get   hea | IF FLAG(0)=TRUE
+                      | IF HERECARRY(3="Animal heads")
+                      | TAKE 3="Animal heads"
+                      | MESSAGE 20="OK"
+Cmd  70 |    40    37 |    9   1   2  37   0   1   0   0   0   0 |   58  20   0   0 |
+            tur    38 | IF FLAG(1)=FALSE
+                      | IF HERE(37="Closed SAfe")
+                      | SET FLAG(1)=TRUE
+                      | MESSAGE 20="OK"
+Cmd  71 |    40    39 |    8   1   2  37   0  34   0  37   0   0 |   72  20   0   0 |
+            tur    33 | IF FLAG(1)=TRUE
+                      | IF HERE(37="Closed SAfe")
+                      | SWAP ITEMS 34="Open SAfe" AND 37="Closed SAfe"
+                      | MESSAGE 20="OK"
+Cmd  72 |    42    44 |    3  26  14  54  14  52  13  29   0   0 |  134 135   0   0 |
+            loo   bag | IF HERECARRY(26="Ju-Ju bag")
+                      | IF NOWHERE(54="Stick")
+                      | IF NOWHERE(52="Voodoo book")
+                      | IF SOMEWHERE(29="Ju-Ju man")
+                      | MESSAGE 84="There's a book there."
+                      | MESSAGE 85="There's a stick there."
+Cmd  73 |    35    63 |    3  52   0   0   0   0   0   0   0   0 |  113   0   0   0 |
+            rea   boo | IF HERECARRY(52="Voodoo book")
+                      | MESSAGE 63="It's a book on removing cur..."
+Cmd  74 |    64    23 |   14  23   4   6   0  23   0   0   0   0 |   20  85  53 146 |
+            yel   med | IF NOWHERE(23="Spirit Medium")
+                      | IF ISROOM(6="in Medium Maegen's Mad Room")
+                      | MESSAGE 20="OK"
+                      | WRITELINE NOUN
+                      | DROP 23="Spirit Medium"
+                      | MESSAGE 96="Medium appears, says: `Keep..."
+Cmd  75 |     1    24 |    2  13   0  14   0   0   0   0   0   0 |   54  56  76   0 |
+             go   chi | IF HERE(13="Open Flue")
+                      | GOTO 14="Chimney"
+                      | SET DARK=TRUE
+                      | LOOK
+Cmd  76 |    35    19 |    3  38   0   0   0   0   0   0   0   0 |   17   0   0   0 |
+            rea   lab | IF HERECARRY(38="Labeled chemicals")
+                      | MESSAGE 17="They appear to be mixable."
+Cmd  77 |    48    42 |    3  40   0  41   0  22   0  38   0   0 |   32  73  72  59 |
+            dri   che | IF HERECARRY(40="Mixed Chemicals")
+                      | MESSAGE 32="There's a CLAP OF THUNDER!"
+                      | CONTINUE_NEXT_LINE
+                      | SWAP ITEMS 41="Wide open door" AND 22="Tiny open door"
+                      | DESTROY 38="Labeled chemicals"
+Cmd  78 |     0     0 |    0  40   0   0   0   0   0   0   0   0 |   59  88  88  35 |
+            continued | DESTROY 40="Mixed Chemicals"
+                      | SLEEP 2 SECONDS
+                      | SLEEP 2 SECONDS
+                      | MESSAGE 35="I'm now 4 feet tall!"
+Cmd  79 |    64    65 |    3  53   0  53   0  29   0   0   0   0 |   59  53  73  85 |
+            yel   zap | IF HERECARRY(53="Ju-Ju man statue")
+                      | DESTROY 53="Ju-Ju man statue"
+                      | DROP 29="Ju-Ju man"
+                      | CONTINUE_NEXT_LINE
+                      | WRITELINE NOUN
+Cmd  80 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |  118 141   0   0 |
+            continued | MESSAGE 68="There's a Clap of Thunder &..."
+                      | MESSAGE 91="I hear someone mumbling."
+Cmd  81 |    34    49 |    0   0   0   0   0   0   0   0   0   0 |   71   0   0   0 |
+            sav   gam | SAVEGAME
+Cmd  82 |    10    11 |    2   5   0   0   0   0   0   0   0   0 |    5  36   0   0 |
+            get   ket | IF HERE(5="Big kettle")
+                      | MESSAGE 5="I can't do that"
+                      | MESSAGE 36="It's much to heavy to LIFT!"
+Cmd  83 |     1    17 |    2  22   0   0   0   0   0   0   0   0 |    5  37 147   0 |
+             go   doo | IF HERE(22="Tiny open door")
+                      | MESSAGE 5="I can't do that"
+                      | MESSAGE 37="I'm too big"
+                      | MESSAGE 97="It will take some strong ma..."
+Cmd  84 |    44     0 |    0   0   0   0   0   0   0   0   0   0 |   66   0   0   0 |
+            inv       | INVENTORY
+Cmd  85 |    10    40 |    9   0   3   3   0   0   0   0   0   0 |  111 112   0   0 |
+            get   hea | IF FLAG(0)=FALSE
+                      | IF HERECARRY(3="Animal heads")
+                      | MESSAGE 61="won't budge!"
+                      | MESSAGE 62="I'll need something to pry..."
+Cmd  86 |    18    47 |    1  32   0   0   0   0   0   0   0   0 |   39   0   0   0 |
+            dro   foo | IF CARRY(32="Rabbit's foot")
+                      | MESSAGE 39="On what?"
+Cmd  87 |    23    53 |    3  32   0  32   2  27   0   0   0   0 |   20  32  59   0 |
+             on   man | IF HERECARRY(32="Rabbit's foot")
+                      | IF HERE(27="Open Coffin")
+                      | MESSAGE 20="OK"
+                      | MESSAGE 32="There's a CLAP OF THUNDER!"
+                      | DESTROY 32="Rabbit's foot"
+Cmd  88 |    10    45 |    2  44   0   0   0   0   0   0   0   0 |    5 111   0   0 |
+            get   pin | IF HERE(44="Doll")
+                      | MESSAGE 5="I can't do that"
+                      | MESSAGE 61="won't budge!"
+Cmd  89 |    27    52 |    4  18   2  35   0  35   0  51   0   0 |   41  55  74   0 |
+            pre   swe | IF ISROOM(18="narrow part of the chimney")
+                      | IF HERE(35="Stuck Chimney Sweep")
+                      | MESSAGE 41="Sweep pops out, thanks me,..."
+                      | DESTROY 35="Stuck Chimney Sweep"
+                      | TAKE_NOCHECK 51="Paper"
+Cmd  90 |    35    51 |    3  51   0   0   0   0   0   0   0   0 |  108   0   0   0 |
+            rea   pap | IF HERECARRY(51="Paper")
+                      | MESSAGE 58="says: `SAY ZAP   to restore..."
+Cmd  91 |    42    55 |    3  44   0   0   0   0   0   0   0   0 |   47   0   0   0 |
+            loo   dol | IF HERECARRY(44="Doll")
+                      | MESSAGE 47="Doll looks like Count Crist..."
+Cmd  92 |    42     8 |    2  27   0   0   0   0   0   0   0   0 |   24   1  73  25 |
+            loo   cof | IF HERE(27="Open Coffin")
+                      | MESSAGE 24="A sign here says:"
+                      | MESSAGE 1="Count Cristo's been CURSED!..."
+                      | CONTINUE_NEXT_LINE
+                      | MESSAGE 25="There's a man here"
+Cmd  93 |     0     0 |   14  32   0   0   0   0   0   0   0   0 |   43   0   0   0 |
+            continued | IF NOWHERE(32="Rabbit's foot")
+                      | MESSAGE 43="He's wearing a rabbit's foot"
+Cmd  94 |     0     0 |   14  25   0   0   0   0   0   0   0   0 |   26   0   0   0 |
+            continued | IF NOWHERE(25="Sapphire ring")
+                      | MESSAGE 26="Wearing a sapphire ring"
+Cmd  95 |    64    64 |    4   1   3   9   3  14   8   6   3  44 |   73  32  88  29 |
+            yel   cha | IF ISROOM(1="chapel")
+                      | IF HERECARRY(9="Brightly glowing idol")
+                      | IF HERECARRY(14="Four leaf clover")
+                      | IF FLAG(6)=TRUE
+                      | IF HERECARRY(44="Doll")
+                      | CONTINUE_NEXT_LINE
+                      | MESSAGE 32="There's a CLAP OF THUNDER!"
+                      | SLEEP 2 SECONDS
+                      | MESSAGE 29="Pins fall out of doll"
+Cmd  96 |     0     0 |    0  65   0   0   0   0   0   0   0   0 |   53  76  34  63 |
+            continued | DROP 65="Smiling Count Cristo"
+                      | LOOK
+                      | MESSAGE 34="HURRAH! Look who is in the..."
+                      | QUIT
+Cmd  97 |    10    75 |    3  42   0  42   0   0   0   0   0   0 |   20  52   0   0 |
+            get   nai | IF HERECARRY(42="Nails")
+                      | MESSAGE 20="OK"
+                      | TAKE 42="Nails"
+Cmd  98 |     1    66 |    2  56   0   0   0   0   0   0   0   0 |   20   0   0   0 |
+             go   pot | IF HERE(56="Open jail cell")
+                      | MESSAGE 20="OK"
+Cmd  99 |    42    42 |    3  38   0   0   0   0   0   0   0   0 |   17   0   0   0 |
+            loo   che | IF HERECARRY(38="Labeled chemicals")
+                      | MESSAGE 17="They appear to be mixable."
+Cmd 100 |    42    66 |    3  16   0   0   0   0   0   0   0   0 |  121   0   0   0 |
+            loo   pot | IF HERECARRY(16="Cast iron pot")
+                      | MESSAGE 71="There's witch's brew there"
+Cmd 101 |    10    47 |   14  32   2  27   0  32   0   0   0   0 |   52  20   0   0 |
+            get   foo | IF NOWHERE(32="Rabbit's foot")
+                      | IF HERE(27="Open Coffin")
+                      | TAKE 32="Rabbit's foot"
+                      | MESSAGE 20="OK"
+Cmd 102 |    10    47 |    3  32   0  32   0   0   0   0   0   0 |   52  20   0   0 |
+            get   foo | IF HERECARRY(32="Rabbit's foot")
+                      | TAKE 32="Rabbit's foot"
+                      | MESSAGE 20="OK"
+Cmd 103 |     1    15 |    2  10   0  22   0   0   0   0   0   0 |   54  20  76   0 |
+             go   win | IF HERE(10="Open Window")
+                      | GOTO 22="on a ledge"
+                      | MESSAGE 20="OK"
+                      | LOOK
+Cmd 104 |    25     9 |    3  43   0   9   0  43   0   0   0   0 |   42  72  76   0 |
+            dus   ido | IF HERECARRY(43="Dusty Idol")
+                      | MESSAGE 42="As I dust of the Idol it be..."
+                      | SWAP ITEMS 9="Brightly glowing idol" AND 43="Dusty Idol"
+                      | LOOK
+Cmd 105 |    29    11 |    2   6   0   6   2   6   0   0   0   0 |   59   0   0   0 |
+            mov   ket | IF HERE(6="Dark hole")
+                      | IF HERE(6="Dark hole")
+                      | DESTROY 6="Dark hole"
+Cmd 106 |    42    11 |    2   5   4   3  14   6   0   0   0   0 |   20  51  50   0 |
+            loo   ket | IF HERE(5="Big kettle")
+                      | IF ISROOM(3="room in the castle")
+                      | IF NOWHERE(6="Dark hole")
+                      | MESSAGE 20="OK"
+                      | MESSAGE 51="I see a hole under it!"
+                      | MESSAGE 50="There's some soup here."
+Cmd 107 |    39    17 |    0   0   0   0   0   0   0   0   0   0 |  111   0   0   0 |
+            clo   doo | MESSAGE 61="won't budge!"
+Cmd 108 |    48     2 |    2   5   0  45   0   0   0   0   0   0 |   20  55   0   0 |
+            dri   sou | IF HERE(5="Big kettle")
+                      | MESSAGE 20="OK"
+                      | DESTROY 45="Wooden boards"
+Cmd 109 |    24    61 |    3  44   0   0   0   0   0   0   0   0 |   73  20   6  88 |
+            wav   sti | IF HERECARRY(44="Doll")
+                      | CONTINUE_NEXT_LINE
+                      | MESSAGE 20="OK"
+                      | MESSAGE 6="Nothing happened"
+                      | SLEEP 2 SECONDS
+Cmd 110 |     0     0 |    3   9   4   1   8   3   0   6   0   0 |   88  32 116  58 |
+            continued | IF HERECARRY(9="Brightly glowing idol")
+                      | IF ISROOM(1="chapel")
+                      | IF FLAG(3)=TRUE
+                      | SLEEP 2 SECONDS
+                      | MESSAGE 32="There's a CLAP OF THUNDER!"
+                      | MESSAGE 66="Double bubble toil & troubl..."
+                      | SET FLAG(6)=TRUE
+Cmd 111 |    50    20 |    2  48   1  49   0  48   0   0   0   0 |  103  20  73  55 |
+            saw   gra | IF HERE(48="GrAting")
+                      | IF CARRY(49="Rusting SAW")
+                      | MESSAGE 53="It's hArd work but it seems..."
+                      | MESSAGE 20="OK"
+                      | CONTINUE_NEXT_LINE
+                      | DESTROY 48="GrAting"
+Cmd 112 |     0     0 |    0  50   0  59   0   0   0   0   0   0 |   53 105  74   0 |
+            continued | DROP 50="Button in the wall"
+                      | MESSAGE 55="I've got it!"
+                      | TAKE_NOCHECK 59="Broken grating"
+Cmd 113 |    27    59 |    2  50   0  18   0   0   0   0   0   0 |  106  54  76   0 |
+            pre   but | IF HERE(50="Button in the wall")
+                      | MESSAGE 56="Heavy duty exhaust fan come..."
+                      | GOTO 18="narrow part of the chimney"
+                      | LOOK
+Cmd 114 |    47     0 |    0   0   0   0   0   0   0   0   0   0 |   63   0   0   0 |
+            qui       | QUIT
+Cmd 115 |     1    77 |    2  31   0  23   0   0   0   0   0   0 |   20  54  76   0 |
+             go   cra | IF HERE(31="Wide crack in the wall")
+                      | MESSAGE 20="OK"
+                      | GOTO 23="hidden VOODOO room"
+                      | LOOK
+Cmd 116 |    42    43 |    3  53   0   0   0   0   0   0   0   0 |  109   0   0   0 |
+            loo   sta | IF HERECARRY(53="Ju-Ju man statue")
+                      | MESSAGE 59="Statue is made of stone"
+Cmd 117 |    56     0 |    3  29   0   0   0   0   0   0   0   0 |   33   0   0   0 |
+            lis       | IF HERECARRY(29="Ju-Ju man")
+                      | MESSAGE 33="Ju-Ju man says:`My bag is n..."
+Cmd 118 |    10    57 |    3  47   0  47   0   0   0   0   0   0 |   52  20   0   0 |
+            get   ham | IF HERECARRY(47="Antique hammer")
+                      | TAKE 47="Antique hammer"
+                      | MESSAGE 20="OK"
+Cmd 119 |    10    57 |    2  34   9   5   0  47   0   5   0   0 |   52  20  58   0 |
+            get   ham | IF HERE(34="Open SAfe")
+                      | IF FLAG(5)=FALSE
+                      | TAKE 47="Antique hammer"
+                      | MESSAGE 20="OK"
+                      | SET FLAG(5)=TRUE
+Cmd 120 |    35    89 |    3  64   0   0   0   0   0   0   0   0 |  124   0   0   0 |
+            rea   pag | IF HERECARRY(64="Page torn from a book")
+                      | MESSAGE 74="...wave the stick and hold..."
+Cmd 121 |    24     0 |    0   0   0   0   0   0   0   0   0   0 |   20   6   0   0 |
+            wav       | MESSAGE 20="OK"
+                      | MESSAGE 6="Nothing happened"
+Cmd 122 |    54     0 |    0   0   0   0   0   0   0   0   0   0 |  126   0   0   0 |
+            shr       | MESSAGE 76="how?"
+Cmd 123 |    35    25 |    3   2  12   4   0   0   0   0   0   0 |    5   4   0   0 |
+            rea   wri | IF HERECARRY(2="Plaque")
+                      | IF NOT HERECARRY(4="Broken glass")
+                      | MESSAGE 5="I can't do that"
+                      | MESSAGE 4="Prints too small for the un..."
+Cmd 124 |    38    44 |   13  29   3  26   0   0   0   0   0   0 |   20   0   0   0 |
+            ope   bag | IF SOMEWHERE(29="Ju-Ju man")
+                      | IF HERECARRY(26="Ju-Ju bag")
+                      | MESSAGE 20="OK"
+Cmd 125 |    42    67 |    4  11   0   0   0   0   0   0   0   0 |   10   0   0   0 |
+            loo   cel | IF ISROOM(11="dungeon")
+                      | MESSAGE 10="I see nothing very special."
+Cmd 126 |    29    30 |    3  57   0   0   0   0   0   0   0   0 |   20   0   0   0 |
+            mov   arm | IF HERECARRY(57="Knight's Suit of Armor")
+                      | MESSAGE 20="OK"
+Cmd 127 |    10    44 |    2  26   0   0   0   0   0   0   0   0 |  127   0   0   0 |
+            get   bag | IF HERE(26="Ju-Ju bag")
+                      | MESSAGE 77="It appears stuck to the floor!"
+Cmd 128 |    35    25 |    3   2   3   4   0   0   0   0   0   0 |    5  11   0   0 |
+            rea   wri | IF HERECARRY(2="Plaque")
+                      | IF HERECARRY(4="Broken glass")
+                      | MESSAGE 5="I can't do that"
+                      | MESSAGE 11="Phosphorescent letters are..."
+Cmd 129 |     1    70 |    4   9   2   1   0   0   0   0   0   0 |   49   0   0   0 |
+             go   led | IF ISROOM(9="room in the castle")
+                      | IF HERE(1="Ledge")
+                      | MESSAGE 49="Bird says: `ask for ADVENTU..."
+Cmd 130 |    56     0 |    4  15  13  35   0   0   0   0   0   0 |  104 132   0   0 |
+            lis       | IF ISROOM(15="large fireplace")
+                      | IF SOMEWHERE(35="Stuck Chimney Sweep")
+                      | MESSAGE 54="I hear strange sounds, as i..."
+                      | MESSAGE 82="Its very faint."
+Cmd 131 |    56     0 |   13  35   4  14   0   0   0   0   0   0 |  104 133   0   0 |
+            lis       | IF SOMEWHERE(35="Stuck Chimney Sweep")
+                      | IF ISROOM(14="Chimney")
+                      | MESSAGE 54="I hear strange sounds, as i..."
+                      | MESSAGE 83="Its much louder up here."
+Cmd 132 |     1     8 |    2  27   0   0   0   0   0   0   0   0 |  128   0   0   0 |
+             go   cof | IF HERE(27="Open Coffin")
+                      | MESSAGE 78="There's no room in there fo..."
+Cmd 133 |    10     2 |    2   5   0   0   0   0   0   0   0   0 |  130   0   0   0 |
+            get   sou | IF HERE(5="Big kettle")
+                      | MESSAGE 80="I've no container."
+Cmd 134 |     1    12 |    2  62   0   6   0  23   0   0   0   0 |   54  76  38  59 |
+             go   hol | IF HERE(62="Hole in the wall")
+                      | GOTO 6="in Medium Maegen's Mad Room"
+                      | LOOK
+                      | MESSAGE 38="You startled medium & she v..."
+                      | DESTROY 23="Spirit Medium"
+Cmd 135 |    42    32 |    3  25   0   0   0   0   0   0   0   0 |   18   0   0   0 |
+            loo   rin | IF HERECARRY(25="Sapphire ring")
+                      | MESSAGE 18="There's something written t..."
+Cmd 136 |    69     9 |    3  43   3   0   0   0   0   0   0   0 |  129 131   0   0 |
+            cut   ido | IF HERECARRY(43="Dusty Idol")
+                      | IF HERECARRY(0="Bloody Knife")
+                      | MESSAGE 79="My idol acted strange"
+                      | MESSAGE 81="Some dust fell off it and i..."
+Cmd 137 |    69     0 |    3   0   0   0   0   0   0   0   0   0 |   20   6 149   0 |
+            cut       | IF HERECARRY(0="Bloody Knife")
+                      | MESSAGE 20="OK"
+                      | MESSAGE 6="Nothing happened"
+                      | MESSAGE 99="Knife made no impression on..."
+Cmd 138 |    42    44 |   13  52  14  54  13  29   3  26   0   0 |  135   0   0   0 |
+            loo   bag | IF SOMEWHERE(52="Voodoo book")
+                      | IF NOWHERE(54="Stick")
+                      | IF SOMEWHERE(29="Ju-Ju man")
+                      | IF HERECARRY(26="Ju-Ju bag")
+                      | MESSAGE 85="There's a stick there."
+Cmd 139 |    10    63 |    3  26  13  29   0  52  14  52   0   0 |   52  20   0   0 |
+            get   boo | IF HERECARRY(26="Ju-Ju bag")
+                      | IF SOMEWHERE(29="Ju-Ju man")
+                      | IF NOWHERE(52="Voodoo book")
+                      | TAKE 52="Voodoo book"
+                      | MESSAGE 20="OK"
+Cmd 140 |    10    63 |    3  52   0  52   0   0   0   0   0   0 |   52  20   0   0 |
+            get   boo | IF HERECARRY(52="Voodoo book")
+                      | TAKE 52="Voodoo book"
+                      | MESSAGE 20="OK"
+Cmd 141 |    10    61 |    3  26  14  54   0  54  13  29   0   0 |   52  20   0   0 |
+            get   sti | IF HERECARRY(26="Ju-Ju bag")
+                      | IF NOWHERE(54="Stick")
+                      | IF SOMEWHERE(29="Ju-Ju man")
+                      | TAKE 54="Stick"
+                      | MESSAGE 20="OK"
+Cmd 142 |    10    61 |    3  54   0  54   0   0   0   0   0   0 |   52  20   0   0 |
+            get   sti | IF HERECARRY(54="Stick")
+                      | TAKE 54="Stick"
+                      | MESSAGE 20="OK"
+Cmd 143 |     1    17 |    2  41   0  19   0   0   0   0   0   0 |   54  76   0   0 |
+             go   doo | IF HERE(41="Wide open door")
+                      | GOTO 19="Graveyard"
+                      | LOOK
+Cmd 144 |    60    13 |    4   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            sha   swo | IF ISROOM(0="")
+Cmd 145 |    42     9 |    3  43   0   0   0   0   0   0   0   0 |  136  10   0   0 |
+            loo   ido | IF HERECARRY(43="Dusty Idol")
+                      | MESSAGE 86="Boy it looks dusty."
+                      | MESSAGE 10="I see nothing very special."
+Cmd 146 |    42     9 |    3   9   0   0   0   0   0   0   0   0 |  137   0   0   0 |
+            loo   ido | IF HERECARRY(9="Brightly glowing idol")
+                      | MESSAGE 87="Its glowing."
+Cmd 147 |    22    20 |    3  39   0   0   0   0   0   0   0   0 |   19 138   0   0 |
+            dig   gra | IF HERECARRY(39="Pocket Shovel")
+                      | MESSAGE 19="A sepulchral voice says:"
+                      | MESSAGE 88="Strange hobby you have"
+Cmd 148 |    50     0 |    1  49   2  58   0  11   0   0   0   0 |  123  54  64   0 |
+            saw       | IF CARRY(49="Rusting SAW")
+                      | IF HERE(58="Closed cell door")
+                      | MESSAGE 73="You've been sprung"
+                      | GOTO 11="dungeon"
+                      | LOOK
+Cmd 149 |    56    81 |    4   9   0   0   0   0   0   0   0   0 |   49   0   0   0 |
+            lis   cry | IF ISROOM(9="room in the castle")
+                      | MESSAGE 49="Bird says: `ask for ADVENTU..."
+Cmd 150 |    38    15 |    4   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            ope   win | IF ISROOM(0="")
+Cmd 151 |    62     0 |    2  28   0   8   0   0   0   0   0   0 |   54  76   0   0 |
+            sli       | IF HERE(28="Slick chute leading downward")
+                      | GOTO 8="room in the castle"
+                      | LOOK
+Cmd 152 |    56     0 |    2  35   0   0   0   0   0   0   0   0 |   45   0   0   0 |
+            lis       | IF HERE(35="Stuck Chimney Sweep")
+                      | MESSAGE 45="HELP ME, I'm stuck!"
+Cmd 153 |    15     0 |    4  10   0   0   0   0   0   0   0   0 |  139   0   0   0 |
+            hel       | IF ISROOM(10="Ballroom")
+                      | MESSAGE 89="Check out the fireplace."
+Cmd 154 |    63     0 |    0   0   0   0   0   0   0   0   0   0 |   20   6   0   0 |
+            dan       | MESSAGE 20="OK"
+                      | MESSAGE 6="Nothing happened"
+Cmd 155 |    64     0 |    0   0   0   0   0   0   0   0   0   0 |   20  85   6   0 |
+            yel       | MESSAGE 20="OK"
+                      | WRITELINE NOUN
+                      | MESSAGE 6="Nothing happened"
+Cmd 156 |    10    75 |    2  46   1  47   0  46   0  45   0  42 |  102  72  74   0 |
+            get   nai | IF HERE(46="Wood boards nailed to chimn...")
+                      | IF CARRY(47="Antique hammer")
+                      | MESSAGE 52="Nails were rusted but I got..."
+                      | SWAP ITEMS 46="Wood boards nailed to chimn..." AND 45="Wooden boards"
+                      | TAKE_NOCHECK 42="Nails"
+Cmd 157 |    23    74 |    1  32   0  32   0   0   0   0   0   0 |   53  20   0   0 |
+             on   flo | IF CARRY(32="Rabbit's foot")
+                      | DROP 32="Rabbit's foot"
+                      | MESSAGE 20="OK"
+Cmd 158 |    10    56 |    3  45   0  45   9   8   0  48   0   8 |   52  53  58   0 |
+            get   boa | IF HERECARRY(45="Wooden boards")
+                      | IF FLAG(8)=FALSE
+                      | TAKE 45="Wooden boards"
+                      | DROP 48="GrAting"
+                      | SET FLAG(8)=TRUE
+Cmd 159 |    10    56 |    3  45   0  45   0   0   0   0   0   0 |   52  20   0   0 |
+            get   boa | IF HERECARRY(45="Wooden boards")
+                      | TAKE 45="Wooden boards"
+                      | MESSAGE 20="OK"
+Cmd 160 |    10    29 |    0   0   0   0   0   0   0   0   0   0 |  130   0   0   0 |
+            get   bre | MESSAGE 80="I've no container."
+Cmd 161 |    15     0 |    2  48   0   0   0   0   0   0   0   0 |  143   0   0   0 |
+            hel       | IF HERE(48="GrAting")
+                      | MESSAGE 93="Saw grating!"
+Cmd 162 |    51    42 |    3  38   0  40   0  38   0   0   0   0 |   72  20   0   0 |
+            mix   che | IF HERECARRY(38="Labeled chemicals")
+                      | SWAP ITEMS 40="Mixed Chemicals" AND 38="Labeled chemicals"
+                      | MESSAGE 20="OK"
+Cmd 163 |    15    52 |    2  35   0   0   0   0   0   0   0   0 |  126   0   0   0 |
+            hel   swe | IF HERE(35="Stuck Chimney Sweep")
+                      | MESSAGE 76="how?"
+Cmd 164 |    72     9 |    3  43   0   0   0   0   0   0   0   0 |  129 131   0   0 |
+            rub   ido | IF HERECARRY(43="Dusty Idol")
+                      | MESSAGE 79="My idol acted strange"
+                      | MESSAGE 81="Some dust fell off it and i..."
+Cmd 165 |    42     0 |    0   0   0   0   0   0   0   0   0   0 |   76  10   0   0 |
+            loo       | LOOK
+                      | MESSAGE 10="I see nothing very special."
+Cmd 166 |    69     0 |    6   0   0   0   0   0   0   0   0   0 |    5 144   0   0 |
+            cut       | IF NOT CARRY(0="Bloody Knife")
+                      | MESSAGE 5="I can't do that"
+                      | MESSAGE 94="I haven't got a knife!"
+Cmd 167 |    56     0 |    0   0   0   0   0   0   0   0   0   0 |  110   0   0   0 |
+            lis       | MESSAGE 60="I hear nothing."
+Cmd 168 |    10    32 |    2  25   0  25   0   0   0   0   0   0 |   52  20   0   0 |
+            get   rin | IF HERE(25="Sapphire ring")
+                      | TAKE 25="Sapphire ring"
+                      | MESSAGE 20="OK"
+Cmd 169 |    73    66 |    0   0   0   0   0   0   0   0   0   0 |  115   0   0   0 |
+            smo   pot | MESSAGE 65="That's illegal!"
+Cmd 170 |    32    33 |    3  36   6   7   0  25   0   0   0   0 |   54  64  14  73 |
+            bre   tub | IF HERECARRY(36="Chem tubes")
+                      | IF NOT CARRY(7="Shield")
+                      | GOTO 25="lot of TROUBLE!"
+                      | LOOK
+                      | MESSAGE 14="One of the test tubes EXPLO..."
+                      | CONTINUE_NEXT_LINE
+Cmd 171 |    50     0 |    1  49   0   0   0   0   0   0   0   0 |   20   6   0   0 |
+            saw       | IF CARRY(49="Rusting SAW")
+                      | MESSAGE 20="OK"
+                      | MESSAGE 6="Nothing happened"
+Cmd 172 |    35    87 |    3  60   0   0   0   0   0   0   0   0 |   20   9   0   0 |
+            rea   lea | IF HERECARRY(60="Advertising leaflet")
+                      | MESSAGE 20="OK"
+                      | MESSAGE 9="For a reading just `SUMMON..."
+Cmd 173 |    22     0 |    3  39   0   0   0   0   0   0   0   0 |   20   6   0   0 |
+            dig       | IF HERECARRY(39="Pocket Shovel")
+                      | MESSAGE 20="OK"
+                      | MESSAGE 6="Nothing happened"
+Cmd 174 |     1    77 |    2  61   0   0   0   0   0   0   0   0 |    5  37 147   0 |
+             go   cra | IF HERE(61="Crack in the wall")
+                      | MESSAGE 5="I can't do that"
+                      | MESSAGE 37="I'm too big"
+                      | MESSAGE 97="It will take some strong ma..."
+Cmd 175 |    15     0 |    0   0   0   0   0   0   0   0   0   0 |    6   0   0   0 |
+            hel       | MESSAGE 6="Nothing happened"
+Cmd 176 |    38    28 |    2  37   0   0   0   0   0   0   0   0 |   21   0   0   0 |
+            ope   saf | IF HERE(37="Closed SAfe")
+                      | MESSAGE 21="Safe's combination lock is..."
+Cmd 177 |    32    43 |    3  53   0  53   0  63   0   0   0   0 |   20  72   0   0 |
+            bre   sta | IF HERECARRY(53="Ju-Ju man statue")
+                      | MESSAGE 20="OK"
+                      | SWAP ITEMS 53="Ju-Ju man statue" AND 63="Pieces of rock"
+Cmd 178 |    40    83 |    2  37   0   1   0   0   0   0   0   0 |   60  20   0   0 |
+            tur    34 | IF HERE(37="Closed SAfe")
+                      | SET FLAG(1)=FALSE
+                      | MESSAGE 20="OK"
+Cmd 179 |    40    84 |    2  37   0   1   0   0   0   0   0   0 |   60  20   0   0 |
+            tur    35 | IF HERE(37="Closed SAfe")
+                      | SET FLAG(1)=FALSE
+                      | MESSAGE 20="OK"
+Cmd 180 |    40    85 |    2  37   0   1   0   0   0   0   0   0 |   60  20   0   0 |
+            tur    36 | IF HERE(37="Closed SAfe")
+                      | SET FLAG(1)=FALSE
+                      | MESSAGE 20="OK"
+Cmd 181 |    40    86 |    2  37   0   1   0   0   0   0   0   0 |   60  20   0   0 |
+            tur    37 | IF HERE(37="Closed SAfe")
+                      | SET FLAG(1)=FALSE
+                      | MESSAGE 20="OK"
+Cmd 182 |    35    32 |    3  25   0   0   0   0   0   0   0   0 |  145   0   0   0 |
+            rea   rin | IF HERECARRY(25="Sapphire ring")
+                      | MESSAGE 95="Inscription on ring says: `..."
+Cmd 183 |    38    15 |    2  19   0   0   0   0   0   0   0   0 |  111   0   0   0 |
+            ope   win | IF HERE(19="Closed Window")
+                      | MESSAGE 61="won't budge!"
+Cmd 184 |    72    32 |    3  25   0   0   0   0   0   0   0   0 |   18   0   0   0 |
+            rub   rin | IF HERECARRY(25="Sapphire ring")
+                      | MESSAGE 18="There's something written t..."
+Cmd 185 |    72     0 |    0   0   0   0   0   0   0   0   0   0 |   20   6   0   0 |
+            rub       | MESSAGE 20="OK"
+                      | MESSAGE 6="Nothing happened"
+Cmd 186 |    40    69 |    2  37   0   0   0   0   0   0   0   0 |  148   0   0   0 |
+            tur   loc | IF HERE(37="Closed SAfe")
+                      | MESSAGE 98="Use a number!"
+Cmd 187 |    40    39 |    2  37   0   1   0   0   0   0   0   0 |   60  20   0   0 |
+            tur    33 | IF HERE(37="Closed SAfe")
+                      | SET FLAG(1)=FALSE
+                      | MESSAGE 20="OK"
+Cmd 188 |    40    37 |    2  37   0   1   0   0   0   0   0   0 |   60  20   0   0 |
+            tur    38 | IF HERE(37="Closed SAfe")
+                      | SET FLAG(1)=FALSE
+                      | MESSAGE 20="OK"
+Cmd 189 |    75    55 |    3  44   0   0   0   0   0   0   0   0 |   23   0   0   0 |
+            hug   dol | IF HERECARRY(44="Doll")
+                      | MESSAGE 23="OUCH"
+
+// END OF FILE

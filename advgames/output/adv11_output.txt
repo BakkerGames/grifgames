@@ -1,0 +1,1853 @@
+Unknown        = 4756
+ItemCount      = 48
+CommandCount   = 247
+VerbNounCount  = 79
+RoomCount      = 30
+MaxInventory   = 6
+StartRoom      = 30
+TreasureCount  = 0
+WordLength     = 4
+LightMoves     = 150
+MessageCount   = 95
+TreasureRoom   = 0
+
+Cmd   0:    100    428    140      0      0      0   9000      0
+Cmd   1:    100    484    140      0      0      0   8700      0
+Cmd   2:    100    184    953    428    140      0   9000      0
+Cmd   3:    100     28     49      0      0      0   1563      0
+Cmd   4:    100     29     20      0      0      0    358   1211
+Cmd   5:    100    364    683    700    680    520  10858      0
+Cmd   6:    100    164    683    700    680    520  10858      0
+Cmd   7:    100     24    683    700    680    520  10858      0
+Cmd   8:    100    224    683    700    680    520  10858      0
+Cmd   9:    100    528    520     60    100     60   9081  11931
+Cmd  10:    100    801      0      0      0      0   3600      0
+Cmd  11:    100    146    161    160      0      0   8850      0
+Cmd  12:    100    368     20      0      0      0  12227  10950
+Cmd  13:      0     55      0      0      0      0   3600      0
+Cmd  14:      0     15    148    120    360      0   9060  13288
+Cmd  15:      0    369      0      0      0      0  13288   3811
+Cmd  16:      0     15    100    368    360    149   3960   9000
+Cmd  17:      0     20      0      0      0      0  12150      0
+Cmd  18:    100    204    428    953      0      0  18725   9169
+Cmd  19:    100    128    148    109      0      0   3388  13273
+Cmd  20:      0      0      0      0      0      0  13288   3511
+Cmd  21:    100    148    120      0      0      0   3358      0
+Cmd  22:    100    128    149    120      0      0   9000      0
+Cmd  23:      8    228    209    243      0      0   4683   4561
+Cmd  24:    100    229    243    220      0      0   8700      0
+Cmd  25:    100    208    220     40      0      0   9081  11623
+Cmd  26:      0     95    243      0      0      0   4680   5100
+Cmd  27:      0     15    200      0      0      0   9000      0
+Cmd  28:      0     40      0      0      0      0  12150      0
+Cmd  29:     50    267    253    209    240    214   7950      0
+Cmd  30:      8    213      0      0      0      0   9919   9150
+Cmd  31:    100    569    353     80      0      0  12223  11550
+Cmd  32:      0     15    560      0      0      0   8700      0
+Cmd  33:      0     80      0      0      0      0  12150      0
+Cmd  34:     30    243    209      0      0      0   4692   3600
+Cmd  35:    100    209    261    260    240      0   8903      0
+Cmd  36:    100    264    242    260      0      0   8700      0
+Cmd  37:    100    264    245    260    345      0   9000      0
+Cmd  38:    100    264    342    260      0      0   8700      0
+Cmd  39:    100    148    343    340    200      0  10800      0
+Cmd  40:    100    148    261    240    200    260  10859      0
+Cmd  41:    100     24    342    340     40      0  21512      0
+Cmd  42:    100    463    425    460    425      0  11285   7200
+Cmd  43:    100    674    340    347    140    607  19854  11460
+Cmd  44:    100    607    713     60      0      0  12227  10950
+Cmd  45:      0     15      0      0      0      0  16219   9150
+Cmd  46:      0     60      0      0      0      0  12150      0
+Cmd  47:    100    901      0      0      0      0   1328  13273
+Cmd  48:      0      0      0      0      0      0  13288  13329
+Cmd  49:      0      0      0      0      0      0  13288  13330
+Cmd  50:    100    674    508    352    214    440   8700      0
+Cmd  51:    100    364    342    340     40      0  21512      0
+Cmd  52:    100    604     48      0      0      0   9450      0
+Cmd  53:   8768    963    149      0      0      0    223  20700
+Cmd  54:      0     44     89     80      0      0   8708   1800
+Cmd  55:      0    244    289    280      0      0   8708   5412
+Cmd  56:   3523    963    309      0      0      0    167  20400
+Cmd  57:   8712    963      0      0      0      0  20923      0
+Cmd  58:      0    663    660      0      0      0   8938  13288
+Cmd  59:   1573    963    960      0      0      0    202      0
+Cmd  60:   1573    524    974    960      0      0    202      0
+Cmd  61:   1059     63    248      0      0      0   6114  17061
+Cmd  62:   8755    963      0      0      0      0  20550      0
+Cmd  63:   1059    423    248      0      0      0  18349  18415
+Cmd  64:   3496    524    309      0      0      0    167  20173
+Cmd  65:      0    974      0      0      0      0  21000      0
+Cmd  66:   5550      0      0      0      0      0  18900      0
+Cmd  67:  10200      0      0      0      0      0  19050      0
+Cmd  68:    220      0      0      0      0      0   2512      0
+Cmd  69:   2578      0      0      0      0      0   2100      0
+Cmd  70:   3467     22    309      0      0      0    167    750
+Cmd  71:   3467    222    309      0      0      0    167    750
+Cmd  72:   4069    222      0      0      0      0    150      0
+Cmd  73:   4069    422      0      0      0      0    150      0
+Cmd  74:    161     42    364     40     40    140   8153   8773
+Cmd  75:      0    703    540      0      0      0   9000      0
+Cmd  76:    161    783      0      0      0      0   6112      0
+Cmd  77:    161    488     44    360     40    140   8153   9073
+Cmd  78:      0    683    540      0      0      0   8700      0
+Cmd  79:    161    489     44     20     40    140   8153   9073
+Cmd  80:      0    683    540      0      0      0   8700      0
+Cmd  81:    161    382    309      0      0      0   2446      0
+Cmd  82:    161    302    204    220    300    140   8153   9076
+Cmd  83:    161    302    224    200    300    140   8153   8776
+Cmd  84:   1542    149     20    100     20      0  12229  12223
+Cmd  85:      0    360    100      0      0      0   8760      0
+Cmd  86:    161    122     84    160    120    140   8153   9076
+Cmd  87:    161    122    164     80    120    140   8153   8776
+Cmd  88:   5700    168    149    160      0      0   6510  13288
+Cmd  89:   5700    160    149    100    360    169    208   9060
+Cmd  90:   5877    160    149    100    360      0    208   9060
+Cmd  91:   8447    521      0      0      0      0    182   7200
+Cmd  92:   5878    109    100    360     20      0   8758  12223
+Cmd  93:      0    100     20    169      0      0  11931    150
+Cmd  94:      0    140     20    160    168    249  11931   9001
+Cmd  95:      0    340     20    160    168    248  11931   9001
+Cmd  96:    161     42     24     40     40    140   8153   8773
+Cmd  97:      0    703    540      0      0      0   9000      0
+Cmd  98:   5879    149     20    100     20      0  12229  12223
+Cmd  99:      0    360    100      0      0      0   8760      0
+Cmd 100:   4363     40    140     49    369      0   8752  10953
+Cmd 101:      0     20      0      0      0      0    607   1404
+Cmd 102:   4366     49     40     20      0      0    508    654
+Cmd 103:   4069     22    940      0      0      0    209      0
+Cmd 104:   3467     63    309      0      0      0    155      0
+Cmd 105:   4069     63     89      0      0      0    158   1650
+Cmd 106:   4069    322    268    288    248      0   1344      0
+Cmd 107:   3459    309      0      0      0      0    163      0
+Cmd 108:   3474    309      0      0      0      0    167   3170
+Cmd 109:   3480    189     83    180    100     80   4108  11326
+Cmd 110:   6931    103    149    369      0      0    178   4529
+Cmd 111:   6031    103    100      0      0      0   4378   3811
+Cmd 112:   7231    103    100    149      0      0   8923      0
+Cmd 113:      0    369      0      0      0      0   4378   3811
+Cmd 114:      0    242    200      0      0      0   8731   4350
+Cmd 115:      0    242     40    800     40      0  12229  12150
+Cmd 116:   1532    242      0      0      0      0   2132      0
+Cmd 117:   9932    242    240    260    208      0    202   7866
+Cmd 118:   7231    103    100    148      0      0    209      0
+Cmd 119:   7682    243    209      0      0      0   4683   4561
+Cmd 120:    221    484      0      0      0      0    275   9150
+Cmd 121:   8732    243      0      0      0      0    150      0
+Cmd 122:   3472    743    309      0      0      0   2667   4650
+Cmd 123:   2732    241    240    260      0      0    203   8850
+Cmd 124:   8447    143    140    160      0      0    202   7800
+Cmd 125:   8597    163    160      0      0      0    209      0
+Cmd 126:   8897    143    160    140    280      0    209  10800
+Cmd 127:   3467    322    309      0      0      0    167    750
+Cmd 128:   7716    823    820    840      0      0    258  10800
+Cmd 129:   4069    322    268    289      0      0    158   1650
+Cmd 130:   4069    322    269      0      0      0   1236   5712
+Cmd 131:    210    542      0      0      0      0    230  11400
+Cmd 132:   4069    322    268    288    240    249    153  11009
+Cmd 133:      0    166      0      0      0      0   5911   9450
+Cmd 134:      0    340    160    140    280      0   8009   8910
+Cmd 135:      0    260    240      0      0      0   8158   8476
+Cmd 136:      0    380    260      0      0      0   4240   8760
+Cmd 137:      0     83     80      0      0      0   8850      0
+Cmd 138:      0     80    500     80      0      0  12229  12150
+Cmd 139:   3496    544    309      0      0      0   2691      0
+Cmd 140:   9188    308      0      0      0      0    207  11400
+Cmd 141:   3486    309    248      0      0      0    167   4691
+Cmd 142:  10397    463      0      0      0      0    197      0
+Cmd 143:   4384    322    268    289    249    280   8708   5412
+Cmd 144:   9488      0      0      0      0      0    206  11400
+Cmd 145:   6030     83     80      0      0      0    209      0
+Cmd 146:   8768    963    148      0      0      0    156   2700
+Cmd 147:   4070      0      0      0      0      0   2445      0
+Cmd 148:   9920      0      0      0      0      0   2445      0
+Cmd 149:   3494    363     94     80      0      0   2577   8026
+Cmd 150:  10397    283      0      0      0      0    197      0
+Cmd 151:   3467    423    309      0      0      0   2555      0
+Cmd 152:   3470    423    309      0      0      0   2599      0
+Cmd 153:  10670    423    280    440    283    460   8903   7951
+Cmd 154:  10670    423    460    463    440      0   8903    150
+Cmd 155:  10709    423    463    460    500      0   8903    150
+Cmd 156:  10709    423    283    280    500    460   8903   7951
+Cmd 157:      0      0      0      0      0      0      0      0
+Cmd 158:      0      0      0      0      0      0      0      0
+Cmd 159:  10547    463    500    440    460    280   8909  10801
+Cmd 160:  10547    503    460    440    500    280   8909  10801
+Cmd 161:   3464    423    309      0      0      0    171  18269
+Cmd 162:  10547    523    520    280      0      0  10801      0
+Cmd 163:   3464    683    309      0      0      0    171  18270
+Cmd 164:  10697    283    520    280      0      0  10801      0
+Cmd 165:  10397    523      0      0      0      0   2415      0
+Cmd 166:  10397    283      0      0      0      0   2415      0
+Cmd 167:   3497    523    309      0      0      0    167   7500
+Cmd 168:    197    521      0      0      0      0    178   4080
+Cmd 169:    197    522      0      0      0      0    223      0
+Cmd 170:      0    522     44    300    540      0  12054   8026
+Cmd 171:      0    522    404    520    540      0  12054   8026
+Cmd 172:      0    522    280    540      0      0  12054   8026
+Cmd 173:      0      0      0      0      0      0      0      0
+Cmd 174:      0      0      0      0      0      0      0      0
+Cmd 175:   9932    243    209      0      0      0   4683   4561
+Cmd 176:   6347    523      0      0      0      0    178   4090
+Cmd 177:   1108    723      0      0      0      0   2660      0
+Cmd 178:   3507    683    309      0      0      0   2672  17359
+Cmd 179:   2753    563    400      0      0      0    210      0
+Cmd 180:   3491    388    203    380    140      0   1410   7950
+Cmd 181:    209    482    320      0      0      0    204  11400
+Cmd 182:   1553    563    400      0      0      0    208  15300
+Cmd 183:   1200    324    409    220      0      0    204  11400
+Cmd 184:   1350    324    409    220      0      0    204  11400
+Cmd 185:   1200    324    513    453      0      0   2445      0
+Cmd 186:   1350    324    513    453    429    420   8749   5130
+Cmd 187:   1350    324    513    453    428      0   2445      0
+Cmd 188:   9947    463      0      0      0      0   2445      0
+Cmd 189:   3472    582    309      0      0      0   2654  10950
+Cmd 190:      0    469      0      0      0      0   2581      0
+Cmd 191:   4069    582    469    460    600      0   8753   2623
+Cmd 192:      0    240      0      0      0      0   7981   1316
+Cmd 193:   4069    622    449      0      0      0  15769   9150
+Cmd 194:   4069    622    448      0      0      0  15856   9450
+Cmd 195:   3506    643      0      0      0      0   6021  16050
+Cmd 196:   4069     63     88    489    480      0    208    523
+Cmd 197:      0    548    500    700      0      0   8759      0
+Cmd 198:   3504    403      0      0      0      0   2672  18523
+Cmd 199:      0    509      0      0      0      0  15450      0
+Cmd 200:   4069     63    488     88    480      0    210    523
+Cmd 201:      0    548    500    700      0      0   8759      0
+Cmd 202:   1200    324    408      0      0      0    171   5100
+Cmd 203:   1350    324    408      0      0      0    171   5100
+Cmd 204:    172    602    340      0      0      0    204  11400
+Cmd 205:   3482    583    469    309      0      0    167   5581
+Cmd 206:   3482    243    309    208      0      0   4350      0
+Cmd 207:   4350    149    248    369      0      0    174      0
+Cmd 208:   3482    243    309      0      0      0    167   5581
+Cmd 209:   3497    143    309      0      0      0    907   3035
+Cmd 210:   1059     22    248    309      0      0    167  20250
+Cmd 211:   1059    222    248    309      0      0    167  19650
+Cmd 212:   1059    322    248    309      0      0   6114  17068
+Cmd 213:    900      0      0      0      0      0   7650      0
+Cmd 214:   1350      0      0      0      0      0   7650      0
+Cmd 215:   1200      0      0      0      0      0   7650      0
+Cmd 216:  10650      0      0      0      0      0   2415   7200
+Cmd 217:   7650      0      0      0      0      0   2415      0
+Cmd 218:   6750    309      0      0      0      0   9900      0
+Cmd 219:   1507    309      0      0      0      0   9900      0
+Cmd 220:   4950      0      0      0      0      0   2415      0
+Cmd 221:   4069    582    614    600      0      0    203      0
+Cmd 222:   4350    149    249    369      0      0    235      0
+Cmd 223:   5258      0      0      0      0      0    221      0
+Cmd 224:   5400      0      0      0      0      0    213      0
+Cmd 225:   6300      0      0      0      0      0    178    900
+Cmd 226:   9300      0      0      0      0      0    235      0
+Cmd 227:   1050    309      0      0      0      0   2512  16950
+Cmd 228:   4082    243      0      0      0      0   3184      0
+Cmd 229:   4069    603    600      0      0      0    209      0
+Cmd 230:    161    942    184    480    920    940    204   8003
+Cmd 231:    161    942    484    180    920    940    204   8003
+Cmd 232:    161    945    184    480    920      0    204   7950
+Cmd 233:    161    945    484    180    920      0    204   7950
+Cmd 234:   9150      0      0      0      0      0   2512      0
+Cmd 235:   3520    309      0      0      0      0  19950      0
+Cmd 236:   3510    542    309      0      0      0   2600      0
+Cmd 237:      0      0      0      0      0      0      0      0
+Cmd 238:   9947    143    160    140    280      0    209  10800
+Cmd 239:    224    484      0      0      0      0   2512      0
+Cmd 240:   5850    149    100    360      0      0    210   9026
+Cmd 241:  11014    803      0      0      0      0    292      0
+Cmd 242:   3485    309    343      0      0      0  10950      0
+Cmd 243:      0    569      0      0      0      0   4350      0
+Cmd 244:      0    388    140    380      0      0   1403   9000
+Cmd 245:      0    568      0      0      0      0   6600      0
+Cmd 246:      0      0      0      0      0      0      0      0
+Cmd 247:   3450    309      0      0      0      0    167    976
+
+Verb  0: AUTO   Noun  0: ANY
+Verb  1: GO     Noun  1: NORTH
+Verb  2: *ENTE  Noun  2: SOUTH
+Verb  3: *CRAW  Noun  3: EAST
+Verb  4:        Noun  4: WEST
+Verb  5:        Noun  5: UP
+Verb  6: JUMP   Noun  6: DOWN
+Verb  7: READ   Noun  7: INVE
+Verb  8: WALK   Noun  8: GAME
+Verb  9: RUN    Noun  9: DIAL
+Verb 10: GET    Noun 10: *SCRI
+Verb 11: *TAKE  Noun 11: FIEL
+Verb 12: *GRAB  Noun 12: BLUE
+Verb 13: *PICK  Noun 13: 123
+Verb 14: *HOLD  Noun 14: ATOM
+Verb 15: *CATC  Noun 15: *PICT
+Verb 16: .      Noun 16: 474
+Verb 17: WORK   Noun 17: CONT
+Verb 18: DROP   Noun 18: *CONS
+Verb 19: *LEAV  Noun 19: BUTT
+Verb 20: *PUT   Noun 20: LEVE
+Verb 21: *RELE  Noun 21: *HAND
+Verb 22: *GIVE  Noun 22: DISP
+Verb 23: LOOK   Noun 23: *CASE
+Verb 24: *EXAM  Noun 24: META
+Verb 25: *DESC  Noun 25: *TUNN
+Verb 26: *SEE   Noun 26: *ROOM
+Verb 27: PUSH   Noun 27: DEEP
+Verb 28: *PRES  Noun 28: OUT
+Verb 29: SAY    Noun 29: IN
+Verb 30: *SPEA  Noun 30: PLAN
+Verb 31: *TALK  Noun 31: FLOW
+Verb 32: *ASK   Noun 32: NEAN
+Verb 33: USE    Noun 33: *CAVE
+Verb 34: *WITH  Noun 34: FREE
+Verb 35: SAVE   Noun 35: ME
+Verb 36: QUIT   Noun 36: SELF
+Verb 37: HELP   Noun 37: *MYSE
+Verb 38: HYPE   Noun 38: EYES
+Verb 39: BREA   Noun 39: FREE
+Verb 40: EAT    Noun 40: ARGH
+Verb 41: *TAST  Noun 41: CORP
+Verb 42: FEEL   Noun 42: BREA
+Verb 43: *TOUC  Noun 43: PASS
+Verb 44:        Noun 44: HYDR
+Verb 45: INVE   Noun 45: LIGH
+Verb 46: SMEL   Noun 46: MACH
+Verb 47: *SNIF  Noun 47: BAND
+Verb 48: CRUS   Noun 48: *THRE
+Verb 49: *CRUM  Noun 49: *LOOP
+Verb 50: *SMAS  Noun 50: *ITSE
+Verb 51: HIT    Noun 51: *END
+Verb 52: *TEAR  Noun 52: *CENT
+Verb 53: *RIP   Noun 53: RAIL
+Verb 54: *PUNC  Noun 54: VIEW
+Verb 55: .      Noun 55: SLID
+Verb 56: WEAR   Noun 56: PIRA
+Verb 57: REMO   Noun 57: BLOC
+Verb 58: MOVE   Noun 58: SIGN
+Verb 59: UNRA   Noun 59: TREA
+Verb 60: *UNDO  Noun 60: HOLE
+Verb 61: OPEN   Noun 61: BOXE
+Verb 62: THIN   Noun 62: *CRAT
+Verb 63: CLOS   Noun 63: *BOX
+Verb 64: *SHUT  Noun 64: BALL
+Verb 65:        Noun 65: *MEDI
+Verb 66: DRAG   Noun 66: BAG
+Verb 67: *PULL  Noun 67: *CLOT
+Verb 68: EXHA   Noun 68: RED
+Verb 69: TIE    Noun 69: WAFE
+Verb 70: UNTI   Noun 70: PLAT
+Verb 71: TO     Noun 71: OUTE
+Verb 72: SCOR   Noun 72: *SPAC
+Verb 73: KICK   Noun 73: DEVI
+Verb 74:        Noun 74: LIFE
+Verb 75:        Noun 75: FAST
+Verb 76:        Noun 76: SLOW
+Verb 77:        Noun 77: HANG
+Verb 78:        Noun 78: ENGI
+Verb 79:        Noun 79: 
+
+Room  0: 
+
+Room  1: small metal room
+
+Room  2: metal room
+         E:     3
+
+Room  3: metal lined tunnel
+         S:     6
+         W:     2
+
+Room  4: metal room
+         E:     5
+
+Room  5: metal lined tunnel
+         E:     6
+         W:     4
+
+Room  6: metal lined tunnel
+         N:     3
+         E:     7
+         W:     5
+
+Room  7: metal lined tunnel
+         N:     9
+         W:     6
+
+Room  8: metal room
+         N:    19
+
+Room  9: metal lined tunnel
+         N:    25
+         S:     7
+
+Room 10: metal room
+         S:    25
+
+Room 11: metal room
+         N:    21
+
+Room 12: red metal room
+         S:    19
+         E:    13
+
+Room 13: red metal room
+         W:    12
+
+Room 14: cramped metal area
+
+Room 15: metal storage hold
+
+Room 16: *I'm on a treadmill
+
+Room 17: *I'm in an open display case
+         E:     8
+
+Room 18: small metal room
+
+Room 19: metal lined tunnel
+         N:    12
+         S:     8
+
+Room 20: main control room
+         W:    21
+
+Room 21: metal lined tunnel
+         N:    22
+         S:    11
+         E:    20
+         W:    23
+
+Room 22: small metal cabin
+         S:    21
+
+Room 23: metal dormitory
+         E:    21
+         W:    27
+
+Room 24: metal lifeboat hangar open to\\outer space
+
+Room 25: metal lined tunnel
+         N:    10
+         S:     9
+
+Room 26: large metal room
+
+Room 27: large metal room\\with porcelain machinery
+         E:    23
+
+Room 28: 
+
+Room 29: 
+
+Room 30: lot of trouble
+
+Msg   0: 
+Msg   1: OK
+Msg   2: Welcome to Adventure 11 `SAVAGE ISLAND PART 2`\\by Scott Adams & Russ Wetmore. Dedicated to Adventure Fans\\everywhere.
+Msg   3: Blinding flash of light
+Msg   4: I'm stark naked
+Msg   5: button,dials,lever
+Msg   6: nothing special
+Msg   7: except
+Msg   8: metallic voice whispers in my mind:
+Msg   9: one item
+Msg  10: wrong
+Msg  11: `Vocalize password Please`
+Msg  12: `Ready`
+Msg  13: alien script
+Msg  14: How?
+Msg  15: doesn't work
+Msg  16: sorry
+Msg  17: I see
+Msg  18: happens
+Msg  19: Time paradox shatters reality
+Msg  20: glowing
+Msg  21: it
+Msg  22: Vacuum!
+Msg  23: lungs explode in red bubbling ruin
+Msg  24: Argh
+Msg  25: ASPHYXIATED
+Msg  26: I breathed
+Msg  27: something
+Msg  28: I feel
+Msg  29: sedated!
+Msg  30: briefly
+Msg  31: Neanderthal
+Msg  32: too large
+Msg  33: attacks
+Msg  34: moves
+Msg  35: metallic threads
+Msg  36: `Prepare Rayshield, PSYCHOTRANSFIGURATION`
+Msg  37: thick headed
+Msg  38: `Not`
+Msg  39: Brain fried!
+Msg  40: strange
+Msg  41: body
+Msg  42: says
+Msg  43: I fainted
+Msg  44: Awake!
+Msg  45: won't budge
+Msg  46: Light mesmerizes me
+Msg  47: To what?
+Msg  48: slips off
+Msg  49: Large T shaped handle.
+Msg  50: utter blackness in center!
+Msg  51: Try: `GO`
+Msg  52: I'm holding it
+Msg  53: Closeups show Dinosaurs everywhere!
+Msg  54: Button at bottom.
+Msg  55: Case closes, some gas comes out and I'm sedated!
+Msg  56: Congratulations! You've finished Savage Island successfully!\\Refer to instructions for following coded message:\\U L K # $ + S ( V A 0 3 5 D B I H\\O ; 7 E 8 / M P 4 J 1 T Q @ F % G\\W X 6 C ? Y , Z = & R * - N 2 ) 9
+Msg  57: is a robot!
+Msg  58: EXPLOSION!
+Msg  59: flying apart
+Msg  60: `Compared to what you're about to go through you'll think Part I was a piece of cake! Good Luck and Adieu` - Scott Adams.\\
+Msg  61: Timemachine set for 100,000 years in past and\\nearest planetary body.
+Msg  62: I can't
+Msg  63: read it!
+Msg  64: I can
+Msg  65: an atom
+Msg  66: `WARNING - Non-transfigured controller of seed specimens\\has been released`
+Msg  67: row after row of
+Msg  68: `Pull lever to reverse Transfiguration Process`
+Msg  69: 8 electrons
+Msg  70: 293 electrons
+Msg  71: has
+Msg  72: picture of
+Msg  73: this spaceship now orbiting Earth.
+Msg  74: Hurricane winds suck me into outerspace!
+Msg  75: I quickly freeze to death!
+Msg  76: Examine items & read messages carefully!
+Msg  77: Try: `BREATHE OUT`
+Msg  78: Captain's LOG:\\Wounded in mutiny, strength failing. Humanoid seed colony not\\started, giant reptiles must be destroyed for species survival.
+Msg  79: TimeSwap Plan implemented with ROBOPIRATE as catalyst agent.\\If you scanning this are not of THIS TIME then the mission\\can still succeed!
+Msg  80: I'm jettisoning self from airlock. Good luck & forgive me for\\involving you.
+Msg  81: `Main landing sequence set for lever pull!`
+Msg  82: Robot Pirate looks strangely at me, picks me up\\& carries me off
+Msg  83: shaped for strange narrow alien bodies
+Msg  84: ship's engines, life support
+Msg  85: force field reset
+Msg  86: red & blue slide switches
+Msg  87: use color
+Msg  88: alien voice says `FREEHJLLGFREEUYE`
+Msg  89: High pitched electronic whine
+Msg  90: & another less obvious device
+Msg  91: combined lavatory & mess hall! Reminds me of my\\old school's cafeteria! UGH!
+Msg  92: OUCH!
+Msg  93: Me wanders off!
+Msg  94: `Pull lever please`
+Msg  95: 
+
+Item  0: Loc: 26 - Machinery
+Item  1: Loc: 26 - Control console
+Item  2: Loc:  1 - Force field
+Item  3: Loc:  2 - Control console
+Item  4: Loc:  0 - Plants/PLAN/
+Item  5: Loc:  0 - Flower/FLOW/
+Item  6: Loc:  4 - Force field
+Item  7: Loc:  0 - Bandanna/BAND/
+Item  8: Loc:  0 - Which I'm wearing
+Item  9: Loc:  0 - lite goes here.....
+Item 10: Loc:  0 - Corpse/CORP/
+Item 11: Loc: 20 - Control console
+Item 12: Loc:  0 - Neanderthal
+Item 13: Loc:  0 - which I'm dragging
+Item 14: Loc:  0 - Long glowing metal thread/BAND/
+Item 15: Loc: 10 - Force field
+Item 16: Loc: 12 - Control console
+Item 17: Loc:  0 - Me/ME/
+Item 18: Loc:  8 - Hydroponics
+Item 19: Loc: 10 - Blinking red light over force field
+Item 20: Loc: 20 - Viewscreen
+Item 21: Loc: 11 - Control console
+Item 22: Loc:  0 - Glowing thread tied to lever
+Item 23: Loc:  0 - Loose end of glowing thread/BAND/
+Item 24: Loc: 11 - Treadmill
+Item 25: Loc:  0 - with thread tied to it
+Item 26: Loc:  0 - Meter loop of glowing thread/BAND/
+Item 27: Loc:  0 - Dark hole
+Item 28: Loc: 16 - Railing
+Item 29: Loc:  8 - Display case
+Item 30: Loc:  0 - which is open
+Item 31: Loc: 17 - Button
+Item 32: Loc: 15 - Pirate
+Item 33: Loc: 15 - which is motionless
+Item 34: Loc:  2 - Large plastic block/BLOC/
+Item 35: Loc:  0 - GLOWING large plastic block/BLOC/
+Item 36: Loc:  2 - Large radiant glowing neon sign
+Item 37: Loc: 15 - Display cases
+Item 38: Loc: 15 - Giant boxes & crates
+Item 39: Loc: 15 - Pulsating red force field
+Item 40: Loc: 11 - Large medicine ball/BALL/
+Item 41: Loc: 11 - Freestanding punching bag/BAG/
+Item 42: Loc:  0 - Scraps of cloth/BAG/
+Item 43: Loc: 22 - Soft platform
+Item 44: Loc: 23 - Rows of soft platforms
+Item 45: Loc: 22 - Small plastic wafer/WAFE/
+Item 46: Loc:  9 - Force field
+Item 47: Loc:  9 - which is weakly flickering
+Item 48: Loc:  0 - Alien device/DEVI/
+
+Version         = 133
+AdventureNumber = 11
+MagicNumber     = 675
+
+Cmd   0 |     0   100 |    8  21   0   7   0   0   0   0   0   0 |   60   0   0   0 | AIR NOW GOOD
+                 100% | IF FLAG(21)=TRUE
+                      | SET FLAG(7)=FALSE
+Cmd   1 |     0   100 |    4  24   0   7   0   0   0   0   0   0 |   58   0   0   0 | LIFEBOAT AIR
+                 100% | IF ISROOM(24="metal lifeboat hangar open to")
+                      | SET FLAG(7)=TRUE
+Cmd   2 |     0   100 |    4   9  13  47   8  21   0   7   0   0 |   60   0   0   0 | GOOD AIR
+                 100% | IF ISROOM(9="metal lined tunnel")
+                      | IF SOMEWHERE(47="which is weakly flickering")
+                      | IF FLAG(21)=TRUE
+                      | SET FLAG(7)=FALSE
+Cmd   3 |     0   100 |    8   1   9   2   0   0   0   0   0   0 |   10  63   0   0 | no pass
+                 100% | IF FLAG(1)=TRUE
+                      | IF FLAG(2)=FALSE
+                      | MESSAGE 10="wrong"
+                      | QUIT
+Cmd   4 |     0   100 |    9   1   0   1   0   0   0   0   0   0 |    2  58   8  11 | start
+                 100% | IF FLAG(1)=FALSE
+                      | MESSAGE 2="Welcome to Adventure 11 `SA..."
+                      | SET FLAG(1)=TRUE
+                      | MESSAGE 8="metallic voice whispers in..."
+                      | MESSAGE 11="`Vocalize password Please`"
+Cmd   5 |     0   100 |    4  18   3  34   0  35   0  34   0  26 |   72  58   0   0 | BLOCK SWAP
+                 100% | IF ISROOM(18="small metal room")
+                      | IF HERECARRY(34="Large plastic block")
+                      | SWAP ITEMS 35="GLOWING large plastic block" AND 34="Large plastic block"
+                      | SET FLAG(26)=TRUE
+Cmd   6 |     0   100 |    4   8   3  34   0  35   0  34   0  26 |   72  58   0   0 | BLOCK SWAP
+                 100% | IF ISROOM(8="metal room")
+                      | IF HERECARRY(34="Large plastic block")
+                      | SWAP ITEMS 35="GLOWING large plastic block" AND 34="Large plastic block"
+                      | SET FLAG(26)=TRUE
+Cmd   7 |     0   100 |    4   1   3  34   0  35   0  34   0  26 |   72  58   0   0 | BLOCK SWAP
+                 100% | IF ISROOM(1="small metal room")
+                      | IF HERECARRY(34="Large plastic block")
+                      | SWAP ITEMS 35="GLOWING large plastic block" AND 34="Large plastic block"
+                      | SET FLAG(26)=TRUE
+Cmd   8 |     0   100 |    4  11   3  34   0  35   0  34   0  26 |   72  58   0   0 | BLOCK SWAP
+                 100% | IF ISROOM(11="metal room")
+                      | IF HERECARRY(34="Large plastic block")
+                      | SWAP ITEMS 35="GLOWING large plastic block" AND 34="Large plastic block"
+                      | SET FLAG(26)=TRUE
+Cmd   9 |     0   100 |    8  26   0  26   0   3   0   5   0   3 |   60  81  79  81 | SET BLK CNTR
+                 100% | IF FLAG(26)=TRUE
+                      | SET FLAG(26)=FALSE
+                      | SWAP COUNTER WITH COUNTER(3)
+                      | SET COUNTER=5
+                      | SWAP COUNTER WITH COUNTER(3)
+Cmd  10 |     0   100 |    1  40   0   0   0   0   0   0   0   0 |   24   0   0   0 | MEDICINE BALL
+                 100% | IF CARRY(40="Large medicine ball")
+                      | MESSAGE 24="Argh"
+Cmd  11 |     0   100 |    6   7   1   8   0   8   0   0   0   0 |   59   0   0   0 | REMOVE ABND
+                 100% | IF NOT CARRY(7="Bandanna")
+                      | IF CARRY(8="Which I'm wearing")
+                      | DESTROY 8="Which I'm wearing"
+Cmd  12 |     0   100 |    8  18   0   1   0   0   0   0   0   0 |   81  77  73   0 | breathe out
+                 100% | IF FLAG(18)=TRUE
+                      | SWAP COUNTER WITH COUNTER(1)
+                      | DECREMENT_COUNTER
+                      | CONTINUE_NEXT_LINE
+Cmd  13 |     0     0 |   15   2   0   0   0   0   0   0   0   0 |   24   0   0   0 |
+            continued | IF LE(COUNTER,2)
+                      | MESSAGE 24="Argh"
+Cmd  14 |     0     0 |   15   0   8   7   0   6   0  18   0   0 |   60  60  88  88 | die
+            continued | IF LE(COUNTER,0)
+                      | IF FLAG(7)=TRUE
+                      | SET FLAG(6)=FALSE
+                      | SET FLAG(18)=FALSE
+                      | SLEEP 2 SECONDS
+                      | SLEEP 2 SECONDS
+Cmd  15 |     0     0 |    9  18   0   0   0   0   0   0   0   0 |   88  88  25  61 | CONT DIE
+            continued | IF FLAG(18)=FALSE
+                      | SLEEP 2 SECONDS
+                      | SLEEP 2 SECONDS
+                      | MESSAGE 25="ASPHYXIATED"
+                      | DEAD
+Cmd  16 |     0     0 |   15   0   0   5   8  18   0  18   9   7 |   26  60  60   0 | BREATHED
+            continued | IF LE(COUNTER,0)
+                      | IF FLAG(18)=TRUE
+                      | IF FLAG(7)=FALSE
+                      | MESSAGE 26="I breathed"
+                      | SET FLAG(5)=FALSE
+                      | SET FLAG(18)=FALSE
+Cmd  17 |     0     0 |    0   1   0   0   0   0   0   0   0   0 |   81   0   0   0 |
+            continued | SWAP COUNTER WITH COUNTER(1)
+Cmd  18 |     0   100 |    4  10   8  21  13  47   0   0   0   0 |  124 125  61  19 | HURRICANE
+                 100% | IF ISROOM(10="metal room")
+                      | IF FLAG(21)=TRUE
+                      | IF SOMEWHERE(47="which is weakly flickering")
+                      | MESSAGE 74="Hurricane winds suck me int..."
+                      | MESSAGE 75="I quickly freeze to death!"
+                      | DEAD
+                      | MESSAGE 19="Time paradox shatters reality"
+Cmd  19 |     0   100 |    8   6   8   7   9   5   0   0   0   0 |   22  88  88  73 | .
+                 100% | IF FLAG(6)=TRUE
+                      | IF FLAG(7)=TRUE
+                      | IF FLAG(5)=FALSE
+                      | MESSAGE 22="Vacuum!"
+                      | SLEEP 2 SECONDS
+                      | SLEEP 2 SECONDS
+                      | CONTINUE_NEXT_LINE
+Cmd  20 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |   88  88  23  61 | DIE VACUUM
+            continued | SLEEP 2 SECONDS
+                      | SLEEP 2 SECONDS
+                      | MESSAGE 23="lungs explode in red bubbli..."
+                      | DEAD
+Cmd  21 |     0   100 |    8   7   0   6   0   0   0   0   0   0 |   22  58   0   0 | SET VACUUM
+                 100% | IF FLAG(7)=TRUE
+                      | MESSAGE 22="Vacuum!"
+                      | SET FLAG(6)=TRUE
+Cmd  22 |     0   100 |    8   6   9   7   0   6   0   0   0   0 |   60   0   0   0 | RESET VACUUM
+                 100% | IF FLAG(6)=TRUE
+                      | IF FLAG(7)=FALSE
+                      | SET FLAG(6)=FALSE
+Cmd  23 |     0     8 |    8  11   9  10   3  12   0   0   0   0 |   31  33  30  61 | CAVEMAN
+                   8% | IF FLAG(11)=TRUE
+                      | IF FLAG(10)=FALSE
+                      | IF HERECARRY(12="Neanderthal")
+                      | MESSAGE 31="Neanderthal"
+                      | MESSAGE 33="attacks"
+                      | MESSAGE 30="briefly"
+                      | DEAD
+Cmd  24 |     0   100 |    9  11   3  12   0  11   0   0   0   0 |   58   0   0   0 | CAVEMAN HERE
+                 100% | IF FLAG(11)=FALSE
+                      | IF HERECARRY(12="Neanderthal")
+                      | SET FLAG(11)=TRUE
+Cmd  25 |     0   100 |    8  10   0  11   0   2   0   0   0   0 |   60  81  77  73 | CAVE COUNT
+                 100% | IF FLAG(10)=TRUE
+                      | SET FLAG(11)=FALSE
+                      | SWAP COUNTER WITH COUNTER(2)
+                      | DECREMENT_COUNTER
+                      | CONTINUE_NEXT_LINE
+Cmd  26 |     0     0 |   15   4   3  12   0   0   0   0   0   0 |   31  30  34   0 |
+            continued | IF LE(COUNTER,4)
+                      | IF HERECARRY(12="Neanderthal")
+                      | MESSAGE 31="Neanderthal"
+                      | MESSAGE 30="briefly"
+                      | MESSAGE 34="moves"
+Cmd  27 |     0     0 |   15   0   0  10   0   0   0   0   0   0 |   60   0   0   0 | WAKES
+            continued | IF LE(COUNTER,0)
+                      | SET FLAG(10)=FALSE
+Cmd  28 |     0     0 |    0   2   0   0   0   0   0   0   0   0 |   81   0   0   0 |
+            continued | SWAP COUNTER WITH COUNTER(2)
+Cmd  29 |     0    50 |    7  13  13  12   9  10   0  12  14  10 |   53   0   0   0 | CAVE FOLLOWS
+                  50% | IF NOT ISROOM(13)
+                      | IF SOMEWHERE(12="Neanderthal")
+                      | IF FLAG(10)=FALSE
+                      | IF NOWHERE(10="Corpse")
+                      | DROP 12="Neanderthal"
+Cmd  30 |     0     8 |   13  10   0   0   0   0   0   0   0   0 |   66  19  61   0 | ME DEAD?
+                   8% | IF SOMEWHERE(10="Corpse")
+                      | INVENTORY
+                      | MESSAGE 19="Time paradox shatters reality"
+                      | DEAD
+Cmd  31 |     0   100 |    9  28  13  17   0   4   0   0   0   0 |   81  73  77   0 | .
+                 100% | IF FLAG(28)=FALSE
+                      | IF SOMEWHERE(17="Me")
+                      | SWAP COUNTER WITH COUNTER(4)
+                      | CONTINUE_NEXT_LINE
+                      | DECREMENT_COUNTER
+Cmd  32 |     0     0 |   15   0   0  28   0   0   0   0   0   0 |   58   0   0   0 | AWAKE ME
+            continued | IF LE(COUNTER,0)
+                      | SET FLAG(28)=TRUE
+Cmd  33 |     0     0 |    0   4   0   0   0   0   0   0   0   0 |   81   0   0   0 |
+            continued | SWAP COUNTER WITH COUNTER(4)
+Cmd  34 |     0    30 |    3  12   9  10   0   0   0   0   0   0 |   31  42  24   0 | NEAN ARGH
+                  30% | IF HERECARRY(12="Neanderthal")
+                      | IF FLAG(10)=FALSE
+                      | MESSAGE 31="Neanderthal"
+                      | MESSAGE 42="says"
+                      | MESSAGE 24="Argh"
+Cmd  35 |     0   100 |    9  10   1  13   0  13   0  12   0   0 |   59  53   0   0 | DROP NEAN
+                 100% | IF FLAG(10)=FALSE
+                      | IF CARRY(13="which I'm dragging")
+                      | DESTROY 13="which I'm dragging"
+                      | DROP 12="Neanderthal"
+Cmd  36 |     0   100 |    4  13   2  12   0  13   0   0   0   0 |   58   0   0   0 | CAVE RM 13
+                 100% | IF ISROOM(13="red metal room")
+                      | IF HERE(12="Neanderthal")
+                      | SET FLAG(13)=TRUE
+Cmd  37 |     0   100 |    4  13   5  12   0  13   5  17   0   0 |   60   0   0   0 |
+                 100% | IF ISROOM(13="red metal room")
+                      | IF NOT HERE(12="Neanderthal")
+                      | IF NOT HERE(17="Me")
+                      | SET FLAG(13)=FALSE
+Cmd  38 |     0   100 |    4  13   2  17   0  13   0   0   0   0 |   58   0   0   0 | ME IN 13
+                 100% | IF ISROOM(13="red metal room")
+                      | IF HERE(17="Me")
+                      | SET FLAG(13)=TRUE
+Cmd  39 |     0   100 |    8   7   3  17   0  17   0  10   0   0 |   72   0   0   0 | DEAD ME
+                 100% | IF FLAG(7)=TRUE
+                      | IF HERECARRY(17="Me")
+                      | SWAP ITEMS 17="Me" AND 10="Corpse"
+Cmd  40 |     0   100 |    8   7   1  13   0  12   0  10   0  13 |   72  59   0   0 | DEAD NEAN
+                 100% | IF FLAG(7)=TRUE
+                      | IF CARRY(13="which I'm dragging")
+                      | SWAP ITEMS 12="Neanderthal" AND 10="Corpse"
+                      | DESTROY 13="which I'm dragging"
+Cmd  41 |     0   100 |    4   1   2  17   0  17   0   2   0   0 |  143  62   0   0 | ME WANDERS
+                 100% | IF ISROOM(1="small metal room")
+                      | IF HERE(17="Me")
+                      | MESSAGE 93="Me wanders off!"
+                      | SEND 17="Me" TO 2="metal room"
+Cmd  42 |     0   100 |    3  23   5  21   0  23   5  21   0   0 |   75  35  48   0 | DROP THREAD
+                 100% | IF HERECARRY(23="Loose end of glowing thread")
+                      | IF NOT HERE(21="Control console")
+                      | IF NOT HERE(21="Control console")
+                      | SEND 23="Loose end of glowing thread" TO LOCATION OF 0="Machinery"
+                      | MESSAGE 35="metallic threads"
+                      | MESSAGE 48="slips off"
+Cmd  43 |     0   100 |   14  33   0  17   7  17   0   7   7  30 |  132  54  76  60 | ROBOT MOVES
+                 100% | IF NOWHERE(33="which is motionless")
+                      | IF NOT ISROOM(17)
+                      | IF NOT ISROOM(30)
+                      | MESSAGE 82="Robot Pirate looks strangel..."
+                      | GOTO 17="in an open display case"
+                      | LOOK
+                      | SET FLAG(7)=FALSE
+Cmd  44 |     0   100 |    7  30  13  35   0   3   0   0   0   0 |   81  77  73   0 | BOMB
+                 100% | IF NOT ISROOM(30)
+                      | IF SOMEWHERE(35="GLOWING large plastic block")
+                      | SWAP COUNTER WITH COUNTER(3)
+                      | DECREMENT_COUNTER
+                      | CONTINUE_NEXT_LINE
+Cmd  45 |     0     0 |   15   0   0   0   0   0   0   0   0   0 |  108  19  61   0 |
+            continued | IF LE(COUNTER,0)
+                      | MESSAGE 58="EXPLOSION!"
+                      | MESSAGE 19="Time paradox shatters reality"
+                      | DEAD
+Cmd  46 |     0     0 |    0   3   0   0   0   0   0   0   0   0 |   81   0   0   0 |
+            continued | SWAP COUNTER WITH COUNTER(3)
+Cmd  47 |     0   100 |    1  45   0   0   0   0   0   0   0   0 |    8 128  88  73 | CAPTAINS LOG
+                 100% | IF CARRY(45="Small plastic wafer")
+                      | MESSAGE 8="metallic voice whispers in..."
+                      | MESSAGE 78="Captain's LOG:"
+                      | SLEEP 2 SECONDS
+                      | CONTINUE_NEXT_LINE
+Cmd  48 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |   88  88  88 129 |
+            continued | SLEEP 2 SECONDS
+                      | SLEEP 2 SECONDS
+                      | SLEEP 2 SECONDS
+                      | MESSAGE 79="TimeSwap Plan implemented w..."
+Cmd  49 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |   88  88  88 130 |
+            continued | SLEEP 2 SECONDS
+                      | SLEEP 2 SECONDS
+                      | SLEEP 2 SECONDS
+                      | MESSAGE 80="I'm jettisoning self from a..."
+Cmd  50 |     0   100 |   14  33   8  25  12  17  14  10   0  22 |   58   0   0   0 | WIN FLAG
+                 100% | IF NOWHERE(33="which is motionless")
+                      | IF FLAG(25)=TRUE
+                      | IF NOT HERECARRY(17="Me")
+                      | IF NOWHERE(10="Corpse")
+                      | SET FLAG(22)=TRUE
+Cmd  51 |     0   100 |    4  18   2  17   0  17   0   2   0   0 |  143  62   0   0 | ME WANDERS
+                 100% | IF ISROOM(18="small metal room")
+                      | IF HERE(17="Me")
+                      | MESSAGE 93="Me wanders off!"
+                      | SEND 17="Me" TO 2="metal room"
+Cmd  52 |     0   100 |    4  30   8   2   0   0   0   0   0   0 |   63   0   0   0 | DEAD END ROOM
+                 100% | IF ISROOM(30="lot of trouble")
+                      | IF FLAG(2)=TRUE
+                      | QUIT
+Cmd  53 |    58    68 |    3  48   9   7   0   0   0   0   0   0 |    1  73 138   0 |
+           move   red | IF HERECARRY(48="Alien device")
+                      | IF FLAG(7)=FALSE
+                      | MESSAGE 1="OK"
+                      | CONTINUE_NEXT_LINE
+                      | MESSAGE 88="alien voice says `FREEHJLLG..."
+Cmd  54 |     0     0 |    4   2   9   4   0   4   0   0   0   0 |   58   8  12   0 |
+            continued | IF ISROOM(2="metal room")
+                      | IF FLAG(4)=FALSE
+                      | SET FLAG(4)=TRUE
+                      | MESSAGE 8="metallic voice whispers in..."
+                      | MESSAGE 12="`Ready`"
+Cmd  55 |     0     0 |    4  12   9  14   0  14   0   0   0   0 |   58   8  36  12 |
+            continued | IF ISROOM(12="red metal room")
+                      | IF FLAG(14)=FALSE
+                      | SET FLAG(14)=TRUE
+                      | MESSAGE 8="metallic voice whispers in..."
+                      | MESSAGE 36="`Prepare Rayshield, PSYCHOT..."
+                      | MESSAGE 12="`Ready`"
+Cmd  56 |    23    73 |    3  48   9  15   0   0   0   0   0   0 |    1  17 136   0 |
+           look  devi | IF HERECARRY(48="Alien device")
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 1="OK"
+                      | MESSAGE 17="I see"
+                      | MESSAGE 86="red & blue slide switches"
+Cmd  57 |    58    12 |    3  48   0   0   0   0   0   0   0   0 |  139  73   0   0 |
+           move  blue | IF HERECARRY(48="Alien device")
+                      | MESSAGE 89="High pitched electronic whine"
+                      | CONTINUE_NEXT_LINE
+Cmd  58 |     0     0 |    3  33   0  33   0   0   0   0   0   0 |   59  88  88  88 |
+            continued | IF HERECARRY(33="which is motionless")
+                      | DESTROY 33="which is motionless"
+                      | SLEEP 2 SECONDS
+                      | SLEEP 2 SECONDS
+                      | SLEEP 2 SECONDS
+Cmd  59 |    10    73 |    3  48   0  48   0   0   0   0   0   0 |    1  52   0   0 |
+            get  devi | IF HERECARRY(48="Alien device")
+                      | MESSAGE 1="OK"
+                      | TAKE 48="Alien device"
+Cmd  60 |    10    73 |    4  26  14  48   0  48   0   0   0   0 |    1  52   0   0 | .
+            get  devi | IF ISROOM(26="large metal room")
+                      | IF NOWHERE(48="Alien device")
+                      | MESSAGE 1="OK"
+                      | TAKE 48="Alien device"
+Cmd  61 |     7     9 |    3   3   8  12   0   0   0   0   0   0 |   40 114 113 111 |
+           read  dial | IF HERECARRY(3="Control console")
+                      | IF FLAG(12)=TRUE
+                      | MESSAGE 40="strange"
+                      | MESSAGE 64="I can"
+                      | MESSAGE 63="read it!"
+                      | MESSAGE 61="Timemachine set for 100,000..."
+Cmd  62 |    58    55 |    3  48   0   0   0   0   0   0   0   0 |  137   0   0   0 |
+           move  slid | IF HERECARRY(48="Alien device")
+                      | MESSAGE 87="use color"
+Cmd  63 |     7     9 |    3  21   8  12   0   0   0   0   0   0 |  122  49 122 115 |
+           read  dial | IF HERECARRY(21="Control console")
+                      | IF FLAG(12)=TRUE
+                      | MESSAGE 72="picture of"
+                      | MESSAGE 49="Large T shaped handle."
+                      | MESSAGE 72="picture of"
+                      | MESSAGE 65="an atom"
+Cmd  64 |    23    46 |    4  26   9  15   0   0   0   0   0   0 |    1  17 134  73 |
+           look  mach | IF ISROOM(26="large metal room")
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 1="OK"
+                      | MESSAGE 17="I see"
+                      | MESSAGE 84="ship's engines, life support"
+                      | CONTINUE_NEXT_LINE
+Cmd  65 |     0     0 |   14  48   0   0   0   0   0   0   0   0 |  140   0   0   0 |
+            continued | IF NOWHERE(48="Alien device")
+                      | MESSAGE 90="& another less obvious device"
+Cmd  66 |    37     0 |    0   0   0   0   0   0   0   0   0   0 |  126   0   0   0 |
+           help       | MESSAGE 76="Examine items & read messag..."
+Cmd  67 |    68     0 |    0   0   0   0   0   0   0   0   0   0 |  127   0   0   0 |
+           exha       | MESSAGE 77="Try: `BREATHE OUT`"
+Cmd  68 |     1    70 |    0   0   0   0   0   0   0   0   0   0 |   16 112   0   0 |
+             go  plat | MESSAGE 16="sorry"
+                      | MESSAGE 62="I can't"
+Cmd  69 |    17    28 |    0   0   0   0   0   0   0   0   0   0 |   14   0   0   0 |
+           work   out | MESSAGE 14="How?"
+Cmd  70 |    23    17 |    2   1   9  15   0   0   0   0   0   0 |    1  17   5   0 |
+           look  cont | IF HERE(1="Control console")
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 1="OK"
+                      | MESSAGE 17="I see"
+                      | MESSAGE 5="button,dials,lever"
+Cmd  71 |    23    17 |    2  11   9  15   0   0   0   0   0   0 |    1  17   5   0 |
+           look  cont | IF HERE(11="Control console")
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 1="OK"
+                      | MESSAGE 17="I see"
+                      | MESSAGE 5="button,dials,lever"
+Cmd  72 |    27    19 |    2  11   0   0   0   0   0   0   0   0 |    1   0   0   0 | CONTROL ROOM
+           push  butt | IF HERE(11="Control console")
+                      | MESSAGE 1="OK"
+Cmd  73 |    27    19 |    2  21   0   0   0   0   0   0   0   0 |    1   0   0   0 | EXERSISE ROOM
+           push  butt | IF HERE(21="Control console")
+                      | MESSAGE 1="OK"
+Cmd  74 |     1    11 |    2   2   4  18   0   2   0   2   0   7 |   54  53  58  73 |
+             go  fiel | IF HERE(2="Force field")
+                      | IF ISROOM(18="small metal room")
+                      | GOTO 2="metal room"
+                      | DROP 2="Force field"
+                      | SET FLAG(7)=TRUE
+                      | CONTINUE_NEXT_LINE
+Cmd  75 |     0     0 |    3  35   0  27   0   0   0   0   0   0 |   60   0   0   0 |
+            continued | IF HERECARRY(35="GLOWING large plastic block")
+                      | SET FLAG(27)=FALSE
+Cmd  76 |     1    11 |    3  39   0   0   0   0   0   0   0   0 |   40 112   0   0 | .
+             go  fiel | IF HERECARRY(39="Pulsating red force field")
+                      | MESSAGE 40="strange"
+                      | MESSAGE 62="I can't"
+Cmd  77 |     1    11 |    8  24   4   2   0  18   0   2   0   7 |   54  53  60  73 |
+             go  fiel | IF FLAG(24)=TRUE
+                      | IF ISROOM(2="metal room")
+                      | GOTO 18="small metal room"
+                      | DROP 2="Force field"
+                      | SET FLAG(7)=FALSE
+                      | CONTINUE_NEXT_LINE
+Cmd  78 |     0     0 |    3  34   0  27   0   0   0   0   0   0 |   58   0   0   0 |
+            continued | IF HERECARRY(34="Large plastic block")
+                      | SET FLAG(27)=TRUE
+Cmd  79 |     1    11 |    9  24   4   2   0   1   0   2   0   7 |   54  53  60  73 | GOT BLOCK?
+             go  fiel | IF FLAG(24)=FALSE
+                      | IF ISROOM(2="metal room")
+                      | GOTO 1="small metal room"
+                      | DROP 2="Force field"
+                      | SET FLAG(7)=FALSE
+                      | CONTINUE_NEXT_LINE
+Cmd  80 |     0     0 |    3  34   0  27   0   0   0   0   0   0 |   58   0   0   0 |
+            continued | IF HERECARRY(34="Large plastic block")
+                      | SET FLAG(27)=TRUE
+Cmd  81 |     1    11 |    2  19   9  15   0   0   0   0   0   0 |   16  46   0   0 | .
+             go  fiel | IF HERE(19="Blinking red light over for...")
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 16="sorry"
+                      | MESSAGE 46="Light mesmerizes me"
+Cmd  82 |     1    11 |    2  15   4  10   0  11   0  15   0   7 |   54  53  60  76 |
+             go  fiel | IF HERE(15="Force field")
+                      | IF ISROOM(10="metal room")
+                      | GOTO 11="metal room"
+                      | DROP 15="Force field"
+                      | SET FLAG(7)=FALSE
+                      | LOOK
+Cmd  83 |     1    11 |    2  15   4  11   0  10   0  15   0   7 |   54  53  58  76 |
+             go  fiel | IF HERE(15="Force field")
+                      | IF ISROOM(11="metal room")
+                      | GOTO 10="metal room"
+                      | DROP 15="Force field"
+                      | SET FLAG(7)=TRUE
+                      | LOOK
+Cmd  84 |    10    42 |    9   7   0   1   0   5   0   1   0   0 |   81  79  81  73 |
+            get  brea | IF FLAG(7)=FALSE
+                      | SWAP COUNTER WITH COUNTER(1)
+                      | SET COUNTER=5
+                      | SWAP COUNTER WITH COUNTER(1)
+                      | CONTINUE_NEXT_LINE
+Cmd  85 |     0     0 |    0  18   0   5   0   0   0   0   0   0 |   58  60   0   0 |
+            continued | SET FLAG(18)=TRUE
+                      | SET FLAG(5)=FALSE
+Cmd  86 |     1    11 |    2   6   4   4   0   8   0   6   0   7 |   54  53  60  76 |
+             go  fiel | IF HERE(6="Force field")
+                      | IF ISROOM(4="metal room")
+                      | GOTO 8="metal room"
+                      | DROP 6="Force field"
+                      | SET FLAG(7)=FALSE
+                      | LOOK
+Cmd  87 |     1    11 |    2   6   4   8   0   4   0   6   0   7 |   54  53  58  76 |
+             go  fiel | IF HERE(6="Force field")
+                      | IF ISROOM(8="metal room")
+                      | GOTO 4="metal room"
+                      | DROP 6="Force field"
+                      | SET FLAG(7)=TRUE
+                      | LOOK
+Cmd  88 |    38     0 |    8   8   9   7   0   8   0   0   0   0 |   43  60  88  88 |
+           hype       | IF FLAG(8)=TRUE
+                      | IF FLAG(7)=FALSE
+                      | MESSAGE 43="I fainted"
+                      | SET FLAG(8)=FALSE
+                      | SLEEP 2 SECONDS
+                      | SLEEP 2 SECONDS
+Cmd  89 |    38     0 |    0   8   9   7   0   5   0  18   9   8 |    1  58  60  60 |
+           hype       | IF FLAG(7)=FALSE
+                      | IF FLAG(8)=FALSE
+                      | MESSAGE 1="OK"
+                      | SET FLAG(8)=TRUE
+                      | SET FLAG(5)=FALSE
+                      | SET FLAG(18)=FALSE
+Cmd  90 |    39    27 |    0   8   9   7   0   5   0  18   0   0 |    1  58  60  60 |
+           brea  deep | IF FLAG(7)=FALSE
+                      | MESSAGE 1="OK"
+                      | SET FLAG(8)=TRUE
+                      | SET FLAG(5)=FALSE
+                      | SET FLAG(18)=FALSE
+Cmd  91 |    56    47 |    1  26   0   0   0   0   0   0   0   0 |    1  32  48   0 |
+           wear  band | IF CARRY(26="Meter loop of glowing thread")
+                      | MESSAGE 1="OK"
+                      | MESSAGE 32="too large"
+                      | MESSAGE 48="slips off"
+Cmd  92 |    39    28 |    9   5   0   5   0  18   0   1   0   0 |   58  58  81  73 |
+           brea   out | IF FLAG(5)=FALSE
+                      | SET FLAG(5)=TRUE
+                      | SET FLAG(18)=TRUE
+                      | SWAP COUNTER WITH COUNTER(1)
+                      | CONTINUE_NEXT_LINE
+Cmd  93 |     0     0 |    0   5   0   1   9   8   0   0   0   0 |   79  81   1   0 |
+            continued | IF FLAG(8)=FALSE
+                      | SET COUNTER=5
+                      | SWAP COUNTER WITH COUNTER(1)
+                      | MESSAGE 1="OK"
+Cmd  94 |     0     0 |    0   7   0   1   0   8   8   8   9  12 |   79  81  60   1 |
+            continued | IF FLAG(8)=TRUE
+                      | IF FLAG(12)=FALSE
+                      | SET COUNTER=7
+                      | SWAP COUNTER WITH COUNTER(1)
+                      | SET FLAG(8)=FALSE
+                      | MESSAGE 1="OK"
+Cmd  95 |     0     0 |    0  17   0   1   0   8   8   8   8  12 |   79  81  60   1 | HYPER CAVE
+            continued | IF FLAG(8)=TRUE
+                      | IF FLAG(12)=TRUE
+                      | SET COUNTER=17
+                      | SWAP COUNTER WITH COUNTER(1)
+                      | SET FLAG(8)=FALSE
+                      | MESSAGE 1="OK"
+Cmd  96 |     1    11 |    2   2   4   1   0   2   0   2   0   7 |   54  53  58  73 |
+             go  fiel | IF HERE(2="Force field")
+                      | IF ISROOM(1="small metal room")
+                      | GOTO 2="metal room"
+                      | DROP 2="Force field"
+                      | SET FLAG(7)=TRUE
+                      | CONTINUE_NEXT_LINE
+Cmd  97 |     0     0 |    3  35   0  27   0   0   0   0   0   0 |   60   0   0   0 |
+            continued | IF HERECARRY(35="GLOWING large plastic block")
+                      | SET FLAG(27)=FALSE
+Cmd  98 |    39    29 |    9   7   0   1   0   5   0   1   0   0 |   81  79  81  73 |
+           brea    in | IF FLAG(7)=FALSE
+                      | SWAP COUNTER WITH COUNTER(1)
+                      | SET COUNTER=5
+                      | SWAP COUNTER WITH COUNTER(1)
+                      | CONTINUE_NEXT_LINE
+Cmd  99 |     0     0 |    0  18   0   5   0   0   0   0   0   0 |   58  60   0   0 |
+            continued | SET FLAG(18)=TRUE
+                      | SET FLAG(5)=FALSE
+Cmd 100 |    29    13 |    0   2   0   7   9   2   9  18   0   0 |   58  52  73   3 | 123
+            say   123 | IF FLAG(2)=FALSE
+                      | IF FLAG(18)=FALSE
+                      | SET FLAG(2)=TRUE
+                      | TAKE 7="Bandanna"
+                      | CONTINUE_NEXT_LINE
+                      | MESSAGE 3="Blinding flash of light"
+Cmd 101 |     0     0 |    0   1   0   0   0   0   0   0   0   0 |    4   7   9  54 |
+            continued | MESSAGE 4="I'm stark naked"
+                      | MESSAGE 7="except"
+                      | MESSAGE 9="one item"
+                      | GOTO 1="small metal room"
+Cmd 102 |    29    16 |    9   2   0   2   0   1   0   0   0   0 |    3  58   4  54 |
+            say   474 | IF FLAG(2)=FALSE
+                      | MESSAGE 3="Blinding flash of light"
+                      | SET FLAG(2)=TRUE
+                      | MESSAGE 4="I'm stark naked"
+                      | GOTO 1="small metal room"
+Cmd 103 |    27    19 |    2   1   0  47   0   0   0   0   0   0 |    1  59   0   0 | AIRLOCK FIX
+           push  butt | IF HERE(1="Control console")
+                      | MESSAGE 1="OK"
+                      | DESTROY 47="which is weakly flickering"
+Cmd 104 |    23    17 |    3   3   9  15   0   0   0   0   0   0 |    1   5   0   0 |
+           look  cont | IF HERECARRY(3="Control console")
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 1="OK"
+                      | MESSAGE 5="button,dials,lever"
+Cmd 105 |    27    19 |    3   3   9   4   0   0   0   0   0   0 |    1   8  11   0 |
+           push  butt | IF HERECARRY(3="Control console")
+                      | IF FLAG(4)=FALSE
+                      | MESSAGE 1="OK"
+                      | MESSAGE 8="metallic voice whispers in..."
+                      | MESSAGE 11="`Vocalize password Please`"
+Cmd 106 |    27    19 |    2  16   8  13   8  14   8  12   0   0 |    8 144   0   0 |
+           push  butt | IF HERE(16="Control console")
+                      | IF FLAG(13)=TRUE
+                      | IF FLAG(14)=TRUE
+                      | IF FLAG(12)=TRUE
+                      | MESSAGE 8="metallic voice whispers in..."
+                      | MESSAGE 94="`Pull lever please`"
+Cmd 107 |    23     9 |    9  15   0   0   0   0   0   0   0   0 |    1  13   0   0 |
+           look  dial | IF FLAG(15)=FALSE
+                      | MESSAGE 1="OK"
+                      | MESSAGE 13="alien script"
+Cmd 108 |    23    24 |    9  15   0   0   0   0   0   0   0   0 |    1  17  21  20 |
+           look  meta | IF FLAG(15)=FALSE
+                      | MESSAGE 1="OK"
+                      | MESSAGE 17="I see"
+                      | MESSAGE 21="it"
+                      | MESSAGE 20="glowing"
+Cmd 109 |    23    30 |    9   9   3   4   0   9   0   5   0   4 |   27  58  75  76 |
+           look  plan | IF FLAG(9)=FALSE
+                      | IF HERECARRY(4="Plants")
+                      | MESSAGE 27="something"
+                      | SET FLAG(9)=TRUE
+                      | SEND 5="Flower" TO LOCATION OF 4="Plants"
+                      | LOOK
+Cmd 110 |    46    31 |    3   5   9   7   9  18   0   0   0   0 |    1  28  30  29 |
+           smel  flow | IF HERECARRY(5="Flower")
+                      | IF FLAG(7)=FALSE
+                      | IF FLAG(18)=FALSE
+                      | MESSAGE 1="OK"
+                      | MESSAGE 28="I feel"
+                      | MESSAGE 30="briefly"
+                      | MESSAGE 29="sedated!"
+Cmd 111 |    40    31 |    3   5   0   5   0   0   0   0   0   0 |   29  28  25  61 |
+            eat  flow | IF HERECARRY(5="Flower")
+                      | MESSAGE 29="sedated!"
+                      | MESSAGE 28="I feel"
+                      | MESSAGE 25="ASPHYXIATED"
+                      | DEAD
+Cmd 112 |    48    31 |    3   5   0   5   9   7   0   0   0   0 |   59  73   0   0 |
+           crus  flow | IF HERECARRY(5="Flower")
+                      | IF FLAG(7)=FALSE
+                      | DESTROY 5="Flower"
+                      | CONTINUE_NEXT_LINE
+Cmd 113 |     0     0 |    9  18   0   0   0   0   0   0   0   0 |   29  28  25  61 |
+            continued | IF FLAG(18)=FALSE
+                      | MESSAGE 29="sedated!"
+                      | MESSAGE 28="I feel"
+                      | MESSAGE 25="ASPHYXIATED"
+                      | DEAD
+Cmd 114 |     0     0 |    2  12   0  10   0   0   0   0   0   0 |   58  31  29   0 |
+            continued | IF HERE(12="Neanderthal")
+                      | SET FLAG(10)=TRUE
+                      | MESSAGE 31="Neanderthal"
+                      | MESSAGE 29="sedated!"
+Cmd 115 |     0     0 |    2  12   0   2   0  40   0   2   0   0 |   81  79  81   0 |
+            continued | IF HERE(12="Neanderthal")
+                      | SWAP COUNTER WITH COUNTER(2)
+                      | SET COUNTER=40
+                      | SWAP COUNTER WITH COUNTER(2)
+Cmd 116 |    10    32 |    2  12   0   0   0   0   0   0   0   0 |   14  32   0   0 |
+            get  nean | IF HERE(12="Neanderthal")
+                      | MESSAGE 14="How?"
+                      | MESSAGE 32="too large"
+Cmd 117 |    66    32 |    2  12   0  12   0  13   8  10   0   0 |    1  52  52  66 |
+           drag  nean | IF HERE(12="Neanderthal")
+                      | IF FLAG(10)=TRUE
+                      | MESSAGE 1="OK"
+                      | TAKE 12="Neanderthal"
+                      | TAKE 13="which I'm dragging"
+                      | INVENTORY
+Cmd 118 |    48    31 |    3   5   0   5   8   7   0   0   0   0 |    1  59   0   0 |
+           crus  flow | IF HERECARRY(5="Flower")
+                      | IF FLAG(7)=TRUE
+                      | MESSAGE 1="OK"
+                      | DESTROY 5="Flower"
+Cmd 119 |    51    32 |    3  12   9  10   0   0   0   0   0   0 |   31  33  30  61 | .
+            hit  nean | IF HERECARRY(12="Neanderthal")
+                      | IF FLAG(10)=FALSE
+                      | MESSAGE 31="Neanderthal"
+                      | MESSAGE 33="attacks"
+                      | MESSAGE 30="briefly"
+                      | DEAD
+Cmd 120 |     1    71 |    4  24   0   0   0   0   0   0   0   0 |    1 125  61   0 |
+             go  oute | IF ISROOM(24="metal lifeboat hangar open to")
+                      | MESSAGE 1="OK"
+                      | MESSAGE 75="I quickly freeze to death!"
+                      | DEAD
+Cmd 121 |    58    32 |    3  12   0   0   0   0   0   0   0   0 |    1   0   0   0 |
+           move  nean | IF HERECARRY(12="Neanderthal")
+                      | MESSAGE 1="OK"
+Cmd 122 |    23    22 |    3  37   9  15   0   0   0   0   0   0 |   17 117  31   0 |
+           look  disp | IF HERECARRY(37="Display cases")
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 17="I see"
+                      | MESSAGE 67="row after row of"
+                      | MESSAGE 31="Neanderthal"
+Cmd 123 |    18    32 |    1  12   0  12   0  13   0   0   0   0 |    1  53  59   0 |
+           drop  nean | IF CARRY(12="Neanderthal")
+                      | MESSAGE 1="OK"
+                      | DROP 12="Neanderthal"
+                      | DESTROY 13="which I'm dragging"
+Cmd 124 |    56    47 |    3   7   0   7   0   8   0   0   0   0 |    1  52  52   0 |
+           wear  band | IF HERECARRY(7="Bandanna")
+                      | MESSAGE 1="OK"
+                      | TAKE 7="Bandanna"
+                      | TAKE 8="Which I'm wearing"
+Cmd 125 |    57    47 |    3   8   0   8   0   0   0   0   0   0 |    1  59   0   0 |
+           remo  band | IF HERECARRY(8="Which I'm wearing")
+                      | MESSAGE 1="OK"
+                      | DESTROY 8="Which I'm wearing"
+Cmd 126 |    59    47 |    3   7   0   8   0   7   0  14   0   0 |    1  59  72   0 |
+           unra  band | IF HERECARRY(7="Bandanna")
+                      | MESSAGE 1="OK"
+                      | DESTROY 8="Which I'm wearing"
+                      | SWAP ITEMS 7="Bandanna" AND 14="Long glowing metal thread"
+Cmd 127 |    23    17 |    2  16   9  15   0   0   0   0   0   0 |    1  17   5   0 |
+           look  cont | IF HERE(16="Control console")
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 1="OK"
+                      | MESSAGE 17="I see"
+                      | MESSAGE 5="button,dials,lever"
+Cmd 128 |    51    66 |    3  41   0  41   0  42   0   0   0   0 |    1 108  72   0 |
+            hit   bag | IF HERECARRY(41="Freestanding punching bag")
+                      | MESSAGE 1="OK"
+                      | MESSAGE 58="EXPLOSION!"
+                      | SWAP ITEMS 41="Freestanding punching bag" AND 42="Scraps of cloth"
+Cmd 129 |    27    19 |    2  16   8  13   9  14   0   0   0   0 |    1   8  11   0 |
+           push  butt | IF HERE(16="Control console")
+                      | IF FLAG(13)=TRUE
+                      | IF FLAG(14)=FALSE
+                      | MESSAGE 1="OK"
+                      | MESSAGE 8="metallic voice whispers in..."
+                      | MESSAGE 11="`Vocalize password Please`"
+Cmd 130 |    27    19 |    2  16   9  13   0   0   0   0   0   0 |    8  36  38  12 |
+           push  butt | IF HERE(16="Control console")
+                      | IF FLAG(13)=FALSE
+                      | MESSAGE 8="metallic voice whispers in..."
+                      | MESSAGE 36="`Prepare Rayshield, PSYCHOT..."
+                      | MESSAGE 38="`Not`"
+                      | MESSAGE 12="`Ready`"
+Cmd 131 |     1    60 |    2  27   0   0   0   0   0   0   0   0 |    1  80  76   0 |
+             go  hole | IF HERE(27="Dark hole")
+                      | MESSAGE 1="OK"
+                      | GOTO LOCATION_SWAP
+                      | LOOK
+Cmd 132 |    27    19 |    2  16   8  13   8  14   0  12   9  12 |    1   3  73  59 | TRANSFER
+           push  butt | IF HERE(16="Control console")
+                      | IF FLAG(13)=TRUE
+                      | IF FLAG(14)=TRUE
+                      | IF FLAG(12)=FALSE
+                      | MESSAGE 1="OK"
+                      | MESSAGE 3="Blinding flash of light"
+                      | CONTINUE_NEXT_LINE
+                      | DESTROY 12="Neanderthal"
+Cmd 133 |     0     0 |    6   8   0   0   0   0   0   0   0   0 |   39  61  63   0 |
+            continued | IF NOT CARRY(8="Which I'm wearing")
+                      | MESSAGE 39="Brain fried!"
+                      | DEAD
+                      | QUIT
+Cmd 134 |     0     0 |    0  17   0   8   0   7   0  14   0   0 |   53  59  59  60 |
+            continued | DROP 17="Me"
+                      | DESTROY 8="Which I'm wearing"
+                      | DESTROY 7="Bandanna"
+                      | SET FLAG(14)=FALSE
+Cmd 135 |     0     0 |    0  13   0  12   0   0   0   0   0   0 |   54  58  56  76 |
+            continued | GOTO 13="red metal room"
+                      | SET FLAG(12)=TRUE
+                      | SET DARK=TRUE
+                      | LOOK
+Cmd 136 |     0     0 |    0  19   0  13   0   0   0   0   0   0 |   28  40  58  60 |
+            continued | MESSAGE 28="I feel"
+                      | MESSAGE 40="strange"
+                      | SET FLAG(19)=TRUE
+                      | SET FLAG(13)=FALSE
+Cmd 137 |     0     0 |    3   4   0   4   0   0   0   0   0   0 |   59   0   0   0 |
+            continued | IF HERECARRY(4="Plants")
+                      | DESTROY 4="Plants"
+Cmd 138 |     0     0 |    0   4   0  25   0   4   0   0   0   0 |   81  79  81   0 |
+            continued | SWAP COUNTER WITH COUNTER(4)
+                      | SET COUNTER=25
+                      | SWAP COUNTER WITH COUNTER(4)
+Cmd 139 |    23    46 |    4  27   9  15   0   0   0   0   0   0 |   17 141   0   0 |
+           look  mach | IF ISROOM(27="large metal room")
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 17="I see"
+                      | MESSAGE 91="combined lavatory & mess ha..."
+Cmd 140 |    61    38 |    8  15   0   0   0   0   0   0   0   0 |    1  57  76   0 |
+           open  eyes | IF FLAG(15)=TRUE
+                      | MESSAGE 1="OK"
+                      | SET DARK=FALSE
+                      | LOOK
+Cmd 141 |    23    36 |    9  15   8  12   0   0   0   0   0   0 |    1  17  31  41 |
+           look  self | IF FLAG(15)=FALSE
+                      | IF FLAG(12)=TRUE
+                      | MESSAGE 1="OK"
+                      | MESSAGE 17="I see"
+                      | MESSAGE 31="Neanderthal"
+                      | MESSAGE 41="body"
+Cmd 142 |    69    47 |    3  23   0   0   0   0   0   0   0   0 |    1  47   0   0 |
+            tie  band | IF HERECARRY(23="Loose end of glowing thread")
+                      | MESSAGE 1="OK"
+                      | MESSAGE 47="To what?"
+Cmd 143 |    29    34 |    2  16   8  13   9  14   9  12   0  14 |   58   8  36  12 |
+            say  free | IF HERE(16="Control console")
+                      | IF FLAG(13)=TRUE
+                      | IF FLAG(14)=FALSE
+                      | IF FLAG(12)=FALSE
+                      | SET FLAG(14)=TRUE
+                      | MESSAGE 8="metallic voice whispers in..."
+                      | MESSAGE 36="`Prepare Rayshield, PSYCHOT..."
+                      | MESSAGE 12="`Ready`"
+Cmd 144 |    63    38 |    0   0   0   0   0   0   0   0   0   0 |    1  56  76   0 |
+           clos  eyes | MESSAGE 1="OK"
+                      | SET DARK=TRUE
+                      | LOOK
+Cmd 145 |    40    30 |    3   4   0   4   0   0   0   0   0   0 |    1  59   0   0 |
+            eat  plan | IF HERECARRY(4="Plants")
+                      | MESSAGE 1="OK"
+                      | DESTROY 4="Plants"
+Cmd 146 |    58    68 |    3  48   8   7   0   0   0   0   0   0 |    1   6  18   0 | .
+           move   red | IF HERECARRY(48="Alien device")
+                      | IF FLAG(7)=TRUE
+                      | MESSAGE 1="OK"
+                      | MESSAGE 6="nothing special"
+                      | MESSAGE 18="happens"
+Cmd 147 |    27    20 |    0   0   0   0   0   0   0   0   0   0 |   16  45   0   0 |
+           push  leve | MESSAGE 16="sorry"
+                      | MESSAGE 45="won't budge"
+Cmd 148 |    66    20 |    0   0   0   0   0   0   0   0   0   0 |   16  45   0   0 |
+           drag  leve | MESSAGE 16="sorry"
+                      | MESSAGE 45="won't budge"
+Cmd 149 |    23    44 |    3  18  14   4   0   4   0   0   0   0 |   17  27  53  76 |
+           look  hydr | IF HERECARRY(18="Hydroponics")
+                      | IF NOWHERE(4="Plants")
+                      | MESSAGE 17="I see"
+                      | MESSAGE 27="something"
+                      | DROP 4="Plants"
+                      | LOOK
+Cmd 150 |    69    47 |    3  14   0   0   0   0   0   0   0   0 |    1  47   0   0 | TO WHAT?
+            tie  band | IF HERECARRY(14="Long glowing metal thread")
+                      | MESSAGE 1="OK"
+                      | MESSAGE 47="To what?"
+Cmd 151 |    23    17 |    3  21   9  15   0   0   0   0   0   0 |   17   5   0   0 |
+           look  cont | IF HERECARRY(21="Control console")
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 17="I see"
+                      | MESSAGE 5="button,dials,lever"
+Cmd 152 |    23    20 |    3  21   9  15   0   0   0   0   0   0 |   17  49   0   0 |
+           look  leve | IF HERECARRY(21="Control console")
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 17="I see"
+                      | MESSAGE 49="Large T shaped handle."
+Cmd 153 |    71    20 |    3  21   0  14   0  22   3  14   0  23 |   59  53  53   1 |
+             to  leve | IF HERECARRY(21="Control console")
+                      | IF HERECARRY(14="Long glowing metal thread")
+                      | DESTROY 14="Long glowing metal thread"
+                      | DROP 22="Glowing thread tied to lever"
+                      | DROP 23="Loose end of glowing thread"
+                      | MESSAGE 1="OK"
+Cmd 154 |    71    20 |    3  21   0  23   3  23   0  22   0   0 |   59  53   1   0 |
+             to  leve | IF HERECARRY(21="Control console")
+                      | IF HERECARRY(23="Loose end of glowing thread")
+                      | DESTROY 23="Loose end of glowing thread"
+                      | DROP 22="Glowing thread tied to lever"
+                      | MESSAGE 1="OK"
+Cmd 155 |    71    59 |    3  21   3  23   0  23   0  25   0   0 |   59  53   1   0 |
+             to  trea | IF HERECARRY(21="Control console")
+                      | IF HERECARRY(23="Loose end of glowing thread")
+                      | DESTROY 23="Loose end of glowing thread"
+                      | DROP 25="with thread tied to it"
+                      | MESSAGE 1="OK"
+Cmd 156 |    71    59 |    3  21   3  14   0  14   0  25   0  23 |   59  53  53   1 |
+             to  trea | IF HERECARRY(21="Control console")
+                      | IF HERECARRY(14="Long glowing metal thread")
+                      | DESTROY 14="Long glowing metal thread"
+                      | DROP 25="with thread tied to it"
+                      | DROP 23="Loose end of glowing thread"
+                      | MESSAGE 1="OK"
+Cmd 157 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd 158 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd 159 |    70    47 |    3  23   0  25   0  22   0  23   0  14 |   59  59  72   1 |
+           unti  band | IF HERECARRY(23="Loose end of glowing thread")
+                      | DESTROY 25="with thread tied to it"
+                      | DESTROY 22="Glowing thread tied to lever"
+                      | SWAP ITEMS 23="Loose end of glowing thread" AND 14="Long glowing metal thread"
+                      | MESSAGE 1="OK"
+Cmd 160 |    70    47 |    3  25   0  23   0  22   0  25   0  14 |   59  59  72   1 |
+           unti  band | IF HERECARRY(25="with thread tied to it")
+                      | DESTROY 23="Loose end of glowing thread"
+                      | DESTROY 22="Glowing thread tied to lever"
+                      | SWAP ITEMS 25="with thread tied to it" AND 14="Long glowing metal thread"
+                      | MESSAGE 1="OK"
+Cmd 161 |    23    14 |    3  21   9  15   0   0   0   0   0   0 |    1  21 121 119 | DIAL - AIR
+           look  atom | IF HERECARRY(21="Control console")
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 1="OK"
+                      | MESSAGE 21="it"
+                      | MESSAGE 71="has"
+                      | MESSAGE 69="8 electrons"
+Cmd 162 |    70    47 |    3  26   0  26   0  14   0   0   0   0 |   72   1   0   0 |
+           unti  band | IF HERECARRY(26="Meter loop of glowing thread")
+                      | SWAP ITEMS 26="Meter loop of glowing thread" AND 14="Long glowing metal thread"
+                      | MESSAGE 1="OK"
+Cmd 163 |    23    14 |    3  34   9  15   0   0   0   0   0   0 |    1  21 121 120 | BLOCK - BOMB
+           look  atom | IF HERECARRY(34="Large plastic block")
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 1="OK"
+                      | MESSAGE 21="it"
+                      | MESSAGE 71="has"
+                      | MESSAGE 70="293 electrons"
+Cmd 164 |    71    47 |    3  14   0  26   0  14   0   0   0   0 |   72   1   0   0 |
+             to  band | IF HERECARRY(14="Long glowing metal thread")
+                      | SWAP ITEMS 26="Meter loop of glowing thread" AND 14="Long glowing metal thread"
+                      | MESSAGE 1="OK"
+Cmd 165 |    69    47 |    3  26   0   0   0   0   0   0   0   0 |   16  15   0   0 |
+            tie  band | IF HERECARRY(26="Meter loop of glowing thread")
+                      | MESSAGE 16="sorry"
+                      | MESSAGE 15="doesn't work"
+Cmd 166 |    69    47 |    3  14   0   0   0   0   0   0   0   0 |   16  15   0   0 |
+            tie  band | IF HERECARRY(14="Long glowing metal thread")
+                      | MESSAGE 16="sorry"
+                      | MESSAGE 15="doesn't work"
+Cmd 167 |    23    47 |    3  26   9  15   0   0   0   0   0   0 |    1  17  50   0 |
+           look  band | IF HERECARRY(26="Meter loop of glowing thread")
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 1="OK"
+                      | MESSAGE 17="I see"
+                      | MESSAGE 50="utter blackness in center!"
+Cmd 168 |     1    47 |    1  26   0   0   0   0   0   0   0   0 |    1  28  27  30 |
+             go  band | IF CARRY(26="Meter loop of glowing thread")
+                      | MESSAGE 1="OK"
+                      | MESSAGE 28="I feel"
+                      | MESSAGE 27="something"
+                      | MESSAGE 30="briefly"
+Cmd 169 |     1    47 |    2  26   0   0   0   0   0   0   0   0 |    1  73   0   0 | LOOP ROUTINE
+             go  band | IF HERE(26="Meter loop of glowing thread")
+                      | MESSAGE 1="OK"
+                      | CONTINUE_NEXT_LINE
+Cmd 170 |     0     0 |    2  26   4   2   0  15   0  27   0   0 |   80  54  53  76 | IF HAVE LOOP
+            continued | IF HERE(26="Meter loop of glowing thread")
+                      | IF ISROOM(2="metal room")
+                      | GOTO LOCATION_SWAP
+                      | GOTO 15="metal storage hold"
+                      | DROP 27="Dark hole"
+                      | LOOK
+Cmd 171 |     0     0 |    2  26   4  20   0  26   0  27   0   0 |   80  54  53  76 |
+            continued | IF HERE(26="Meter loop of glowing thread")
+                      | IF ISROOM(20="main control room")
+                      | GOTO LOCATION_SWAP
+                      | GOTO 26="large metal room"
+                      | DROP 27="Dark hole"
+                      | LOOK
+Cmd 172 |     0     0 |    2  26   0  14   0  27   0   0   0   0 |   80  54  53  76 |
+            continued | IF HERE(26="Meter loop of glowing thread")
+                      | GOTO LOCATION_SWAP
+                      | GOTO 14="cramped metal area"
+                      | DROP 27="Dark hole"
+                      | LOOK
+Cmd 173 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd 174 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd 175 |    66    32 |    3  12   9  10   0   0   0   0   0   0 |   31  33  30  61 | .
+           drag  nean | IF HERECARRY(12="Neanderthal")
+                      | IF FLAG(10)=FALSE
+                      | MESSAGE 31="Neanderthal"
+                      | MESSAGE 33="attacks"
+                      | MESSAGE 30="briefly"
+                      | DEAD
+Cmd 176 |    42    47 |    3  26   0   0   0   0   0   0   0   0 |    1  28  27  40 | .
+           feel  band | IF HERECARRY(26="Meter loop of glowing thread")
+                      | MESSAGE 1="OK"
+                      | MESSAGE 28="I feel"
+                      | MESSAGE 27="something"
+                      | MESSAGE 40="strange"
+Cmd 177 |     7    58 |    3  36   0   0   0   0   0   0   0   0 |   17 110   0   0 |
+           read  sign | IF HERECARRY(36="Large radiant glowing neon...")
+                      | MESSAGE 17="I see"
+                      | MESSAGE 60="`Compared to what you're ab..."
+Cmd 178 |    23    57 |    3  34   9  15   0   0   0   0   0   0 |   17 122 115 109 |
+           look  bloc | IF HERECARRY(34="Large plastic block")
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 17="I see"
+                      | MESSAGE 72="picture of"
+                      | MESSAGE 65="an atom"
+                      | MESSAGE 59="flying apart"
+Cmd 179 |    18    53 |    3  28   0  20   0   0   0   0   0   0 |    1  60   0   0 |
+           drop  rail | IF HERECARRY(28="Railing")
+                      | MESSAGE 1="OK"
+                      | SET FLAG(20)=FALSE
+Cmd 180 |    23    41 |    8  19   3  10   0  19   0   7   0   0 |    9  60  53   0 |
+           look  corp | IF FLAG(19)=TRUE
+                      | IF HERECARRY(10="Corpse")
+                      | MESSAGE 9="one item"
+                      | SET FLAG(19)=FALSE
+                      | DROP 7="Bandanna"
+Cmd 181 |     1    59 |    2  24   0  16   0   0   0   0   0   0 |    1  54  76   0 |
+             go  trea | IF HERE(24="Treadmill")
+                      | MESSAGE 1="OK"
+                      | GOTO 16="on a treadmill"
+                      | LOOK
+Cmd 182 |    10    53 |    3  28   0  20   0   0   0   0   0   0 |    1  58 102   0 |
+            get  rail | IF HERECARRY(28="Railing")
+                      | MESSAGE 1="OK"
+                      | SET FLAG(20)=TRUE
+                      | MESSAGE 52="I'm holding it"
+Cmd 183 |     8     0 |    4  16   9  20   0  11   0   0   0   0 |    1  54  76   0 |
+           walk       | IF ISROOM(16="on a treadmill")
+                      | IF FLAG(20)=FALSE
+                      | MESSAGE 1="OK"
+                      | GOTO 11="metal room"
+                      | LOOK
+Cmd 184 |     9     0 |    4  16   9  20   0  11   0   0   0   0 |    1  54  76   0 |
+            run       | IF ISROOM(16="on a treadmill")
+                      | IF FLAG(20)=FALSE
+                      | MESSAGE 1="OK"
+                      | GOTO 11="metal room"
+                      | LOOK
+Cmd 185 |     8     0 |    4  16  13  25  13  22   0   0   0   0 |   16  45   0   0 | WONT BUDGE
+           walk       | IF ISROOM(16="on a treadmill")
+                      | IF SOMEWHERE(25="with thread tied to it")
+                      | IF SOMEWHERE(22="Glowing thread tied to lever")
+                      | MESSAGE 16="sorry"
+                      | MESSAGE 45="won't budge"
+Cmd 186 |     9     0 |    4  16  13  25  13  22   9  21   0  21 |   58  49  34  30 |
+            run       | IF ISROOM(16="on a treadmill")
+                      | IF SOMEWHERE(25="with thread tied to it")
+                      | IF SOMEWHERE(22="Glowing thread tied to lever")
+                      | IF FLAG(21)=FALSE
+                      | SET FLAG(21)=TRUE
+                      | MESSAGE 49="Large T shaped handle."
+                      | MESSAGE 34="moves"
+                      | MESSAGE 30="briefly"
+Cmd 187 |     9     0 |    4  16  13  25  13  22   8  21   0   0 |   16  45   0   0 |
+            run       | IF ISROOM(16="on a treadmill")
+                      | IF SOMEWHERE(25="with thread tied to it")
+                      | IF SOMEWHERE(22="Glowing thread tied to lever")
+                      | IF FLAG(21)=TRUE
+                      | MESSAGE 16="sorry"
+                      | MESSAGE 45="won't budge"
+Cmd 188 |    66    47 |    3  23   0   0   0   0   0   0   0   0 |   16  45   0   0 |
+           drag  band | IF HERECARRY(23="Loose end of glowing thread")
+                      | MESSAGE 16="sorry"
+                      | MESSAGE 45="won't budge"
+Cmd 189 |    23    22 |    2  29   9  15   0   0   0   0   0   0 |   17 104  73   0 |
+           look  disp | IF HERE(29="Display case")
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 17="I see"
+                      | MESSAGE 54="Button at bottom."
+                      | CONTINUE_NEXT_LINE
+Cmd 190 |     0     0 |    9  23   0   0   0   0   0   0   0   0 |   17  31   0   0 |
+            continued | IF FLAG(23)=FALSE
+                      | MESSAGE 17="I see"
+                      | MESSAGE 31="Neanderthal"
+Cmd 191 |    27    19 |    2  29   9  23   0  23   0  30   0   0 |   58  53  17  73 |
+           push  butt | IF HERE(29="Display case")
+                      | IF FLAG(23)=FALSE
+                      | SET FLAG(23)=TRUE
+                      | DROP 30="which is open"
+                      | MESSAGE 17="I see"
+                      | CONTINUE_NEXT_LINE
+Cmd 192 |     0     0 |    0  12   0   0   0   0   0   0   0   0 |   53  31   8 116 |
+            continued | DROP 12="Neanderthal"
+                      | MESSAGE 31="Neanderthal"
+                      | MESSAGE 8="metallic voice whispers in..."
+                      | MESSAGE 66="`WARNING - Non-transfigured..."
+Cmd 193 |    27    19 |    2  31   9  22   0   0   0   0   0   0 |  105  19  61   0 |
+           push  butt | IF HERE(31="Button")
+                      | IF FLAG(22)=FALSE
+                      | MESSAGE 55="Case closes, some gas comes..."
+                      | MESSAGE 19="Time paradox shatters reality"
+                      | DEAD
+Cmd 194 |    27    19 |    2  31   8  22   0   0   0   0   0   0 |  105 106  63   0 | END GAME
+           push  butt | IF HERE(31="Button")
+                      | IF FLAG(22)=TRUE
+                      | MESSAGE 55="Case closes, some gas comes..."
+                      | MESSAGE 56="Congratulations! You've fin..."
+                      | QUIT
+Cmd 195 |    23    56 |    3  32   0   0   0   0   0   0   0   0 |   40  21 107   0 |
+           look  pira | IF HERECARRY(32="Pirate")
+                      | MESSAGE 40="strange"
+                      | MESSAGE 21="it"
+                      | MESSAGE 57="is a robot!"
+Cmd 196 |    27    19 |    3   3   8   4   9  24   0  24   0   0 |    1  58   3  73 |
+           push  butt | IF HERECARRY(3="Control console")
+                      | IF FLAG(4)=TRUE
+                      | IF FLAG(24)=FALSE
+                      | MESSAGE 1="OK"
+                      | SET FLAG(24)=TRUE
+                      | MESSAGE 3="Blinding flash of light"
+                      | CONTINUE_NEXT_LINE
+Cmd 197 |     0     0 |    8  27   0  25   0  35   0   0   0   0 |   58  59   0   0 |
+            continued | IF FLAG(27)=TRUE
+                      | SET FLAG(25)=TRUE
+                      | DESTROY 35="GLOWING large plastic block"
+Cmd 198 |    23    54 |    3  20   0   0   0   0   0   0   0   0 |   17 122 123  73 |
+           look  view | IF HERECARRY(20="Viewscreen")
+                      | MESSAGE 17="I see"
+                      | MESSAGE 72="picture of"
+                      | MESSAGE 73="this spaceship now orbiting..."
+                      | CONTINUE_NEXT_LINE
+Cmd 199 |     0     0 |    9  25   0   0   0   0   0   0   0   0 |  103   0   0   0 |
+            continued | IF FLAG(25)=FALSE
+                      | MESSAGE 53="Closeups show Dinosaurs eve..."
+Cmd 200 |    27    19 |    3   3   8  24   8   4   0  24   0   0 |    1  60   3  73 |
+           push  butt | IF HERECARRY(3="Control console")
+                      | IF FLAG(24)=TRUE
+                      | IF FLAG(4)=TRUE
+                      | MESSAGE 1="OK"
+                      | SET FLAG(24)=FALSE
+                      | MESSAGE 3="Blinding flash of light"
+                      | CONTINUE_NEXT_LINE
+Cmd 201 |     0     0 |    8  27   0  25   0  35   0   0   0   0 |   58  59   0   0 |
+            continued | IF FLAG(27)=TRUE
+                      | SET FLAG(25)=TRUE
+                      | DESTROY 35="GLOWING large plastic block"
+Cmd 202 |     8     0 |    4  16   8  20   0   0   0   0   0   0 |    1  21  34   0 |
+           walk       | IF ISROOM(16="on a treadmill")
+                      | IF FLAG(20)=TRUE
+                      | MESSAGE 1="OK"
+                      | MESSAGE 21="it"
+                      | MESSAGE 34="moves"
+Cmd 203 |     9     0 |    4  16   8  20   0   0   0   0   0   0 |    1  21  34   0 |
+            run       | IF ISROOM(16="on a treadmill")
+                      | IF FLAG(20)=TRUE
+                      | MESSAGE 1="OK"
+                      | MESSAGE 21="it"
+                      | MESSAGE 34="moves"
+Cmd 204 |     1    22 |    2  30   0  17   0   0   0   0   0   0 |    1  54  76   0 |
+             go  disp | IF HERE(30="which is open")
+                      | MESSAGE 1="OK"
+                      | GOTO 17="in an open display case"
+                      | LOOK
+Cmd 205 |    23    32 |    3  29   9  23   9  15   0   0   0   0 |    1  17  37  31 | .
+           look  nean | IF HERECARRY(29="Display case")
+                      | IF FLAG(23)=FALSE
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 1="OK"
+                      | MESSAGE 17="I see"
+                      | MESSAGE 37="thick headed"
+                      | MESSAGE 31="Neanderthal"
+Cmd 206 |    23    32 |    3  12   9  15   8  10   0   0   0   0 |   29   0   0   0 | .
+           look  nean | IF HERECARRY(12="Neanderthal")
+                      | IF FLAG(15)=FALSE
+                      | IF FLAG(10)=TRUE
+                      | MESSAGE 29="sedated!"
+Cmd 207 |    29     0 |    9   7   8  12   9  18   0   0   0   0 |    1  24   0   0 |
+            say       | IF FLAG(7)=FALSE
+                      | IF FLAG(12)=TRUE
+                      | IF FLAG(18)=FALSE
+                      | MESSAGE 1="OK"
+                      | MESSAGE 24="Argh"
+Cmd 208 |    23    32 |    3  12   9  15   0   0   0   0   0   0 |    1  17  37  31 |
+           look  nean | IF HERECARRY(12="Neanderthal")
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 1="OK"
+                      | MESSAGE 17="I see"
+                      | MESSAGE 37="thick headed"
+                      | MESSAGE 31="Neanderthal"
+Cmd 209 |    23    47 |    3   7   9  15   0   0   0   0   0   0 |    6   7  20  35 |
+           look  band | IF HERECARRY(7="Bandanna")
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 6="nothing special"
+                      | MESSAGE 7="except"
+                      | MESSAGE 20="glowing"
+                      | MESSAGE 35="metallic threads"
+Cmd 210 |     7     9 |    2   1   8  12   9  15   0   0   0   0 |    1  17 135   0 |
+           read  dial | IF HERE(1="Control console")
+                      | IF FLAG(12)=TRUE
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 1="OK"
+                      | MESSAGE 17="I see"
+                      | MESSAGE 85="force field reset"
+Cmd 211 |     7     9 |    2  11   8  12   9  15   0   0   0   0 |    1  17 131   0 |
+           read  dial | IF HERE(11="Control console")
+                      | IF FLAG(12)=TRUE
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 1="OK"
+                      | MESSAGE 17="I see"
+                      | MESSAGE 81="`Main landing sequence set..."
+Cmd 212 |     7     9 |    2  16   8  12   9  15   0   0   0   0 |   40 114 113 118 |
+           read  dial | IF HERE(16="Control console")
+                      | IF FLAG(12)=TRUE
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 40="strange"
+                      | MESSAGE 64="I can"
+                      | MESSAGE 63="read it!"
+                      | MESSAGE 68="`Pull lever to reverse Tran..."
+Cmd 213 |     6     0 |    0   0   0   0   0   0   0   0   0   0 |   51   0   0   0 |
+           jump       | MESSAGE 51="Try: `GO`"
+Cmd 214 |     9     0 |    0   0   0   0   0   0   0   0   0   0 |   51   0   0   0 |
+            run       | MESSAGE 51="Try: `GO`"
+Cmd 215 |     8     0 |    0   0   0   0   0   0   0   0   0   0 |   51   0   0   0 |
+           walk       | MESSAGE 51="Try: `GO`"
+Cmd 216 |    71     0 |    0   0   0   0   0   0   0   0   0   0 |   16  15  48   0 |
+             to       | MESSAGE 16="sorry"
+                      | MESSAGE 15="doesn't work"
+                      | MESSAGE 48="slips off"
+Cmd 217 |    51     0 |    0   0   0   0   0   0   0   0   0   0 |   16  15   0   0 |
+            hit       | MESSAGE 16="sorry"
+                      | MESSAGE 15="doesn't work"
+Cmd 218 |    45     0 |    9  15   0   0   0   0   0   0   0   0 |   66   0   0   0 |
+           inve       | IF FLAG(15)=FALSE
+                      | INVENTORY
+Cmd 219 |    10     7 |    9  15   0   0   0   0   0   0   0   0 |   66   0   0   0 |
+            get  inve | IF FLAG(15)=FALSE
+                      | INVENTORY
+Cmd 220 |    33     0 |    0   0   0   0   0   0   0   0   0   0 |   16  15   0   0 |
+            use       | MESSAGE 16="sorry"
+                      | MESSAGE 15="doesn't work"
+Cmd 221 |    27    19 |    2  29  14  30   0  30   0   0   0   0 |    1  53   0   0 |
+           push  butt | IF HERE(29="Display case")
+                      | IF NOWHERE(30="which is open")
+                      | MESSAGE 1="OK"
+                      | DROP 30="which is open"
+Cmd 222 |    29     0 |    9   7   9  12   9  18   0   0   0   0 |    1  85   0   0 |
+            say       | IF FLAG(7)=FALSE
+                      | IF FLAG(12)=FALSE
+                      | IF FLAG(18)=FALSE
+                      | MESSAGE 1="OK"
+                      | WRITELINE NOUN
+Cmd 223 |    35     8 |    0   0   0   0   0   0   0   0   0   0 |    1  71   0   0 |
+           save  game | MESSAGE 1="OK"
+                      | SAVEGAME
+Cmd 224 |    36     0 |    0   0   0   0   0   0   0   0   0   0 |    1  63   0   0 |
+           quit       | MESSAGE 1="OK"
+                      | QUIT
+Cmd 225 |    42     0 |    0   0   0   0   0   0   0   0   0   0 |    1  28   6   0 |
+           feel       | MESSAGE 1="OK"
+                      | MESSAGE 28="I feel"
+                      | MESSAGE 6="nothing special"
+Cmd 226 |    62     0 |    0   0   0   0   0   0   0   0   0   0 |    1  85   0   0 |
+           thin       | MESSAGE 1="OK"
+                      | WRITELINE NOUN
+Cmd 227 |     7     0 |    9  15   0   0   0   0   0   0   0   0 |   16 112 113   0 |
+           read       | IF FLAG(15)=FALSE
+                      | MESSAGE 16="sorry"
+                      | MESSAGE 62="I can't"
+                      | MESSAGE 63="read it!"
+Cmd 228 |    27    32 |    3  12   0   0   0   0   0   0   0   0 |   21  34   0   0 |
+           push  nean | IF HERECARRY(12="Neanderthal")
+                      | MESSAGE 21="it"
+                      | MESSAGE 34="moves"
+Cmd 229 |    27    19 |    3  30   0  30   0   0   0   0   0   0 |    1  59   0   0 |
+           push  butt | IF HERECARRY(30="which is open")
+                      | MESSAGE 1="OK"
+                      | DESTROY 30="which is open"
+Cmd 230 |     1    11 |    2  47   4   9   0  24   0  46   0  47 |    1  54  53  53 |
+             go  fiel | IF HERE(47="which is weakly flickering")
+                      | IF ISROOM(9="metal lined tunnel")
+                      | MESSAGE 1="OK"
+                      | GOTO 24="metal lifeboat hangar open to"
+                      | DROP 46="Force field"
+                      | DROP 47="which is weakly flickering"
+Cmd 231 |     1    11 |    2  47   4  24   0   9   0  46   0  47 |    1  54  53  53 |
+             go  fiel | IF HERE(47="which is weakly flickering")
+                      | IF ISROOM(24="metal lifeboat hangar open to")
+                      | MESSAGE 1="OK"
+                      | GOTO 9="metal lined tunnel"
+                      | DROP 46="Force field"
+                      | DROP 47="which is weakly flickering"
+Cmd 232 |     1    11 |    5  47   4   9   0  24   0  46   0   0 |    1  54  53   0 |
+             go  fiel | IF NOT HERE(47="which is weakly flickering")
+                      | IF ISROOM(9="metal lined tunnel")
+                      | MESSAGE 1="OK"
+                      | GOTO 24="metal lifeboat hangar open to"
+                      | DROP 46="Force field"
+Cmd 233 |     1    11 |    5  47   4  24   0   9   0  46   0   0 |    1  54  53   0 |
+             go  fiel | IF NOT HERE(47="which is weakly flickering")
+                      | IF ISROOM(24="metal lifeboat hangar open to")
+                      | MESSAGE 1="OK"
+                      | GOTO 9="metal lined tunnel"
+                      | DROP 46="Force field"
+Cmd 234 |    61     0 |    0   0   0   0   0   0   0   0   0   0 |   16 112   0   0 |
+           open       | MESSAGE 16="sorry"
+                      | MESSAGE 62="I can't"
+Cmd 235 |    23    70 |    9  15   0   0   0   0   0   0   0   0 |  133   0   0   0 |
+           look  plat | IF FLAG(15)=FALSE
+                      | MESSAGE 83="shaped for strange narrow a..."
+Cmd 236 |    23    60 |    2  27   9  15   0   0   0   0   0   0 |   17  50   0   0 |
+           look  hole | IF HERE(27="Dark hole")
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 17="I see"
+                      | MESSAGE 50="utter blackness in center!"
+Cmd 237 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd 238 |    66    47 |    3   7   0   8   0   7   0  14   0   0 |    1  59  72   0 |
+           drag  band | IF HERECARRY(7="Bandanna")
+                      | MESSAGE 1="OK"
+                      | DESTROY 8="Which I'm wearing"
+                      | SWAP ITEMS 7="Bandanna" AND 14="Long glowing metal thread"
+Cmd 239 |     1    74 |    4  24   0   0   0   0   0   0   0   0 |   16 112   0   0 |
+             go  life | IF ISROOM(24="metal lifeboat hangar open to")
+                      | MESSAGE 16="sorry"
+                      | MESSAGE 62="I can't"
+Cmd 240 |    39     0 |    9   7   0   5   0  18   0   0   0   0 |    1  60  60  26 |
+           brea       | IF FLAG(7)=FALSE
+                      | MESSAGE 1="OK"
+                      | SET FLAG(5)=FALSE
+                      | SET FLAG(18)=FALSE
+                      | MESSAGE 26="I breathed"
+Cmd 241 |    73    64 |    3  40   0   0   0   0   0   0   0   0 |    1 142   0   0 |
+           kick  ball | IF HERECARRY(40="Large medicine ball")
+                      | MESSAGE 1="OK"
+                      | MESSAGE 92="OUCH!"
+Cmd 242 |    23    35 |    9  15   3  17   0   0   0   0   0   0 |   73   0   0   0 |
+           look    me | IF FLAG(15)=FALSE
+                      | IF HERECARRY(17="Me")
+                      | CONTINUE_NEXT_LINE
+Cmd 243 |     0     0 |    9  28   0   0   0   0   0   0   0   0 |   29   0   0   0 |
+            continued | IF FLAG(28)=FALSE
+                      | MESSAGE 29="sedated!"
+Cmd 244 |     0     0 |    8  19   0   7   0  19   0   0   0   0 |    9  53  60   0 |
+            continued | IF FLAG(19)=TRUE
+                      | MESSAGE 9="one item"
+                      | DROP 7="Bandanna"
+                      | SET FLAG(19)=FALSE
+Cmd 245 |     0     0 |    8  28   0   0   0   0   0   0   0   0 |   44   0   0   0 |
+            continued | IF FLAG(28)=TRUE
+                      | MESSAGE 44="Awake!"
+Cmd 246 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd 247 |    23     0 |    9  15   0   0   0   0   0   0   0   0 |    1  17   6  76 |
+           look       | IF FLAG(15)=FALSE
+                      | MESSAGE 1="OK"
+                      | MESSAGE 17="I see"
+                      | MESSAGE 6="nothing special"
+                      | LOOK
+
+// END OF FILE

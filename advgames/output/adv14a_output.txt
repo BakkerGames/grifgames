@@ -1,0 +1,2089 @@
+Unknown        = 0
+ItemCount      = 71
+CommandCount   = 277
+VerbNounCount  = 104
+RoomCount      = 24
+MaxInventory   = 10
+StartRoom      = 1
+TreasureCount  = 13
+WordLength     = 4
+LightMoves     = 1
+MessageCount   = 89
+TreasureRoom   = 13
+
+Cmd   0:    100     68    588    329     60    620   9058      0
+Cmd   1:    100    628    589     60    620      0   8760      0
+Cmd   2:    100    588     16      0      0      0  11550      0
+Cmd   3:    100     88    201    200    280      0   9300      0
+Cmd   4:    100     49     69      0      0      0   8550      0
+Cmd   5:      8    429    361    449    440    360   8760      0
+Cmd   6:    100   1341    109   1340   1360      0  10800      0
+Cmd   7:    100     20     20     20      0      0  12232  12150
+Cmd   8:    100     29    800     60      0      0  11931  10950
+Cmd   9:      0      0      0      0      0      0   8470   9602
+Cmd  10:      0     20     40    360      0      0   8758   8813
+Cmd  11:      0     20      0     20    400      0  12229  12229
+Cmd  12:    100    264    842    500      0      0   8700      0
+Cmd  13:    100    108    241    480      0      0   8700      0
+Cmd  14:    100    108    281    480      0      0   8700      0
+Cmd  15:    100    108   1021    480      0      0   8700      0
+Cmd  16:    100    488   1033   1014   1000   1020  10800      0
+Cmd  17:    100    343    366     88    440    460   9058      0
+Cmd  18:    100    621    380      0      0      0   8700      0
+Cmd  19:    100    264    845    500      0      0   9000      0
+Cmd  20:    100    269   1273   1260      0      0   8926      0
+Cmd  21:    100    128     40     20      0      0  12233  10950
+Cmd  22:      0     75      0      0      0      0   2250      0
+Cmd  23:      0     15     89    120    340      0   2610   9000
+Cmd  24:      0     40      0      0      0      0  12150      0
+Cmd  25:    100     88     41     40     40    360   8308   9073
+Cmd  26:      0      0      0      0      0      0  10524      0
+Cmd  27:    100     89    200    220    240    260   9060   9060
+Cmd  28:    100     89    280    400      0      0   9060      0
+Cmd  29:    100    108    841    840   1080      0  10800      0
+Cmd  30:    100    268     88    654    244   1260   8026      0
+Cmd  31:    100    468    361     40    440    360   7408   9060
+Cmd  32:    100    448    361     40      0      0   5758   8400
+Cmd  33:    100    108   1121   1240   1120      0  10800      0
+Cmd  34:     15     48     24      0      0      0   6300      0
+Cmd  35:    100     88    129      0      0      0   2461      0
+Cmd  36:    100     26     41     40     40    360   8308   9000
+Cmd  37:    100    346    361    360     40    360   8308   9000
+Cmd  38:    100    369     68    360      0      0   8458  10564
+Cmd  39:    100    389    149      0      0      0   4833      0
+Cmd  40:    100     48      0      0      0      0    605      0
+Cmd  41:    100    368     49    360     69      0   8610  11400
+Cmd  42:    100    369     48    360      0      0   8458  11400
+Cmd  43:     25     88    408    400    260      0   9058      0
+Cmd  44:    100    588     15    580      0      0   9079      0
+Cmd  45:    100    135    540      0      0      0   8700      0
+Cmd  46:    100    136    934    540      0      0   9000      0
+Cmd  47:    100    484      0      0      0      0   9450      0
+Cmd  48:    100    568    400     60      0      0  11931  11623
+Cmd  49:      0     15    560      0      0      0   9079      0
+Cmd  50:      0     60      0      0      0      0  12150      0
+Cmd  51:   4121     44     48     23      0      0    171   7050
+Cmd  52:   4050     48      0      0      0      0    476      0
+Cmd  53:  13114    364     15      0      0      0    476   1173
+Cmd  54:  13114    364     60      0      0      0  11031      0
+Cmd  55:      0     15      0      0      0      0    480   4486
+Cmd  56:      0     16    560      0      0      0    208      0
+Cmd  57:      0     60      0      0      0      0  12150      0
+Cmd  58:   4150   1133   1283      0      0      0    157  19800
+Cmd  59:  10961    569   1042      0      0      0  19394  15900
+Cmd  60:    193    973     10     46      0      0    476   1611
+Cmd  61:   4120     88    228   1354   1340      0   1060   3374
+Cmd  62:   4065   1042      0      0      0      0    555      0
+Cmd  63:   4074     49    313    283    280   1020    157   7572
+Cmd  64:   1505     27      0      0      0      0   6900      0
+Cmd  65:    193    384     11     40      0      0    204  11400
+Cmd  66:    193    962     11    380      0      0    204  11400
+Cmd  67:   8593    960    900    902      0      0    222      0
+Cmd  68:   7800    108      0      0      0      0   7200      0
+Cmd  69:  13800      0      0      0      0      0   6600      0
+Cmd  70:   3600     48     44     22     20      0   3160   3374
+Cmd  71:   6961     46    366      0      0      0    171   4523
+Cmd  72:   4140    149      0      0      0      0    157  11828
+Cmd  73:   8884    123    883    608    880   1420    222      0
+Cmd  74:  11582    343    366    468    460      0    210      0
+Cmd  75:   4053     88    208      0      0      0   1087   3450
+Cmd  76:   6150     49      0      0      0      0   9900      0
+Cmd  77:   1551     49      0      0      0      0   9900      0
+Cmd  78:    214    364    340      0      0      0    204  11400
+Cmd  79:   5132    361    360     40      0      0    209   8756
+Cmd  80:   5107     41     40     40      0      0    209   8756
+Cmd  81:    207      0      0      0      0      0   6150      0
+Cmd  82:   9157     43      0      0      0      0    150      0
+Cmd  83:   3600    324      0      0      0      0    157  16500
+Cmd  84:   4102      0      0      0      0      0    195      0
+Cmd  85:    161    862     80    140      0      0   8176   9000
+Cmd  86:  10650    508      0      0      0      0   9750      0
+Cmd  87:  10800      0      0      0      0      0    476      0
+Cmd  88:   8611      0      0      0      0      0    150      0
+Cmd  89:   3662    702    288    234    220      0   3160   3374
+Cmd  90:   6450    923    104    834    153    820   3160   3374
+Cmd  91:   6615    142    140      0      0      0    209  10950
+Cmd  92:      0    825      0      0      0      0  15600      0
+Cmd  93:      0    822    820   1040    940      0   8922  15450
+Cmd  94:   1530    129    120     40      0      0    208  11031
+Cmd  95:      0    348    160     40      0      0  11931      0
+Cmd  96:      0    349     60     40      0      0  11931      0
+Cmd  97:   6797    340    120      0      0      0    208   9000
+Cmd  98:   7050    340    120      0      0      0    208   9000
+Cmd  99:   6750    120    340      0      0      0    210   9017
+Cmd 100:  11850      0      0      0      0      0    180   4350
+Cmd 101:   5407     23    366     20     40     40    224  11160
+Cmd 102:  12931     63      0      0      0      0    157    900
+Cmd 103:   5916    124    140      0      0      0    158   8176
+Cmd 104:   5855    124    140      0      0      0    158   8176
+Cmd 105:   5850    124      0      0      0      0    159   9150
+Cmd 106:   5859    144    120      0      0      0    204   1426
+Cmd 107:   5850    144      0      0      0      0    159   9150
+Cmd 108:   5850      0      0      0      0      0    480   4350
+Cmd 109:    163    144    160     60    320      0   8454   8758
+Cmd 110:    163    164    140     60    320      0   8160   9076
+Cmd 111:    172    164    180      0      0      0    204      0
+Cmd 112:  11307    632      0      0      0      0    491      0
+Cmd 113:   4112    363    702    440     40      0   1108   8739
+Cmd 114:   9182    108    343    366    440    420    210   9000
+Cmd 115:   4065    143    174    214    160      0   1060   3374
+Cmd 116:   4065    143   1114   1100      0      0   1060   3374
+Cmd 117:   8571    163    123    200    214      0    157   1553
+Cmd 118:   5117    243    240    260    280    983    222   7950
+Cmd 119:   5203     23    983     20    400    380  10874  17959
+Cmd 120:   4074    283    300      0      0      0   1062   3374
+Cmd 121:   4126    303      0      0      0      0    157   1950
+Cmd 122:  11732     89    343    366    420    440    208   9000
+Cmd 123:  12976    303      0      0      0      0   2100      0
+Cmd 124:   7244      9      0      0      0      0    476      0
+Cmd 125:   4074    243      0      0      0      0    157   1650
+Cmd 126:    160    104    120      0      0      0    204  11400
+Cmd 127:    178     44     20      0      0      0    204  11400
+Cmd 128:   4081      0      0      0      0      0    157   1950
+Cmd 129:   4057     23      0      0      0      0    157   2700
+Cmd 130:   5108     23    983     20    400    380  10874  17959
+Cmd 131:   7536    423    420    440      0      0    222   1200
+Cmd 132:   4100    423    474    460      0      0   3160  11122
+Cmd 133:   4100    423      0      0      0      0    157   2850
+Cmd 134:  12938    481      0      0      0      0    157   3000
+Cmd 135:   5432     41      0      0      0      0    476   1523
+Cmd 136:   5432    343    340    360      0      0    224  11173
+Cmd 137:      0    168     40    469      0      0   9000      0
+Cmd 138:   4808    443    403    180      0      0   3808      0
+Cmd 139:   7982    443    403    188    343    366    223      0
+Cmd 140:      0    400    160    180      0      0   8308   9000
+Cmd 141:   7950    188    180      0      0      0    476   9000
+Cmd 142:   4151    149     60     60      0      0  12228  12288
+Cmd 143:   7206    108     80      0      0      0    223   8700
+Cmd 144:      0    921    920    220    540      0   8069   1500
+Cmd 145:      0    582    240    240    580      0   8158   8326
+Cmd 146:      0    522    240    200    520      0   8158   8326
+Cmd 147:      0    562    240    260    560      0   8158   8250
+Cmd 148:      0    722    240    280    720      0   8158   8326
+Cmd 149:      0    802    240    400    800      0   8158   8326
+Cmd 150:      0    542    240    220    540      0   8158   8326
+Cmd 151:   4131   1182    549      0      0      0    157  18150
+Cmd 152:   5184    934    548   1182    983    920    172  11100
+Cmd 153:    195    522     60    100    520      0    204   9059
+Cmd 154:    161    582    580    260    100    140   8904   9060
+Cmd 155:    161    562    560     80    100    140   8904   9060
+Cmd 156:   7205     88    408     80    220    800   9054   8026
+Cmd 157:   7205     88    228     80    220    540   9054   8026
+Cmd 158:   7205     88    208     80    220    520   9054   8026
+Cmd 159:   7205     88    268     80    220    560   9054   8026
+Cmd 160:   7205     88    248      0      0      0    476   1523
+Cmd 161:   7205     88    288     80    220    720   9054   8026
+Cmd 162:   7244     88    248     80    220    580   9054   8026
+Cmd 163:    189     64    100    220    520      0   8754   8026
+Cmd 164:    189    264    100    220    580    140   8754   8008
+Cmd 165:   7204     88    268    260    240      0    210   8776
+Cmd 166:   7203     88    208    200    220      0    210   8776
+Cmd 167:   7204     88    228    220    200      0    210   8776
+Cmd 168:   7203     88    248    240    260      0    210   8776
+Cmd 169:   7203     88    228      0      0      0    476   1523
+Cmd 170:   4093     44    135    588     16      0   1184  18750
+Cmd 171:   4093     44    136    588      0      0   1184  18600
+Cmd 172:   7200     88    400      0      0      0    208  11400
+Cmd 173:   4110    683    434    454    420    169   1084   3374
+Cmd 174:    189     84    100    220    560    140   8754   8008
+Cmd 175:    189    304    100    220    720      0   8754   8026
+Cmd 176:   9628   1414   1400    322      0      0   3160   3374
+Cmd 177:    213     44    320      0      0      0    204  11400
+Cmd 178:    216     44    320      0      0      0    204  11400
+Cmd 179:   4115    743     20     20      0      0   5331  11781
+Cmd 180:   4055     88    248      9      0      0    157   4200
+Cmd 181:    199    722    720    100    300      0   8910   8176
+Cmd 182:    202    782      0      0      0      0   6900      0
+Cmd 183:  12931    843      0      0      0      0    157   5400
+Cmd 184:   1560    304    694    680      0      0  11101      0
+Cmd 185:   1560    683    680      0      0      0  11101      0
+Cmd 186:   9683    494     24    480      0      0   3160   3374
+Cmd 187:   4061     88    248      8      0      0   1078   1189
+Cmd 188:   7350      0      0      0      0      0    235   4529
+Cmd 189:   4114    344    994    980      0      0   3160   3374
+Cmd 190:    195    642     60    140      0      0    204   8776
+Cmd 191:   7200    108      0      0      0      0    150      0
+Cmd 192:   2400    149    389      0      0      0   4914      0
+Cmd 193:    202    762      0      0      0      0   6900      0
+Cmd 194:   6450    923      0      0      0      0   3180      0
+Cmd 195:  10961    306      0      0      0      0    476   7650
+Cmd 196:   1350      0      0      0      0      0   9450      0
+Cmd 197:   7200      0      0      0      0      0   4529      0
+Cmd 198:   4053     88    228      0      0      0    157   5550
+Cmd 199:    161   1262    460      0      0      0    204  11400
+Cmd 200:   8303      0      0      0      0      0    221      0
+Cmd 201:   4061     88    248      9      0      0    266      0
+Cmd 202:   3662    702    248    894    880      0   3160   3374
+Cmd 203:  10961   1045      0      0      0      0    476  15433
+Cmd 204:  10350      0      0      0      0      0    476      0
+Cmd 205:   3600     24      0      0      0      0    193      0
+Cmd 206:   4950      0      0      0      0      0    491      0
+Cmd 207:   4145      0      0      0      0      0    157  19500
+Cmd 208:   2400      0      0      0      0      0   4830   4650
+Cmd 209:    216      0      0      0      0      0   6600      0
+Cmd 210:   6900      0      0      0      0      0   4529      0
+Cmd 211:   8643    883    600      0      0      0   6658      0
+Cmd 212:   1583      0      0      0      0      0    476  16050
+Cmd 213:   4121      0      0      0      0      0    476  16200
+Cmd 214:    166   1062     11    400      0      0    204  11400
+Cmd 215:    166   1062     10      0      0      0    476   1611
+Cmd 216:  10650    509      0      0      0      0    262      0
+Cmd 217:   6605      0      0      0      0      0   6900      0
+Cmd 218:   1505     24     40      0      0      0    204  11400
+Cmd 219:  12938   1123     69     49      0      0    157  17250
+Cmd 220:    189    384    100    220    560    140   8754   8008
+Cmd 221:  12000     48     69     89    366     40   9057  11473
+Cmd 222:      0    360     40      0      0      0   9088   8770
+Cmd 223:   8650   1134   1283   1120      0      0   1060  11173
+Cmd 224:      0      0      0      0      0      0   3307  19800
+Cmd 225:   2736      0      0      0      0      0    476      0
+Cmd 226:   1207     23      0      0      0      0  17553   3900
+Cmd 227:  12000     88      0      0      0      0   4529      0
+Cmd 228:    160    144      0      0      0      0    496      0
+Cmd 229:    159      0      0      0      0      0   6600      0
+Cmd 230:   1106    823    820      0      0      0    209      0
+Cmd 231:  12174   1023    520      0      0      0    267   3808
+Cmd 232:   8029   1023   1143    528   1160   1020    222  10950
+Cmd 233:      0   1140    520      0      0      0   8910      0
+Cmd 234:  12474   1163   1020   1160   1140      0    222  11100
+Cmd 235:  12150      0      0      0      0      0  17668      0
+Cmd 236:    231   1182    549      0      0      0    476  17671
+Cmd 237:   4131   1182    548      0      0      0   1172  10950
+Cmd 238:      0   1214   1200      0      0      0   3160   3374
+Cmd 239:  10961     44    653    640     80     60   8472   8773
+Cmd 240:      0     60    300      0      0      0  12233    285
+Cmd 241:      0     15      0      0      0      0    586  20611
+Cmd 242:      0     60      0      0      0      0  12238  13288
+Cmd 243:   5184    934    548   1182    983    920    172  11100
+Cmd 244:   4055     88    248      8      0      0   1078   1189
+Cmd 245:    219     44      0      0      0      0    583      0
+Cmd 246:  11314    364    568    560      0      0    210      0
+Cmd 247:   4061    148      0      0      0      0   1170  10950
+Cmd 248:      0    135     16    588      0      0  18750      0
+Cmd 249:      0    136    588      0      0      0  18600      0
+Cmd 250:      0    589      0      0      0      0  18900      0
+Cmd 251:   4136     44   1234   1220      0      0   7957   1576
+Cmd 252:   9685   1222    588    580      0      0    210  19050
+Cmd 253:   9685   1222    589    580      0      0    208  19050
+Cmd 254:  13350     80     20     80     20      0  12531  12381
+Cmd 255:   3611     88    248      9      0      0   1090  10189
+Cmd 256:   9600      0      0      0      0      0   4529      0
+Cmd 257:   7950    180    520      0      0      0   9060    476
+Cmd 258:  10961     44    654    640     80     60  11022   9057
+Cmd 259:      0     60    300    620      0      0  12233    210
+Cmd 260:      0     15      0      0      0      0    586  20611
+Cmd 261:      0     60      0      0      0      0  12150      0
+Cmd 262:   8945    608    883   1343   1334   1320    224  19672
+Cmd 263:   4095    444   1394   1380      0      0   1060   3374
+Cmd 264:   4055    444   1394   1380      0      0   1060   3374
+Cmd 265:   3662    702    440     40    360      0   5908   8760
+Cmd 266:    195    542    440      0      0      0    204  11400
+Cmd 267:  11250      0      0      0      0      0   6600      0
+Cmd 268:   3600      0      0      0      0      0   4529      0
+Cmd 269:   8550      0      0      0      0      0   6600      0
+Cmd 270:  12000      0      0      0      0      0    150      0
+Cmd 271:   4050      0      0      0      0      0   1080   4726
+Cmd 272:   8850      0      0      0      0      0    476      0
+Cmd 273:    193     41     20     40      0      0   3653  11009
+Cmd 274:      0     40      0      0      0      0   8756      0
+Cmd 275:      0     10      0      0      0      0    476   1611
+Cmd 276:      0     11    384     40    960    900    204  10876
+Cmd 277:      0     11    962    380      0      0    204  11400
+
+Verb  0: AUTO   Noun  0: ANY
+Verb  1: GO     Noun  1: NORT
+Verb  2: *WALK  Noun  2: SOUT
+Verb  3: *FOLL  Noun  3: EAST
+Verb  4: *ENTE  Noun  4: WEST
+Verb  5: *CLIM  Noun  5: UP
+Verb  6: *CRAW  Noun  6: DOWN
+Verb  7: DRIN   Noun  7: GLAS
+Verb  8: FOLD   Noun  8: LENS
+Verb  9: QUIT   Noun  9: LEDG
+Verb 10: GET    Noun 10: HILL
+Verb 11: *TAKE  Noun 11: SHIP
+Verb 12: *GRAB  Noun 12: *BOAT
+Verb 13: *PICK  Noun 13: CRAC
+Verb 14: *HOLD  Noun 14: *CREV
+Verb 15: *STAN  Noun 15: PIRA
+Verb 16: LIST   Noun 16: CRAW
+Verb 17: *HEAR  Noun 17: FRAM
+Verb 18: DROP   Noun 18: AROU
+Verb 19: *LEAV  Noun 19: DOUB
+Verb 20: *PUT   Noun 20: STAM
+Verb 21: *RELE  Noun 21: BOX
+Verb 22: *GIVE  Noun 22: SHED
+Verb 23: *THRO  Noun 23: *TOOL
+Verb 24: FEEL   Noun 24: PAIN
+Verb 25: *TOUC  Noun 25: *PICT
+Verb 26: *PROB  Noun 26: *REMB
+Verb 27: LOOK   Noun 27: *BLAC
+Verb 28: *EXAM  Noun 28: BUNK
+Verb 29: *L     Noun 29: *BED
+Verb 30: *DESC  Noun 30: BREA
+Verb 31: .      Noun 31: SIGN
+Verb 32: GLUE   Noun 32: MASK
+Verb 33: FIND   Noun 33: *FACE
+Verb 34: REMO   Noun 34: HAMM
+Verb 35: *UNSC  Noun 35: DECK
+Verb 36: WEAR   Noun 36: GLUE
+Verb 37: *DON   Noun 37: AMBE
+Verb 38: *PUTO  Noun 38: BOOK
+Verb 39: JUMP   Noun 39: SEA
+Verb 40: *LEAP  Noun 40: *OCEA
+Verb 41: INVE   Noun 41: *WATE
+Verb 42: *I     Noun 42: *POOL
+Verb 43: DIG    Noun 43: PORT
+Verb 44: WAKE   Noun 44: OPEN
+Verb 45: BREA   Noun 45: DOCK
+Verb 46: RUB    Noun 46: *BEAM
+Verb 47: HYPE   Noun 47: DEEP
+Verb 48: SWIM   Noun 48: CABI
+Verb 49: SAY    Noun 49: BEAC
+Verb 50: MAKE   Noun 50: ALGA
+Verb 51: *MIX   Noun 51: INVE
+Verb 52: DIVE   Noun 52: CURR
+Verb 53: TO     Noun 53: GAME
+Verb 54: *IN    Noun 54: DOOR
+Verb 55: SAVE   Noun 55: SHOV
+Verb 56: WAKE   Noun 56: RUM
+Verb 57: OPEN   Noun 57: CLOC
+Verb 58: *UNLO  Noun 58: *ALAR
+Verb 59: USE    Noun 59: TORC
+Verb 60: *WITH  Noun 60: ROCK
+Verb 61: CLEA   Noun 61: EYES
+Verb 62: *WASH  Noun 62: SILT
+Verb 63: *RINS  Noun 63: LADD
+Verb 64: MOVE   Noun 64: ENGI
+Verb 65: *PUSH  Noun 65: WATC
+Verb 66: *PULL  Noun 66: TOP
+Verb 67: *LIFT  Noun 67: *TOPB
+Verb 68: *PRES  Noun 68: *SUMM
+Verb 69: SLEE   Noun 69: HELM
+Verb 70: *EAT   Noun 70: PILI
+Verb 71: SCOR   Noun 71: IT
+Verb 72: HELP   Noun 72: *OBJE
+Verb 73: SAIL   Noun 73: *HAND
+Verb 74: *DRIV  Noun 74: YOHO
+Verb 75: STOP   Noun 75: SCRE
+Verb 76: *SHUT  Noun 76: MAP
+Verb 77: EMPT   Noun 77: BACK
+Verb 78: SPIT   Noun 78: EARR
+Verb 79: YAWN   Noun 79: OILS
+Verb 80: SQUI   Noun 80: *RAIN
+Verb 81: ROLL   Noun 81: FAN
+Verb 82: *WRAP  Noun 82: BROO
+Verb 83: UNRO   Noun 83: MATT
+Verb 84: *UNWR  Noun 84: BLAD
+Verb 85:        Noun 85: BUTT
+Verb 86: READ   Noun 86: CEIL
+Verb 87: STAR   Noun 87: *CIEL
+Verb 88: *CRAN  Noun 88: LIGH
+Verb 89: WAIT   Noun 89: *FLOO
+Verb 90: *PAUS  Noun 90: BATT
+Verb 91:        Noun 91: DOLL
+Verb 92: CHAR   Noun 92: ISLE
+Verb 93: *RECH  Noun 93: OYST
+Verb 94: *KILL  Noun 94: PEAR
+Verb 95: *LIGH  Noun 95: SNAI
+Verb 96: *BURN  Noun 96: FLOT
+Verb 97: *TEAR  Noun 97: *JETS
+Verb 98: *RIP   Noun 98: PIN
+Verb 99: *STAB  Noun 99: RING
+Verb 100: *SHOR  Noun 100: CHES
+Verb 101: *FIX   Noun 101: GAS
+Verb 102: *REPA  Noun 102: *FUEL
+Verb 103: .      Noun 103: WIRE
+Verb 104:        Noun 104: *RIM
+
+Room  0: 
+
+Room  1: bottom bunk
+
+Room  2: ship's cabin
+         U:     4
+         D:    18
+
+Room  3: *I'm on a dock
+         N:     5
+
+Room  4: *I'm on deck
+         D:     2
+
+Room  5: beach by a small hill
+         S:     3
+         E:    15
+
+Room  6: *I'm on ledge 8 feet below hill summit
+         D:     5
+
+Room  7: *I'm on top of a small hill
+         D:    10
+
+Room  8: cavern
+         W:    14
+
+Room  9: tool shed
+         N:     8
+
+Room 10: *Sorry, to explore Pirate's Isle you'll need Adventure #2
+         U:     7
+
+Room 11: sea
+
+Room 12: *I'm undersea
+
+Room 13: smugglers hold inside ship
+
+Room 14: hall
+         E:     8
+
+Room 15: *I'm on a rocky beach by sea
+         W:     5
+
+Room 16: top bunk
+         D:     2
+
+Room 17: *I'm on the engine
+         D:    18
+
+Room 18: *I'm in an engine room
+         U:     2
+
+Room 19: *I'm on catwalk on outside of ship by porthole
+
+Room 20: narrow crawlway
+         E:    21
+         W:    13
+
+Room 21: ship's hold
+         W:    20
+
+Room 22: *I'm on beam under dock
+         D:    11
+
+Room 23: sunken ship
+         U:    12
+
+Room 24: Never Never Land
+
+Msg   0: 
+Msg   1: O.K.
+Msg   2: Adventure 14 by Scott Adams.
+Msg   3: Sorry,
+Msg   4: Everything is
+Msg   5: not exactly dark, but it's too FUZZY to see!
+Msg   6: Welcome to Backside of Pirate's Isle.
+Msg   7: I see
+Msg   8: I made it.
+Msg   9: I fall.
+Msg  10: something
+Msg  11: a framed painting of Blackbeard.
+Msg  12: map on back
+Msg  13: writing
+Msg  14: Sailing route to TREASURE!
+Msg  15: Argh!
+Msg  16: I drowned.
+Msg  17: I breathed.
+Msg  18: lenses & wire rim.
+Msg  19: it's `Gloiopeltis Furcata` or Funori.
+Msg  20: how to make glue from Funori.
+Msg  21: I found
+Msg  22: & I got it!
+Msg  23: in the way.
+Msg  24: Glasses slip off.
+Msg  25: In 2 words tell me to or in what.
+Msg  26: I can't,
+Msg  27: HUH?
+Msg  28: boat's bottom.
+Msg  29: happens.
+Msg  30: nothing
+Msg  31: special.
+Msg  32: I hear
+Msg  33: an alarm clock ringing somewhere.
+Msg  34: it's covered in algae
+Msg  35: Move number:
+Msg  36: Leave *TREASURES* here. SCORE.
+Msg  37: pilings.
+Msg  38: My mask's fogged up!
+Msg  39: I stirred it up.
+Msg  40: I opened up a
+Msg  41: I don't know where it is.
+Msg  42: I yawn & stretch!
+Msg  43: Mattress is soft.
+Msg  44: How?
+Msg  45: it follows me!
+Msg  46: I am.
+Msg  47: glasses
+Msg  48: Swim down?
+Msg  49: My mask's full of water.
+Msg  50: by edges other picture is visible beneath! I cleaned top one off!
+Msg  51: No map!
+Msg  52: No crew here!
+Msg  53: Pirate drinks rum & heads to work.
+Msg  54: Pirate looks around expectantly & says `Matey, you be forgetful for sure!` & then he sulks off angrily!
+Msg  55: Pirate won't let me.
+Msg  56: Row?
+Msg  57: too heavy.
+Msg  58: Try INVENTORY or LOOK
+Msg  59: the little screws!
+Msg  60: there's no mattress here.
+Msg  61: won't fit.
+Msg  62: I've stored 0 treasures.
+Msg  63: For my Mom!
+Msg  64: it's on the ship somewhere.
+Msg  65: it's on Ophthalmology. Squinting can help with Myopia.
+Msg  66: It's odd!
+Msg  67: Good idea! But ...
+Msg  68: Why bother?
+Msg  69: I lost
+Msg  70: a ship with floodlights lit
+Msg  71: the fan's turning.
+Msg  72: large blade fan has stopped.
+Msg  73: battery's dead!
+Msg  74: brightly.
+Msg  75: dimly.
+Msg  76: not at all!
+Msg  77: Click!
+Msg  78: amps left.
+Msg  79: Pirate says:
+Msg  80: it's Urosalpinx Cinera.
+Msg  81: Oyster Drill does the trick!
+Msg  82: Lid broke off!
+Msg  83: I'm no sailor!
+Msg  84: floodlights lit
+Msg  85: Long trip, night fell!
+Msg  86: Out of gas!
+Msg  87: & lost at sea!
+Msg  88: Liters left.
+Msg  89: large opening.
+
+Item  0: Loc:  7 - Narrow crack in rock
+Item  1: Loc:  2 - Glasses/GLAS/
+Item  2: Loc:  0 - which I'm wearing
+Item  3: Loc:  5 - Sign/SIGN/
+Item  4: Loc:  0 - Isle off in distance
+Item  5: Loc:  8 - Toolshed
+Item  6: Loc:  9 - Hammer/HAMM/
+Item  7: Loc:  7 - Sleeping Pirate
+Item  8: Loc:  0 - Box/BOX/
+Item  9: Loc:  0 - .
+Item 10: Loc:  0 - *Rare Stamps*/STAM/
+Item 11: Loc:  0 - *Doubloons*/DOUB/
+Item 12: Loc:  2 - Painting/PAIN/
+Item 13: Loc:  0 - Picture Frame/FRAM/
+Item 14: Loc:  0 - Picture/PAIN/
+Item 15: Loc:  0 - Map/MAP/
+Item 16: Loc:  2 - Bunk bed
+Item 17: Loc: 16 - Face mask/MASK/
+Item 18: Loc:  0 - which I'm wearing
+Item 19: Loc:  0 - Wire rim/WIRE/
+Item 20: Loc:  0 - Lenses/LENS/
+Item 21: Loc:  0 - Red algae/ALGA/
+Item 22: Loc:  0 - Glue/GLUE/
+Item 23: Loc:  0 - *Piece of Amber*/AMBE/
+Item 24: Loc:  0 - Booklet/BOOK/
+Item 25: Loc:  3 - Sea
+Item 26: Loc:  0 - Dock to the East
+Item 27: Loc:  0 - Underside of Dock
+Item 28: Loc:  0 - Boat to the WEST
+Item 29: Loc:  0 - Inside of boat
+Item 30: Loc: 13 - Pool of water
+Item 31: Loc: 21 - Alarm clock/CLOC/
+Item 32: Loc:  4 - Dock
+Item 33: Loc:  4 - Sea
+Item 34: Loc:  0 - Pumice rock/ROCK/
+Item 35: Loc: 12 - Silt
+Item 36: Loc:  0 - Rocky beach
+Item 37: Loc: 16 - *Diamond watch*/WATC/
+Item 38: Loc: 11 - Strange current
+Item 39: Loc: 12 - Strange current
+Item 40: Loc:  0 - Flotsam & Jetsam
+Item 41: Loc:  0 - Rum/RUM/
+Item 42: Loc: 21 - Sign/SIGN/
+Item 43: Loc:  3 - Boat
+Item 44: Loc:  0 - Oyster/OYST/
+Item 45: Loc:  2 - Porthole
+Item 46: Loc:  0 - Fan blade/BLAD/
+Item 47: Loc:  2 - Helm
+Item 48: Loc:  0 - Open porthole
+Item 49: Loc:  0 - Screwdriver/SCRE/
+Item 50: Loc:  0 - Ruined watersoaked painting/PAIN/
+Item 51: Loc:  0 - *Rembrandt Painting*/PAIN/
+Item 52: Loc:  0 - Pirate at helm
+Item 53: Loc: 13 - Very narrow crawlway
+Item 54: Loc:  0 - Washed out sign/SIGN/
+Item 55: Loc:  0 - *Gold Earring*/EARR/
+Item 56: Loc:  0 - *Rare Book*/BOOK/
+Item 57: Loc: 19 - Oilskin raincoat/OILS/
+Item 58: Loc:  0 - Waterproof painting/PAIN/
+Item 59: Loc:  2 - Ceiling fan
+Item 60: Loc:  0 - *Diamond Brooch*/BROO/
+Item 61: Loc:  0 - Small button in ceiling
+Item 62: Loc:  0 - Watersoaked book/BOOK/
+Item 63: Loc:  0 - Sunken Ship
+Item 64: Loc: 23 - *Jeweled chest*/CHES/
+Item 65: Loc: 22 - *Silver Dollar*/DOLL/
+Item 66: Loc:  0 - *Pearl*/PEAR/
+Item 67: Loc:  0 - Snail/SNAI/
+Item 68: Loc:  0 - Dead snail/SNAI/
+Item 69: Loc:  0 - *Diamond Pin*/PIN/
+Item 70: Loc:  0 - *Diamond Ring*/RING/
+Item 71: Loc:  0 - Smashed Oyster/OYST/
+
+Version         = 0
+AdventureNumber = 14
+MagicNumber     = 0
+
+Cmd   0 |     0   100 |    8   3   8  29   9  16   0   3   0  31 |   60  58   0   0 |
+                 100% | IF FLAG(3)=TRUE
+                      | IF FLAG(29)=TRUE
+                      | IF FLAG(16)=FALSE
+                      | SET FLAG(3)=FALSE
+                      | SET FLAG(31)=TRUE
+Cmd   1 |     0   100 |    8  31   9  29   0   3   0  31   0   0 |   58  60   0   0 |
+                 100% | IF FLAG(31)=TRUE
+                      | IF FLAG(29)=FALSE
+                      | SET FLAG(3)=TRUE
+                      | SET FLAG(31)=FALSE
+Cmd   2 |     0   100 |    8  29  16   0   0   0   0   0   0   0 |   77   0   0   0 |
+                 100% | IF FLAG(29)=TRUE
+                      | IF GE(COUNTER,0)
+                      | DECREMENT_COUNTER
+Cmd   3 |     0   100 |    8   4   1  10   0  10   0  14   0   0 |   62   0   0   0 |
+                 100% | IF FLAG(4)=TRUE
+                      | IF CARRY(10="*Rare Stamps*")
+                      | SEND 10="*Rare Stamps*" TO 14="hall"
+Cmd   4 |     0   100 |    9   2   9   3   0   0   0   0   0   0 |   57   0   0   0 |
+                 100% | IF FLAG(2)=FALSE
+                      | IF FLAG(3)=FALSE
+                      | SET DARK=FALSE
+Cmd   5 |     0     8 |    9  21   1  18   9  22   0  22   0  18 |   58  60   0   0 |
+                   8% | IF FLAG(21)=FALSE
+                      | IF CARRY(18="which I'm wearing")
+                      | IF FLAG(22)=FALSE
+                      | SET FLAG(22)=TRUE
+                      | SET FLAG(18)=FALSE
+Cmd   6 |     0   100 |    1  67   9   5   0  67   0  68   0   0 |   72   0   0   0 |
+                 100% | IF CARRY(67="Snail")
+                      | IF FLAG(5)=FALSE
+                      | SWAP ITEMS 67="Snail" AND 68="Dead snail"
+Cmd   7 |     0   100 |    0   1   0   1   0   1   0   0   0   0 |   81  82  81   0 |
+                 100% | SWAP COUNTER WITH COUNTER(1)
+                      | ADDTO COUNTER 1
+                      | SWAP COUNTER WITH COUNTER(1)
+Cmd   8 |     0   100 |    9   1   0  40   0   3   0   0   0   0 |   79  81  73   0 |
+                 100% | IF FLAG(1)=FALSE
+                      | SET COUNTER=40
+                      | SWAP COUNTER WITH COUNTER(3)
+                      | CONTINUE_NEXT_LINE
+Cmd   9 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |   56  70  64   2 |
+            continued | SET DARK=TRUE
+                      | CLEARSCREEN
+                      | LOOK
+                      | MESSAGE 2="Adventure 14 by Scott Adams."
+Cmd  10 |     0     0 |    0   1   0   2   0  18   0   0   0   0 |   58  58  58 113 |
+            continued | SET FLAG(1)=TRUE
+                      | SET FLAG(2)=TRUE
+                      | SET FLAG(18)=TRUE
+                      | MESSAGE 63="For my Mom!"
+Cmd  11 |     0     0 |    0   1   0   0   0   1   0  20   0   0 |   81  79  81  79 |
+            continued | SWAP COUNTER WITH COUNTER(1)
+                      | SET COUNTER=0
+                      | SWAP COUNTER WITH COUNTER(1)
+                      | SET COUNTER=20
+Cmd  12 |     0   100 |    4  13   2  42   0  25   0   0   0   0 |   58   0   0   0 |
+                 100% | IF ISROOM(13="smugglers hold inside ship")
+                      | IF HERE(42="Sign")
+                      | SET FLAG(25)=TRUE
+Cmd  13 |     0   100 |    8   5   1  12   0  24   0   0   0   0 |   58   0   0   0 |
+                 100% | IF FLAG(5)=TRUE
+                      | IF CARRY(12="Painting")
+                      | SET FLAG(24)=TRUE
+Cmd  14 |     0   100 |    8   5   1  14   0  24   0   0   0   0 |   58   0   0   0 |
+                 100% | IF FLAG(5)=TRUE
+                      | IF CARRY(14="Picture")
+                      | SET FLAG(24)=TRUE
+Cmd  15 |     0   100 |    8   5   1  51   0  24   0   0   0   0 |   58   0   0   0 |
+                 100% | IF FLAG(5)=TRUE
+                      | IF CARRY(51="*Rembrandt Painting*")
+                      | SET FLAG(24)=TRUE
+Cmd  16 |     0   100 |    8  24  13  51  14  50   0  50   0  51 |   72   0   0   0 |
+                 100% | IF FLAG(24)=TRUE
+                      | IF SOMEWHERE(51="*Rembrandt Painting*")
+                      | IF NOWHERE(50="Ruined watersoaked painting")
+                      | SWAP ITEMS 50="Ruined watersoaked painting" AND 51="*Rembrandt Painting*"
+Cmd  17 |     0   100 |    3  17   6  18   8   4   0  22   0  23 |   60  58   0   0 |
+                 100% | IF HERECARRY(17="Face mask")
+                      | IF NOT CARRY(18="which I'm wearing")
+                      | IF FLAG(4)=TRUE
+                      | SET FLAG(22)=FALSE
+                      | SET FLAG(23)=TRUE
+Cmd  18 |     0   100 |    1  31   0  19   0   0   0   0   0   0 |   58   0   0   0 |
+                 100% | IF CARRY(31="Alarm clock")
+                      | SET FLAG(19)=TRUE
+Cmd  19 |     0   100 |    4  13   5  42   0  25   0   0   0   0 |   60   0   0   0 |
+                 100% | IF ISROOM(13="smugglers hold inside ship")
+                      | IF NOT HERE(42="Sign")
+                      | SET FLAG(25)=FALSE
+Cmd  20 |     0   100 |    9  13  13  63   0  63   0   0   0   0 |   59  76   0   0 |
+                 100% | IF FLAG(13)=FALSE
+                      | IF SOMEWHERE(63="Sunken Ship")
+                      | DESTROY 63="Sunken Ship"
+                      | LOOK
+Cmd  21 |     0   100 |    8   6   0   2   0   1   0   0   0   0 |   81  83  73   0 |
+                 100% | IF FLAG(6)=TRUE
+                      | SWAP COUNTER WITH COUNTER(2)
+                      | SUBTO COUNTER 1
+                      | CONTINUE_NEXT_LINE
+Cmd  22 |     0     0 |   15   3   0   0   0   0   0   0   0   0 |   15   0   0   0 |
+            continued | IF LE(COUNTER,3)
+                      | MESSAGE 15="Argh!"
+Cmd  23 |     0     0 |   15   0   9   4   0   6   0  17   0   0 |   17  60  60   0 |
+            continued | IF LE(COUNTER,0)
+                      | IF FLAG(4)=FALSE
+                      | MESSAGE 17="I breathed."
+                      | SET FLAG(6)=FALSE
+                      | SET FLAG(17)=FALSE
+Cmd  24 |     0     0 |    0   2   0   0   0   0   0   0   0   0 |   81   0   0   0 |
+            continued | SWAP COUNTER WITH COUNTER(2)
+Cmd  25 |     0   100 |    8   4   1   2   0   2   0   2   0  18 |   55  58  60  73 |
+                 100% | IF FLAG(4)=TRUE
+                      | IF CARRY(2="which I'm wearing")
+                      | DESTROY 2="which I'm wearing"
+                      | SET FLAG(2)=TRUE
+                      | SET FLAG(18)=FALSE
+                      | CONTINUE_NEXT_LINE
+Cmd  26 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |   70  24   0   0 |
+            continued | CLEARSCREEN
+                      | MESSAGE 24="Glasses slip off."
+Cmd  27 |     0   100 |    9   4   0  10   0  11   0  12   0  13 |   60  60  60  60 |
+                 100% | IF FLAG(4)=FALSE
+                      | SET FLAG(10)=FALSE
+                      | SET FLAG(11)=FALSE
+                      | SET FLAG(12)=FALSE
+                      | SET FLAG(13)=FALSE
+Cmd  28 |     0   100 |    9   4   0  14   0  20   0   0   0   0 |   60  60   0   0 |
+                 100% | IF FLAG(4)=FALSE
+                      | SET FLAG(14)=FALSE
+                      | SET FLAG(20)=FALSE
+Cmd  29 |     0   100 |    8   5   1  42   0  42   0  54   0   0 |   72   0   0   0 |
+                 100% | IF FLAG(5)=TRUE
+                      | IF CARRY(42="Sign")
+                      | SWAP ITEMS 42="Sign" AND 54="Washed out sign"
+Cmd  30 |     0   100 |    8  13   8   4  14  32   4  12   0  63 |   53  76   0   0 |
+                 100% | IF FLAG(13)=TRUE
+                      | IF FLAG(4)=TRUE
+                      | IF NOWHERE(32="Dock")
+                      | IF ISROOM(12="undersea")
+                      | DROP 63="Sunken Ship"
+                      | LOOK
+Cmd  31 |     0   100 |    8  23   1  18   0   2   0  22   0  18 |   49  58  60  60 |
+                 100% | IF FLAG(23)=TRUE
+                      | IF CARRY(18="which I'm wearing")
+                      | MESSAGE 49="My mask's full of water."
+                      | SET FLAG(2)=TRUE
+                      | SET FLAG(22)=FALSE
+                      | SET FLAG(18)=FALSE
+Cmd  32 |     0   100 |    8  22   1  18   0   2   0   0   0   0 |   38  58  56   0 |
+                 100% | IF FLAG(22)=TRUE
+                      | IF CARRY(18="which I'm wearing")
+                      | MESSAGE 38="My mask's fogged up!"
+                      | SET FLAG(2)=TRUE
+                      | SET DARK=TRUE
+Cmd  33 |     0   100 |    8   5   1  56   0  62   0  56   0   0 |   72   0   0   0 |
+                 100% | IF FLAG(5)=TRUE
+                      | IF CARRY(56="*Rare Book*")
+                      | SWAP ITEMS 62="Watersoaked book" AND 56="*Rare Book*"
+Cmd  34 |     0    15 |    8   2   4   1   0   0   0   0   0   0 |   42   0   0   0 |
+                  15% | IF FLAG(2)=TRUE
+                      | IF ISROOM(1="bottom bunk")
+                      | MESSAGE 42="I yawn & stretch!"
+Cmd  35 |     0   100 |    8   4   9   6   0   0   0   0   0   0 |   16  61   0   0 |
+                 100% | IF FLAG(4)=TRUE
+                      | IF FLAG(6)=FALSE
+                      | MESSAGE 16="I drowned."
+                      | DEAD
+Cmd  36 |     0   100 |    6   1   1   2   0   2   0   2   0  18 |   55  58  60   0 |
+                 100% | IF NOT CARRY(1="Glasses")
+                      | IF CARRY(2="which I'm wearing")
+                      | DESTROY 2="which I'm wearing"
+                      | SET FLAG(2)=TRUE
+                      | SET FLAG(18)=FALSE
+Cmd  37 |     0   100 |    6  17   1  18   0  18   0   2   0  18 |   55  58  60   0 |
+                 100% | IF NOT CARRY(17="Face mask")
+                      | IF CARRY(18="which I'm wearing")
+                      | DESTROY 18="which I'm wearing"
+                      | SET FLAG(2)=TRUE
+                      | SET FLAG(18)=FALSE
+Cmd  38 |     0   100 |    9  18   8   3   0  18   0   0   0   0 |   56  58  70  64 |
+                 100% | IF FLAG(18)=FALSE
+                      | IF FLAG(3)=TRUE
+                      | SET DARK=TRUE
+                      | SET FLAG(18)=TRUE
+                      | CLEARSCREEN
+                      | LOOK
+Cmd  39 |     0   100 |    9  19   9   7   0   0   0   0   0   0 |   32  33   0   0 |
+                 100% | IF FLAG(19)=FALSE
+                      | IF FLAG(7)=FALSE
+                      | MESSAGE 32="I hear"
+                      | MESSAGE 33="an alarm clock ringing some..."
+Cmd  40 |     0   100 |    8   2   0   0   0   0   0   0   0   0 |    4   5   0   0 |
+                 100% | IF FLAG(2)=TRUE
+                      | MESSAGE 4="Everything is"
+                      | MESSAGE 5="not exactly dark, but it's..."
+Cmd  41 |     0   100 |    8  18   9   2   0  18   9   3   0   0 |   57  60  76   0 |
+                 100% | IF FLAG(18)=TRUE
+                      | IF FLAG(2)=FALSE
+                      | IF FLAG(3)=FALSE
+                      | SET DARK=FALSE
+                      | SET FLAG(18)=FALSE
+                      | LOOK
+Cmd  42 |     0   100 |    9  18   8   2   0  18   0   0   0   0 |   56  58  76   0 |
+                 100% | IF FLAG(18)=FALSE
+                      | IF FLAG(2)=TRUE
+                      | SET DARK=TRUE
+                      | SET FLAG(18)=TRUE
+                      | LOOK
+Cmd  43 |     0    25 |    8   4   8  20   0  20   0  13   0   0 |   60  58   0   0 |
+                  25% | IF FLAG(4)=TRUE
+                      | IF FLAG(20)=TRUE
+                      | SET FLAG(20)=FALSE
+                      | SET FLAG(13)=TRUE
+Cmd  44 |     0   100 |    8  29  15   0   0  29   0   0   0   0 |   60  79   0   0 |
+                 100% | IF FLAG(29)=TRUE
+                      | IF LE(COUNTER,0)
+                      | SET FLAG(29)=FALSE
+                      | SET COUNTER=0
+Cmd  45 |     0   100 |   15   6   0  27   0   0   0   0   0   0 |   58   0   0   0 |
+                 100% | IF LE(COUNTER,6)
+                      | SET FLAG(27)=TRUE
+Cmd  46 |     0   100 |   16   6  14  46   0  27   0   0   0   0 |   60   0   0   0 |
+                 100% | IF GE(COUNTER,6)
+                      | IF NOWHERE(46="Fan blade")
+                      | SET FLAG(27)=FALSE
+Cmd  47 |     0   100 |    4  24   0   0   0   0   0   0   0   0 |   63   0   0   0 |
+                 100% | IF ISROOM(24="Never Never Land")
+                      | QUIT
+Cmd  48 |     0   100 |    8  28   0  20   0   3   0   0   0   0 |   79  81  77  73 |
+                 100% | IF FLAG(28)=TRUE
+                      | SET COUNTER=20
+                      | SWAP COUNTER WITH COUNTER(3)
+                      | DECREMENT_COUNTER
+                      | CONTINUE_NEXT_LINE
+Cmd  49 |     0     0 |   15   0   0  28   0   0   0   0   0   0 |   60  79   0   0 |
+            continued | IF LE(COUNTER,0)
+                      | SET FLAG(28)=FALSE
+                      | SET COUNTER=0
+Cmd  50 |     0     0 |    0   3   0   0   0   0   0   0   0   0 |   81   0   0   0 |
+            continued | SWAP COUNTER WITH COUNTER(3)
+Cmd  51 |    27    71 |    4   2   8   2   3   1   0   0   0   0 |    1  21  47   0 |
+           look    it | IF ISROOM(2="ship's cabin")
+                      | IF FLAG(2)=TRUE
+                      | IF HERECARRY(1="Glasses")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 21="I found"
+                      | MESSAGE 47="glasses"
+Cmd  52 |    27     0 |    8   2   0   0   0   0   0   0   0   0 |    3  26   0   0 |
+           look       | IF FLAG(2)=TRUE
+                      | MESSAGE 3="Sorry,"
+                      | MESSAGE 26="I can't,"
+Cmd  53 |    87    64 |    4  18  15   0   0   0   0   0   0   0 |    3  26   7 123 |
+           star  engi | IF ISROOM(18="in an engine room")
+                      | IF LE(COUNTER,0)
+                      | MESSAGE 3="Sorry,"
+                      | MESSAGE 26="I can't,"
+                      | MESSAGE 7="I see"
+                      | MESSAGE 73="battery's dead!"
+Cmd  54 |    87    64 |    4  18   0   3   0   0   0   0   0   0 |   73  81   0   0 |
+           star  engi | IF ISROOM(18="in an engine room")
+                      | CONTINUE_NEXT_LINE
+                      | SWAP COUNTER WITH COUNTER(3)
+Cmd  55 |     0     0 |   15   0   0   0   0   0   0   0   0   0 |    3  30  29 136 |
+            continued | IF LE(COUNTER,0)
+                      | MESSAGE 3="Sorry,"
+                      | MESSAGE 30="nothing"
+                      | MESSAGE 29="happens."
+                      | MESSAGE 86="Out of gas!"
+Cmd  56 |     0     0 |   16   0   0  28   0   0   0   0   0   0 |    1  58   0   0 |
+            continued | IF GE(COUNTER,0)
+                      | MESSAGE 1="O.K."
+                      | SET FLAG(28)=TRUE
+Cmd  57 |     0     0 |    0   3   0   0   0   0   0   0   0   0 |   81   0   0   0 |
+            continued | SWAP COUNTER WITH COUNTER(3)
+Cmd  58 |    27   100 |   13  56   3  64   0   0   0   0   0   0 |    1   7 132   0 |
+           look  ches | IF SOMEWHERE(56="*Rare Book*")
+                      | IF HERECARRY(64="*Jeweled chest*")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 7="I see"
+                      | MESSAGE 82="Lid broke off!"
+Cmd  59 |    73    11 |    9  28   2  52   0   0   0   0   0   0 |  129  44 106   0 |
+           sail  ship | IF FLAG(28)=FALSE
+                      | IF HERE(52="Pirate at helm")
+                      | MESSAGE 79="Pirate says:"
+                      | MESSAGE 44="How?"
+                      | MESSAGE 56="Row?"
+Cmd  60 |     1    43 |   13  48  10   0   6   2   0   0   0   0 |    3  26  10 111 |
+             go  port | IF SOMEWHERE(48="Open porthole")
+                      | IF GT(INVCOUNT,0)
+                      | IF NOT CARRY(2="which I'm wearing")
+                      | MESSAGE 3="Sorry,"
+                      | MESSAGE 26="I can't,"
+                      | MESSAGE 10="something"
+                      | MESSAGE 61="won't fit."
+Cmd  61 |    27    70 |    8   4   8  11  14  67   0  67   0   0 |    7  10  22  74 |
+           look  pili | IF FLAG(4)=TRUE
+                      | IF FLAG(11)=TRUE
+                      | IF NOWHERE(67="Snail")
+                      | MESSAGE 7="I see"
+                      | MESSAGE 10="something"
+                      | MESSAGE 22="& I got it!"
+                      | TAKE_NOCHECK 67="Snail"
+Cmd  62 |    27    15 |    2  52   0   0   0   0   0   0   0   0 |    3 105   0   0 |
+           look  pira | IF HERE(52="Pirate at helm")
+                      | MESSAGE 3="Sorry,"
+                      | MESSAGE 55="Pirate won't let me."
+Cmd  63 |    27    24 |    9   2  13  15   3  14   0  14   0  51 |    1   7  50  72 |
+           look  pain | IF FLAG(2)=FALSE
+                      | IF SOMEWHERE(15="Map")
+                      | IF HERECARRY(14="Picture")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 7="I see"
+                      | MESSAGE 50="by edges other picture is v..."
+                      | SWAP ITEMS 14="Picture" AND 51="*Rembrandt Painting*"
+Cmd  64 |    10     5 |    7   1   0   0   0   0   0   0   0   0 |   46   0   0   0 |
+            get    up | IF NOT ISROOM(1)
+                      | MESSAGE 46="I am."
+Cmd  65 |     1    43 |    4  19  11   0   0   2   0   0   0   0 |    1  54  76   0 |
+             go  port | IF ISROOM(19="on catwalk on outside of sh...")
+                      | IF EQ(INVCOUNT,0)
+                      | MESSAGE 1="O.K."
+                      | GOTO 2="ship's cabin"
+                      | LOOK
+Cmd  66 |     1    43 |    2  48  11   0   0  19   0   0   0   0 |    1  54  76   0 |
+             go  port | IF HERE(48="Open porthole")
+                      | IF EQ(INVCOUNT,0)
+                      | MESSAGE 1="O.K."
+                      | GOTO 19="on catwalk on outside of sh..."
+                      | LOOK
+Cmd  67 |    57    43 |    0  48   0  45   2  45   0   0   0   0 |    1  72   0   0 |
+           open  port | IF HERE(45="Porthole")
+                      | MESSAGE 1="O.K."
+                      | SWAP ITEMS 48="Open porthole" AND 45="Porthole"
+Cmd  68 |    52     0 |    8   5   0   0   0   0   0   0   0   0 |   48   0   0   0 |
+           dive       | IF FLAG(5)=TRUE
+                      | MESSAGE 48="Swim down?"
+Cmd  69 |    92     0 |    0   0   0   0   0   0   0   0   0   0 |   44   0   0   0 |
+           char       | MESSAGE 44="How?"
+Cmd  70 |    24     0 |    8   2   4   2   2   1   0   1   0   0 |   21  10  22  74 |
+           feel       | IF FLAG(2)=TRUE
+                      | IF ISROOM(2="ship's cabin")
+                      | IF HERE(1="Glasses")
+                      | MESSAGE 21="I found"
+                      | MESSAGE 10="something"
+                      | MESSAGE 22="& I got it!"
+                      | TAKE_NOCHECK 1="Glasses"
+Cmd  71 |    46    61 |    6   2   6  18   0   0   0   0   0   0 |    1  21  30  23 |
+            rub  eyes | IF NOT CARRY(2="which I'm wearing")
+                      | IF NOT CARRY(18="which I'm wearing")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 21="I found"
+                      | MESSAGE 30="nothing"
+                      | MESSAGE 23="in the way."
+Cmd  72 |    27    90 |    9   7   0   0   0   0   0   0   0   0 |    1   7  78 128 |
+           look  batt | IF FLAG(7)=FALSE
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 7="I see"
+                      | PRINT_COUNTER
+                      | MESSAGE 78="amps left."
+Cmd  73 |    59    34 |    3   6   3  44   8  30   0  44   0  71 |    1  72   0   0 |
+            use  hamm | IF HERECARRY(6="Hammer")
+                      | IF HERECARRY(44="Oyster")
+                      | IF FLAG(30)=TRUE
+                      | MESSAGE 1="O.K."
+                      | SWAP ITEMS 44="Oyster" AND 71="Smashed Oyster"
+Cmd  74 |    77    32 |    3  17   6  18   8  23   0  23   0   0 |    1  60   0   0 |
+           empt  mask | IF HERECARRY(17="Face mask")
+                      | IF NOT CARRY(18="which I'm wearing")
+                      | IF FLAG(23)=TRUE
+                      | MESSAGE 1="O.K."
+                      | SET FLAG(23)=FALSE
+Cmd  75 |    27     3 |    8   4   8  10   0   0   0   0   0   0 |    7  37  23   0 |
+           look  east | IF FLAG(4)=TRUE
+                      | IF FLAG(10)=TRUE
+                      | MESSAGE 7="I see"
+                      | MESSAGE 37="pilings."
+                      | MESSAGE 23="in the way."
+Cmd  76 |    41     0 |    9   2   0   0   0   0   0   0   0   0 |   66   0   0   0 |
+           inve       | IF FLAG(2)=FALSE
+                      | INVENTORY
+Cmd  77 |    10    51 |    9   2   0   0   0   0   0   0   0   0 |   66   0   0   0 |
+            get  inve | IF FLAG(2)=FALSE
+                      | INVENTORY
+Cmd  78 |     1    64 |    4  18   0  17   0   0   0   0   0   0 |    1  54  76   0 |
+             go  engi | IF ISROOM(18="in an engine room")
+                      | MESSAGE 1="O.K."
+                      | GOTO 17="on the engine"
+                      | LOOK
+Cmd  79 |    34    32 |    1  18   0  18   0   2   0   0   0   0 |    1  59  58  56 |
+           remo  mask | IF CARRY(18="which I'm wearing")
+                      | MESSAGE 1="O.K."
+                      | DESTROY 18="which I'm wearing"
+                      | SET FLAG(2)=TRUE
+                      | SET DARK=TRUE
+Cmd  80 |    34     7 |    1   2   0   2   0   2   0   0   0   0 |    1  59  58  56 |
+           remo  glas | IF CARRY(2="which I'm wearing")
+                      | MESSAGE 1="O.K."
+                      | DESTROY 2="which I'm wearing"
+                      | SET FLAG(2)=TRUE
+                      | SET DARK=TRUE
+Cmd  81 |     1    57 |    0   0   0   0   0   0   0   0   0   0 |   41   0   0   0 |
+             go  cloc | MESSAGE 41="I don't know where it is."
+Cmd  82 |    61     7 |    3   2   0   0   0   0   0   0   0   0 |    1   0   0   0 |
+           clea  glas | IF HERECARRY(2="which I'm wearing")
+                      | MESSAGE 1="O.K."
+Cmd  83 |    24     0 |    4  16   0   0   0   0   0   0   0   0 |    1   7 110   0 |
+           feel       | IF ISROOM(16="top bunk")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 7="I see"
+                      | MESSAGE 60="there's no mattress here."
+Cmd  84 |    27    52 |    0   0   0   0   0   0   0   0   0   0 |    1  45   0   0 |
+           look  curr | MESSAGE 1="O.K."
+                      | MESSAGE 45="it follows me!"
+Cmd  85 |     1    11 |    2  43   0   4   0   7   0   0   0   0 |   54  76  60   0 |
+             go  ship | IF HERE(43="Boat")
+                      | GOTO 4="on deck"
+                      | LOOK
+                      | SET FLAG(7)=FALSE
+Cmd  86 |    71     0 |    8  25   0   0   0   0   0   0   0   0 |   65   0   0   0 |
+           scor       | IF FLAG(25)=TRUE
+                      | SCORE
+Cmd  87 |    72     0 |    0   0   0   0   0   0   0   0   0   0 |    3  26   0   0 |
+           help       | MESSAGE 3="Sorry,"
+                      | MESSAGE 26="I can't,"
+Cmd  88 |    57    61 |    0   0   0   0   0   0   0   0   0   0 |    1   0   0   0 |
+           open  eyes | MESSAGE 1="O.K."
+Cmd  89 |    24    62 |    2  35   8  14  14  11   0  11   0   0 |   21  10  22  74 |
+           feel  silt | IF HERE(35="Silt")
+                      | IF FLAG(14)=TRUE
+                      | IF NOWHERE(11="*Doubloons*")
+                      | MESSAGE 21="I found"
+                      | MESSAGE 10="something"
+                      | MESSAGE 22="& I got it!"
+                      | TAKE_NOCHECK 11="*Doubloons*"
+Cmd  90 |    43     0 |    3  46   4   5  14  41  13   7   0  41 |   21  10  22  74 |
+            dig       | IF HERECARRY(46="Fan blade")
+                      | IF ISROOM(5="beach by a small hill")
+                      | IF NOWHERE(41="Rum")
+                      | IF SOMEWHERE(7="Sleeping Pirate")
+                      | MESSAGE 21="I found"
+                      | MESSAGE 10="something"
+                      | MESSAGE 22="& I got it!"
+                      | TAKE_NOCHECK 41="Rum"
+Cmd  91 |    44    15 |    2   7   0   7   0   0   0   0   0   0 |    1  59  73   0 |
+           wake  pira | IF HERE(7="Sleeping Pirate")
+                      | MESSAGE 1="O.K."
+                      | DESTROY 7="Sleeping Pirate"
+                      | CONTINUE_NEXT_LINE
+Cmd  92 |     0     0 |    5  41   0   0   0   0   0   0   0   0 |  104   0   0   0 |
+            continued | IF NOT HERE(41="Rum")
+                      | MESSAGE 54="Pirate looks around expecta..."
+Cmd  93 |     0     0 |    2  41   0  41   0  52   0  47   0   0 |   59  72 103   0 |
+            continued | IF HERE(41="Rum")
+                      | DESTROY 41="Rum"
+                      | SWAP ITEMS 52="Pirate at helm" AND 47="Helm"
+                      | MESSAGE 53="Pirate drinks rum & heads t..."
+Cmd  94 |    10    30 |    9   6   0   6   0   2   0   0   0   0 |    1  58  73  81 |
+            get  brea | IF FLAG(6)=FALSE
+                      | MESSAGE 1="O.K."
+                      | SET FLAG(6)=TRUE
+                      | CONTINUE_NEXT_LINE
+                      | SWAP COUNTER WITH COUNTER(2)
+Cmd  95 |     0     0 |    8  17   0   8   0   2   0   0   0   0 |   79  81   0   0 |
+            continued | IF FLAG(17)=TRUE
+                      | SET COUNTER=8
+                      | SWAP COUNTER WITH COUNTER(2)
+Cmd  96 |     0     0 |    9  17   0   3   0   2   0   0   0   0 |   79  81   0   0 |
+            continued | IF FLAG(17)=FALSE
+                      | SET COUNTER=3
+                      | SWAP COUNTER WITH COUNTER(2)
+Cmd  97 |    45    47 |    0  17   0   6   0   0   0   0   0   0 |    1  58  60   0 |
+           brea  deep | MESSAGE 1="O.K."
+                      | SET FLAG(17)=TRUE
+                      | SET FLAG(6)=FALSE
+Cmd  98 |    47     0 |    0  17   0   6   0   0   0   0   0   0 |    1  58  60   0 |
+           hype       | MESSAGE 1="O.K."
+                      | SET FLAG(17)=TRUE
+                      | SET FLAG(6)=FALSE
+Cmd  99 |    45     0 |    0   6   0  17   0   0   0   0   0   0 |    1  60  60  17 |
+           brea       | MESSAGE 1="O.K."
+                      | SET FLAG(6)=FALSE
+                      | SET FLAG(17)=FALSE
+                      | MESSAGE 17="I breathed."
+Cmd 100 |    79     0 |    0   0   0   0   0   0   0   0   0   0 |    1  30  29   0 |
+           yawn       | MESSAGE 1="O.K."
+                      | MESSAGE 30="nothing"
+                      | MESSAGE 29="happens."
+Cmd 101 |    36     7 |    3   1   6  18   0   1   0   2   0   2 |    1  74  74  60 |
+           wear  glas | IF HERECARRY(1="Glasses")
+                      | IF NOT CARRY(18="which I'm wearing")
+                      | MESSAGE 1="O.K."
+                      | TAKE_NOCHECK 1="Glasses"
+                      | TAKE_NOCHECK 2="which I'm wearing"
+                      | SET FLAG(2)=FALSE
+Cmd 102 |    86    31 |    3   3   0   0   0   0   0   0   0   0 |    1   7   6   0 |
+           read  sign | IF HERECARRY(3="Sign")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 7="I see"
+                      | MESSAGE 6="Welcome to Backside of Pira..."
+Cmd 103 |    39    66 |    4   6   0   7   0   0   0   0   0   0 |    1   8  54  76 |
+           jump   top | IF ISROOM(6="on ledge 8 feet below hill...")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 8="I made it."
+                      | GOTO 7="on top of a small hill"
+                      | LOOK
+Cmd 104 |    39     5 |    4   6   0   7   0   0   0   0   0   0 |    1   8  54  76 |
+           jump    up | IF ISROOM(6="on ledge 8 feet below hill...")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 8="I made it."
+                      | GOTO 7="on top of a small hill"
+                      | LOOK
+Cmd 105 |    39     0 |    4   6   0   0   0   0   0   0   0   0 |    1   9  61   0 |
+           jump       | IF ISROOM(6="on ledge 8 feet below hill...")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 9="I fall."
+                      | DEAD
+Cmd 106 |    39     9 |    4   7   0   6   0   0   0   0   0   0 |    1  54   9  76 |
+           jump  ledg | IF ISROOM(7="on top of a small hill")
+                      | MESSAGE 1="O.K."
+                      | GOTO 6="on ledge 8 feet below hill..."
+                      | MESSAGE 9="I fall."
+                      | LOOK
+Cmd 107 |    39     0 |    4   7   0   0   0   0   0   0   0   0 |    1   9  61   0 |
+           jump       | IF ISROOM(7="on top of a small hill")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 9="I fall."
+                      | DEAD
+Cmd 108 |    39     0 |    0   0   0   0   0   0   0   0   0   0 |    3  30  29   0 |
+           jump       | MESSAGE 3="Sorry,"
+                      | MESSAGE 30="nothing"
+                      | MESSAGE 29="happens."
+Cmd 109 |     1    13 |    4   7   0   8   0   3   0  16   0   0 |   56  54  58  58 |
+             go  crac | IF ISROOM(7="on top of a small hill")
+                      | SET DARK=TRUE
+                      | GOTO 8="cavern"
+                      | SET FLAG(3)=TRUE
+                      | SET FLAG(16)=TRUE
+Cmd 110 |     1    13 |    4   8   0   7   0   3   0  16   0   0 |   54  60  60  76 |
+             go  crac | IF ISROOM(8="cavern")
+                      | GOTO 7="on top of a small hill"
+                      | SET FLAG(3)=FALSE
+                      | SET FLAG(16)=FALSE
+                      | LOOK
+Cmd 111 |     1    22 |    4   8   0   9   0   0   0   0   0   0 |    1  54   0   0 |
+             go  shed | IF ISROOM(8="cavern")
+                      | MESSAGE 1="O.K."
+                      | GOTO 9="tool shed"
+Cmd 112 |    75    57 |   12  31   0   0   0   0   0   0   0   0 |    3  41   0   0 |
+           stop  cloc | IF NOT HERECARRY(31="Alarm clock")
+                      | MESSAGE 3="Sorry,"
+                      | MESSAGE 41="I don't know where it is."
+Cmd 113 |    27    62 |    3  18   2  35   0  22   0   2   0   0 |    7  58  58  39 |
+           look  silt | IF HERECARRY(18="which I'm wearing")
+                      | IF HERE(35="Silt")
+                      | MESSAGE 7="I see"
+                      | SET FLAG(22)=TRUE
+                      | SET FLAG(2)=TRUE
+                      | MESSAGE 39="I stirred it up."
+Cmd 114 |    61    32 |    8   5   3  17   6  18   0  22   0  21 |    1  60  60   0 |
+           clea  mask | IF FLAG(5)=TRUE
+                      | IF HERECARRY(17="Face mask")
+                      | IF NOT CARRY(18="which I'm wearing")
+                      | MESSAGE 1="O.K."
+                      | SET FLAG(22)=FALSE
+                      | SET FLAG(21)=FALSE
+Cmd 115 |    27    15 |    3   7  14   8  14  10   0   8   0   0 |    7  10  22  74 |
+           look  pira | IF HERECARRY(7="Sleeping Pirate")
+                      | IF NOWHERE(8="Box")
+                      | IF NOWHERE(10="*Rare Stamps*")
+                      | MESSAGE 7="I see"
+                      | MESSAGE 10="something"
+                      | MESSAGE 22="& I got it!"
+                      | TAKE_NOCHECK 8="Box"
+Cmd 116 |    27    15 |    3   7  14  55   0  55   0   0   0   0 |    7  10  22  74 |
+           look  pira | IF HERECARRY(7="Sleeping Pirate")
+                      | IF NOWHERE(55="*Gold Earring*")
+                      | MESSAGE 7="I see"
+                      | MESSAGE 10="something"
+                      | MESSAGE 22="& I got it!"
+                      | TAKE_NOCHECK 55="*Gold Earring*"
+Cmd 117 |    57    21 |    3   8   3   6   0  10  14  10   0   0 |    1   7  10  53 |
+           open   box | IF HERECARRY(8="Box")
+                      | IF HERECARRY(6="Hammer")
+                      | IF NOWHERE(10="*Rare Stamps*")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 7="I see"
+                      | MESSAGE 10="something"
+                      | DROP 10="*Rare Stamps*"
+Cmd 118 |    34    17 |    3  12   0  12   0  13   0  14   3  49 |    1  72  53   0 |
+           remo  fram | IF HERECARRY(12="Painting")
+                      | IF HERECARRY(49="Screwdriver")
+                      | MESSAGE 1="O.K."
+                      | SWAP ITEMS 12="Painting" AND 13="Picture Frame"
+                      | DROP 14="Picture"
+Cmd 119 |    34   103 |    3   1   3  49   0   1   0  20   0  19 |   72  74 119 109 |
+           remo  wire | IF HERECARRY(1="Glasses")
+                      | IF HERECARRY(49="Screwdriver")
+                      | SWAP ITEMS 1="Glasses" AND 20="Lenses"
+                      | TAKE_NOCHECK 19="Wire rim"
+                      | MESSAGE 69="I lost"
+                      | MESSAGE 59="the little screws!"
+Cmd 120 |    27    24 |    3  14   0  15   0   0   0   0   0   0 |    7  12  22  74 |
+           look  pain | IF HERECARRY(14="Picture")
+                      | MESSAGE 7="I see"
+                      | MESSAGE 12="map on back"
+                      | MESSAGE 22="& I got it!"
+                      | TAKE_NOCHECK 15="Map"
+Cmd 121 |    27    76 |    3  15   0   0   0   0   0   0   0   0 |    1   7  13   0 |
+           look   map | IF HERECARRY(15="Map")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 7="I see"
+                      | MESSAGE 13="writing"
+Cmd 122 |    78    32 |    9   4   3  17   6  18   0  21   0  22 |    1  58  60   0 |
+           spit  mask | IF FLAG(4)=FALSE
+                      | IF HERECARRY(17="Face mask")
+                      | IF NOT CARRY(18="which I'm wearing")
+                      | MESSAGE 1="O.K."
+                      | SET FLAG(21)=TRUE
+                      | SET FLAG(22)=FALSE
+Cmd 123 |    86    76 |    3  15   0   0   0   0   0   0   0   0 |   14   0   0   0 |
+           read   map | IF HERECARRY(15="Map")
+                      | MESSAGE 14="Sailing route to TREASURE!"
+Cmd 124 |    48    44 |    9   0   0   0   0   0   0   0   0   0 |    3  26   0   0 |
+           swim  open | IF FLAG(0)=FALSE
+                      | MESSAGE 3="Sorry,"
+                      | MESSAGE 26="I can't,"
+Cmd 125 |    27    24 |    3  12   0   0   0   0   0   0   0   0 |    1   7  11   0 |
+           look  pain | IF HERECARRY(12="Painting")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 7="I see"
+                      | MESSAGE 11="a framed painting of Blackb..."
+Cmd 126 |     1    10 |    4   5   0   6   0   0   0   0   0   0 |    1  54  76   0 |
+             go  hill | IF ISROOM(5="beach by a small hill")
+                      | MESSAGE 1="O.K."
+                      | GOTO 6="on ledge 8 feet below hill..."
+                      | LOOK
+Cmd 127 |     1    28 |    4   2   0   1   0   0   0   0   0   0 |    1  54  76   0 |
+             go  bunk | IF ISROOM(2="ship's cabin")
+                      | MESSAGE 1="O.K."
+                      | GOTO 1="bottom bunk"
+                      | LOOK
+Cmd 128 |    27    31 |    0   0   0   0   0   0   0   0   0   0 |    1   7  13   0 |
+           look  sign | MESSAGE 1="O.K."
+                      | MESSAGE 7="I see"
+                      | MESSAGE 13="writing"
+Cmd 129 |    27     7 |    3   1   0   0   0   0   0   0   0   0 |    1   7  18   0 |
+           look  glas | IF HERECARRY(1="Glasses")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 7="I see"
+                      | MESSAGE 18="lenses & wire rim."
+Cmd 130 |    34     8 |    3   1   3  49   0   1   0  20   0  19 |   72  74 119 109 |
+           remo  lens | IF HERECARRY(1="Glasses")
+                      | IF HERECARRY(49="Screwdriver")
+                      | SWAP ITEMS 1="Glasses" AND 20="Lenses"
+                      | TAKE_NOCHECK 19="Wire rim"
+                      | MESSAGE 69="I lost"
+                      | MESSAGE 59="the little screws!"
+Cmd 131 |    50    36 |    3  21   0  21   0  22   0   0   0   0 |    1  72   8   0 |
+           make  glue | IF HERECARRY(21="Red algae")
+                      | MESSAGE 1="O.K."
+                      | SWAP ITEMS 21="Red algae" AND 22="Glue"
+                      | MESSAGE 8="I made it."
+Cmd 132 |    27    50 |    3  21  14  23   0  23   0   0   0   0 |   21  10  74  22 |
+           look  alga | IF HERECARRY(21="Red algae")
+                      | IF NOWHERE(23="*Piece of Amber*")
+                      | MESSAGE 21="I found"
+                      | MESSAGE 10="something"
+                      | TAKE_NOCHECK 23="*Piece of Amber*"
+                      | MESSAGE 22="& I got it!"
+Cmd 133 |    27    50 |    3  21   0   0   0   0   0   0   0   0 |    1   7  19   0 |
+           look  alga | IF HERECARRY(21="Red algae")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 7="I see"
+                      | MESSAGE 19="it's `Gloiopeltis Furcata`..."
+Cmd 134 |    86    38 |    1  24   0   0   0   0   0   0   0   0 |    1   7  20   0 |
+           read  book | IF CARRY(24="Booklet")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 7="I see"
+                      | MESSAGE 20="how to make glue from Funori."
+Cmd 135 |    36    32 |    1   2   0   0   0   0   0   0   0   0 |    3  26  10  23 |
+           wear  mask | IF CARRY(2="which I'm wearing")
+                      | MESSAGE 3="Sorry,"
+                      | MESSAGE 26="I can't,"
+                      | MESSAGE 10="something"
+                      | MESSAGE 23="in the way."
+Cmd 136 |    36    32 |    3  17   0  17   0  18   0   0   0   0 |    1  74  74  73 |
+           wear  mask | IF HERECARRY(17="Face mask")
+                      | MESSAGE 1="O.K."
+                      | TAKE_NOCHECK 17="Face mask"
+                      | TAKE_NOCHECK 18="which I'm wearing"
+                      | CONTINUE_NEXT_LINE
+Cmd 137 |     0     0 |    8   8   0   2   9  23   0   0   0   0 |   60   0   0   0 |
+            continued | IF FLAG(8)=TRUE
+                      | IF FLAG(23)=FALSE
+                      | SET FLAG(2)=FALSE
+Cmd 138 |    32     8 |    3  22   3  20   0   9   0   0   0   0 |   25  58   0   0 |
+           glue  lens | IF HERECARRY(22="Glue")
+                      | IF HERECARRY(20="Lenses")
+                      | MESSAGE 25="In 2 words tell me to or in..."
+                      | SET FLAG(9)=TRUE
+Cmd 139 |    53    32 |    3  22   3  20   8   9   3  17   6  18 |    1  73   0   0 |
+             to  mask | IF HERECARRY(22="Glue")
+                      | IF HERECARRY(20="Lenses")
+                      | IF FLAG(9)=TRUE
+                      | IF HERECARRY(17="Face mask")
+                      | IF NOT CARRY(18="which I'm wearing")
+                      | MESSAGE 1="O.K."
+                      | CONTINUE_NEXT_LINE
+Cmd 140 |     0     0 |    0  20   0   8   0   9   0   0   0   0 |   55  58  60   0 |
+            continued | DESTROY 20="Lenses"
+                      | SET FLAG(8)=TRUE
+                      | SET FLAG(9)=FALSE
+Cmd 141 |    53     0 |    8   9   0   9   0   0   0   0   0   0 |    3  26  60   0 |
+             to       | IF FLAG(9)=TRUE
+                      | MESSAGE 3="Sorry,"
+                      | MESSAGE 26="I can't,"
+                      | SET FLAG(9)=FALSE
+Cmd 142 |    27   101 |    9   7   0   3   0   3   0   0   0   0 |   81  78  81 138 |
+           look   gas | IF FLAG(7)=FALSE
+                      | SWAP COUNTER WITH COUNTER(3)
+                      | PRINT_COUNTER
+                      | SWAP COUNTER WITH COUNTER(3)
+                      | MESSAGE 88="Liters left."
+Cmd 143 |    48     6 |    8   5   0   4   0   0   0   0   0   0 |    1  73  58   0 |
+           swim  down | IF FLAG(5)=TRUE
+                      | MESSAGE 1="O.K."
+                      | CONTINUE_NEXT_LINE
+                      | SET FLAG(4)=TRUE
+Cmd 144 |     0     0 |    1  46   0  46   0  11   0  27   0   0 |   53 119  10   0 |
+            continued | IF CARRY(46="Fan blade")
+                      | DROP 46="Fan blade"
+                      | MESSAGE 69="I lost"
+                      | MESSAGE 10="something"
+Cmd 145 |     0     0 |    2  29   0  12   0  12   0  29   0   0 |   54  58  55  76 |
+            continued | IF HERE(29="Inside of boat")
+                      | GOTO 12="undersea"
+                      | SET FLAG(12)=TRUE
+                      | DESTROY 29="Inside of boat"
+                      | LOOK
+Cmd 146 |     0     0 |    2  26   0  12   0  10   0  26   0   0 |   54  58  55  76 |
+            continued | IF HERE(26="Dock to the East")
+                      | GOTO 12="undersea"
+                      | SET FLAG(10)=TRUE
+                      | DESTROY 26="Dock to the East"
+                      | LOOK
+Cmd 147 |     0     0 |    2  28   0  12   0  13   0  28   0   0 |   54  58  55   0 |
+            continued | IF HERE(28="Boat to the WEST")
+                      | GOTO 12="undersea"
+                      | SET FLAG(13)=TRUE
+                      | DESTROY 28="Boat to the WEST"
+Cmd 148 |     0     0 |    2  36   0  12   0  14   0  36   0   0 |   54  58  55  76 |
+            continued | IF HERE(36="Rocky beach")
+                      | GOTO 12="undersea"
+                      | SET FLAG(14)=TRUE
+                      | DESTROY 36="Rocky beach"
+                      | LOOK
+Cmd 149 |     0     0 |    2  40   0  12   0  20   0  40   0   0 |   54  58  55  76 |
+            continued | IF HERE(40="Flotsam & Jetsam")
+                      | GOTO 12="undersea"
+                      | SET FLAG(20)=TRUE
+                      | DESTROY 40="Flotsam & Jetsam"
+                      | LOOK
+Cmd 150 |     0     0 |    2  27   0  12   0  11   0  27   0   0 |   54  58  55  76 |
+            continued | IF HERE(27="Underside of Dock")
+                      | GOTO 12="undersea"
+                      | SET FLAG(11)=TRUE
+                      | DESTROY 27="Underside of Dock"
+                      | LOOK
+Cmd 151 |    27    81 |    2  59   9  27   0   0   0   0   0   0 |    1   7 121   0 |
+           look   fan | IF HERE(59="Ceiling fan")
+                      | IF FLAG(27)=FALSE
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 7="I see"
+                      | MESSAGE 71="the fan's turning."
+Cmd 152 |    34    84 |   14  46   8  27   2  59   3  49   0  46 |    1  22  74   0 |
+           remo  blad | IF NOWHERE(46="Fan blade")
+                      | IF FLAG(27)=TRUE
+                      | IF HERE(59="Ceiling fan")
+                      | IF HERECARRY(49="Screwdriver")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 22="& I got it!"
+                      | TAKE_NOCHECK 46="Fan blade"
+Cmd 153 |     1    45 |    2  26   0   3   0   5   0  26   0   0 |    1  54  60  59 |
+             go  dock | IF HERE(26="Dock to the East")
+                      | MESSAGE 1="O.K."
+                      | GOTO 3="on a dock"
+                      | SET FLAG(5)=FALSE
+                      | DESTROY 26="Dock to the East"
+Cmd 154 |     1    11 |    2  29   0  29   0  13   0   5   0   7 |   59  54  60  60 |
+             go  ship | IF HERE(29="Inside of boat")
+                      | DESTROY 29="Inside of boat"
+                      | GOTO 13="smugglers hold inside ship"
+                      | SET FLAG(5)=FALSE
+                      | SET FLAG(7)=FALSE
+Cmd 155 |     1    11 |    2  28   0  28   0   4   0   5   0   7 |   59  54  60  60 |
+             go  ship | IF HERE(28="Boat to the WEST")
+                      | DESTROY 28="Boat to the WEST"
+                      | GOTO 4="on deck"
+                      | SET FLAG(5)=FALSE
+                      | SET FLAG(7)=FALSE
+Cmd 156 |    48     5 |    8   4   8  20   0   4   0  11   0  40 |   60  54  53  76 |
+           swim    up | IF FLAG(4)=TRUE
+                      | IF FLAG(20)=TRUE
+                      | SET FLAG(4)=FALSE
+                      | GOTO 11="sea"
+                      | DROP 40="Flotsam & Jetsam"
+                      | LOOK
+Cmd 157 |    48     5 |    8   4   8  11   0   4   0  11   0  27 |   60  54  53  76 |
+           swim    up | IF FLAG(4)=TRUE
+                      | IF FLAG(11)=TRUE
+                      | SET FLAG(4)=FALSE
+                      | GOTO 11="sea"
+                      | DROP 27="Underside of Dock"
+                      | LOOK
+Cmd 158 |    48     5 |    8   4   8  10   0   4   0  11   0  26 |   60  54  53  76 |
+           swim    up | IF FLAG(4)=TRUE
+                      | IF FLAG(10)=TRUE
+                      | SET FLAG(4)=FALSE
+                      | GOTO 11="sea"
+                      | DROP 26="Dock to the East"
+                      | LOOK
+Cmd 159 |    48     5 |    8   4   8  13   0   4   0  11   0  28 |   60  54  53  76 |
+           swim    up | IF FLAG(4)=TRUE
+                      | IF FLAG(13)=TRUE
+                      | SET FLAG(4)=FALSE
+                      | GOTO 11="sea"
+                      | DROP 28="Boat to the WEST"
+                      | LOOK
+Cmd 160 |    48     5 |    8   4   8  12   0   0   0   0   0   0 |    3  26  10  23 |
+           swim    up | IF FLAG(4)=TRUE
+                      | IF FLAG(12)=TRUE
+                      | MESSAGE 3="Sorry,"
+                      | MESSAGE 26="I can't,"
+                      | MESSAGE 10="something"
+                      | MESSAGE 23="in the way."
+Cmd 161 |    48     5 |    8   4   8  14   0   4   0  11   0  36 |   60  54  53  76 |
+           swim    up | IF FLAG(4)=TRUE
+                      | IF FLAG(14)=TRUE
+                      | SET FLAG(4)=FALSE
+                      | GOTO 11="sea"
+                      | DROP 36="Rocky beach"
+                      | LOOK
+Cmd 162 |    48    44 |    8   4   8  12   0   4   0  11   0  29 |   60  54  53  76 |
+           swim  open | IF FLAG(4)=TRUE
+                      | IF FLAG(12)=TRUE
+                      | SET FLAG(4)=FALSE
+                      | GOTO 11="sea"
+                      | DROP 29="Inside of boat"
+                      | LOOK
+Cmd 163 |     1    39 |    4   3   0   5   0  11   0  26   0   0 |   58  54  53  76 |
+             go   sea | IF ISROOM(3="on a dock")
+                      | SET FLAG(5)=TRUE
+                      | GOTO 11="sea"
+                      | DROP 26="Dock to the East"
+                      | LOOK
+Cmd 164 |     1    39 |    4  13   0   5   0  11   0  29   0   7 |   58  54  53  58 |
+             go   sea | IF ISROOM(13="smugglers hold inside ship")
+                      | SET FLAG(5)=TRUE
+                      | GOTO 11="sea"
+                      | DROP 29="Inside of boat"
+                      | SET FLAG(7)=TRUE
+Cmd 165 |    48     4 |    8   4   8  13   0  13   0  12   0   0 |    1  60  58  76 |
+           swim  west | IF FLAG(4)=TRUE
+                      | IF FLAG(13)=TRUE
+                      | MESSAGE 1="O.K."
+                      | SET FLAG(13)=FALSE
+                      | SET FLAG(12)=TRUE
+                      | LOOK
+Cmd 166 |    48     3 |    8   4   8  10   0  10   0  11   0   0 |    1  60  58  76 |
+           swim  east | IF FLAG(4)=TRUE
+                      | IF FLAG(10)=TRUE
+                      | MESSAGE 1="O.K."
+                      | SET FLAG(10)=FALSE
+                      | SET FLAG(11)=TRUE
+                      | LOOK
+Cmd 167 |    48     4 |    8   4   8  11   0  11   0  10   0   0 |    1  60  58  76 |
+           swim  west | IF FLAG(4)=TRUE
+                      | IF FLAG(11)=TRUE
+                      | MESSAGE 1="O.K."
+                      | SET FLAG(11)=FALSE
+                      | SET FLAG(10)=TRUE
+                      | LOOK
+Cmd 168 |    48     3 |    8   4   8  12   0  12   0  13   0   0 |    1  60  58  76 |
+           swim  east | IF FLAG(4)=TRUE
+                      | IF FLAG(12)=TRUE
+                      | MESSAGE 1="O.K."
+                      | SET FLAG(12)=FALSE
+                      | SET FLAG(13)=TRUE
+                      | LOOK
+Cmd 169 |    48     3 |    8   4   8  11   0   0   0   0   0   0 |    3  26  10  23 |
+           swim  east | IF FLAG(4)=TRUE
+                      | IF FLAG(11)=TRUE
+                      | MESSAGE 3="Sorry,"
+                      | MESSAGE 26="I can't,"
+                      | MESSAGE 10="something"
+                      | MESSAGE 23="in the way."
+Cmd 170 |    27    43 |    4   2  15   6   8  29  16   0   0   0 |    7 134 125   0 |
+           look  port | IF ISROOM(2="ship's cabin")
+                      | IF LE(COUNTER,6)
+                      | IF FLAG(29)=TRUE
+                      | IF GE(COUNTER,0)
+                      | MESSAGE 7="I see"
+                      | MESSAGE 84="floodlights lit"
+                      | MESSAGE 75="dimly."
+Cmd 171 |    27    43 |    4   2  16   6   8  29   0   0   0   0 |    7 134 124   0 |
+           look  port | IF ISROOM(2="ship's cabin")
+                      | IF GE(COUNTER,6)
+                      | IF FLAG(29)=TRUE
+                      | MESSAGE 7="I see"
+                      | MESSAGE 84="floodlights lit"
+                      | MESSAGE 74="brightly."
+Cmd 172 |    48     0 |    8   4   0  20   0   0   0   0   0   0 |    1  58  76   0 |
+           swim       | IF FLAG(4)=TRUE
+                      | MESSAGE 1="O.K."
+                      | SET FLAG(20)=TRUE
+                      | LOOK
+Cmd 173 |    27    60 |    3  34  14  21  14  22   0  21   9   8 |    7  34  22  74 |
+           look  rock | IF HERECARRY(34="Pumice rock")
+                      | IF NOWHERE(21="Red algae")
+                      | IF NOWHERE(22="Glue")
+                      | IF FLAG(8)=FALSE
+                      | MESSAGE 7="I see"
+                      | MESSAGE 34="it's covered in algae"
+                      | MESSAGE 22="& I got it!"
+                      | TAKE_NOCHECK 21="Red algae"
+Cmd 174 |     1    39 |    4   4   0   5   0  11   0  28   0   7 |   58  54  53  58 |
+             go   sea | IF ISROOM(4="on deck")
+                      | SET FLAG(5)=TRUE
+                      | GOTO 11="sea"
+                      | DROP 28="Boat to the WEST"
+                      | SET FLAG(7)=TRUE
+Cmd 175 |     1    39 |    4  15   0   5   0  11   0  36   0   0 |   58  54  53  76 |
+             go   sea | IF ISROOM(15="on a rocky beach by sea")
+                      | SET FLAG(5)=TRUE
+                      | GOTO 11="sea"
+                      | DROP 36="Rocky beach"
+                      | LOOK
+Cmd 176 |    64    28 |   14  70   0  70   2  16   0   0   0   0 |   21  10  22  74 |
+           move  bunk | IF NOWHERE(70="*Diamond Ring*")
+                      | IF HERE(16="Bunk bed")
+                      | MESSAGE 21="I found"
+                      | MESSAGE 10="something"
+                      | MESSAGE 22="& I got it!"
+                      | TAKE_NOCHECK 70="*Diamond Ring*"
+Cmd 177 |     1    63 |    4   2   0  16   0   0   0   0   0   0 |    1  54  76   0 |
+             go  ladd | IF ISROOM(2="ship's cabin")
+                      | MESSAGE 1="O.K."
+                      | GOTO 16="top bunk"
+                      | LOOK
+Cmd 178 |     1    66 |    4   2   0  16   0   0   0   0   0   0 |    1  54  76   0 |
+             go   top | IF ISROOM(2="ship's cabin")
+                      | MESSAGE 1="O.K."
+                      | GOTO 16="top bunk"
+                      | LOOK
+Cmd 179 |    27    65 |    3  37   0   1   0   1   0   0   0   0 |   35  81  78  81 |
+           look  watc | IF HERECARRY(37="*Diamond watch*")
+                      | MESSAGE 35="Move number:"
+                      | SWAP COUNTER WITH COUNTER(1)
+                      | PRINT_COUNTER
+                      | SWAP COUNTER WITH COUNTER(1)
+Cmd 180 |    27     5 |    8   4   8  12   9   0   0   0   0   0 |    1   7  28   0 |
+           look    up | IF FLAG(4)=TRUE
+                      | IF FLAG(12)=TRUE
+                      | IF FLAG(0)=FALSE
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 7="I see"
+                      | MESSAGE 28="boat's bottom."
+Cmd 181 |     1    49 |    2  36   0  36   0   5   0  15   0   0 |   59  60  54  76 |
+             go  beac | IF HERE(36="Rocky beach")
+                      | DESTROY 36="Rocky beach"
+                      | SET FLAG(5)=FALSE
+                      | GOTO 15="on a rocky beach by sea"
+                      | LOOK
+Cmd 182 |     1    52 |    2  39   0   0   0   0   0   0   0   0 |   46   0   0   0 |
+             go  curr | IF HERE(39="Strange current")
+                      | MESSAGE 46="I am."
+Cmd 183 |    86    31 |    3  42   0   0   0   0   0   0   0   0 |    1   7  36   0 |
+           read  sign | IF HERECARRY(42="Sign")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 7="I see"
+                      | MESSAGE 36="Leave *TREASURES* here. SCORE."
+Cmd 184 |    10    60 |    4  15  14  34   0  34   0   0   0   0 |   74   1   0   0 |
+            get  rock | IF ISROOM(15="on a rocky beach by sea")
+                      | IF NOWHERE(34="Pumice rock")
+                      | TAKE_NOCHECK 34="Pumice rock"
+                      | MESSAGE 1="O.K."
+Cmd 185 |    10    60 |    3  34   0  34   0   0   0   0   0   0 |   74   1   0   0 |
+            get  rock | IF HERECARRY(34="Pumice rock")
+                      | TAKE_NOCHECK 34="Pumice rock"
+                      | MESSAGE 1="O.K."
+Cmd 186 |    64    83 |   14  24   4   1   0  24   0   0   0   0 |   21  10  22  74 |
+           move  matt | IF NOWHERE(24="Booklet")
+                      | IF ISROOM(1="bottom bunk")
+                      | MESSAGE 21="I found"
+                      | MESSAGE 10="something"
+                      | MESSAGE 22="& I got it!"
+                      | TAKE_NOCHECK 24="Booklet"
+Cmd 187 |    27    11 |    8   4   8  12   8   0   0   0   0   0 |    7  28   7 139 |
+           look  ship | IF FLAG(4)=TRUE
+                      | IF FLAG(12)=TRUE
+                      | IF FLAG(0)=TRUE
+                      | MESSAGE 7="I see"
+                      | MESSAGE 28="boat's bottom."
+                      | MESSAGE 7="I see"
+                      | MESSAGE 89="large opening."
+Cmd 188 |    49     0 |    0   0   0   0   0   0   0   0   0   0 |    1  85  30  29 |
+            say       | MESSAGE 1="O.K."
+                      | WRITELINE NOUN
+                      | MESSAGE 30="nothing"
+                      | MESSAGE 29="happens."
+Cmd 189 |    27    64 |    4  17  14  49   0  49   0   0   0   0 |   21  10  22  74 |
+           look  engi | IF ISROOM(17="on the engine")
+                      | IF NOWHERE(49="Screwdriver")
+                      | MESSAGE 21="I found"
+                      | MESSAGE 10="something"
+                      | MESSAGE 22="& I got it!"
+                      | TAKE_NOCHECK 49="Screwdriver"
+Cmd 190 |     1    45 |    2  32   0   3   0   7   0   0   0   0 |    1  54  58  76 |
+             go  dock | IF HERE(32="Dock")
+                      | MESSAGE 1="O.K."
+                      | GOTO 3="on a dock"
+                      | SET FLAG(7)=TRUE
+                      | LOOK
+Cmd 191 |    48     0 |    8   5   0   0   0   0   0   0   0   0 |    1   0   0   0 |
+           swim       | IF FLAG(5)=TRUE
+                      | MESSAGE 1="O.K."
+Cmd 192 |    16     0 |    9   7   9  19   0   0   0   0   0   0 |   32 114   0   0 |
+           list       | IF FLAG(7)=FALSE
+                      | IF FLAG(19)=FALSE
+                      | MESSAGE 32="I hear"
+                      | MESSAGE 64="it's on the ship somewhere."
+Cmd 193 |     1    52 |    2  38   0   0   0   0   0   0   0   0 |   46   0   0   0 |
+             go  curr | IF HERE(38="Strange current")
+                      | MESSAGE 46="I am."
+Cmd 194 |    43     0 |    3  46   0   0   0   0   0   0   0   0 |   21  30   0   0 |
+            dig       | IF HERECARRY(46="Fan blade")
+                      | MESSAGE 21="I found"
+                      | MESSAGE 30="nothing"
+Cmd 195 |    73    11 |    6  15   0   0   0   0   0   0   0   0 |    3  26  51   0 |
+           sail  ship | IF NOT CARRY(15="Map")
+                      | MESSAGE 3="Sorry,"
+                      | MESSAGE 26="I can't,"
+                      | MESSAGE 51="No map!"
+Cmd 196 |     9     0 |    0   0   0   0   0   0   0   0   0   0 |   63   0   0   0 |
+           quit       | QUIT
+Cmd 197 |    48     0 |    0   0   0   0   0   0   0   0   0   0 |   30  29   0   0 |
+           swim       | MESSAGE 30="nothing"
+                      | MESSAGE 29="happens."
+Cmd 198 |    27     3 |    8   4   8  11   0   0   0   0   0   0 |    1   7  37   0 |
+           look  east | IF FLAG(4)=TRUE
+                      | IF FLAG(11)=TRUE
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 7="I see"
+                      | MESSAGE 37="pilings."
+Cmd 199 |     1    11 |    2  63   0  23   0   0   0   0   0   0 |    1  54  76   0 |
+             go  ship | IF HERE(63="Sunken Ship")
+                      | MESSAGE 1="O.K."
+                      | GOTO 23="sunken ship"
+                      | LOOK
+Cmd 200 |    55    53 |    0   0   0   0   0   0   0   0   0   0 |    1  71   0   0 |
+           save  game | MESSAGE 1="O.K."
+                      | SAVEGAME
+Cmd 201 |    27    11 |    8   4   8  12   9   0   0   0   0   0 |    1 116   0   0 |
+           look  ship | IF FLAG(4)=TRUE
+                      | IF FLAG(12)=TRUE
+                      | IF FLAG(0)=FALSE
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 66="It's odd!"
+Cmd 202 |    24    62 |    2  35   8  12  14  44   0  44   0   0 |   21  10  22  74 |
+           feel  silt | IF HERE(35="Silt")
+                      | IF FLAG(12)=TRUE
+                      | IF NOWHERE(44="Oyster")
+                      | MESSAGE 21="I found"
+                      | MESSAGE 10="something"
+                      | MESSAGE 22="& I got it!"
+                      | TAKE_NOCHECK 44="Oyster"
+Cmd 203 |    73    11 |    5  52   0   0   0   0   0   0   0   0 |    3  26 102 133 |
+           sail  ship | IF NOT HERE(52="Pirate at helm")
+                      | MESSAGE 3="Sorry,"
+                      | MESSAGE 26="I can't,"
+                      | MESSAGE 52="No crew here!"
+                      | MESSAGE 83="I'm no sailor!"
+Cmd 204 |    69     0 |    0   0   0   0   0   0   0   0   0   0 |    3  26   0   0 |
+           slee       | MESSAGE 3="Sorry,"
+                      | MESSAGE 26="I can't,"
+Cmd 205 |    24     0 |    4   1   0   0   0   0   0   0   0   0 |    1  43   0   0 |
+           feel       | IF ISROOM(1="bottom bunk")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 43="Mattress is soft."
+Cmd 206 |    33     0 |    0   0   0   0   0   0   0   0   0   0 |    3  41   0   0 |
+           find       | MESSAGE 3="Sorry,"
+                      | MESSAGE 41="I don't know where it is."
+Cmd 207 |    27    95 |    0   0   0   0   0   0   0   0   0   0 |    1   7 130   0 |
+           look  snai | MESSAGE 1="O.K."
+                      | MESSAGE 7="I see"
+                      | MESSAGE 80="it's Urosalpinx Cinera."
+Cmd 208 |    16     0 |    0   0   0   0   0   0   0   0   0   0 |   32  30  31   0 |
+           list       | MESSAGE 32="I hear"
+                      | MESSAGE 30="nothing"
+                      | MESSAGE 31="special."
+Cmd 209 |     1    66 |    0   0   0   0   0   0   0   0   0   0 |   44   0   0   0 |
+             go   top | MESSAGE 44="How?"
+Cmd 210 |    46     0 |    0   0   0   0   0   0   0   0   0   0 |   30  29   0   0 |
+            rub       | MESSAGE 30="nothing"
+                      | MESSAGE 29="happens."
+Cmd 211 |    57    93 |    3  44   0  30   0   0   0   0   0   0 |   44  58   0   0 |
+           open  oyst | IF HERECARRY(44="Oyster")
+                      | MESSAGE 44="How?"
+                      | SET FLAG(30)=TRUE
+Cmd 212 |    10    83 |    0   0   0   0   0   0   0   0   0   0 |    3  26 107   0 |
+            get  matt | MESSAGE 3="Sorry,"
+                      | MESSAGE 26="I can't,"
+                      | MESSAGE 57="too heavy."
+Cmd 213 |    27    71 |    0   0   0   0   0   0   0   0   0   0 |    3  26 108   0 |
+           look    it | MESSAGE 3="Sorry,"
+                      | MESSAGE 26="I can't,"
+                      | MESSAGE 58="Try INVENTORY or LOOK"
+Cmd 214 |     1    16 |    2  53  11   0   0  20   0   0   0   0 |    1  54  76   0 |
+             go  craw | IF HERE(53="Very narrow crawlway")
+                      | IF EQ(INVCOUNT,0)
+                      | MESSAGE 1="O.K."
+                      | GOTO 20="narrow crawlway"
+                      | LOOK
+Cmd 215 |     1    16 |    2  53  10   0   0   0   0   0   0   0 |    3  26  10 111 |
+             go  craw | IF HERE(53="Very narrow crawlway")
+                      | IF GT(INVCOUNT,0)
+                      | MESSAGE 3="Sorry,"
+                      | MESSAGE 26="I can't,"
+                      | MESSAGE 10="something"
+                      | MESSAGE 61="won't fit."
+Cmd 216 |    71     0 |    9  25   0   0   0   0   0   0   0   0 |    1 112   0   0 |
+           scor       | IF FLAG(25)=FALSE
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 62="I've stored 0 treasures."
+Cmd 217 |    44     5 |    0   0   0   0   0   0   0   0   0   0 |   46   0   0   0 |
+           wake    up | MESSAGE 46="I am."
+Cmd 218 |    10     5 |    4   1   0   2   0   0   0   0   0   0 |    1  54  76   0 |
+            get    up | IF ISROOM(1="bottom bunk")
+                      | MESSAGE 1="O.K."
+                      | GOTO 2="ship's cabin"
+                      | LOOK
+Cmd 219 |    86    38 |    3  56   9   3   9   2   0   0   0   0 |    1   7 115   0 |
+           read  book | IF HERECARRY(56="*Rare Book*")
+                      | IF FLAG(3)=FALSE
+                      | IF FLAG(2)=FALSE
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 7="I see"
+                      | MESSAGE 65="it's on Ophthalmology. Squi..."
+Cmd 220 |     1    39 |    4  19   0   5   0  11   0  28   0   7 |   58  54  53  58 |
+             go   sea | IF ISROOM(19="on catwalk on outside of sh...")
+                      | SET FLAG(5)=TRUE
+                      | GOTO 11="sea"
+                      | DROP 28="Boat to the WEST"
+                      | SET FLAG(7)=TRUE
+Cmd 221 |    80     0 |    8   2   9   3   9   4   6  18   0   2 |   60  57  76  73 |
+           squi       | IF FLAG(2)=TRUE
+                      | IF FLAG(3)=FALSE
+                      | IF FLAG(4)=FALSE
+                      | IF NOT CARRY(18="which I'm wearing")
+                      | SET FLAG(2)=FALSE
+                      | SET DARK=FALSE
+                      | LOOK
+                      | CONTINUE_NEXT_LINE
+Cmd 222 |     0     0 |    0  18   0   2   0   0   0   0   0   0 |   60  88  58  70 |
+            continued | SET FLAG(18)=FALSE
+                      | SLEEP 2 SECONDS
+                      | SET FLAG(2)=TRUE
+                      | CLEARSCREEN
+Cmd 223 |    57   100 |   14  56   3  64   0  56   0   0   0   0 |    7  10  74  73 |
+           open  ches | IF NOWHERE(56="*Rare Book*")
+                      | IF HERECARRY(64="*Jeweled chest*")
+                      | MESSAGE 7="I see"
+                      | MESSAGE 10="something"
+                      | TAKE_NOCHECK 56="*Rare Book*"
+                      | CONTINUE_NEXT_LINE
+Cmd 224 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |   22   7 132   0 |
+            continued | MESSAGE 22="& I got it!"
+                      | MESSAGE 7="I see"
+                      | MESSAGE 82="Lid broke off!"
+Cmd 225 |    18    36 |    0   0   0   0   0   0   0   0   0   0 |    3  26   0   0 |
+           drop  glue | MESSAGE 3="Sorry,"
+                      | MESSAGE 26="I can't,"
+Cmd 226 |     8     7 |    3   1   0   0   0   0   0   0   0   0 |  117   3  26   0 |
+           fold  glas | IF HERECARRY(1="Glasses")
+                      | MESSAGE 67="Good idea! But ..."
+                      | MESSAGE 3="Sorry,"
+                      | MESSAGE 26="I can't,"
+Cmd 227 |    80     0 |    8   4   0   0   0   0   0   0   0   0 |   30  29   0   0 |
+           squi       | IF FLAG(4)=TRUE
+                      | MESSAGE 30="nothing"
+                      | MESSAGE 29="happens."
+Cmd 228 |     1    10 |    4   7   0   0   0   0   0   0   0   0 |    3  46   0   0 |
+             go  hill | IF ISROOM(7="on top of a small hill")
+                      | MESSAGE 3="Sorry,"
+                      | MESSAGE 46="I am."
+Cmd 229 |     1     9 |    0   0   0   0   0   0   0   0   0   0 |   44   0   0   0 |
+             go  ledg | MESSAGE 44="How?"
+Cmd 230 |     7    56 |    3  41   0  41   0   0   0   0   0   0 |    1  59   0   0 |
+           drin   rum | IF HERECARRY(41="Rum")
+                      | MESSAGE 1="O.K."
+                      | DESTROY 41="Rum"
+Cmd 231 |    81    24 |    3  51   0  26   0   0   0   0   0   0 |    1 117  25  58 |
+           roll  pain | IF HERECARRY(51="*Rembrandt Painting*")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 67="Good idea! But ..."
+                      | MESSAGE 25="In 2 words tell me to or in..."
+                      | SET FLAG(26)=TRUE
+Cmd 232 |    53    79 |    3  51   3  57   8  26   0  58   0  51 |    1  72  73   0 |
+             to  oils | IF HERECARRY(51="*Rembrandt Painting*")
+                      | IF HERECARRY(57="Oilskin raincoat")
+                      | IF FLAG(26)=TRUE
+                      | MESSAGE 1="O.K."
+                      | SWAP ITEMS 58="Waterproof painting" AND 51="*Rembrandt Painting*"
+                      | CONTINUE_NEXT_LINE
+Cmd 233 |     0     0 |    0  57   0  26   0   0   0   0   0   0 |   59  60   0   0 |
+            continued | DESTROY 57="Oilskin raincoat"
+                      | SET FLAG(26)=FALSE
+Cmd 234 |    83    24 |    3  58   0  51   0  58   0  57   0   0 |    1  72  74   0 |
+           unro  pain | IF HERECARRY(58="Waterproof painting")
+                      | MESSAGE 1="O.K."
+                      | SWAP ITEMS 51="*Rembrandt Painting*" AND 58="Waterproof painting"
+                      | TAKE_NOCHECK 57="Oilskin raincoat"
+Cmd 235 |    81     0 |    0   0   0   0   0   0   0   0   0   0 |  117 118   0   0 |
+           roll       | MESSAGE 67="Good idea! But ..."
+                      | MESSAGE 68="Why bother?"
+Cmd 236 |     1    81 |    2  59   9  27   0   0   0   0   0   0 |    3  26 117 121 |
+             go   fan | IF HERE(59="Ceiling fan")
+                      | IF FLAG(27)=FALSE
+                      | MESSAGE 3="Sorry,"
+                      | MESSAGE 26="I can't,"
+                      | MESSAGE 67="Good idea! But ..."
+                      | MESSAGE 71="the fan's turning."
+Cmd 237 |    27    81 |    2  59   8  27   0   0   0   0   0   0 |    7 122  73   0 |
+           look   fan | IF HERE(59="Ceiling fan")
+                      | IF FLAG(27)=TRUE
+                      | MESSAGE 7="I see"
+                      | MESSAGE 72="large blade fan has stopped."
+                      | CONTINUE_NEXT_LINE
+Cmd 238 |     0     0 |   14  60   0  60   0   0   0   0   0   0 |   21  10  22  74 |
+            continued | IF NOWHERE(60="*Diamond Brooch*")
+                      | MESSAGE 21="I found"
+                      | MESSAGE 10="something"
+                      | MESSAGE 22="& I got it!"
+                      | TAKE_NOCHECK 60="*Diamond Brooch*"
+Cmd 239 |    73    11 |    4   2  13  32   0  32   0   4   0   3 |   56  72  58  73 |
+           sail  ship | IF ISROOM(2="ship's cabin")
+                      | IF SOMEWHERE(32="Dock")
+                      | SET DARK=TRUE
+                      | SWAP ITEMS 32="Dock" AND 4="Isle off in distance"
+                      | SET FLAG(3)=TRUE
+                      | CONTINUE_NEXT_LINE
+Cmd 240 |     0     0 |    0   3   0  15   0   0   0   0   0   0 |   81  83   1 135 |
+            continued | SWAP COUNTER WITH COUNTER(3)
+                      | SUBTO COUNTER 15
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 85="Long trip, night fell!"
+Cmd 241 |     0     0 |   15   0   0   0   0   0   0   0   0   0 |    3 136 137  61 |
+            continued | IF LE(COUNTER,0)
+                      | MESSAGE 3="Sorry,"
+                      | MESSAGE 86="Out of gas!"
+                      | MESSAGE 87="& lost at sea!"
+                      | DEAD
+Cmd 242 |     0     0 |    0   3   0   0   0   0   0   0   0   0 |   81  88  88  88 |
+            continued | SWAP COUNTER WITH COUNTER(3)
+                      | SLEEP 2 SECONDS
+                      | SLEEP 2 SECONDS
+                      | SLEEP 2 SECONDS
+Cmd 243 |    34    84 |   14  46   8  27   2  59   3  49   0  46 |    1  22  74   0 |
+           remo  blad | IF NOWHERE(46="Fan blade")
+                      | IF FLAG(27)=TRUE
+                      | IF HERE(59="Ceiling fan")
+                      | IF HERECARRY(49="Screwdriver")
+                      | MESSAGE 1="O.K."
+                      | MESSAGE 22="& I got it!"
+                      | TAKE_NOCHECK 46="Fan blade"
+Cmd 244 |    27     5 |    8   4   8  12   8   0   0   0   0   0 |    7  28   7 139 |
+           look    up | IF FLAG(4)=TRUE
+                      | IF FLAG(12)=TRUE
+                      | IF FLAG(0)=TRUE
+                      | MESSAGE 7="I see"
+                      | MESSAGE 28="boat's bottom."
+                      | MESSAGE 7="I see"
+                      | MESSAGE 89="large opening."
+Cmd 245 |     1    69 |    4   2   0   0   0   0   0   0   0   0 |    3 133   0   0 |
+             go  helm | IF ISROOM(2="ship's cabin")
+                      | MESSAGE 3="Sorry,"
+                      | MESSAGE 83="I'm no sailor!"
+Cmd 246 |    75    64 |    4  18   8  28   0  28   0   0   0   0 |    1  60   0   0 |
+           stop  engi | IF ISROOM(18="in an engine room")
+                      | IF FLAG(28)=TRUE
+                      | MESSAGE 1="O.K."
+                      | SET FLAG(28)=FALSE
+Cmd 247 |    27    11 |    8   7   0   0   0   0   0   0   0   0 |    7 120  73   0 |
+           look  ship | IF FLAG(7)=TRUE
+                      | MESSAGE 7="I see"
+                      | MESSAGE 70="a ship with floodlights lit"
+                      | CONTINUE_NEXT_LINE
+Cmd 248 |     0     0 |   15   6  16   0   8  29   0   0   0   0 |  125   0   0   0 |
+            continued | IF LE(COUNTER,6)
+                      | IF GE(COUNTER,0)
+                      | IF FLAG(29)=TRUE
+                      | MESSAGE 75="dimly."
+Cmd 249 |     0     0 |   16   6   8  29   0   0   0   0   0   0 |  124   0   0   0 |
+            continued | IF GE(COUNTER,6)
+                      | IF FLAG(29)=TRUE
+                      | MESSAGE 74="brightly."
+Cmd 250 |     0     0 |    9  29   0   0   0   0   0   0   0   0 |  126   0   0   0 |
+            continued | IF FLAG(29)=FALSE
+                      | MESSAGE 76="not at all!"
+Cmd 251 |    27    86 |    4   2  14  61   0  61   0   0   0   0 |   53   7  10  76 |
+           look  ceil | IF ISROOM(2="ship's cabin")
+                      | IF NOWHERE(61="Small button in ceiling")
+                      | DROP 61="Small button in ceiling"
+                      | MESSAGE 7="I see"
+                      | MESSAGE 10="something"
+                      | LOOK
+Cmd 252 |    64    85 |    2  61   8  29   0  29   0   0   0   0 |    1  60 127   0 |
+           move  butt | IF HERE(61="Small button in ceiling")
+                      | IF FLAG(29)=TRUE
+                      | MESSAGE 1="O.K."
+                      | SET FLAG(29)=FALSE
+                      | MESSAGE 77="Click!"
+Cmd 253 |    64    85 |    2  61   9  29   0  29   0   0   0   0 |    1  58 127   0 |
+           move  butt | IF HERE(61="Small button in ceiling")
+                      | IF FLAG(29)=FALSE
+                      | MESSAGE 1="O.K."
+                      | SET FLAG(29)=TRUE
+                      | MESSAGE 77="Click!"
+Cmd 254 |    89     0 |    0   4   0   1   0   4   0   1   0   0 |   83  81  82  81 |
+           wait       | SUBTO COUNTER 4
+                      | SWAP COUNTER WITH COUNTER(1)
+                      | ADDTO COUNTER 4
+                      | SWAP COUNTER WITH COUNTER(1)
+Cmd 255 |    24    11 |    8   4   8  12   9   0   0   0   0   0 |    7  40  67 139 |
+           feel  ship | IF FLAG(4)=TRUE
+                      | IF FLAG(12)=TRUE
+                      | IF FLAG(0)=FALSE
+                      | MESSAGE 7="I see"
+                      | MESSAGE 40="I opened up a"
+                      | SET FLAG(0)=TRUE
+                      | MESSAGE 89="large opening."
+Cmd 256 |    64     0 |    0   0   0   0   0   0   0   0   0   0 |   30  29   0   0 |
+           move       | MESSAGE 30="nothing"
+                      | MESSAGE 29="happens."
+Cmd 257 |    53     0 |    0   9   0  26   0   0   0   0   0   0 |   60  60   3  26 |
+             to       | SET FLAG(9)=FALSE
+                      | SET FLAG(26)=FALSE
+                      | MESSAGE 3="Sorry,"
+                      | MESSAGE 26="I can't,"
+Cmd 258 |    73    11 |    4   2  14  32   0  32   0   4   0   3 |   73  72  60  57 |
+           sail  ship | IF ISROOM(2="ship's cabin")
+                      | IF NOWHERE(32="Dock")
+                      | CONTINUE_NEXT_LINE
+                      | SWAP ITEMS 32="Dock" AND 4="Isle off in distance"
+                      | SET FLAG(3)=FALSE
+                      | SET DARK=FALSE
+Cmd 259 |     0     0 |    0   3   0  15   0  31   0   0   0   0 |   81  83   1  60 |
+            continued | SWAP COUNTER WITH COUNTER(3)
+                      | SUBTO COUNTER 15
+                      | MESSAGE 1="O.K."
+                      | SET FLAG(31)=FALSE
+Cmd 260 |     0     0 |   15   0   0   0   0   0   0   0   0   0 |    3 136 137  61 |
+            continued | IF LE(COUNTER,0)
+                      | MESSAGE 3="Sorry,"
+                      | MESSAGE 86="Out of gas!"
+                      | MESSAGE 87="& lost at sea!"
+                      | DEAD
+Cmd 261 |     0     0 |    0   3   0   0   0   0   0   0   0   0 |   81   0   0   0 |
+            continued | SWAP COUNTER WITH COUNTER(3)
+Cmd 262 |    59    95 |    8  30   3  44   3  67  14  66   0  66 |    1  74 131  22 |
+            use  snai | IF FLAG(30)=TRUE
+                      | IF HERECARRY(44="Oyster")
+                      | IF HERECARRY(67="Snail")
+                      | IF NOWHERE(66="*Pearl*")
+                      | MESSAGE 1="O.K."
+                      | TAKE_NOCHECK 66="*Pearl*"
+                      | MESSAGE 81="Oyster Drill does the trick!"
+                      | MESSAGE 22="& I got it!"
+Cmd 263 |    27    45 |    4  22  14  69   0  69   0   0   0   0 |    7  10  22  74 |
+           look  dock | IF ISROOM(22="on beam under dock")
+                      | IF NOWHERE(69="*Diamond Pin*")
+                      | MESSAGE 7="I see"
+                      | MESSAGE 10="something"
+                      | MESSAGE 22="& I got it!"
+                      | TAKE_NOCHECK 69="*Diamond Pin*"
+Cmd 264 |    27     5 |    4  22  14  69   0  69   0   0   0   0 |    7  10  22  74 |
+           look    up | IF ISROOM(22="on beam under dock")
+                      | IF NOWHERE(69="*Diamond Pin*")
+                      | MESSAGE 7="I see"
+                      | MESSAGE 10="something"
+                      | MESSAGE 22="& I got it!"
+                      | TAKE_NOCHECK 69="*Diamond Pin*"
+Cmd 265 |    24    62 |    2  35   0  22   0   2   0  18   0   0 |   39  58  58  60 |
+           feel  silt | IF HERE(35="Silt")
+                      | MESSAGE 39="I stirred it up."
+                      | SET FLAG(22)=TRUE
+                      | SET FLAG(2)=TRUE
+                      | SET FLAG(18)=FALSE
+Cmd 266 |     1    45 |    2  27   0  22   0   0   0   0   0   0 |    1  54  76   0 |
+             go  dock | IF HERE(27="Underside of Dock")
+                      | MESSAGE 1="O.K."
+                      | GOTO 22="on beam under dock"
+                      | LOOK
+Cmd 267 |    75     0 |    0   0   0   0   0   0   0   0   0   0 |   44   0   0   0 |
+           stop       | MESSAGE 44="How?"
+Cmd 268 |    24     0 |    0   0   0   0   0   0   0   0   0   0 |   30  29   0   0 |
+           feel       | MESSAGE 30="nothing"
+                      | MESSAGE 29="happens."
+Cmd 269 |    57     0 |    0   0   0   0   0   0   0   0   0   0 |   44   0   0   0 |
+           open       | MESSAGE 44="How?"
+Cmd 270 |    80     0 |    0   0   0   0   0   0   0   0   0   0 |    1   0   0   0 |
+           squi       | MESSAGE 1="O.K."
+Cmd 271 |    27     0 |    0   0   0   0   0   0   0   0   0   0 |    7  30  31  76 |
+           look       | MESSAGE 7="I see"
+                      | MESSAGE 30="nothing"
+                      | MESSAGE 31="special."
+                      | LOOK
+Cmd 272 |    59     0 |    0   0   0   0   0   0   0   0   0   0 |    3  26   0   0 |
+            use       | MESSAGE 3="Sorry,"
+                      | MESSAGE 26="I can't,"
+Cmd 273 |     1    43 |    1   2   0   1   0   2   0   0   0   0 |   24  53  73  59 |
+             go  port | IF CARRY(2="which I'm wearing")
+                      | MESSAGE 24="Glasses slip off."
+                      | DROP 1="Glasses"
+                      | CONTINUE_NEXT_LINE
+                      | DESTROY 2="which I'm wearing"
+Cmd 274 |     0     0 |    0   2   0   0   0   0   0   0   0   0 |   58  56   0   0 |
+            continued | SET FLAG(2)=TRUE
+                      | SET DARK=TRUE
+Cmd 275 |     0     0 |   10   0   0   0   0   0   0   0   0   0 |    3  26  10 111 |
+            continued | IF GT(INVCOUNT,0)
+                      | MESSAGE 3="Sorry,"
+                      | MESSAGE 26="I can't,"
+                      | MESSAGE 10="something"
+                      | MESSAGE 61="won't fit."
+Cmd 276 |     0     0 |   11   0   4  19   0   2   0  48   0  45 |    1  54  72  76 |
+            continued | IF EQ(INVCOUNT,0)
+                      | IF ISROOM(19="on catwalk on outside of sh...")
+                      | MESSAGE 1="O.K."
+                      | GOTO 2="ship's cabin"
+                      | SWAP ITEMS 48="Open porthole" AND 45="Porthole"
+                      | LOOK
+Cmd 277 |     0     0 |   11   0   2  48   0  19   0   0   0   0 |    1  54  76   0 |
+            continued | IF EQ(INVCOUNT,0)
+                      | IF HERE(48="Open porthole")
+                      | MESSAGE 1="O.K."
+                      | GOTO 19="on catwalk on outside of sh..."
+                      | LOOK
+
+// END OF FILE

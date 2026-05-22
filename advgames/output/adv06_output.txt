@@ -1,0 +1,1640 @@
+Unknown        = 5043
+ItemCount      = 55
+CommandCount   = 223
+VerbNounCount  = 79
+RoomCount      = 35
+MaxInventory   = 6
+StartRoom      = 1
+TreasureCount  = 5
+WordLength     = 4
+LightMoves     = 10000
+MessageCount   = 94
+TreasureRoom   = 22
+
+Cmd   0:      0      0      0      0      0      0      0      0
+Cmd   1:      0      0      0      0      0      0      0      0
+Cmd   2:    100    284    906      0      0      0  17064  17613
+Cmd   3:    100    362     40      0      0      0   9000      0
+Cmd   4:    100    284    926      0      0      0  17064  17613
+Cmd   5:    100     29     20    100    120      0   8773   8758
+Cmd   6:      0     40    560     40      0      0  12229  12151
+Cmd   7:      0     20   2200     20    120      0  12229  12204
+Cmd   8:      0     60     40     60      0      0  12229  12230
+Cmd   9:      0     20    100    400    100      0   8181  11931
+Cmd  10:    100    143     20      0      0      0  12227  10950
+Cmd  11:      0    555      0      0      0      0   3750      0
+Cmd  12:      0     15      0      0      0      0   1711      0
+Cmd  13:      0     20      0      0      0      0  12150      0
+Cmd  14:    100    881    933    926    920      0   7800      0
+Cmd  15:    100    882    933    925    920      0   7950      0
+Cmd  16:     30    601      0      0      0      0   6811      0
+Cmd  17:     15    602      0      0      0      0   6811      0
+Cmd  18:    100    633     80      0      0      0  12227  10950
+Cmd  19:      0     15    620    600      0      0  10800      0
+Cmd  20:      0    603      0      0      0      0   6900      0
+Cmd  21:      0     80      0      0      0      0  12150      0
+Cmd  22:    100     88     80     40      0      0  11010  12150
+Cmd  23:      0     69     80     40      0      0  12531      0
+Cmd  24:      0     68    140     40      0      0  12531      0
+Cmd  25:      0      0      0      0      0      0      0      0
+Cmd  26:    100     48    146      0      0      0   1508   1113
+Cmd  27:      0      0      0      0      0      0      0      0
+Cmd  28:    100     40      0      0      0      0  12223      0
+Cmd  29:      0     15    234    220    200      0  10800      0
+Cmd  30:      0     40      0      0      0      0  12150      0
+Cmd  31:      0      0      0      0      0      0      0      0
+Cmd  32:    100    702    562    560    740    700  10859   7726
+Cmd  33:    100    602      0      0      0      0  10950      0
+Cmd  34:      0    364    760    400    600      0   9359  15450
+Cmd  35:      0    384    760    400    600      0   9359  15450
+Cmd  36:      0    404    760    400    600      0   9359  15450
+Cmd  37:      0    204    760    400    600      0   9359  15450
+Cmd  38:      0    614    600    480      0      0   9300      0
+Cmd  39:    100    704      0      0      0      0   9450      0
+Cmd  40:    100    188    100      0      0      0  12227  10950
+Cmd  41:      0     35    180    200      0      0   9058      0
+Cmd  42:      0   1041   1021   1100      0      0   8603  11400
+Cmd  43:      0    100      0      0      0      0  12150      0
+Cmd  44:    100   1041    189    309      0      0   8476      0
+Cmd  45:   5624    123      0      0      0      0  16500      0
+Cmd  46:   6900    123    182     20   1500     20    531  11931
+Cmd  47:   8272    203      0      0      0      0   2417      0
+Cmd  48:   1423    203     60      0      0      0   9003      0
+Cmd  49:   1422    203     60      0      0      0   8703      0
+Cmd  50:  10650    484      0      0      0      0  16755      0
+Cmd  51:   4808    623    620    600      0      0    522      0
+Cmd  52:   3777     24    240    260      0      0  10803      0
+Cmd  53:   3777    342    360    380    400    420    522  10873
+Cmd  54:      0    149    382     40      0      0   8812      0
+Cmd  55:      0    149    362     40      0      0   9000      0
+Cmd  56:   3787    443    465      0      0      0    462      0
+Cmd  57:   3829    443    160    169      0      0    452   8700
+Cmd  58:   3787    443    463    169      0      0    462   1573
+Cmd  59:      0      0      0      0      0      0   1207   9150
+Cmd  60:   3787    443    463     20    500    168  12153  11032
+Cmd  61:      0   2216      0      0      0      0   1818   1711
+Cmd  62:      0     20      0      0      0      0   1881      0
+Cmd  63:   1526    442    460    474      0      0    503      0
+Cmd  64:   2726    462    460      0      0      0    509      0
+Cmd  65:    181    382    149    240      0      0    504  11400
+Cmd  66:    181    422     20      0      0      0    504  11400
+Cmd  67:    181    262     40      0      0      0    504  11400
+Cmd  68:   5580    102      0      0      0      0   3000      0
+Cmd  69:   3778    102    754      0      0      0    471   2852
+Cmd  70:   7721    201     68    482     80      0   3523   8788
+Cmd  71:      0    480     20    960      0      0  10824   8026
+Cmd  72:   3829    443    168    160      0      0    452   9000
+Cmd  73:   8720    123    140    120      0      0  11174    450
+Cmd  74:   8555    123    140    120      0      0  11174    450
+Cmd  75:   2720    123    120    140      0      0   8009    450
+Cmd  76:   5582     22      0      0      0      0   4200      0
+Cmd  77:   7682    201     80     22      0      0   4223   4558
+Cmd  78:   7684    201     68     42     80     40   3508   3659
+Cmd  79:    190    302     60      0      0      0    504  11400
+Cmd  80:   7650    201     68     24    700      0   3504   4413
+Cmd  81:   7650    201     68    144    700      0   3504   4413
+Cmd  82:   7650    201     68     44    700      0   3504   4413
+Cmd  83:   5572    203     40    309      0      0  11031   4878
+Cmd  84:      0     68     40      0      0      0   1964  12150
+Cmd  85:      0     69     40      0      0      0   1965  12150
+Cmd  86:   5572    223    309      0      0      0   4831      0
+Cmd  87:    210    162      0      0      0      0  20761      0
+Cmd  88:   2589    542    109      0      0      0    333   5136
+Cmd  89:   3789    542    108      0      0      0    333   5286
+Cmd  90:   9339    542    540    560      0      0   5588   8924
+Cmd  91:   1539    542      0      0      0      0   5850      0
+Cmd  92:   1539    563    560      0      0      0    502      0
+Cmd  93:   7689    201     68    542    540     80   3474   8908
+Cmd  94:   7691    201     68    502    500     80   3474   8908
+Cmd  95:   7691    201     69    502     80      0   6058      0
+Cmd  96:   3791    502      0      0      0      0   5592  18661
+Cmd  97:   7691    201     68    583    580     80   3474   8908
+Cmd  98:   4991    502    109     60      0      0   6073  12229
+Cmd  99:      0     60      0      0      0      0  12150      0
+Cmd 100:   3789    542    109     60      0      0  10987   6681
+Cmd 101:      0     20    100      0      0      0   5332   8700
+Cmd 102:      0     60      0      0      0      0   6078   6231
+Cmd 103:   2589    542    108    100      0      0   5594   5160
+Cmd 104:   3678     83      0      0      0      0    587      0
+Cmd 105:   4991    502    108     60      0      0  11031  12003
+Cmd 106:      0      0      0      0      0      0   6538  13200
+Cmd 107:      0     39     60    120      0      0   8158      0
+Cmd 108:      0     59    180    120      0      0   8160      0
+Cmd 109:      0     79    200    120      0      0   8158      0
+Cmd 110:      0     99    220    120      0      0   8158      0
+Cmd 111:      0    119    340    120      0      0   8158      0
+Cmd 112:      0    139    260    120      0      0   8100      0
+Cmd 113:      0    159    280    120      0      0   8100      0
+Cmd 114:      0    156    340    120      0      0   8158      0
+Cmd 115:      0     60      0      0      0      0  12076  12150
+Cmd 116:   7672      0      0      0      0      0  16200      0
+Cmd 117:   4982     22      0      0      0      0    590      0
+Cmd 118:   4982    282      0      0      0      0    590      0
+Cmd 119:  10650    814   1063    184    794    780   7953  19950
+Cmd 120:    182    124     20    128     40      0  12053  11458
+Cmd 121:    182     22    474     40      0      0  12076   9003
+Cmd 122:    182    124     20    129     40      0  12053  11460
+Cmd 123:   7658    201    603     68     80    600   8723   3659
+Cmd 124:   7658    201     80    603     69      0   8723  11085
+Cmd 125:      0    600    620     80    340     80  10881  11931
+Cmd 126:    182     22    473      0      0      0   7518   9150
+Cmd 127:  10350     42     40      0      0      0    504  11400
+Cmd 128:   5560    642    309      0      0      0    498      0
+Cmd 129:   9000      0      0      0      0      0   9750      0
+Cmd 130:   5574    443    309      0      0      0    499      0
+Cmd 131:   5609    943    188   1041    309      0    573      0
+Cmd 132:   3778    102    753    149    140      0  15358      0
+Cmd 133:   3778    102    753    148    140      0  15360      0
+Cmd 134:    181    382    148    440     40      0    504   8026
+Cmd 135:    184     42     40      0      0      0    504  11400
+Cmd 136:   7694    201     68    762    760     80   3474   8908
+Cmd 137:  10650    762    480    781    780    800  15654  10876
+Cmd 138:   7694    484     68    201    360     80   8158   3703
+Cmd 139:    194    762    786      0      0      0   5955  15900
+Cmd 140:  10650    762    786      0      0      0   5955      0
+Cmd 141:  11144    762      0      0      0      0   5850      0
+Cmd 142:  10231     24      0      0      0      0   5850      0
+Cmd 143:  10350    244      0      0      0      0    563  17323
+Cmd 144:      0      0      0      0      0      0  13288  13200
+Cmd 145:      0     80     40      0      0      0   8153  11400
+Cmd 146:  10350      0      0      0      0      0    450      0
+Cmd 147:    159    184    300      0      0      0    504  11400
+Cmd 148:   1548     62    832    854      0      0  16766      0
+Cmd 149:   1548     62    823     60    840    854   7853    586
+Cmd 150:    205    842    460      0      0      0   8176      0
+Cmd 151:   6764    683    680    320      0      0  10803  16800
+Cmd 152:   1548     63     60    853      0      0   7803      0
+Cmd 153:   8758    883    900    880      0      0  11103  11024
+Cmd 154:      0    933    920      0      0      0  11219      0
+Cmd 155:   2758    883    900    880      0      0   8853  11003
+Cmd 156:      0    933    920      0      0      0   8070      0
+Cmd 157:   9357    883    934    920    880      0  11253  18000
+Cmd 158:   9357    883    933    920      0      0    509      0
+Cmd 159:   5608    883    309      0      0      0  18300      0
+Cmd 160:   5609    943    309      0      0      0    581      0
+Cmd 161:   2274      0      0      0      0      0   5850      0
+Cmd 162:    221    482      0      0      0      0   7156      0
+Cmd 163:   5621    482      0      0      0      0    472      0
+Cmd 164:  10220    141    140      0      0      0    509      0
+Cmd 165:   9770    121    140      0      0      0    524      0
+Cmd 166:    213    244      0      0      0      0   5850      0
+Cmd 167:   5562    723    309      0      0      0  17700      0
+Cmd 168:   1200    124      0      0      0      0  18150      0
+Cmd 169:  10248     62    832    854      0      0  16766      0
+Cmd 170:  10248     62    823     60    840      0   7853    586
+Cmd 171:    184    244     40      0      0      0    504  11400
+Cmd 172:   1541    502      0      0      0      0   5850      0
+Cmd 173:   5591    502    309      0      0      0  18750      0
+Cmd 174:   4950      0      0      0      0      0    452      0
+Cmd 175:   4500    442    474    460      0      0   7953      0
+Cmd 176:    217    982      0      0      0      0  18961      0
+Cmd 177:   5619   1003    309      0      0      0  10953  19050
+Cmd 178:      0    894      0      0      0      0  19200      0
+Cmd 179:   1558   1003    894    880      0      0    502      0
+Cmd 180:   1558    883    880      0      0      0    502      0
+Cmd 181:   5558    603    309      0      0      0  19350      0
+Cmd 182:   7708   1003    201     68   1000     80   8908  10950
+Cmd 183:      0    880      0      0      0      0   8873   3600
+Cmd 184:   8775   1023   1020   1040      0      0  11174    523
+Cmd 185:   5625   1023    309      0      0      0  19500      0
+Cmd 186:   2775   1021   1020   1040      0      0   8009   8623
+Cmd 187:      0   1100      0      0      0      0    509  11400
+Cmd 188:   3827   1023    209    189    180      0    508      0
+Cmd 189:   5609    943   1046    309      0      0    581      0
+Cmd 190:   3827   1023    209    188    180      0    510      0
+Cmd 191:   3827   1023    208      0      0      0    452  19800
+Cmd 192:   5570    123      0      0      0      0    900      0
+Cmd 193:   3674    123     20      0      0      0    681  11773
+Cmd 194:      0      0      0      0      0      0    750      0
+Cmd 195:      0     48      0      0      0      0   1200      0
+Cmd 196:      0     20      0      0      0      0   1131      0
+Cmd 197:  10650    762   1063   1060   1080      0    487   6372
+Cmd 198:   6150      0      0      0      0      0    535      0
+Cmd 199:   3779      0      0      0      0      0  16350      0
+Cmd 200:   2272    203      0      0      0      0  16200      0
+Cmd 201:   7650    223      0      0      0      0    473    331
+Cmd 202:   7650    201     80      0      0      0   8723    330
+Cmd 203:   8100      0      0      0      0      0   3900      0
+Cmd 204:   5550      0      0      0      0      0   4126      0
+Cmd 205:   9150      0      0      0      0      0   9900      0
+Cmd 206:  10650   1063      0      0      0      0   7050      0
+Cmd 207:   7950      0      0      0      0      0   7157      0
+Cmd 208:   3600      0      0      0      0      0  16650      0
+Cmd 209:   1200      0      0      0      0      0    489      0
+Cmd 210:   1050      0      0      0      0      0   9450      0
+Cmd 211:    951      0      0      0      0      0  10650      0
+Cmd 212:   4350      0      0      0      0      0  20102      0
+Cmd 213:   9750      0      0      0      0      0   5850      0
+Cmd 214:    189    542    540    560      0      0   5588   8924
+Cmd 215:  11625   1041   1040   1100      0      0    509   8850
+Cmd 216:   7220    141    140      0      0      0    509      0
+Cmd 217:   7275   1041   1040   1100      0      0   8609   8926
+Cmd 218:   7200      0      0      0      0      0  16789      0
+Cmd 219:   9357    894      0      0      0      0  16791      0
+Cmd 220:  11864    683    680    320      0      0  10803      0
+Cmd 221:   1507      0      0      0      0      0   9900      0
+Cmd 222:    198    842    460      0      0      0    354  11400
+Cmd 223:  11262      4      0      0      0      0      0      0
+
+Verb  0: AUTO   Noun  0: ANY
+Verb  1: GO     Noun  1: NORTH
+Verb  2: *WALK  Noun  2: SOUTH
+Verb  3: *RUN   Noun  3: EAST
+Verb  4: *ENTE  Noun  4: WEST
+Verb  5: *CLIM  Noun  5: UP
+Verb  6: SAVE   Noun  6: DOWN
+Verb  7: QUIT   Noun  7: INVE
+Verb  8: HELP   Noun  8: HOUN
+Verb  9: TO     Noun  9: JUNG
+Verb 10: GET    Noun 10: VIEW
+Verb 11: *TAKE  Noun 11: HELL
+Verb 12: *GRAB  Noun 12: CRYS
+Verb 13: *.     Noun 13: HELP
+Verb 14: *UNST  Noun 14: FLAS
+Verb 15: FIRE   Noun 15: *BRAN
+Verb 16: *ACTI  Noun 16: OUT
+Verb 17: PULL   Noun 17: IN
+Verb 18: DROP   Noun 18: ZOO
+Verb 19: *PUT   Noun 19: SHOV
+Verb 20: *DISC  Noun 20: SUIT
+Verb 21: *LEAV  Noun 21: *HELM
+Verb 22: *THRO  Noun 22: PHAS
+Verb 23: .      Noun 23: *GUN
+Verb 24: READ   Noun 24: MACH
+Verb 25: PUSH   Noun 25: MINE
+Verb 26: *PRES  Noun 26: HOSE
+Verb 27: *BANG  Noun 27: RED
+Verb 28: *HIT   Noun 28: BLUE
+Verb 29: KICK   Noun 29: BUTT
+Verb 30: CONN   Noun 30: CONS
+Verb 31: *HOOK  Noun 31: DOOR
+Verb 32: WAKE   Noun 32: CURT
+Verb 33: TOUC   Noun 33: *LIGH
+Verb 34: *RUB   Noun 34: SHIP
+Verb 35: *FEEL  Noun 35: *SCOU
+Verb 36: *PET   Noun 36: *AIRL
+Verb 37: LOOK   Noun 37: BLAC
+Verb 38: *DESC  Noun 38: SNOW
+Verb 39: *EXAM  Noun 39: ROD
+Verb 40: *SEE   Noun 40: CAVE
+Verb 41: SAY    Noun 41: PLAS
+Verb 42: *YELL  Noun 42: *FING
+Verb 43: *HOLL  Noun 43: PICK
+Verb 44: *SCRE  Noun 44: MOUN
+Verb 45: DRIN   Noun 45: *ICE
+Verb 46: CHAR   Noun 46: *WALL
+Verb 47: *RECH  Noun 47: HOLD
+Verb 48: REMO   Noun 48: HATC
+Verb 49: *UNWE  Noun 49: TOOL
+Verb 50: AT     Noun 50: CONN
+Verb 51: SHOO   Noun 51: GAME
+Verb 52: *BLAS  Noun 52: LEDG
+Verb 53: FIND   Noun 53: AROU
+Verb 54: MOVE   Noun 54: META
+Verb 55: SET    Noun 55: CRAW
+Verb 56: *RESE  Noun 56: DIAM
+Verb 57: SUIT   Noun 57: BUCK
+Verb 58: WEAR   Noun 58: BELT
+Verb 59: *FAST  Noun 59: PAIN
+Verb 60: SCOR   Noun 60: HOLE
+Verb 61: INVE   Noun 61: SCRI
+Verb 62: BEND   Noun 62: ALIE
+Verb 63: *TWIS  Noun 63: GROU
+Verb 64: *BREA  Noun 64: *PLAN
+Verb 65: CLOS   Noun 65: NOVA
+Verb 66: *SHUT  Noun 66: DUST
+Verb 67: *SLAM  Noun 67: TREE
+Verb 68: OPEN   Noun 68: *SLIM
+Verb 69: JUMP   Noun 69: SCUL
+Verb 70: *FALL  Noun 70: 
+Verb 71: DIG    Noun 71: BOUL
+Verb 72: *PICK  Noun 72: DEST
+Verb 73: *CRA   Noun 73: STUN
+Verb 74: MELT   Noun 74: GAUG
+Verb 75: FIX    Noun 75: GOGG
+Verb 76: *REPA  Noun 76: BOX
+Verb 77: LIFT   Noun 77: YELL
+Verb 78: *RAIS  Noun 78: SIGN
+Verb 79: EMPT   Noun 79: WHIT
+
+Room  0: .
+
+Room  1: one man scoutship
+         D:     7
+
+Room  2: small airlock
+
+Room  3: large cavern
+         U:     8
+
+Room  4: *I'm on a small planetoid
+         N:     5
+         S:     8
+         E:     5
+         W:     8
+
+Room  5: *I'm on a small planetoid
+         N:     8
+         S:     5
+         E:     8
+         W:     4
+
+Room  6: strange hexagonal room
+
+Room  7: storage hold
+         U:     1
+
+Room  8: *I'm on a small planetoid
+         N:     4
+         S:     5
+         E:     5
+         W:     4
+
+Room  9: Large grassy plain at edge of a jungle
+
+Room 10: methane snow storm
+         N:    19
+         S:    19
+         E:    19
+         W:    20
+
+Room 11: small derelict spacecraft
+
+Room 12: *I'm outside the airlock on a ledge.\\The ground is 90 meters below
+
+Room 13: Alien Art Museum
+
+Room 14: deserted Jovian mining colony
+
+Room 15: Strange jungle
+         N:    15
+         S:    15
+         E:    21
+         W:     9
+
+Room 16: .
+
+Room 17: BLACK EMPTINESS
+
+Room 18: methane snow storm
+         N:    19
+         S:    20
+         E:    10
+         W:    20
+
+Room 19: methane snow storm
+         N:    10
+         S:    18
+         E:    20
+         W:    18
+
+Room 20: methane snow storm
+         N:    20
+         S:    20
+         E:    20
+         W:    20
+
+Room 21: *I'm in the ruins of an intergalatic ZOO
+         S:    15
+
+Room 22: storage hold of the mother ship
+
+Room 23: maintenance crawl way
+         U:     7
+
+Room 24: hollow ice mound
+
+Room 25: 
+
+Room 26: 
+
+Room 27: 
+
+Room 28: 
+
+Room 29: 
+
+Room 30: 
+
+Room 31: 
+
+Room 32: 
+
+Room 33: 
+
+Room 34: 
+
+Room 35: lot of TROUBLE!
+
+Msg   0: 
+Msg   1: Welcome to Adventure: 6 `STRANGE ODYSSEY` by Scott Adams.\\Dedicated to the Novaks.\\
+Msg   2: Nothing happens
+Msg   3: OK
+Msg   4: Pressure gauge says
+Msg   5: moves till suit air expended. Air outside suit is
+Msg   6: The outside has a pressure gauge & a connecter for a hose.
+Msg   7: breathable.
+Msg   8: not
+Msg   9: Stale air is
+Msg  10: It is
+Msg  11: My air ran out!
+Msg  12: Some GAS comes out of the hose for awhile then stops.
+Msg  13: \\Phaser is set on:
+Msg  14: DESTROY!
+Msg  15: stun.
+Msg  16: `TO STUN` or `TO DESTROY` ?
+Msg  17: (use 2 words)
+Msg  18: \\My suit popped open!
+Msg  19: Warning light says: `POWER CRYSTAL DAMAGED`
+Msg  20: Blue button marked `BLAST OFF` & a unmarked red button
+Msg  21: Console replies: `INSUFFICIENT POWER`
+Msg  22: Alien script covers it
+Msg  23: I fire the Phaser,
+Msg  24: I destroyed it!
+Msg  25: Air is getting stale! Read gauge!
+Msg  26: won't budge!
+Msg  27: I see nothing special.
+Msg  28: Its some sort of force field.
+Msg  29: I ruined the ship!
+Msg  30: Either I missed or beam was absorbed without visible effect!
+Msg  31: Its empty.
+Msg  32: Charge left registers:
+Msg  33: It seems to be as far
+Msg  34: out
+Msg  35: in
+Msg  36: as it will go.
+Msg  37: Odd it only required very little force
+Msg  38: for it to break off in my hand with a\\CRYSTALLINE snap!
+Msg  39: HOW?
+Msg  40: The plastic GLOWED briefly
+Msg  41: times.
+Msg  42: for it to shatter!
+Msg  43: I feel strangely disoriented for a moment!
+Msg  44: to slide
+Msg  45: Ice Hound attacks me unexpectidly!
+Msg  46: It woke up!
+Msg  47: I found nothing
+Msg  48: We're drifting in space!
+Msg  49: I see: a black button, a white button, a hose.
+Msg  50: Hose rips out
+Msg  51: Tight fit!
+Msg  52: Lift off!! After a brief flight we arrive...
+Msg  53: The Ice Hound burrows off...
+Msg  54: Ice fills back in around me as I dig my way in. The\\pick broke but I made it!
+Msg  55: Ice is very smooth & hard!
+Msg  56: I slide back down.
+Msg  57: I don't know where to look
+Msg  58: Try: `SHOOT SOMETHING`
+Msg  59: Say again & use a color
+Msg  60: There's writing there
+Msg  61: I can't do that
+Msg  62: Whooosh!
+Msg  63: The gravity here is very
+Msg  64: strong.
+Msg  65: weak.
+Msg  66: Its stuck.
+Msg  67: I'm SQUASHED!
+Msg  68: The power crystal was in the shape of a thin rod.
+Msg  69: I feel LIGHT HEADED!
+Msg  70: It floats!
+Msg  71: A gentle touch will work wonders!
+Msg  72: It should fit. It has a large buckle.
+Msg  73: Painting is of an Alien twisting a buckle on a belt.
+Msg  74: Wiring behind plastic shorts & I'm electrocuted!
+Msg  75: I see a picture of an ALIEN TENTACLE.
+Msg  76: Wonderful. It ATE me!
+Msg  77: It is of an alien being.
+Msg  78: Its wearing only a strange belt!
+Msg  79: Watch it! Its known to spit molten DIAMONDS!
+Msg  80: There's a box on it with a yellow button.
+Msg  81: I just see shades of black, it makes my eyes swim!
+Msg  82: I think its broken!
+Msg  83: I found something.
+Msg  84: Ouch!
+Msg  85: its stunned!
+Msg  86: The metal helped!
+Msg  87: Get Adventure 7 `MYSTERY FUN HOUSE` from your favorite Dealer!\\Have you gotten your Adventure T-SHIRT yet?\\
+Msg  88: Tidal force rips me apart!
+Msg  89: I'm not wearing it!
+Msg  90: My hand went THROUGH it!
+Msg  91: Don't have it!
+Msg  92: 
+Msg  93: 
+Msg  94: 
+
+Item  0: Loc:  0 - .
+Item  1: Loc:  0 - Strange flickering curtain of light
+Item  2: Loc:  0 - Scoutship
+Item  3: Loc:  7 - Maintenance access hatch/HATC/
+Item  4: Loc: 13 - Alien sign/SIGN/
+Item  5: Loc:  1 - Control console
+Item  6: Loc:  7 - Space suit/SUIT/
+Item  7: Loc:  0 - which I'm wearing
+Item  8: Loc: 17 - Black Hole
+Item  9: Loc:  0 - .
+Item 10: Loc:  7 - Phaser/PHAS/
+Item 11: Loc:  0 - Phaser/PHAS/
+Item 12: Loc:  1 - Closed door
+Item 13: Loc:  0 - Open door
+Item 14: Loc:  6 - Strange flickering curtain of light
+Item 15: Loc:  8 - Cave
+Item 16: Loc:  0 - Empty flask/FLAS/
+Item 17: Loc:  2 - Red button by door
+Item 18: Loc:  2 - Closed outer door
+Item 19: Loc:  0 - OPen outer door
+Item 20: Loc:  0 - Closed inner door
+Item 21: Loc:  2 - Open inner door
+Item 22: Loc: 11 - Alien machine
+Item 23: Loc:  0 - Hose connects my suit to machine
+Item 24: Loc:  3 - Large boulder
+Item 25: Loc:  6 - Small piece of plastic flush in the wall
+Item 26: Loc:  0 - .
+Item 27: Loc:  6 - Rod jutting straight out of the wall
+Item 28: Loc:  0 - Broken piece of rod/ROD/
+Item 29: Loc: 18 - Strange light far to the NORTH
+Item 30: Loc: 21 - Rigilian Dia-Ice Hound/HOUN/
+Item 31: Loc:  0 - Stunned Dia-Ice Hound/HOUN/
+Item 32: Loc: 11 - Viewport
+Item 33: Loc: 22 - Sign: `Leave Treasures here say: SCORE`
+Item 34: Loc: 14 - * ANCIENT FLASK SAURIAN BRANDY */FLAS/
+Item 35: Loc: 23 - Empty crystal holder
+Item 36: Loc: 23 - Broken pieces of Power Crystal/CRYS/
+Item 37: Loc:  0 - Broken rod in power holder
+Item 38: Loc:  0 - Large ice mound
+Item 39: Loc:  0 - Ancient ice pick/PICK/
+Item 40: Loc:  0 - Broken ice pick/PICK/
+Item 41: Loc: 14 - Short twisted piece of metal/META/
+Item 42: Loc:  0 - Entrance to a crawlway
+Item 43: Loc: 24 - * RIGILIAN ICE DIAMOND */DIAM/
+Item 44: Loc:  0 - * STRANGE ALIEN BELT */BELT/
+Item 45: Loc:  0 - which I'm wearing
+Item 46: Loc:  0 - & its activated
+Item 47: Loc: 13 - * RARE ALIEN PAINTING */PAIN/
+Item 48: Loc:  0 - Rock dust/DUST/
+Item 49: Loc: 15 - Centurion Slime Trees
+Item 50: Loc: 13 - * ALIEN SCULPTURE */SCUL/
+Item 51: Loc:  6 - Strange looking goggles/GOGG/
+Item 52: Loc:  0 - which I'm wearing
+Item 53: Loc:  7 - Shovel/SHOV/
+Item 54: Loc:  0 - Broken splintered shovel/SHOV/
+Item 55: Loc:  0 - EVERYTHING HAS A BLUEISH TINT
+
+Version         = 119
+AdventureNumber = 6
+MagicNumber     = 620
+
+Cmd   0 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd   1 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd   2 |     0   100 |    4  14   6  45   0   0   0   0   0   0 |  113 114 117  63 | JOVIAN SQUASH
+                 100% | IF ISROOM(14="deserted Jovian mining colony")
+                      | IF NOT CARRY(45="which I'm wearing")
+                      | MESSAGE 63="The gravity here is very"
+                      | MESSAGE 64="strong."
+                      | MESSAGE 67="I'm SQUASHED!"
+                      | QUIT
+Cmd   3 |     0   100 |    2  18   0   2   0   0   0   0   0   0 |   60   0   0   0 | AIR GOOD
+                 100% | IF HERE(18="Closed outer door")
+                      | SET FLAG(2)=FALSE
+Cmd   4 |     0   100 |    4  14   6  46   0   0   0   0   0   0 |  113 114 117  63 | JOVIAN SQUASH
+                 100% | IF ISROOM(14="deserted Jovian mining colony")
+                      | IF NOT CARRY(46="& its activated")
+                      | MESSAGE 63="The gravity here is very"
+                      | MESSAGE 64="strong."
+                      | MESSAGE 67="I'm SQUASHED!"
+                      | QUIT
+Cmd   5 |     0   100 |    9   1   0   1   0   5   0   6   0   0 |   58  73  58  58 | INTRO
+                 100% | IF FLAG(1)=FALSE
+                      | SET FLAG(1)=TRUE
+                      | CONTINUE_NEXT_LINE
+                      | SET FLAG(5)=TRUE
+                      | SET FLAG(6)=TRUE
+Cmd   6 |     0     0 |    0   2   0  28   0   2   0   0   0   0 |   81  79  81   1 | SET PHASER
+            continued | SWAP COUNTER WITH COUNTER(2)
+                      | SET COUNTER=28
+                      | SWAP COUNTER WITH COUNTER(2)
+                      | MESSAGE 1="Welcome to Adventure: 6 `ST..."
+Cmd   7 |     0     0 |    0   1   0 110   0   1   0   6   0   0 |   81  79  81  54 | AIR SUIT
+            continued | SWAP COUNTER WITH COUNTER(1)
+                      | SET COUNTER=110
+                      | SWAP COUNTER WITH COUNTER(1)
+                      | GOTO 6="strange hexagonal room"
+Cmd   8 |     0     0 |    0   3   0   2   0   3   0   0   0   0 |   81  79  81  80 | ROD COUNTER
+            continued | SWAP COUNTER WITH COUNTER(3)
+                      | SET COUNTER=2
+                      | SWAP COUNTER WITH COUNTER(3)
+                      | GOTO LOCATION_SWAP
+Cmd   9 |     0     0 |    0   1   0   5   0  20   0   5   0   0 |   54  81  79  81 | STRT RM.GOGGLE CNTR
+            continued | GOTO 1="one man scoutship"
+                      | SWAP COUNTER WITH COUNTER(5)
+                      | SET COUNTER=20
+                      | SWAP COUNTER WITH COUNTER(5)
+Cmd  10 |     0   100 |    3   7   0   1   0   0   0   0   0   0 |   81  77  73   0 | AIR SUIT
+                 100% | IF HERECARRY(7="which I'm wearing")
+                      | SWAP COUNTER WITH COUNTER(1)
+                      | DECREMENT_COUNTER
+                      | CONTINUE_NEXT_LINE
+Cmd  11 |     0     0 |   15  27   0   0   0   0   0   0   0   0 |   25   0   0   0 |
+            continued | IF LE(COUNTER,27)
+                      | MESSAGE 25="Air is getting stale! Read..."
+Cmd  12 |     0     0 |   15   0   0   0   0   0   0   0   0   0 |   11  61   0   0 |
+            continued | IF LE(COUNTER,0)
+                      | MESSAGE 11="My air ran out!"
+                      | DEAD
+Cmd  13 |     0     0 |    0   1   0   0   0   0   0   0   0   0 |   81   0   0   0 |
+            continued | SWAP COUNTER WITH COUNTER(1)
+Cmd  14 |     0   100 |    1  44  13  46   6  46   0  46   0   0 |   52   0   0   0 | ACT BELT
+                 100% | IF CARRY(44="* STRANGE ALIEN BELT *")
+                      | IF SOMEWHERE(46="& its activated")
+                      | IF NOT CARRY(46="& its activated")
+                      | TAKE 46="& its activated"
+Cmd  15 |     0   100 |    2  44  13  46   5  46   0  46   0   0 |   53   0   0   0 | ACT BELT
+                 100% | IF HERE(44="* STRANGE ALIEN BELT *")
+                      | IF SOMEWHERE(46="& its activated")
+                      | IF NOT HERE(46="& its activated")
+                      | DROP 46="& its activated"
+Cmd  16 |     0    30 |    1  30   0   0   0   0   0   0   0   0 |   45  61   0   0 | HOUND ATTACKS
+                  30% | IF CARRY(30="Rigilian Dia-Ice Hound")
+                      | MESSAGE 45="Ice Hound attacks me unexpe..."
+                      | DEAD
+Cmd  17 |     0    15 |    2  30   0   0   0   0   0   0   0   0 |   45  61   0   0 | HOUND ATTACKS
+                  15% | IF HERE(30="Rigilian Dia-Ice Hound")
+                      | MESSAGE 45="Ice Hound attacks me unexpe..."
+                      | DEAD
+Cmd  18 |     0   100 |   13  31   0   4   0   0   0   0   0   0 |   81  77  73   0 | HOUND WAKES
+                 100% | IF SOMEWHERE(31="Stunned Dia-Ice Hound")
+                      | SWAP COUNTER WITH COUNTER(4)
+                      | DECREMENT_COUNTER
+                      | CONTINUE_NEXT_LINE
+Cmd  19 |     0     0 |   15   0   0  31   0  30   0   0   0   0 |   72   0   0   0 |
+            continued | IF LE(COUNTER,0)
+                      | SWAP ITEMS 31="Stunned Dia-Ice Hound" AND 30="Rigilian Dia-Ice Hound"
+Cmd  20 |     0     0 |    3  30   0   0   0   0   0   0   0   0 |   46   0   0   0 |
+            continued | IF HERECARRY(30="Rigilian Dia-Ice Hound")
+                      | MESSAGE 46="It woke up!"
+Cmd  21 |     0     0 |    0   4   0   0   0   0   0   0   0   0 |   81   0   0   0 | RESET COUNTER
+            continued | SWAP COUNTER WITH COUNTER(4)
+Cmd  22 |     0   100 |    8   4   0   4   0   2   0   0   0   0 |   73  60  81   0 | PHASER FIRED
+                 100% | IF FLAG(4)=TRUE
+                      | CONTINUE_NEXT_LINE
+                      | SET FLAG(4)=FALSE
+                      | SWAP COUNTER WITH COUNTER(2)
+Cmd  23 |     0     0 |    9   3   0   4   0   2   0   0   0   0 |   83  81   0   0 | STUN
+            continued | IF FLAG(3)=FALSE
+                      | SUBTO COUNTER 4
+                      | SWAP COUNTER WITH COUNTER(2)
+Cmd  24 |     0     0 |    8   3   0   7   0   2   0   0   0   0 |   83  81   0   0 | KILL
+            continued | IF FLAG(3)=TRUE
+                      | SUBTO COUNTER 7
+                      | SWAP COUNTER WITH COUNTER(2)
+Cmd  25 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd  26 |     0   100 |    8   2   6   7   0   0   0   0   0   0 |   10   8   7  63 | DIE NO AIR
+                 100% | IF FLAG(2)=TRUE
+                      | IF NOT CARRY(7="which I'm wearing")
+                      | MESSAGE 10="It is"
+                      | MESSAGE 8="not"
+                      | MESSAGE 7="breathable."
+                      | QUIT
+Cmd  27 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 | .
+            continued | Cmd  28 |     0   100 |    0   2   0   0   0   0   0   0   0   0 |   81  73   0   0 | EMPTY PHASER
+                 100% | SWAP COUNTER WITH COUNTER(2)
+                      | CONTINUE_NEXT_LINE
+Cmd  29 |     0     0 |   15   0  14  11   0  11   0  10   0   0 |   72   0   0   0 |
+            continued | IF LE(COUNTER,0)
+                      | IF NOWHERE(11="Phaser")
+                      | SWAP ITEMS 11="Phaser" AND 10="Phaser"
+Cmd  30 |     0     0 |    0   2   0   0   0   0   0   0   0   0 |   81   0   0   0 |
+            continued | SWAP COUNTER WITH COUNTER(2)
+Cmd  31 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd  32 |     0   100 |    2  35   2  28   0  28   0  37   0  35 |   72  59  51  76 | DROP ROD
+                 100% | IF HERE(35="Empty crystal holder")
+                      | IF HERE(28="Broken piece of rod")
+                      | SWAP ITEMS 28="Broken piece of rod" AND 37="Broken rod in power holder"
+                      | DESTROY 35="Empty crystal holder"
+                      | MESSAGE 51="Tight fit!"
+                      | LOOK
+Cmd  33 |     0   100 |    2  30   0   0   0   0   0   0   0   0 |   73   0   0   0 | ICE HOUND
+                 100% | IF HERE(30="Rigilian Dia-Ice Hound")
+                      | CONTINUE_NEXT_LINE
+Cmd  34 |     0     0 |    4  18   0  38   0  20   0  30   0   0 |   62  59 103   0 |
+            continued | IF ISROOM(18="methane snow storm")
+                      | SEND 38="Large ice mound" TO 20="methane snow storm"
+                      | DESTROY 30="Rigilian Dia-Ice Hound"
+                      | MESSAGE 53="The Ice Hound burrows off..."
+Cmd  35 |     0     0 |    4  19   0  38   0  20   0  30   0   0 |   62  59 103   0 |
+            continued | IF ISROOM(19="methane snow storm")
+                      | SEND 38="Large ice mound" TO 20="methane snow storm"
+                      | DESTROY 30="Rigilian Dia-Ice Hound"
+                      | MESSAGE 53="The Ice Hound burrows off..."
+Cmd  36 |     0     0 |    4  20   0  38   0  20   0  30   0   0 |   62  59 103   0 |
+            continued | IF ISROOM(20="methane snow storm")
+                      | SEND 38="Large ice mound" TO 20="methane snow storm"
+                      | DESTROY 30="Rigilian Dia-Ice Hound"
+                      | MESSAGE 53="The Ice Hound burrows off..."
+Cmd  37 |     0     0 |    4  10   0  38   0  20   0  30   0   0 |   62  59 103   0 |
+            continued | IF ISROOM(10="methane snow storm")
+                      | SEND 38="Large ice mound" TO 20="methane snow storm"
+                      | DESTROY 30="Rigilian Dia-Ice Hound"
+                      | MESSAGE 53="The Ice Hound burrows off..."
+Cmd  38 |     0     0 |   14  30   0  30   0  24   0   0   0   0 |   62   0   0   0 |
+            continued | IF NOWHERE(30="Rigilian Dia-Ice Hound")
+                      | SEND 30="Rigilian Dia-Ice Hound" TO 24="hollow ice mound"
+Cmd  39 |     0   100 |    4  35   0   0   0   0   0   0   0   0 |   63   0   0   0 | DEAD!
+                 100% | IF ISROOM(35="lot of TROUBLE!")
+                      | QUIT
+Cmd  40 |     0   100 |    8   9   0   5   0   0   0   0   0   0 |   81  77  73   0 | .
+                 100% | IF FLAG(9)=TRUE
+                      | SWAP COUNTER WITH COUNTER(5)
+                      | DECREMENT_COUNTER
+                      | CONTINUE_NEXT_LINE
+Cmd  41 |     0     0 |   15   1   0   9   0  10   0   0   0   0 |   60  58   0   0 | BURNT OUT
+            continued | IF LE(COUNTER,1)
+                      | SET FLAG(9)=FALSE
+                      | SET FLAG(10)=TRUE
+Cmd  42 |     0     0 |    1  52   1  51   0  55   0   0   0   0 |   57  53  76   0 | WEARING GOOD
+            continued | IF CARRY(52="which I'm wearing")
+                      | IF CARRY(51="Strange looking goggles")
+                      | SET DARK=FALSE
+                      | DROP 55="EVERYTHING HAS A BLUEISH TINT"
+                      | LOOK
+Cmd  43 |     0     0 |    0   5   0   0   0   0   0   0   0   0 |   81   0   0   0 |
+            continued | SWAP COUNTER WITH COUNTER(5)
+Cmd  44 |     0   100 |    1  52   9   9   9  15   0   0   0   0 |   56  76   0   0 | WEAR OFF GOGGLES
+                 100% | IF CARRY(52="which I'm wearing")
+                      | IF FLAG(9)=FALSE
+                      | IF FLAG(15)=FALSE
+                      | SET DARK=TRUE
+                      | LOOK
+Cmd  45 |    37    74 |    3   6   0   0   0   0   0   0   0   0 |  110   0   0   0 |
+           look  gaug | IF HERECARRY(6="Space suit")
+                      | MESSAGE 60="There's writing there"
+Cmd  46 |    46     0 |    3   6   2   9   0   1   0  75   0   1 |    3  81  79  81 |
+           char       | IF HERECARRY(6="Space suit")
+                      | IF HERE(9=".")
+                      | MESSAGE 3="OK"
+                      | SWAP COUNTER WITH COUNTER(1)
+                      | SET COUNTER=75
+                      | SWAP COUNTER WITH COUNTER(1)
+Cmd  47 |    55    22 |    3  10   0   0   0   0   0   0   0   0 |   16  17   0   0 |
+            set  phas | IF HERECARRY(10="Phaser")
+                      | MESSAGE 16="`TO STUN` or `TO DESTROY` ?"
+                      | MESSAGE 17="(use 2 words)"
+Cmd  48 |     9    73 |    3  10   0   3   0   0   0   0   0   0 |   60   3   0   0 |
+             to  stun | IF HERECARRY(10="Phaser")
+                      | SET FLAG(3)=FALSE
+                      | MESSAGE 3="OK"
+Cmd  49 |     9    72 |    3  10   0   3   0   0   0   0   0   0 |   58   3   0   0 |
+             to  dest | IF HERECARRY(10="Phaser")
+                      | SET FLAG(3)=TRUE
+                      | MESSAGE 3="OK"
+Cmd  50 |    71     0 |    4  24   0   0   0   0   0   0   0   0 |  111 105   0   0 |
+            dig       | IF ISROOM(24="hollow ice mound")
+                      | MESSAGE 61="I can't do that"
+                      | MESSAGE 55="Ice is very smooth & hard!"
+Cmd  51 |    32     8 |    3  31   0  31   0  30   0   0   0   0 |    3  72   0   0 |
+           wake  houn | IF HERECARRY(31="Stunned Dia-Ice Hound")
+                      | MESSAGE 3="OK"
+                      | SWAP ITEMS 31="Stunned Dia-Ice Hound" AND 30="Rigilian Dia-Ice Hound"
+Cmd  52 |    25    27 |    4   1   0  12   0  13   0   0   0   0 |   72   3   0   0 |
+           push   red | IF ISROOM(1="one man scoutship")
+                      | SWAP ITEMS 12="Closed door" AND 13="Open door"
+                      | MESSAGE 3="OK"
+Cmd  53 |    25    27 |    2  17   0  18   0  19   0  20   0  21 |    3  72  72  73 |
+           push   red | IF HERE(17="Red button by door")
+                      | MESSAGE 3="OK"
+                      | SWAP ITEMS 18="Closed outer door" AND 19="OPen outer door"
+                      | SWAP ITEMS 20="Closed inner door" AND 21="Open inner door"
+                      | CONTINUE_NEXT_LINE
+Cmd  54 |     0     0 |    9   7   2  19   0   2   0   0   0   0 |   58 112   0   0 |
+            continued | IF FLAG(7)=FALSE
+                      | IF HERE(19="OPen outer door")
+                      | SET FLAG(2)=TRUE
+                      | MESSAGE 62="Whooosh!"
+Cmd  55 |     0     0 |    9   7   2  18   0   2   0   0   0   0 |   60   0   0   0 |
+            continued | IF FLAG(7)=FALSE
+                      | IF HERE(18="Closed outer door")
+                      | SET FLAG(2)=FALSE
+Cmd  56 |    25    37 |    3  22   5  23   0   0   0   0   0   0 |    3  12   0   0 |
+           push  blac | IF HERECARRY(22="Alien machine")
+                      | IF NOT HERE(23="Hose connects my suit to ma...")
+                      | MESSAGE 3="OK"
+                      | MESSAGE 12="Some GAS comes out of the h..."
+Cmd  57 |    25    79 |    3  22   0   8   9   8   0   0   0   0 |    3   2  58   0 |
+           push  whit | IF HERECARRY(22="Alien machine")
+                      | IF FLAG(8)=FALSE
+                      | MESSAGE 3="OK"
+                      | MESSAGE 2="Nothing happens"
+                      | SET FLAG(8)=TRUE
+Cmd  58 |    25    37 |    3  22   3  23   9   8   0   0   0   0 |    3  12  10  73 |
+           push  blac | IF HERECARRY(22="Alien machine")
+                      | IF HERECARRY(23="Hose connects my suit to ma...")
+                      | IF FLAG(8)=FALSE
+                      | MESSAGE 3="OK"
+                      | MESSAGE 12="Some GAS comes out of the h..."
+                      | MESSAGE 10="It is"
+                      | CONTINUE_NEXT_LINE
+Cmd  59 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    8   7  61   0 |
+            continued | MESSAGE 8="not"
+                      | MESSAGE 7="breathable."
+                      | DEAD
+Cmd  60 |    25    37 |    3  22   3  23   0   1   0  25   8   8 |   81   3  73  82 | CHARGE SUIT
+           push  blac | IF HERECARRY(22="Alien machine")
+                      | IF HERECARRY(23="Hose connects my suit to ma...")
+                      | IF FLAG(8)=TRUE
+                      | SWAP COUNTER WITH COUNTER(1)
+                      | MESSAGE 3="OK"
+                      | CONTINUE_NEXT_LINE
+                      | ADDTO COUNTER 25
+Cmd  61 |     0     0 |   16 110   0   0   0   0   0   0   0   0 |   12  18  11  61 |
+            continued | IF GE(COUNTER,110)
+                      | MESSAGE 12="Some GAS comes out of the h..."
+                      | MESSAGE 18=""
+                      | MESSAGE 11="My air ran out!"
+                      | DEAD
+Cmd  62 |     0     0 |    0   1   0   0   0   0   0   0   0   0 |   12  81   0   0 |
+            continued | MESSAGE 12="Some GAS comes out of the h..."
+                      | SWAP COUNTER WITH COUNTER(1)
+Cmd  63 |    10    26 |    2  22   0  23  14  23   0   0   0   0 |    3  53   0   0 |
+            get  hose | IF HERE(22="Alien machine")
+                      | IF NOWHERE(23="Hose connects my suit to ma...")
+                      | MESSAGE 3="OK"
+                      | DROP 23="Hose connects my suit to ma..."
+Cmd  64 |    18    26 |    2  23   0  23   0   0   0   0   0   0 |    3  59   0   0 |
+           drop  hose | IF HERE(23="Hose connects my suit to ma...")
+                      | MESSAGE 3="OK"
+                      | DESTROY 23="Hose connects my suit to ma..."
+Cmd  65 |     1    31 |    2  19   9   7   0  12   0   0   0   0 |    3  54  76   0 |
+             go  door | IF HERE(19="OPen outer door")
+                      | IF FLAG(7)=FALSE
+                      | MESSAGE 3="OK"
+                      | GOTO 12="outside the airlock on a ledge"
+                      | LOOK
+Cmd  66 |     1    31 |    2  21   0   1   0   0   0   0   0   0 |    3  54  76   0 |
+             go  door | IF HERE(21="Open inner door")
+                      | MESSAGE 3="OK"
+                      | GOTO 1="one man scoutship"
+                      | LOOK
+Cmd  67 |     1    31 |    2  13   0   2   0   0   0   0   0   0 |    3  54  76   0 |
+             go  door | IF HERE(13="Open door")
+                      | MESSAGE 3="OK"
+                      | GOTO 2="small airlock"
+                      | LOOK
+Cmd  68 |    37    30 |    2   5   0   0   0   0   0   0   0   0 |   20   0   0   0 | .
+           look  cons | IF HERE(5="Control console")
+                      | MESSAGE 20="Blue button marked `BLAST O..."
+Cmd  69 |    25    28 |    2   5  14  37   0   0   0   0   0   0 |    3  21  19   2 |
+           push  blue | IF HERE(5="Control console")
+                      | IF NOWHERE(37="Broken rod in power holder")
+                      | MESSAGE 3="OK"
+                      | MESSAGE 21="Console replies: `INSUFFICI..."
+                      | MESSAGE 19="Warning light says: `POWER..."
+                      | MESSAGE 2="Nothing happens"
+Cmd  70 |    51    71 |    1  10   8   3   2  24   0   4   0   0 |   23  73  58  88 |
+           shoo  boul | IF CARRY(10="Phaser")
+                      | IF FLAG(3)=TRUE
+                      | IF HERE(24="Large boulder")
+                      | MESSAGE 23="I fire the Phaser,"
+                      | CONTINUE_NEXT_LINE
+                      | SET FLAG(4)=TRUE
+                      | SLEEP 2 SECONDS
+Cmd  71 |     0     0 |    0  24   0   1   0  48   0   0   0   0 |   72  24  53  76 |
+            continued | SWAP ITEMS 24="Large boulder" AND 1="Strange flickering curtain..."
+                      | MESSAGE 24="I destroyed it!"
+                      | DROP 48="Rock dust"
+                      | LOOK
+Cmd  72 |    25    79 |    3  22   8   8   0   8   0   0   0   0 |    3   2  60   0 |
+           push  whit | IF HERECARRY(22="Alien machine")
+                      | IF FLAG(8)=TRUE
+                      | MESSAGE 3="OK"
+                      | MESSAGE 2="Nothing happens"
+                      | SET FLAG(8)=FALSE
+Cmd  73 |    58    20 |    3   6   0   7   0   6   0   0   0   0 |   74  74   3   0 |
+           wear  suit | IF HERECARRY(6="Space suit")
+                      | TAKE_NOCHECK 7="which I'm wearing"
+                      | TAKE_NOCHECK 6="Space suit"
+                      | MESSAGE 3="OK"
+Cmd  74 |    57     5 |    3   6   0   7   0   6   0   0   0   0 |   74  74   3   0 |
+           suit    up | IF HERECARRY(6="Space suit")
+                      | TAKE_NOCHECK 7="which I'm wearing"
+                      | TAKE_NOCHECK 6="Space suit"
+                      | MESSAGE 3="OK"
+Cmd  75 |    18    20 |    3   6   0   6   0   7   0   0   0   0 |   53  59   3   0 |
+           drop  suit | IF HERECARRY(6="Space suit")
+                      | DROP 6="Space suit"
+                      | DESTROY 7="which I'm wearing"
+                      | MESSAGE 3="OK"
+Cmd  76 |    37    32 |    2   1   0   0   0   0   0   0   0   0 |   28   0   0   0 |
+           look  curt | IF HERE(1="Strange flickering curtain...")
+                      | MESSAGE 28="Its some sort of force field."
+Cmd  77 |    51    32 |    1  10   0   4   2   1   0   0   0   0 |   28  23  30  58 |
+           shoo  curt | IF CARRY(10="Phaser")
+                      | IF HERE(1="Strange flickering curtain...")
+                      | MESSAGE 28="Its some sort of force field."
+                      | MESSAGE 23="I fire the Phaser,"
+                      | MESSAGE 30="Either I missed or beam was..."
+                      | SET FLAG(4)=TRUE
+Cmd  78 |    51    34 |    1  10   8   3   2   2   0   4   0   2 |   23  58  24  59 |
+           shoo  ship | IF CARRY(10="Phaser")
+                      | IF FLAG(3)=TRUE
+                      | IF HERE(2="Scoutship")
+                      | MESSAGE 23="I fire the Phaser,"
+                      | SET FLAG(4)=TRUE
+                      | MESSAGE 24="I destroyed it!"
+                      | DESTROY 2="Scoutship"
+Cmd  79 |     1    40 |    2  15   0   3   0   0   0   0   0   0 |    3  54  76   0 |
+             go  cave | IF HERE(15="Cave")
+                      | MESSAGE 3="OK"
+                      | GOTO 3="large cavern"
+                      | LOOK
+Cmd  80 |    51     0 |    1  10   8   3   4   1   0  35   0   0 |   23  54  29  63 | IN SHIP
+           shoo       | IF CARRY(10="Phaser")
+                      | IF FLAG(3)=TRUE
+                      | IF ISROOM(1="one man scoutship")
+                      | MESSAGE 23="I fire the Phaser,"
+                      | GOTO 35="lot of TROUBLE!"
+                      | MESSAGE 29="I ruined the ship!"
+                      | QUIT
+Cmd  81 |    51     0 |    1  10   8   3   4   7   0  35   0   0 |   23  54  29  63 | IN SHIP
+           shoo       | IF CARRY(10="Phaser")
+                      | IF FLAG(3)=TRUE
+                      | IF ISROOM(7="storage hold")
+                      | MESSAGE 23="I fire the Phaser,"
+                      | GOTO 35="lot of TROUBLE!"
+                      | MESSAGE 29="I ruined the ship!"
+                      | QUIT
+Cmd  82 |    51     0 |    1  10   8   3   4   2   0  35   0   0 |   23  54  29  63 | IN SHIP
+           shoo       | IF CARRY(10="Phaser")
+                      | IF FLAG(3)=TRUE
+                      | IF ISROOM(2="small airlock")
+                      | MESSAGE 23="I fire the Phaser,"
+                      | GOTO 35="lot of TROUBLE!"
+                      | MESSAGE 29="I ruined the ship!"
+                      | QUIT
+Cmd  83 |    37    22 |    3  10   0   2   9  15   0   0   0   0 |   73  81  32  78 |
+           look  phas | IF HERECARRY(10="Phaser")
+                      | IF FLAG(15)=FALSE
+                      | CONTINUE_NEXT_LINE
+                      | SWAP COUNTER WITH COUNTER(2)
+                      | MESSAGE 32="Charge left registers:"
+                      | PRINT_COUNTER
+Cmd  84 |     0     0 |    8   3   0   2   0   0   0   0   0   0 |   13  14  81   0 |
+            continued | IF FLAG(3)=TRUE
+                      | MESSAGE 13=""
+                      | MESSAGE 14="DESTROY!"
+                      | SWAP COUNTER WITH COUNTER(2)
+Cmd  85 |     0     0 |    9   3   0   2   0   0   0   0   0   0 |   13  15  81   0 |
+            continued | IF FLAG(3)=FALSE
+                      | MESSAGE 13=""
+                      | MESSAGE 15="stun."
+                      | SWAP COUNTER WITH COUNTER(2)
+Cmd  86 |    37    22 |    3  11   9  15   0   0   0   0   0   0 |   32  31   0   0 | EMPTY
+           look  phas | IF HERECARRY(11="Phaser")
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 32="Charge left registers:"
+                      | MESSAGE 31="Its empty."
+Cmd  87 |     1    60 |    2   8   0   0   0   0   0   0   0   0 |  138  61   0   0 |
+             go  hole | IF HERE(8="Black Hole")
+                      | MESSAGE 88="Tidal force rips me apart!"
+                      | DEAD
+Cmd  88 |    17    39 |    2  27   9   5   0   0   0   0   0   0 |    2  33  34  36 |
+           pull   rod | IF HERE(27="Rod jutting straight out of...")
+                      | IF FLAG(5)=FALSE
+                      | MESSAGE 2="Nothing happens"
+                      | MESSAGE 33="It seems to be as far"
+                      | MESSAGE 34="out"
+                      | MESSAGE 36="as it will go."
+Cmd  89 |    25    39 |    2  27   8   5   0   0   0   0   0   0 |    2  33  35  36 |
+           push   rod | IF HERE(27="Rod jutting straight out of...")
+                      | IF FLAG(5)=TRUE
+                      | MESSAGE 2="Nothing happens"
+                      | MESSAGE 33="It seems to be as far"
+                      | MESSAGE 35="in"
+                      | MESSAGE 36="as it will go."
+Cmd  90 |    62    39 |    2  27   0  27   0  28   0   0   0   0 |   37  38  59  74 |
+           bend   rod | IF HERE(27="Rod jutting straight out of...")
+                      | MESSAGE 37="Odd it only required very l..."
+                      | MESSAGE 38="for it to break off in my h..."
+                      | DESTROY 27="Rod jutting straight out of..."
+                      | TAKE_NOCHECK 28="Broken piece of rod"
+Cmd  91 |    10    39 |    2  27   0   0   0   0   0   0   0   0 |   39   0   0   0 |
+            get   rod | IF HERE(27="Rod jutting straight out of...")
+                      | MESSAGE 39="HOW?"
+Cmd  92 |    10    39 |    3  28   0  28   0   0   0   0   0   0 |    3  52   0   0 |
+            get   rod | IF HERECARRY(28="Broken piece of rod")
+                      | MESSAGE 3="OK"
+                      | TAKE 28="Broken piece of rod"
+Cmd  93 |    51    39 |    1  10   8   3   2  27   0  27   0   4 |   23  24  59  58 |
+           shoo   rod | IF CARRY(10="Phaser")
+                      | IF FLAG(3)=TRUE
+                      | IF HERE(27="Rod jutting straight out of...")
+                      | MESSAGE 23="I fire the Phaser,"
+                      | MESSAGE 24="I destroyed it!"
+                      | DESTROY 27="Rod jutting straight out of..."
+                      | SET FLAG(4)=TRUE
+Cmd  94 |    51    41 |    1  10   8   3   2  25   0  25   0   4 |   23  24  59  58 |
+           shoo  plas | IF CARRY(10="Phaser")
+                      | IF FLAG(3)=TRUE
+                      | IF HERE(25="Small piece of plastic flus...")
+                      | MESSAGE 23="I fire the Phaser,"
+                      | MESSAGE 24="I destroyed it!"
+                      | DESTROY 25="Small piece of plastic flus..."
+                      | SET FLAG(4)=TRUE
+Cmd  95 |    51    41 |    1  10   9   3   2  25   0   4   0   0 |   40  58   0   0 |
+           shoo  plas | IF CARRY(10="Phaser")
+                      | IF FLAG(3)=FALSE
+                      | IF HERE(25="Small piece of plastic flus...")
+                      | MESSAGE 40="The plastic GLOWED briefly"
+                      | SET FLAG(4)=TRUE
+Cmd  96 |    25    41 |    2  25   0   0   0   0   0   0   0   0 |   37  42 124  61 |
+           push  plas | IF HERE(25="Small piece of plastic flus...")
+                      | MESSAGE 37="Odd it only required very l..."
+                      | MESSAGE 42="for it to shatter!"
+                      | MESSAGE 74="Wiring behind plastic short..."
+                      | DEAD
+Cmd  97 |    51    41 |    1  10   8   3   3  29   0  29   0   4 |   23  24  59  58 |
+           shoo  plas | IF CARRY(10="Phaser")
+                      | IF FLAG(3)=TRUE
+                      | IF HERECARRY(29="Strange light far to the NORTH")
+                      | MESSAGE 23="I fire the Phaser,"
+                      | MESSAGE 24="I destroyed it!"
+                      | DESTROY 29="Strange light far to the NORTH"
+                      | SET FLAG(4)=TRUE
+Cmd  98 |    33    41 |    2  25   9   5   0   3   0   0   0   0 |   40  73  81  79 | OUT
+           touc  plas | IF HERE(25="Small piece of plastic flus...")
+                      | IF FLAG(5)=FALSE
+                      | MESSAGE 40="The plastic GLOWED briefly"
+                      | CONTINUE_NEXT_LINE
+                      | SWAP COUNTER WITH COUNTER(3)
+                      | SET COUNTER=0
+Cmd  99 |     0     0 |    0   3   0   0   0   0   0   0   0   0 |   81   0   0   0 | RESET
+            continued | SWAP COUNTER WITH COUNTER(3)
+Cmd 100 |    25    39 |    2  27   9   5   0   3   0   0   0   0 |   73  37  44  81 |
+           push   rod | IF HERE(27="Rod jutting straight out of...")
+                      | IF FLAG(5)=FALSE
+                      | CONTINUE_NEXT_LINE
+                      | MESSAGE 37="Odd it only required very l..."
+                      | MESSAGE 44="to slide"
+                      | SWAP COUNTER WITH COUNTER(3)
+Cmd 101 |     0     0 |    0   1   0   5   0   0   0   0   0   0 |   35  82  58   0 |
+            continued | MESSAGE 35="in"
+                      | ADDTO COUNTER 1
+                      | SET FLAG(5)=TRUE
+Cmd 102 |     0     0 |    0   3   0   0   0   0   0   0   0   0 |   40  78  41  81 |
+            continued | MESSAGE 40="The plastic GLOWED briefly"
+                      | PRINT_COUNTER
+                      | MESSAGE 41="times."
+                      | SWAP COUNTER WITH COUNTER(3)
+Cmd 103 |    17    39 |    2  27   8   5   0   5   0   0   0   0 |   37  44  34  60 |
+           pull   rod | IF HERE(27="Rod jutting straight out of...")
+                      | IF FLAG(5)=TRUE
+                      | MESSAGE 37="Odd it only required very l..."
+                      | MESSAGE 44="to slide"
+                      | MESSAGE 34="out"
+                      | SET FLAG(5)=FALSE
+Cmd 104 |    24    78 |    3   4   0   0   0   0   0   0   0   0 |    3 137   0   0 |
+           read  sign | IF HERECARRY(4="Alien sign")
+                      | MESSAGE 3="OK"
+                      | MESSAGE 87="Get Adventure 7 `MYSTERY FU..."
+Cmd 105 |    33    41 |    2  25   8   5   0   3   0   0   0   0 |   73  81  80   3 | IN
+           touc  plas | IF HERE(25="Small piece of plastic flus...")
+                      | IF FLAG(5)=TRUE
+                      | CONTINUE_NEXT_LINE
+                      | SWAP COUNTER WITH COUNTER(3)
+                      | GOTO LOCATION_SWAP
+                      | MESSAGE 3="OK"
+Cmd 106 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |   43  88  88   0 | TRANSFERS
+            continued | MESSAGE 43="I feel strangely disoriente..."
+                      | SLEEP 2 SECONDS
+                      | SLEEP 2 SECONDS
+Cmd 107 |     0     0 |   19   1   0   3   0   6   0   0   0   0 |   54  58   0   0 |
+            continued | IF EQ(COUNTER,1)
+                      | GOTO 3="large cavern"
+                      | SET FLAG(6)=TRUE
+Cmd 108 |     0     0 |   19   2   0   9   0   6   0   0   0   0 |   54  60   0   0 |
+            continued | IF EQ(COUNTER,2)
+                      | GOTO 9="Large grassy plain at edge..."
+                      | SET FLAG(6)=FALSE
+Cmd 109 |     0     0 |   19   3   0  10   0   6   0   0   0   0 |   54  58   0   0 |
+            continued | IF EQ(COUNTER,3)
+                      | GOTO 10="methane snow storm"
+                      | SET FLAG(6)=TRUE
+Cmd 110 |     0     0 |   19   4   0  11   0   6   0   0   0   0 |   54  58   0   0 |
+            continued | IF EQ(COUNTER,4)
+                      | GOTO 11="small derelict spacecraft"
+                      | SET FLAG(6)=TRUE
+Cmd 111 |     0     0 |   19   5   0  17   0   6   0   0   0   0 |   54  58   0   0 |
+            continued | IF EQ(COUNTER,5)
+                      | GOTO 17="BLACK EMPTINESS"
+                      | SET FLAG(6)=TRUE
+Cmd 112 |     0     0 |   19   6   0  13   0   6   0   0   0   0 |   54   0   0   0 |
+            continued | IF EQ(COUNTER,6)
+                      | GOTO 13="Alien Art Museum"
+Cmd 113 |     0     0 |   19   7   0  14   0   6   0   0   0   0 |   54   0   0   0 |
+            continued | IF EQ(COUNTER,7)
+                      | GOTO 14="deserted Jovian mining colony"
+Cmd 114 |     0     0 |   16   7   0  17   0   6   0   0   0   0 |   54  58   0   0 |
+            continued | IF GE(COUNTER,7)
+                      | GOTO 17="BLACK EMPTINESS"
+                      | SET FLAG(6)=TRUE
+Cmd 115 |     0     0 |    0   3   0   0   0   0   0   0   0   0 |   80  76  81   0 |
+            continued | GOTO LOCATION_SWAP
+                      | LOOK
+                      | SWAP COUNTER WITH COUNTER(3)
+Cmd 116 |    51    22 |    0   0   0   0   0   0   0   0   0   0 |  108   0   0   0 |
+           shoo  phas | MESSAGE 58="Try: `SHOOT SOMETHING`"
+Cmd 117 |    33    32 |    2   1   0   0   0   0   0   0   0   0 |    3 140   0   0 |
+           touc  curt | IF HERE(1="Strange flickering curtain...")
+                      | MESSAGE 3="OK"
+                      | MESSAGE 90="My hand went THROUGH it!"
+Cmd 118 |    33    32 |    2  14   0   0   0   0   0   0   0   0 |    3 140   0   0 |
+           touc  curt | IF HERE(14="Strange flickering curtain...")
+                      | MESSAGE 3="OK"
+                      | MESSAGE 90="My hand went THROUGH it!"
+Cmd 119 |    71     0 |   14  40   3  53   4   9  14  39   0  39 |   53   3 133   0 |
+            dig       | IF NOWHERE(40="Broken ice pick")
+                      | IF HERECARRY(53="Shovel")
+                      | IF ISROOM(9="Large grassy plain at edge...")
+                      | IF NOWHERE(39="Ancient ice pick")
+                      | DROP 39="Ancient ice pick"
+                      | MESSAGE 3="OK"
+                      | MESSAGE 83="I found something."
+Cmd 120 |     1    32 |    4   6   0   1   8   6   0   2   0   0 |   80  53  76  58 | OUT NO AIR
+             go  curt | IF ISROOM(6="strange hexagonal room")
+                      | IF FLAG(6)=TRUE
+                      | GOTO LOCATION_SWAP
+                      | DROP 1="Strange flickering curtain..."
+                      | LOOK
+                      | SET FLAG(2)=TRUE
+Cmd 121 |     1    32 |    2   1  14  23   0   2   0   0   0   0 |   80  76  60   3 | IN GOOD AIR
+             go  curt | IF HERE(1="Strange flickering curtain...")
+                      | IF NOWHERE(23="Hose connects my suit to ma...")
+                      | GOTO LOCATION_SWAP
+                      | LOOK
+                      | SET FLAG(2)=FALSE
+                      | MESSAGE 3="OK"
+Cmd 122 |     1    32 |    4   6   0   1   9   6   0   2   0   0 |   80  53  76  60 | OUT AIR
+             go  curt | IF ISROOM(6="strange hexagonal room")
+                      | IF FLAG(6)=FALSE
+                      | GOTO LOCATION_SWAP
+                      | DROP 1="Strange flickering curtain..."
+                      | LOOK
+                      | SET FLAG(2)=FALSE
+Cmd 123 |    51     8 |    1  10   3  30   8   3   0   4   0  30 |   58  23  24  59 |
+           shoo  houn | IF CARRY(10="Phaser")
+                      | IF HERECARRY(30="Rigilian Dia-Ice Hound")
+                      | IF FLAG(3)=TRUE
+                      | SET FLAG(4)=TRUE
+                      | MESSAGE 23="I fire the Phaser,"
+                      | MESSAGE 24="I destroyed it!"
+                      | DESTROY 30="Rigilian Dia-Ice Hound"
+Cmd 124 |    51     8 |    1  10   0   4   3  30   9   3   0   0 |   58  23  73 135 | STUN IT
+           shoo  houn | IF CARRY(10="Phaser")
+                      | IF HERECARRY(30="Rigilian Dia-Ice Hound")
+                      | IF FLAG(3)=FALSE
+                      | SET FLAG(4)=TRUE
+                      | MESSAGE 23="I fire the Phaser,"
+                      | CONTINUE_NEXT_LINE
+                      | MESSAGE 85="its stunned!"
+Cmd 125 |     0     0 |    0  30   0  31   0   4   0  17   0   4 |   72  81  79  81 |
+            continued | SWAP ITEMS 30="Rigilian Dia-Ice Hound" AND 31="Stunned Dia-Ice Hound"
+                      | SWAP COUNTER WITH COUNTER(4)
+                      | SET COUNTER=17
+                      | SWAP COUNTER WITH COUNTER(4)
+Cmd 126 |     1    32 |    2   1  13  23   0   0   0   0   0   0 |   50  18  61   0 | IN HOSE
+             go  curt | IF HERE(1="Strange flickering curtain...")
+                      | IF SOMEWHERE(23="Hose connects my suit to ma...")
+                      | MESSAGE 50="Hose rips out"
+                      | MESSAGE 18=""
+                      | DEAD
+Cmd 127 |    69     0 |    2   2   0   2   0   0   0   0   0   0 |    3  54  76   0 | GO SHIP
+           jump       | IF HERE(2="Scoutship")
+                      | MESSAGE 3="OK"
+                      | GOTO 2="small airlock"
+                      | LOOK
+Cmd 128 |    37    10 |    2  32   9  15   0   0   0   0   0   0 |    3  48   0   0 |
+           look  view | IF HERE(32="Viewport")
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 3="OK"
+                      | MESSAGE 48="We're drifting in space!"
+Cmd 129 |    60     0 |    0   0   0   0   0   0   0   0   0   0 |   65   0   0   0 |
+           scor       | SCORE
+Cmd 130 |    37    24 |    3  22   9  15   0   0   0   0   0   0 |    3  49   0   0 |
+           look  mach | IF HERECARRY(22="Alien machine")
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 3="OK"
+                      | MESSAGE 49="I see: a black button, a wh..."
+Cmd 131 |    37    59 |    3  47   8   9   1  52   9  15   0   0 |    3 123   0   0 |
+           look  pain | IF HERECARRY(47="* RARE ALIEN PAINTING *")
+                      | IF FLAG(9)=TRUE
+                      | IF CARRY(52="which I'm wearing")
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 3="OK"
+                      | MESSAGE 73="Painting is of an Alien twi..."
+Cmd 132 |    25    28 |    2   5  13  37   9   7   0   7   0   0 |  102  58   0   0 |
+           push  blue | IF HERE(5="Control console")
+                      | IF SOMEWHERE(37="Broken rod in power holder")
+                      | IF FLAG(7)=FALSE
+                      | MESSAGE 52="Lift off!! After a brief fl..."
+                      | SET FLAG(7)=TRUE
+Cmd 133 |    25    28 |    2   5  13  37   8   7   0   7   0   0 |  102  60   0   0 |
+           push  blue | IF HERE(5="Control console")
+                      | IF SOMEWHERE(37="Broken rod in power holder")
+                      | IF FLAG(7)=TRUE
+                      | MESSAGE 52="Lift off!! After a brief fl..."
+                      | SET FLAG(7)=FALSE
+Cmd 134 |     1    31 |    2  19   8   7   0  22   0   2   0   0 |    3  54  53  76 |
+             go  door | IF HERE(19="OPen outer door")
+                      | IF FLAG(7)=TRUE
+                      | MESSAGE 3="OK"
+                      | GOTO 22="storage hold of the mother..."
+                      | DROP 2="Scoutship"
+                      | LOOK
+Cmd 135 |     1    34 |    2   2   0   2   0   0   0   0   0   0 |    3  54  76   0 |
+             go  ship | IF HERE(2="Scoutship")
+                      | MESSAGE 3="OK"
+                      | GOTO 2="small airlock"
+                      | LOOK
+Cmd 136 |    51    44 |    1  10   8   3   2  38   0  38   0   4 |   23  24  59  58 |
+           shoo  moun | IF CARRY(10="Phaser")
+                      | IF FLAG(3)=TRUE
+                      | IF HERE(38="Large ice mound")
+                      | MESSAGE 23="I fire the Phaser,"
+                      | MESSAGE 24="I destroyed it!"
+                      | DESTROY 38="Large ice mound"
+                      | SET FLAG(4)=TRUE
+Cmd 137 |    71     0 |    2  38   0  24   1  39   0  39   0  40 |  104  54  72  76 |
+            dig       | IF HERE(38="Large ice mound")
+                      | IF CARRY(39="Ancient ice pick")
+                      | MESSAGE 54="Ice fills back in around me..."
+                      | GOTO 24="hollow ice mound"
+                      | SWAP ITEMS 39="Ancient ice pick" AND 40="Broken ice pick"
+                      | LOOK
+Cmd 138 |    51    44 |    4  24   8   3   1  10   0  18   0   4 |   54  58  24 103 |
+           shoo  moun | IF ISROOM(24="hollow ice mound")
+                      | IF FLAG(3)=TRUE
+                      | IF CARRY(10="Phaser")
+                      | GOTO 18="methane snow storm"
+                      | SET FLAG(4)=TRUE
+                      | MESSAGE 24="I destroyed it!"
+                      | MESSAGE 53="The Ice Hound burrows off..."
+Cmd 139 |     1    44 |    2  38   6  39   0   0   0   0   0   0 |   39 105 106   0 |
+             go  moun | IF HERE(38="Large ice mound")
+                      | IF NOT CARRY(39="Ancient ice pick")
+                      | MESSAGE 39="HOW?"
+                      | MESSAGE 55="Ice is very smooth & hard!"
+                      | MESSAGE 56="I slide back down."
+Cmd 140 |    71     0 |    2  38   6  39   0   0   0   0   0   0 |   39 105   0   0 |
+            dig       | IF HERE(38="Large ice mound")
+                      | IF NOT CARRY(39="Ancient ice pick")
+                      | MESSAGE 39="HOW?"
+                      | MESSAGE 55="Ice is very smooth & hard!"
+Cmd 141 |    74    44 |    2  38   0   0   0   0   0   0   0   0 |   39   0   0   0 |
+           melt  moun | IF HERE(38="Large ice mound")
+                      | MESSAGE 39="HOW?"
+Cmd 142 |    68    31 |    4   1   0   0   0   0   0   0   0   0 |   39   0   0   0 |
+           open  door | IF ISROOM(1="one man scoutship")
+                      | MESSAGE 39="HOW?"
+Cmd 143 |    69     0 |    4  12   0   0   0   0   0   0   0   0 |    3 113 115  73 |
+           jump       | IF ISROOM(12="outside the airlock on a ledge")
+                      | MESSAGE 3="OK"
+                      | MESSAGE 63="The gravity here is very"
+                      | MESSAGE 65="weak."
+                      | CONTINUE_NEXT_LINE
+Cmd 144 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |   88  88  88   0 |
+            continued | SLEEP 2 SECONDS
+                      | SLEEP 2 SECONDS
+                      | SLEEP 2 SECONDS
+Cmd 145 |     0     0 |    0   4   0   2   0   0   0   0   0   0 |   54  53  76   0 |
+            continued | GOTO 4="on a small planetoid"
+                      | DROP 2="Scoutship"
+                      | LOOK
+Cmd 146 |    69     0 |    0   0   0   0   0   0   0   0   0   0 |    3   0   0   0 |
+           jump       | MESSAGE 3="OK"
+Cmd 147 |     1     9 |    4   9   0  15   0   0   0   0   0   0 |    3  54  76   0 |
+             go  jung | IF ISROOM(9="Large grassy plain at edge...")
+                      | MESSAGE 3="OK"
+                      | GOTO 15="Strange jungle"
+                      | LOOK
+Cmd 148 |    10    48 |    2   3  12  41  14  42   0   0   0   0 |  111 116   0   0 |
+            get  hatc | IF HERE(3="Maintenance access hatch")
+                      | IF NOT HERECARRY(41="Short twisted piece of metal")
+                      | IF NOWHERE(42="Entrance to a crawlway")
+                      | MESSAGE 61="I can't do that"
+                      | MESSAGE 66="Its stuck."
+Cmd 149 |    10    48 |    2   3   3  41   0   3   0  42  14  42 |   52  53   3 136 |
+            get  hatc | IF HERE(3="Maintenance access hatch")
+                      | IF HERECARRY(41="Short twisted piece of metal")
+                      | IF NOWHERE(42="Entrance to a crawlway")
+                      | TAKE 3="Maintenance access hatch"
+                      | DROP 42="Entrance to a crawlway"
+                      | MESSAGE 3="OK"
+                      | MESSAGE 86="The metal helped!"
+Cmd 150 |     1    55 |    2  42   0  23   0   0   0   0   0   0 |   54  76   0   0 |
+             go  craw | IF HERE(42="Entrance to a crawlway")
+                      | GOTO 23="maintenance crawl way"
+                      | LOOK
+Cmd 151 |    45    14 |    3  34   0  34   0  16   0   0   0   0 |   72   3 112   0 |
+           drin  flas | IF HERECARRY(34="* ANCIENT FLASK SAURIAN BRA...")
+                      | SWAP ITEMS 34="* ANCIENT FLASK SAURIAN BRA..." AND 16="Empty flask"
+                      | MESSAGE 3="OK"
+                      | MESSAGE 62="Whooosh!"
+Cmd 152 |    10    48 |    3   3   0   3  13  42   0   0   0   0 |   52   3   0   0 |
+            get  hatc | IF HERECARRY(3="Maintenance access hatch")
+                      | IF SOMEWHERE(42="Entrance to a crawlway")
+                      | TAKE 3="Maintenance access hatch"
+                      | MESSAGE 3="OK"
+Cmd 153 |    58    58 |    3  44   0  45   0  44   0   0   0   0 |   74   3  73  74 |
+           wear  belt | IF HERECARRY(44="* STRANGE ALIEN BELT *")
+                      | TAKE_NOCHECK 45="which I'm wearing"
+                      | MESSAGE 3="OK"
+                      | CONTINUE_NEXT_LINE
+                      | TAKE_NOCHECK 44="* STRANGE ALIEN BELT *"
+Cmd 154 |     0     0 |   13  46   0  46   0   0   0   0   0   0 |   74 119   0   0 |
+            continued | IF SOMEWHERE(46="& its activated")
+                      | TAKE_NOCHECK 46="& its activated"
+                      | MESSAGE 69="I feel LIGHT HEADED!"
+Cmd 155 |    18    58 |    3  44   0  45   0  44   0   0   0   0 |   59   3  73  53 |
+           drop  belt | IF HERECARRY(44="* STRANGE ALIEN BELT *")
+                      | DESTROY 45="which I'm wearing"
+                      | MESSAGE 3="OK"
+                      | CONTINUE_NEXT_LINE
+                      | DROP 44="* STRANGE ALIEN BELT *"
+Cmd 156 |     0     0 |   13  46   0  46   0   0   0   0   0   0 |   53 120   0   0 |
+            continued | IF SOMEWHERE(46="& its activated")
+                      | DROP 46="& its activated"
+                      | MESSAGE 70="It floats!"
+Cmd 157 |    62    57 |    3  44  14  46   0  46   0  44   0   0 |   75   3 120   0 |
+           bend  buck | IF HERECARRY(44="* STRANGE ALIEN BELT *")
+                      | IF NOWHERE(46="& its activated")
+                      | SEND 46="& its activated" TO LOCATION OF 44="* STRANGE ALIEN BELT *"
+                      | MESSAGE 3="OK"
+                      | MESSAGE 70="It floats!"
+Cmd 158 |    62    57 |    3  44  13  46   0  46   0   0   0   0 |    3  59   0   0 |
+           bend  buck | IF HERECARRY(44="* STRANGE ALIEN BELT *")
+                      | IF SOMEWHERE(46="& its activated")
+                      | MESSAGE 3="OK"
+                      | DESTROY 46="& its activated"
+Cmd 159 |    37    58 |    3  44   9  15   0   0   0   0   0   0 |  122   0   0   0 |
+           look  belt | IF HERECARRY(44="* STRANGE ALIEN BELT *")
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 72="It should fit. It has a lar..."
+Cmd 160 |    37    59 |    3  47   9  15   0   0   0   0   0   0 |    3 131   0   0 |
+           look  pain | IF HERECARRY(47="* RARE ALIEN PAINTING *")
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 3="OK"
+                      | MESSAGE 81="I just see shades of black,..."
+Cmd 161 |    15    24 |    0   0   0   0   0   0   0   0   0   0 |   39   0   0   0 |
+           fire  mach | MESSAGE 39="HOW?"
+Cmd 162 |     1    71 |    2  24   0   0   0   0   0   0   0   0 |   47 106   0   0 |
+             go  boul | IF HERE(24="Large boulder")
+                      | MESSAGE 47="I found nothing"
+                      | MESSAGE 56="I slide back down."
+Cmd 163 |    37    71 |    2  24   0   0   0   0   0   0   0   0 |    3  22   0   0 |
+           look  boul | IF HERE(24="Large boulder")
+                      | MESSAGE 3="OK"
+                      | MESSAGE 22="Alien script covers it"
+Cmd 164 |    68    20 |    1   7   0   7   0   0   0   0   0   0 |    3  59   0   0 |
+           open  suit | IF CARRY(7="which I'm wearing")
+                      | MESSAGE 3="OK"
+                      | DESTROY 7="which I'm wearing"
+Cmd 165 |    65    20 |    1   6   0   7   0   0   0   0   0   0 |    3  74   0   0 |
+           clos  suit | IF CARRY(6="Space suit")
+                      | MESSAGE 3="OK"
+                      | TAKE_NOCHECK 7="which I'm wearing"
+Cmd 166 |     1    63 |    4  12   0   0   0   0   0   0   0   0 |   39   0   0   0 |
+             go  grou | IF ISROOM(12="outside the airlock on a ledge")
+                      | MESSAGE 39="HOW?"
+Cmd 167 |    37    12 |    3  36   9  15   0   0   0   0   0   0 |  118   0   0   0 |
+           look  crys | IF HERECARRY(36="Broken pieces of Power Crystal")
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 68="The power crystal was in th..."
+Cmd 168 |     8     0 |    4   6   0   0   0   0   0   0   0   0 |  121   0   0   0 |
+           help       | IF ISROOM(6="strange hexagonal room")
+                      | MESSAGE 71="A gentle touch will work wo..."
+Cmd 169 |    68    48 |    2   3  12  41  14  42   0   0   0   0 |  111 116   0   0 |
+           open  hatc | IF HERE(3="Maintenance access hatch")
+                      | IF NOT HERECARRY(41="Short twisted piece of metal")
+                      | IF NOWHERE(42="Entrance to a crawlway")
+                      | MESSAGE 61="I can't do that"
+                      | MESSAGE 66="Its stuck."
+Cmd 170 |    68    48 |    2   3   3  41   0   3   0  42   0   0 |   52  53   3 136 |
+           open  hatc | IF HERE(3="Maintenance access hatch")
+                      | IF HERECARRY(41="Short twisted piece of metal")
+                      | TAKE 3="Maintenance access hatch"
+                      | DROP 42="Entrance to a crawlway"
+                      | MESSAGE 3="OK"
+                      | MESSAGE 86="The metal helped!"
+Cmd 171 |     1    34 |    4  12   0   2   0   0   0   0   0   0 |    3  54  76   0 |
+             go  ship | IF ISROOM(12="outside the airlock on a ledge")
+                      | MESSAGE 3="OK"
+                      | GOTO 2="small airlock"
+                      | LOOK
+Cmd 172 |    10    41 |    2  25   0   0   0   0   0   0   0   0 |   39   0   0   0 |
+            get  plas | IF HERE(25="Small piece of plastic flus...")
+                      | MESSAGE 39="HOW?"
+Cmd 173 |    37    41 |    2  25   9  15   0   0   0   0   0   0 |  125   0   0   0 |
+           look  plas | IF HERE(25="Small piece of plastic flus...")
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 75="I see a picture of an ALIEN..."
+Cmd 174 |    33     0 |    0   0   0   0   0   0   0   0   0   0 |    3   2   0   0 |
+           touc       | MESSAGE 3="OK"
+                      | MESSAGE 2="Nothing happens"
+Cmd 175 |    30     0 |    2  22  14  23   0  23   0   0   0   0 |   53   3   0   0 | .
+           conn       | IF HERE(22="Alien machine")
+                      | IF NOWHERE(23="Hose connects my suit to ma...")
+                      | DROP 23="Hose connects my suit to ma..."
+                      | MESSAGE 3="OK"
+Cmd 176 |     1    67 |    2  49   0   0   0   0   0   0   0   0 |  126  61   0   0 |
+             go  tree | IF HERE(49="Centurion Slime Trees")
+                      | MESSAGE 76="Wonderful. It ATE me!"
+                      | DEAD
+Cmd 177 |    37    69 |    3  50   9  15   0   0   0   0   0   0 |   73   3 127   0 |
+           look  scul | IF HERECARRY(50="* ALIEN SCULPTURE *")
+                      | IF FLAG(15)=FALSE
+                      | CONTINUE_NEXT_LINE
+                      | MESSAGE 3="OK"
+                      | MESSAGE 77="It is of an alien being."
+Cmd 178 |     0     0 |   14  44   0   0   0   0   0   0   0   0 |  128   0   0   0 |
+            continued | IF NOWHERE(44="* STRANGE ALIEN BELT *")
+                      | MESSAGE 78="Its wearing only a strange..."
+Cmd 179 |    10    58 |    3  50  14  44   0  44   0   0   0   0 |    3  52   0   0 |
+            get  belt | IF HERECARRY(50="* ALIEN SCULPTURE *")
+                      | IF NOWHERE(44="* STRANGE ALIEN BELT *")
+                      | MESSAGE 3="OK"
+                      | TAKE 44="* STRANGE ALIEN BELT *"
+Cmd 180 |    10    58 |    3  44   0  44   0   0   0   0   0   0 |    3  52   0   0 |
+            get  belt | IF HERECARRY(44="* STRANGE ALIEN BELT *")
+                      | MESSAGE 3="OK"
+                      | TAKE 44="* STRANGE ALIEN BELT *"
+Cmd 181 |    37     8 |    3  30   9  15   0   0   0   0   0   0 |  129   0   0   0 |
+           look  houn | IF HERECARRY(30="Rigilian Dia-Ice Hound")
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 79="Watch it! Its known to spit..."
+Cmd 182 |    51    58 |    3  50   1  10   8   3   0  50   0   4 |   59  58  73   0 |
+           shoo  belt | IF HERECARRY(50="* ALIEN SCULPTURE *")
+                      | IF CARRY(10="Phaser")
+                      | IF FLAG(3)=TRUE
+                      | DESTROY 50="* ALIEN SCULPTURE *"
+                      | SET FLAG(4)=TRUE
+                      | CONTINUE_NEXT_LINE
+Cmd 183 |     0     0 |    0  44   0   0   0   0   0   0   0   0 |   59  23  24   0 |
+            continued | DESTROY 44="* STRANGE ALIEN BELT *"
+                      | MESSAGE 23="I fire the Phaser,"
+                      | MESSAGE 24="I destroyed it!"
+Cmd 184 |    58    75 |    3  51   0  51   0  52   0   0   0   0 |   74  74   3  73 |
+           wear  gogg | IF HERECARRY(51="Strange looking goggles")
+                      | TAKE_NOCHECK 51="Strange looking goggles"
+                      | TAKE_NOCHECK 52="which I'm wearing"
+                      | MESSAGE 3="OK"
+                      | CONTINUE_NEXT_LINE
+Cmd 185 |    37    75 |    3  51   9  15   0   0   0   0   0   0 |  130   0   0   0 |
+           look  gogg | IF HERECARRY(51="Strange looking goggles")
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 80="There's a box on it with a..."
+Cmd 186 |    18    75 |    1  51   0  51   0  52   0   0   0   0 |   53  59  57  73 |
+           drop  gogg | IF CARRY(51="Strange looking goggles")
+                      | DROP 51="Strange looking goggles"
+                      | DESTROY 52="which I'm wearing"
+                      | SET DARK=FALSE
+                      | CONTINUE_NEXT_LINE
+Cmd 187 |     0     0 |    0  55   0   0   0   0   0   0   0   0 |    3  59  76   0 |
+            continued | MESSAGE 3="OK"
+                      | DESTROY 55="EVERYTHING HAS A BLUEISH TINT"
+                      | LOOK
+Cmd 188 |    25    77 |    3  51   9  10   9   9   0   9   0   0 |    3  58   0   0 |
+           push  yell | IF HERECARRY(51="Strange looking goggles")
+                      | IF FLAG(10)=FALSE
+                      | IF FLAG(9)=FALSE
+                      | MESSAGE 3="OK"
+                      | SET FLAG(9)=TRUE
+Cmd 189 |    37    59 |    3  47   6  52   9  15   0   0   0   0 |    3 131   0   0 |
+           look  pain | IF HERECARRY(47="* RARE ALIEN PAINTING *")
+                      | IF NOT CARRY(52="which I'm wearing")
+                      | IF FLAG(15)=FALSE
+                      | MESSAGE 3="OK"
+                      | MESSAGE 81="I just see shades of black,..."
+Cmd 190 |    25    77 |    3  51   9  10   8   9   0   9   0   0 |    3  60   0   0 |
+           push  yell | IF HERECARRY(51="Strange looking goggles")
+                      | IF FLAG(10)=FALSE
+                      | IF FLAG(9)=TRUE
+                      | MESSAGE 3="OK"
+                      | SET FLAG(9)=FALSE
+Cmd 191 |    25    77 |    3  51   8  10   0   0   0   0   0   0 |    3   2 132   0 | BURNT OUT
+           push  yell | IF HERECARRY(51="Strange looking goggles")
+                      | IF FLAG(10)=TRUE
+                      | MESSAGE 3="OK"
+                      | MESSAGE 2="Nothing happens"
+                      | MESSAGE 82="I think its broken!"
+Cmd 192 |    37    20 |    3   6   0   0   0   0   0   0   0   0 |    6   0   0   0 |
+           look  suit | IF HERECARRY(6="Space suit")
+                      | MESSAGE 6="The outside has a pressure..."
+Cmd 193 |    24    74 |    3   6   0   1   0   0   0   0   0   0 |    4  81  78  73 |
+           read  gaug | IF HERECARRY(6="Space suit")
+                      | MESSAGE 4="Pressure gauge says"
+                      | SWAP COUNTER WITH COUNTER(1)
+                      | PRINT_COUNTER
+                      | CONTINUE_NEXT_LINE
+Cmd 194 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    5   0   0   0 |
+            continued | MESSAGE 5="moves till suit air expende..."
+Cmd 195 |     0     0 |    8   2   0   0   0   0   0   0   0   0 |    8   0   0   0 |
+            continued | IF FLAG(2)=TRUE
+                      | MESSAGE 8="not"
+Cmd 196 |     0     0 |    0   1   0   0   0   0   0   0   0   0 |    7  81   0   0 |
+            continued | MESSAGE 7="breathable."
+                      | SWAP COUNTER WITH COUNTER(1)
+Cmd 197 |    71     0 |    2  38   3  53   0  53   0  54   0   0 |    3  37  42  72 |
+            dig       | IF HERE(38="Large ice mound")
+                      | IF HERECARRY(53="Shovel")
+                      | MESSAGE 3="OK"
+                      | MESSAGE 37="Odd it only required very l..."
+                      | MESSAGE 42="for it to shatter!"
+                      | SWAP ITEMS 53="Shovel" AND 54="Broken splintered shovel"
+Cmd 198 |    41     0 |    0   0   0   0   0   0   0   0   0   0 |    3  85   0   0 |
+            say       | MESSAGE 3="OK"
+                      | WRITELINE NOUN
+Cmd 199 |    25    29 |    0   0   0   0   0   0   0   0   0   0 |  109   0   0   0 |
+           push  butt | MESSAGE 59="Say again & use a color"
+Cmd 200 |    15    22 |    3  10   0   0   0   0   0   0   0   0 |  108   0   0   0 |
+           fire  phas | IF HERECARRY(10="Phaser")
+                      | MESSAGE 58="Try: `SHOOT SOMETHING`"
+Cmd 201 |    51     0 |    3  11   0   0   0   0   0   0   0   0 |    3  23   2  31 |
+           shoo       | IF HERECARRY(11="Phaser")
+                      | MESSAGE 3="OK"
+                      | MESSAGE 23="I fire the Phaser,"
+                      | MESSAGE 2="Nothing happens"
+                      | MESSAGE 31="Its empty."
+Cmd 202 |    51     0 |    1  10   0   4   0   0   0   0   0   0 |   58  23   2  30 |
+           shoo       | IF CARRY(10="Phaser")
+                      | SET FLAG(4)=TRUE
+                      | MESSAGE 23="I fire the Phaser,"
+                      | MESSAGE 2="Nothing happens"
+                      | MESSAGE 30="Either I missed or beam was..."
+Cmd 203 |    54     0 |    0   0   0   0   0   0   0   0   0   0 |   26   0   0   0 |
+           move       | MESSAGE 26="won't budge!"
+Cmd 204 |    37     0 |    0   0   0   0   0   0   0   0   0   0 |   27  76   0   0 |
+           look       | MESSAGE 27="I see nothing special."
+                      | LOOK
+Cmd 205 |    61     0 |    0   0   0   0   0   0   0   0   0   0 |   66   0   0   0 |
+           inve       | INVENTORY
+Cmd 206 |    71     0 |    3  53   0   0   0   0   0   0   0   0 |   47   0   0   0 | DIG
+            dig       | IF HERECARRY(53="Shovel")
+                      | MESSAGE 47="I found nothing"
+Cmd 207 |    53     0 |    0   0   0   0   0   0   0   0   0   0 |   47 107   0   0 |
+           find       | MESSAGE 47="I found nothing"
+                      | MESSAGE 57="I don't know where to look"
+Cmd 208 |    24     0 |    0   0   0   0   0   0   0   0   0   0 |  111   0   0   0 |
+           read       | MESSAGE 61="I can't do that"
+Cmd 209 |     8     0 |    0   0   0   0   0   0   0   0   0   0 |    3  39   0   0 |
+           help       | MESSAGE 3="OK"
+                      | MESSAGE 39="HOW?"
+Cmd 210 |     7     0 |    0   0   0   0   0   0   0   0   0   0 |   63   0   0   0 |
+           quit       | QUIT
+Cmd 211 |     6    51 |    0   0   0   0   0   0   0   0   0   0 |   71   0   0   0 |
+           save  game | SAVEGAME
+Cmd 212 |    29     0 |    0   0   0   0   0   0   0   0   0   0 |  134   2   0   0 |
+           kick       | MESSAGE 84="Ouch!"
+                      | MESSAGE 2="Nothing happens"
+Cmd 213 |    65     0 |    0   0   0   0   0   0   0   0   0   0 |   39   0   0   0 |
+           clos       | MESSAGE 39="HOW?"
+Cmd 214 |     1    39 |    2  27   0  27   0  28   0   0   0   0 |   37  38  59  74 |
+             go   rod | IF HERE(27="Rod jutting straight out of...")
+                      | MESSAGE 37="Odd it only required very l..."
+                      | MESSAGE 38="for it to break off in my h..."
+                      | DESTROY 27="Rod jutting straight out of..."
+                      | TAKE_NOCHECK 28="Broken piece of rod"
+Cmd 215 |    77    75 |    1  52   0  52   0  55   0   0   0   0 |    3  59  59   0 |
+           lift  gogg | IF CARRY(52="which I'm wearing")
+                      | MESSAGE 3="OK"
+                      | DESTROY 52="which I'm wearing"
+                      | DESTROY 55="EVERYTHING HAS A BLUEISH TINT"
+Cmd 216 |    48    20 |    1   7   0   7   0   0   0   0   0   0 |    3  59   0   0 |
+           remo  suit | IF CARRY(7="which I'm wearing")
+                      | MESSAGE 3="OK"
+                      | DESTROY 7="which I'm wearing"
+Cmd 217 |    48    75 |    1  52   0  52   0  55   0   0   0   0 |   57  59  59  76 |
+           remo  gogg | IF CARRY(52="which I'm wearing")
+                      | SET DARK=FALSE
+                      | DESTROY 52="which I'm wearing"
+                      | DESTROY 55="EVERYTHING HAS A BLUEISH TINT"
+                      | LOOK
+Cmd 218 |    48     0 |    0   0   0   0   0   0   0   0   0   0 |  111 139   0   0 |
+           remo       | MESSAGE 61="I can't do that"
+                      | MESSAGE 89="I'm not wearing it!"
+Cmd 219 |    62    57 |   14  44   0   0   0   0   0   0   0   0 |  111 141   0   0 |
+           bend  buck | IF NOWHERE(44="* STRANGE ALIEN BELT *")
+                      | MESSAGE 61="I can't do that"
+                      | MESSAGE 91="Don't have it!"
+Cmd 220 |    79    14 |    3  34   0  34   0  16   0   0   0   0 |   72   3   0   0 |
+           empt  flas | IF HERECARRY(34="* ANCIENT FLASK SAURIAN BRA...")
+                      | SWAP ITEMS 34="* ANCIENT FLASK SAURIAN BRA..." AND 16="Empty flask"
+                      | MESSAGE 3="OK"
+Cmd 221 |    10     7 |    0   0   0   0   0   0   0   0   0   0 |   66   0   0   0 |
+            get  inve | INVENTORY
+Cmd 222 |     1    48 |    2  42   0  23   0   0   0   0   0   0 |    2  54  76   0 |
+             go  hatc | IF HERE(42="Entrance to a crawlway")
+                      | MESSAGE 2="Nothing happens"
+                      | GOTO 23="maintenance crawl way"
+                      | LOOK
+Cmd 223 |    75    12 |    4   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            fix  crys | IF ISROOM(0="")
+
+// END OF FILE

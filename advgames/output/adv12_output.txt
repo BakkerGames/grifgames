@@ -1,0 +1,1906 @@
+Unknown        = 4448
+ItemCount      = 79
+CommandCount   = 253
+VerbNounCount  = 74
+RoomCount      = 37
+MaxInventory   = 7
+StartRoom      = 4
+TreasureCount  = 0
+WordLength     = 4
+LightMoves     = 100
+MessageCount   = 82
+TreasureRoom   = 0
+
+Cmd   0:    100    629     60    380      0      0    229   8773
+Cmd   1:      0      0   4300    620    340      0  12229   8758
+Cmd   2:    100      0      0      0      0      0  11550      0
+Cmd   3:    100     82    960      0      0      0   7950      0
+Cmd   4:    100     19      0      0      0      0   7200      0
+Cmd   5:    100    192     15      0      0      0   8400      0
+Cmd   6:    100    288    320      0      0      0   8756   9623
+Cmd   7:    100    444    289    160      0      0   9000      0
+Cmd   8:    100    183    328    180   1120      0  10800      0
+Cmd   9:    100    588   1253    584    580   1240  19410   9205
+Cmd  10:    100    183    289      0      0      0   8550      0
+Cmd  11:    100    588      0      0      0      0  13273      0
+Cmd  12:      0    587      0      0      0      0   7411   6213
+Cmd  13:    100    588      0      0      0      0  13257  10950
+Cmd  14:      0   4300      0     20      0      0  11931  12493
+Cmd  15:    100    588     59    580      0      0   6797   9081
+Cmd  16:    100    588     39    580      0      0   6947   9081
+Cmd  17:    100    588     15      0   1140     40   7581   9300
+Cmd  18:     50    666   1226   1206   1103   1200   2024  10950
+Cmd  19:      0     60    200     60    460      0  12229  12208
+Cmd  20:    100    468     60      0      0      0  12227  10950
+Cmd  21:      0    119   1200   1220     60      0   7722  10950
+Cmd  22:      0     15      0      0      0      0  15361  10950
+Cmd  23:      0    468     60      0      0      0  12150      0
+Cmd  24:    100   1245   1253   1240      0      0  15503      0
+Cmd  25:     45   1242    500      0      0      0  15688  13258
+Cmd  26:     40   1254    502    500   1240      0   4872      0
+Cmd  27:     70    508   1261    500      0      0  16110      0
+Cmd  28:     39    508    500      0      0      0  15957   9210
+Cmd  29:    100    508    500      0      0      0  15810      0
+Cmd  30:     60    368    902    520      0      0   3688  13258
+Cmd  31:     45    528      0      0      0      0   4711      0
+Cmd  32:    100    528    520      0      0      0   9000      0
+Cmd  33:    100    588    580      0      0      0   9000      0
+Cmd  34:    100   1142      0      0      0      0  13288  16273
+Cmd  35:      0      0      0      0      0      0   9213      0
+Cmd  36:    100    124   1280   1300   1320   1560   8909   8909
+Cmd  37:    100   1174   1374    189    600    180   5608   8773
+Cmd  38:      0    760    800   1520    460      0  10862  19650
+Cmd  39:     45    129   1382      0      0      0  18061      0
+Cmd  40:    100   1393    120      0      0      0   9000      0
+Cmd  41:    100    442    462    482    440    460   1409   8923
+Cmd  42:      0    480   1360      0      0      0   8903      0
+Cmd  43:    100    192    168      0      0      0   8464      0
+Cmd  44:    100    215     16      0      0      0   6300      0
+Cmd  45:    100    324    192      0      0      0   8464      0
+Cmd  46:    100    284     16    289      0      0   8614      0
+Cmd  47:     60    389     82     80      0      0  16705      0
+Cmd  48:    100      8    124    448   1280      0   7950      0
+Cmd  49:    100    192    308      0      0      0   8464      0
+Cmd  50:    100    744      0      0      0      0   8614   6213
+Cmd  51:    100      8    244    448   1280      0   7950      0
+Cmd  52:    100     28    124    408   1320      0   7950      0
+Cmd  53:    100     28    244    408   1320      0   7950      0
+Cmd  54:    100    108    124    568   1300      0   7950      0
+Cmd  55:    100    108    244    568   1300      0   7950      0
+Cmd  56:    100    309    289      0      0      0   8614      0
+Cmd  57:    100    204     16    289    160      0   8614   9000
+Cmd  58:    100    124    348   1560      0      0   7950      0
+Cmd  59:    100    244    348   1560      0      0   7950      0
+Cmd  60:    100     24   1077   1060      0      0   3953      0
+Cmd  61:    100    684    360      0      0      0   8700      0
+Cmd  62:    100    444     16      0      0      0   8614      0
+Cmd  63:    100    684   1461   1460    660      0   9300      0
+Cmd  64:    100    544   1461   1460    600      0   9300      0
+Cmd  65:    195    604      0      0      0      0   1835      0
+Cmd  66:    197    222      0      0      0      0   1838   9150
+Cmd  67:    213   1282    124    380   1100     80   1854   8003
+Cmd  68:    214   1302    124    140   1100     80   1854   8003
+Cmd  69:    215   1322    124    260   1100     80   1854   8003
+Cmd  70:    217    124   1282    380   1100     80   1854   8003
+Cmd  71:    217    124   1302    140   1100     80   1854   8003
+Cmd  72:    217    124   1322    260   1100     80   1854   8003
+Cmd  73:    222   1482    660      0      0      0   1854      0
+Cmd  74:    222   1502    600      0      0      0   1854      0
+Cmd  75:    171    302    460    160      0      0   1854   8458
+Cmd  76:    172   1522    540      0      0      0   1854      0
+Cmd  77:   1268      0      0      0      0      0  10650      0
+Cmd  78:   1350    644    754    621    740      0    902   7950
+Cmd  79:   1350    184   1434    621   1420      0    902   7950
+Cmd  80:   1560      0      0      0      0      0   9900      0
+Cmd  81:    159     44     20      0      0      0   1854      0
+Cmd  82:   1516    203   1213   1200    460      0   1859  18660
+Cmd  83:   1516    203   1233   1220    460      0   1859  18660
+Cmd  84:   1516    203      0      0      0      0   1912      0
+Cmd  85:   1518      0      0      0      0      0   1835      0
+Cmd  86:   1350    204   1134    194    621   1120    902   7950
+Cmd  87:   1350    204    494    621    480      0    902   7950
+Cmd  88:    161     82     48    120    960      0   1854   7950
+Cmd  89:   1350    621      0      0      0      0    907      0
+Cmd  90:   1525    442    440      0      0      0   7812      0
+Cmd  91:   1525    462    460      0      0      0   7812      0
+Cmd  92:   1525    482    480      0      0      0   7812      0
+Cmd  93:   1524   1162    129   1160      0      0   7812   3211
+Cmd  94:   1524   1162   1160      0      0      0   7812      0
+Cmd  95:   1524   1362   1360      0      0      0   7812      0
+Cmd  96:   1554    702    149    700      0      0   7812   3211
+Cmd  97:   1554    702    700      0      0      0   7812      0
+Cmd  98:   1555    682     69    680      0      0   7812   3211
+Cmd  99:   1555    682    680      0      0      0   7812      0
+Cmd 100:   1556    642     89      0      0      0   7812   3211
+Cmd 101:   1556    642    640      0      0      0   7812      0
+Cmd 102:   3347    222    609      0      0      0  17065      0
+Cmd 103:  11100    120      0      0      0      0   1888  12450
+Cmd 104:   1572   1422   1420      0      0      0   7812      0
+Cmd 105:   1572   1482   1480   1460      0      0   1859  11100
+Cmd 106:   2566    262    260    720      0      0  12936  10909
+Cmd 107:    197    724      0      0      0      0   1838   9150
+Cmd 108:   2609     24    321    208      0      0   5967  13273
+Cmd 109:      0      0      0      0      0      0  13312  19111
+Cmd 110:   2609     24    321    228      0      0   5967  13273
+Cmd 111:      0      0      0      0      0      0  13240   9150
+Cmd 112:   2609     24    321    248      0      0   5967  13273
+Cmd 113:      0     40   1040      0      0      0  13272  17463
+Cmd 114:   2609     24    321      0      0      0   5938  10950
+Cmd 115:      0      0      0      0      0      0  13318  19111
+Cmd 116:   9150    444    305    300      0      0   1817    353
+Cmd 117:   2623   1063    104   1060     40    600   8378   8759
+Cmd 118:   2623   1063     84   1060     80    560   8378   8759
+Cmd 119:   2623   1063     64   1060    120      0   8378   8773
+Cmd 120:      0     60    140    580      0      0   8758   8850
+Cmd 121:   7350    580      0      0      0      0   6658  13200
+Cmd 122:   9045    604      0      0      0      0   1861      0
+Cmd 123:    217    124   1562    100     80      0   1854   7950
+Cmd 124:    187   1562    124    100     80      0   8153      0
+Cmd 125:    196    124    560      0      0      0   1854      0
+Cmd 126:    161     82     49      0      0      0   1888  18419
+Cmd 127:    164    124    240      0      0      0   1854      0
+Cmd 128:    168    962      0      0      0      0   1827   9150
+Cmd 129:    194    144    180      0      0      0   1854      0
+Cmd 130:    173    204    220    160    220      0   1854   8753
+Cmd 131:    182    284    300      0      0      0   1854      0
+Cmd 132:    183    284    340      0      0      0   1854      0
+Cmd 133:    184    242    284    320    240    220   1854   8003
+Cmd 134:   1505    584    560      0      0      0   1854      0
+Cmd 135:   2459    321    208      0      0      0  18900      0
+Cmd 136:   2459    321    228      0      0      0  18900      0
+Cmd 137:   2459    321    248      0      0      0  18900      0
+Cmd 138:   2459    222    321    209    249    220   1858      0
+Cmd 139:   2459    962    321    229    249    200   1858      0
+Cmd 140:   2459    942    321    209    229    240   1858      0
+Cmd 141:   2716    201    200      0      0      0   1853      0
+Cmd 142:   7818    321    228      0      0      0   1861      0
+Cmd 143:   2725    441    440      0      0      0   1853      0
+Cmd 144:   2725    461    460      0      0      0   1853      0
+Cmd 145:   2725    481    480      0      0      0   1853      0
+Cmd 146:   2724   1161      0      0      0      0    450      0
+Cmd 147:   2724   1361      0      0      0      0    450      0
+Cmd 148:   2772   1461      0      0      0      0    450      0
+Cmd 149:   3314    124      0      0      0      0   3750      0
+Cmd 150:   3324   1363      0      0      0      0   2850      0
+Cmd 151:   3324   1163      0      0      0      0   4500      0
+Cmd 152:   3325    483      0      0      0      0   1200      0
+Cmd 153:   3325    463      0      0      0      0   1200      0
+Cmd 154:   3325    443      0      0      0      0   1200      0
+Cmd 155:   3328    262      0      0      0      0   2250      0
+Cmd 156:   3335    203      0      0      0      0   1500      0
+Cmd 157:   3338    502      0      0      0      0   4950      0
+Cmd 158:   3338   1242      0      0      0      0   4950      0
+Cmd 159:   3340    444    334    320      0      0    902   7950
+Cmd 160:   3341   1023    414    400      0      0    902   7950
+Cmd 161:   3343    902      0      0      0      0   2700      0
+Cmd 162:   3348    863      0      0      0      0  18450      0
+Cmd 163:   3354    701    244    448   1294      0   2458      0
+Cmd 164:   3354    701    244    568   1314    100   2458      0
+Cmd 165:   3354    701    244    408   1334     20   2458      0
+Cmd 166:   3353    983    474    460      0      0    902   7950
+Cmd 167:   3359    323    208      0      0      0  17064      0
+Cmd 168:   3359    323    228      0      0      0  17065      0
+Cmd 169:   3359    323    248      0      0      0  17065      0
+Cmd 170:    173    684    913      0      0      0   1888   4319
+Cmd 171:    173    684    700      0      0      0   1854      0
+Cmd 172:   1562    502   1265      0      0      0   5100      0
+Cmd 173:   1562   1242   1265      0      0      0   5100      0
+Cmd 174:   1562   1262   1260      0      0      0   7812      0
+Cmd 175:   4050    124   1342      0      0      0  18900      0
+Cmd 176:   4054    124    348    683    340    400   1888   9058
+Cmd 177:   4053    124    348    683    340    540   1888   9058
+Cmd 178:   4052    124    348    683    340    440   1888   9058
+Cmd 179:   4053    124    408    683    400    340   1888   9058
+Cmd 180:   4052    124    408    683    400    420   1888   9058
+Cmd 181:   4051    124    428    683    420    400   1888   9058
+Cmd 182:   4053    124    428    683    420    440   1888   9058
+Cmd 183:   4051    124    448    683    440    340   1888   9058
+Cmd 184:   4054    124    448    683    440    420   1888   9058
+Cmd 185:   4053    124    548    683    540    560   1888   9058
+Cmd 186:   4054    124    548    683    540    340   1888   9058
+Cmd 187:   4054    124    568    683    560    540   1888   9058
+Cmd 188:   4050    124    692      0      0      0   3000      0
+Cmd 189:   4388    502      0      0      0      0    600      0
+Cmd 190:   4388   1242    404   1240    980    380   8855   9300
+Cmd 191:   4388      0      0      0      0      0  16800      0
+Cmd 192:   4350      0      0      0      0      0   5250      0
+Cmd 193:   9970   1461   1460      0      0      0   1853      0
+Cmd 194:   2757    521    520    520   1080      0   8022   3373
+Cmd 195:      0    426    280      0      0      0  13258  10950
+Cmd 196:      0    902    900   1380      0      0  13272      0
+Cmd 197:   4991    823    741    820   1020      0   1872      0
+Cmd 198:   5302   1123    383    329   1120    180   1872      0
+Cmd 199:   5700      0      0      0      0      0  18900      0
+Cmd 200:   4991    823      0      0      0      0  18929      0
+Cmd 201:   6150      0      0      0      0      0  19021      0
+Cmd 202:   6509    321    209    229    249      0  16800      0
+Cmd 203:   6618    321      0      0      0      0  18750      0
+Cmd 204:   3347    222    608    600    520      0    902   9053
+Cmd 205:   6972   1442   1482   1440   1480      0   8909  19500
+Cmd 206:   6972   1442   1440   1460   1420      0   8305   7962
+Cmd 207:   7102    183    180   1120      0      0   1872      0
+Cmd 208:   7248    863      0      0      0      0  16500      0
+Cmd 209:   7556    641    666    660      0      0   1874      0
+Cmd 210:   7558    401    426    420      0      0   1874   1650
+Cmd 211:   1572   1462   1460      0      0      0   1874      0
+Cmd 212:   7706    661    660      0      0      0   1855      0
+Cmd 213:   7708    421    420      0      0      0   1855      0
+Cmd 214:   6509    321    200    220    240      0   1860   9060
+Cmd 215:   9970   1161   1160   1160    600    760   1853   9353
+Cmd 216:   2766    124    142   1340    140    380   1872   8700
+Cmd 217:   8161    284   1363    240      0      0   1885   5603
+Cmd 218:   8100      0      0      0      0      0   1885  16800
+Cmd 219:   8700      0      0      0      0      0   6213      0
+Cmd 220:   8850      0      0      0      0      0   9900      0
+Cmd 221:  10805    404    420      0      0      0   1854      0
+Cmd 222:  10806    404    380      0      0      0   1854      0
+Cmd 223:  10416    124   1342   1340    140    380   1872   9000
+Cmd 224:   9372   1421      0      0      0      0   1803      0
+Cmd 225:   9519    604   1423   1440   1460   1420   1853  10800
+Cmd 226:   2772   1421   1420      0      0      0   1853      0
+Cmd 227:   9970   1361   1360      0      0      0   1853      0
+Cmd 228:  10247   1161    224   1160      0      0   1859  19650
+Cmd 229:  10247   1361    324   1360      0      0   1859  19650
+Cmd 230:   9611     82   1061     49     40      0   1858      0
+Cmd 231:   9656    642   1061     89     80      0   1858      0
+Cmd 232:   9655    682   1061     69     60      0   1858      0
+Cmd 233:   9654    702   1061    149    140      0   1858      0
+Cmd 234:   9624   1162   1061    129    120      0   1858      0
+Cmd 235:    184    242    324    280    240    160   1854   8010
+Cmd 236:    186    384    400      0      0      0   8100      0
+Cmd 237:    186    424    400      0      0      0   8100      0
+Cmd 238:    186    404      0      0      0      0  18450      0
+Cmd 239:   7950      0      0      0      0      0  18900      0
+Cmd 240:  10245   1461   1460   1480      0      0   1859   7950
+Cmd 241:   9150      0      0      0      0      0   1912      0
+Cmd 242:  10247   1161    324   1160    160      0   1862  19650
+Cmd 243:  10247   1361    224   1360    160      0   1862  19650
+Cmd 244:   7818    321    208    200      0      0   1860  19800
+Cmd 245:   7818    321    248    240      0      0   1860      0
+Cmd 246:   3347    724      0      0      0      0  17065      0
+Cmd 247:   3300      0      0      0      0      0  11414      0
+Cmd 248:   2758    401    400    420      0      0   1853   8250
+Cmd 249:   4050    124      0      0      0      0   1888      0
+Cmd 250:   2756    641    640    660      0      0   1853   8250
+Cmd 251:   2756    641      0      0      0      0      0      0
+Cmd 252:   1539   1102      0      0      0      0  19926      0
+Cmd 253:    199    564    580      0      0      0   1854      0
+
+Verb  0: AUTO   Noun  0: ANY
+Verb  1: GO     Noun  1: NORTH
+Verb  2: *PROC  Noun  2: SOUTH
+Verb  3: *RIDE  Noun  3: EAST
+Verb  4: *RUN   Noun  4: WEST
+Verb  5: *CLIM  Noun  5: UP
+Verb  6: *ENTE  Noun  6: DOWN
+Verb  7: *EXIT  Noun  7: KING
+Verb  8: SAVE   Noun  8: GUAR
+Verb  9: DIG    Noun  9: PALA
+Verb 10: TAKE   Noun 10: MERC
+Verb 11: *GET   Noun 11: SHIP
+Verb 12: *CARR  Noun 12: *BOAT
+Verb 13: *GRAB  Noun 13: *ABOA
+Verb 14: *HOLD  Noun 14: MAST
+Verb 15: *STEA  Noun 15: SAIL
+Verb 16: FILL   Noun 16: MEDI
+Verb 17: GIVE   Noun 17: AROU
+Verb 18: DROP   Noun 18: OCEA
+Verb 19: *LOWE  Noun 19: *WATE
+Verb 20: *PUT   Noun 20: *LIQU
+Verb 21: *THRO  Noun 21: PASS
+Verb 22: EXAM   Noun 22: HALL
+Verb 23: *STUD  Noun 23: CAVE
+Verb 24: *LOOK  Noun 24: TABL
+Verb 25: *SEE   Noun 25: STON
+Verb 26: *WATC  Noun 26: SKEL
+Verb 27: SAIL   Noun 27: *BONE
+Verb 28: *NAVI  Noun 28: MAN
+Verb 29: PUSH   Noun 29: FLIN
+Verb 30: *SHOV  Noun 30: *STEE
+Verb 31: *MOVE  Noun 31: SHOV
+Verb 32: *SHAK  Noun 32: HUT
+Verb 33: OPEN   Noun 33: MOUN
+Verb 34: *UNLO  Noun 34: CREV
+Verb 35: LIGH   Noun 35: BOX
+Verb 36: *IGNI  Noun 36: STAI
+Verb 37: *BURN  Noun 37: CITY
+Verb 38: BREA   Noun 38: STAT
+Verb 39: *DEST  Noun 39: SCOR
+Verb 40: *SMAS  Noun 40: ALTA
+Verb 41: ATTA   Noun 41: CHES
+Verb 42: *KILL  Noun 42: KEY
+Verb 43: EMPT   Noun 43: CYCL
+Verb 44: POUR   Noun 44: JUNG
+Verb 45: *SPIL  Noun 45: PIT
+Verb 46: UNTI   Noun 46: CABI
+Verb 47: UNLI   Noun 47: FOUN
+Verb 48: READ   Noun 48: NOTE
+Verb 49: SLEE   Noun 49: COT
+Verb 50: WEAR   Noun 50: MARK
+Verb 51: REMO   Noun 51: BLOC
+Verb 52: DRIN   Noun 52: TORC
+Verb 53: HELP   Noun 53: RUBB
+Verb 54: SAY    Noun 54: TELE
+Verb 55: *SCRE  Noun 55: COMP
+Verb 56: *YELL  Noun 56: SAND
+Verb 57: *HOLL  Noun 57: GLOB
+Verb 58: QUIT   Noun 58: MASK
+Verb 59: INVE   Noun 59: CHAL
+Verb 60: JUMP   Noun 60: INVE
+Verb 61: PRAY   Noun 61: SUN
+Verb 62: TIE    Noun 62: SWOR
+Verb 63: TO     Noun 63: STRA
+Verb 64: BUY    Noun 64: BEAC
+Verb 65: *PURC  Noun 65: ISLA
+Verb 66: ON     Noun 66: ANCH
+Verb 67: *AT    Noun 67: ASHO
+Verb 68: IN     Noun 68: GAME
+Verb 69: RAIS   Noun 69: STAL
+Verb 70: *LIFT  Noun 70: GROU
+Verb 71: *WEIG  Noun 71: *FLOO
+Verb 72: STEP   Noun 72: ROPE
+Verb 73: *WALK  Noun 73: BAG
+Verb 74: WAIT   Noun 74: *GOLD
+
+Room  0: 
+
+Room  1: Royal palace
+         E:     2
+
+Room  2: Persian city
+         S:     3
+
+Room  3: Persian city
+         N:     2
+         E:     4
+         W:     5
+
+Room  4: Persian city
+         W:     3
+
+Room  5: *I am at a Persian bay
+         E:     3
+
+Room  6: *I am on a large ship
+
+Room  7: *I'm on a sandy beach
+
+Room  8: 
+
+Room  9: dense jungle
+         N:    10
+         S:     9
+         E:     9
+         W:     7
+
+Room 10: dense jungle
+         N:    10
+         S:     9
+         E:    10
+         W:    10
+
+Room 11: damp cave
+         W:    10
+
+Room 12: crow's-nest
+         D:     6
+
+Room 13: *I'm on a small island
+         N:    14
+         W:    18
+
+Room 14: *I'm on a small island
+         S:    13
+
+Room 15: grass hut
+         E:    14
+
+Room 16: dark cavern
+
+Room 17: *I'm on a mountain
+         D:    14
+
+Room 18: *I'm on a small island
+         E:    13
+
+Room 19: *I'm on a rocky strand
+         S:    32
+
+Room 20: *I'm on a long staircase
+
+Room 21: sacred temple
+         W:    22
+
+Room 22: sacred temple
+         N:    25
+         E:    21
+
+Room 23: hidden chamber
+         N:    22
+         W:    24
+
+Room 24: hidden chamber
+         E:    23
+
+Room 25: sacred temple
+         S:    22
+
+Room 26: 
+
+Room 27: musty hallway
+         N:    23
+         E:    30
+
+Room 28: small cabin
+         U:     6
+
+Room 29: cozy cot
+
+Room 30: damp grotto
+         W:    27
+
+Room 31: 
+
+Room 32: *I'm on a grassy plain
+         N:    19
+
+Room 33: deep pit
+         S:    34
+
+Room 34: deep pit
+         N:    33
+
+Room 35: *I'm in an enormous cave
+         N:    34
+         W:    36
+
+Room 36: *I'm in an enormous cave
+         E:    35
+
+Room 37: LOT OF TROUBLE!
+
+Msg   0: 
+Msg   1: Welcome to Adventure 12: `THE GOLDEN VOYAGE`\\by William Demas & Scott Adams\\Dedicated: British band `QUEEN`
+Msg   2: something!
+Msg   3: Where?
+Msg   4: Something rattles
+Msg   5: Statue topples down the stairs
+Msg   6: I found
+Msg   7: nothing.
+Msg   8: Appears to be broken, with strange markings
+Msg   9: The stones mysteriously unite!
+Msg  10: Contains medicine
+Msg  11: Everything looks grey
+Msg  12: OK
+Msg  13: OUCH!
+Msg  14: I see nothing special
+Msg  15: He's been stung by scorpions
+Msg  16: LAND HO!
+Msg  17: I hear
+Msg  18: One great big EYE has a focus in my direction!
+Msg  19: Picture of a mountain and the word `SUN`
+Msg  20: I can't tell which way that is!
+Msg  21: Merchant calls me a thief and slits my throat!
+Msg  22: There's a tremendous flash of light!
+Msg  23: I'm blind!
+Msg  24: He gives a great big CRY
+Msg  25: High atop mast is a crow's-nest
+Msg  26: KING: I have been given only 3 days to live. You must seek for\\a way to restore my vitality. The gold is yours. Go now!
+Msg  27: OH NO! I can't swim!
+Msg  28: Cyclops
+Msg  29: It's locked
+Msg  30: Picture of a cave
+Msg  31: grabs me and eats me alive!
+Msg  32: Statue comes to life!
+Msg  33: It holds a sword
+Msg  34: Sorry, it won't BUDGE!
+Msg  35: Tell me how?
+Msg  36: MAN: I'm afraid it's too late for me. Appeal to the\\Gods for help!
+Msg  37: The ground shakes violently!
+Msg  38: I've desecrated the holy fountain.\\I'm struck down by a THUNDERBOLT!
+Msg  39: King grabs it,
+Msg  40: and DIES! Guards have me beheaded
+Msg  41: I have failed my mission
+Msg  42: It's getting dark!
+Msg  43: Morning! I have
+Msg  44: Goodnight
+Msg  45: 2 days
+Msg  46: 1 day
+Msg  47: left to complete my mission
+Msg  48: The sun has set
+Msg  49: Night air is COLD!\\I catch pneumonia and die
+Msg  50: failed my mission
+Msg  51: I'm in great PAIN!
+Msg  52: My body has become infected
+Msg  53: Statue follows me
+Msg  54: Statue swings its sword
+Msg  55: It missed me!
+Msg  56: I've been cut in two!
+Msg  57: I fend off its attack.
+Msg  58: I'm lynched by angry mourners.\\Their King is dead. (AND SO AM I)!!
+Msg  59: Man is dead!
+Msg  60: Get your copy of `FROG` from Adventure International today!
+Msg  61: Ship drifts away
+Msg  62: Nothing happens
+Msg  63: It's full of
+Msg  64: water
+Msg  65: a strange liquid
+Msg  66: and transforms into a young man. CONGRATULATIONS!!\\Mission accomplished.
+Msg  67: drinks the liquid,
+Msg  68: and yells `It's EMPTY!`.
+Msg  69: won't let me
+Msg  70: Cyclops staggers and steps on me!
+Msg  71: I'll only defend myself
+Msg  72: Merchant
+Msg  73: Please be more specific
+Msg  74: I feel much better
+Msg  75: Empty?
+Msg  76: Sorry
+Msg  77: He has me executed
+Msg  78: Surprised merchant grabs it and runs like a thief!
+Msg  79: Statue attacks while I sleep!
+Msg  80: Rope slides into pit
+Msg  81: PLOOSH
+Msg  82: YUCK!
+
+Item  0: Loc:  0 - 
+Item  1: Loc:  1 - Palace guards
+Item  2: Loc:  1 - Aged King
+Item  3: Loc:  2 - Palace
+Item  4: Loc:  5 - Large ship
+Item  5: Loc:  6 - Mast
+Item  6: Loc:  6 - Sail
+Item  7: Loc:  0 - Anchor
+Item  8: Loc: 13 - Skeleton/SKEL/
+Item  9: Loc:  0 - Lit torch/TORC/
+Item 10: Loc: 15 - Old box/BOX/
+Item 11: Loc: 11 - Strange fountain
+Item 12: Loc:  0 - Crevice
+Item 13: Loc:  7 - Man
+Item 14: Loc:  7 - Jungle
+Item 15: Loc:  0 - Hidden passage
+Item 16: Loc:  0 - Gold chalice/CHAL/
+Item 17: Loc: 10 - Cave
+Item 18: Loc: 19 - Long staircase
+Item 19: Loc: 20 - Flint & steel/FLIN/
+Item 20: Loc:  0 - Gold mask/MASK/
+Item 21: Loc:  0 - I'm wearing it
+Item 22: Loc: 24 - Small stone
+Item 23: Loc:  0 - Small stone
+Item 24: Loc:  0 - Small stone
+Item 25: Loc: 19 - Stone Goddess
+Item 26: Loc:  0 - White globe/GLOB/
+Item 27: Loc: 14 - Grass hut
+Item 28: Loc:  4 - Merchant
+Item 29: Loc:  3 - Merchant
+Item 30: Loc:  5 - Merchant
+Item 31: Loc: 18 - Shovel/SHOV/
+Item 32: Loc:  4 - Sandals/SAND/
+Item 33: Loc:  0 - I'm wearing them
+Item 34: Loc:  3 - Compass/COMP/
+Item 35: Loc:  3 - Telescope/TELE/
+Item 36: Loc:  0 - Dead man
+Item 37: Loc:  0 - Key/KEY/
+Item 38: Loc:  0 - Pile of rubble/RUBB/
+Item 39: Loc: 14 - Mountain
+Item 40: Loc: 23 - Stone block
+Item 41: Loc: 25 - Ornate chest/CHES/
+Item 42: Loc: 28 - Cot
+Item 43: Loc: 29 - Note/NOTE/
+Item 44: Loc: 30 - Deep pit
+Item 45: Loc: 34 - Cyclops
+Item 46: Loc: 34 - Cave
+Item 47: Loc: 36 - Magnificent fountain
+Item 48: Loc:  5 - Ocean
+Item 49: Loc:  0 - Pile of rubble/RUBB/
+Item 50: Loc:  0 - 
+Item 51: Loc:  0 - Open chest/CHES/
+Item 52: Loc:  0 - Youthful King
+Item 53: Loc:  8 - Bag of gold/BAG/
+Item 54: Loc:  0 - Broken globe
+Item 55: Loc:  0 - Scorpions
+Item 56: Loc:  0 - Torch/TORC/
+Item 57: Loc:  0 - Crowd of mourners
+Item 58: Loc:  3 - Stone tablet
+Item 59: Loc: 22 - Altar
+Item 60: Loc:  0 - Scorpion stings
+Item 61: Loc:  0 - Festering scorpion stings
+Item 62: Loc:  0 - Animated statue
+Item 63: Loc: 17 - Sword/SWOR/
+Item 64: Loc:  0 - Rocky strand
+Item 65: Loc:  0 - Sandy beach
+Item 66: Loc:  0 - Small island
+Item 67: Loc:  6 - Ship is anchored
+Item 68: Loc: 36 - Stone tablet
+Item 69: Loc:  0 - Blind cyclops
+Item 70: Loc: 30 - Stalagmite
+Item 71: Loc:  0 - Rope
+Item 72: Loc:  0 - Rope tied to stalagmite
+Item 73: Loc:  0 - Other end of the rope
+Item 74: Loc:  0 - Rope leading down into pit
+Item 75: Loc: 33 - Rope leading out of the pit
+Item 76: Loc:  0 - Dark hallway
+Item 77: Loc:  6 - Cabin
+Item 78: Loc:  0 - Persian city
+Item 79: Loc: 21 - Long staircase
+
+Version         = 184
+AdventureNumber = 12
+MagicNumber     = 769
+
+Cmd   0 |     0   100 |    9  31   0   3   0  19   0   0   0   0 |    1  79  58  73 |
+                 100% | IF FLAG(31)=FALSE
+                      | MESSAGE 1="Welcome to Adventure 12: `T..."
+                      | SET COUNTER=3
+                      | SET FLAG(19)=TRUE
+                      | CONTINUE_NEXT_LINE
+Cmd   1 |     0     0 |    0   0   0 215   0  31   0  17   0   0 |   81  79  58  58 |
+            continued | SWAP COUNTER WITH COUNTER(0)
+                      | SET COUNTER=215
+                      | SET FLAG(31)=TRUE
+                      | SET FLAG(17)=TRUE
+Cmd   2 |     0   100 |    0   0   0   0   0   0   0   0   0   0 |   77   0   0   0 |
+                 100% | DECREMENT_COUNTER
+Cmd   3 |     0   100 |    2   4   0  48   0   0   0   0   0   0 |   53   0   0   0 |
+                 100% | IF HERE(4="Large ship")
+                      | DROP 48="Ocean"
+Cmd   4 |     0   100 |   19   0   0   0   0   0   0   0   0   0 |   48   0   0   0 |
+                 100% | IF EQ(COUNTER,0)
+                      | MESSAGE 48="The sun has set"
+Cmd   5 |     0   100 |   12   9  15   0   0   0   0   0   0   0 |   56   0   0   0 |
+                 100% | IF NOT HERECARRY(9="Lit torch")
+                      | IF LE(COUNTER,0)
+                      | SET DARK=TRUE
+Cmd   6 |     0   100 |    8  14   0  16   0   0   0   0   0   0 |   58  56  64  23 |
+                 100% | IF FLAG(14)=TRUE
+                      | SET FLAG(16)=TRUE
+                      | SET DARK=TRUE
+                      | LOOK
+                      | MESSAGE 23="I'm blind!"
+Cmd   7 |     0   100 |    4  22   9  14   0   8   0   0   0   0 |   60   0   0   0 |
+                 100% | IF ISROOM(22="sacred temple")
+                      | IF FLAG(14)=FALSE
+                      | SET FLAG(8)=FALSE
+Cmd   8 |     0   100 |    3   9   8  16   0   9   0  56   0   0 |   72   0   0   0 |
+                 100% | IF HERECARRY(9="Lit torch")
+                      | IF FLAG(16)=TRUE
+                      | SWAP ITEMS 9="Lit torch" AND 56="Torch"
+Cmd   9 |     0   100 |    8  29  13  62   4  29   0  29   0  62 |  129  60  61  55 |
+                 100% | IF FLAG(29)=TRUE
+                      | IF SOMEWHERE(62="Animated statue")
+                      | IF ISROOM(29="cozy cot")
+                      | MESSAGE 79="Statue attacks while I sleep!"
+                      | SET FLAG(29)=FALSE
+                      | DEAD
+                      | DESTROY 62="Animated statue"
+Cmd  10 |     0   100 |    3   9   9  14   0   0   0   0   0   0 |   57   0   0   0 |
+                 100% | IF HERECARRY(9="Lit torch")
+                      | IF FLAG(14)=FALSE
+                      | SET DARK=FALSE
+Cmd  11 |     0   100 |    8  29   0   0   0   0   0   0   0   0 |   88  73   0   0 |
+                 100% | IF FLAG(29)=TRUE
+                      | SLEEP 2 SECONDS
+                      | CONTINUE_NEXT_LINE
+Cmd  12 |     0     0 |    7  29   0   0   0   0   0   0   0   0 |   49  61  41  63 |
+            continued | IF NOT ISROOM(29)
+                      | MESSAGE 49="Night air is COLD!"
+                      | DEAD
+                      | MESSAGE 41="I have failed my mission"
+                      | QUIT
+Cmd  13 |     0   100 |    8  29   0   0   0   0   0   0   0   0 |   88  57  73   0 |
+                 100% | IF FLAG(29)=TRUE
+                      | SLEEP 2 SECONDS
+                      | SET DARK=FALSE
+                      | CONTINUE_NEXT_LINE
+Cmd  14 |     0     0 |    0 215   0   0   0   1   0   0   0   0 |   79  81  83  43 |
+            continued | SET COUNTER=215
+                      | SWAP COUNTER WITH COUNTER(0)
+                      | SUBTO COUNTER 1
+                      | MESSAGE 43="Morning! I have"
+Cmd  15 |     0   100 |    8  29  19   2   0  29   0   0   0   0 |   45  47  60  81 |
+                 100% | IF FLAG(29)=TRUE
+                      | IF EQ(COUNTER,2)
+                      | MESSAGE 45="2 days"
+                      | MESSAGE 47="left to complete my mission"
+                      | SET FLAG(29)=FALSE
+                      | SWAP COUNTER WITH COUNTER(0)
+Cmd  16 |     0   100 |    8  29  19   1   0  29   0   0   0   0 |   46  47  60  81 |
+                 100% | IF FLAG(29)=TRUE
+                      | IF EQ(COUNTER,1)
+                      | MESSAGE 46="1 day"
+                      | MESSAGE 47="left to complete my mission"
+                      | SET FLAG(29)=FALSE
+                      | SWAP COUNTER WITH COUNTER(0)
+Cmd  17 |     0   100 |    8  29  15   0   0   0   0  57   0   2 |   50  81  62   0 |
+                 100% | IF FLAG(29)=TRUE
+                      | IF LE(COUNTER,0)
+                      | MESSAGE 50="failed my mission"
+                      | SWAP COUNTER WITH COUNTER(0)
+                      | SEND 57="Crowd of mourners" TO 2="Persian city"
+Cmd  18 |     0    50 |    6  33   6  61   6  60   3  55   0  60 |   13  74  73   0 |
+                  50% | IF NOT CARRY(33="I'm wearing them")
+                      | IF NOT CARRY(61="Festering scorpion stings")
+                      | IF NOT CARRY(60="Scorpion stings")
+                      | IF HERECARRY(55="Scorpions")
+                      | MESSAGE 13="OUCH!"
+                      | TAKE_NOCHECK 60="Scorpion stings"
+                      | CONTINUE_NEXT_LINE
+Cmd  19 |     0     0 |    0   3   0  10   0   3   0  23   0   0 |   81  79  81  58 |
+            continued | SWAP COUNTER WITH COUNTER(3)
+                      | SET COUNTER=10
+                      | SWAP COUNTER WITH COUNTER(3)
+                      | SET FLAG(23)=TRUE
+Cmd  20 |     0   100 |    8  23   0   3   0   0   0   0   0   0 |   81  77  73   0 |
+                 100% | IF FLAG(23)=TRUE
+                      | SWAP COUNTER WITH COUNTER(3)
+                      | DECREMENT_COUNTER
+                      | CONTINUE_NEXT_LINE
+Cmd  21 |     0     0 |   19   5   0  60   0  61   0   3   0   0 |   51  72  73   0 |
+            continued | IF EQ(COUNTER,5)
+                      | MESSAGE 51="I'm in great PAIN!"
+                      | SWAP ITEMS 60="Scorpion stings" AND 61="Festering scorpion stings"
+                      | CONTINUE_NEXT_LINE
+Cmd  22 |     0     0 |   15   0   0   0   0   0   0   0   0   0 |  102  61  73   0 |
+            continued | IF LE(COUNTER,0)
+                      | MESSAGE 52="My body has become infected"
+                      | DEAD
+                      | CONTINUE_NEXT_LINE
+Cmd  23 |     0     0 |    8  23   0   3   0   0   0   0   0   0 |   81   0   0   0 |
+            continued | IF FLAG(23)=TRUE
+                      | SWAP COUNTER WITH COUNTER(3)
+Cmd  24 |     0   100 |    5  62  13  62   0  62   0   0   0   0 |  103  53   0   0 |
+                 100% | IF NOT HERE(62="Animated statue")
+                      | IF SOMEWHERE(62="Animated statue")
+                      | MESSAGE 53="Statue follows me"
+                      | DROP 62="Animated statue"
+Cmd  25 |     0    45 |    2  62   0  25   0   0   0   0   0   0 |  104  88  88  58 |
+                  45% | IF HERE(62="Animated statue")
+                      | MESSAGE 54="Statue swings its sword"
+                      | SLEEP 2 SECONDS
+                      | SLEEP 2 SECONDS
+                      | SET FLAG(25)=TRUE
+Cmd  26 |     0    40 |   14  62   2  25   0  25   0  62   0   0 |   32  72   0   0 |
+                  40% | IF NOWHERE(62="Animated statue")
+                      | IF HERE(25="Stone Goddess")
+                      | MESSAGE 32="Statue comes to life!"
+                      | SWAP ITEMS 25="Stone Goddess" AND 62="Animated statue"
+Cmd  27 |     0    70 |    8  25   1  63   0  25   0   0   0   0 |  107  60   0   0 |
+                  70% | IF FLAG(25)=TRUE
+                      | IF CARRY(63="Sword")
+                      | MESSAGE 57="I fend off its attack."
+                      | SET FLAG(25)=FALSE
+Cmd  28 |     0    39 |    8  25   0  25   0   0   0   0   0   0 |  106  57  61  60 |
+                  39% | IF FLAG(25)=TRUE
+                      | MESSAGE 56="I've been cut in two!"
+                      | SET DARK=FALSE
+                      | DEAD
+                      | SET FLAG(25)=FALSE
+Cmd  29 |     0   100 |    8  25   0  25   0   0   0   0   0   0 |  105  60   0   0 |
+                 100% | IF FLAG(25)=TRUE
+                      | MESSAGE 55="It missed me!"
+                      | SET FLAG(25)=FALSE
+Cmd  30 |     0    60 |    8  18   2  45   0  26   0   0   0   0 |   24  88  88  58 |
+                  60% | IF FLAG(18)=TRUE
+                      | IF HERE(45="Cyclops")
+                      | MESSAGE 24="He gives a great big CRY"
+                      | SLEEP 2 SECONDS
+                      | SLEEP 2 SECONDS
+                      | SET FLAG(26)=TRUE
+Cmd  31 |     0    45 |    8  26   0   0   0   0   0   0   0   0 |   31  61   0   0 |
+                  45% | IF FLAG(26)=TRUE
+                      | MESSAGE 31="grabs me and eats me alive!"
+                      | DEAD
+Cmd  32 |     0   100 |    8  26   0  26   0   0   0   0   0   0 |   60   0   0   0 |
+                 100% | IF FLAG(26)=TRUE
+                      | SET FLAG(26)=FALSE
+Cmd  33 |     0   100 |    8  29   0  29   0   0   0   0   0   0 |   60   0   0   0 |
+                 100% | IF FLAG(29)=TRUE
+                      | SET FLAG(29)=FALSE
+Cmd  34 |     0   100 |    2  57   0   0   0   0   0   0   0   0 |   88  88 108  73 |
+                 100% | IF HERE(57="Crowd of mourners")
+                      | SLEEP 2 SECONDS
+                      | SLEEP 2 SECONDS
+                      | MESSAGE 58="I'm lynched by angry mourners."
+                      | CONTINUE_NEXT_LINE
+Cmd  35 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |   61  63   0   0 |
+            continued | DEAD
+                      | QUIT
+Cmd  36 |     0   100 |    4   6   0  64   0  65   0  66   0  78 |   59  59  59  59 |
+                 100% | IF ISROOM(6="I am on a large ship")
+                      | DESTROY 64="Rocky strand"
+                      | DESTROY 65="Sandy beach"
+                      | DESTROY 66="Small island"
+                      | DESTROY 78="Persian city"
+Cmd  37 |     0   100 |   14  58  14  68   9   9   0  30   0   9 |   37  58  58  73 |
+                 100% | IF NOWHERE(58="Stone tablet")
+                      | IF NOWHERE(68="Stone tablet")
+                      | IF FLAG(9)=FALSE
+                      | MESSAGE 37="The ground shakes violently!"
+                      | SET FLAG(30)=TRUE
+                      | SET FLAG(9)=TRUE
+                      | CONTINUE_NEXT_LINE
+Cmd  38 |     0     0 |    0  38   0  40   0  76   0  23   0   0 |   72  62 131   0 |
+            continued | SWAP ITEMS 38="Pile of rubble" AND 40="Stone block"
+                      | SEND 76="Dark hallway" TO 23="hidden chamber"
+                      | MESSAGE 81="PLOOSH"
+Cmd  39 |     0    45 |    9   6   2  69   0   0   0   0   0   0 |  120  61   0   0 |
+                  45% | IF FLAG(6)=FALSE
+                      | IF HERE(69="Blind cyclops")
+                      | MESSAGE 70="Cyclops staggers and steps..."
+                      | DEAD
+Cmd  40 |     0   100 |   13  69   0   6   0   0   0   0   0   0 |   60   0   0   0 |
+                 100% | IF SOMEWHERE(69="Blind cyclops")
+                      | SET FLAG(6)=FALSE
+Cmd  41 |     0   100 |    2  22   2  23   2  24   0  22   0  23 |    9  59  59  73 |
+                 100% | IF HERE(22="Small stone")
+                      | IF HERE(23="Small stone")
+                      | IF HERE(24="Small stone")
+                      | MESSAGE 9="The stones mysteriously unite!"
+                      | DESTROY 22="Small stone"
+                      | DESTROY 23="Small stone"
+                      | CONTINUE_NEXT_LINE
+Cmd  42 |     0     0 |    0  24   0  68   0   0   0   0   0   0 |   59  53   0   0 |
+            continued | DESTROY 24="Small stone"
+                      | DROP 68="Stone tablet"
+Cmd  43 |     0   100 |   12   9   8   8   0   0   0   0   0   0 |   56  64   0   0 |
+                 100% | IF NOT HERECARRY(9="Lit torch")
+                      | IF FLAG(8)=TRUE
+                      | SET DARK=TRUE
+                      | LOOK
+Cmd  44 |     0   100 |   15  10  16   0   0   0   0   0   0   0 |   42   0   0   0 |
+                 100% | IF LE(COUNTER,10)
+                      | IF GE(COUNTER,0)
+                      | MESSAGE 42="It's getting dark!"
+Cmd  45 |     0   100 |    4  16  12   9   0   0   0   0   0   0 |   56  64   0   0 |
+                 100% | IF ISROOM(16="dark cavern")
+                      | IF NOT HERECARRY(9="Lit torch")
+                      | SET DARK=TRUE
+                      | LOOK
+Cmd  46 |     0   100 |    4  14  16   0   9  14   0   0   0   0 |   57  64   0   0 |
+                 100% | IF ISROOM(14="on a small island")
+                      | IF GE(COUNTER,0)
+                      | IF FLAG(14)=FALSE
+                      | SET DARK=FALSE
+                      | LOOK
+Cmd  47 |     0    60 |    9  19   2   4   0   4   0   0   0   0 |  111  55   0   0 |
+                  60% | IF FLAG(19)=FALSE
+                      | IF HERE(4="Large ship")
+                      | MESSAGE 61="Ship drifts away"
+                      | DESTROY 4="Large ship"
+Cmd  48 |     0   100 |    8   0   4   6   8  22   0  64   0   0 |   53   0   0   0 |
+                 100% | IF FLAG(0)=TRUE
+                      | IF ISROOM(6="I am on a large ship")
+                      | IF FLAG(22)=TRUE
+                      | DROP 64="Rocky strand"
+Cmd  49 |     0   100 |   12   9   8  15   0   0   0   0   0   0 |   56  64   0   0 |
+                 100% | IF NOT HERECARRY(9="Lit torch")
+                      | IF FLAG(15)=TRUE
+                      | SET DARK=TRUE
+                      | LOOK
+Cmd  50 |     0   100 |    4  37   0   0   0   0   0   0   0   0 |   57  64  41  63 |
+                 100% | IF ISROOM(37="LOT OF TROUBLE!")
+                      | SET DARK=FALSE
+                      | LOOK
+                      | MESSAGE 41="I have failed my mission"
+                      | QUIT
+Cmd  51 |     0   100 |    8   0   4  12   8  22   0  64   0   0 |   53   0   0   0 |
+                 100% | IF FLAG(0)=TRUE
+                      | IF ISROOM(12="crow's-nest")
+                      | IF FLAG(22)=TRUE
+                      | DROP 64="Rocky strand"
+Cmd  52 |     0   100 |    8   1   4   6   8  20   0  66   0   0 |   53   0   0   0 |
+                 100% | IF FLAG(1)=TRUE
+                      | IF ISROOM(6="I am on a large ship")
+                      | IF FLAG(20)=TRUE
+                      | DROP 66="Small island"
+Cmd  53 |     0   100 |    8   1   4  12   8  20   0  66   0   0 |   53   0   0   0 |
+                 100% | IF FLAG(1)=TRUE
+                      | IF ISROOM(12="crow's-nest")
+                      | IF FLAG(20)=TRUE
+                      | DROP 66="Small island"
+Cmd  54 |     0   100 |    8   5   4   6   8  28   0  65   0   0 |   53   0   0   0 |
+                 100% | IF FLAG(5)=TRUE
+                      | IF ISROOM(6="I am on a large ship")
+                      | IF FLAG(28)=TRUE
+                      | DROP 65="Sandy beach"
+Cmd  55 |     0   100 |    8   5   4  12   8  28   0  65   0   0 |   53   0   0   0 |
+                 100% | IF FLAG(5)=TRUE
+                      | IF ISROOM(12="crow's-nest")
+                      | IF FLAG(28)=TRUE
+                      | DROP 65="Sandy beach"
+Cmd  56 |     0   100 |    9  15   9  14   0   0   0   0   0   0 |   57  64   0   0 |
+                 100% | IF FLAG(15)=FALSE
+                      | IF FLAG(14)=FALSE
+                      | SET DARK=FALSE
+                      | LOOK
+Cmd  57 |     0   100 |    4  10  16   0   9  14   0   8   0   0 |   57  64  60   0 |
+                 100% | IF ISROOM(10="dense jungle")
+                      | IF GE(COUNTER,0)
+                      | IF FLAG(14)=FALSE
+                      | SET DARK=FALSE
+                      | LOOK
+                      | SET FLAG(8)=FALSE
+Cmd  58 |     0   100 |    4   6   8  17   0  78   0   0   0   0 |   53   0   0   0 |
+                 100% | IF ISROOM(6="I am on a large ship")
+                      | IF FLAG(17)=TRUE
+                      | DROP 78="Persian city"
+Cmd  59 |     0   100 |    4  12   8  17   0  78   0   0   0   0 |   53   0   0   0 |
+                 100% | IF ISROOM(12="crow's-nest")
+                      | IF FLAG(17)=TRUE
+                      | DROP 78="Persian city"
+Cmd  60 |     0   100 |    4   1  17  53   0  53   0   0   0   0 |   26  53   0   0 |
+                 100% | IF ISROOM(1="Royal palace")
+                      | IF ATSTARTROOM(53)
+                      | MESSAGE 26="KING: I have been given onl..."
+                      | DROP 53="Bag of gold"
+Cmd  61 |     0   100 |    4  34   0  18   0   0   0   0   0   0 |   58   0   0   0 |
+                 100% | IF ISROOM(34="deep pit")
+                      | SET FLAG(18)=TRUE
+Cmd  62 |     0   100 |    4  22  16   0   0   0   0   0   0   0 |   57  64   0   0 |
+                 100% | IF ISROOM(22="sacred temple")
+                      | IF GE(COUNTER,0)
+                      | SET DARK=FALSE
+                      | LOOK
+Cmd  63 |     0   100 |    4  34   1  73   0  73   0  33   0   0 |   62   0   0   0 |
+                 100% | IF ISROOM(34="deep pit")
+                      | IF CARRY(73="Other end of the rope")
+                      | SEND 73="Other end of the rope" TO 33="deep pit"
+Cmd  64 |     0   100 |    4  27   1  73   0  73   0  30   0   0 |   62   0   0   0 |
+                 100% | IF ISROOM(27="musty hallway")
+                      | IF CARRY(73="Other end of the rope")
+                      | SEND 73="Other end of the rope" TO 30="damp grotto"
+Cmd  65 |     1    45 |    4  30   0   0   0   0   0   0   0   0 |   12  35   0   0 |
+             go   pit | IF ISROOM(30="damp grotto")
+                      | MESSAGE 12="OK"
+                      | MESSAGE 35="Tell me how?"
+Cmd  66 |     1    47 |    2  11   0   0   0   0   0   0   0   0 |   12  38  61   0 |
+             go  foun | IF HERE(11="Strange fountain")
+                      | MESSAGE 12="OK"
+                      | MESSAGE 38="I've desecrated the holy fo..."
+                      | DEAD
+Cmd  67 |     1    63 |    2  64   4   6   0  19   0  55   0   4 |   12  54  53  53 |
+             go  stra | IF HERE(64="Rocky strand")
+                      | IF ISROOM(6="I am on a large ship")
+                      | MESSAGE 12="OK"
+                      | GOTO 19="on a rocky strand"
+                      | DROP 55="Scorpions"
+                      | DROP 4="Large ship"
+Cmd  68 |     1    64 |    2  65   4   6   0   7   0  55   0   4 |   12  54  53  53 |
+             go  beac | IF HERE(65="Sandy beach")
+                      | IF ISROOM(6="I am on a large ship")
+                      | MESSAGE 12="OK"
+                      | GOTO 7="on a sandy beach"
+                      | DROP 55="Scorpions"
+                      | DROP 4="Large ship"
+Cmd  69 |     1    65 |    2  66   4   6   0  13   0  55   0   4 |   12  54  53  53 |
+             go  isla | IF HERE(66="Small island")
+                      | IF ISROOM(6="I am on a large ship")
+                      | MESSAGE 12="OK"
+                      | GOTO 13="on a small island"
+                      | DROP 55="Scorpions"
+                      | DROP 4="Large ship"
+Cmd  70 |     1    67 |    4   6   2  64   0  19   0  55   0   4 |   12  54  53  53 |
+             go  asho | IF ISROOM(6="I am on a large ship")
+                      | IF HERE(64="Rocky strand")
+                      | MESSAGE 12="OK"
+                      | GOTO 19="on a rocky strand"
+                      | DROP 55="Scorpions"
+                      | DROP 4="Large ship"
+Cmd  71 |     1    67 |    4   6   2  65   0   7   0  55   0   4 |   12  54  53  53 |
+             go  asho | IF ISROOM(6="I am on a large ship")
+                      | IF HERE(65="Sandy beach")
+                      | MESSAGE 12="OK"
+                      | GOTO 7="on a sandy beach"
+                      | DROP 55="Scorpions"
+                      | DROP 4="Large ship"
+Cmd  72 |     1    67 |    4   6   2  66   0  13   0  55   0   4 |   12  54  53  53 |
+             go  asho | IF ISROOM(6="I am on a large ship")
+                      | IF HERE(66="Small island")
+                      | MESSAGE 12="OK"
+                      | GOTO 13="on a small island"
+                      | DROP 55="Scorpions"
+                      | DROP 4="Large ship"
+Cmd  73 |     1    72 |    2  74   0  33   0   0   0   0   0   0 |   12  54   0   0 |
+             go  rope | IF HERE(74="Rope leading down into pit")
+                      | MESSAGE 12="OK"
+                      | GOTO 33="deep pit"
+Cmd  74 |     1    72 |    2  75   0  30   0   0   0   0   0   0 |   12  54   0   0 |
+             go  rope | IF HERE(75="Rope leading out of the pit")
+                      | MESSAGE 12="OK"
+                      | GOTO 30="damp grotto"
+Cmd  75 |     1    21 |    2  15   0  23   0   8   0   0   0   0 |   12  54  56  58 |
+             go  pass | IF HERE(15="Hidden passage")
+                      | MESSAGE 12="OK"
+                      | GOTO 23="hidden chamber"
+                      | SET DARK=TRUE
+                      | SET FLAG(8)=TRUE
+Cmd  76 |     1    22 |    2  76   0  27   0   0   0   0   0   0 |   12  54   0   0 |
+             go  hall | IF HERE(76="Dark hallway")
+                      | MESSAGE 12="OK"
+                      | GOTO 27="musty hallway"
+Cmd  77 |     8    68 |    0   0   0   0   0   0   0   0   0   0 |   71   0   0   0 |
+           save  game | SAVEGAME
+Cmd  78 |     9     0 |    4  32  14  37   1  31   0  37   0   0 |    6   2  53   0 |
+            dig       | IF ISROOM(32="on a grassy plain")
+                      | IF NOWHERE(37="Key")
+                      | IF CARRY(31="Shovel")
+                      | MESSAGE 6="I found"
+                      | MESSAGE 2="something!"
+                      | DROP 37="Key"
+Cmd  79 |     9     0 |    4   9  14  71   1  31   0  71   0   0 |    6   2  53   0 |
+            dig       | IF ISROOM(9="dense jungle")
+                      | IF NOWHERE(71="Rope")
+                      | IF CARRY(31="Shovel")
+                      | MESSAGE 6="I found"
+                      | MESSAGE 2="something!"
+                      | DROP 71="Rope"
+Cmd  80 |    10    60 |    0   0   0   0   0   0   0   0   0   0 |   66   0   0   0 |
+           take  inve | INVENTORY
+Cmd  81 |     1     9 |    4   2   0   1   0   0   0   0   0   0 |   12  54   0   0 |
+             go  pala | IF ISROOM(2="Persian city")
+                      | MESSAGE 12="OK"
+                      | GOTO 1="Royal palace"
+Cmd  82 |    10    16 |    3  10  13  60   0  60   0  23   0   0 |   12  59 124  60 |
+           take  medi | IF HERECARRY(10="Old box")
+                      | IF SOMEWHERE(60="Scorpion stings")
+                      | MESSAGE 12="OK"
+                      | DESTROY 60="Scorpion stings"
+                      | MESSAGE 74="I feel much better"
+                      | SET FLAG(23)=FALSE
+Cmd  83 |    10    16 |    3  10  13  61   0  61   0  23   0   0 |   12  59 124  60 |
+           take  medi | IF HERECARRY(10="Old box")
+                      | IF SOMEWHERE(61="Festering scorpion stings")
+                      | MESSAGE 12="OK"
+                      | DESTROY 61="Festering scorpion stings"
+                      | MESSAGE 74="I feel much better"
+                      | SET FLAG(23)=FALSE
+Cmd  84 |    10    16 |    3  10   0   0   0   0   0   0   0   0 |   12 112   0   0 |
+           take  medi | IF HERECARRY(10="Old box")
+                      | MESSAGE 12="OK"
+                      | MESSAGE 62="Nothing happens"
+Cmd  85 |    10    18 |    0   0   0   0   0   0   0   0   0   0 |   12  35   0   0 |
+           take  ocea | MESSAGE 12="OK"
+                      | MESSAGE 35="Tell me how?"
+Cmd  86 |     9     0 |    4  10  14  56  14   9   1  31   0  56 |    6   2  53   0 |
+            dig       | IF ISROOM(10="dense jungle")
+                      | IF NOWHERE(56="Torch")
+                      | IF NOWHERE(9="Lit torch")
+                      | IF CARRY(31="Shovel")
+                      | MESSAGE 6="I found"
+                      | MESSAGE 2="something!"
+                      | DROP 56="Torch"
+Cmd  87 |     9     0 |    4  10  14  24   1  31   0  24   0   0 |    6   2  53   0 |
+            dig       | IF ISROOM(10="dense jungle")
+                      | IF NOWHERE(24="Small stone")
+                      | IF CARRY(31="Shovel")
+                      | MESSAGE 6="I found"
+                      | MESSAGE 2="something!"
+                      | DROP 24="Small stone"
+Cmd  88 |     1    11 |    2   4   8   2   0   6   0  48   0   0 |   12  54  53   0 |
+             go  ship | IF HERE(4="Large ship")
+                      | IF FLAG(2)=TRUE
+                      | MESSAGE 12="OK"
+                      | GOTO 6="I am on a large ship"
+                      | DROP 48="Ocean"
+Cmd  89 |     9     0 |    1  31   0   0   0   0   0   0   0   0 |    6   7   0   0 |
+            dig       | IF CARRY(31="Shovel")
+                      | MESSAGE 6="I found"
+                      | MESSAGE 7="nothing."
+Cmd  90 |    10    25 |    2  22   0  22   0   0   0   0   0   0 |   52  12   0   0 |
+           take  ston | IF HERE(22="Small stone")
+                      | TAKE 22="Small stone"
+                      | MESSAGE 12="OK"
+Cmd  91 |    10    25 |    2  23   0  23   0   0   0   0   0   0 |   52  12   0   0 |
+           take  ston | IF HERE(23="Small stone")
+                      | TAKE 23="Small stone"
+                      | MESSAGE 12="OK"
+Cmd  92 |    10    25 |    2  24   0  24   0   0   0   0   0   0 |   52  12   0   0 |
+           take  ston | IF HERE(24="Small stone")
+                      | TAKE 24="Small stone"
+                      | MESSAGE 12="OK"
+Cmd  93 |    10    24 |    2  58   9   6   0  58   0   0   0   0 |   52  12  21  61 |
+           take  tabl | IF HERE(58="Stone tablet")
+                      | IF FLAG(6)=FALSE
+                      | TAKE 58="Stone tablet"
+                      | MESSAGE 12="OK"
+                      | MESSAGE 21="Merchant calls me a thief a..."
+                      | DEAD
+Cmd  94 |    10    24 |    2  58   0  58   0   0   0   0   0   0 |   52  12   0   0 |
+           take  tabl | IF HERE(58="Stone tablet")
+                      | TAKE 58="Stone tablet"
+                      | MESSAGE 12="OK"
+Cmd  95 |    10    24 |    2  68   0  68   0   0   0   0   0   0 |   52  12   0   0 |
+           take  tabl | IF HERE(68="Stone tablet")
+                      | TAKE 68="Stone tablet"
+                      | MESSAGE 12="OK"
+Cmd  96 |    10    54 |    2  35   9   7   0  35   0   0   0   0 |   52  12  21  61 |
+           take  tele | IF HERE(35="Telescope")
+                      | IF FLAG(7)=FALSE
+                      | TAKE 35="Telescope"
+                      | MESSAGE 12="OK"
+                      | MESSAGE 21="Merchant calls me a thief a..."
+                      | DEAD
+Cmd  97 |    10    54 |    2  35   0  35   0   0   0   0   0   0 |   52  12   0   0 |
+           take  tele | IF HERE(35="Telescope")
+                      | TAKE 35="Telescope"
+                      | MESSAGE 12="OK"
+Cmd  98 |    10    55 |    2  34   9   3   0  34   0   0   0   0 |   52  12  21  61 |
+           take  comp | IF HERE(34="Compass")
+                      | IF FLAG(3)=FALSE
+                      | TAKE 34="Compass"
+                      | MESSAGE 12="OK"
+                      | MESSAGE 21="Merchant calls me a thief a..."
+                      | DEAD
+Cmd  99 |    10    55 |    2  34   0  34   0   0   0   0   0   0 |   52  12   0   0 |
+           take  comp | IF HERE(34="Compass")
+                      | TAKE 34="Compass"
+                      | MESSAGE 12="OK"
+Cmd 100 |    10    56 |    2  32   9   4   0   0   0   0   0   0 |   52  12  21  61 |
+           take  sand | IF HERE(32="Sandals")
+                      | IF FLAG(4)=FALSE
+                      | TAKE 0=""
+                      | MESSAGE 12="OK"
+                      | MESSAGE 21="Merchant calls me a thief a..."
+                      | DEAD
+Cmd 101 |    10    56 |    2  32   0  32   0   0   0   0   0   0 |   52  12   0   0 |
+           take  sand | IF HERE(32="Sandals")
+                      | TAKE 32="Sandals"
+                      | MESSAGE 12="OK"
+Cmd 102 |    22    47 |    2  11   9  30   0   0   0   0   0   0 |  113 115   0   0 |
+           exam  foun | IF HERE(11="Strange fountain")
+                      | IF FLAG(30)=FALSE
+                      | MESSAGE 63="It's full of"
+                      | MESSAGE 65="a strange liquid"
+Cmd 103 |    74     0 |    0   6   0   0   0   0   0   0   0   0 |   12  88  83   0 |
+           wait       | MESSAGE 12="OK"
+                      | SLEEP 2 SECONDS
+                      | SUBTO COUNTER 6
+Cmd 104 |    10    72 |    2  71   0  71   0   0   0   0   0   0 |   52  12   0   0 |
+           take  rope | IF HERE(71="Rope")
+                      | TAKE 71="Rope"
+                      | MESSAGE 12="OK"
+Cmd 105 |    10    72 |    2  74   0  74   0  73   0   0   0   0 |   12  59  74   0 |
+           take  rope | IF HERE(74="Rope leading down into pit")
+                      | MESSAGE 12="OK"
+                      | DESTROY 74="Rope leading down into pit"
+                      | TAKE_NOCHECK 73="Other end of the rope"
+Cmd 106 |    17    16 |    2  13   0  13   0  36   0   0   0   0 |   86  36  72 109 |
+           give  medi | IF HERE(13="Man")
+                      | WRITELINE
+                      | MESSAGE 36="MAN: I'm afraid it's too la..."
+                      | SWAP ITEMS 13="Man" AND 36="Dead man"
+                      | MESSAGE 59="Man is dead!"
+Cmd 107 |     1    47 |    4  36   0   0   0   0   0   0   0   0 |   12  38  61   0 |
+             go  foun | IF ISROOM(36="in an enormous cave")
+                      | MESSAGE 12="OK"
+                      | MESSAGE 38="I've desecrated the holy fo..."
+                      | DEAD
+Cmd 108 |    17    59 |    4   1   1  16   8  10   0   0   0   0 |   39 117  88  73 |
+           give  chal | IF ISROOM(1="Royal palace")
+                      | IF CARRY(16="Gold chalice")
+                      | IF FLAG(10)=TRUE
+                      | MESSAGE 39="King grabs it,"
+                      | MESSAGE 67="drinks the liquid,"
+                      | SLEEP 2 SECONDS
+                      | CONTINUE_NEXT_LINE
+Cmd 109 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |   88 112 127  61 |
+            continued | SLEEP 2 SECONDS
+                      | MESSAGE 62="Nothing happens"
+                      | MESSAGE 77="He has me executed"
+                      | DEAD
+Cmd 110 |    17    59 |    4   1   1  16   8  11   0   0   0   0 |   39 117  88  73 |
+           give  chal | IF ISROOM(1="Royal palace")
+                      | IF CARRY(16="Gold chalice")
+                      | IF FLAG(11)=TRUE
+                      | MESSAGE 39="King grabs it,"
+                      | MESSAGE 67="drinks the liquid,"
+                      | SLEEP 2 SECONDS
+                      | CONTINUE_NEXT_LINE
+Cmd 111 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |   88  40  61   0 |
+            continued | SLEEP 2 SECONDS
+                      | MESSAGE 40="and DIES! Guards have me be..."
+                      | DEAD
+Cmd 112 |    17    59 |    4   1   1  16   8  12   0   0   0   0 |   39 117  88  73 |
+           give  chal | IF ISROOM(1="Royal palace")
+                      | IF CARRY(16="Gold chalice")
+                      | IF FLAG(12)=TRUE
+                      | MESSAGE 39="King grabs it,"
+                      | MESSAGE 67="drinks the liquid,"
+                      | SLEEP 2 SECONDS
+                      | CONTINUE_NEXT_LINE
+Cmd 113 |     0     0 |    0   2   0  52   0   0   0   0   0   0 |   88  72 116  63 |
+            continued | SLEEP 2 SECONDS
+                      | SWAP ITEMS 2="Aged King" AND 52="Youthful King"
+                      | MESSAGE 66="and transforms into a young..."
+                      | QUIT
+Cmd 114 |    17    59 |    4   1   1  16   0   0   0   0   0   0 |   39  88  73   0 |
+           give  chal | IF ISROOM(1="Royal palace")
+                      | IF CARRY(16="Gold chalice")
+                      | MESSAGE 39="King grabs it,"
+                      | SLEEP 2 SECONDS
+                      | CONTINUE_NEXT_LINE
+Cmd 115 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |   88 118 127  61 |
+            continued | SLEEP 2 SECONDS
+                      | MESSAGE 68="and yells `It's EMPTY!`."
+                      | MESSAGE 77="He has me executed"
+                      | DEAD
+Cmd 116 |    61     0 |    4  22   5  15   0  15   0   0   0   0 |   12  17   2  53 |
+           pray       | IF ISROOM(22="sacred temple")
+                      | IF NOT HERE(15="Hidden passage")
+                      | MESSAGE 12="OK"
+                      | MESSAGE 17="I hear"
+                      | MESSAGE 2="something!"
+                      | DROP 15="Hidden passage"
+Cmd 117 |    17    73 |    3  53   4   5   0  53   0   2   0  30 |   55 128  58  59 |
+           give   bag | IF HERECARRY(53="Bag of gold")
+                      | IF ISROOM(5="I am at a Persian bay")
+                      | DESTROY 53="Bag of gold"
+                      | MESSAGE 78="Surprised merchant grabs it..."
+                      | SET FLAG(2)=TRUE
+                      | DESTROY 30="Merchant"
+Cmd 118 |    17    73 |    3  53   4   4   0  53   0   4   0  28 |   55 128  58  59 |
+           give   bag | IF HERECARRY(53="Bag of gold")
+                      | IF ISROOM(4="Persian city")
+                      | DESTROY 53="Bag of gold"
+                      | MESSAGE 78="Surprised merchant grabs it..."
+                      | SET FLAG(4)=TRUE
+                      | DESTROY 28="Merchant"
+Cmd 119 |    17    73 |    3  53   4   3   0  53   0   6   0   0 |   55 128  58  73 |
+           give   bag | IF HERECARRY(53="Bag of gold")
+                      | IF ISROOM(3="Persian city")
+                      | DESTROY 53="Bag of gold"
+                      | MESSAGE 78="Surprised merchant grabs it..."
+                      | SET FLAG(6)=TRUE
+                      | CONTINUE_NEXT_LINE
+Cmd 120 |     0     0 |    0   3   0   7   0  29   0   0   0   0 |   58  58  59   0 |
+            continued | SET FLAG(3)=TRUE
+                      | SET FLAG(7)=TRUE
+                      | DESTROY 29="Merchant"
+Cmd 121 |    49     0 |    0  29   0   0   0   0   0   0   0   0 |   44  58  88   0 |
+           slee       | MESSAGE 44="Goodnight"
+                      | SET FLAG(29)=TRUE
+                      | SLEEP 2 SECONDS
+Cmd 122 |    60    45 |    4  30   0   0   0   0   0   0   0   0 |   12  61   0   0 |
+           jump   pit | IF ISROOM(30="damp grotto")
+                      | MESSAGE 12="OK"
+                      | DEAD
+Cmd 123 |     1    67 |    4   6   2  78   0   5   0   4   0   0 |   12  54  53   0 |
+             go  asho | IF ISROOM(6="I am on a large ship")
+                      | IF HERE(78="Persian city")
+                      | MESSAGE 12="OK"
+                      | GOTO 5="I am at a Persian bay"
+                      | DROP 4="Large ship"
+Cmd 124 |     1    37 |    2  78   4   6   0   5   0   4   0   0 |   54  53   0   0 |
+             go  city | IF HERE(78="Persian city")
+                      | IF ISROOM(6="I am on a large ship")
+                      | GOTO 5="I am at a Persian bay"
+                      | DROP 4="Large ship"
+Cmd 125 |     1    46 |    4   6   0  28   0   0   0   0   0   0 |   12  54   0   0 |
+             go  cabi | IF ISROOM(6="I am on a large ship")
+                      | MESSAGE 12="OK"
+                      | GOTO 28="small cabin"
+Cmd 126 |     1    11 |    2   4   9   2   0   0   0   0   0   0 |   12  88 122 119 |
+             go  ship | IF HERE(4="Large ship")
+                      | IF FLAG(2)=FALSE
+                      | MESSAGE 12="OK"
+                      | SLEEP 2 SECONDS
+                      | MESSAGE 72="Merchant"
+                      | MESSAGE 69="won't let me"
+Cmd 127 |     1    14 |    4   6   0  12   0   0   0   0   0   0 |   12  54   0   0 |
+             go  mast | IF ISROOM(6="I am on a large ship")
+                      | MESSAGE 12="OK"
+                      | GOTO 12="crow's-nest"
+Cmd 128 |     1    18 |    2  48   0   0   0   0   0   0   0   0 |   12  27  61   0 |
+             go  ocea | IF HERE(48="Ocean")
+                      | MESSAGE 12="OK"
+                      | MESSAGE 27="OH NO! I can't swim!"
+                      | DEAD
+Cmd 129 |     1    44 |    4   7   0   9   0   0   0   0   0   0 |   12  54   0   0 |
+             go  jung | IF ISROOM(7="on a sandy beach")
+                      | MESSAGE 12="OK"
+                      | GOTO 9="dense jungle"
+Cmd 130 |     1    23 |    4  10   0  11   0   8   0  11   0   0 |   12  54  58  53 |
+             go  cave | IF ISROOM(10="dense jungle")
+                      | MESSAGE 12="OK"
+                      | GOTO 11="damp cave"
+                      | SET FLAG(8)=TRUE
+                      | DROP 11="Strange fountain"
+Cmd 131 |     1    32 |    4  14   0  15   0   0   0   0   0   0 |   12  54   0   0 |
+             go   hut | IF ISROOM(14="on a small island")
+                      | MESSAGE 12="OK"
+                      | GOTO 15="grass hut"
+Cmd 132 |     1    33 |    4  14   0  17   0   0   0   0   0   0 |   12  54   0   0 |
+             go  moun | IF ISROOM(14="on a small island")
+                      | MESSAGE 12="OK"
+                      | GOTO 17="on a mountain"
+Cmd 133 |     1    34 |    2  12   4  14   0  16   0  12   0  11 |   12  54  53  53 |
+             go  crev | IF HERE(12="Crevice")
+                      | IF ISROOM(14="on a small island")
+                      | MESSAGE 12="OK"
+                      | GOTO 16="dark cavern"
+                      | DROP 12="Crevice"
+                      | DROP 11="Strange fountain"
+Cmd 134 |    10     5 |    4  29   0  28   0   0   0   0   0   0 |   12  54   0   0 |
+           take    up | IF ISROOM(29="cozy cot")
+                      | MESSAGE 12="OK"
+                      | GOTO 28="small cabin"
+Cmd 135 |    16    59 |    1  16   8  10   0   0   0   0   0   0 |  126   0   0   0 |
+           fill  chal | IF CARRY(16="Gold chalice")
+                      | IF FLAG(10)=TRUE
+                      | MESSAGE 76="Sorry"
+Cmd 136 |    16    59 |    1  16   8  11   0   0   0   0   0   0 |  126   0   0   0 |
+           fill  chal | IF CARRY(16="Gold chalice")
+                      | IF FLAG(11)=TRUE
+                      | MESSAGE 76="Sorry"
+Cmd 137 |    16    59 |    1  16   8  12   0   0   0   0   0   0 |  126   0   0   0 |
+           fill  chal | IF CARRY(16="Gold chalice")
+                      | IF FLAG(12)=TRUE
+                      | MESSAGE 76="Sorry"
+Cmd 138 |    16    59 |    2  11   1  16   9  10   9  12   0  11 |   12  58   0   0 |
+           fill  chal | IF HERE(11="Strange fountain")
+                      | IF CARRY(16="Gold chalice")
+                      | IF FLAG(10)=FALSE
+                      | IF FLAG(12)=FALSE
+                      | MESSAGE 12="OK"
+                      | SET FLAG(11)=TRUE
+Cmd 139 |    16    59 |    2  48   1  16   9  11   9  12   0  10 |   12  58   0   0 |
+           fill  chal | IF HERE(48="Ocean")
+                      | IF CARRY(16="Gold chalice")
+                      | IF FLAG(11)=FALSE
+                      | IF FLAG(12)=FALSE
+                      | MESSAGE 12="OK"
+                      | SET FLAG(10)=TRUE
+Cmd 140 |    16    59 |    2  47   1  16   9  10   9  11   0  12 |   12  58   0   0 |
+           fill  chal | IF HERE(47="Magnificent fountain")
+                      | IF CARRY(16="Gold chalice")
+                      | IF FLAG(10)=FALSE
+                      | IF FLAG(11)=FALSE
+                      | MESSAGE 12="OK"
+                      | SET FLAG(12)=TRUE
+Cmd 141 |    18    16 |    1  10   0  10   0   0   0   0   0   0 |   12  53   0   0 |
+           drop  medi | IF CARRY(10="Old box")
+                      | MESSAGE 12="OK"
+                      | DROP 10="Old box"
+Cmd 142 |    52    18 |    1  16   8  11   0   0   0   0   0   0 |   12  61   0   0 |
+           drin  ocea | IF CARRY(16="Gold chalice")
+                      | IF FLAG(11)=TRUE
+                      | MESSAGE 12="OK"
+                      | DEAD
+Cmd 143 |    18    25 |    1  22   0  22   0   0   0   0   0   0 |   12  53   0   0 |
+           drop  ston | IF CARRY(22="Small stone")
+                      | MESSAGE 12="OK"
+                      | DROP 22="Small stone"
+Cmd 144 |    18    25 |    1  23   0  23   0   0   0   0   0   0 |   12  53   0   0 |
+           drop  ston | IF CARRY(23="Small stone")
+                      | MESSAGE 12="OK"
+                      | DROP 23="Small stone"
+Cmd 145 |    18    25 |    1  24   0  24   0   0   0   0   0   0 |   12  53   0   0 |
+           drop  ston | IF CARRY(24="Small stone")
+                      | MESSAGE 12="OK"
+                      | DROP 24="Small stone"
+Cmd 146 |    18    24 |    1  58   0   0   0   0   0   0   0   0 |    3   0   0   0 |
+           drop  tabl | IF CARRY(58="Stone tablet")
+                      | MESSAGE 3="Where?"
+Cmd 147 |    18    24 |    1  68   0   0   0   0   0   0   0   0 |    3   0   0   0 |
+           drop  tabl | IF CARRY(68="Stone tablet")
+                      | MESSAGE 3="Where?"
+Cmd 148 |    18    72 |    1  73   0   0   0   0   0   0   0   0 |    3   0   0   0 |
+           drop  rope | IF CARRY(73="Other end of the rope")
+                      | MESSAGE 3="Where?"
+Cmd 149 |    22    14 |    4   6   0   0   0   0   0   0   0   0 |   25   0   0   0 |
+           exam  mast | IF ISROOM(6="I am on a large ship")
+                      | MESSAGE 25="High atop mast is a crow's-..."
+Cmd 150 |    22    24 |    3  68   0   0   0   0   0   0   0   0 |   19   0   0   0 |
+           exam  tabl | IF HERECARRY(68="Stone tablet")
+                      | MESSAGE 19="Picture of a mountain and t..."
+Cmd 151 |    22    24 |    3  58   0   0   0   0   0   0   0   0 |   30   0   0   0 |
+           exam  tabl | IF HERECARRY(58="Stone tablet")
+                      | MESSAGE 30="Picture of a cave"
+Cmd 152 |    22    25 |    3  24   0   0   0   0   0   0   0   0 |    8   0   0   0 |
+           exam  ston | IF HERECARRY(24="Small stone")
+                      | MESSAGE 8="Appears to be broken, with..."
+Cmd 153 |    22    25 |    3  23   0   0   0   0   0   0   0   0 |    8   0   0   0 |
+           exam  ston | IF HERECARRY(23="Small stone")
+                      | MESSAGE 8="Appears to be broken, with..."
+Cmd 154 |    22    25 |    3  22   0   0   0   0   0   0   0   0 |    8   0   0   0 |
+           exam  ston | IF HERECARRY(22="Small stone")
+                      | MESSAGE 8="Appears to be broken, with..."
+Cmd 155 |    22    28 |    2  13   0   0   0   0   0   0   0   0 |   15   0   0   0 |
+           exam   man | IF HERE(13="Man")
+                      | MESSAGE 15="He's been stung by scorpions"
+Cmd 156 |    22    35 |    3  10   0   0   0   0   0   0   0   0 |   10   0   0   0 |
+           exam   box | IF HERECARRY(10="Old box")
+                      | MESSAGE 10="Contains medicine"
+Cmd 157 |    22    38 |    2  25   0   0   0   0   0   0   0   0 |   33   0   0   0 |
+           exam  stat | IF HERE(25="Stone Goddess")
+                      | MESSAGE 33="It holds a sword"
+Cmd 158 |    22    38 |    2  62   0   0   0   0   0   0   0   0 |   33   0   0   0 |
+           exam  stat | IF HERE(62="Animated statue")
+                      | MESSAGE 33="It holds a sword"
+Cmd 159 |    22    40 |    4  22  14  16   0  16   0   0   0   0 |    6   2  53   0 |
+           exam  alta | IF ISROOM(22="sacred temple")
+                      | IF NOWHERE(16="Gold chalice")
+                      | MESSAGE 6="I found"
+                      | MESSAGE 2="something!"
+                      | DROP 16="Gold chalice"
+Cmd 160 |    22    41 |    3  51  14  20   0  20   0   0   0   0 |    6   2  53   0 |
+           exam  ches | IF HERECARRY(51="Open chest")
+                      | IF NOWHERE(20="Gold mask")
+                      | MESSAGE 6="I found"
+                      | MESSAGE 2="something!"
+                      | DROP 20="Gold mask"
+Cmd 161 |    22    43 |    2  45   0   0   0   0   0   0   0   0 |   18   0   0   0 |
+           exam  cycl | IF HERE(45="Cyclops")
+                      | MESSAGE 18="One great big EYE has a foc..."
+Cmd 162 |    22    48 |    3  43   0   0   0   0   0   0   0   0 |  123   0   0   0 |
+           exam  note | IF HERECARRY(43="Note")
+                      | MESSAGE 73="Please be more specific"
+Cmd 163 |    22    54 |    1  35   4  12   8  22  14  64   0   0 |   16  58   0   0 |
+           exam  tele | IF CARRY(35="Telescope")
+                      | IF ISROOM(12="crow's-nest")
+                      | IF FLAG(22)=TRUE
+                      | IF NOWHERE(64="Rocky strand")
+                      | MESSAGE 16="LAND HO!"
+                      | SET FLAG(0)=TRUE
+Cmd 164 |    22    54 |    1  35   4  12   8  28  14  65   0   5 |   16  58   0   0 |
+           exam  tele | IF CARRY(35="Telescope")
+                      | IF ISROOM(12="crow's-nest")
+                      | IF FLAG(28)=TRUE
+                      | IF NOWHERE(65="Sandy beach")
+                      | MESSAGE 16="LAND HO!"
+                      | SET FLAG(5)=TRUE
+Cmd 165 |    22    54 |    1  35   4  12   8  20  14  66   0   1 |   16  58   0   0 |
+           exam  tele | IF CARRY(35="Telescope")
+                      | IF ISROOM(12="crow's-nest")
+                      | IF FLAG(20)=TRUE
+                      | IF NOWHERE(66="Small island")
+                      | MESSAGE 16="LAND HO!"
+                      | SET FLAG(1)=TRUE
+Cmd 166 |    22    53 |    3  49  14  23   0  23   0   0   0   0 |    6   2  53   0 |
+           exam  rubb | IF HERECARRY(49="Pile of rubble")
+                      | IF NOWHERE(23="Small stone")
+                      | MESSAGE 6="I found"
+                      | MESSAGE 2="something!"
+                      | DROP 23="Small stone"
+Cmd 167 |    22    59 |    3  16   8  10   0   0   0   0   0   0 |  113 114   0   0 |
+           exam  chal | IF HERECARRY(16="Gold chalice")
+                      | IF FLAG(10)=TRUE
+                      | MESSAGE 63="It's full of"
+                      | MESSAGE 64="water"
+Cmd 168 |    22    59 |    3  16   8  11   0   0   0   0   0   0 |  113 115   0   0 |
+           exam  chal | IF HERECARRY(16="Gold chalice")
+                      | IF FLAG(11)=TRUE
+                      | MESSAGE 63="It's full of"
+                      | MESSAGE 65="a strange liquid"
+Cmd 169 |    22    59 |    3  16   8  12   0   0   0   0   0   0 |  113 115   0   0 |
+           exam  chal | IF HERECARRY(16="Gold chalice")
+                      | IF FLAG(12)=TRUE
+                      | MESSAGE 63="It's full of"
+                      | MESSAGE 65="a strange liquid"
+Cmd 170 |     1    23 |    4  34  13  45   0   0   0   0   0   0 |   12  88  28 119 |
+             go  cave | IF ISROOM(34="deep pit")
+                      | IF SOMEWHERE(45="Cyclops")
+                      | MESSAGE 12="OK"
+                      | SLEEP 2 SECONDS
+                      | MESSAGE 28="Cyclops"
+                      | MESSAGE 69="won't let me"
+Cmd 171 |     1    23 |    4  34   0  35   0   0   0   0   0   0 |   12  54   0   0 |
+             go  cave | IF ISROOM(34="deep pit")
+                      | MESSAGE 12="OK"
+                      | GOTO 35="in an enormous cave"
+Cmd 172 |    10    62 |    2  25   5  63   0   0   0   0   0   0 |   34   0   0   0 |
+           take  swor | IF HERE(25="Stone Goddess")
+                      | IF NOT HERE(63="Sword")
+                      | MESSAGE 34="Sorry, it won't BUDGE!"
+Cmd 173 |    10    62 |    2  62   5  63   0   0   0   0   0   0 |   34   0   0   0 |
+           take  swor | IF HERE(62="Animated statue")
+                      | IF NOT HERE(63="Sword")
+                      | MESSAGE 34="Sorry, it won't BUDGE!"
+Cmd 174 |    10    62 |    2  63   0  63   0   0   0   0   0   0 |   52  12   0   0 |
+           take  swor | IF HERE(63="Sword")
+                      | TAKE 63="Sword"
+                      | MESSAGE 12="OK"
+Cmd 175 |    27     0 |    4   6   2  67   0   0   0   0   0   0 |  126   0   0   0 |
+           sail       | IF ISROOM(6="I am on a large ship")
+                      | IF HERE(67="Ship is anchored")
+                      | MESSAGE 76="Sorry"
+Cmd 176 |    27     4 |    4   6   8  17   3  34   0  17   0  20 |   12  88  60  58 |
+           sail  west | IF ISROOM(6="I am on a large ship")
+                      | IF FLAG(17)=TRUE
+                      | IF HERECARRY(34="Compass")
+                      | MESSAGE 12="OK"
+                      | SLEEP 2 SECONDS
+                      | SET FLAG(17)=FALSE
+                      | SET FLAG(20)=TRUE
+Cmd 177 |    27     3 |    4   6   8  17   3  34   0  17   0  27 |   12  88  60  58 |
+           sail  east | IF ISROOM(6="I am on a large ship")
+                      | IF FLAG(17)=TRUE
+                      | IF HERECARRY(34="Compass")
+                      | MESSAGE 12="OK"
+                      | SLEEP 2 SECONDS
+                      | SET FLAG(17)=FALSE
+                      | SET FLAG(27)=TRUE
+Cmd 178 |    27     2 |    4   6   8  17   3  34   0  17   0  22 |   12  88  60  58 |
+           sail south | IF ISROOM(6="I am on a large ship")
+                      | IF FLAG(17)=TRUE
+                      | IF HERECARRY(34="Compass")
+                      | MESSAGE 12="OK"
+                      | SLEEP 2 SECONDS
+                      | SET FLAG(17)=FALSE
+                      | SET FLAG(22)=TRUE
+Cmd 179 |    27     3 |    4   6   8  20   3  34   0  20   0  17 |   12  88  60  58 |
+           sail  east | IF ISROOM(6="I am on a large ship")
+                      | IF FLAG(20)=TRUE
+                      | IF HERECARRY(34="Compass")
+                      | MESSAGE 12="OK"
+                      | SLEEP 2 SECONDS
+                      | SET FLAG(20)=FALSE
+                      | SET FLAG(17)=TRUE
+Cmd 180 |    27     2 |    4   6   8  20   3  34   0  20   0  21 |   12  88  60  58 |
+           sail south | IF ISROOM(6="I am on a large ship")
+                      | IF FLAG(20)=TRUE
+                      | IF HERECARRY(34="Compass")
+                      | MESSAGE 12="OK"
+                      | SLEEP 2 SECONDS
+                      | SET FLAG(20)=FALSE
+                      | SET FLAG(21)=TRUE
+Cmd 181 |    27     1 |    4   6   8  21   3  34   0  21   0  20 |   12  88  60  58 |
+           sail north | IF ISROOM(6="I am on a large ship")
+                      | IF FLAG(21)=TRUE
+                      | IF HERECARRY(34="Compass")
+                      | MESSAGE 12="OK"
+                      | SLEEP 2 SECONDS
+                      | SET FLAG(21)=FALSE
+                      | SET FLAG(20)=TRUE
+Cmd 182 |    27     3 |    4   6   8  21   3  34   0  21   0  22 |   12  88  60  58 |
+           sail  east | IF ISROOM(6="I am on a large ship")
+                      | IF FLAG(21)=TRUE
+                      | IF HERECARRY(34="Compass")
+                      | MESSAGE 12="OK"
+                      | SLEEP 2 SECONDS
+                      | SET FLAG(21)=FALSE
+                      | SET FLAG(22)=TRUE
+Cmd 183 |    27     1 |    4   6   8  22   3  34   0  22   0  17 |   12  88  60  58 |
+           sail north | IF ISROOM(6="I am on a large ship")
+                      | IF FLAG(22)=TRUE
+                      | IF HERECARRY(34="Compass")
+                      | MESSAGE 12="OK"
+                      | SLEEP 2 SECONDS
+                      | SET FLAG(22)=FALSE
+                      | SET FLAG(17)=TRUE
+Cmd 184 |    27     4 |    4   6   8  22   3  34   0  22   0  21 |   12  88  60  58 |
+           sail  west | IF ISROOM(6="I am on a large ship")
+                      | IF FLAG(22)=TRUE
+                      | IF HERECARRY(34="Compass")
+                      | MESSAGE 12="OK"
+                      | SLEEP 2 SECONDS
+                      | SET FLAG(22)=FALSE
+                      | SET FLAG(21)=TRUE
+Cmd 185 |    27     3 |    4   6   8  27   3  34   0  27   0  28 |   12  88  60  58 |
+           sail  east | IF ISROOM(6="I am on a large ship")
+                      | IF FLAG(27)=TRUE
+                      | IF HERECARRY(34="Compass")
+                      | MESSAGE 12="OK"
+                      | SLEEP 2 SECONDS
+                      | SET FLAG(27)=FALSE
+                      | SET FLAG(28)=TRUE
+Cmd 186 |    27     4 |    4   6   8  27   3  34   0  27   0  17 |   12  88  60  58 |
+           sail  west | IF ISROOM(6="I am on a large ship")
+                      | IF FLAG(27)=TRUE
+                      | IF HERECARRY(34="Compass")
+                      | MESSAGE 12="OK"
+                      | SLEEP 2 SECONDS
+                      | SET FLAG(27)=FALSE
+                      | SET FLAG(17)=TRUE
+Cmd 187 |    27     4 |    4   6   8  28   3  34   0  28   0  27 |   12  88  60  58 |
+           sail  west | IF ISROOM(6="I am on a large ship")
+                      | IF FLAG(28)=TRUE
+                      | IF HERECARRY(34="Compass")
+                      | MESSAGE 12="OK"
+                      | SLEEP 2 SECONDS
+                      | SET FLAG(28)=FALSE
+                      | SET FLAG(27)=TRUE
+Cmd 188 |    27     0 |    4   6  12  34   0   0   0   0   0   0 |   20   0   0   0 |
+           sail       | IF ISROOM(6="I am on a large ship")
+                      | IF NOT HERECARRY(34="Compass")
+                      | MESSAGE 20="I can't tell which way that..."
+Cmd 189 |    29    38 |    2  25   0   0   0   0   0   0   0   0 |    4   0   0   0 |
+           push  stat | IF HERE(25="Stone Goddess")
+                      | MESSAGE 4="Something rattles"
+Cmd 190 |    29    38 |    2  62   4  20   0  62   0  49   0  19 |   59   5  62   0 |
+           push  stat | IF HERE(62="Animated statue")
+                      | IF ISROOM(20="on a long staircase")
+                      | DESTROY 62="Animated statue"
+                      | MESSAGE 5="Statue topples down the stairs"
+                      | SEND 49="Pile of rubble" TO 19="on a rocky strand"
+Cmd 191 |    29    38 |    0   0   0   0   0   0   0   0   0   0 |  112   0   0   0 |
+           push  stat | MESSAGE 62="Nothing happens"
+Cmd 192 |    29     0 |    0   0   0   0   0   0   0   0   0   0 |   35   0   0   0 |
+           push       | MESSAGE 35="Tell me how?"
+Cmd 193 |    66    70 |    1  73   0  73   0   0   0   0   0   0 |   12  53   0   0 |
+             on  grou | IF CARRY(73="Other end of the rope")
+                      | MESSAGE 12="OK"
+                      | DROP 73="Other end of the rope"
+Cmd 194 |    18    57 |    1  26   0  26   0  26   0  54   0   0 |   53  72  22  73 |
+           drop  glob | IF CARRY(26="White globe")
+                      | DROP 26="White globe"
+                      | SWAP ITEMS 26="White globe" AND 54="Broken globe"
+                      | MESSAGE 22="There's a tremendous flash..."
+                      | CONTINUE_NEXT_LINE
+Cmd 195 |     0     0 |    6  21   0  14   0   0   0   0   0   0 |   88  58  73   0 |
+            continued | IF NOT CARRY(21="I'm wearing it")
+                      | SLEEP 2 SECONDS
+                      | SET FLAG(14)=TRUE
+                      | CONTINUE_NEXT_LINE
+Cmd 196 |     0     0 |    2  45   0  45   0  69   0   0   0   0 |   88  72   0   0 |
+            continued | IF HERE(45="Cyclops")
+                      | SLEEP 2 SECONDS
+                      | SWAP ITEMS 45="Cyclops" AND 69="Blind cyclops"
+Cmd 197 |    33    41 |    3  41   1  37   0  41   0  51   0   0 |   12  72   0   0 |
+           open  ches | IF HERECARRY(41="Ornate chest")
+                      | IF CARRY(37="Key")
+                      | MESSAGE 12="OK"
+                      | SWAP ITEMS 41="Ornate chest" AND 51="Open chest"
+Cmd 198 |    35    52 |    3  56   3  19   9  16   0  56   0   9 |   12  72   0   0 |
+           ligh  torc | IF HERECARRY(56="Torch")
+                      | IF HERECARRY(19="Flint & steel")
+                      | IF FLAG(16)=FALSE
+                      | MESSAGE 12="OK"
+                      | SWAP ITEMS 56="Torch" AND 9="Lit torch"
+Cmd 199 |    38     0 |    0   0   0   0   0   0   0   0   0   0 |  126   0   0   0 |
+           brea       | MESSAGE 76="Sorry"
+Cmd 200 |    33    41 |    3  41   0   0   0   0   0   0   0   0 |  126  29   0   0 |
+           open  ches | IF HERECARRY(41="Ornate chest")
+                      | MESSAGE 76="Sorry"
+                      | MESSAGE 29="It's locked"
+Cmd 201 |    41     0 |    0   0   0   0   0   0   0   0   0   0 |  126 121   0   0 |
+           atta       | MESSAGE 76="Sorry"
+                      | MESSAGE 71="I'll only defend myself"
+Cmd 202 |    43    59 |    1  16   9  10   9  11   9  12   0   0 |  112   0   0   0 |
+           empt  chal | IF CARRY(16="Gold chalice")
+                      | IF FLAG(10)=FALSE
+                      | IF FLAG(11)=FALSE
+                      | IF FLAG(12)=FALSE
+                      | MESSAGE 62="Nothing happens"
+Cmd 203 |    44    18 |    1  16   0   0   0   0   0   0   0   0 |  125   0   0   0 |
+           pour  ocea | IF CARRY(16="Gold chalice")
+                      | MESSAGE 75="Empty?"
+Cmd 204 |    22    47 |    2  11   8  30   0  30   0  26   0   0 |    6   2  60  53 |
+           exam  foun | IF HERE(11="Strange fountain")
+                      | IF FLAG(30)=TRUE
+                      | MESSAGE 6="I found"
+                      | MESSAGE 2="something!"
+                      | SET FLAG(30)=FALSE
+                      | DROP 26="White globe"
+Cmd 205 |    46    72 |    2  72   2  74   0  72   0  74   0   0 |   59  59 130   0 |
+           unti  rope | IF HERE(72="Rope tied to stalagmite")
+                      | IF HERE(74="Rope leading down into pit")
+                      | DESTROY 72="Rope tied to stalagmite"
+                      | DESTROY 74="Rope leading down into pit"
+                      | MESSAGE 80="Rope slides into pit"
+Cmd 206 |    46    72 |    2  72   0  72   0  73   0  71   0   0 |   55  55  53  12 |
+           unti  rope | IF HERE(72="Rope tied to stalagmite")
+                      | DESTROY 72="Rope tied to stalagmite"
+                      | DESTROY 73="Other end of the rope"
+                      | DROP 71="Rope"
+                      | MESSAGE 12="OK"
+Cmd 207 |    47    52 |    3   9   0   9   0  56   0   0   0   0 |   12  72   0   0 |
+           unli  torc | IF HERECARRY(9="Lit torch")
+                      | MESSAGE 12="OK"
+                      | SWAP ITEMS 9="Lit torch" AND 56="Torch"
+Cmd 208 |    48    48 |    3  43   0   0   0   0   0   0   0   0 |  110   0   0   0 |
+           read  note | IF HERECARRY(43="Note")
+                      | MESSAGE 60="Get your copy of `FROG` fro..."
+Cmd 209 |    50    56 |    1  32   6  33   0  33   0   0   0   0 |   12  74   0   0 |
+           wear  sand | IF CARRY(32="Sandals")
+                      | IF NOT CARRY(33="I'm wearing them")
+                      | MESSAGE 12="OK"
+                      | TAKE_NOCHECK 33="I'm wearing them"
+Cmd 210 |    50    58 |    1  20   6  21   0  21   0   0   0   0 |   12  74  11   0 |
+           wear  mask | IF CARRY(20="Gold mask")
+                      | IF NOT CARRY(21="I'm wearing it")
+                      | MESSAGE 12="OK"
+                      | TAKE_NOCHECK 21="I'm wearing it"
+                      | MESSAGE 11="Everything looks grey"
+Cmd 211 |    10    72 |    2  73   0  73   0   0   0   0   0   0 |   12  74   0   0 |
+           take  rope | IF HERE(73="Other end of the rope")
+                      | MESSAGE 12="OK"
+                      | TAKE_NOCHECK 73="Other end of the rope"
+Cmd 212 |    51    56 |    1  33   0  33   0   0   0   0   0   0 |   12  55   0   0 |
+           remo  sand | IF CARRY(33="I'm wearing them")
+                      | MESSAGE 12="OK"
+                      | DESTROY 33="I'm wearing them"
+Cmd 213 |    51    58 |    1  21   0  21   0   0   0   0   0   0 |   12  55   0   0 |
+           remo  mask | IF CARRY(21="I'm wearing it")
+                      | MESSAGE 12="OK"
+                      | DESTROY 21="I'm wearing it"
+Cmd 214 |    43    59 |    1  16   0  10   0  11   0  12   0   0 |   12  60  60  60 |
+           empt  chal | IF CARRY(16="Gold chalice")
+                      | MESSAGE 12="OK"
+                      | SET FLAG(10)=FALSE
+                      | SET FLAG(11)=FALSE
+                      | SET FLAG(12)=FALSE
+Cmd 215 |    66    70 |    1  58   0  58   0  58   0  30   0  38 |   12  53  62  53 |
+             on  grou | IF CARRY(58="Stone tablet")
+                      | MESSAGE 12="OK"
+                      | DROP 58="Stone tablet"
+                      | SEND 58="Stone tablet" TO 30="damp grotto"
+                      | DROP 38="Pile of rubble"
+Cmd 216 |    18    66 |    4   6   2   7   0  67   0   7   0  19 |   12  72  58   0 |
+           drop  anch | IF ISROOM(6="I am on a large ship")
+                      | IF HERE(7="Anchor")
+                      | MESSAGE 12="OK"
+                      | SWAP ITEMS 67="Ship is anchored" AND 7="Anchor"
+                      | SET FLAG(19)=TRUE
+Cmd 217 |    54    61 |    4  14   3  68   0  12   0   0   0   0 |   12  85  37  53 |
+            say   sun | IF ISROOM(14="on a small island")
+                      | IF HERECARRY(68="Stone tablet")
+                      | MESSAGE 12="OK"
+                      | WRITELINE NOUN
+                      | MESSAGE 37="The ground shakes violently!"
+                      | DROP 12="Crevice"
+Cmd 218 |    54     0 |    0   0   0   0   0   0   0   0   0   0 |   12  85 112   0 |
+            say       | MESSAGE 12="OK"
+                      | WRITELINE NOUN
+                      | MESSAGE 62="Nothing happens"
+Cmd 219 |    58     0 |    0   0   0   0   0   0   0   0   0   0 |   41  63   0   0 |
+           quit       | MESSAGE 41="I have failed my mission"
+                      | QUIT
+Cmd 220 |    59     0 |    0   0   0   0   0   0   0   0   0   0 |   66   0   0   0 |
+           inve       | INVENTORY
+Cmd 221 |    72     5 |    4  20   0  21   0   0   0   0   0   0 |   12  54   0   0 |
+           step    up | IF ISROOM(20="on a long staircase")
+                      | MESSAGE 12="OK"
+                      | GOTO 21="sacred temple"
+Cmd 222 |    72     6 |    4  20   0  19   0   0   0   0   0   0 |   12  54   0   0 |
+           step  down | IF ISROOM(20="on a long staircase")
+                      | MESSAGE 12="OK"
+                      | GOTO 19="on a rocky strand"
+Cmd 223 |    69    66 |    4   6   2  67   0  67   0   7   0  19 |   12  72  60   0 |
+           rais  anch | IF ISROOM(6="I am on a large ship")
+                      | IF HERE(67="Ship is anchored")
+                      | MESSAGE 12="OK"
+                      | SWAP ITEMS 67="Ship is anchored" AND 7="Anchor"
+                      | SET FLAG(19)=FALSE
+Cmd 224 |    62    72 |    1  71   0   0   0   0   0   0   0   0 |   12   3   0   0 |
+            tie  rope | IF CARRY(71="Rope")
+                      | MESSAGE 12="OK"
+                      | MESSAGE 3="Where?"
+Cmd 225 |    63    69 |    4  30   3  71   0  72   0  73   0  71 |   12  53  72   0 |
+             to  stal | IF ISROOM(30="damp grotto")
+                      | IF HERECARRY(71="Rope")
+                      | MESSAGE 12="OK"
+                      | DROP 72="Rope tied to stalagmite"
+                      | SWAP ITEMS 73="Other end of the rope" AND 71="Rope"
+Cmd 226 |    18    72 |    1  71   0  71   0   0   0   0   0   0 |   12  53   0   0 |
+           drop  rope | IF CARRY(71="Rope")
+                      | MESSAGE 12="OK"
+                      | DROP 71="Rope"
+Cmd 227 |    66    70 |    1  68   0  68   0   0   0   0   0   0 |   12  53   0   0 |
+             on  grou | IF CARRY(68="Stone tablet")
+                      | MESSAGE 12="OK"
+                      | DROP 68="Stone tablet"
+Cmd 228 |    68    47 |    1  58   4  11   0  58   0   0   0   0 |   12  59 131   0 |
+             in  foun | IF CARRY(58="Stone tablet")
+                      | IF ISROOM(11="damp cave")
+                      | MESSAGE 12="OK"
+                      | DESTROY 58="Stone tablet"
+                      | MESSAGE 81="PLOOSH"
+Cmd 229 |    68    47 |    1  68   4  16   0  68   0   0   0   0 |   12  59 131   0 |
+             in  foun | IF CARRY(68="Stone tablet")
+                      | IF ISROOM(16="dark cavern")
+                      | MESSAGE 12="OK"
+                      | DESTROY 68="Stone tablet"
+                      | MESSAGE 81="PLOOSH"
+Cmd 230 |    64    11 |    2   4   1  53   9   2   0   2   0   0 |   12  58   0   0 |
+            buy  ship | IF HERE(4="Large ship")
+                      | IF CARRY(53="Bag of gold")
+                      | IF FLAG(2)=FALSE
+                      | MESSAGE 12="OK"
+                      | SET FLAG(2)=TRUE
+Cmd 231 |    64    56 |    2  32   1  53   9   4   0   4   0   0 |   12  58   0   0 |
+            buy  sand | IF HERE(32="Sandals")
+                      | IF CARRY(53="Bag of gold")
+                      | IF FLAG(4)=FALSE
+                      | MESSAGE 12="OK"
+                      | SET FLAG(4)=TRUE
+Cmd 232 |    64    55 |    2  34   1  53   9   3   0   3   0   0 |   12  58   0   0 |
+            buy  comp | IF HERE(34="Compass")
+                      | IF CARRY(53="Bag of gold")
+                      | IF FLAG(3)=FALSE
+                      | MESSAGE 12="OK"
+                      | SET FLAG(3)=TRUE
+Cmd 233 |    64    54 |    2  35   1  53   9   7   0   7   0   0 |   12  58   0   0 |
+            buy  tele | IF HERE(35="Telescope")
+                      | IF CARRY(53="Bag of gold")
+                      | IF FLAG(7)=FALSE
+                      | MESSAGE 12="OK"
+                      | SET FLAG(7)=TRUE
+Cmd 234 |    64    24 |    2  58   1  53   9   6   0   6   0   0 |   12  58   0   0 |
+            buy  tabl | IF HERE(58="Stone tablet")
+                      | IF CARRY(53="Bag of gold")
+                      | IF FLAG(6)=FALSE
+                      | MESSAGE 12="OK"
+                      | SET FLAG(6)=TRUE
+Cmd 235 |     1    34 |    2  12   4  16   0  14   0  12   0   8 |   12  54  53  60 |
+             go  crev | IF HERE(12="Crevice")
+                      | IF ISROOM(16="dark cavern")
+                      | MESSAGE 12="OK"
+                      | GOTO 14="on a small island"
+                      | DROP 12="Crevice"
+                      | SET FLAG(8)=FALSE
+Cmd 236 |     1    36 |    4  19   0  20   0   0   0   0   0   0 |   54   0   0   0 |
+             go  stai | IF ISROOM(19="on a rocky strand")
+                      | GOTO 20="on a long staircase"
+Cmd 237 |     1    36 |    4  21   0  20   0   0   0   0   0   0 |   54   0   0   0 |
+             go  stai | IF ISROOM(21="sacred temple")
+                      | GOTO 20="on a long staircase"
+Cmd 238 |     1    36 |    4  20   0   0   0   0   0   0   0   0 |  123   0   0   0 |
+             go  stai | IF ISROOM(20="on a long staircase")
+                      | MESSAGE 73="Please be more specific"
+Cmd 239 |    53     0 |    0   0   0   0   0   0   0   0   0   0 |  126   0   0   0 |
+           help       | MESSAGE 76="Sorry"
+Cmd 240 |    68    45 |    1  73   0  73   0  74   0   0   0   0 |   12  59  53   0 |
+             in   pit | IF CARRY(73="Other end of the rope")
+                      | MESSAGE 12="OK"
+                      | DESTROY 73="Other end of the rope"
+                      | DROP 74="Rope leading down into pit"
+Cmd 241 |    61     0 |    0   0   0   0   0   0   0   0   0   0 |   12 112   0   0 |
+           pray       | MESSAGE 12="OK"
+                      | MESSAGE 62="Nothing happens"
+Cmd 242 |    68    47 |    1  58   4  16   0  58   0   8   0   0 |   12  62 131   0 |
+             in  foun | IF CARRY(58="Stone tablet")
+                      | IF ISROOM(16="dark cavern")
+                      | MESSAGE 12="OK"
+                      | SEND 58="Stone tablet" TO 8=""
+                      | MESSAGE 81="PLOOSH"
+Cmd 243 |    68    47 |    1  68   4  11   0  68   0   8   0   0 |   12  62 131   0 |
+             in  foun | IF CARRY(68="Stone tablet")
+                      | IF ISROOM(11="damp cave")
+                      | MESSAGE 12="OK"
+                      | SEND 68="Stone tablet" TO 8=""
+                      | MESSAGE 81="PLOOSH"
+Cmd 244 |    52    18 |    1  16   8  10   0  10   0   0   0   0 |   12  60 132   0 |
+           drin  ocea | IF CARRY(16="Gold chalice")
+                      | IF FLAG(10)=TRUE
+                      | MESSAGE 12="OK"
+                      | SET FLAG(10)=FALSE
+                      | MESSAGE 82="YUCK!"
+Cmd 245 |    52    18 |    1  16   8  12   0  12   0   0   0   0 |   12  60   0   0 |
+           drin  ocea | IF CARRY(16="Gold chalice")
+                      | IF FLAG(12)=TRUE
+                      | MESSAGE 12="OK"
+                      | SET FLAG(12)=FALSE
+Cmd 246 |    22    47 |    4  36   0   0   0   0   0   0   0   0 |  113 115   0   0 |
+           exam  foun | IF ISROOM(36="in an enormous cave")
+                      | MESSAGE 63="It's full of"
+                      | MESSAGE 65="a strange liquid"
+Cmd 247 |    22     0 |    0   0   0   0   0   0   0   0   0   0 |   76  14   0   0 |
+           exam       | LOOK
+                      | MESSAGE 14="I see nothing special"
+Cmd 248 |    18    58 |    1  20   0  20   0  21   0   0   0   0 |   12  53  55   0 |
+           drop  mask | IF CARRY(20="Gold mask")
+                      | MESSAGE 12="OK"
+                      | DROP 20="Gold mask"
+                      | DESTROY 21="I'm wearing it"
+Cmd 249 |    27     0 |    4   6   0   0   0   0   0   0   0   0 |   12  88   0   0 |
+           sail       | IF ISROOM(6="I am on a large ship")
+                      | MESSAGE 12="OK"
+                      | SLEEP 2 SECONDS
+Cmd 250 |    18    56 |    1  32   0  32   0  33   0   0   0   0 |   12  53  55   0 |
+           drop  sand | IF CARRY(32="Sandals")
+                      | MESSAGE 12="OK"
+                      | DROP 32="Sandals"
+                      | DESTROY 33="I'm wearing them"
+Cmd 251 |    18    56 |    1  32   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+           drop  sand | IF CARRY(32="Sandals")
+Cmd 252 |    10    39 |    2  55   0   0   0   0   0   0   0   0 |  132 126   0   0 |
+           take  scor | IF HERE(55="Scorpions")
+                      | MESSAGE 82="YUCK!"
+                      | MESSAGE 76="Sorry"
+Cmd 253 |     1    49 |    4  28   0  29   0   0   0   0   0   0 |   12  54   0   0 |
+             go   cot | IF ISROOM(28="small cabin")
+                      | MESSAGE 12="OK"
+                      | GOTO 29="cozy cot"
+
+// END OF FILE

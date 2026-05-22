@@ -1,0 +1,1195 @@
+Unknown        = 5963
+ItemCount      = 53
+CommandCount   = 161
+VerbNounCount  = 64
+RoomCount      = 23
+MaxInventory   = 7
+StartRoom      = 2
+TreasureCount  = 0
+WordLength     = 3
+LightMoves     = 10000
+MessageCount   = 81
+TreasureRoom   = 1
+
+Cmd   0:     15    594    180      0      0      0   8850      0
+Cmd   1:    100    194    206     40    200      0   8853    674
+Cmd   2:     30     72    854     60     77      0   8850      0
+Cmd   3:    100      0      0      0      0      0  11550      0
+Cmd   4:      9    201      0      0      0      0  10566   1863
+Cmd   5:    100    815     16    206      0      0  18528  18600
+Cmd   6:    100    249    240   6000      0      0   5218   8779
+Cmd   7:     30    854    207    840    200   5515   9350      0
+Cmd   8:     30    854     87    840     80   5515   9350      0
+Cmd   9:     30    854     67    840     60   5515   9350      0
+Cmd  10:     25    204      0      0      0      0   2719      0
+Cmd  11:     15    854      0      0      0      0  17850      0
+Cmd  12:     25    184      0      0      0      0   2719      0
+Cmd  13:     25    224      0      0      0      0   2719      0
+Cmd  14:     80    264    268      0      0      0  16800      0
+Cmd  15:     40    264    269      0      0      0  16950      0
+Cmd  16:    100     28    181     20      0      0   9000      0
+Cmd  17:    100     48     41     40      0      0   9000      0
+Cmd  18:    100     28    180    193     40     20    522   2160
+Cmd  19:    100     48    193    180     40     40    522   2310
+Cmd  20:     80    424    481    480    600      0  10831   7050
+Cmd  21:     80    424    541      0      0      0   4833   9450
+Cmd  22:     80    424    553      0      0      0   5283   9450
+Cmd  23:    100     15    180      0      0      0   8850      0
+Cmd  24:      0      0      0      0      0      0      0      0
+Cmd  25:   5114    264    852    823    268      0   2720  18150
+Cmd  26:   3652    983      0      0      0      0  10622      0
+Cmd  27:      0      0      0      0      0      0      0      0
+Cmd  28:   8142    323    234    220      0      0   8001      0
+Cmd  29:      0      0      0      0      0      0      0      0
+Cmd  30:   6470    307      0      0      0      0    907   2550
+Cmd  31:   3760    186    122     20     20      0   8754  10955
+Cmd  32:      0     22     20     80    100      0   9354   1650
+Cmd  33:      0    162    160     80    100      0   9354   1650
+Cmd  34:      0    142    140     80    100      0   9354   1650
+Cmd  35:      0     24    100      0      0      0   8102   2400
+Cmd  36:   1950    323    233      0      0      0  17552      0
+Cmd  37:   4800    324    180      0      0      0  15612   9450
+Cmd  38:      0      0      0      0      0      0      0      0
+Cmd  39:   6042    323    234      0      0      0  15750      0
+Cmd  40:   3759    122     40     46      0      0   8705      0
+Cmd  41:   5569      0      0      0      0      0   7200      0
+Cmd  42:   3761     89    122      0      0      0    907      0
+Cmd  43:   3762     69    122      0      0      0    907      0
+Cmd  44:   3761    122     34     20     20      0   9305      0
+Cmd  45:   3769      0      0      0      0      0   7200      0
+Cmd  46:   3762    122    174    160     20      0   9305      0
+Cmd  47:   3759    122    180     41      0      0    809      0
+Cmd  48:   3750    122      0      0      0      0    750      0
+Cmd  49:   8555    104     80      0      0      0   8170   9600
+Cmd  50:   1507     63     60      0      0      0   7800      0
+Cmd  51:   1505    104     80      0      0      0   8170   9600
+Cmd  52:    750    553      0      0      0      0  10566      0
+Cmd  53:    750    554      0      0      0      0  10566   5400
+Cmd  54:   6007     63      0      0      0      0  16350      0
+Cmd  55:   7363      0      0      0      0      0  10650      0
+Cmd  56:   7500      0      0      0      0      0   1863      0
+Cmd  57:   6039    843      0      0      0      0  17510      0
+Cmd  58:   3796    302    413      0      0      0   4066   4229
+Cmd  59:   3796    302    414      0      0      0  10527   4529
+Cmd  60:   8557     63      0      0      0      0  10501   1950
+Cmd  61:   5550    122    223     80     89      0   8709   1200
+Cmd  62:   5550    122    243     60     69      0   8710   1200
+Cmd  63:   1547    553      0      0      0      0  10566      0
+Cmd  64:   1547    554      0      0      0      0  10566   5400
+Cmd  65:   3760    264    180      0      0      0    804   3150
+Cmd  66:   3762    284    200      0      0      0  10505   3204
+Cmd  67:    171    342    268    180    320      0   8904  10564
+Cmd  68:    171    342    269    320      0      0   8170   9600
+Cmd  69:    171    324    260      0      0      0   8170   9600
+Cmd  70:   3761    304    220      0      0      0  10505   3204
+Cmd  71:   4350    443    403    400    420    440  10859  10564
+Cmd  72:   5550    423    440    420    400      0   7872  10564
+Cmd  73:   6779    563    160      0      0      0   3658      0
+Cmd  74:   2250    168    160    180    563      0   9105   8954
+Cmd  75:   1529    562    594    560      0      0   7800      0
+Cmd  76:   3300      0      0      0      0      0  18000      0
+Cmd  77:   1529    562    874      0      0      0      6  15450
+Cmd  78:   2729    561    180    560      0      0  15809  15653
+Cmd  79:    900    384    483    563      0      0  10544   6813
+Cmd  80:    900    404    483    563      0      0   6646   9450
+Cmd  81:   6781    582    523    860    580     40  10858  10564
+Cmd  82:   2742    321    234    320      0      0   2505   7950
+Cmd  83:    900    483    480    460      0      0  10847      0
+Cmd  84:   5114    184    141    260      0      0   2828   3204
+Cmd  85:   5114    184    161    260      0      0   2828   3204
+Cmd  86:   5114    184     21    260      0      0   2828   3204
+Cmd  87:   2742    321    233    320      0      0   7950      0
+Cmd  88:   5114    204     21    280      0      0   2828   3204
+Cmd  89:   5114    204    161    280      0      0   2828   3204
+Cmd  90:   5114    224     21    300      0      0   2828   3204
+Cmd  91:   5114    204      0      0      0      0  10518   3000
+Cmd  92:   5114    184      0      0      0      0  10518   3000
+Cmd  93:   5114    224      0      0      0      0  10518   3000
+Cmd  94:   1950    323    234      0      0      0  15705      0
+Cmd  95:   6771    282    140    200     63      0   3658   8700
+Cmd  96:   2257    282     63    148     60     20  11012  10526
+Cmd  97:      0    140     40    340    280    260   9058  10858
+Cmd  98:   1533      0      0      0      0      0    937      0
+Cmd  99:   6021    264      0      0      0      0   3300      0
+Cmd 100:   7650      0      0      0      0      0  10523      0
+Cmd 101:   5400    102    100      0      0      0  10554   9600
+Cmd 102:   6471      0      0      0      0      0    907   2550
+Cmd 103:   6792    323    200    220      0      0   8758   3600
+Cmd 104:   2282    523    228    220    200    220   8001   9060
+Cmd 105:   5571      0      0      0      0      0    317      0
+Cmd 106:      0      0      0      0      0      0      0      0
+Cmd 107:   5114    843    260    264    823      0   9018  15900
+Cmd 108:    183     84      0      0      0      0  17100      0
+Cmd 109:   6033     84      0      0      0      0  17100      0
+Cmd 110:   6029    563      0      0      0      0  16650      0
+Cmd 111:   6030      0      0      0      0      0   9900      0
+Cmd 112:   2748    554    540      0      0      0   7950      0
+Cmd 113:   2748    541    540      0      0      0   7950      0
+Cmd 114:   6021    444      0      0      0      0  10549      0
+Cmd 115:   1528    463    502    460    480      0  10800      0
+Cmd 116:   7848    543    540      0      0      0   8850      0
+Cmd 117:   1507    662      0      0      0      0    937      0
+Cmd 118:   6470    662      0      0      0      0    937      0
+Cmd 119:    170    662    561      0      0      0   5700      0
+Cmd 120:    170    662    300      0      0      0  10554   9600
+Cmd 121:   6470    702      0      0      0      0   2439   6037
+Cmd 122:   3770    702      0      0      0      0   2439   6037
+Cmd 123:   3801    702    725    720      0      0   5891   6353
+Cmd 124:   3801    702    722      0      0      0   2439   6187
+Cmd 125:    170    702    722    380      0      0   8170   9600
+Cmd 126:    170    702    725      0      0      0    943      0
+Cmd 127:   4670    702    725    720      0      0  19092   7950
+Cmd 128:   6320      0      0      0      0      0   5550      0
+Cmd 129:   4955    543    540      0      0      0   8850      0
+Cmd 130:   5114    264    268      0      0      0   2720      0
+Cmd 131:   5570      0      0      0      0      0    317      0
+Cmd 132:   8139    843    794    780    800    820   8003   8023
+Cmd 133:      0      0    740    980      0      0   8003   7703
+Cmd 134:      0     74     60      0      0      0   7950      0
+Cmd 135:   7950    184      0      0      0      0  10518   2850
+Cmd 136:   1350      0      0      0      0      0  17250      0
+Cmd 137:   5250      0      0      0      0      0   5550      0
+Cmd 138:   3750      0      0      0      0      0    300      0
+Cmd 139:   7950    204      0      0      0      0  10518   2850
+Cmd 140:   7950    224      0      0      0      0  10518   2850
+Cmd 141:   7950      0      0      0      0      0    300      0
+Cmd 142:   2250    209      0      0      0      0  17550      0
+Cmd 143:   2303    208    200      0      0      0   9127    300
+Cmd 144:   8100      0      0      0      0      0    300      0
+Cmd 145:   4650      0      0      0      0      0  19052      0
+Cmd 146:   5100      0      0      0      0      0   2402      0
+Cmd 147:   3600      0      0      0      0      0   1002      0
+Cmd 148:   5700      0      0      0      0      0   1007      0
+Cmd 149:   6750    200      0      0      0      0   3658      0
+Cmd 150:   2250    208    200      0      0      0   9016    325
+Cmd 151:   8550      0      0      0      0      0  16200      0
+Cmd 152:   4200    600      0      0      0      0  12575      0
+Cmd 153:   2400      0      0      0      0      0  16200      0
+Cmd 154:   6052    983      0      0      0      0  18900      0
+Cmd 155:   6037    264    268      0      0      0  16800      0
+Cmd 156:   6037    264    269      0      0      0  16950      0
+Cmd 157:      0      0      0      0      0      0      0      0
+Cmd 158:      0      0      0      0      0      0      0      0
+Cmd 159:      0      0      0      0      0      0      0      0
+Cmd 160:      0      0      0      0      0      0      0      0
+Cmd 161:   6000      0      0      0      0      0  17476      0
+
+Verb  0: AUT    Noun  0: ANY
+Verb  1: GO     Noun  1: NORTH
+Verb  2: *ENT   Noun  2: SOUTH
+Verb  3: *WAL   Noun  3: EAST
+Verb  4: *RUN   Noun  4: WEST
+Verb  5: INV    Noun  5: UP
+Verb  6: POU    Noun  6: DOWN
+Verb  7: *SPI   Noun  7: TAP
+Verb  8: *EMP   Noun  8: *REC
+Verb  9: HEL    Noun  9: RED
+Verb 10: GET    Noun 10: WHI
+Verb 11: *TAK   Noun 11: BLU
+Verb 12: *MOV   Noun 12: YEL
+Verb 13: CLE    Noun 13: GAM
+Verb 14: *MOP   Noun 14: PIC
+Verb 15: WIT    Noun 15: *PAS
+Verb 16: UNA    Noun 16: *BAD
+Verb 17: *DIS   Noun 17: *AUT
+Verb 18: DRO    Noun 18: ARO
+Verb 19: *PUT   Noun 19: BUT
+Verb 20: *LEA   Noun 20: DOO
+Verb 21: *REM   Noun 21: WIN
+Verb 22: CHA    Noun 22: *GLA
+Verb 23: *FOL   Noun 23: YAR
+Verb 24: REA    Noun 24: FIL
+Verb 25: PRE    Noun 25: *CAR
+Verb 26: *TOU   Noun 26: PRO
+Verb 27: *PUS   Noun 27: CAS
+Verb 28: WAI    Noun 28: WAT
+Verb 29: LOA    Noun 29: BOM
+Verb 30: *INS   Noun 30: DET
+Verb 31: KIC    Noun 31: WIR
+Verb 32: JUM    Noun 32: CUT
+Verb 33: SUI    Noun 33: CHA
+Verb 34: SHO    Noun 34: KEY
+Verb 35: PUL    Noun 35: ENV
+Verb 36: SIT    Noun 36: *MAN
+Verb 37: UNL    Noun 37: CAM
+Verb 38: FIN    Noun 38: *BOX
+Verb 39: *LOC   Noun 39: SAB
+Verb 40: LOO    Noun 40: *HIM
+Verb 41: *EXA   Noun 41: *THE
+Verb 42: CLO    Noun 42: MOP
+Verb 43: OPE    Noun 43: MAP
+Verb 44: .      Noun 44: PAI
+Verb 45: BRE    Noun 45: *PLA
+Verb 46: *SMA   Noun 46: GRE
+Verb 47: *CUT   Noun 47: INV
+Verb 48: *UNB   Noun 48: SUI
+Verb 49: SAV    Noun 49: *ANT
+Verb 50: QUI    Noun 50: *RAD
+Verb 51: SCO    Noun 51: HAR
+Verb 52: WEA    Noun 52: LEA
+Verb 53: KNO    Noun 53: HAN
+Verb 54: FRI    Noun 54: *FIS
+Verb 55: *SEA   Noun 55: *FOO
+Verb 56: *SHA   Noun 56: *FEE
+Verb 57: ACT    Noun 57: FLO
+Verb 58: *STA   Noun 58: *WAL
+Verb 59: *PLA   Noun 59: VAT
+Verb 60:        Noun 60: DIA
+Verb 61:        Noun 61: *GAU
+Verb 62:        Noun 62: DEB
+Verb 63:        Noun 63: 
+Verb 64:        Noun 64: 
+
+Room  0: 
+
+Room  1: 
+
+Room  2: briefing room
+         W:     3
+
+Room  3: long sloping grey corridor
+         N:     8
+         S:     4
+         E:     2
+         W:    12
+         U:     6
+         D:     7
+
+Room  4: grey room
+         N:     3
+
+Room  5: *I'm sitting in a grey chair\\there's a box pointing at me
+
+Room  6: twisting white hallway
+         N:     9
+         E:     8
+         D:     3
+
+Room  7: twisting yellow hallway
+         N:    10
+         U:     3
+
+Room  8: twisting blue hallway
+         N:    11
+         S:     3
+         W:     6
+
+Room  9: white room
+         S:     6
+
+Room 10: yellow room
+         S:     7
+
+Room 11: blue room
+         S:     8
+
+Room 12: maintenance room 1
+         E:     3
+
+Room 13: large white visitors room
+
+Room 14: yellow corridor
+         W:    17
+
+Room 15: blue anteroom
+         W:    23
+         U:    22
+
+Room 16: *I'm on a ledge outside of a window\\high above the reactor core
+
+Room 17: maintenance room 2
+         E:    14
+         U:    18
+
+Room 18: projectionist room
+         D:    17
+
+Room 19: Control room surronding\\the reactor core
+         E:    20
+         D:    21
+
+Room 20: break room
+         W:    19
+
+Room 21: reactor core
+         U:    19
+
+Room 22: small viewing room
+         D:    15
+
+Room 23: storage room
+         E:    15
+
+Msg   0: 
+Msg   1: Good morning Mr. Phelps. Your Mission (should you decide to\\accept it) is to prevent this automated nuclear reactor\\from being destroyed by a saboteur's TIME BOMB!\\
+Msg   2: Nothing happened
+Msg   3: My bomb detector
+Msg   4: wails ALARMINGLY!
+Msg   5: CLICK!
+Msg   6: I can't do that
+Msg   7: It appears locked
+Msg   8: button is now unlocked
+Msg   9: Blue
+Msg  10: Yellow
+Msg  11: There's a Bright flash & I hear something fall to the floor.\\I can't see what it is from here though.\\
+Msg  12: *   B O O O O O O O O O M ! * * * * * *
+Msg  13: The saboteur (who also rewired the security system) is a heart\\patient. He plans to SUICIDE with the reactor! He is still loosein the building.\\You'll find Security keys & a map in the manila envelope lying\\next to the tape player.
+Msg  14: politely beeps...\\
+Msg  15: angrily buzzes...\\
+Msg  16: Strange...
+Msg  17: Most doors & windows are under automated security control.
+Msg  18: Metallic voice says:
+Msg  19: `Show authorization please`\\
+Msg  20: `Authorization INSUFFICIENT for access`\\
+Msg  21: The door opens just long enough for me to scurry through.
+Msg  22: I'm on the 2nd floor. Below I see the control room surronding\\the reactor core. There's a wide ledge just under the window.
+Msg  23: In this Adventure there's NO score. Either you make it or ...\\
+Msg  24: Tell me with what? Example: `WITH FIST`
+Msg  25: Be sure I'm carrying it!
+Msg  26: Recorder goes flying thru the glass landing in the control room.Boy what a MESS!\\
+Msg  27: Click!\\Room lights dim and a screen drops from the ceiling.\\You hear a hidden projector start.
+Msg  28: The screen illuminates for awhile, but no movie!?
+Msg  29: The projector stops, the screen rises, and the lights return.
+Msg  30: A movie runs telling about the reactor and its construction\\interesting highlights:\\1) Plastic DEFORMS strangely in radiation\\2) Even short exposure to HIGH radiation is LETHAL, so suit up\\
+Msg  31: The radiation did something to my pail!
+Msg  32: Holding a Radiation Suit
+Msg  33: doesn't provide much protection for me\\as I fall down retching I hear/FEEL THE BOMB explode!\\
+Msg  34: Welcome to Adventure number 3 `MISSION IMPOSSIBLE`\\by Scott Adams, Dedicated to Maegen Adams.\\
+Msg  35: A business suit
+Msg  36: I'm WEARING an anti-radiation suit.
+Msg  37: It won't budge!
+Msg  38: Something won't fit thru the door.
+Msg  39: I turn the knob and push
+Msg  40: gently on the door
+Msg  41: hard on the door
+Msg  42: it opens slightly
+Msg  43: its closed
+Msg  44: the water spills on the bomb and
+Msg  45: the control panel which immediately shorts out triggering\\the bomb
+Msg  46: defuses it! FANTASTIC, You completed an IMPOSSIBLE mission!
+Msg  47: the water soaks into the floor
+Msg  48: say again & use a color!
+Msg  49: I'm looking into the control room. I notice that the door is\\blocked by some debris.
+Msg  50: In the distance you hear a dull thud; as if someone fell or\\dropped something heavy.
+Msg  51: Something fell to the floor.
+Msg  52: its unreadable
+Msg  53: its still connected
+Msg  54: Oh Boy...I think I did something...
+Msg  55: It made an odd sound.
+Msg  56: `TV deactivated`\\
+Msg  57: I don't know where to look
+Msg  58: Tell me how?
+Msg  59: Try starting it.
+Msg  60: Maybe I should FRISK him?
+Msg  61: Its a seamless box with 1 small hole for the red wire.
+Msg  62: TV camera is slow scanning the window area.
+Msg  63: TV camera is powered down.\\
+Msg  64: It seems safe. Shall I sit down?
+Msg  65: Only help I can think of is to: `Examine everything closely!`\\
+Msg  66: I see nothing special.
+Msg  67: HUH?
+Msg  68: A minute ago someone ran out of this room! By the way I seem\\to be carrying something!\\
+Msg  69: Someone came in the room, he saw me and ran out!
+Msg  70: I see no one here.
+Msg  71: `Owner of badge is not present!`
+Msg  72: Hi! Look for Adventure number 4: `VOODOO CASTLE` at your\\favorite computer store! (Now back to our current program.)
+Msg  73: Final countdown starts in
+Msg  74: turns!
+Msg  75: Some time passes...
+Msg  76: There is something written there
+Msg  77: OW! That HURT! Anyway
+Msg  78: `ACCEPTED`
+Msg  79: 
+Msg  80: 
+Msg  81: 
+
+Item  0: Loc:  0 - Torn up map/MAP/
+Item  1: Loc:  0 - Picture of me stamped -security-/PIC/
+Item  2: Loc:  1 - Bomb detector flashing yellow (bomb is now armed)
+Item  3: Loc:  2 - Large tape recorder/TAP/
+Item  4: Loc:  4 - Box with apparatus pointing at chair
+Item  5: Loc:  4 - Chair bolted to floor
+Item  6: Loc:  5 - Row of 4 buttons -red white blue yellow-
+Item  7: Loc:  1 - Picture of me stamped: -visitor-/PIC/
+Item  8: Loc:  0 - Picture of me stamped -maintenance-/PIC/
+Item  9: Loc: -1 - Surgically implanted bomb detector glows green (bomb's -safe-)
+Item 10: Loc:  0 - Bomb detector glowing red (final countdown active)
+Item 11: Loc:  0 - Blue key/KEY/
+Item 12: Loc: 16 - Yellow key/KEY/
+Item 13: Loc:  9 - Closed white door with tv camera mounted over it
+Item 14: Loc: 13 - Plate glass window with embeded red wires
+Item 15: Loc: 13 - Panel of buttons -white green-
+Item 16: Loc: 17 - Old fashioned yarn mop/MOP/
+Item 17: Loc:  0 - Empty window frame
+Item 18: Loc: 13 - Tv camera mounted over window
+Item 19: Loc: 16 - Broken glass/WIN/
+Item 20: Loc: 18 - Empty movie projector
+Item 21: Loc:  0 - Movie projector with film cartridge
+Item 22: Loc: 19 - Movie film cartridge/FIL/
+Item 23: Loc: 12 - Empty plastic pail/PAI/
+Item 24: Loc:  0 - Water filled plastic pail/PAI/
+Item 25: Loc: 23 - Vat of heavy water
+Item 26: Loc: 17 - Wire cutters/CUT/
+Item 27: Loc: 23 - Anti-radiation suit/SUI/
+Item 28: Loc: 21 - Very large time bomb
+Item 29: Loc: 21 - Red wire going from bomb into wall
+Item 30: Loc:  0 - Strange lump of glowing plastic/PAI/
+Item 31: Loc: 19 - Sign `No beverages, Please use Break Room.`
+Item 32: Loc: 10 - Yellow door with tv camera over it
+Item 33: Loc: 19 - Metal door jammed partially open by remains of a tape recorder
+Item 34: Loc: 11 - Blue door with tv camera over it
+Item 35: Loc: 15 - Plain metal door with sign -control room-
+Item 36: Loc:  0 - The door is partially open
+Item 37: Loc:  0 - Empty pill case/CAS/
+Item 38: Loc: 22 - 6 inch window
+Item 39: Loc:  0 - Empty manila envelope/ENV/
+Item 40: Loc:  0 - Piece of yarn/YAR/
+Item 41: Loc:  0 - Picture of saboteur stamped -window maintance-/PIC/
+Item 42: Loc:  0 - Dead saboteur/SAB/
+Item 43: Loc:  0 - Loose red wire going into wall
+Item 44: Loc: 19 - Steps leading down into the reactor core
+Item 45: Loc: 14 - Yellow button
+Item 46: Loc: 15 - Blue button
+Item 47: Loc:  5 - Keyholes under buttons
+Item 48: Loc: 19 - Exposed dials and gauges everywhere
+Item 49: Loc:  0 - A leaflet/LEA/
+Item 50: Loc:  0 - 
+Item 51: Loc:  0 - 
+Item 52: Loc:  0 - 
+Item 53: Loc:  0 - 
+
+Version         = 306
+AdventureNumber = 3
+MagicNumber     = 681
+
+Cmd   0 |     0    15 |   14  29   0   9   0   0   0   0   0   0 |   59   0   0   0 | WIRE CUT BOOM SOON
+                  15% | IF NOWHERE(29="Red wire going from bomb in...")
+                      | DESTROY 9="Surgically implanted bomb d..."
+Cmd   1 |     0   100 |   14   9   6  10   0   2   0  10   0   0 |   59   3   4  74 | BOOOM SOON
+                 100% | IF NOWHERE(9="Surgically implanted bomb d...")
+                      | IF NOT CARRY(10="Bomb detector glowing red (...")
+                      | DESTROY 2="Bomb detector flashing yell..."
+                      | MESSAGE 3="My bomb detector"
+                      | MESSAGE 4="wails ALARMINGLY!"
+                      | TAKE_NOCHECK 10="Bomb detector glowing red (..."
+Cmd   2 |     0    30 |   12   3  14  42   0   3  17   3   0   0 |   59   0   0   0 | STEAL TAPE PLAYER
+                  30% | IF NOT HERECARRY(3="Large tape recorder")
+                      | IF NOWHERE(42="Dead saboteur")
+                      | IF ATSTARTROOM(3)
+                      | DESTROY 3="Large tape recorder"
+Cmd   3 |     0   100 |    0   0   0   0   0   0   0   0   0   0 |   77   0   0   0 | DEC COUNTER
+                 100% | DECREMENT_COUNTER
+Cmd   4 |     0     9 |    1  10   0   0   0   0   0   0   0   0 |   70  66  12  63 | BOOOM
+                   9% | IF CARRY(10="Bomb detector glowing red (...")
+                      | CLEARSCREEN
+                      | INVENTORY
+                      | MESSAGE 12="*   B O O O O O O O O O M !..."
+                      | QUIT
+Cmd   5 |     0   100 |   15  40  16   0   6  10   0   0   0   0 |  123  78 124   0 | MSG DOOM
+                 100% | IF LE(COUNTER,40)
+                      | IF GE(COUNTER,0)
+                      | IF NOT CARRY(10="Bomb detector glowing red (...")
+                      | MESSAGE 73="Final countdown starts in"
+                      | PRINT_COUNTER
+                      | MESSAGE 74="turns!"
+Cmd   6 |     0   100 |    9  12   0  12   0 300   0   0   0   0 |   34 118  58  79 | FIRST IN
+                 100% | IF FLAG(12)=FALSE
+                      | MESSAGE 34="Welcome to Adventure number..."
+                      | MESSAGE 68="A minute ago someone ran ou..."
+                      | SET FLAG(12)=TRUE
+                      | SET COUNTER=300
+Cmd   7 |     0    30 |   14  42   7  10   0  42   0  10  15 275 |   62  50   0   0 | SABETOUR
+                  30% | IF NOWHERE(42="Dead saboteur")
+                      | IF NOT ISROOM(10)
+                      | IF LE(COUNTER,275)
+                      | SEND 42="Dead saboteur" TO 10="yellow room"
+                      | MESSAGE 50="In the distance you hear a..."
+Cmd   8 |     0    30 |   14  42   7   4   0  42   0   4  15 275 |   62  50   0   0 | SABETOUR
+                  30% | IF NOWHERE(42="Dead saboteur")
+                      | IF NOT ISROOM(4)
+                      | IF LE(COUNTER,275)
+                      | SEND 42="Dead saboteur" TO 4="grey room"
+                      | MESSAGE 50="In the distance you hear a..."
+Cmd   9 |     0    30 |   14  42   7   3   0  42   0   3  15 275 |   62  50   0   0 | SABETOUR
+                  30% | IF NOWHERE(42="Dead saboteur")
+                      | IF NOT ISROOM(3)
+                      | IF LE(COUNTER,275)
+                      | SEND 42="Dead saboteur" TO 3="long sloping grey corridor"
+                      | MESSAGE 50="In the distance you hear a..."
+Cmd  10 |     0    25 |    4  10   0   0   0   0   0   0   0   0 |   18  19   0   0 | VOICE
+                  25% | IF ISROOM(10="yellow room")
+                      | MESSAGE 18="Metallic voice says:"
+                      | MESSAGE 19="`Show authorization please`"
+Cmd  11 |     0    15 |   14  42   0   0   0   0   0   0   0   0 |  119   0   0   0 | RAN IN AND LEFT
+                  15% | IF NOWHERE(42="Dead saboteur")
+                      | MESSAGE 69="Someone came in the room, h..."
+Cmd  12 |     0    25 |    4   9   0   0   0   0   0   0   0   0 |   18  19   0   0 | SHOW AUTHORIZATION
+                  25% | IF ISROOM(9="white room")
+                      | MESSAGE 18="Metallic voice says:"
+                      | MESSAGE 19="`Show authorization please`"
+Cmd  13 |     0    25 |    4  11   0   0   0   0   0   0   0   0 |   18  19   0   0 | SHOW AUTHORIZATION
+                  25% | IF ISROOM(11="blue room")
+                      | MESSAGE 18="Metallic voice says:"
+                      | MESSAGE 19="`Show authorization please`"
+Cmd  14 |     0    80 |    4  13   8  13   0   0   0   0   0   0 |  112   0   0   0 | TV
+                  80% | IF ISROOM(13="large white visitors room")
+                      | IF FLAG(13)=TRUE
+                      | MESSAGE 62="TV camera is slow scanning..."
+Cmd  15 |     0    40 |    4  13   9  13   0   0   0   0   0   0 |  113   0   0   0 | TV
+                  40% | IF ISROOM(13="large white visitors room")
+                      | IF FLAG(13)=FALSE
+                      | MESSAGE 63="TV camera is powered down."
+Cmd  16 |     0   100 |    8   1   1   9   0   1   0   0   0   0 |   60   0   0   0 | ALREADY SET DETECTOR
+                 100% | IF FLAG(1)=TRUE
+                      | IF CARRY(9="Surgically implanted bomb d...")
+                      | SET FLAG(1)=FALSE
+Cmd  17 |     0   100 |    8   2   1   2   0   2   0   0   0   0 |   60   0   0   0 | DITTO
+                 100% | IF FLAG(2)=TRUE
+                      | IF CARRY(2="Bomb detector flashing yell...")
+                      | SET FLAG(2)=FALSE
+Cmd  18 |     0   100 |    8   1   0   9  13   9   0   2   0   1 |    3  72  14  60 | SET GREEN
+                 100% | IF FLAG(1)=TRUE
+                      | IF SOMEWHERE(9="Surgically implanted bomb d...")
+                      | MESSAGE 3="My bomb detector"
+                      | SWAP ITEMS 9="Surgically implanted bomb d..." AND 2="Bomb detector flashing yell..."
+                      | MESSAGE 14="politely beeps..."
+                      | SET FLAG(1)=FALSE
+Cmd  19 |     0   100 |    8   2  13   9   0   9   0   2   0   2 |    3  72  15  60 | SET YELLO
+                 100% | IF FLAG(2)=TRUE
+                      | IF SOMEWHERE(9="Surgically implanted bomb d...")
+                      | MESSAGE 3="My bomb detector"
+                      | SWAP ITEMS 9="Surgically implanted bomb d..." AND 2="Bomb detector flashing yell..."
+                      | MESSAGE 15="angrily buzzes..."
+                      | SET FLAG(2)=FALSE
+Cmd  20 |     0    80 |    4  21   1  24   0  24   0  30   0   0 |   72  31  47   0 | PAIL
+                  80% | IF ISROOM(21="reactor core")
+                      | IF CARRY(24="Water filled plastic pail")
+                      | SWAP ITEMS 24="Water filled plastic pail" AND 30="Strange lump of glowing pla..."
+                      | MESSAGE 31="The radiation did something..."
+                      | MESSAGE 47="the water soaks into the floor"
+Cmd  21 |     0    80 |    4  21   1  27   0   0   0   0   0   0 |   32  33  63   0 | NO SUIT
+                  80% | IF ISROOM(21="reactor core")
+                      | IF CARRY(27="Anti-radiation suit")
+                      | MESSAGE 32="Holding a Radiation Suit"
+                      | MESSAGE 33="doesn't provide much protec..."
+                      | QUIT
+Cmd  22 |     0    80 |    4  21  13  27   0   0   0   0   0   0 |   35  33  63   0 | NO SUIT
+                  80% | IF ISROOM(21="reactor core")
+                      | IF SOMEWHERE(27="Anti-radiation suit")
+                      | MESSAGE 35="A business suit"
+                      | MESSAGE 33="doesn't provide much protec..."
+                      | QUIT
+Cmd  23 |     0   100 |   15   0   0   9   0   0   0   0   0   0 |   59   0   0   0 | BOMB TRIGGED
+                 100% | IF LE(COUNTER,0)
+                      | DESTROY 9="Surgically implanted bomb d..."
+Cmd  24 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 | .
+            continued | Cmd  25 |    34    14 |    4  13  12  42   3  41   8  13   0   0 |   18  20 121   0 | NEED SAB TOO
+            sho   pic | IF ISROOM(13="large white visitors room")
+                      | IF NOT HERECARRY(42="Dead saboteur")
+                      | IF HERECARRY(41="Picture of saboteur stamped...")
+                      | IF FLAG(13)=TRUE
+                      | MESSAGE 18="Metallic voice says:"
+                      | MESSAGE 20="`Authorization INSUFFICIENT..."
+                      | MESSAGE 71="`Owner of badge is not pres..."
+Cmd  26 |    24    52 |    3  49   0   0   0   0   0   0   0   0 |   70 122   0   0 | .
+            rea   lea | IF HERECARRY(49="A leaflet")
+                      | CLEARSCREEN
+                      | MESSAGE 72="Hi! Look for Adventure numb..."
+Cmd  27 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 | .
+            continued | Cmd  28 |    54    42 |    3  16  14  11   0  11   0   0   0   0 |   53  51   0   0 | .
+            fri   mop | IF HERECARRY(16="Old fashioned yarn mop")
+                      | IF NOWHERE(11="Blue key")
+                      | DROP 11="Blue key"
+                      | MESSAGE 51="Something fell to the floor."
+Cmd  29 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 | .
+            continued | Cmd  30 |    43    20 |    7  15   0   0   0   0   0   0   0   0 |    6   7  17   0 | .
+            ope   doo | IF NOT ISROOM(15)
+                      | MESSAGE 6="I can't do that"
+                      | MESSAGE 7="It appears locked"
+                      | MESSAGE 17="Most doors & windows are un..."
+Cmd  31 |    25    10 |    6   9   2   6   0   1   0   1   0   0 |   58  54  73   5 | GIVE BADGES
+            pre   whi | IF NOT CARRY(9="Surgically implanted bomb d...")
+                      | IF HERE(6="Row of 4 buttons -red white...")
+                      | SET FLAG(1)=TRUE
+                      | GOTO 1=""
+                      | CONTINUE_NEXT_LINE
+                      | MESSAGE 5="CLICK!"
+Cmd  32 |     0     0 |    2   1   0   1   0   4   0   5   0   0 |   62  54  11   0 | SECURITY BADGE
+            continued | IF HERE(1="Picture of me stamped -secu...")
+                      | SEND 1="Picture of me stamped -secu..." TO 4="grey room"
+                      | GOTO 5="sitting in a grey chair"
+                      | MESSAGE 11="There's a Bright flash & I..."
+Cmd  33 |     0     0 |    2   8   0   8   0   4   0   5   0   0 |   62  54  11   0 | MAINTANCE BADGE
+            continued | IF HERE(8="Picture of me stamped -main...")
+                      | SEND 8="Picture of me stamped -main..." TO 4="grey room"
+                      | GOTO 5="sitting in a grey chair"
+                      | MESSAGE 11="There's a Bright flash & I..."
+Cmd  34 |     0     0 |    2   7   0   7   0   4   0   5   0   0 |   62  54  11   0 | VISITOR BADGE
+            continued | IF HERE(7="Picture of me stamped: -vis...")
+                      | SEND 7="Picture of me stamped: -vis..." TO 4="grey room"
+                      | GOTO 5="sitting in a grey chair"
+                      | MESSAGE 11="There's a Bright flash & I..."
+Cmd  35 |     0     0 |    4   1   0   5   0   0   0   0   0   0 |   54   2  16   0 | NO PIC
+            continued | IF ISROOM(1="")
+                      | GOTO 5="sitting in a grey chair"
+                      | MESSAGE 2="Nothing happened"
+                      | MESSAGE 16="Strange..."
+Cmd  36 |    13     0 |    3  16  13  11   0   0   0   0   0   0 |  117   2   0   0 |
+            cle       | IF HERECARRY(16="Old fashioned yarn mop")
+                      | IF SOMEWHERE(11="Blue key")
+                      | MESSAGE 67="HUH?"
+                      | MESSAGE 2="Nothing happened"
+Cmd  37 |    32     0 |    4  16   0   9   0   0   0   0   0   0 |  104  12  63   0 |
+            jum       | IF ISROOM(16="on a ledge outside of a window")
+                      | MESSAGE 54="Oh Boy...I think I did some..."
+                      | MESSAGE 12="*   B O O O O O O O O O M !..."
+                      | QUIT
+Cmd  38 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd  39 |    40    42 |    3  16  14  11   0   0   0   0   0   0 |  105   0   0   0 |
+            loo   mop | IF HERECARRY(16="Old fashioned yarn mop")
+                      | IF NOWHERE(11="Blue key")
+                      | MESSAGE 55="It made an odd sound."
+Cmd  40 |    25     9 |    2   6   0   2   6   2   0   0   0   0 |   58   5   0   0 | DANGER
+            pre   red | IF HERE(6="Row of 4 buttons -red white...")
+                      | IF NOT CARRY(2="Bomb detector flashing yell...")
+                      | SET FLAG(2)=TRUE
+                      | MESSAGE 5="CLICK!"
+Cmd  41 |    37    19 |    0   0   0   0   0   0   0   0   0   0 |   48   0   0   0 | .
+            unl   but | MESSAGE 48="say again & use a color!"
+Cmd  42 |    25    11 |    9   4   2   6   0   0   0   0   0   0 |    6   7   0   0 | LOCKED
+            pre   blu | IF FLAG(4)=FALSE
+                      | IF HERE(6="Row of 4 buttons -red white...")
+                      | MESSAGE 6="I can't do that"
+                      | MESSAGE 7="It appears locked"
+Cmd  43 |    25    12 |    9   3   2   6   0   0   0   0   0   0 |    6   7   0   0 | LOCKED
+            pre   yel | IF FLAG(3)=FALSE
+                      | IF HERE(6="Row of 4 buttons -red white...")
+                      | MESSAGE 6="I can't do that"
+                      | MESSAGE 7="It appears locked"
+Cmd  44 |    25    11 |    2   6  14   1   0   1   0   1   0   0 |   62   5   0   0 | MOVE PICTURE
+            pre   blu | IF HERE(6="Row of 4 buttons -red white...")
+                      | IF NOWHERE(1="Picture of me stamped -secu...")
+                      | SEND 1="Picture of me stamped -secu..." TO 1=""
+                      | MESSAGE 5="CLICK!"
+Cmd  45 |    25    19 |    0   0   0   0   0   0   0   0   0   0 |   48   0   0   0 |
+            pre   but | MESSAGE 48="say again & use a color!"
+Cmd  46 |    25    12 |    2   6  14   8   0   8   0   1   0   0 |   62   5   0   0 | MOVE PIC
+            pre   yel | IF HERE(6="Row of 4 buttons -red white...")
+                      | IF NOWHERE(8="Picture of me stamped -main...")
+                      | SEND 8="Picture of me stamped -main..." TO 1=""
+                      | MESSAGE 5="CLICK!"
+Cmd  47 |    25     9 |    2   6   0   9   1   2   0   0   0   0 |    5  59   0   0 | CLICK?
+            pre   red | IF HERE(6="Row of 4 buttons -red white...")
+                      | IF CARRY(2="Bomb detector flashing yell...")
+                      | MESSAGE 5="CLICK!"
+                      | DESTROY 9="Surgically implanted bomb d..."
+Cmd  48 |    25     0 |    2   6   0   0   0   0   0   0   0   0 |    5   0   0   0 | .
+            pre       | IF HERE(6="Row of 4 buttons -red white...")
+                      | MESSAGE 5="CLICK!"
+Cmd  49 |    57     5 |    4   5   0   4   0   0   0   0   0   0 |   54  70  64   0 | STAND UP
+            act    up | IF ISROOM(5="sitting in a grey chair")
+                      | GOTO 4="grey room"
+                      | CLEARSCREEN
+                      | LOOK
+Cmd  50 |    10     7 |    3   3   0   3   0   0   0   0   0   0 |   52   0   0   0 | TAPE
+            get   tap | IF HERECARRY(3="Large tape recorder")
+                      | TAKE 3="Large tape recorder"
+Cmd  51 |    10     5 |    4   5   0   4   0   0   0   0   0   0 |   54  70  64   0 | STAND UP
+            get    up | IF ISROOM(5="sitting in a grey chair")
+                      | GOTO 4="grey room"
+                      | CLEARSCREEN
+                      | LOOK
+Cmd  52 |     5     0 |   13  27   0   0   0   0   0   0   0   0 |   70  66   0   0 |
+            inv       | IF SOMEWHERE(27="Anti-radiation suit")
+                      | CLEARSCREEN
+                      | INVENTORY
+Cmd  53 |     5     0 |   14  27   0   0   0   0   0   0   0   0 |   70  66  36   0 |
+            inv       | IF NOWHERE(27="Anti-radiation suit")
+                      | CLEARSCREEN
+                      | INVENTORY
+                      | MESSAGE 36="I'm WEARING an anti-radiati..."
+Cmd  54 |    40     7 |    3   3   0   0   0   0   0   0   0   0 |  109   0   0   0 |
+            loo   tap | IF HERECARRY(3="Large tape recorder")
+                      | MESSAGE 59="Try starting it."
+Cmd  55 |    49    13 |    0   0   0   0   0   0   0   0   0   0 |   71   0   0   0 |
+            sav   gam | SAVEGAME
+Cmd  56 |    50     0 |    0   0   0   0   0   0   0   0   0   0 |   12  63   0   0 |
+            qui       | MESSAGE 12="*   B O O O O O O O O O M !..."
+                      | QUIT
+Cmd  57 |    40    39 |    3  42   0   0   0   0   0   0   0   0 |  116 110   0   0 |
+            loo   sab | IF HERECARRY(42="Dead saboteur")
+                      | MESSAGE 66="I see nothing special."
+                      | MESSAGE 60="Maybe I should FRISK him?"
+Cmd  58 |    25    46 |    2  15  13  20   0   0   0   0   0   0 |   27  16  28  29 | MOVIE
+            pre   gre | IF HERE(15="Panel of buttons -white green-")
+                      | IF SOMEWHERE(20="Empty movie projector")
+                      | MESSAGE 27="Click!"
+                      | MESSAGE 16="Strange..."
+                      | MESSAGE 28="The screen illuminates for..."
+                      | MESSAGE 29="The projector stops, the sc..."
+Cmd  59 |    25    46 |    2  15  14  20   0   0   0   0   0   0 |   70  27  30  29 | MOVIE
+            pre   gre | IF HERE(15="Panel of buttons -white green-")
+                      | IF NOWHERE(20="Empty movie projector")
+                      | CLEARSCREEN
+                      | MESSAGE 27="Click!"
+                      | MESSAGE 30="A movie runs telling about..."
+                      | MESSAGE 29="The projector stops, the sc..."
+Cmd  60 |    57     7 |    3   3   0   0   0   0   0   0   0   0 |   70   1  13   0 |
+            act   tap | IF HERECARRY(3="Large tape recorder")
+                      | CLEARSCREEN
+                      | MESSAGE 1="Good morning Mr. Phelps. Yo..."
+                      | MESSAGE 13="The saboteur (who also rewi..."
+Cmd  61 |    37     0 |    2   6   3  11   0   4   9   4   0   0 |   58   9   8   0 |
+            unl       | IF HERE(6="Row of 4 buttons -red white...")
+                      | IF HERECARRY(11="Blue key")
+                      | IF FLAG(4)=FALSE
+                      | SET FLAG(4)=TRUE
+                      | MESSAGE 9="Blue"
+                      | MESSAGE 8="button is now unlocked"
+Cmd  62 |    37     0 |    2   6   3  12   0   3   9   3   0   0 |   58  10   8   0 | UNLOCK
+            unl       | IF HERE(6="Row of 4 buttons -red white...")
+                      | IF HERECARRY(12="Yellow key")
+                      | IF FLAG(3)=FALSE
+                      | SET FLAG(3)=TRUE
+                      | MESSAGE 10="Yellow"
+                      | MESSAGE 8="button is now unlocked"
+Cmd  63 |    10    47 |   13  27   0   0   0   0   0   0   0   0 |   70  66   0   0 |
+            get   inv | IF SOMEWHERE(27="Anti-radiation suit")
+                      | CLEARSCREEN
+                      | INVENTORY
+Cmd  64 |    10    47 |   14  27   0   0   0   0   0   0   0   0 |   70  66  36   0 |
+            get   inv | IF NOWHERE(27="Anti-radiation suit")
+                      | CLEARSCREEN
+                      | INVENTORY
+                      | MESSAGE 36="I'm WEARING an anti-radiati..."
+Cmd  65 |    25    10 |    4  13   0   9   0   0   0   0   0   0 |    5  54  21   0 |
+            pre   whi | IF ISROOM(13="large white visitors room")
+                      | MESSAGE 5="CLICK!"
+                      | GOTO 9="white room"
+                      | MESSAGE 21="The door opens just long en..."
+Cmd  66 |    25    12 |    4  14   0  10   0   0   0   0   0   0 |   70   5  21  54 |
+            pre   yel | IF ISROOM(14="yellow corridor")
+                      | CLEARSCREEN
+                      | MESSAGE 5="CLICK!"
+                      | MESSAGE 21="The door opens just long en..."
+                      | GOTO 10="yellow room"
+Cmd  67 |     1    21 |    2  17   8  13   0   9   0  16   0   0 |   59  54  70  64 | BOOM SOON
+             go   win | IF HERE(17="Empty window frame")
+                      | IF FLAG(13)=TRUE
+                      | DESTROY 9="Surgically implanted bomb d..."
+                      | GOTO 16="on a ledge outside of a window"
+                      | CLEARSCREEN
+                      | LOOK
+Cmd  68 |     1    21 |    2  17   9  13   0  16   0   0   0   0 |   54  70  64   0 | THRU WINDOW SAFE
+             go   win | IF HERE(17="Empty window frame")
+                      | IF FLAG(13)=FALSE
+                      | GOTO 16="on a ledge outside of a window"
+                      | CLEARSCREEN
+                      | LOOK
+Cmd  69 |     1    21 |    4  16   0  13   0   0   0   0   0   0 |   54  70  64   0 |
+             go   win | IF ISROOM(16="on a ledge outside of a window")
+                      | GOTO 13="large white visitors room"
+                      | CLEARSCREEN
+                      | LOOK
+Cmd  70 |    25    11 |    4  15   0  11   0   0   0   0   0   0 |   70   5  21  54 |
+            pre   blu | IF ISROOM(15="blue anteroom")
+                      | CLEARSCREEN
+                      | MESSAGE 5="CLICK!"
+                      | MESSAGE 21="The door opens just long en..."
+                      | GOTO 11="blue room"
+Cmd  71 |    29     0 |    3  22   3  20   0  20   0  21   0  22 |   72  59  70  64 |
+            loa       | IF HERECARRY(22="Movie film cartridge")
+                      | IF HERECARRY(20="Empty movie projector")
+                      | SWAP ITEMS 20="Empty movie projector" AND 21="Movie projector with film c..."
+                      | DESTROY 22="Movie film cartridge"
+                      | CLEARSCREEN
+                      | LOOK
+Cmd  72 |    37     0 |    3  21   0  22   0  21   0  20   0   0 |   52  72  70  64 | UNLOAD MOVIE
+            unl       | IF HERECARRY(21="Movie projector with film c...")
+                      | TAKE 22="Movie film cartridge"
+                      | SWAP ITEMS 21="Movie projector with film c..." AND 20="Empty movie projector"
+                      | CLEARSCREEN
+                      | LOOK
+Cmd  73 |    45    29 |    3  28   0   8   0   0   0   0   0   0 |   24  58   0   0 |
+            bre   bom | IF HERECARRY(28="Very large time bomb")
+                      | MESSAGE 24="Tell me with what? Example:..."
+                      | SET FLAG(8)=TRUE
+Cmd  74 |    15     0 |    8   8   0   8   0   9   3  28   0   0 |   60 105  59 104 | END IS NEAR
+            wit       | IF FLAG(8)=TRUE
+                      | IF HERECARRY(28="Very large time bomb")
+                      | SET FLAG(8)=FALSE
+                      | MESSAGE 55="It made an odd sound."
+                      | DESTROY 9="Surgically implanted bomb d..."
+                      | MESSAGE 54="Oh Boy...I think I did some..."
+Cmd  75 |    10    29 |    2  28  14  29   0  28   0   0   0   0 |   52   0   0   0 |
+            get   bom | IF HERE(28="Very large time bomb")
+                      | IF NOWHERE(29="Red wire going from bomb in...")
+                      | TAKE 28="Very large time bomb"
+Cmd  76 |    22     0 |    0   0   0   0   0   0   0   0   0   0 |  120   0   0   0 |
+            cha       | MESSAGE 70="I see no one here."
+Cmd  77 |    10    29 |    2  28  14  43   0   0   0   0   0   0 |    0   6 103   0 |
+            get   bom | IF HERE(28="Very large time bomb")
+                      | IF NOWHERE(43="Loose red wire going into wall")
+                      | MESSAGE 6="I can't do that"
+                      | MESSAGE 53="its still connected"
+Cmd  78 |    18    29 |    1  28   0   9   0  28   0   0   0   0 |  105  59 104  53 | BOOM NEAR
+            dro   bom | IF CARRY(28="Very large time bomb")
+                      | MESSAGE 55="It made an odd sound."
+                      | DESTROY 9="Surgically implanted bomb d..."
+                      | MESSAGE 54="Oh Boy...I think I did some..."
+                      | DROP 28="Very large time bomb"
+Cmd  79 |     6     0 |    4  19   3  24   3  28   0   0   0   0 |   70  44  45  63 |
+            pou       | IF ISROOM(19="Control room surronding")
+                      | IF HERECARRY(24="Water filled plastic pail")
+                      | IF HERECARRY(28="Very large time bomb")
+                      | CLEARSCREEN
+                      | MESSAGE 44="the water spills on the bom..."
+                      | MESSAGE 45="the control panel which imm..."
+                      | QUIT
+Cmd  80 |     6     0 |    4  20   3  24   3  28   0   0   0   0 |   44  46  63   0 | WON!!!
+            pou       | IF ISROOM(20="break room")
+                      | IF HERECARRY(24="Water filled plastic pail")
+                      | IF HERECARRY(28="Very large time bomb")
+                      | MESSAGE 44="the water spills on the bom..."
+                      | MESSAGE 46="defuses it! FANTASTIC, You..."
+                      | QUIT
+Cmd  81 |    45    31 |    2  29   3  26   0  43   0  29   0   2 |   72  58  70  64 |
+            bre   wir | IF HERE(29="Red wire going from bomb in...")
+                      | IF HERECARRY(26="Wire cutters")
+                      | SWAP ITEMS 43="Loose red wire going into wall" AND 29="Red wire going from bomb in..."
+                      | SET FLAG(2)=TRUE
+                      | CLEARSCREEN
+                      | LOOK
+Cmd  82 |    18    42 |    1  16  14  11   0  16   0   0   0   0 |   16 105  53   0 |
+            dro   mop | IF CARRY(16="Old fashioned yarn mop")
+                      | IF NOWHERE(11="Blue key")
+                      | MESSAGE 16="Strange..."
+                      | MESSAGE 55="It made an odd sound."
+                      | DROP 16="Old fashioned yarn mop"
+Cmd  83 |     6     0 |    3  24   0  24   0  23   0   0   0   0 |   72  47   0   0 |
+            pou       | IF HERECARRY(24="Water filled plastic pail")
+                      | SWAP ITEMS 24="Water filled plastic pail" AND 23="Empty plastic pail"
+                      | MESSAGE 47="the water soaks into the floor"
+Cmd  84 |    34    14 |    4   9   1   7   0  13   0   0   0   0 |   18 128  21  54 |
+            sho   pic | IF ISROOM(9="white room")
+                      | IF CARRY(7="Picture of me stamped: -vis...")
+                      | MESSAGE 18="Metallic voice says:"
+                      | MESSAGE 78="`ACCEPTED`"
+                      | MESSAGE 21="The door opens just long en..."
+                      | GOTO 13="large white visitors room"
+Cmd  85 |    34    14 |    4   9   1   8   0  13   0   0   0   0 |   18 128  21  54 |
+            sho   pic | IF ISROOM(9="white room")
+                      | IF CARRY(8="Picture of me stamped -main...")
+                      | MESSAGE 18="Metallic voice says:"
+                      | MESSAGE 78="`ACCEPTED`"
+                      | MESSAGE 21="The door opens just long en..."
+                      | GOTO 13="large white visitors room"
+Cmd  86 |    34    14 |    4   9   1   1   0  13   0   0   0   0 |   18 128  21  54 |
+            sho   pic | IF ISROOM(9="white room")
+                      | IF CARRY(1="Picture of me stamped -secu...")
+                      | MESSAGE 18="Metallic voice says:"
+                      | MESSAGE 78="`ACCEPTED`"
+                      | MESSAGE 21="The door opens just long en..."
+                      | GOTO 13="large white visitors room"
+Cmd  87 |    18    42 |    1  16  13  11   0  16   0   0   0   0 |   53   0   0   0 |
+            dro   mop | IF CARRY(16="Old fashioned yarn mop")
+                      | IF SOMEWHERE(11="Blue key")
+                      | DROP 16="Old fashioned yarn mop"
+Cmd  88 |    34    14 |    4  10   1   1   0  14   0   0   0   0 |   18 128  21  54 |
+            sho   pic | IF ISROOM(10="yellow room")
+                      | IF CARRY(1="Picture of me stamped -secu...")
+                      | MESSAGE 18="Metallic voice says:"
+                      | MESSAGE 78="`ACCEPTED`"
+                      | MESSAGE 21="The door opens just long en..."
+                      | GOTO 14="yellow corridor"
+Cmd  89 |    34    14 |    4  10   1   8   0  14   0   0   0   0 |   18 128  21  54 |
+            sho   pic | IF ISROOM(10="yellow room")
+                      | IF CARRY(8="Picture of me stamped -main...")
+                      | MESSAGE 18="Metallic voice says:"
+                      | MESSAGE 78="`ACCEPTED`"
+                      | MESSAGE 21="The door opens just long en..."
+                      | GOTO 14="yellow corridor"
+Cmd  90 |    34    14 |    4  11   1   1   0  15   0   0   0   0 |   18 128  21  54 |
+            sho   pic | IF ISROOM(11="blue room")
+                      | IF CARRY(1="Picture of me stamped -secu...")
+                      | MESSAGE 18="Metallic voice says:"
+                      | MESSAGE 78="`ACCEPTED`"
+                      | MESSAGE 21="The door opens just long en..."
+                      | GOTO 15="blue anteroom"
+Cmd  91 |    34    14 |    4  10   0   0   0   0   0   0   0   0 |   70  18  20   0 |
+            sho   pic | IF ISROOM(10="yellow room")
+                      | CLEARSCREEN
+                      | MESSAGE 18="Metallic voice says:"
+                      | MESSAGE 20="`Authorization INSUFFICIENT..."
+Cmd  92 |    34    14 |    4   9   0   0   0   0   0   0   0   0 |   70  18  20   0 |
+            sho   pic | IF ISROOM(9="white room")
+                      | CLEARSCREEN
+                      | MESSAGE 18="Metallic voice says:"
+                      | MESSAGE 20="`Authorization INSUFFICIENT..."
+Cmd  93 |    34    14 |    4  11   0   0   0   0   0   0   0   0 |   70  18  20   0 |
+            sho   pic | IF ISROOM(11="blue room")
+                      | CLEARSCREEN
+                      | MESSAGE 18="Metallic voice says:"
+                      | MESSAGE 20="`Authorization INSUFFICIENT..."
+Cmd  94 |    13     0 |    3  16  14  11   0   0   0   0   0   0 |  104 105   0   0 |
+            cle       | IF HERECARRY(16="Old fashioned yarn mop")
+                      | IF NOWHERE(11="Blue key")
+                      | MESSAGE 54="Oh Boy...I think I did some..."
+                      | MESSAGE 55="It made an odd sound."
+Cmd  95 |    45    21 |    2  14   0   7   0  10   3   3   0   0 |   24  58  58   0 |
+            bre   win | IF HERE(14="Plate glass window with emb...")
+                      | IF HERECARRY(3="Large tape recorder")
+                      | MESSAGE 24="Tell me with what? Example:..."
+                      | SET FLAG(7)=TRUE
+                      | SET FLAG(10)=TRUE
+Cmd  96 |    15     7 |    2  14   3   3   8   7   0   3   0   1 |   73  62  70  26 | BREAK WINDOW
+            wit   tap | IF HERE(14="Plate glass window with emb...")
+                      | IF HERECARRY(3="Large tape recorder")
+                      | IF FLAG(7)=TRUE
+                      | CONTINUE_NEXT_LINE
+                      | SEND 3="Large tape recorder" TO 1=""
+                      | CLEARSCREEN
+                      | MESSAGE 26="Recorder goes flying thru t..."
+Cmd  97 |     0     0 |    0   7   0   2   0  17   0  14   0  13 |   60  58  72  58 |
+            continued | SET FLAG(7)=FALSE
+                      | SET FLAG(2)=TRUE
+                      | SWAP ITEMS 17="Empty window frame" AND 14="Plate glass window with emb..."
+                      | SET FLAG(13)=TRUE
+Cmd  98 |    10    33 |    0   0   0   0   0   0   0   0   0   0 |    6  37   0   0 |
+            get   cha | MESSAGE 6="I can't do that"
+                      | MESSAGE 37="It won't budge!"
+Cmd  99 |    40    21 |    4  13   0   0   0   0   0   0   0   0 |   22   0   0   0 |
+            loo   win | IF ISROOM(13="large white visitors room")
+                      | MESSAGE 22="I'm on the 2nd floor. Below..."
+Cmd 100 |    51     0 |    0   0   0   0   0   0   0   0   0   0 |   70  23   0   0 |
+            sco       | CLEARSCREEN
+                      | MESSAGE 23="In this Adventure there's N..."
+Cmd 101 |    36     0 |    2   5   0   5   0   0   0   0   0   0 |   70  54  64   0 |
+            sit       | IF HERE(5="Chair bolted to floor")
+                      | CLEARSCREEN
+                      | GOTO 5="sitting in a grey chair"
+                      | LOOK
+Cmd 102 |    43    21 |    0   0   0   0   0   0   0   0   0   0 |    6   7  17   0 |
+            ope   win | MESSAGE 6="I can't do that"
+                      | MESSAGE 7="It appears locked"
+                      | MESSAGE 17="Most doors & windows are un..."
+Cmd 103 |    45    42 |    3  16   0  10   0  11   0   0   0   0 |   58  58  24   0 |
+            bre   mop | IF HERECARRY(16="Old fashioned yarn mop")
+                      | SET FLAG(10)=TRUE
+                      | SET FLAG(11)=TRUE
+                      | MESSAGE 24="Tell me with what? Example:..."
+Cmd 104 |    15    32 |    3  26   8  11   0  11   0  10   0  11 |   53  51  60  60 |
+            wit   cut | IF HERECARRY(26="Wire cutters")
+                      | IF FLAG(11)=TRUE
+                      | DROP 11="Blue key"
+                      | MESSAGE 51="Something fell to the floor."
+                      | SET FLAG(10)=FALSE
+                      | SET FLAG(11)=FALSE
+Cmd 105 |    37    21 |    0   0   0   0   0   0   0   0   0   0 |    2  17   0   0 |
+            unl   win | MESSAGE 2="Nothing happened"
+                      | MESSAGE 17="Most doors & windows are un..."
+Cmd 106 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 | AUT
+            continued | Cmd 107 |    34    14 |    3  42   0  13   4  13   3  41   0   0 |   60  18 106   0 |
+            sho   pic | IF HERECARRY(42="Dead saboteur")
+                      | IF ISROOM(13="large white visitors room")
+                      | IF HERECARRY(41="Picture of saboteur stamped...")
+                      | SET FLAG(13)=FALSE
+                      | MESSAGE 18="Metallic voice says:"
+                      | MESSAGE 56="`TV deactivated`"
+Cmd 108 |     1    33 |    4   4   0   0   0   0   0   0   0   0 |  114   0   0   0 |
+             go   cha | IF ISROOM(4="grey room")
+                      | MESSAGE 64="It seems safe. Shall I sit..."
+Cmd 109 |    40    33 |    4   4   0   0   0   0   0   0   0   0 |  114   0   0   0 | .
+            loo   cha | IF ISROOM(4="grey room")
+                      | MESSAGE 64="It seems safe. Shall I sit..."
+Cmd 110 |    40    29 |    3  28   0   0   0   0   0   0   0   0 |  111   0   0   0 |
+            loo   bom | IF HERECARRY(28="Very large time bomb")
+                      | MESSAGE 61="Its a seamless box with 1 s..."
+Cmd 111 |    40    30 |    0   0   0   0   0   0   0   0   0   0 |   66   0   0   0 |
+            loo   det | INVENTORY
+Cmd 112 |    18    48 |   14  27   0  27   0   0   0   0   0   0 |   53   0   0   0 |
+            dro   sui | IF NOWHERE(27="Anti-radiation suit")
+                      | DROP 27="Anti-radiation suit"
+Cmd 113 |    18    48 |    1  27   0  27   0   0   0   0   0   0 |   53   0   0   0 |
+            dro   sui | IF CARRY(27="Anti-radiation suit")
+                      | DROP 27="Anti-radiation suit"
+Cmd 114 |    40    21 |    4  22   0   0   0   0   0   0   0   0 |   70  49   0   0 |
+            loo   win | IF ISROOM(22="small viewing room")
+                      | CLEARSCREEN
+                      | MESSAGE 49="I'm looking into the contro..."
+Cmd 115 |    10    28 |    3  23   2  25   0  23   0  24   0   0 |   72   0   0   0 |
+            get   wat | IF HERECARRY(23="Empty plastic pail")
+                      | IF HERE(25="Vat of heavy water")
+                      | SWAP ITEMS 23="Empty plastic pail" AND 24="Water filled plastic pail"
+Cmd 116 |    52    48 |    3  27   0  27   0   0   0   0   0   0 |   59   0   0   0 | PUT ON SUIT
+            wea   sui | IF HERECARRY(27="Anti-radiation suit")
+                      | DESTROY 27="Anti-radiation suit"
+Cmd 117 |    10     7 |    2  33   0   0   0   0   0   0   0   0 |    6  37   0   0 |
+            get   tap | IF HERE(33="Metal door jammed partially...")
+                      | MESSAGE 6="I can't do that"
+                      | MESSAGE 37="It won't budge!"
+Cmd 118 |    43    20 |    2  33   0   0   0   0   0   0   0   0 |    6  37   0   0 |
+            ope   doo | IF HERE(33="Metal door jammed partially...")
+                      | MESSAGE 6="I can't do that"
+                      | MESSAGE 37="It won't budge!"
+Cmd 119 |     1    20 |    2  33   1  28   0   0   0   0   0   0 |   38   0   0   0 |
+             go   doo | IF HERE(33="Metal door jammed partially...")
+                      | IF CARRY(28="Very large time bomb")
+                      | MESSAGE 38="Something won't fit thru th..."
+Cmd 120 |     1    20 |    2  33   0  15   0   0   0   0   0   0 |   70  54  64   0 |
+             go   doo | IF HERE(33="Metal door jammed partially...")
+                      | CLEARSCREEN
+                      | GOTO 15="blue anteroom"
+                      | LOOK
+Cmd 121 |    43    20 |    2  35   0   0   0   0   0   0   0   0 |   16  39  40  37 | OPE
+            ope   doo | IF HERE(35="Plain metal door with sign...")
+                      | MESSAGE 16="Strange..."
+                      | MESSAGE 39="I turn the knob and push"
+                      | MESSAGE 40="gently on the door"
+                      | MESSAGE 37="It won't budge!"
+Cmd 122 |    25    20 |    2  35   0   0   0   0   0   0   0   0 |   16  39  40  37 |
+            pre   doo | IF HERE(35="Plain metal door with sign...")
+                      | MESSAGE 16="Strange..."
+                      | MESSAGE 39="I turn the knob and push"
+                      | MESSAGE 40="gently on the door"
+                      | MESSAGE 37="It won't budge!"
+Cmd 123 |    25    51 |    2  35   5  36   0  36   0   0   0   0 |   39  41  42  53 |
+            pre   har | IF HERE(35="Plain metal door with sign...")
+                      | IF NOT HERE(36="The door is partially open")
+                      | MESSAGE 39="I turn the knob and push"
+                      | MESSAGE 41="hard on the door"
+                      | MESSAGE 42="it opens slightly"
+                      | DROP 36="The door is partially open"
+Cmd 124 |    25    51 |    2  35   2  36   0   0   0   0   0   0 |   16  39  41  37 |
+            pre   har | IF HERE(35="Plain metal door with sign...")
+                      | IF HERE(36="The door is partially open")
+                      | MESSAGE 16="Strange..."
+                      | MESSAGE 39="I turn the knob and push"
+                      | MESSAGE 41="hard on the door"
+                      | MESSAGE 37="It won't budge!"
+Cmd 125 |     1    20 |    2  35   2  36   0  19   0   0   0   0 |   54  70  64   0 |
+             go   doo | IF HERE(35="Plain metal door with sign...")
+                      | IF HERE(36="The door is partially open")
+                      | GOTO 19="Control room surronding"
+                      | CLEARSCREEN
+                      | LOOK
+Cmd 126 |     1    20 |    2  35   5  36   0   0   0   0   0   0 |    6  43   0   0 |
+             go   doo | IF HERE(35="Plain metal door with sign...")
+                      | IF NOT HERE(36="The door is partially open")
+                      | MESSAGE 6="I can't do that"
+                      | MESSAGE 43="its closed"
+Cmd 127 |    31    20 |    2  35   5  36   0  36   0   0   0   0 |  127  42  53   0 |
+            kic   doo | IF HERE(35="Plain metal door with sign...")
+                      | IF NOT HERE(36="The door is partially open")
+                      | MESSAGE 77="OW! That HURT! Anyway"
+                      | MESSAGE 42="it opens slightly"
+                      | DROP 36="The door is partially open"
+Cmd 128 |    42    20 |    0   0   0   0   0   0   0   0   0   0 |   37   0   0   0 |
+            clo   doo | MESSAGE 37="It won't budge!"
+Cmd 129 |    33     5 |    3  27   0  27   0   0   0   0   0   0 |   59   0   0   0 |
+            sui    up | IF HERECARRY(27="Anti-radiation suit")
+                      | DESTROY 27="Anti-radiation suit"
+Cmd 130 |    34    14 |    4  13   8  13   0   0   0   0   0   0 |   18  20   0   0 |
+            sho   pic | IF ISROOM(13="large white visitors room")
+                      | IF FLAG(13)=TRUE
+                      | MESSAGE 18="Metallic voice says:"
+                      | MESSAGE 20="`Authorization INSUFFICIENT..."
+Cmd 131 |    37    20 |    0   0   0   0   0   0   0   0   0   0 |    2  17   0   0 |
+            unl   doo | MESSAGE 2="Nothing happened"
+                      | MESSAGE 17="Most doors & windows are un..."
+Cmd 132 |    54    39 |    3  42  14  39   0  39   0  40   0  41 |   53  53  53  73 |
+            fri   sab | IF HERECARRY(42="Dead saboteur")
+                      | IF NOWHERE(39="Empty manila envelope")
+                      | DROP 39="Empty manila envelope"
+                      | DROP 40="Piece of yarn"
+                      | DROP 41="Picture of saboteur stamped..."
+                      | CONTINUE_NEXT_LINE
+Cmd 133 |     0     0 |    0   0   0  37   0  49   0   0   0   0 |   53  53  51  53 | FRISKING SABOTEUR
+            continued | DROP 0="Torn up map"
+                      | DROP 37="Empty pill case"
+                      | MESSAGE 51="Something fell to the floor."
+                      | DROP 49="A leaflet"
+Cmd 134 |     0     0 |   14   3   0   3   0   0   0   0   0   0 |   53   0   0   0 | RETURN STOLEN TAPE TOO
+            continued | IF NOWHERE(3="Large tape recorder")
+                      | DROP 3="Large tape recorder"
+Cmd 135 |    53     0 |    4   9   0   0   0   0   0   0   0   0 |   70  18  19   0 |
+            kno       | IF ISROOM(9="white room")
+                      | CLEARSCREEN
+                      | MESSAGE 18="Metallic voice says:"
+                      | MESSAGE 19="`Show authorization please`"
+Cmd 136 |     9     0 |    0   0   0   0   0   0   0   0   0   0 |  115   0   0   0 |
+            hel       | MESSAGE 65="Only help I can think of is..."
+Cmd 137 |    35     0 |    0   0   0   0   0   0   0   0   0   0 |   37   0   0   0 |
+            pul       | MESSAGE 37="It won't budge!"
+Cmd 138 |    25     0 |    0   0   0   0   0   0   0   0   0   0 |    2   0   0   0 |
+            pre       | MESSAGE 2="Nothing happened"
+Cmd 139 |    53     0 |    4  10   0   0   0   0   0   0   0   0 |   70  18  19   0 |
+            kno       | IF ISROOM(10="yellow room")
+                      | CLEARSCREEN
+                      | MESSAGE 18="Metallic voice says:"
+                      | MESSAGE 19="`Show authorization please`"
+Cmd 140 |    53     0 |    4  11   0   0   0   0   0   0   0   0 |   70  18  19   0 |
+            kno       | IF ISROOM(11="blue room")
+                      | CLEARSCREEN
+                      | MESSAGE 18="Metallic voice says:"
+                      | MESSAGE 19="`Show authorization please`"
+Cmd 141 |    53     0 |    0   0   0   0   0   0   0   0   0   0 |    2   0   0   0 |
+            kno       | MESSAGE 2="Nothing happened"
+Cmd 142 |    15     0 |    9  10   0   0   0   0   0   0   0   0 |  117   0   0   0 |
+            wit       | IF FLAG(10)=FALSE
+                      | MESSAGE 67="HUH?"
+Cmd 143 |    15    53 |    8  10   0  10   0   0   0   0   0   0 |   60 127   2   0 | .
+            wit   han | IF FLAG(10)=TRUE
+                      | SET FLAG(10)=FALSE
+                      | MESSAGE 77="OW! That HURT! Anyway"
+                      | MESSAGE 2="Nothing happened"
+Cmd 144 |    54     0 |    0   0   0   0   0   0   0   0   0   0 |    2   0   0   0 |
+            fri       | MESSAGE 2="Nothing happened"
+Cmd 145 |    31     0 |    0   0   0   0   0   0   0   0   0   0 |  127   2   0   0 |
+            kic       | MESSAGE 77="OW! That HURT! Anyway"
+                      | MESSAGE 2="Nothing happened"
+Cmd 146 |    34     0 |    0   0   0   0   0   0   0   0   0   0 |   16   2   0   0 |
+            sho       | MESSAGE 16="Strange..."
+                      | MESSAGE 2="Nothing happened"
+Cmd 147 |    24     0 |    0   0   0   0   0   0   0   0   0   0 |    6 102   0   0 |
+            rea       | MESSAGE 6="I can't do that"
+                      | MESSAGE 52="its unreadable"
+Cmd 148 |    38     0 |    0   0   0   0   0   0   0   0   0   0 |    6 107   0   0 |
+            fin       | MESSAGE 6="I can't do that"
+                      | MESSAGE 57="I don't know where to look"
+Cmd 149 |    45     0 |    0  10   0   0   0   0   0   0   0   0 |   24  58   0   0 |
+            bre       | MESSAGE 24="Tell me with what? Example:..."
+                      | SET FLAG(10)=TRUE
+Cmd 150 |    15     0 |    8  10   0  10   0   0   0   0   0   0 |   60  16   2  25 |
+            wit       | IF FLAG(10)=TRUE
+                      | SET FLAG(10)=FALSE
+                      | MESSAGE 16="Strange..."
+                      | MESSAGE 2="Nothing happened"
+                      | MESSAGE 25="Be sure I'm carrying it!"
+Cmd 151 |    57     0 |    0   0   0   0   0   0   0   0   0   0 |  108   0   0   0 |
+            act       | MESSAGE 58="Tell me how?"
+Cmd 152 |    28     0 |    0  30   0   0   0   0   0   0   0   0 |   83 125   0   0 |
+            wai       | SUBTO COUNTER 30
+                      | MESSAGE 75="Some time passes..."
+Cmd 153 |    16     0 |    0   0   0   0   0   0   0   0   0   0 |  108   0   0   0 |
+            una       | MESSAGE 58="Tell me how?"
+Cmd 154 |    40    52 |    3  49   0   0   0   0   0   0   0   0 |  126   0   0   0 |
+            loo   lea | IF HERECARRY(49="A leaflet")
+                      | MESSAGE 76="There is something written..."
+Cmd 155 |    40    37 |    4  13   8  13   0   0   0   0   0   0 |  112   0   0   0 |
+            loo   cam | IF ISROOM(13="large white visitors room")
+                      | IF FLAG(13)=TRUE
+                      | MESSAGE 62="TV camera is slow scanning..."
+Cmd 156 |    40    37 |    4  13   9  13   0   0   0   0   0   0 |  113   0   0   0 |
+            loo   cam | IF ISROOM(13="large white visitors room")
+                      | IF FLAG(13)=FALSE
+                      | MESSAGE 63="TV camera is powered down."
+Cmd 157 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd 158 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd 159 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd 160 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd 161 |    40     0 |    0   0   0   0   0   0   0   0   0   0 |  116  76   0   0 |
+            loo       | MESSAGE 66="I see nothing special."
+                      | LOOK
+
+// END OF FILE

@@ -1,0 +1,1532 @@
+Unknown        = 5223
+ItemCount      = 74
+CommandCount   = 209
+VerbNounCount  = 89
+RoomCount      = 35
+MaxInventory   = 6
+StartRoom      = 1
+TreasureCount  = 0
+WordLength     = 4
+LightMoves     = 500
+MessageCount   = 99
+TreasureRoom   = 0
+
+Cmd   0:    100     29  12000     20      0      0  11908   2766
+Cmd   1:    100     16      0      0      0      0  11550      0
+Cmd   2:    100    815      0      0      0      0   2478   2550
+Cmd   3:     40     64    149      0      0      0  20700      0
+Cmd   4:    100    204    109    100      0      0   8834      0
+Cmd   5:    100    207    100      0      0      0   9000      0
+Cmd   6:      5     83    494      0      0      0  18150      0
+Cmd   7:    100     84    109    100      0      0   8700      0
+Cmd   8:    100     44     80      0      0      0   9000      0
+Cmd   9:    100    622      0      0      0      0   6300      0
+Cmd  10:     40     64    148      0      0      0  20911      0
+Cmd  11:    100     15     89     20      0      0   1554  11400
+Cmd  12:    100   1362     24   1360      0      0   8855      0
+Cmd  13:    100     86     44     20      0      0  13288   1554
+Cmd  14:    100    466     44     20      0      0  13288   1554
+Cmd  15:    100    562    542   1180   1040    560  10819   8850
+Cmd  16:    100   1193   1185   1180   1040      0  10800      0
+Cmd  17:    100    704      0      0      0      0   9450      0
+Cmd  18:    100   1082   1080    460     24      0   7409  11100
+Cmd  19:     25    444     34      0      0      0   6600      0
+Cmd  20:    100    702    662    680    700      0   8009      0
+Cmd  21:    100   1142    753    745    740      0   7950      0
+Cmd  22:    100   1141    753    740      0      0  11100      0
+Cmd  23:    100    144     80      0      0      0   9000      0
+Cmd  24:    100    504    280      0      0      0   8173      0
+Cmd  25:      0   1285    500      0      0      0  17730   8163
+Cmd  26:      0    500      0      0      0      0   8100      0
+Cmd  27:    100   1341      0      0      0      0  21213      0
+Cmd  28:    100    684    309      0      0      0   8476      0
+Cmd  29:    100    524    308      0      0      0   8626      0
+Cmd  30:    100    504    308      0      0      0   8626      0
+Cmd  31:      5   1134   1120   1140    754      0  10800      0
+Cmd  32:    100     24     80      0      0      0   8700      0
+Cmd  33:    100      3    723    720   1480      0  10800      0
+Cmd  34:   9900    444     22    660    128      0  10501   8100
+Cmd  35:    157    444     22      0      0      0   4035      0
+Cmd  36:    174    102    773    100     80      0   8202  16108
+Cmd  37:   9900    444    129      0      0      0  20537   9150
+Cmd  38:   5271    204    460      0      0      0  22013   8176
+Cmd  39:   5270    204    480      0      0      0  22013   2004
+Cmd  40:   5269    204    160      0      0      0  22013   8176
+Cmd  41:   6605    444     20      0      0      0   8026    300
+Cmd  42:   4650    282      0      0      0      0    314      0
+Cmd  43:    165    362    540      0      0      0    380   8176
+Cmd  44:   6610     42    943      0      0      0   1808      0
+Cmd  45:   1567    544      0      0      0      0    380  11400
+Cmd  46:    200      0     24      0      0      0   7200      0
+Cmd  47:   4650    484      0      0      0      0   2100      0
+Cmd  48:   6610     42    952      0      0      0   1800      0
+Cmd  49:   1506    544      0      0      0      0    380  11400
+Cmd  50:   9365    563    545      0      0      0    300      0
+Cmd  51:   6651   1242    553      0      0      0   4200      0
+Cmd  52:    174    102    774    100     80      0    654  11458
+Cmd  53:   6631   1242    113    573      0      0     21      0
+Cmd  54:   6078   1386      0      0      0      0   3909      0
+Cmd  55:    177    282    320     80      0      0   8176   8746
+Cmd  56:   7271      0      0      0      0      0   3600      0
+Cmd  57:  11850      0      0      0      0      0    300      0
+Cmd  58:    166    802      0      0      0      0   4037  18900
+Cmd  59:   7088     24      0      0      0      0   1650      0
+Cmd  60:   3522   1143      0      0      0      0  17700      0
+Cmd  61:   3522   1123      0      0      0      0  16307      0
+Cmd  62:   6609     63    494      0      0      0  18150      0
+Cmd  63:   3787     63    494    480    780      0    374   8023
+Cmd  64:      0    720      0      0      0      0  18353      0
+Cmd  65:   7500      2      0      0      0      0   3750      0
+Cmd  66:   7500      5      0      0      0      0   3600      0
+Cmd  67:  11400    224    300      0      0      0    354  11400
+Cmd  68:   6651   1262      0      0      0      0    450      0
+Cmd  69:   6631    542      0      0      0      0   3150      0
+Cmd  70:   1531    542      0      0      0      0   3450      0
+Cmd  71:   6663   1062   1114   1174      0      0  16350      0
+Cmd  72:  12011    262    260    200      0      0  10802      0
+Cmd  73:   7811    202    260    200      0      0  10802      0
+Cmd  74:    161    202    260      0      0      0   8176    300
+Cmd  75:   2400   1262      0      0      0      0    340      0
+Cmd  76:   6664    322    194   1334      0      0  18750      0
+Cmd  77:   1508    194    322   1320      0      0   7802      0
+Cmd  78:   1508   1322   1320      0      0      0    352      0
+Cmd  79:   6054   1383   1380      0      0      0    359  13237
+Cmd  80:   1508    182    180      0      0      0    352      0
+Cmd  81:   4500      0      0      0      0      0  17250      0
+Cmd  82:  12007      0      0      0      0      0  16250      0
+Cmd  83:    213   1062      0      0      0      0  16200      0
+Cmd  84:   6359   1141      0      0      0      0   5100      0
+Cmd  85:  11178   1143    740    723    720      0    353   8850
+Cmd  86:    163   1222    440     80      0      0    354   6658
+Cmd  87:   6008   1323    180   1320      0      0    372  11400
+Cmd  88:   9158    183    180   1320      0      0    372  11400
+Cmd  89:   8435     24      0      0      0      0    385  15450
+Cmd  90:   5757     49   1022   1103      0      0  16611      0
+Cmd  91:   2250      0      0      0      0      0   5850      0
+Cmd  92:  12937     63    494      0      0      0    300      0
+Cmd  93:    160     42      0      0      0      0    402   4050
+Cmd  94:  12047      0      0      0      0      0   3900      0
+Cmd  95:   7088    102      0      0      0      0  18450      0
+Cmd  96:   6647   1022     49      0      0      0    404  20080
+Cmd  97:  12011    601    162    160    320      0   8303      0
+Cmd  98:   1560   1094   1022      0      0      0   4005      0
+Cmd  99:   1560   1082   1080      0      0      0    352      0
+Cmd 100:  12042    760      0    540      2      0  10831   8323
+Cmd 101:      0    602    600      0      0      0   8250      0
+Cmd 102:   4106    662      0      0      0      0    402  21600
+Cmd 103:   7811    322    160    320      0      0   8005    300
+Cmd 104:   9900    363      0      0      0      0   3925  21450
+Cmd 105:   6359   1123      0      0      0      0  16307      0
+Cmd 106:   6640    503      0      0      0      0  11717   2250
+Cmd 107:      0      0      0      0      0      0      0      0
+Cmd 108:  11157   1143   1103   1100   1160      0    372      0
+Cmd 109:   5757   1163     49   1022   1080     40    374  15958
+Cmd 110:   6610   1422      0      0      0      0  21300      0
+Cmd 111:   1557   1162   1160      0      0      0    352      0
+Cmd 112:   8309   1121   1120   1140      0      0    372   6750
+Cmd 113:   8309   1141      0      0      0      0    345      0
+Cmd 114:   8159   1121   1120      0      0      0    359   6750
+Cmd 115:   1557   1062   1114   1100      0      0    352      0
+Cmd 116:   1557   1102   1100      0      0      0    352      0
+Cmd 117:   1547      0      0      0      0      0   3900      0
+Cmd 118:   8159   1141   1140      0      0      0    359   6750
+Cmd 119:   7257   1062   1114   1100      0      0    352      0
+Cmd 120:   1512    142    140    880      0      0   8303   6150
+Cmd 121:   6633    963      0      0      0      0  19350      0
+Cmd 122:    157    982    440      0      0      0    354      0
+Cmd 123:  11147   1143    862   1140   1000      0   8903  10950
+Cmd 124:      0    741    740      0      0      0   7950      0
+Cmd 125:   5400    962      0      0      0      0  21118  16500
+Cmd 126:   7088    342      0      0      0      0  18450      0
+Cmd 127:    174   1042      2      0      0      0    904      0
+Cmd 128:    182   1182     60     80      0      0    354  11460
+Cmd 129:   7116    783      0      0      0      0  17100      0
+Cmd 130:    218     24     40     80      0      0    354  11460
+Cmd 131:    225    622      0      0      0      0  17850      0
+Cmd 132:    225    642    582    360      0      0    354  11400
+Cmd 133:   7650    662    685      0      0      0  16320      0
+Cmd 134:   7650    682     68     60    580    620    360  10800
+Cmd 135:   7650    682     69     60    580    620    358  10800
+Cmd 136:   9900    544      0      0      0      0   3373  12000
+Cmd 137:      0    324    300     80      0      0   8176   9000
+Cmd 138:      0    307    540    707      0      0  12000      0
+Cmd 139:   5421   1462    128    120      0      0   9146  19093
+Cmd 140:   3759     83     80      0      0      0    359      0
+Cmd 141:   6493    923    940    920      0      0    374  11100
+Cmd 142:   3793    943    940      0      0      0    359      0
+Cmd 143:   2709     63     60     80      0      0   8009    300
+Cmd 144:   2743    923    920    940      0      0   8009    300
+Cmd 145:   6078    723      0      0      0      0   5473  13288
+Cmd 146:      0    720   1380      0      0      0   8887   8850
+Cmd 147:   6078    743      0      0      0      0   5473  13318
+Cmd 148:      0    741      0      0      0      0   5761      0
+Cmd 149:      0    707   1002   1200    860      0  10800      0
+Cmd 150:      0    707    265    700      0      0   8176  18600
+Cmd 151:      0   1380    740   1000   1140      0   8909   8909
+Cmd 152:   5426    222    148    140      0      0   9002  21900
+Cmd 153:   5421   1462    129    120      0      0   8846  19178
+Cmd 154:   6647   1022      0      0      0      0  20080      0
+Cmd 155:   6647    902      0      0      0      0  19930      0
+Cmd 156:  10697    902    520    534      0      0   7952      0
+Cmd 157:  10697    902    533    520      0      0   8852      0
+Cmd 158:   5781    383   1022   1020    900      0  10802  19650
+Cmd 159:   5781    383    903      0      0      0  16307      0
+Cmd 160:    201   1262      0      0      0      0  16250      0
+Cmd 161:   9631    104    542      0      0      0    322      0
+Cmd 162:    232    522    260     80      0      0    356   8158
+Cmd 163:   1580      0      0      0      0      0   3900      0
+Cmd 164:   3830      0      0      0      0      0   3900      0
+Cmd 165:   7200    460     20     89      0      0   1532   8904
+Cmd 166:   5298      0      0      0      0      0  16800      0
+Cmd 167:   5448      0      0      0      0      0  16800      0
+Cmd 168:   5400      0      0      0      0      0    327      0
+Cmd 169:   4050      0      0      0      0      0    327      0
+Cmd 170:   7200     88      0      0      0      0   3900      0
+Cmd 171:   5276    222    140    149      0      0    358  21900
+Cmd 172:   3750      0      0      0      0      0  17550      0
+Cmd 173:  12450      0      0      0      0      0   1050      0
+Cmd 174:   5100      0      0      0      0      0   9900      0
+Cmd 175:   8400      0      0      0      0      0    416  12777
+Cmd 176:   4395      0      0      0      0      0  10650      0
+Cmd 177:   4950      0      0      0      0      0   9450      0
+Cmd 178:   1544      0      0      0      0      0   9900      0
+Cmd 179:  11100      0      0      0      0      0  16200      0
+Cmd 180:  10350      0      0      0      0      0   4050      0
+Cmd 181:   6686    444     20      0      0      0    353  11400
+Cmd 182:   1538   1285      0      0      0      0   3900      0
+Cmd 183:   5700      0      0      0      0      0  16310      0
+Cmd 184:   6459     63     80     60      0      0    374  11100
+Cmd 185:   4650      0      0      0      0      0   4050      0
+Cmd 186:   7088   1283      0      0      0      0   7087   3000
+Cmd 187:   5276    962      0      0      0      0   4050      0
+Cmd 188:   1538   1282   1280      0      0      0   7802      0
+Cmd 189:  12052      0      0      0      0      0   3900      0
+Cmd 190:    174   1042    762      0      0      0  16206      0
+Cmd 191:   9900      0      0      0      0      0    300      0
+Cmd 192:  12011   1414     44   1400    941      0    353      0
+Cmd 193:   7811   1402   1400      0      0      0   8852      0
+Cmd 194:    161   1402    340     80      0      0    354  11458
+Cmd 195:   3900      0      0      0      0      0    327      0
+Cmd 196:   7650      0      0      0      0      0  16310      0
+Cmd 197:    206    662      0      0      0      0  15444  16200
+Cmd 198:  12750    224      0      0      0      0   4037  18900
+Cmd 199:   9300    542    563   1180   1040      0  10819      0
+Cmd 200:    177    282    320     80      0      0   8176   6958
+Cmd 201:   9685     24      0      0      0      0    322      0
+Cmd 202:    186    822    140      0      0      0    354  11400
+Cmd 203:   6686    424      0      0      0      0  21750      0
+Cmd 204:   6605    424      0      0      0      0  21750      0
+Cmd 205:   6600      0      0      0      0      0  11451      0
+Cmd 206:    232    842   1202    680      0      0   8102  11400
+Cmd 207:  12909     63      0      0      0      0    300      0
+Cmd 208:      0      0      0      0      0      0      0      0
+Cmd 209:      0      0      0      0      0      0      0      0
+
+Verb  0: AUTO   Noun  0: ANY
+Verb  1: GO     Noun  1: NORTH
+Verb  2: *WALK  Noun  2: SOUTH
+Verb  3: *.     Noun  3: EAST
+Verb  4: *RUN   Noun  4: WEST
+Verb  5: *ENTE  Noun  5: UP
+Verb  6: *MOUN  Noun  6: DOWN
+Verb  7: *CLIM  Noun  7: ROPE
+Verb  8: *.     Noun  8: FLAS
+Verb  9: *RIDE  Noun  9: SHOE
+Verb 10: GET    Noun 10: MIRR
+Verb 11: *GRAB  Noun 11: DOOR
+Verb 12: *TAKE  Noun 12: SKEL
+Verb 13: *CATC  Noun 13: POLE
+Verb 14: *PICK  Noun 14: TUNN
+Verb 15: GUM    Noun 15: TRAM
+Verb 16: SHOO   Noun 16: EXIT
+Verb 17: *FIRE  Noun 17: CHAR
+Verb 18: DROP   Noun 18: BACK
+Verb 19: *PUT   Noun 19: GREE
+Verb 20: *LEAV  Noun 20: YELL
+Verb 21: *GIVE  Noun 21: BLUE
+Verb 22: *PAY   Noun 22: FORT
+Verb 23: BLOW   Noun 23: AROU
+Verb 24: *MAKE  Noun 24: SLID
+Verb 25: REMO   Noun 25: PLAN
+Verb 26: WAVE   Noun 26: RED
+Verb 27: TOUC   Noun 27: LADD
+Verb 28: *FEEL  Noun 28: MUSI
+Verb 29: SAVE   Noun 29: TANK
+Verb 30: HELP   Noun 30: KEY
+Verb 31: LIST   Noun 31: MERM
+Verb 32: *HEAR  Noun 32: STAI
+Verb 33: QUIT   Noun 33: MACH
+Verb 34: INVE   Noun 34: ROOM
+Verb 35: PULL   Noun 35: TICK
+Verb 36: PRES   Noun 36: HORS
+Verb 37: *PUSH  Noun 37: HEEL
+Verb 38: USE    Noun 38: SIGN
+Verb 39: *WITH  Noun 39: COMB
+Verb 40: LIGH   Noun 40: WATC
+Verb 41: *IGNI  Noun 41: BILL
+Verb 42: STIC   Noun 42: DRAI
+Verb 43: WEAR   Noun 43: SPEC
+Verb 44: LOOK   Noun 44: INVE
+Verb 45: *EXAM  Noun 45: GAME
+Verb 46: *DESC  Noun 46: HEMP
+Verb 47: READ   Noun 47: GRAT
+Verb 48: BREA   Noun 48: KNOB
+Verb 49: *HIT   Noun 49: *BUTT
+Verb 50: SWIM   Noun 50: COUN
+Verb 51: TURN   Noun 51: WIND
+Verb 52: CLOS   Noun 52: WALL
+Verb 53: *SHUT  Noun 53: BONE
+Verb 54: EAT    Noun 54: MATC
+Verb 55: CHEW   Noun 55: HELP
+Verb 56: SAY    Noun 56: PIPE
+Verb 57: *YELL  Noun 57: BRAN
+Verb 58: *SCRE  Noun 58: *STIC
+Verb 59: *ASK   Noun 59: GUM
+Verb 60: *BUY   Noun 60: DOLL
+Verb 61: UNLI   Noun 61: *COIN
+Verb 62: COMB   Noun 62: GUN
+Verb 63: CUT    Noun 63: TREE
+Verb 64: KISS   Noun 64: SHEL
+Verb 65: *RAPE  Noun 65: HAIR
+Verb 66: JUMP   Noun 66: LETT
+Verb 67: *BOUN  Noun 67: OFF
+Verb 68: .      Noun 68: FUN
+Verb 69: SCOR   Noun 69: *HOUS
+Verb 70: CHAS   Noun 70: *PARK
+Verb 71: MOVE   Noun 71: BOUN
+Verb 72: *SLID  Noun 72: BUBB
+Verb 73: *ROTA  Noun 73: CALL
+Verb 74: ON     Noun 74: STEA
+Verb 75: *TO    Noun 75: MERR
+Verb 76: CRAW   Noun 76: VALV
+Verb 77: *ROLL  Noun 77: HAND
+Verb 78: .      Noun 78: FUSE
+Verb 79: DANC   Noun 79: BARR
+Verb 80: OPEN   Noun 80: BOLT
+Verb 81: *UNLO  Noun 81: WREN
+Verb 82: *UNTI  Noun 82: HOLE
+Verb 83: FIND   Noun 83: *MAN
+Verb 84: *LOCA  Noun 84: *MANH
+Verb 85: STAN   Noun 85: LADY
+Verb 86: FIX    Noun 86: CEIL
+Verb 87: *REPA  Noun 87: *CATW
+Verb 88:        Noun 88: LOCK
+Verb 89:        Noun 89: PIGE
+
+Room  0: 
+
+Room  1: *I'm in front of the FUN HOUSE
+         E:    26
+
+Room  2: Magical Mirror Room
+         N:    30
+         S:     1
+
+Room  3: *I'm on a small landing
+         N:     9
+         E:    19
+         U:    20
+
+Room  4: *I'm beside a LARGE tank
+         E:    10
+         U:     9
+
+Room  5: windowed tank
+
+Room  6: hidden laboratory
+         N:    25
+
+Room  7: Merry-Go-Round on a wooden horse
+         D:    18
+
+Room  8: small room
+         S:    14
+         U:    10
+
+Room  9: sloping hallway
+         U:     3
+         D:     4
+
+Room 10: room with a low ceiling
+         W:     4
+
+Room 11: large rolling barrel room
+
+Room 12: store room
+         W:    33
+
+Room 13: Manhole
+         E:    28
+         U:    26
+
+Room 14: shooting gallery
+         N:     8
+
+Room 15: *I'm on a ledge over a deep pit
+         S:    20
+         E:    11
+
+Room 16: Pit
+
+Room 17: Observation chamber
+         E:     2
+
+Room 18: *I'm on a Merry-Go-Round
+         D:    21
+
+Room 19: Windy hall
+         E:    30
+         W:     3
+
+Room 20: rickety staircase
+         U:    15
+         D:     3
+
+Room 21: large room with tall ceiling
+         S:    23
+
+Room 22: *I'm on top of the ride
+         D:     7
+
+Room 23: small room
+         E:    21
+         D:    10
+
+Room 24: small room
+         N:    32
+         W:    10
+
+Room 25: large room
+         S:     6
+         D:    34
+
+Room 26: Parking lot
+         W:     1
+
+Room 27: *I'm on a Trampoline
+
+Room 28: Sewer system
+
+Room 29: windy maze
+         N:    31
+         S:    30
+         E:    32
+         W:    24
+
+Room 30: windy maze
+         N:    32
+         S:    31
+         E:     2
+         W:    31
+
+Room 31: windy maze
+         N:    32
+         S:    31
+         E:    29
+         W:    29
+
+Room 32: windy maze
+         N:    31
+         S:    29
+         E:    31
+         W:    32
+
+Room 33: catwalk
+         E:    12
+         D:    22
+
+Room 34: long tunnel
+         U:    25
+         D:    28
+
+Room 35: Lot of TROUBLE!
+
+Msg   0: 
+Msg   1: Good thing this ropes not too long
+Msg   2: OK
+Msg   3: I see a bunch of clay pigeons
+Msg   4: Splash, Oh no I am all washed up!
+Msg   5: Ticket lady rips up bill & says `$5 grocery bill\\ain't money bub!`
+Msg   6: Too steep
+Msg   7: Tell me where to look!
+Msg   8: I see a hidden door in it
+Msg   9: I've no match!
+Msg  10: Bouncer throws me out
+Msg  11: Park closes at midnight. Shoes required at all times.\\Management NOT responsible for accidents!!\\CAUTION this park is DANGERous!\\
+Msg  12: I can see myself thin,fat & tall
+Msg  13: There's strange music playing
+Msg  14: Sounds like a space opera
+Msg  15: till midnight
+Msg  16: The park is closing in
+Msg  17: turns
+Msg  18: Welcome to ADVENTURE 7, `MYSTERY FUN HOUSE` by Scott Adams\\Dedicated to Marin Computer Center.
+Msg  19: She thanks me & turns a hidden knob
+Msg  20: of order
+Msg  21: She's pretty, but has really snarled hair!
+Msg  22: Wheeee
+Msg  23: She's too fast for me
+Msg  24: Not here!
+Msg  25: I am
+Msg  26: How?
+Msg  27: Nothing happens
+Msg  28: A mermaid swims by and waves
+Msg  29: .
+Msg  30: Someone shot me!
+Msg  31: All the water ran out
+Msg  32: For Vandalism
+Msg  33: Something dropped out
+Msg  34: On what?
+Msg  35: At What?
+Msg  36: Sizzle, it burns with a dull glow.
+Msg  37: its out
+Msg  38: I was holding it!
+Msg  39: Try: `STICK GUM`
+Msg  40: I shot a clay pigeon!
+Msg  41: It collapsed into a pile of bones
+Msg  42: Calliope is so LOUD I can't hear clearly!
+Msg  43: starts.
+Msg  44: Tiny piece of hemp falls on my head and vanishes!
+Msg  45: Tastes HORRIBLE!
+Msg  46: Fire ladder retracts and leaves me here!
+Msg  47: it says
+Msg  48: Ticket lady asks me what I want
+Msg  49: She hands me a ticket
+Msg  50: Its too tight
+Msg  51: I see nothing special.
+Msg  52: Ouch
+Msg  53: She says: `That'll be a dollar`
+Msg  54: I see a shiny COIN at the bottom of the drain!
+Msg  55: I can't reach it, my arm is too short!
+Msg  56: Got it!
+Msg  57: Too hard
+Msg  58: I can't do that
+Msg  59: Only thing left is one bare branch
+Msg  60: Doesn't work
+Msg  61: I just push it around
+Msg  62: Say again & use a color
+Msg  63: Wall swings me around & I'm elsewhere...
+Msg  64: James:\\We must get the plans back by tonight! We believe they're hiddenwithin his Fun House!  Signed,\\M\\P.S. Q says enjoy the gum!
+Msg  65: Try EXAMINING things!
+Msg  66: I say:
+Msg  67: I'm not wearing it
+Msg  68: POP
+Msg  69: HUH? Why do you want me to MARRY?
+Msg  70: There's no handle on it
+Msg  71: My shoe heel is loose
+Msg  72: Something fell out
+Msg  73: AUTHORIZED PERSONNEL ONLY!
+Msg  74: Guard hears explosion & shoots me!
+Msg  75: Flashlight there
+Msg  76: flat on my face!
+Msg  77: Ride
+Msg  78: stops.
+Msg  79: There's a red button
+Msg  80: big bolts hold it down
+Msg  81: I can only remove 1 bolt!
+Msg  82: 1
+Msg  83: 2
+Msg  84: Wall closed behind me
+Msg  85: Too high for me
+Msg  86: Moving ride throws me off balance
+Msg  87: I fell
+Msg  88: Gentle air blast blows up my leg.
+Msg  89: Hard blast of air rips my body apart
+Msg  90: Machine lights up and says
+Msg  91: HURRAH! You've done it!
+Msg  92: I see into the mirror room
+Msg  93: not on it
+Msg  94: too hot
+Msg  95: There's a catwalk above the ride
+Msg  96: Click!
+Msg  97: 
+Msg  98: 
+Msg  99: 
+
+Item  0: Loc:  5 - Closed drain. Water
+Item  1: Loc:  0 - Rope hanging from ceiling
+Item  2: Loc:  2 - Strange Mirror
+Item  3: Loc: -1 - Shoes/SHOE/
+Item  4: Loc:  0 - which I'm wearing
+Item  5: Loc:  3 - Slippery Slide. Sign on slide
+Item  6: Loc:  6 - Locked door
+Item  7: Loc: 10 - Skeleton
+Item  8: Loc: 12 - Locked door
+Item  9: Loc:  0 - Lit Flashlight/FLAS/
+Item 10: Loc: 28 - Open flood door
+Item 11: Loc: 12 - Red knob in wall
+Item 12: Loc: 10 - Strange knobs on wall: Yellow, Green, Blue
+Item 13: Loc:  0 - Closed flood door
+Item 14: Loc: 15 - Ladder going down
+Item 15: Loc: 16 - Locked door
+Item 16: Loc:  0 - Open door with small shelves beyond
+Item 17: Loc: 15 - Sign on ladder
+Item 18: Loc:  8 - Small Trampoline/TRAM/
+Item 19: Loc: 12 - Wrench/WREN/
+Item 20: Loc: 33 - Locked door
+Item 21: Loc:  1 - Sign
+Item 22: Loc:  1 - Ticket Counter
+Item 23: Loc:  0 - Ticket/TICK/
+Item 24: Loc:  0 - Bottom of heel/HEEL/
+Item 25: Loc: -1 - Watch/WATC/
+Item 26: Loc:  0 - Dark manhole
+Item 27: Loc:  5 - Mermaid
+Item 28: Loc: 11 - Comb/COMB/
+Item 29: Loc:  0 - Quiet Calliope
+Item 30: Loc:  5 - Rusty key/KEY/
+Item 31: Loc: 21 - LOUD Steam Calliope
+Item 32: Loc: 21 - Merry-Go-Round
+Item 33: Loc: 16 - Valve on a large warm pipe
+Item 34: Loc: 34 - Handle is on valve
+Item 35: Loc: 17 - Valve handle with no valve/HAND/
+Item 36: Loc:  0 - Short fuse/FUSE/
+Item 37: Loc:  0 - Fuse is stuck in gum
+Item 38: Loc:  0 - Open Drain
+Item 39: Loc:  0 - Letter/LETT/
+Item 40: Loc: 11 - Exit
+Item 41: Loc: 18 - Wooden horse
+Item 42: Loc: 28 - Dark hole
+Item 43: Loc: 28 - Large grate welded over hole
+Item 44: Loc:  0 - Pile of bones/BONE/
+Item 45: Loc:  0 - Loose grate
+Item 46: Loc: 14 - Strange spectacles/SPEC/
+Item 47: Loc:  0 - which I'm wearing
+Item 48: Loc: 23 - Fortune telling machine
+Item 49: Loc: 33 - Rope hanging down
+Item 50: Loc:  0 - Gum is stuck to grate
+Item 51: Loc: 26 - Rusty closed grating
+Item 52: Loc:  5 - Bottom of slide
+Item 53: Loc: 26 - Dead tree
+Item 54: Loc:  0 - Silver Dollar/DOLL/
+Item 55: Loc:  0 - Broken branch/BRAN/
+Item 56: Loc: -1 - Hard dry chewing gum/GUM/
+Item 57: Loc:  0 - Soft chewing gum/GUM/
+Item 58: Loc:  0 - Stick with gum on end/BRAN/
+Item 59: Loc:  0 - Bottom of stairs
+Item 60: Loc:  0 - Broken grate
+Item 61: Loc:  7 - Pole coming out of horse's back
+Item 62: Loc:  4 - Window in tank
+Item 63: Loc: 14 - Window. Gun pointing into & mounted by window
+Item 64: Loc: 23 - Sign/SIGN/
+Item 65: Loc: 25 - Clay pigeons
+Item 66: Loc:  0 - Flashlight/FLAS/
+Item 67: Loc:  6 - Missing top secret plans/PLAN/
+Item 68: Loc: 26 - 5 Dollar Bill/BILL/
+Item 69: Loc: 11 - Match/MATC/
+Item 70: Loc:  0 - Open door in glass
+Item 71: Loc: 17 - 1 way mirror
+Item 72: Loc: 17 - Locked door
+Item 73: Loc: 21 - Blue button
+Item 74: Loc:  0 - Soggy fuse/FUSE/
+
+Version         = 145
+AdventureNumber = 7
+MagicNumber     = 637
+
+Cmd   0 |     0   100 |    9   1   0 600   0   1   0   0   0   0 |   79  58  18  66 | INTRO
+                 100% | IF FLAG(1)=FALSE
+                      | SET COUNTER=600
+                      | SET FLAG(1)=TRUE
+                      | MESSAGE 18="Welcome to ADVENTURE 7, `MY..."
+                      | INVENTORY
+Cmd   1 |     0   100 |   16   0   0   0   0   0   0   0   0   0 |   77   0   0   0 | DECREMENT COUNTER
+                 100% | IF GE(COUNTER,0)
+                      | DECREMENT_COUNTER
+Cmd   2 |     0   100 |   15  40   0   0   0   0   0   0   0   0 |   16  78  17   0 | PARK IS CLOSING
+                 100% | IF LE(COUNTER,40)
+                      | MESSAGE 16="The park is closing in"
+                      | PRINT_COUNTER
+                      | MESSAGE 17="turns"
+Cmd   3 |     0    40 |    4   3   9   7   0   0   0   0   0   0 |  138   0   0   0 | AIR BLAST
+                  40% | IF ISROOM(3="on a small landing")
+                      | IF FLAG(7)=FALSE
+                      | MESSAGE 88="Gentle air blast blows up m..."
+Cmd   4 |     0   100 |    4  10   9   5   0   5   0   0   0   0 |   58 134   0   0 | WALL CLOSES
+                 100% | IF ISROOM(10="room with a low ceiling")
+                      | IF FLAG(5)=FALSE
+                      | SET FLAG(5)=TRUE
+                      | MESSAGE 84="Wall closed behind me"
+Cmd   5 |     0   100 |    7  10   0   5   0   0   0   0   0   0 |   60   0   0   0 | WALL RESET
+                 100% | IF NOT ISROOM(10)
+                      | SET FLAG(5)=FALSE
+Cmd   6 |     0     5 |    3   4  14  24   0   0   0   0   0   0 |  121   0   0   0 | HEEL LOOSE
+                   5% | IF HERECARRY(4="which I'm wearing")
+                      | IF NOWHERE(24="Bottom of heel")
+                      | MESSAGE 71="My shoe heel is loose"
+Cmd   7 |     0   100 |    4   4   9   5   0   5   0   0   0   0 |   58   0   0   0 | WALL
+                 100% | IF ISROOM(4="beside a LARGE tank")
+                      | IF FLAG(5)=FALSE
+                      | SET FLAG(5)=TRUE
+Cmd   8 |     0   100 |    4   2   0   4   0   0   0   0   0   0 |   60   0   0   0 | AUTHORIZE
+                 100% | IF ISROOM(2="Magical Mirror Room")
+                      | SET FLAG(4)=FALSE
+Cmd   9 |     0   100 |    2  31   0   0   0   0   0   0   0   0 |   42   0   0   0 | LOUD CALIOPE
+                 100% | IF HERE(31="LOUD Steam Calliope")
+                      | MESSAGE 42="Calliope is so LOUD I can't..."
+Cmd  10 |     0    40 |    4   3   8   7   0   0   0   0   0   0 |  139  61   0   0 | AIR BLAST HARD
+                  40% | IF ISROOM(3="on a small landing")
+                      | IF FLAG(7)=TRUE
+                      | MESSAGE 89="Hard blast of air rips my b..."
+                      | DEAD
+Cmd  11 |     0   100 |   15   0   9   4   0   1   0   0   0   0 |   10  54  76   0 | CLOSE PARK
+                 100% | IF LE(COUNTER,0)
+                      | IF FLAG(4)=FALSE
+                      | MESSAGE 10="Bouncer throws me out"
+                      | GOTO 1="in front of the FUN HOUSE"
+                      | LOOK
+Cmd  12 |     0   100 |    2  68   4   1   0  68   0   0   0   0 |   59   5   0   0 | DOLLAR BILL
+                 100% | IF HERE(68="5 Dollar Bill")
+                      | IF ISROOM(1="in front of the FUN HOUSE")
+                      | DESTROY 68="5 Dollar Bill"
+                      | MESSAGE 5="Ticket lady rips up bill &..."
+Cmd  13 |     0   100 |    6   4   4   2   0   1   0   0   0   0 |   88  88  10  54 | NO SHOES THROWN OUT
+                 100% | IF NOT CARRY(4="which I'm wearing")
+                      | IF ISROOM(2="Magical Mirror Room")
+                      | SLEEP 2 SECONDS
+                      | SLEEP 2 SECONDS
+                      | MESSAGE 10="Bouncer throws me out"
+                      | GOTO 1="in front of the FUN HOUSE"
+Cmd  14 |     0   100 |    6  23   4   2   0   1   0   0   0   0 |   88  88  10  54 | NO TICKET THROW OUT
+                 100% | IF NOT CARRY(23="Ticket")
+                      | IF ISROOM(2="Magical Mirror Room")
+                      | SLEEP 2 SECONDS
+                      | SLEEP 2 SECONDS
+                      | MESSAGE 10="Bouncer throws me out"
+                      | GOTO 1="in front of the FUN HOUSE"
+Cmd  15 |     0   100 |    2  28   2  27   0  59   0  52   0  28 |   72  19  59   0 | COMB
+                 100% | IF HERE(28="Comb")
+                      | IF HERE(27="Mermaid")
+                      | SWAP ITEMS 59="Bottom of stairs" AND 52="Bottom of slide"
+                      | MESSAGE 19="She thanks me & turns a hid..."
+                      | DESTROY 28="Comb"
+Cmd  16 |     0   100 |   13  59   5  59   0  59   0  52   0   0 |   72   0   0   0 | REMOVE STAIR
+                 100% | IF SOMEWHERE(59="Bottom of stairs")
+                      | IF NOT HERE(59="Bottom of stairs")
+                      | SWAP ITEMS 59="Bottom of stairs" AND 52="Bottom of slide"
+Cmd  17 |     0   100 |    4  35   0   0   0   0   0   0   0   0 |   63   0   0   0 | PERSON IN ROOM END GAME
+                 100% | IF ISROOM(35="Lot of TROUBLE!")
+                      | QUIT
+Cmd  18 |     0   100 |    2  54   0  54   0  23   4   1   0   0 |   49  59  74   0 | GIVE DOLLAR
+                 100% | IF HERE(54="Silver Dollar")
+                      | IF ISROOM(1="in front of the FUN HOUSE")
+                      | MESSAGE 49="She hands me a ticket"
+                      | DESTROY 54="Silver Dollar"
+                      | TAKE_NOCHECK 23="Ticket"
+Cmd  19 |     0    25 |    4  22  14   1   0   0   0   0   0   0 |   44   0   0   0 | HEMP FALL
+                  25% | IF ISROOM(22="on top of the ride")
+                      | IF NOWHERE(1="Rope hanging from ceiling")
+                      | MESSAGE 44="Tiny piece of hemp falls on..."
+Cmd  20 |     0   100 |    2  35   2  33   0  34   0  35   0   0 |   53  59   0   0 | VALVE
+                 100% | IF HERE(35="Valve handle with no valve")
+                      | IF HERE(33="Valve on a large warm pipe")
+                      | DROP 34="Handle is on valve"
+                      | DESTROY 35="Valve handle with no valve"
+Cmd  21 |     0   100 |    2  57  13  37   5  37   0  37   0   0 |   53   0   0   0 | FUSE GUM
+                 100% | IF HERE(57="Soft chewing gum")
+                      | IF SOMEWHERE(37="Fuse is stuck in gum")
+                      | IF NOT HERE(37="Fuse is stuck in gum")
+                      | DROP 37="Fuse is stuck in gum"
+Cmd  22 |     0   100 |    1  57  13  37   0  37   0   0   0   0 |   74   0   0   0 | FUSE GUM
+                 100% | IF CARRY(57="Soft chewing gum")
+                      | IF SOMEWHERE(37="Fuse is stuck in gum")
+                      | TAKE_NOCHECK 37="Fuse is stuck in gum"
+Cmd  23 |     0   100 |    4   7   0   4   0   0   0   0   0   0 |   60   0   0   0 | AUTHORIZ AREA
+                 100% | IF ISROOM(7="Merry-Go-Round on a wooden...")
+                      | SET FLAG(4)=FALSE
+Cmd  24 |     0   100 |    4  25   0  14   0   0   0   0   0   0 |   54  73   0   0 | SHOOTING GALLERY
+                 100% | IF ISROOM(25="large room")
+                      | GOTO 14="shooting gallery"
+                      | CONTINUE_NEXT_LINE
+Cmd  25 |     0     0 |    5  64   0  25   0   0   0   0   0   0 |  118  30  54  63 | SHOT
+            continued | IF NOT HERE(64="Sign")
+                      | MESSAGE 68="POP"
+                      | MESSAGE 30="Someone shot me!"
+                      | GOTO 25="large room"
+                      | QUIT
+Cmd  26 |     0     0 |    0  25   0   0   0   0   0   0   0   0 |   54   0   0   0 |
+            continued | GOTO 25="large room"
+Cmd  27 |     0   100 |    1  67   0   0   0   0   0   0   0   0 |  141  63   0   0 | WON
+                 100% | IF CARRY(67="Missing top secret plans")
+                      | MESSAGE 91="HURRAH! You've done it!"
+                      | QUIT
+Cmd  28 |     0   100 |    4  34   9  15   0   0   0   0   0   0 |   56  76   0   0 | DARK
+                 100% | IF ISROOM(34="long tunnel")
+                      | IF FLAG(15)=FALSE
+                      | SET DARK=TRUE
+                      | LOOK
+Cmd  29 |     0   100 |    4  26   8  15   0   0   0   0   0   0 |   57  76   0   0 | LIGHT
+                 100% | IF ISROOM(26="Parking lot")
+                      | IF FLAG(15)=TRUE
+                      | SET DARK=FALSE
+                      | LOOK
+Cmd  30 |     0   100 |    4  25   8  15   0   0   0   0   0   0 |   57  76   0   0 | LIGHT
+                 100% | IF ISROOM(25="large room")
+                      | IF FLAG(15)=TRUE
+                      | SET DARK=FALSE
+                      | LOOK
+Cmd  31 |     0     5 |   14  56   0  56   0  57  14  37   0   0 |   72   0   0   0 | GUM HARDENS
+                   5% | IF NOWHERE(56="Hard dry chewing gum")
+                      | IF NOWHERE(37="Fuse is stuck in gum")
+                      | SWAP ITEMS 56="Hard dry chewing gum" AND 57="Soft chewing gum"
+Cmd  32 |     0   100 |    4   1   0   4   0   0   0   0   0   0 |   58   0   0   0 | OUTSIDE PARK
+                 100% | IF ISROOM(1="in front of the FUN HOUSE")
+                      | SET FLAG(4)=TRUE
+Cmd  33 |     0   100 |    3   0   3  36   0  36   0  74   0   0 |   72   0   0   0 | SOGGY FUSE
+                 100% | IF HERECARRY(0="Closed drain. Water")
+                      | IF HERECARRY(36="Short fuse")
+                      | SWAP ITEMS 36="Short fuse" AND 74="Soggy fuse"
+Cmd  34 |    66     0 |    4  22   2   1   0  33   8   6   0   0 |   70   1  54   0 | .
+           jump       | IF ISROOM(22="on top of the ride")
+                      | IF HERE(1="Rope hanging from ceiling")
+                      | IF FLAG(6)=TRUE
+                      | CLEARSCREEN
+                      | MESSAGE 1="Good thing this ropes not t..."
+                      | GOTO 33="catwalk"
+Cmd  35 |     1     7 |    4  22   2   1   0   0   0   0   0   0 |   26 135   0   0 |
+             go  rope | IF ISROOM(22="on top of the ride")
+                      | IF HERE(1="Rope hanging from ceiling")
+                      | MESSAGE 26="How?"
+                      | MESSAGE 85="Too high for me"
+Cmd  36 |     1    24 |    2   5  13  38   0   5   0   4   0   0 |   54 102 107  58 |
+             go  slid | IF HERE(5="Slippery Slide. Sign on slide")
+                      | IF SOMEWHERE(38="Open Drain")
+                      | GOTO 5="windowed tank"
+                      | MESSAGE 52="Ouch"
+                      | MESSAGE 57="Too hard"
+                      | SET FLAG(4)=TRUE
+Cmd  37 |    66     0 |    4  22   9   6   0   0   0   0   0   0 |  136 137  61   0 |
+           jump       | IF ISROOM(22="on top of the ride")
+                      | IF FLAG(6)=FALSE
+                      | MESSAGE 86="Moving ride throws me off b..."
+                      | MESSAGE 87="I fell"
+                      | DEAD
+Cmd  38 |    35    21 |    4  10   0  23   0   0   0   0   0   0 |  146 113  54  76 |
+           pull  blue | IF ISROOM(10="room with a low ceiling")
+                      | MESSAGE 96="Click!"
+                      | MESSAGE 63="Wall swings me around & I'm..."
+                      | GOTO 23="small room"
+                      | LOOK
+Cmd  39 |    35    20 |    4  10   0  24   0   0   0   0   0   0 |  146 113  13  54 |
+           pull  yell | IF ISROOM(10="room with a low ceiling")
+                      | MESSAGE 96="Click!"
+                      | MESSAGE 63="Wall swings me around & I'm..."
+                      | MESSAGE 13="There's strange music playing"
+                      | GOTO 24="small room"
+Cmd  40 |    35    19 |    4  10   0   8   0   0   0   0   0   0 |  146 113  54  76 |
+           pull  gree | IF ISROOM(10="room with a low ceiling")
+                      | MESSAGE 96="Click!"
+                      | MESSAGE 63="Wall swings me around & I'm..."
+                      | GOTO 8="small room"
+                      | LOOK
+Cmd  41 |    44     5 |    4  22   0   1   0   0   0   0   0   0 |   53  76   2   0 |
+           look    up | IF ISROOM(22="on top of the ride")
+                      | DROP 1="Rope hanging from ceiling"
+                      | LOOK
+                      | MESSAGE 2="OK"
+Cmd  42 |    31     0 |    2  14   0   0   0   0   0   0   0   0 |    2  14   0   0 |
+           list       | IF HERE(14="Ladder going down")
+                      | MESSAGE 2="OK"
+                      | MESSAGE 14="Sounds like a space opera"
+Cmd  43 |     1    15 |    2  18   0  27   0   0   0   0   0   0 |    2  80  54  76 |
+             go  tram | IF HERE(18="Small Trampoline")
+                      | MESSAGE 2="OK"
+                      | GOTO LOCATION_SWAP
+                      | GOTO 27="on a Trampoline"
+                      | LOOK
+Cmd  44 |    44    10 |    2   2   3  47   0   0   0   0   0   0 |   12   8   0   0 |
+           look  mirr | IF HERE(2="Strange Mirror")
+                      | IF HERECARRY(47="which I'm wearing")
+                      | MESSAGE 12="I can see myself thin,fat &..."
+                      | MESSAGE 8="I see a hidden door in it"
+Cmd  45 |    10    67 |    4  27   0   0   0   0   0   0   0   0 |    2  80  76   0 |
+            get   off | IF ISROOM(27="on a Trampoline")
+                      | MESSAGE 2="OK"
+                      | GOTO LOCATION_SWAP
+                      | LOOK
+Cmd  46 |     1    50 |    0   0   4   1   0   0   0   0   0   0 |   48   0   0   0 |
+             go  coun | IF ISROOM(1="in front of the FUN HOUSE")
+                      | MESSAGE 48="Ticket lady asks me what I..."
+Cmd  47 |    31     0 |    4  24   0   0   0   0   0   0   0   0 |   14   0   0   0 |
+           list       | IF ISROOM(24="small room")
+                      | MESSAGE 14="Sounds like a space opera"
+Cmd  48 |    44    10 |    2   2  12  47   0   0   0   0   0   0 |   12   0   0   0 |
+           look  mirr | IF HERE(2="Strange Mirror")
+                      | IF NOT HERECARRY(47="which I'm wearing")
+                      | MESSAGE 12="I can see myself thin,fat &..."
+Cmd  49 |    10     6 |    4  27   0   0   0   0   0   0   0   0 |    2  80  76   0 |
+            get  down | IF ISROOM(27="on a Trampoline")
+                      | MESSAGE 2="OK"
+                      | GOTO LOCATION_SWAP
+                      | LOOK
+Cmd  50 |    62    65 |    3  28   5  27   0   0   0   0   0   0 |    2   0   0   0 |
+           comb  hair | IF HERECARRY(28="Comb")
+                      | IF NOT HERE(27="Mermaid")
+                      | MESSAGE 2="OK"
+Cmd  51 |    44    51 |    2  62  13  27   0   0   0   0   0   0 |   28   0   0   0 |
+           look  wind | IF HERE(62="Window in tank")
+                      | IF SOMEWHERE(27="Mermaid")
+                      | MESSAGE 28="A mermaid swims by and waves"
+Cmd  52 |     1    24 |    2   5  14  38   0   5   0   4   0   0 |    4  54  76  58 |
+             go  slid | IF HERE(5="Slippery Slide. Sign on slide")
+                      | IF NOWHERE(38="Open Drain")
+                      | MESSAGE 4="Splash, Oh no I am all wash..."
+                      | GOTO 5="windowed tank"
+                      | LOOK
+                      | SET FLAG(4)=TRUE
+Cmd  53 |    44    31 |    2  62  13   5  13  28   0   0   0   0 |    0  21   0   0 |
+           look  merm | IF HERE(62="Window in tank")
+                      | IF SOMEWHERE(5="Slippery Slide. Sign on slide")
+                      | IF SOMEWHERE(28="Comb")
+                      | MESSAGE 21="She's pretty, but has reall..."
+Cmd  54 |    40    78 |    6  69   0   0   0   0   0   0   0   0 |   26   9   0   0 |
+           ligh  fuse | IF NOT CARRY(69="Match")
+                      | MESSAGE 26="How?"
+                      | MESSAGE 9="I've no match!"
+Cmd  55 |     1    27 |    2  14   0  16   0   4   0   0   0   0 |   54  76  58  46 |
+             go  ladd | IF HERE(14="Ladder going down")
+                      | GOTO 16="Pit"
+                      | LOOK
+                      | SET FLAG(4)=TRUE
+                      | MESSAGE 46="Fire ladder retracts and le..."
+Cmd  56 |    48    71 |    0   0   0   0   0   0   0   0   0   0 |   24   0   0   0 |
+           brea  boun | MESSAGE 24="Not here!"
+Cmd  57 |    79     0 |    0   0   0   0   0   0   0   0   0   0 |    2   0   0   0 |
+           danc       | MESSAGE 2="OK"
+Cmd  58 |     1    16 |    2  40   0   0   0   0   0   0   0   0 |   26 137 126   0 |
+             go  exit | IF HERE(40="Exit")
+                      | MESSAGE 26="How?"
+                      | MESSAGE 87="I fell"
+                      | MESSAGE 76="flat on my face!"
+Cmd  59 |    47    38 |    4   1   0   0   0   0   0   0   0   0 |   11   0   0   0 |
+           read  sign | IF ISROOM(1="in front of the FUN HOUSE")
+                      | MESSAGE 11="Park closes at midnight. Sh..."
+Cmd  60 |    23    72 |    3  57   0   0   0   0   0   0   0   0 |  118   0   0   0 |
+           blow  bubb | IF HERECARRY(57="Soft chewing gum")
+                      | MESSAGE 68="POP"
+Cmd  61 |    23    72 |    3  56   0   0   0   0   0   0   0   0 |  108 107   0   0 |
+           blow  bubb | IF HERECARRY(56="Hard dry chewing gum")
+                      | MESSAGE 58="I can't do that"
+                      | MESSAGE 57="Too hard"
+Cmd  62 |    44     9 |    3   3  14  24   0   0   0   0   0   0 |  121   0   0   0 |
+           look  shoe | IF HERECARRY(3="Shoes")
+                      | IF NOWHERE(24="Bottom of heel")
+                      | MESSAGE 71="My shoe heel is loose"
+Cmd  63 |    25    37 |    3   3  14  24   0  24   0  39   0   0 |    2  74  53  73 |
+           remo  heel | IF HERECARRY(3="Shoes")
+                      | IF NOWHERE(24="Bottom of heel")
+                      | MESSAGE 2="OK"
+                      | TAKE_NOCHECK 24="Bottom of heel"
+                      | DROP 39="Letter"
+                      | CONTINUE_NEXT_LINE
+Cmd  64 |     0     0 |    0  36   0   0   0   0   0   0   0   0 |  122  53   0   0 |
+            continued | MESSAGE 72="Something fell out"
+                      | DROP 36="Short fuse"
+Cmd  65 |    50     0 |    2   0   0   0   0   0   0   0   0   0 |   25   0   0   0 |
+           swim       | IF HERE(0="Closed drain. Water")
+                      | MESSAGE 25="I am"
+Cmd  66 |    50     0 |    5   0   0   0   0   0   0   0   0   0 |   24   0   0   0 |
+           swim       | IF NOT HERE(0="Closed drain. Water")
+                      | MESSAGE 24="Not here!"
+Cmd  67 |    76     0 |    4  11   0  15   0   0   0   0   0   0 |    2  54  76   0 |
+           craw       | IF ISROOM(11="large rolling barrel room")
+                      | MESSAGE 2="OK"
+                      | GOTO 15="on a ledge over a deep pit"
+                      | LOOK
+Cmd  68 |    44    51 |    2  63   0   0   0   0   0   0   0   0 |    3   0   0   0 |
+           look  wind | IF HERE(63="Window. Gun pointing into &...")
+                      | MESSAGE 3="I see a bunch of clay pigeons"
+Cmd  69 |    44    31 |    2  27   0   0   0   0   0   0   0   0 |   21   0   0   0 |
+           look  merm | IF HERE(27="Mermaid")
+                      | MESSAGE 21="She's pretty, but has reall..."
+Cmd  70 |    10    31 |    2  27   0   0   0   0   0   0   0   0 |   23   0   0   0 |
+            get  merm | IF HERE(27="Mermaid")
+                      | MESSAGE 23="She's too fast for me"
+Cmd  71 |    44    63 |    2  53  14  55  14  58   0   0   0   0 |  109   0   0   0 |
+           look  tree | IF HERE(53="Dead tree")
+                      | IF NOWHERE(55="Broken branch")
+                      | IF NOWHERE(58="Stick with gum on end")
+                      | MESSAGE 59="Only thing left is one bare..."
+Cmd  72 |    80    11 |    2  13   0  13   0  10   0   0   0   0 |   72   2   0   0 |
+           open  door | IF HERE(13="Closed flood door")
+                      | SWAP ITEMS 13="Closed flood door" AND 10="Open flood door"
+                      | MESSAGE 2="OK"
+Cmd  73 |    52    11 |    2  10   0  13   0  10   0   0   0   0 |   72   2   0   0 |
+           clos  door | IF HERE(10="Open flood door")
+                      | SWAP ITEMS 13="Closed flood door" AND 10="Open flood door"
+                      | MESSAGE 2="OK"
+Cmd  74 |     1    11 |    2  10   0  13   0   0   0   0   0   0 |   54  76   2   0 |
+             go  door | IF HERE(10="Open flood door")
+                      | GOTO 13="Manhole"
+                      | LOOK
+                      | MESSAGE 2="OK"
+Cmd  75 |    16     0 |    2  63   0   0   0   0   0   0   0   0 |    2  40   0   0 | .
+           shoo       | IF HERE(63="Window. Gun pointing into &...")
+                      | MESSAGE 2="OK"
+                      | MESSAGE 40="I shot a clay pigeon!"
+Cmd  76 |    44    64 |    2  16  14   9  14  66   0   0   0   0 |  125   0   0   0 |
+           look  shel | IF HERE(16="Open door with small shelve...")
+                      | IF NOWHERE(9="Lit Flashlight")
+                      | IF NOWHERE(66="Flashlight")
+                      | MESSAGE 75="Flashlight there"
+Cmd  77 |    10     8 |   14   9   2  16   0  66   0   0   0   0 |   52   2   0   0 |
+            get  flas | IF NOWHERE(9="Lit Flashlight")
+                      | IF HERE(16="Open door with small shelve...")
+                      | TAKE 66="Flashlight"
+                      | MESSAGE 2="OK"
+Cmd  78 |    10     8 |    2  66   0  66   0   0   0   0   0   0 |    2  52   0   0 |
+            get  flas | IF HERE(66="Flashlight")
+                      | MESSAGE 2="OK"
+                      | TAKE 66="Flashlight"
+Cmd  79 |    40    54 |    3  69   0  69   0   0   0   0   0   0 |    2  59  88  37 |
+           ligh  matc | IF HERECARRY(69="Match")
+                      | MESSAGE 2="OK"
+                      | DESTROY 69="Match"
+                      | SLEEP 2 SECONDS
+                      | MESSAGE 37="its out"
+Cmd  80 |    10     8 |    2   9   0   9   0   0   0   0   0   0 |    2  52   0   0 |
+            get  flas | IF HERE(9="Lit Flashlight")
+                      | MESSAGE 2="OK"
+                      | TAKE 9="Lit Flashlight"
+Cmd  81 |    30     0 |    0   0   0   0   0   0   0   0   0   0 |  115   0   0   0 |
+           help       | MESSAGE 65="Try EXAMINING things!"
+Cmd  82 |    80     7 |    0   0   0   0   0   0   0   0   0   0 |  108  50   0   0 |
+           open  rope | MESSAGE 58="I can't do that"
+                      | MESSAGE 50="Its too tight"
+Cmd  83 |     1    63 |    2  53   0   0   0   0   0   0   0   0 |  108   0   0   0 |
+             go  tree | IF HERE(53="Dead tree")
+                      | MESSAGE 58="I can't do that"
+Cmd  84 |    42    59 |    1  57   0   0   0   0   0   0   0   0 |   34   0   0   0 |
+           stic   gum | IF CARRY(57="Soft chewing gum")
+                      | MESSAGE 34="On what?"
+Cmd  85 |    74    78 |    3  57   0  37   3  36   0  36   0   0 |    2  53  59   0 |
+             on  fuse | IF HERECARRY(57="Soft chewing gum")
+                      | IF HERECARRY(36="Short fuse")
+                      | MESSAGE 2="OK"
+                      | DROP 37="Fuse is stuck in gum"
+                      | DESTROY 36="Short fuse"
+Cmd  86 |     1    13 |    2  61   0  22   0   4   0   0   0   0 |    2  54  44  58 |
+             go  pole | IF HERE(61="Pole coming out of horse's...")
+                      | MESSAGE 2="OK"
+                      | GOTO 22="on top of the ride"
+                      | MESSAGE 44="Tiny piece of hemp falls on..."
+                      | SET FLAG(4)=TRUE
+Cmd  87 |    40     8 |    3  66   0   9   0  66   0   0   0   0 |    2  72  76   0 |
+           ligh  flas | IF HERECARRY(66="Flashlight")
+                      | MESSAGE 2="OK"
+                      | SWAP ITEMS 9="Lit Flashlight" AND 66="Flashlight"
+                      | LOOK
+Cmd  88 |    61     8 |    3   9   0   9   0  66   0   0   0   0 |    2  72  76   0 |
+           unli  flas | IF HERECARRY(9="Lit Flashlight")
+                      | MESSAGE 2="OK"
+                      | SWAP ITEMS 9="Lit Flashlight" AND 66="Flashlight"
+                      | LOOK
+Cmd  89 |    56    35 |    4   1   0   0   0   0   0   0   0   0 |    2  85 103   0 |
+            say  tick | IF ISROOM(1="in front of the FUN HOUSE")
+                      | MESSAGE 2="OK"
+                      | WRITELINE NOUN
+                      | MESSAGE 53="She says: `That'll be a dol..."
+Cmd  90 |    38    57 |    9   2   2  51   3  55   0   0   0   0 |  110 111   0   0 |
+            use  bran | IF FLAG(2)=FALSE
+                      | IF HERE(51="Rusty closed grating")
+                      | IF HERECARRY(55="Broken branch")
+                      | MESSAGE 60="Doesn't work"
+                      | MESSAGE 61="I just push it around"
+Cmd  91 |    15     0 |    0   0   0   0   0   0   0   0   0   0 |   39   0   0   0 |
+            gum       | MESSAGE 39="Try: `STICK GUM`"
+Cmd  92 |    86    37 |    3   3  14  24   0   0   0   0   0   0 |    2   0   0   0 |
+            fix  heel | IF HERECARRY(3="Shoes")
+                      | IF NOWHERE(24="Bottom of heel")
+                      | MESSAGE 2="OK"
+Cmd  93 |     1    10 |    2   2   0   0   0   0   0   0   0   0 |    2 102  27   0 |
+             go  mirr | IF HERE(2="Strange Mirror")
+                      | MESSAGE 2="OK"
+                      | MESSAGE 52="Ouch"
+                      | MESSAGE 27="Nothing happens"
+Cmd  94 |    80    47 |    0   0   0   0   0   0   0   0   0   0 |   26   0   0   0 |
+           open  grat | MESSAGE 26="How?"
+Cmd  95 |    47    38 |    2   5   0   0   0   0   0   0   0   0 |  123   0   0   0 |
+           read  sign | IF HERE(5="Slippery Slide. Sign on slide")
+                      | MESSAGE 73="AUTHORIZED PERSONNEL ONLY!"
+Cmd  96 |    44    47 |    2  51   9   2   0   0   0   0   0   0 |    2 104 133 130 |
+           look  grat | IF HERE(51="Rusty closed grating")
+                      | IF FLAG(2)=FALSE
+                      | MESSAGE 2="OK"
+                      | MESSAGE 54="I see a shiny COIN at the b..."
+                      | MESSAGE 83="2"
+                      | MESSAGE 80="big bolts hold it down"
+Cmd  97 |    80    11 |    1  30   2   8   0   8   0  16   0   0 |   55  53   0   0 |
+           open  door | IF CARRY(30="Rusty key")
+                      | IF HERE(8="Locked door")
+                      | DESTROY 8="Locked door"
+                      | DROP 16="Open door with small shelve..."
+Cmd  98 |    10    60 |   14  54   2  51   0   0   0   0   0   0 |   26 105   0   0 |
+            get  doll | IF NOWHERE(54="Silver Dollar")
+                      | IF HERE(51="Rusty closed grating")
+                      | MESSAGE 26="How?"
+                      | MESSAGE 55="I can't reach it, my arm is..."
+Cmd  99 |    10    60 |    2  54   0  54   0   0   0   0   0   0 |    2  52   0   0 |
+            get  doll | IF HERE(54="Silver Dollar")
+                      | MESSAGE 2="OK"
+                      | TAKE 54="Silver Dollar"
+Cmd 100 |    80    42 |    0  38   0   0   0  27   2   0   0   0 |   72  31  55  73 |
+           open  drai | IF HERE(0="Closed drain. Water")
+                      | SWAP ITEMS 38="Open Drain" AND 0="Closed drain. Water"
+                      | MESSAGE 31="All the water ran out"
+                      | DESTROY 27="Mermaid"
+                      | CONTINUE_NEXT_LINE
+Cmd 101 |     0     0 |    2  30   0  30   0   0   0   0   0   0 |   55   0   0   0 |
+            continued | IF HERE(30="Rusty key")
+                      | DESTROY 30="Rusty key"
+Cmd 102 |    27    56 |    2  33   0   0   0   0   0   0   0   0 |    2 102 144   0 |
+           touc  pipe | IF HERE(33="Valve on a large warm pipe")
+                      | MESSAGE 2="OK"
+                      | MESSAGE 52="Ouch"
+                      | MESSAGE 94="too hot"
+Cmd 103 |    52    11 |    2  16   0   8   0  16   0   0   0   0 |   53  55   2   0 |
+           clos  door | IF HERE(16="Open door with small shelve...")
+                      | DROP 8="Locked door"
+                      | DESTROY 16="Open door with small shelve..."
+                      | MESSAGE 2="OK"
+Cmd 104 |    66     0 |    3  18   0   0   0   0   0   0   0   0 |   26  25 143   0 |
+           jump       | IF HERECARRY(18="Small Trampoline")
+                      | MESSAGE 26="How?"
+                      | MESSAGE 25="I am"
+                      | MESSAGE 93="not on it"
+Cmd 105 |    42    59 |    3  56   0   0   0   0   0   0   0   0 |  108 107   0   0 |
+           stic   gum | IF HERECARRY(56="Hard dry chewing gum")
+                      | MESSAGE 58="I can't do that"
+                      | MESSAGE 57="Too hard"
+Cmd 106 |    44    40 |    3  25   0   0   0   0   0   0   0   0 |   78  17  15   0 | .
+           look  watc | IF HERECARRY(25="Watch")
+                      | PRINT_COUNTER
+                      | MESSAGE 17="turns"
+                      | MESSAGE 15="till midnight"
+Cmd 107 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd 108 |    74    57 |    3  57   3  55   0  55   0  58   0   0 |    2  72   0   0 |
+             on  bran | IF HERECARRY(57="Soft chewing gum")
+                      | IF HERECARRY(55="Broken branch")
+                      | MESSAGE 2="OK"
+                      | SWAP ITEMS 55="Broken branch" AND 58="Stick with gum on end"
+Cmd 109 |    38    57 |    3  58   9   2   2  51   0  54   0   2 |    2  74 106  58 |
+            use  bran | IF HERECARRY(58="Stick with gum on end")
+                      | IF FLAG(2)=FALSE
+                      | IF HERE(51="Rusty closed grating")
+                      | MESSAGE 2="OK"
+                      | TAKE_NOCHECK 54="Silver Dollar"
+                      | MESSAGE 56="Got it!"
+                      | SET FLAG(2)=TRUE
+Cmd 110 |    44    10 |    2  71   0   0   0   0   0   0   0   0 |  142   0   0   0 |
+           look  mirr | IF HERE(71="1 way mirror")
+                      | MESSAGE 92="I see into the mirror room"
+Cmd 111 |    10    57 |    2  58   0  58   0   0   0   0   0   0 |    2  52   0   0 |
+            get  bran | IF HERE(58="Stick with gum on end")
+                      | MESSAGE 2="OK"
+                      | TAKE 58="Stick with gum on end"
+Cmd 112 |    55    59 |    1  56   0  56   0  57   0   0   0   0 |    2  72  45   0 |
+           chew   gum | IF CARRY(56="Hard dry chewing gum")
+                      | MESSAGE 2="OK"
+                      | SWAP ITEMS 56="Hard dry chewing gum" AND 57="Soft chewing gum"
+                      | MESSAGE 45="Tastes HORRIBLE!"
+Cmd 113 |    55    59 |    1  57   0   0   0   0   0   0   0   0 |    2  45   0   0 |
+           chew   gum | IF CARRY(57="Soft chewing gum")
+                      | MESSAGE 2="OK"
+                      | MESSAGE 45="Tastes HORRIBLE!"
+Cmd 114 |    54    59 |    1  56   0  56   0   0   0   0   0   0 |    2  59  45   0 |
+            eat   gum | IF CARRY(56="Hard dry chewing gum")
+                      | MESSAGE 2="OK"
+                      | DESTROY 56="Hard dry chewing gum"
+                      | MESSAGE 45="Tastes HORRIBLE!"
+Cmd 115 |    10    57 |    2  53  14  55   0  55   0   0   0   0 |    2  52   0   0 |
+            get  bran | IF HERE(53="Dead tree")
+                      | IF NOWHERE(55="Broken branch")
+                      | MESSAGE 2="OK"
+                      | TAKE 55="Broken branch"
+Cmd 116 |    10    57 |    2  55   0  55   0   0   0   0   0   0 |    2  52   0   0 |
+            get  bran | IF HERE(55="Broken branch")
+                      | MESSAGE 2="OK"
+                      | TAKE 55="Broken branch"
+Cmd 117 |    10    47 |    0   0   0   0   0   0   0   0   0   0 |   26   0   0   0 |
+            get  grat | MESSAGE 26="How?"
+Cmd 118 |    54    59 |    1  57   0  57   0   0   0   0   0   0 |    2  59  45   0 |
+            eat   gum | IF CARRY(57="Soft chewing gum")
+                      | MESSAGE 2="OK"
+                      | DESTROY 57="Soft chewing gum"
+                      | MESSAGE 45="Tastes HORRIBLE!"
+Cmd 119 |    48    57 |    2  53  14  55   0  55   0   0   0   0 |    2  52   0   0 |
+           brea  bran | IF HERE(53="Dead tree")
+                      | IF NOWHERE(55="Broken branch")
+                      | MESSAGE 2="OK"
+                      | TAKE 55="Broken branch"
+Cmd 120 |    10    12 |    2   7   0   7   0  44   0   0   0   0 |   55  53  41   0 |
+            get  skel | IF HERE(7="Skeleton")
+                      | DESTROY 7="Skeleton"
+                      | DROP 44="Pile of bones"
+                      | MESSAGE 41="It collapsed into a pile of..."
+Cmd 121 |    44    33 |    3  48   0   0   0   0   0   0   0   0 |  129   0   0   0 |
+           look  mach | IF HERECARRY(48="Fortune telling machine")
+                      | MESSAGE 79="There's a red button"
+Cmd 122 |     1     7 |    2  49   0  22   0   0   0   0   0   0 |    2  54   0   0 |
+             go  rope | IF HERE(49="Rope hanging down")
+                      | MESSAGE 2="OK"
+                      | GOTO 22="on top of the ride"
+Cmd 123 |    74    47 |    3  57   2  43   0  57   0  50   0   0 |   59  53  73   0 |
+             on  grat | IF HERECARRY(57="Soft chewing gum")
+                      | IF HERE(43="Large grate welded over hole")
+                      | DESTROY 57="Soft chewing gum"
+                      | DROP 50="Gum is stuck to grate"
+                      | CONTINUE_NEXT_LINE
+Cmd 124 |     0     0 |    1  37   0  37   0   0   0   0   0   0 |   53   0   0   0 |
+            continued | IF CARRY(37="Fuse is stuck in gum")
+                      | DROP 37="Fuse is stuck in gum"
+Cmd 125 |    36     0 |    2  48   0   0   0   0   0   0   0   0 |  140 118 110   0 |
+           pres       | IF HERE(48="Fortune telling machine")
+                      | MESSAGE 90="Machine lights up and says"
+                      | MESSAGE 68="POP"
+                      | MESSAGE 60="Doesn't work"
+Cmd 126 |    47    38 |    2  17   0   0   0   0   0   0   0   0 |  123   0   0   0 | .
+           read  sign | IF HERE(17="Sign on ladder")
+                      | MESSAGE 73="AUTHORIZED PERSONNEL ONLY!"
+Cmd 127 |     1    24 |    2  52   2   0   0   0   0   0   0   0 |    6   4   0   0 |
+             go  slid | IF HERE(52="Bottom of slide")
+                      | IF HERE(0="Closed drain. Water")
+                      | MESSAGE 6="Too steep"
+                      | MESSAGE 4="Splash, Oh no I am all wash..."
+Cmd 128 |     1    32 |    2  59   0   3   0   4   0   0   0   0 |    2  54  76  60 | .
+             go  stai | IF HERE(59="Bottom of stairs")
+                      | MESSAGE 2="OK"
+                      | GOTO 3="on a small landing"
+                      | LOOK
+                      | SET FLAG(4)=FALSE
+Cmd 129 |    47    66 |    3  39   0   0   0   0   0   0   0   0 |  114   0   0   0 |
+           read  lett | IF HERECARRY(39="Letter")
+                      | MESSAGE 64="James:"
+Cmd 130 |     1    68 |    4   1   0   2   0   4   0   0   0   0 |    2  54  76  60 |
+             go   fun | IF ISROOM(1="in front of the FUN HOUSE")
+                      | MESSAGE 2="OK"
+                      | GOTO 2="Magical Mirror Room"
+                      | LOOK
+                      | SET FLAG(4)=FALSE
+Cmd 131 |     1    75 |    2  31   0   0   0   0   0   0   0   0 |  119   0   0   0 |
+             go  merr | IF HERE(31="LOUD Steam Calliope")
+                      | MESSAGE 69="HUH? Why do you want me to..."
+Cmd 132 |     1    75 |    2  32   2  29   0  18   0   0   0   0 |    2  54  76   0 |
+             go  merr | IF HERE(32="Merry-Go-Round")
+                      | IF HERE(29="Quiet Calliope")
+                      | MESSAGE 2="OK"
+                      | GOTO 18="on a Merry-Go-Round"
+                      | LOOK
+Cmd 133 |    51     0 |    2  33   5  34   0   0   0   0   0   0 |  108 120   0   0 |
+           turn       | IF HERE(33="Valve on a large warm pipe")
+                      | IF NOT HERE(34="Handle is on valve")
+                      | MESSAGE 58="I can't do that"
+                      | MESSAGE 70="There's no handle on it"
+Cmd 134 |    51     0 |    2  34   8   3   0   3   0  29   0  31 |    2  60  72   0 |
+           turn       | IF HERE(34="Handle is on valve")
+                      | IF FLAG(3)=TRUE
+                      | MESSAGE 2="OK"
+                      | SET FLAG(3)=FALSE
+                      | SWAP ITEMS 29="Quiet Calliope" AND 31="LOUD Steam Calliope"
+Cmd 135 |    51     0 |    2  34   9   3   0   3   0  29   0  31 |    2  58  72   0 |
+           turn       | IF HERE(34="Handle is on valve")
+                      | IF FLAG(3)=FALSE
+                      | MESSAGE 2="OK"
+                      | SET FLAG(3)=TRUE
+                      | SWAP ITEMS 29="Quiet Calliope" AND 31="LOUD Steam Calliope"
+Cmd 136 |    66     0 |    4  27   0   0   0   0   0   0   0   0 |   22  73  80   0 |
+           jump       | IF ISROOM(27="on a Trampoline")
+                      | MESSAGE 22="Wheeee"
+                      | CONTINUE_NEXT_LINE
+                      | GOTO LOCATION_SWAP
+Cmd 137 |     0     0 |    4  16   0  15   0   4   0   0   0   0 |   54  76  60   0 |
+            continued | IF ISROOM(16="Pit")
+                      | GOTO 15="on a ledge over a deep pit"
+                      | LOOK
+                      | SET FLAG(4)=FALSE
+Cmd 138 |     0     0 |    7  15   0  27   7  35   0   0   0   0 |   80   0   0   0 | .
+            continued | IF NOT ISROOM(15)
+                      | IF NOT ISROOM(35)
+                      | GOTO LOCATION_SWAP
+Cmd 139 |    36    21 |    2  73   8   6   0   6   0   0   0   0 |   60 146 127  43 |
+           pres  blue | IF HERE(73="Blue button")
+                      | IF FLAG(6)=TRUE
+                      | SET FLAG(6)=FALSE
+                      | MESSAGE 96="Click!"
+                      | MESSAGE 77="Ride"
+                      | MESSAGE 43="starts."
+Cmd 140 |    25     9 |    3   4   0   4   0   0   0   0   0   0 |    2  59   0   0 |
+           remo  shoe | IF HERECARRY(4="which I'm wearing")
+                      | MESSAGE 2="OK"
+                      | DESTROY 4="which I'm wearing"
+Cmd 141 |    43    43 |    3  46   0  47   0  46   0   0   0   0 |    2  74  74   0 |
+           wear  spec | IF HERECARRY(46="Strange spectacles")
+                      | MESSAGE 2="OK"
+                      | TAKE_NOCHECK 47="which I'm wearing"
+                      | TAKE_NOCHECK 46="Strange spectacles"
+Cmd 142 |    25    43 |    3  47   0  47   0   0   0   0   0   0 |    2  59   0   0 |
+           remo  spec | IF HERECARRY(47="which I'm wearing")
+                      | MESSAGE 2="OK"
+                      | DESTROY 47="which I'm wearing"
+Cmd 143 |    18     9 |    3   3   0   3   0   4   0   0   0   0 |   53  59   2   0 |
+           drop  shoe | IF HERECARRY(3="Shoes")
+                      | DROP 3="Shoes"
+                      | DESTROY 4="which I'm wearing"
+                      | MESSAGE 2="OK"
+Cmd 144 |    18    43 |    3  46   0  46   0  47   0   0   0   0 |   53  59   2   0 |
+           drop  spec | IF HERECARRY(46="Strange spectacles")
+                      | DROP 46="Strange spectacles"
+                      | DESTROY 47="which I'm wearing"
+                      | MESSAGE 2="OK"
+Cmd 145 |    40    78 |    3  36   0   0   0   0   0   0   0   0 |   36  73  88  88 |
+           ligh  fuse | IF HERECARRY(36="Short fuse")
+                      | MESSAGE 36="Sizzle, it burns with a dul..."
+                      | CONTINUE_NEXT_LINE
+                      | SLEEP 2 SECONDS
+                      | SLEEP 2 SECONDS
+Cmd 146 |     0     0 |    0  36   0  69   0   0   0   0   0   0 |   59  37  59   0 |
+            continued | DESTROY 36="Short fuse"
+                      | MESSAGE 37="its out"
+                      | DESTROY 69="Match"
+Cmd 147 |    40    78 |    3  37   0   0   0   0   0   0   0   0 |   36  73  88 118 |
+           ligh  fuse | IF HERECARRY(37="Fuse is stuck in gum")
+                      | MESSAGE 36="Sizzle, it burns with a dul..."
+                      | CONTINUE_NEXT_LINE
+                      | SLEEP 2 SECONDS
+                      | MESSAGE 68="POP"
+Cmd 148 |     0     0 |    1  37   0   0   0   0   0   0   0   0 |   38  61   0   0 |
+            continued | IF CARRY(37="Fuse is stuck in gum")
+                      | MESSAGE 38="I was holding it!"
+                      | DEAD
+Cmd 149 |     0     0 |    7  35   2  50   0  60   0  43   0   0 |   72   0   0   0 |
+            continued | IF NOT ISROOM(35)
+                      | IF HERE(50="Gum is stuck to grate")
+                      | SWAP ITEMS 60="Broken grate" AND 43="Large grate welded over hole"
+Cmd 150 |     0     0 |    7  35   5  13   0  35   0   0   0   0 |   54  76 124   0 |
+            continued | IF NOT ISROOM(35)
+                      | IF NOT HERE(13="Closed flood door")
+                      | GOTO 35="Lot of TROUBLE!"
+                      | LOOK
+                      | MESSAGE 74="Guard hears explosion & sho..."
+Cmd 151 |     0     0 |    0  69   0  37   0  50   0  57   0   0 |   59  59  59  59 |
+            continued | DESTROY 69="Match"
+                      | DESTROY 37="Fuse is stuck in gum"
+                      | DESTROY 50="Gum is stuck to grate"
+                      | DESTROY 57="Soft chewing gum"
+Cmd 152 |    36    26 |    2  11   8   7   0   7   0   0   0   0 |   60   2 146   0 |
+           pres   red | IF HERE(11="Red knob in wall")
+                      | IF FLAG(7)=TRUE
+                      | SET FLAG(7)=FALSE
+                      | MESSAGE 2="OK"
+                      | MESSAGE 96="Click!"
+Cmd 153 |    36    21 |    2  73   9   6   0   6   0   0   0   0 |   58 146 127 128 |
+           pres  blue | IF HERE(73="Blue button")
+                      | IF FLAG(6)=FALSE
+                      | SET FLAG(6)=TRUE
+                      | MESSAGE 96="Click!"
+                      | MESSAGE 77="Ride"
+                      | MESSAGE 78="stops."
+Cmd 154 |    44    47 |    2  51   0   0   0   0   0   0   0   0 |  133 130   0   0 |
+           look  grat | IF HERE(51="Rusty closed grating")
+                      | MESSAGE 83="2"
+                      | MESSAGE 80="big bolts hold it down"
+Cmd 155 |    44    47 |    2  45   0   0   0   0   0   0   0   0 |  132 130   0   0 |
+           look  grat | IF HERE(45="Loose grate")
+                      | MESSAGE 82="1"
+                      | MESSAGE 80="big bolts hold it down"
+Cmd 156 |    71    47 |    2  45   0  26  14  26   0   0   0   0 |   53   2   0   0 |
+           move  grat | IF HERE(45="Loose grate")
+                      | IF NOWHERE(26="Dark manhole")
+                      | DROP 26="Dark manhole"
+                      | MESSAGE 2="OK"
+Cmd 157 |    71    47 |    2  45  13  26   0  26   0   0   0   0 |   59   2   0   0 |
+           move  grat | IF HERE(45="Loose grate")
+                      | IF SOMEWHERE(26="Dark manhole")
+                      | DESTROY 26="Dark manhole"
+                      | MESSAGE 2="OK"
+Cmd 158 |    38    81 |    3  19   2  51   0  51   0  45   0   0 |   72   2 131   0 |
+            use  wren | IF HERECARRY(19="Wrench")
+                      | IF HERE(51="Rusty closed grating")
+                      | SWAP ITEMS 51="Rusty closed grating" AND 45="Loose grate"
+                      | MESSAGE 2="OK"
+                      | MESSAGE 81="I can only remove 1 bolt!"
+Cmd 159 |    38    81 |    3  19   3  45   0   0   0   0   0   0 |  108 107   0   0 |
+            use  wren | IF HERECARRY(19="Wrench")
+                      | IF HERECARRY(45="Loose grate")
+                      | MESSAGE 58="I can't do that"
+                      | MESSAGE 57="Too hard"
+Cmd 160 |     1    51 |    2  63   0   0   0   0   0   0   0   0 |  108  50   0   0 | GO
+             go  wind | IF HERE(63="Window. Gun pointing into &...")
+                      | MESSAGE 58="I can't do that"
+                      | MESSAGE 50="Its too tight"
+Cmd 161 |    64    31 |    4   5   2  27   0   0   0   0   0   0 |    2  22   0   0 |
+           kiss  merm | IF ISROOM(5="windowed tank")
+                      | IF HERE(27="Mermaid")
+                      | MESSAGE 2="OK"
+                      | MESSAGE 22="Wheeee"
+Cmd 162 |     1    82 |    2  26   0  13   0   4   0   0   0   0 |    2  56  54  58 |
+             go  hole | IF HERE(26="Dark manhole")
+                      | MESSAGE 2="OK"
+                      | SET DARK=TRUE
+                      | GOTO 13="Manhole"
+                      | SET FLAG(4)=TRUE
+Cmd 163 |    10    80 |    0   0   0   0   0   0   0   0   0   0 |   26   0   0   0 |
+            get  bolt | MESSAGE 26="How?"
+Cmd 164 |    25    80 |    0   0   0   0   0   0   0   0   0   0 |   26   0   0   0 |
+           remo  bolt | MESSAGE 26="How?"
+Cmd 165 |    48     0 |    0  23   0   1   9   4   0   0   0   0 |   10  32  59  54 |
+           brea       | IF FLAG(4)=FALSE
+                      | MESSAGE 10="Bouncer throws me out"
+                      | MESSAGE 32="For Vandalism"
+                      | DESTROY 23="Ticket"
+                      | GOTO 1="in front of the FUN HOUSE"
+Cmd 166 |    35    48 |    0   0   0   0   0   0   0   0   0   0 |  112   0   0   0 |
+           pull  knob | MESSAGE 62="Say again & use a color"
+Cmd 167 |    36    48 |    0   0   0   0   0   0   0   0   0   0 |  112   0   0   0 |
+           pres  knob | MESSAGE 62="Say again & use a color"
+Cmd 168 |    36     0 |    0   0   0   0   0   0   0   0   0   0 |    2  27   0   0 |
+           pres       | MESSAGE 2="OK"
+                      | MESSAGE 27="Nothing happens"
+Cmd 169 |    27     0 |    0   0   0   0   0   0   0   0   0   0 |    2  27   0   0 |
+           touc       | MESSAGE 2="OK"
+                      | MESSAGE 27="Nothing happens"
+Cmd 170 |    48     0 |    8   4   0   0   0   0   0   0   0   0 |   26   0   0   0 |
+           brea       | IF FLAG(4)=TRUE
+                      | MESSAGE 26="How?"
+Cmd 171 |    35    26 |    2  11   0   7   9   7   0   0   0   0 |    2  58 146   0 |
+           pull   red | IF HERE(11="Red knob in wall")
+                      | IF FLAG(7)=FALSE
+                      | MESSAGE 2="OK"
+                      | SET FLAG(7)=TRUE
+                      | MESSAGE 96="Click!"
+Cmd 172 |    25     0 |    0   0   0   0   0   0   0   0   0   0 |  117   0   0   0 |
+           remo       | MESSAGE 67="I'm not wearing it"
+Cmd 173 |    83     0 |    0   0   0   0   0   0   0   0   0   0 |    7   0   0   0 |
+           find       | MESSAGE 7="Tell me where to look!"
+Cmd 174 |    34     0 |    0   0   0   0   0   0   0   0   0   0 |   66   0   0   0 |
+           inve       | INVENTORY
+Cmd 175 |    56     0 |    0   0   0   0   0   0   0   0   0   0 |    2 116  85  27 |
+            say       | MESSAGE 2="OK"
+                      | MESSAGE 66="I say:"
+                      | WRITELINE NOUN
+                      | MESSAGE 27="Nothing happens"
+Cmd 176 |    29    45 |    0   0   0   0   0   0   0   0   0   0 |   71   0   0   0 |
+           save  game | SAVEGAME
+Cmd 177 |    33     0 |    0   0   0   0   0   0   0   0   0   0 |   63   0   0   0 |
+           quit       | QUIT
+Cmd 178 |    10    44 |    0   0   0   0   0   0   0   0   0   0 |   66   0   0   0 |
+            get  inve | INVENTORY
+Cmd 179 |    74     0 |    0   0   0   0   0   0   0   0   0   0 |  108   0   0   0 |
+             on       | MESSAGE 58="I can't do that"
+Cmd 180 |    69     0 |    0   0   0   0   0   0   0   0   0   0 |   27   0   0   0 |
+           scor       | MESSAGE 27="Nothing happens"
+Cmd 181 |    44    86 |    4  22   0   1   0   0   0   0   0   0 |    2  53  76   0 |
+           look  ceil | IF ISROOM(22="on top of the ride")
+                      | MESSAGE 2="OK"
+                      | DROP 1="Rope hanging from ceiling"
+                      | LOOK
+Cmd 182 |    10    38 |    5  64   0   0   0   0   0   0   0   0 |   26   0   0   0 |
+            get  sign | IF NOT HERE(64="Sign")
+                      | MESSAGE 26="How?"
+Cmd 183 |    38     0 |    0   0   0   0   0   0   0   0   0   0 |  108 110   0   0 |
+            use       | MESSAGE 58="I can't do that"
+                      | MESSAGE 60="Doesn't work"
+Cmd 184 |    43     9 |    3   3   0   4   0   3   0   0   0   0 |    2  74  74   0 |
+           wear  shoe | IF HERECARRY(3="Shoes")
+                      | MESSAGE 2="OK"
+                      | TAKE_NOCHECK 4="which I'm wearing"
+                      | TAKE_NOCHECK 3="Shoes"
+Cmd 185 |    31     0 |    0   0   0   0   0   0   0   0   0   0 |   27   0   0   0 |
+           list       | MESSAGE 27="Nothing happens"
+Cmd 186 |    47    38 |    3  64   0   0   0   0   0   0   0   0 |   47  37  20   0 | .
+           read  sign | IF HERECARRY(64="Sign")
+                      | MESSAGE 47="it says"
+                      | MESSAGE 37="its out"
+                      | MESSAGE 20="of order"
+Cmd 187 |    35    26 |    2  48   0   0   0   0   0   0   0   0 |   27   0   0   0 |
+           pull   red | IF HERE(48="Fortune telling machine")
+                      | MESSAGE 27="Nothing happens"
+Cmd 188 |    10    38 |    2  64   0  64   0   0   0   0   0   0 |   52   2   0   0 |
+            get  sign | IF HERE(64="Sign")
+                      | TAKE 64="Sign"
+                      | MESSAGE 2="OK"
+Cmd 189 |    80    52 |    0   0   0   0   0   0   0   0   0   0 |   26   0   0   0 |
+           open  wall | MESSAGE 26="How?"
+Cmd 190 |     1    24 |    2  52   2  38   0   0   0   0   0   0 |  108   6   0   0 |
+             go  slid | IF HERE(52="Bottom of slide")
+                      | IF HERE(38="Open Drain")
+                      | MESSAGE 58="I can't do that"
+                      | MESSAGE 6="Too steep"
+Cmd 191 |    66     0 |    0   0   0   0   0   0   0   0   0   0 |    2   0   0   0 |
+           jump       | MESSAGE 2="OK"
+Cmd 192 |    80    11 |   14  70   4   2   0  70   1  47   0   0 |    2  53   0   0 |
+           open  door | IF NOWHERE(70="Open door in glass")
+                      | IF ISROOM(2="Magical Mirror Room")
+                      | IF CARRY(47="which I'm wearing")
+                      | MESSAGE 2="OK"
+                      | DROP 70="Open door in glass"
+Cmd 193 |    52    11 |    2  70   0  70   0   0   0   0   0   0 |   59   2   0   0 |
+           clos  door | IF HERE(70="Open door in glass")
+                      | DESTROY 70="Open door in glass"
+                      | MESSAGE 2="OK"
+Cmd 194 |     1    11 |    2  70   0  17   0   4   0   0   0   0 |    2  54  76  58 |
+             go  door | IF HERE(70="Open door in glass")
+                      | MESSAGE 2="OK"
+                      | GOTO 17="Observation chamber"
+                      | LOOK
+                      | SET FLAG(4)=TRUE
+Cmd 195 |    26     0 |    0   0   0   0   0   0   0   0   0   0 |    2  27   0   0 |
+           wave       | MESSAGE 2="OK"
+                      | MESSAGE 27="Nothing happens"
+Cmd 196 |    51     0 |    0   0   0   0   0   0   0   0   0   0 |  108 110   0   0 |
+           turn       | MESSAGE 58="I can't do that"
+                      | MESSAGE 60="Doesn't work"
+Cmd 197 |     1    56 |    2  33   0   0   0   0   0   0   0   0 |  102 144 108   0 |
+             go  pipe | IF HERE(33="Valve on a large warm pipe")
+                      | MESSAGE 52="Ouch"
+                      | MESSAGE 94="too hot"
+                      | MESSAGE 58="I can't do that"
+Cmd 198 |    85     0 |    4  11   0   0   0   0   0   0   0   0 |   26 137 126   0 |
+           stan       | IF ISROOM(11="large rolling barrel room")
+                      | MESSAGE 26="How?"
+                      | MESSAGE 87="I fell"
+                      | MESSAGE 76="flat on my face!"
+Cmd 199 |    62     0 |    2  27   3  28   0  59   0  52   0   0 |   72  19   0   0 |
+           comb       | IF HERE(27="Mermaid")
+                      | IF HERECARRY(28="Comb")
+                      | SWAP ITEMS 59="Bottom of stairs" AND 52="Bottom of slide"
+                      | MESSAGE 19="She thanks me & turns a hid..."
+Cmd 200 |     1    27 |    2  14   0  16   0   4   0   0   0   0 |   54  76  46  58 |
+             go  ladd | IF HERE(14="Ladder going down")
+                      | GOTO 16="Pit"
+                      | LOOK
+                      | MESSAGE 46="Fire ladder retracts and le..."
+                      | SET FLAG(4)=TRUE
+Cmd 201 |    64    85 |    4   1   0   0   0   0   0   0   0   0 |    2  22   0   0 |
+           kiss  lady | IF ISROOM(1="in front of the FUN HOUSE")
+                      | MESSAGE 2="OK"
+                      | MESSAGE 22="Wheeee"
+Cmd 202 |     1    36 |    2  41   0   7   0   0   0   0   0   0 |    2  54  76   0 |
+             go  hors | IF HERE(41="Wooden horse")
+                      | MESSAGE 2="OK"
+                      | GOTO 7="Merry-Go-Round on a wooden..."
+                      | LOOK
+Cmd 203 |    44    86 |    4  21   0   0   0   0   0   0   0   0 |  145   0   0   0 |
+           look  ceil | IF ISROOM(21="large room with tall ceiling")
+                      | MESSAGE 95="There's a catwalk above the..."
+Cmd 204 |    44     5 |    4  21   0   0   0   0   0   0   0   0 |  145   0   0   0 |
+           look    up | IF ISROOM(21="large room with tall ceiling")
+                      | MESSAGE 95="There's a catwalk above the..."
+Cmd 205 |    44     0 |    0   0   0   0   0   0   0   0   0   0 |   76  51   0   0 |
+           look       | LOOK
+                      | MESSAGE 51="I see nothing special."
+Cmd 206 |     1    82 |    2  42   2  60   0  34   0   0   0   0 |   54   2  76   0 |
+             go  hole | IF HERE(42="Dark hole")
+                      | IF HERE(60="Broken grate")
+                      | GOTO 34="long tunnel"
+                      | MESSAGE 2="OK"
+                      | LOOK
+Cmd 207 |    86     9 |    3   3   0   0   0   0   0   0   0   0 |    2   0   0   0 |
+            fix  shoe | IF HERECARRY(3="Shoes")
+                      | MESSAGE 2="OK"
+Cmd 208 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | Cmd 209 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+            continued | 
+// END OF FILE
