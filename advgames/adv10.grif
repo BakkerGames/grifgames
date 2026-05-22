@@ -6,6 +6,8 @@
 @drop(x)
 	@sendto($x,@room)
 @goto(x)
+	@debug("### Going to room $x")
+	\n
 	@set(value.room,$x)
 @here(x)
 	@eq(@get(item.$x.location),@room)
@@ -98,18 +100,12 @@ background.5
 		@set(value.flag.3,true)
 		@comment("continue")
 		@set(value.counter,250)
-		@set(temp.swap,@get(value.counter))
-		@set(value.counter,@get(value.counter.1))
-		@set(value.counter.1,@get(temp.swap))
+		@swap(value.counter,value.counter.1)
 		@comment("...continued into Cmd 6")
 		@set(value.counter,70)
-		@set(temp.swap,@get(value.counter))
-		@set(value.counter,@get(value.counter.2))
-		@set(value.counter.2,@get(temp.swap))
+		@swap(value.counter,value.counter.2)
 		@set(value.counter,300)
-		@set(temp.swap,@get(value.counter))
-		@set(value.counter,@get(value.counter.3))
-		@set(value.counter.3,@get(temp.swap))
+		@swap(value.counter,value.counter.3)
 		@comment("...continued into Cmd 7")
 		@set(value.counter,0)
 		@if @gt(value.counter,0) @then
@@ -118,9 +114,7 @@ background.5
 		@msg(message.33)
 		@comment("...continued into Cmd 8")
 		@goto(30)
-		@set(temp.swap,@get(value.room))
-		@set(value.room,@get(value.locationswap))
-		@set(value.locationswap,@get(temp.swap))
+		@swap(value.room,value.locationswap)
 		@goto(1)
 		@look
 	@endif
@@ -131,9 +125,7 @@ background.9
 	@endif
 background.10
 	@comment("night?")
-	@set(temp.swap,@get(value.counter))
-	@set(value.counter,@get(value.counter.1))
-	@set(value.counter.1,@get(temp.swap))
+	@swap(value.counter,value.counter.1)
 	@if @gt(value.counter,0) @then
 		@subto(value.counter,1)
 	@endif
@@ -150,12 +142,8 @@ background.10
 		@look
 	@endif
 	@comment("...continued into Cmd 13")
-	@set(temp.swap,@get(value.counter))
-	@set(value.counter,@get(value.counter.1))
-	@set(value.counter.1,@get(temp.swap))
-	@set(temp.swap,@get(value.counter))
-	@set(value.counter,@get(value.counter.3))
-	@set(value.counter.3,@get(temp.swap))
+	@swap(value.counter,value.counter.1)
+	@swap(value.counter,value.counter.3)
 	@if @gt(value.counter,0) @then
 		@subto(value.counter,1)
 	@endif
@@ -166,12 +154,8 @@ background.10
 		@set(value.flag.6,true)
 	@endif
 	@comment("...continued into Cmd 15")
-	@set(temp.swap,@get(value.counter))
-	@set(value.counter,@get(value.counter.3))
-	@set(value.counter.3,@get(temp.swap))
-	@set(temp.swap,@get(value.counter))
-	@set(value.counter,@get(value.counter.2))
-	@set(value.counter.2,@get(temp.swap))
+	@swap(value.counter,value.counter.3)
+	@swap(value.counter,value.counter.2)
 	@if @gt(value.counter,0) @then
 		@subto(value.counter,1)
 	@endif
@@ -200,9 +184,7 @@ background.10
 		@goto(34)
 	@endif
 	@comment("...continued into Cmd 20")
-	@set(temp.swap,@get(value.counter))
-	@set(value.counter,@get(value.counter.2))
-	@set(value.counter.2,@get(temp.swap))
+	@swap(value.counter,value.counter.2)
 background.21
 	@if @carry(25) @then
 		@comment("NO TREAD")
@@ -267,9 +249,7 @@ background.31
 background.32
 	@if @true(@get(value.flag.7)) @then
 		@comment("HOLD BREATHE")
-		@set(temp.swap,@get(value.counter))
-		@set(value.counter,@get(value.counter.4))
-		@set(value.counter.4,@get(temp.swap))
+		@swap(value.counter,value.counter.4)
 		@if @gt(value.counter,0) @then
 			@subto(value.counter,1)
 		@endif
@@ -284,9 +264,7 @@ background.32
 			@msg(message.41)
 		@endif
 		@comment("...continued into Cmd 35")
-		@set(temp.swap,@get(value.counter))
-		@set(value.counter,@get(value.counter.4))
-		@set(value.counter.4,@get(temp.swap))
+		@swap(value.counter,value.counter.4)
 		@comment("...continued into Cmd 36")
 	@endif
 background.37
@@ -339,9 +317,7 @@ background.41
 background.44
 	@if @true(@get(value.flag.10)) @then
 		@comment("RAFT LASTING")
-		@set(temp.swap,@get(value.counter))
-		@set(value.counter,@get(value.counter.5))
-		@set(value.counter.5,@get(temp.swap))
+		@swap(value.counter,value.counter.5)
 		@if @gt(value.counter,0) @then
 			@subto(value.counter,1)
 		@endif
@@ -359,9 +335,7 @@ background.44
 			@goto(34)
 		@endif
 		@comment("...continued into Cmd 47")
-		@set(temp.swap,@get(value.counter))
-		@set(value.counter,@get(value.counter.5))
-		@set(value.counter.5,@get(temp.swap))
+		@swap(value.counter,value.counter.5)
 	@endif
 background.48
 	@if @rand(30) @and @here(20) @and @false(@get(value.flag.5)) @then
@@ -558,9 +532,7 @@ background.79
 background.80
 	@if @somewhere(9) @then
 		@comment("BLOCK GLOWS")
-		@set(temp.swap,@get(value.counter))
-		@set(value.counter,@get(value.counter.7))
-		@set(value.counter.7,@get(temp.swap))
+		@swap(value.counter,value.counter.7)
 		@if @gt(value.counter,0) @then
 			@subto(value.counter,1)
 		@endif
@@ -572,9 +544,7 @@ background.80
 			@look
 		@endif
 		@comment("...continued into Cmd 82")
-		@set(temp.swap,@get(value.counter))
-		@set(value.counter,@get(value.counter.7))
-		@set(value.counter.7,@get(temp.swap))
+		@swap(value.counter,value.counter.7)
 	@endif
 background.83
 	@if @nowhere(29) @and @true(@get(value.flag.19)) @and @nowhere(25) @then
@@ -888,22 +858,16 @@ command.1.72
 command.1.75
 	@comment("Cmd 229 - go forc")
 	@if @here(51) @then
-		@set(temp.swap,@get(value.room))
-		@set(value.room,@get(value.locationswap))
-		@set(value.locationswap,@get(temp.swap))
+		@swap(value.room,value.locationswap)
 		@drop(51)
 		@comment("continue")
 		@msg(message.1)
 		@comment("...continued into Cmd 230")
 		@if @carry(26) @then
 			@take(9)
-			@set(temp.swap,@get(value.counter))
-			@set(value.counter,@get(value.counter.7))
-			@set(value.counter.7,@get(temp.swap))
+			@swap(value.counter,value.counter.7)
 			@set(value.counter,85)
-			@set(temp.swap,@get(value.counter))
-			@set(value.counter,@get(value.counter.7))
-			@set(value.counter.7,@get(temp.swap))
+			@swap(value.counter,value.counter.7)
 		@endif
 	@endif
 command.10.*
@@ -945,15 +909,11 @@ command.10.31
 	@if @not @isroom(13) @then
 		@msg(message.1)
 		@set(value.flag.7,true)
-		@set(temp.swap,@get(value.counter))
-		@set(value.counter,@get(value.counter.4))
-		@set(value.counter.4,@get(temp.swap))
+		@swap(value.counter,value.counter.4)
 		@comment("continue")
 		@comment("...continued into Cmd 109")
 		@set(value.counter,7)
-		@set(temp.swap,@get(value.counter))
-		@set(value.counter,@get(value.counter.4))
-		@set(value.counter.4,@get(temp.swap))
+		@swap(value.counter,value.counter.4)
 	@endif
 command.10.33
 	@comment("Cmd 112 - get out")
@@ -1054,23 +1014,17 @@ command.25.54
 		@msg(message.1)
 		@msg(message.86)
 		@comment("continue")
-		@set(temp.swap,@get(value.room))
-		@set(value.room,@get(value.locationswap))
-		@set(value.locationswap,@get(temp.swap))
+		@swap(value.room,value.locationswap)
 		@comment("...continued into Cmd 236")
 		@if @isroom(30) @then
 			@goto(31)
-			@set(temp.swap,@get(value.room))
-			@set(value.room,@get(value.locationswap))
-			@set(value.locationswap,@get(temp.swap))
+			@swap(value.room,value.locationswap)
 			@look
 		@endif
 		@comment("...continued into Cmd 237")
 		@if @isroom(31) @then
 			@goto(30)
-			@set(temp.swap,@get(value.room))
-			@set(value.room,@get(value.locationswap))
-			@set(value.locationswap,@get(temp.swap))
+			@swap(value.room,value.locationswap)
 			@look
 		@endif
 	@endif
@@ -1445,18 +1399,14 @@ command.49.36
 			@set(value.flag.11,true)
 		@endif
 		@comment("...continued into Cmd 125")
-		@set(temp.swap,@get(value.counter))
-		@set(value.counter,@get(value.counter.5))
-		@set(value.counter.5,@get(temp.swap))
+		@swap(value.counter,value.counter.5)
 		@set(value.counter,25)
-		@set(temp.swap,@get(value.counter))
-		@set(value.counter,@get(value.counter.5))
-		@set(value.counter.5,@get(temp.swap))
+		@swap(value.counter,value.counter.5)
 	@endif
 command.51
 	@comment("Cmd 192 - with")
 	@set(value.flag.20,false)
-	@write(@get(temp.noun))
+	@write(@get(input.noun))
 	@msg(message.37)
 	@set(value.flag.27,false)
 command.51.20
@@ -1538,30 +1488,18 @@ command.54.58
 	@endif
 command.57
 	@comment("Cmd 128 - wait")
-	@set(temp.swap,@get(value.counter))
-	@set(value.counter,@get(value.counter.1))
-	@set(value.counter.1,@get(temp.swap))
+	@swap(value.counter,value.counter.1)
 	@subto(value.counter,50)
-	@set(temp.swap,@get(value.counter))
-	@set(value.counter,@get(value.counter.1))
-	@set(value.counter.1,@get(temp.swap))
+	@swap(value.counter,value.counter.1)
 	@comment("continue")
 	@comment("...continued into Cmd 129")
-	@set(temp.swap,@get(value.counter))
-	@set(value.counter,@get(value.counter.3))
-	@set(value.counter.3,@get(temp.swap))
+	@swap(value.counter,value.counter.3)
 	@subto(value.counter,50)
-	@set(temp.swap,@get(value.counter))
-	@set(value.counter,@get(value.counter.3))
-	@set(value.counter.3,@get(temp.swap))
-	@set(temp.swap,@get(value.counter))
-	@set(value.counter,@get(value.counter.2))
-	@set(value.counter.2,@get(temp.swap))
+	@swap(value.counter,value.counter.3)
+	@swap(value.counter,value.counter.2)
 	@comment("...continued into Cmd 130")
 	@subto(value.counter,50)
-	@set(temp.swap,@get(value.counter))
-	@set(value.counter,@get(value.counter.2))
-	@set(value.counter.2,@get(temp.swap))
+	@swap(value.counter,value.counter.2)
 	@addto(value.counter,50)
 command.58
 	@comment("Cmd 194 - dig")
@@ -1590,15 +1528,11 @@ command.63
 	@comment("Cmd 148 - slee")
 	@if @isroom(18) @then
 		@set(value.flag.2,false)
-		@set(temp.swap,@get(value.counter))
-		@set(value.counter,@get(value.counter.1))
-		@set(value.counter.1,@get(temp.swap))
+		@swap(value.counter,value.counter.1)
 		@set(value.counter,170)
 		@comment("continue")
 		@comment("...continued into Cmd 149")
-		@set(temp.swap,@get(value.counter))
-		@set(value.counter,@get(value.counter.1))
-		@set(value.counter.1,@get(temp.swap))
+		@swap(value.counter,value.counter.1)
 		@sleep(2000)
 		@sleep(2000)
 		@sleep(2000)
@@ -1628,7 +1562,7 @@ command.66
 	@comment("Cmd 199 - yell")
 	@if @here(20) @then
 		@msg(message.1)
-		@write(@get(temp.noun))
+		@write(@get(input.noun))
 		@nl
 		@msg(message.15)
 		@set(value.flag.dark,false)
@@ -1676,20 +1610,20 @@ command.72
 	@comment("Cmd 175 - ask")
 	@if @here(44) @then
 		@msg(message.1)
-		@write(@get(temp.noun))
+		@write(@get(input.noun))
 		@nl
 		@msg(message.68)
 		@msg(message.45)
 		@comment("...continued into Cmd 198")
 	@else
 		@msg(message.1)
-		@write(@get(temp.noun))
+		@write(@get(input.noun))
 		@nl
 	@endif
 command.72.51
 	@comment("Cmd 126 - ask free")
 	@if @here(52) @and @false(@get(value.flag.22)) @then
-		@write(@get(temp.noun))
+		@write(@get(input.noun))
 		@nl
 		@msg(message.82)
 		@msg(message.84)
@@ -1717,15 +1651,11 @@ command.79
 		@sendto(35,0)
 		@sendto(36,0)
 		@comment("...continued into Cmd 140")
-		@set(temp.swap,@get(value.counter))
-		@set(value.counter,@get(value.counter.5))
-		@set(value.counter.5,@get(temp.swap))
+		@swap(value.counter,value.counter.5)
 		@if @gt(value.counter,0) @then
 			@subto(value.counter,1)
 		@endif
-		@set(temp.swap,@get(value.counter))
-		@set(value.counter,@get(value.counter.5))
-		@set(value.counter.5,@get(temp.swap))
+		@swap(value.counter,value.counter.5)
 		@comment("...continued into Cmd 141")
 	@else
 		@msg(message.36)

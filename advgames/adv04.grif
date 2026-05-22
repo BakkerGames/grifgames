@@ -6,6 +6,8 @@
 @drop(x)
 	@sendto($x,@room)
 @goto(x)
+	@debug("### Going to room $x")
+	\n
 	@set(value.room,$x)
 @here(x)
 	@eq(@get(item.$x.location),@room)
@@ -1023,14 +1025,14 @@ command.63
 command.64
 	@comment("Cmd 155 - yel")
 	@msg(message.20)
-	@write(@get(temp.noun))
+	@write(@get(input.noun))
 	@nl
 	@msg(message.6)
 command.64.23
 	@comment("Cmd 74 - yel med")
 	@if @nowhere(23) @and @isroom(6) @then
 		@msg(message.20)
-		@write(@get(temp.noun))
+		@write(@get(input.noun))
 		@nl
 		@drop(23)
 		@msg(message.96)
@@ -1054,7 +1056,7 @@ command.64.65
 		@sendto(53,0)
 		@drop(29)
 		@comment("continue")
-		@write(@get(temp.noun))
+		@write(@get(input.noun))
 		@nl
 		@comment("...continued into Cmd 80")
 		@msg(message.68)

@@ -6,6 +6,8 @@
 @drop(x)
 	@sendto($x,@room)
 @goto(x)
+	@debug("### Going to room $x")
+	\n
 	@set(value.room,$x)
 @here(x)
 	@eq(@get(item.$x.location),@room)
@@ -473,7 +475,7 @@ command.1.68
 command.8
 	@comment("Cmd 146 - say")
 	@msg(message.64)
-	@write(@get(temp.noun))
+	@write(@get(input.noun))
 	@nl
 	@msg(message.3)
 command.8.23

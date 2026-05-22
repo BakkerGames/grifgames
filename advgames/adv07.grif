@@ -6,6 +6,8 @@
 @drop(x)
 	@sendto($x,@room)
 @goto(x)
+	@debug("### Going to room $x")
+	\n
 	@set(value.room,$x)
 @here(x)
 	@eq(@get(item.$x.location),@room)
@@ -359,9 +361,7 @@ command.1.15
 	@comment("Cmd 43 - go tram")
 	@if @here(18) @then
 		@msg(message.2)
-		@set(temp.swap,@get(value.room))
-		@set(value.room,@get(value.locationswap))
-		@set(value.locationswap,@get(temp.swap))
+		@swap(value.room,value.locationswap)
 		@goto(27)
 		@look
 	@endif
@@ -494,9 +494,7 @@ command.10.6
 	@comment("Cmd 49 - get down")
 	@if @isroom(27) @then
 		@msg(message.2)
-		@set(temp.swap,@get(value.room))
-		@set(value.room,@get(value.locationswap))
-		@set(value.locationswap,@get(temp.swap))
+		@swap(value.room,value.locationswap)
 		@look
 	@endif
 command.10.8
@@ -568,9 +566,7 @@ command.10.67
 	@comment("Cmd 45 - get off")
 	@if @isroom(27) @then
 		@msg(message.2)
-		@set(temp.swap,@get(value.room))
-		@set(value.room,@get(value.locationswap))
-		@set(value.locationswap,@get(temp.swap))
+		@swap(value.room,value.locationswap)
 		@look
 	@endif
 command.10.80
@@ -1074,14 +1070,14 @@ command.56
 	@comment("Cmd 175 - say")
 	@msg(message.2)
 	@msg(message.66)
-	@write(@get(temp.noun))
+	@write(@get(input.noun))
 	@nl
 	@msg(message.27)
 command.56.35
 	@comment("Cmd 89 - say tick")
 	@if @isroom(1) @then
 		@msg(message.2)
-		@write(@get(temp.noun))
+		@write(@get(input.noun))
 		@nl
 		@msg(message.53)
 	@endif
@@ -1135,9 +1131,7 @@ command.66
 	@elseif @isroom(27) @then
 		@msg(message.22)
 		@comment("continue")
-		@set(temp.swap,@get(value.room))
-		@set(value.room,@get(value.locationswap))
-		@set(value.locationswap,@get(temp.swap))
+		@swap(value.room,value.locationswap)
 		@comment("...continued into Cmd 137")
 		@if @isroom(16) @then
 			@goto(15)
@@ -1146,9 +1140,7 @@ command.66
 		@endif
 		@comment("...continued into Cmd 138")
 		@if @not @isroom(15) @and @not @isroom(35) @then
-			@set(temp.swap,@get(value.room))
-			@set(value.room,@get(value.locationswap))
-			@set(value.locationswap,@get(temp.swap))
+			@swap(value.room,value.locationswap)
 		@endif
 		@comment("...continued into Cmd 191")
 	@else
