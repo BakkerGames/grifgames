@@ -959,7 +959,7 @@ Cmd  87 |    50    30 |    4  20   2  12  13  52   9   4   0   0 |  115   0   0 
                       | IF FLAG(4)=FALSE
                       | MESSAGE 65="Pirate says: `Aye me Bucker..."
 Cmd  88 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd  89 |    39    18 |    3   5   0  10   9   3   0   3   0   0 |   30  53  58   0 | FLAG 3 EMPTY BAG
+Cmd  89 |    39    18 |    3   5   0  10   9   3   0   3   0   0 |   30  53  58   0 | FLAG 3 EMPTY BAG
             ope   bag | IF HERECARRY(5="Pirate's duffel bag")
                       | IF FLAG(3)=FALSE
                       | MESSAGE 30="Something falls out"

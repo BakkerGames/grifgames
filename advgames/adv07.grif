@@ -7,7 +7,6 @@
 	@sendto($x,@room)
 @goto(x)
 	@debug("### Going to room $x")
-	\n
 	@set(value.room,$x)
 @here(x)
 	@eq(@get(item.$x.location),@room)
@@ -82,14 +81,14 @@ background.0
 		@script(script.inventory)
 	@endif
 background.1
-	@if @ge(value.counter,0) @then
+	@if @ge(@get(value.counter),0) @then
 		@comment("DECREMENT COUNTER")
-		@if @gt(value.counter,0) @then
+		@if @gt(@get(value.counter),0) @then
 			@subto(value.counter,1)
 		@endif
 	@endif
 background.2
-	@if @le(value.counter,40) @then
+	@if @le(@get(value.counter),40) @then
 		@comment("PARK IS CLOSING")
 		@msg(message.16)
 		@get(value.counter)
@@ -139,7 +138,7 @@ background.10
 		@goto(35)
 	@endif
 background.11
-	@if @le(value.counter,0) @and @false(@get(value.flag.4)) @then
+	@if @le(@get(value.counter),0) @and @false(@get(value.flag.4)) @then
 		@comment("CLOSE PARK")
 		@msg(message.10)
 		@goto(1)

@@ -564,8 +564,8 @@ Cmd   2 |     0   100 |    7   9  13  19   0  10   0  19   0   0 |   72   0   0 
                       | IF SOMEWHERE(19="Closed Window")
                       | SWAP ITEMS 10="Open Window" AND 19="Closed Window"
 Cmd   3 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd   4 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd   5 |     0    45 |    4  19  14  14   0   0   0   0   0   0 |   28   0   0   0 |
+Cmd   4 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+Cmd   5 |     0    45 |    4  19  14  14   0   0   0   0   0   0 |   28   0   0   0 |
                   45% | IF ISROOM(19="Graveyard")
                       | IF NOWHERE(14="Four leaf clover")
                       | MESSAGE 28="A beam of light shines on g..."
@@ -584,7 +584,7 @@ Cmd   8 |     0    30 |    3  36   1   7   0   0   0   0   0   0 |   14   0   0 
                       | IF CARRY(7="Shield")
                       | MESSAGE 14="One of the test tubes EXPLO..."
 Cmd   9 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd  10 |     0   100 |    4  15   8  15   0   0   0   0   0   0 |   57  76   0   0 |
+Cmd  10 |     0   100 |    4  15   8  15   0   0   0   0   0   0 |   57  76   0   0 |
                  100% | IF ISROOM(15="large fireplace")
                       | IF FLAG(15)=TRUE
                       | SET DARK=FALSE
@@ -600,7 +600,7 @@ Cmd  12 |     0   100 |    4   3   8  15   0   0   0   0   0   0 |   57  76   0 
                       | SET DARK=FALSE
                       | LOOK
 Cmd  13 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd  14 |     0   100 |    4  18  13  35   0   0   0   0   0   0 |  104   0   0   0 |
+Cmd  14 |     0   100 |    4  18  13  35   0   0   0   0   0   0 |  104   0   0   0 |
                  100% | IF ISROOM(18="narrow part of the chimney")
                       | IF SOMEWHERE(35="Stuck Chimney Sweep")
                       | MESSAGE 54="I hear strange sounds, as i..."
@@ -628,8 +628,8 @@ Cmd  20 |     0    35 |    3  29   0   0   0   0   0   0   0   0 |  141   0   0 
                   35% | IF HERECARRY(29="Ju-Ju man")
                       | MESSAGE 91="I hear someone mumbling."
 Cmd  21 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd  22 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd  23 |    10    52 |    2  35   0   0   0   0   0   0   0   0 |  111   0   0   0 |
+Cmd  22 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+Cmd  23 |    10    52 |    2  35   0   0   0   0   0   0   0   0 |  111   0   0   0 |
             get   swe | IF HERE(35="Stuck Chimney Sweep")
                       | MESSAGE 61="won't budge!"
 Cmd  24 |    10    20 |    3  59   0  59   0   0   0   0   0   0 |   20  52   0   0 |
@@ -737,7 +737,7 @@ Cmd  45 |    42    22 |    4   6   2  18   0   4   0   0   0   0 |   10  54  76 
                       | LOOK
                       | MESSAGE 3="Spirit vibrations drive me..."
 Cmd  46 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd  47 |     1    34 |    2  20   0  15   0   0   0   0   0   0 |   54  76   0   0 |
+Cmd  47 |     1    34 |    2  20   0  15   0   0   0   0   0   0 |   54  76   0   0 |
              go   fir | IF HERE(20="Large fireplace")
                       | GOTO 15="large fireplace"
                       | LOOK

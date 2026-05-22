@@ -777,7 +777,7 @@ Cmd  29 |     0     1 |    2  27   6  28   0   0   0   0   0   0 |   23  61   0 
                       | MESSAGE 23="What! The nomad jumped me w..."
                       | DEAD
 Cmd  30 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd  31 |    30    27 |    4  15   0   0   0   0   0   0   0   0 |  131 113   0   0 |
+Cmd  31 |    30    27 |    4  15   0   0   0   0   0   0   0   0 |  131 113   0   0 |
             loo   hie | IF ISROOM(15="hieroglyphics room")
                       | MESSAGE 81="OK"
                       | MESSAGE 63="Strange markings are present."
@@ -798,7 +798,7 @@ Cmd  35 |    30    46 |    3   1   0   0   0   0   0   0   0   0 |  131 113   0 
                       | MESSAGE 81="OK"
                       | MESSAGE 63="Strange markings are present."
 Cmd  36 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd  37 |    51     0 |    4  24   0   0   0   0   0   0   0   0 |  131  44   0   0 |
+Cmd  37 |    51     0 |    4  24   0   0   0   0   0   0   0   0 |  131  44   0   0 |
             swi       | IF ISROOM(24="Pool of water")
                       | MESSAGE 81="OK"
                       | MESSAGE 44="That feels good."

@@ -7,7 +7,6 @@
 	@sendto($x,@room)
 @goto(x)
 	@debug("### Going to room $x")
-	\n
 	@set(value.room,$x)
 @here(x)
 	@eq(@get(item.$x.location),@room)
@@ -106,7 +105,7 @@ background.4
 		@set(value.counter,4)
 	@endif
 background.5
-	@if @true(@get(value.flag.12)) @and @carry(28) @and @ge(value.counter,1) @then
+	@if @true(@get(value.flag.12)) @and @carry(28) @and @ge(@get(value.counter),1) @then
 		@comment("PISTOL")
 		@msg(message.26)
 		@get(value.counter)
@@ -866,7 +865,7 @@ command.24
 		@comment("SHOOT")
 		@msg(message.2)
 		@comment("...continued into Cmd 77")
-	@elseif @eq(value.counter,0) @then
+	@elseif @eq(@get(value.counter),0) @then
 		@msg(message.28)
 		@comment("...continued into Cmd 201")
 	@else

@@ -7,7 +7,6 @@
 	@sendto($x,@room)
 @goto(x)
 	@debug("### Going to room $x")
-	\n
 	@set(value.room,$x)
 @here(x)
 	@eq(@get(item.$x.location),@room)
@@ -115,16 +114,16 @@ background.7
 	@addto(value.counter,1)
 	@swap(value.counter,value.counter.7)
 	@comment("continue")
-	@if @gt(value.counter,0) @then
+	@if @gt(@get(value.counter),0) @then
 		@subto(value.counter,1)
 	@endif
 	@comment("...continued into Cmd 8")
-	@if @le(value.counter,25) @and @false(@get(value.flag.15)) @and @ge(value.counter,0) @then
+	@if @le(@get(value.counter),25) @and @false(@get(value.flag.15)) @and @ge(@get(value.counter),0) @then
 		@msg(message.54)
 		@msg(message.70)
 	@endif
 	@comment("...continued into Cmd 9")
-	@if @le(value.counter,0) @and @false(@get(value.flag.17)) @then
+	@if @le(@get(value.counter),0) @and @false(@get(value.flag.17)) @then
 		@msg(message.55)
 		@set(value.flag.dark,true)
 		@look
@@ -133,7 +132,7 @@ background.7
 	@comment("...continued into Cmd 10")
 	@swap(value.counter,value.counter.7)
 	@swap(value.counter,value.counter.3)
-	@if @gt(value.counter,0) @then
+	@if @gt(@get(value.counter),0) @then
 		@subto(value.counter,1)
 	@endif
 	@swap(value.counter,value.counter.3)
@@ -151,7 +150,7 @@ background.13
 		@sendto(70,11)
 	@endif
 background.14
-	@if @rand(20) @and @ge(value.counter,225) @then
+	@if @rand(20) @and @ge(@get(value.counter),225) @then
 		@set(value.flag.6,true)
 	@endif
 background.16
@@ -159,13 +158,13 @@ background.16
 		@swap(value.counter,value.counter.3)
 		@comment("continue")
 		@comment("...continued into Cmd 17")
-		@if @le(value.counter,0) @then
+		@if @le(@get(value.counter),0) @then
 			@msg(message.28)
 			@msg(message.29)
 			@sendto(23,11)
 		@endif
 		@comment("...continued into Cmd 18")
-		@if @le(value.counter,0) @then
+		@if @le(@get(value.counter),0) @then
 			@set(value.counter,30)
 			@swap(value.counter,value.counter.4)
 			@set(value.counter,10)
@@ -181,12 +180,12 @@ background.20
 background.21
 	@if @somewhere(23) @then
 		@swap(value.counter,value.counter.4)
-		@if @gt(value.counter,0) @then
+		@if @gt(@get(value.counter),0) @then
 			@subto(value.counter,1)
 		@endif
 		@comment("continue")
 		@comment("...continued into Cmd 22")
-		@if @le(value.counter,0) @then
+		@if @le(@get(value.counter),0) @then
 			@sendto(23,0)
 		@endif
 		@comment("...continued into Cmd 23")
@@ -201,12 +200,12 @@ background.25
 	@if @true(@get(value.flag.18)) @then
 		@set(value.flag.18,false)
 		@swap(value.counter,value.counter.6)
-		@if @gt(value.counter,0) @then
+		@if @gt(@get(value.counter),0) @then
 			@subto(value.counter,1)
 		@endif
 		@comment("continue")
 		@comment("...continued into Cmd 26")
-		@if @le(value.counter,0) @then
+		@if @le(@get(value.counter),0) @then
 			@swap(item.14.location,item.42.location)
 		@endif
 		@comment("...continued into Cmd 27")
@@ -736,7 +735,7 @@ command.33.117
 		@goto(30)
 		@comment("continue")
 		@comment("...continued into Cmd 66")
-		@if @le(value.counter,100) @then
+		@if @le(@get(value.counter),100) @then
 			@look
 			@set(value.flag.3,true)
 		@endif
@@ -779,7 +778,7 @@ command.38.44
 		@msg(message.10)
 		@comment("continue")
 		@comment("...continued into Cmd 116")
-		@if @le(value.counter,80) @then
+		@if @le(@get(value.counter),80) @then
 			@set(value.flag.3,true)
 		@endif
 	@endif
@@ -794,7 +793,7 @@ command.40
 		@sendto(11,0)
 		@drop(12)
 		@comment("...continued into Cmd 59")
-		@if @le(value.counter,80) @then
+		@if @le(@get(value.counter),80) @then
 			@set(value.flag.3,true)
 		@endif
 		@comment("...continued into Cmd 232")
@@ -997,7 +996,7 @@ command.58.23
 		@set(value.flag.11,true)
 		@msg(message.59)
 		@comment("...continued into Cmd 78")
-		@if @le(value.counter,30) @then
+		@if @le(@get(value.counter),30) @then
 			@set(value.flag.2,true)
 		@endif
 	@endif
@@ -1233,7 +1232,7 @@ command.90.41
 		@swap(item.51.location,item.52.location)
 		@comment("continue")
 		@comment("...continued into Cmd 147")
-		@if @le(value.counter,30) @then
+		@if @le(@get(value.counter),30) @then
 			@set(value.flag.3,true)
 		@endif
 	@endif

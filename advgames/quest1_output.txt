@@ -634,8 +634,8 @@ AdventureNumber = 2
 MagicNumber     = 703
 
 Cmd   0 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 | .
-            continued | Cmd   1 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd   2 |     0   100 |    9   2   0   2   0   0   0   0   0   0 |   58  79  73   0 | INTRO
+Cmd   1 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+Cmd   2 |     0   100 |    9   2   0   2   0   0   0   0   0   0 |   58  79  73   0 | INTRO
                  100% | IF FLAG(2)=FALSE
                       | SET FLAG(2)=TRUE
                       | SET COUNTER=0
@@ -676,7 +676,7 @@ Cmd   9 |     0   100 |    4  15   8   4   0   3   0   4   0   0 |   60  60   0 
                       | SET FLAG(3)=FALSE
                       | SET FLAG(4)=FALSE
 Cmd  10 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd  11 |     0   100 |    8   7   0   1   0   0   0   0   0   0 |   74  18  10  73 | INTO HULK
+Cmd  11 |     0   100 |    8   7   0   1   0   0   0   0   0   0 |   74  18  10  73 | INTO HULK
                  100% | IF FLAG(7)=TRUE
                       | TAKE_NOCHECK 1="Rage"
                       | MESSAGE 18="I'm"
@@ -774,7 +774,7 @@ Cmd  31 |     0   100 |   14  20   4   7   0  20   0   0   0   0 |   53  76  32 
                       | MESSAGE 32=""
                       | MESSAGE 37="swarm from holes"
 Cmd  32 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd  33 |     0   100 |    4  14   0  26   1   1   9  21  14  26 |   53  76   2  73 | STRANGE
+Cmd  33 |     0   100 |    4  14   0  26   1   1   9  21  14  26 |   53  76   2  73 | STRANGE
                  100% | IF ISROOM(14="dome")
                       | IF CARRY(1="Rage")
                       | IF FLAG(21)=FALSE
@@ -901,9 +901,9 @@ Cmd  57 |     0     0 |   15   1   0   0   0   0   0   0   0   0 |  133  61   0 
 Cmd  58 |     0     0 |    0   4   0   0   0   0   0   0   0   0 |   81   0   0   0 |
             continued | SWAP COUNTER WITH COUNTER(4)
 Cmd  59 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd  60 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd  61 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd  62 |     0   100 |    1   1   9   4   5  28   0   0   0   0 |   77  19  73   0 | GAS
+Cmd  60 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+Cmd  61 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+Cmd  62 |     0   100 |    1   1   9   4   5  28   0   0   0   0 |   77  19  73   0 | GAS
                  100% | IF CARRY(1="Rage")
                       | IF FLAG(4)=FALSE
                       | IF NOT HERE(28="Plugged gas outlet")
@@ -944,7 +944,7 @@ Cmd  69 |     0     0 |    0  20   0  46   0   0   0   0   0   0 |   59  53  76 
                       | DROP 46="*Gem"
                       | LOOK
 Cmd  70 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd  71 |    39    54 |    2  53   0   0   0   0   0   0   0   0 |  147 149   0   0 |
+Cmd  71 |    39    54 |    2  53   0   0   0   0   0   0   0   0 |  147 149   0   0 |
            look  sign | IF HERE(53="Sign")
                       | MESSAGE 97="This computer model has bee..."
                       | MESSAGE 99="To prove you can supply the..."
@@ -1123,7 +1123,7 @@ Cmd 105 |     0     0 |   16   2   0   0   0   0   0   0   0   0 |   15   0   0 
 Cmd 106 |     0     0 |    0  81   0   0   0   0   0   0   0   0 |   16   0   0   0 | MAD ******
             continued | MESSAGE 16="mad."
 Cmd 107 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd 108 |    70    46 |    4   1   0   7   0   8   0   6   0   0 |   20  58  58  60 |
+Cmd 108 |    70    46 |    4   1   0   7   0   8   0   6   0   0 |   20  58  58  60 |
            bite  tong | IF ISROOM(1="Bruce Banner, tied hand & f...")
                       | MESSAGE 20="Ouch! I scream!"
                       | SET FLAG(7)=TRUE
@@ -1155,7 +1155,7 @@ Cmd 112 |    76     0 |    4   1   0   7   0   8   0   0   0   0 |    7  26  58 
                       | SET FLAG(7)=TRUE
                       | SET FLAG(8)=TRUE
 Cmd 113 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd 114 |    51    12 |    6   1   0   7   0   6   0   0   0   0 |   20  58  60   0 |
+Cmd 114 |    51    12 |    6   1   0   7   0   6   0   0   0   0 |   20  58  60   0 |
             hit    me | IF NOT CARRY(1="Rage")
                       | MESSAGE 20="Ouch! I scream!"
                       | SET FLAG(7)=TRUE
@@ -1680,7 +1680,7 @@ Cmd 214 |   127    83 |    2  33   1   1   0  33   0   0   0   0 |   59   6  30 
                       | MESSAGE 30="it's"
                       | MESSAGE 14="crushed!"
 Cmd 215 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd 216 |    80     5 |    0   0   0   0   0   0   0   0   0   0 |    1   3   4  23 |
+Cmd 216 |    80     5 |    0   0   0   0   0   0   0   0   0   0 |    1   3   4  23 |
            jump    up | MESSAGE 1="O.K."
                       | MESSAGE 3="Nothing"
                       | MESSAGE 4="special"
@@ -1715,8 +1715,8 @@ Cmd 222 |    50     0 |    9  15   7   1   0   0   0   0   0   0 |    1  66   0 
                       | MESSAGE 1="O.K."
                       | INVENTORY
 Cmd 223 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd 224 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd 225 |    90     0 |    0   0   0   0   0   0   0   0   0   0 |    6   9   0   0 |
+Cmd 224 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+Cmd 225 |    90     0 |    0   0   0   0   0   0   0   0   0   0 |    6   9   0   0 |
             use       | MESSAGE 6="Sorry,"
                       | MESSAGE 9="How?"
 Cmd 226 |    25     0 |    0   0   0   0   0   0   0   0   0   0 |    6   9   0   0 |
@@ -1755,7 +1755,7 @@ Cmd 234 |    29     0 |    0   0   0   0   0   0   0   0   0   0 |    6  41  39 
                       | MESSAGE 41="Say again but tell me"
                       | MESSAGE 39="With what?"
 Cmd 235 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd 236 |    51     0 |    1   1   0   0   0   0   0   0   0   0 |    6  10 107   0 |
+Cmd 236 |    51     0 |    1   1   0   0   0   0   0   0   0   0 |    6  10 107   0 |
             hit       | IF CARRY(1="Rage")
                       | MESSAGE 6="Sorry,"
                       | MESSAGE 10="The Incredible Hulk (Tm)"

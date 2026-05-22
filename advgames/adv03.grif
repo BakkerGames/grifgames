@@ -7,7 +7,6 @@
 	@sendto($x,@room)
 @goto(x)
 	@debug("### Going to room $x")
-	\n
 	@set(value.room,$x)
 @here(x)
 	@eq(@get(item.$x.location),@room)
@@ -93,7 +92,7 @@ background.2
 	@endif
 background.3
 	@comment("DEC COUNTER")
-	@if @gt(value.counter,0) @then
+	@if @gt(@get(value.counter),0) @then
 		@subto(value.counter,1)
 	@endif
 background.4
@@ -104,7 +103,7 @@ background.4
 		@quit
 	@endif
 background.5
-	@if @le(value.counter,40) @and @ge(value.counter,0) @and @not @carry(10) @then
+	@if @le(@get(value.counter),40) @and @ge(@get(value.counter),0) @and @not @carry(10) @then
 		@comment("MSG DOOM")
 		@msg(message.73)
 		@get(value.counter)
@@ -119,19 +118,19 @@ background.6
 		@set(value.counter,300)
 	@endif
 background.7
-	@if @rand(30) @and @nowhere(42) @and @not @isroom(10) @and @le(value.counter,275) @then
+	@if @rand(30) @and @nowhere(42) @and @not @isroom(10) @and @le(@get(value.counter),275) @then
 		@comment("SABETOUR")
 		@sendto(42,10)
 		@msg(message.50)
 	@endif
 background.8
-	@if @rand(30) @and @nowhere(42) @and @not @isroom(4) @and @le(value.counter,275) @then
+	@if @rand(30) @and @nowhere(42) @and @not @isroom(4) @and @le(@get(value.counter),275) @then
 		@comment("SABETOUR")
 		@sendto(42,4)
 		@msg(message.50)
 	@endif
 background.9
-	@if @rand(30) @and @nowhere(42) @and @not @isroom(3) @and @le(value.counter,275) @then
+	@if @rand(30) @and @nowhere(42) @and @not @isroom(3) @and @le(@get(value.counter),275) @then
 		@comment("SABETOUR")
 		@sendto(42,3)
 		@msg(message.50)
@@ -217,7 +216,7 @@ background.22
 		@quit
 	@endif
 background.23
-	@if @le(value.counter,0) @then
+	@if @le(@get(value.counter),0) @then
 		@comment("BOMB TRIGGED")
 		@sendto(9,0)
 	@endif

@@ -583,7 +583,7 @@ Cmd  23 |     0   100 |   15   0   0   9   0   0   0   0   0   0 |   59   0   0 
                  100% | IF LE(COUNTER,0)
                       | DESTROY 9="Surgically implanted bomb d..."
 Cmd  24 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 | .
-            continued | Cmd  25 |    34    14 |    4  13  12  42   3  41   8  13   0   0 |   18  20 121   0 | NEED SAB TOO
+Cmd  25 |    34    14 |    4  13  12  42   3  41   8  13   0   0 |   18  20 121   0 | NEED SAB TOO
             sho   pic | IF ISROOM(13="large white visitors room")
                       | IF NOT HERECARRY(42="Dead saboteur")
                       | IF HERECARRY(41="Picture of saboteur stamped...")
@@ -596,13 +596,13 @@ Cmd  26 |    24    52 |    3  49   0   0   0   0   0   0   0   0 |   70 122   0 
                       | CLEARSCREEN
                       | MESSAGE 72="Hi! Look for Adventure numb..."
 Cmd  27 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 | .
-            continued | Cmd  28 |    54    42 |    3  16  14  11   0  11   0   0   0   0 |   53  51   0   0 | .
+Cmd  28 |    54    42 |    3  16  14  11   0  11   0   0   0   0 |   53  51   0   0 | .
             fri   mop | IF HERECARRY(16="Old fashioned yarn mop")
                       | IF NOWHERE(11="Blue key")
                       | DROP 11="Blue key"
                       | MESSAGE 51="Something fell to the floor."
 Cmd  29 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 | .
-            continued | Cmd  30 |    43    20 |    7  15   0   0   0   0   0   0   0   0 |    6   7  17   0 | .
+Cmd  30 |    43    20 |    7  15   0   0   0   0   0   0   0   0 |    6   7  17   0 | .
             ope   doo | IF NOT ISROOM(15)
                       | MESSAGE 6="I can't do that"
                       | MESSAGE 7="It appears locked"
@@ -645,7 +645,7 @@ Cmd  37 |    32     0 |    4  16   0   9   0   0   0   0   0   0 |  104  12  63 
                       | MESSAGE 12="*   B O O O O O O O O O M !..."
                       | QUIT
 Cmd  38 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd  39 |    40    42 |    3  16  14  11   0   0   0   0   0   0 |  105   0   0   0 |
+Cmd  39 |    40    42 |    3  16  14  11   0   0   0   0   0   0 |  105   0   0   0 |
             loo   mop | IF HERECARRY(16="Old fashioned yarn mop")
                       | IF NOWHERE(11="Blue key")
                       | MESSAGE 55="It made an odd sound."
@@ -989,7 +989,7 @@ Cmd 105 |    37    21 |    0   0   0   0   0   0   0   0   0   0 |    2  17   0 
             unl   win | MESSAGE 2="Nothing happened"
                       | MESSAGE 17="Most doors & windows are un..."
 Cmd 106 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 | AUT
-            continued | Cmd 107 |    34    14 |    3  42   0  13   4  13   3  41   0   0 |   60  18 106   0 |
+Cmd 107 |    34    14 |    3  42   0  13   4  13   3  41   0   0 |   60  18 106   0 |
             sho   pic | IF HERECARRY(42="Dead saboteur")
                       | IF ISROOM(13="large white visitors room")
                       | IF HERECARRY(41="Picture of saboteur stamped...")
@@ -1185,10 +1185,10 @@ Cmd 156 |    40    37 |    4  13   9  13   0   0   0   0   0   0 |  113   0   0 
                       | IF FLAG(13)=FALSE
                       | MESSAGE 63="TV camera is powered down."
 Cmd 157 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd 158 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd 159 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd 160 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd 161 |    40     0 |    0   0   0   0   0   0   0   0   0   0 |  116  76   0   0 |
+Cmd 158 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+Cmd 159 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+Cmd 160 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+Cmd 161 |    40     0 |    0   0   0   0   0   0   0   0   0   0 |  116  76   0   0 |
             loo       | MESSAGE 66="I see nothing special."
                       | LOOK
 

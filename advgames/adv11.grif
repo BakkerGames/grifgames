@@ -7,7 +7,6 @@
 	@sendto($x,@room)
 @goto(x)
 	@debug("### Going to room $x")
-	\n
 	@set(value.room,$x)
 @here(x)
 	@eq(@get(item.$x.location),@room)
@@ -148,16 +147,16 @@ background.12
 	@if @true(@get(value.flag.18)) @then
 		@comment("breathe out")
 		@swap(value.counter,value.counter.1)
-		@if @gt(value.counter,0) @then
+		@if @gt(@get(value.counter),0) @then
 			@subto(value.counter,1)
 		@endif
 		@comment("continue")
 		@comment("...continued into Cmd 13")
-		@if @le(value.counter,2) @then
+		@if @le(@get(value.counter),2) @then
 			@msg(message.24)
 		@endif
 		@comment("...continued into Cmd 14")
-		@if @le(value.counter,0) @and @true(@get(value.flag.7)) @then
+		@if @le(@get(value.counter),0) @and @true(@get(value.flag.7)) @then
 			@set(value.flag.6,false)
 			@set(value.flag.18,false)
 			@sleep(2000)
@@ -172,7 +171,7 @@ background.12
 			@goto(30)
 		@endif
 		@comment("...continued into Cmd 16")
-		@if @le(value.counter,0) @and @true(@get(value.flag.18)) @and @false(@get(value.flag.7)) @then
+		@if @le(@get(value.counter),0) @and @true(@get(value.flag.18)) @and @false(@get(value.flag.7)) @then
 			@msg(message.26)
 			@set(value.flag.5,false)
 			@set(value.flag.18,false)
@@ -232,18 +231,18 @@ background.25
 		@comment("CAVE COUNT")
 		@set(value.flag.11,false)
 		@swap(value.counter,value.counter.2)
-		@if @gt(value.counter,0) @then
+		@if @gt(@get(value.counter),0) @then
 			@subto(value.counter,1)
 		@endif
 		@comment("continue")
 		@comment("...continued into Cmd 26")
-		@if @le(value.counter,4) @and @herecarry(12) @then
+		@if @le(@get(value.counter),4) @and @herecarry(12) @then
 			@msg(message.31)
 			@msg(message.30)
 			@msg(message.34)
 		@endif
 		@comment("...continued into Cmd 27")
-		@if @le(value.counter,0) @then
+		@if @le(@get(value.counter),0) @then
 			@set(value.flag.10,false)
 		@endif
 		@comment("...continued into Cmd 28")
@@ -266,11 +265,11 @@ background.31
 	@if @false(@get(value.flag.28)) @and @somewhere(17) @then
 		@swap(value.counter,value.counter.4)
 		@comment("continue")
-		@if @gt(value.counter,0) @then
+		@if @gt(@get(value.counter),0) @then
 			@subto(value.counter,1)
 		@endif
 		@comment("...continued into Cmd 32")
-		@if @le(value.counter,0) @then
+		@if @le(@get(value.counter),0) @then
 			@set(value.flag.28,true)
 		@endif
 		@comment("...continued into Cmd 33")
@@ -339,12 +338,12 @@ background.44
 	@if @not @isroom(30) @and @somewhere(35) @then
 		@comment("BOMB")
 		@swap(value.counter,value.counter.3)
-		@if @gt(value.counter,0) @then
+		@if @gt(@get(value.counter),0) @then
 			@subto(value.counter,1)
 		@endif
 		@comment("continue")
 		@comment("...continued into Cmd 45")
-		@if @le(value.counter,0) @then
+		@if @le(@get(value.counter),0) @then
 			@msg(message.58)
 			@msg(message.19)
 			@set(value.flag.dark,false)
@@ -572,8 +571,6 @@ command.1.47
 			@drop(27)
 			@look
 		@endif
-		@comment("...continued into Cmd 173")
-		@comment("...continued into Cmd 174")
 	@endif
 command.1.59
 	@comment("Cmd 181 - go trea")
@@ -906,7 +903,6 @@ command.23.35
 		@if @true(@get(value.flag.28)) @then
 			@msg(message.44)
 		@endif
-		@comment("...continued into Cmd 246")
 	@endif
 command.23.36
 	@comment("Cmd 141 - look self")

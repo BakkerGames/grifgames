@@ -1404,8 +1404,8 @@ Cmd 156 |    71    59 |    3  21   3  14   0  14   0  25   0  23 |   59  53  53 
                       | DROP 23="Loose end of glowing thread"
                       | MESSAGE 1="OK"
 Cmd 157 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd 158 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd 159 |    70    47 |    3  23   0  25   0  22   0  23   0  14 |   59  59  72   1 |
+Cmd 158 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+Cmd 159 |    70    47 |    3  23   0  25   0  22   0  23   0  14 |   59  59  72   1 |
            unti  band | IF HERECARRY(23="Loose end of glowing thread")
                       | DESTROY 25="with thread tied to it"
                       | DESTROY 22="Glowing thread tied to lever"
@@ -1484,8 +1484,8 @@ Cmd 172 |     0     0 |    2  26   0  14   0  27   0   0   0   0 |   80  54  53 
                       | DROP 27="Dark hole"
                       | LOOK
 Cmd 173 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd 174 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd 175 |    66    32 |    3  12   9  10   0   0   0   0   0   0 |   31  33  30  61 | .
+Cmd 174 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+Cmd 175 |    66    32 |    3  12   9  10   0   0   0   0   0   0 |   31  33  30  61 | .
            drag  nean | IF HERECARRY(12="Neanderthal")
                       | IF FLAG(10)=FALSE
                       | MESSAGE 31="Neanderthal"
@@ -1808,7 +1808,7 @@ Cmd 236 |    23    60 |    2  27   9  15   0   0   0   0   0   0 |   17  50   0 
                       | MESSAGE 17="I see"
                       | MESSAGE 50="utter blackness in center!"
 Cmd 237 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd 238 |    66    47 |    3   7   0   8   0   7   0  14   0   0 |    1  59  72   0 |
+Cmd 238 |    66    47 |    3   7   0   8   0   7   0  14   0   0 |    1  59  72   0 |
            drag  band | IF HERECARRY(7="Bandanna")
                       | MESSAGE 1="OK"
                       | DESTROY 8="Which I'm wearing"
@@ -1843,7 +1843,7 @@ Cmd 245 |     0     0 |    8  28   0   0   0   0   0   0   0   0 |   44   0   0 
             continued | IF FLAG(28)=TRUE
                       | MESSAGE 44="Awake!"
 Cmd 246 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd 247 |    23     0 |    9  15   0   0   0   0   0   0   0   0 |    1  17   6  76 |
+Cmd 247 |    23     0 |    9  15   0   0   0   0   0   0   0   0 |    1  17   6  76 |
            look       | IF FLAG(15)=FALSE
                       | MESSAGE 1="OK"
                       | MESSAGE 17="I see"

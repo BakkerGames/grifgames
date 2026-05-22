@@ -7,7 +7,6 @@
 	@sendto($x,@room)
 @goto(x)
 	@debug("### Going to room $x")
-	\n
 	@set(value.room,$x)
 @here(x)
 	@eq(@get(item.$x.location),@room)
@@ -86,7 +85,7 @@ background.0
 		@set(value.flag.17,true)
 	@endif
 background.2
-	@if @gt(value.counter,0) @then
+	@if @gt(@get(value.counter),0) @then
 		@subto(value.counter,1)
 	@endif
 background.3
@@ -94,11 +93,11 @@ background.3
 		@drop(48)
 	@endif
 background.4
-	@if @eq(value.counter,0) @then
+	@if @eq(@get(value.counter),0) @then
 		@msg(message.48)
 	@endif
 background.5
-	@if @not @herecarry(9) @and @le(value.counter,0) @then
+	@if @not @herecarry(9) @and @le(@get(value.counter),0) @then
 		@set(value.flag.dark,true)
 	@endif
 background.6
@@ -153,21 +152,21 @@ background.13
 		@msg(message.43)
 	@endif
 background.15
-	@if @true(@get(value.flag.29)) @and @eq(value.counter,2) @then
+	@if @true(@get(value.flag.29)) @and @eq(@get(value.counter),2) @then
 		@msg(message.45)
 		@msg(message.47)
 		@set(value.flag.29,false)
 		@swap(value.counter,value.counter.0)
 	@endif
 background.16
-	@if @true(@get(value.flag.29)) @and @eq(value.counter,1) @then
+	@if @true(@get(value.flag.29)) @and @eq(@get(value.counter),1) @then
 		@msg(message.46)
 		@msg(message.47)
 		@set(value.flag.29,false)
 		@swap(value.counter,value.counter.0)
 	@endif
 background.17
-	@if @true(@get(value.flag.29)) @and @le(value.counter,0) @then
+	@if @true(@get(value.flag.29)) @and @le(@get(value.counter),0) @then
 		@msg(message.50)
 		@swap(value.counter,value.counter.0)
 		@sendto(57,2)
@@ -186,18 +185,18 @@ background.18
 background.20
 	@if @true(@get(value.flag.23)) @then
 		@swap(value.counter,value.counter.3)
-		@if @gt(value.counter,0) @then
+		@if @gt(@get(value.counter),0) @then
 			@subto(value.counter,1)
 		@endif
 		@comment("continue")
 		@comment("...continued into Cmd 21")
-		@if @eq(value.counter,5) @then
+		@if @eq(@get(value.counter),5) @then
 			@msg(message.51)
 			@swap(item.60.location,item.61.location)
 			@comment("continue")
 		@endif
 		@comment("...continued into Cmd 22")
-		@if @le(value.counter,0) @then
+		@if @le(@get(value.counter),0) @then
 			@msg(message.52)
 			@set(value.flag.dark,false)
 			@goto(37)
@@ -319,7 +318,7 @@ background.43
 		@look
 	@endif
 background.44
-	@if @le(value.counter,10) @and @ge(value.counter,0) @then
+	@if @le(@get(value.counter),10) @and @ge(@get(value.counter),0) @then
 		@msg(message.42)
 	@endif
 background.45
@@ -328,7 +327,7 @@ background.45
 		@look
 	@endif
 background.46
-	@if @isroom(14) @and @ge(value.counter,0) @and @false(@get(value.flag.14)) @then
+	@if @isroom(14) @and @ge(@get(value.counter),0) @and @false(@get(value.flag.14)) @then
 		@set(value.flag.dark,false)
 		@look
 	@endif
@@ -379,7 +378,7 @@ background.56
 		@look
 	@endif
 background.57
-	@if @isroom(10) @and @ge(value.counter,0) @and @false(@get(value.flag.14)) @then
+	@if @isroom(10) @and @ge(@get(value.counter),0) @and @false(@get(value.flag.14)) @then
 		@set(value.flag.dark,false)
 		@look
 		@set(value.flag.8,false)
@@ -402,7 +401,7 @@ background.61
 		@set(value.flag.18,true)
 	@endif
 background.62
-	@if @isroom(22) @and @ge(value.counter,0) @then
+	@if @isroom(22) @and @ge(@get(value.counter),0) @then
 		@set(value.flag.dark,false)
 		@look
 	@endif

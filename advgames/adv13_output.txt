@@ -886,7 +886,7 @@ Cmd  51 |     0     0 |   15   0   0  23   0   0   0   0   0   0 |   60   0   0 
 Cmd  52 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |   81   0   0   0 |
             continued | SWAP COUNTER WITH COUNTER(0)
 Cmd  53 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd  54 |     0   100 |    4  32   0   0   0   0   0   0   0   0 |   65  63   0   0 | DEAD
+Cmd  54 |     0   100 |    4  32   0   0   0   0   0   0   0   0 |   65  63   0   0 | DEAD
                  100% | IF ISROOM(32="real mess!")
                       | SCORE
                       | QUIT
@@ -1922,5 +1922,5 @@ Cmd 265 |     1    50 |    0   0   0   0   0   0   0   0   0   0 |  118   0   0 
 Cmd 266 |    96     0 |    0   0   0   0   0   0   0   0   0   0 |   46   0   0   0 |
           light       | MESSAGE 46="How?"
 Cmd 267 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | 
+
 // END OF FILE

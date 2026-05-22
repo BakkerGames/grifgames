@@ -1101,7 +1101,7 @@ Cmd 106 |    44    40 |    3  25   0   0   0   0   0   0   0   0 |   78  17  15 
                       | MESSAGE 17="turns"
                       | MESSAGE 15="till midnight"
 Cmd 107 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd 108 |    74    57 |    3  57   3  55   0  55   0  58   0   0 |    2  72   0   0 |
+Cmd 108 |    74    57 |    3  57   3  55   0  55   0  58   0   0 |    2  72   0   0 |
              on  bran | IF HERECARRY(57="Soft chewing gum")
                       | IF HERECARRY(55="Broken branch")
                       | MESSAGE 2="OK"
@@ -1527,6 +1527,6 @@ Cmd 207 |    86     9 |    3   3   0   0   0   0   0   0   0   0 |    2   0   0 
             fix  shoe | IF HERECARRY(3="Shoes")
                       | MESSAGE 2="OK"
 Cmd 208 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | Cmd 209 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
-            continued | 
+Cmd 209 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
+
 // END OF FILE
