@@ -46,5 +46,3 @@ system.prefix.value
 	value
 system.prefix.vocabulary
 	verb,noun,adjective,preposition,article
-system.version
-	2026.05.17

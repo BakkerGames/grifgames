@@ -456,6 +456,7 @@ command.12.10
 	@if @carry(10) @then
 		@drop(10)
 		@incmoves
+		@msg(message.1008)
 		@script(item.10.afterdrop)
 	@else
 		@msg(message.1004)
@@ -5471,7 +5472,7 @@ system.prefix.vocabulary
 system.prompt
 	\n
 system.version
-	2026.05.20
+	2026.05.22
 system.wordsize
 	4
 value.bat
