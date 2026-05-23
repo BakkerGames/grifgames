@@ -1,0 +1,104 @@
+Introduction
+
+Adventureland is a 1978 text adventure game. It was released for a variety of systems; this guide covers the Apple II version of the game. In Adventureland, your main objective is to find and store thirteen treasure items. To do this, you must cycle through screens and input various commands, such as "Go West," "Take Axe," "Climb Tree," and "Light Lamp." This game is a lot more frustrating than you might originally think; it is not straightforward and getting the treasures usually involves more than just "Take Fish." Nevertheless, Adventureland is a very interesting game, and it is a good way to experience the text adventure genre because of the game's short length. I recommend playing a version of the game without graphics, such as this Apple II version, to get the full text adventure experience.
+
+Items
+
+This is a short list of the items in the game. It details what each item does as well as how to use it. This is a good section to look at before the walkthrough because you may just be curious about what a particular item does.
+
+Axe (Magical): used to teleport items out of quicksand without dropping them.
+Axe (Normal): after teleporting the items, this will show up at Paul's Place. You will then use this axe to chop down the tree in the swamp.
+Keys: before chopping down the tree in the swamp, climb up the tree and take the keys.
+Mud: used to cure chiggers and repel bees.
+Swamp Gas: used to fill the bladder so you can blow it up in the royal chamber.
+Lamp: rub it twice to drop two diamond key items. Afterward, it can be used as a lamp for light.
+Flint & Stone: used to light the lamp.
+Slime Oil: the lamp only lasts a certain number of turns, but it can be re-lit with this oil found in the swamp screen.
+Magical Rug: type "Say Away" twice while it is in your inventory to be warped back to the first screen of the game. Also, if you put the mirror on it, it will reveal a clue.
+Golden Net: used to catch the fish.
+Bottle: found in the treasure screen in the stump, this is used to catch the fish.
+Golden Fish: bring the net and the bottle to the lake screen and type "catch fish" to actually catch it.
+Bladder: grab this from the royal anteroom and fill it with gas from the swamp.
+Bricks: these fall after you blow up the brick wall in the royal chamber by igniting the gas-filled bladder.
+Magic Mirror: this drops off the bear after you scream at it.
+Gold Crown: found in the throne room.
+Firestone: bring the bricks and the bottle of water to the bottom of the cave maze. Dam the lava with the bricks, then pour water on the Firestone so you can grab it.
+Royal Honey: catch the bees with the bottle first, before you take the honey.
+Dragon Eggs: release the bees and grab the egg! :)
+To beat the game, you must find and store these thirteen treasure items:
+
+Pot of Rubies (found below treasure storage/stump screen)
+Golden Fish (found at the lake shore; you need the golden net and bottle of water to catch it)
+Golden Net (found in maze)
+Royal Honey (found in 8 sides room; you need to catch the bees first)
+Gold Crown (found in throne room; you need to blow up the brick window in the royal chamber first)
+Magic Mirror (dropped by bear after going through blown up brick window)
+Jeweled Fruit (found in hidden grove)
+Small Statue of a Blue Ox (found in quicksand and later teleported to hidden grove after you "Say Bunyon" with the axe)
+Diamond Ring (dropped when you rub the lamp)
+Diamond Bracelet (dropped when you rub the lamp for a second time)
+Firestone (found at bottom of maze; brick the lava to reveal it, then pour the water to cool it)
+Thick Persian Rug (found at bottom of maze; type "Say Away" twice to fly back to the start)
+Dragon Eggs (found at dragon screen; release bees to get the eggs)
+Dying/Softlocks
+In Adventureland, there are a few common ways that you can softlock the game. "Softlock" simply means that you have "locked" yourself from continuing, so you have to reset the game and start all over again. Since this game is short, these softlocks were probably intended.
+
+These are some common softlocks:
+
+If you chop down the tree without getting the keys first, you won't be able to open the locked door.
+After acquiring the rug, if you go down to the maze again, but without the rug in your inventory, you won't be able to get back out.
+If you go back to the quicksand after using the Bunyon axe, you will be forced to drop all of your items.
+After you die, if you go the wrong way in the large misty room, you can get a Game Over screen.
+There are also a few ways to die in the game:
+
+The dragon will kill you if you go to his screen while carrying mud. Solution: do not carry the mud while passing through his screen. In fact, only carry the mud toward the end of the game.
+If you contract chiggers and do not use the mud to cure it, you will die from the bite. Solution: use the mud in the swamp screen to cure it.
+If you ignite the gas while the bladder item is in your inventory, it will blow up in your hands and you will die. Solution: drop the bladder before igniting it.
+You can fall to your death if you try to jump the ledge to the throne room with the bricks in your inventory. Solution: pick up the bricks after you go to the throne room.
+You can fall to your death if you decide to "Go Down" while on the screen with the Flint & Stone. Solution: do not continue to go down.
+The bees can kill you if you try to get the honey before catching them. Solution: use the bottle to catch the bees first.
+If you die, you will go to the large misty room. In this room, you need to exit to the east to reach the start again. If you exit east, you will retain your current progress and keep all of the items that were in your inventory.
+
+Walkthrough
+
+NOTE: this map can help immensely for traveling: http://www.vgmaps.com/Atlas/AppleII/Adventureland-Map.png
+
+SPECIAL NOTE: the bold text are the commands that you need to type.
+
+You start in a forest. Go East to reach the large sleeping dragon. Ignore it for now and Go East again. At the lake shore, Take Axe, ignore the fish, and Go North. This leads to the infamous quick-sand screen. Take Ox to grab the item here. You can't leave this screen with any items in your inventory, and we have two items! Fortunately, the axe is magical, so Say Bunyon and the two items in your inventory (ox and axe) will teleport to the hidden grove.
+
+Swim to go back to the lake shore. Go South to reach the bottomless hole. Go Hole to reach the ledge. Take Flint then go back Up to the bottomless hole screen. Go West to reach the swamp screen. Go West again to reach the hidden grove. Take Axe, Take Fruit, and Take Ox to get all of the items here. Go East to reach the swamp screen again.
+
+At the swamp screen, Climb Tree and at the top of the tree, Take Keys. These will be used to open a door later. Go back Down, then Cut Tree. This reveals a hollow stump, so Go Stump. The Stump screen is where you will "store" your treasures. There are 13 treasures that you must find to complete the game. You should go back to the Stump when you find new ones and store them. In addition, it is a good place to store normal items because of its central location.
+
+At the Stump screen, Drop Axe, Drop Fruit, and Drop Ox; you don't need to carry these items any longer, and you can only carry six items at one time. If you type Inventory or I, look at what you're currently carrying: it should just be the Keys and Flint & Steel. While still in the stump treasure storage screen, Rub Lamp twice. This will rub the old fashioned brass lamp on the ground. The first rub makes the Diamond Ring fall, and the second rub drops the Diamond Bracelet. You do not need to pick up either item because they are already "stored" in the treasure screen.
+
+Take Lamp and then Go Down. Take Rubies and Go Up to the stump. Drop Rubies and check your inventory. You should have the lamp, keys, and flint. Go Down to the screen where you just picked up the rubies. Go Hole to reach a chamber with a locked door. Open Door to unlock it -- you need the keys in your inventory. With the door unlocked, you can safely Drop Keys wherever you want -- it is not a treasure item and you need the inventory space.
+
+Light Lamp so you can see underground, then Go Hall. Go Down to reach a large cavern. Go Down again to reach the maze. Go Down to reach the general maze screen, then Go West to reach the "Aladin was here" screen (spelling maintained). At the "Aladin" screen, Go Down and Take Rug. Then Go Down again and Take Net. Now you should have both the net and the rug in your inventory.
+
+Since you have the rug in your inventory, you can fly back to the start of the game. Say Away twice and you will go back to the screen with the large sleeping dragon. Unlight Lamp to preserve the light on the lamp. Go South to reach the swamp screen. Go Stump to go back to the treasure storage screen. Here, Take Bottle, which we will need to catch the fish at the lake shore.
+
+To get back to the lake shore from the treasure screen, Go Up, Go East, and Go North. This will bring you back to the lake shore with the fish. Now that you have the Golden Net and Water in Bottle in your inventory, you can Catch Fish to take the Golden Fish. Head back to the treasure stump screen with Go South, Go West, and Go Stump.
+
+At the treasure screen, Drop Net and Drop Fish. You've stashed two more treasure items; you don't need either of these items to progress in the game. While you're here, also Drop Bottle to free some inventory space -- we will be using the bottle later, but we need the space for now. Now go back down to the large cavern screen in the underground; to do this, Go Down, Go Hole, Go Hall, Light Lamp (if you unlit it like I suggested), and Go Down. At the large cavern screen, Go South to reach the royal anteroom. Take Bladder, which is the lone item on this screen.
+
+Head back up to the swamp screen. To do this, Go North, Go Up, Go Up, Unlight Lamp (to preserve its light), then Go Up three more times. At the dismal swamp screen, Take Gas -- you can take it now because you have a container (the bladder).
+
+With the gas in the bladder (look for "Distended Gas Bladder" when you look at your inventory), head back to the royal anteroom. To go back there, Go Stump, Go Down, Go Hole, Light Lamp, Go Hall, Go Down, and Go South. Back at the royal anteroom, Go Up to reach the royal chamber. Here, there is a bricked up window. Drop Bladder and then Ignite Gas to blow up the bricked window. Do not take the loose fire bricks right now. Instead, Go Hole to reach the narrow ledge by a chasm.
+
+At the chasm, Jump and a very thin black bear appears. Scream to scare away the black bear, then Take Mirror, which is the item that drops. Go Throne now to reach the throne room. In this room, Take Crown to pick up the gold crown. Backtrack to the royal chamber; Go West, Jump over the chasm, then Go West again. At the royal chamber, Take Bricks.
+
+Go back to the stump screen to store your treasure. To go back up, Go Down, Go North, Go Up, Go Up, Unlight Lamp, Go Up, and Go Up. At the stump screen, Drop Crown to store it. Now Drop Rug and then Drop Mirror to receive a secret message. Take Rug back immediately -- you'll need it to teleport out of the underground later.
+
+If you don't have it in your inventory, Take Bottle, which will be stored on this screen if you've been following this guide; it is also the bottle's default location. Now your inventory should have the lamp, the rug, the water in bottle, the flint, and the bricks. We must now go back down to the very bottom of the maze and we need all of these items, especially the rug so we can teleport back.
+
+To get to the maze from the stump screen, Go Down, Go Hole, Go Hall, Light Lamp (if it's not lit), Go Down, and Go Down. This brings you back to the beginning of the maze. Here, Go Down and then Go West to reach the "Aladin" screen. Go Down twice to reach the bottom of the chasm.
+
+At the bottom of the chasm, there is a stream of lava and the bear. Ignore the bear completely. Right now, you need to Dam Lava. You can do this task because you have the bricks in your inventory. After daming the lava, a firestone appears. Do not pick it up yet! Instead, Pour Water to cool the firestone, and then Take Firestone. Now you need to get all the way back to the stump screen. Because you have the rug in your inventory, this is easy -- type Say Away twice to fly back to the sunny meadow with the dragon.
+
+At the dragon screen, Go South and then Go Stump to reach the treasure storage stump. Drop Firestone and Drop Bricks. We need to go back down into the underground one more time. First, Go Up to the swamp screen and Take Mud. Go Stump to the treasure screen and take a look at your inventory. You need the mud, the bottle, and the rug to do this last part; in addition, you also need the lit lamp to see underground. If you've been following my lamp-light-conservation commands, then you'll also need the flint to light it back up when you get down to the underground far enough.
+
+Go back to the large cavern screen in the underground with the mud, the bottle, and the rug. From the stump screen, Go Down, Go Hole, Go Hall, Light Lamp (if it's not lit), and Go Down. At the large cavern, Go North to reach a long tunnel with a buzzing sound. Go North again to reach the large 8-sided room with bees and honey. Catch Bees first -- you can do this because you have the bottle. After catching the bees, Take Honey and then Drop Mud.
+
+Say Away twice to reach the sunny meadow screen with the dragon. Release Bees and then Take Eggs -- you now have the dragon eggs! Go to the stump screen where you have stored your treasure. To get to the stump screen from the dragon screen, Go South and then Go Stump. Now all we have to do is drop all of the treasure items! Drop Honey, Drop Rug, and Drop Eggs, then type Score for the game to tally your score. It will see that you've stored all thirteen treasures and beaten the game! From there, you can say "yes" to play again, or "no" to exit the game.
