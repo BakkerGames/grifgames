@@ -6,6 +6,7 @@
 @drop(x)
 	@sendto($x,@room)
 @goto(x)
+	@debug("### Going to room $x")
 	@set(value.room,$x)
 @here(x)
 	@eq(@get(item.$x.location),@room)
@@ -28,9 +29,11 @@
 @isroom(x)
 	@eq(@room,$x)
 @look
+	@debug(@concat("### ROOM #",@room,"\n"))
 	@if @true(@get(value.flag.dark)) @and @not @herecarry(9) @then
 		@msg(message.cant_see)
 	@else
+		@script(script.before_look)
 		@msg(@concat("room.",@room,".longdesc"))
 		@nl
 		@msg(message.obvious_exits)
@@ -43,18 +46,28 @@
 					@msg(message.also_see)
 					@set(temp.found,true)
 				@endif
+				@debug(@concat("### ITEM #",$i,"\n"))
 				@msg(item.$i.longdesc)
 			@endif
 		@endfor
 	@endif
+@modmessages
+	@foreachkey(i,"modmsg.")
+		@nl
+		@msg(modmsg.$i)
+	@endforeachkey
 @nowhere(x)
 	@eq(@get(item.$x.location),0)
+@picture(x)
+	@setoutchannel("#PICTURE;",$x)
 @quit
 	@setoutchannel("#GAMEOVER;")
 @room
 	@get(value.room)
 @sendto(x,y)
 	@set(item.$x.location,$y)
+@sleep(x)
+	@setoutchannel("#SLEEP;",$x)
 @somewhere(x)
 	@ne(@get(item.$x.location),0)
 @take(x)
@@ -210,7 +223,7 @@ background.26
 	@endif
 background.intro
 	@if @false(@get(system.introdone)) @then
-		@look
+		@script(system.intro)
 		@set(system.introdone,true)
 	@endif
 background.light
@@ -225,7 +238,6 @@ background.light
 		@endif
 	@endif
 command.1.1
-	@comment("go north")
 	@if @gt(@get(@concat("room.",@room,".exit.n")),0) @then
 		@goto(@get(@concat("room.",@room,".exit.n")))
 		@look
@@ -233,7 +245,6 @@ command.1.1
 		@msg(message.cant_go)
 	@endif
 command.1.2
-	@comment("go south")
 	@if @gt(@get(@concat("room.",@room,".exit.s")),0) @then
 		@goto(@get(@concat("room.",@room,".exit.s")))
 		@look
@@ -241,7 +252,6 @@ command.1.2
 		@msg(message.cant_go)
 	@endif
 command.1.3
-	@comment("go east")
 	@if @gt(@get(@concat("room.",@room,".exit.e")),0) @then
 		@goto(@get(@concat("room.",@room,".exit.e")))
 		@look
@@ -249,7 +259,6 @@ command.1.3
 		@msg(message.cant_go)
 	@endif
 command.1.4
-	@comment("go west")
 	@if @gt(@get(@concat("room.",@room,".exit.w")),0) @then
 		@goto(@get(@concat("room.",@room,".exit.w")))
 		@look
@@ -257,7 +266,6 @@ command.1.4
 		@msg(message.cant_go)
 	@endif
 command.1.5
-	@comment("go up")
 	@if @gt(@get(@concat("room.",@room,".exit.u")),0) @then
 		@goto(@get(@concat("room.",@room,".exit.u")))
 		@look
@@ -265,7 +273,6 @@ command.1.5
 		@msg(message.cant_go)
 	@endif
 command.1.6
-	@comment("go down")
 	@if @gt(@get(@concat("room.",@room,".exit.d")),0) @then
 		@goto(@get(@concat("room.",@room,".exit.d")))
 		@look
@@ -273,34 +280,35 @@ command.1.6
 		@msg(message.cant_go)
 	@endif
 command.1.7
-	@comment("Cmd 131 - go stairs")
+	@comment("Cmd 131 - go sta")
 	@if @here(0) @and @isroom(1) @then
 		@goto(2)
 		@look
 	@endif
 command.1.8
-	@comment("Cmd 27 - go passage")
+	@comment("Cmd 27 - go pas")
 	@if @here(4) @then
 		@goto(3)
 		@look
 	@endif
 command.1.9
-	@comment("Cmd 56 - go hall")
+	@comment("Cmd 56 - go hal")
 	@if @here(19) @then
 		@goto(16)
 		@look
 	@endif
 command.1.13
-	@comment("Cmd 29 - go window")
+	@comment("Cmd 29 - go win")
 	@if @here(1) @then
 		@goto(5)
 		@look
+		@comment("...continued into Cmd 124")
 	@elseif @isroom(5) @then
 		@goto(2)
 		@look
 	@endif
 command.1.15
-	@comment("Cmd 137 - go monastary")
+	@comment("Cmd 137 - go mon")
 	@if @here(56) @then
 		@goto(25)
 		@look
@@ -310,67 +318,73 @@ command.1.24
 	@if @false(@get(value.flag.7)) @and @isroom(23) @then
 		@set(value.flag.7,true)
 		@msg(message.51)
+		@comment("...continued into Cmd 117")
 	@else
 		@set(value.flag.8,true)
 		@msg(message.51)
 	@endif
 command.1.33
-	@comment("Cmd 39 - go shack")
+	@comment("Cmd 39 - go sha")
 	@if @here(16) @then
 		@goto(9)
 		@look
 	@endif
 command.1.35
-	@comment("Cmd 68 - go cave")
+	@comment("Cmd 68 - go cav")
 	@if @isroom(14) @then
 		@goto(7)
 		@set(value.flag.dark,true)
 		@look
 	@endif
 command.1.36
-	@comment("Cmd 112 - go path")
+	@comment("Cmd 112 - go pat")
 	@if @isroom(14) @then
 		@goto(18)
 		@look
 	@endif
 command.1.42
-	@comment("Cmd 99 - go boat")
+	@comment("Cmd 99 - go boa")
 	@if @here(37) @then
 		@goto(20)
 		@look
 	@endif
 command.1.44
-	@comment("Cmd 115 - go shed")
+	@comment("Cmd 115 - go she")
 	@if @here(34) @then
 		@goto(15)
 		@look
 	@endif
 command.1.45
-	@comment("Cmd 73 - go crack")
+	@comment("Cmd 73 - go cra")
 	@if @here(39) @and @carry(46) @then
 		@msg(message.18)
 		@msg(message.27)
+		@comment("...continued into Cmd 74")
 	@elseif @here(38) @and @carry(13) @then
 		@msg(message.18)
 		@msg(message.27)
+		@comment("...continued into Cmd 78")
 	@elseif @here(39) @and @carry(33) @then
 		@msg(message.18)
 		@msg(message.27)
+		@comment("...continued into Cmd 82")
 	@elseif @here(38) @and @carry(3) @then
 		@msg(message.18)
 		@msg(message.27)
+		@comment("...continued into Cmd 85")
 	@elseif @here(38) @then
 		@goto(17)
 		@msg(message.26)
 		@set(value.flag.dark,true)
 		@look
+		@comment("...continued into Cmd 86")
 	@elseif @here(39) @then
 		@goto(18)
 		@set(value.flag.dark,false)
 		@look
 	@endif
 command.1.48
-	@comment("Cmd 130 - go lagoon")
+	@comment("Cmd 130 - go lag")
 	@if @here(51) @then
 		@goto(24)
 		@look
@@ -382,14 +396,16 @@ command.1.50
 		@look
 	@endif
 command.1.51
-	@comment("Cmd 100 - go shore")
+	@comment("Cmd 100 - go sho")
 	@if @isroom(20) @and @true(@get(value.flag.4)) @and @here(12) @then
 		@goto(21)
 		@drop(12)
 		@msg(message.71)
+		@comment("...continued into Cmd 101")
 	@elseif @isroom(20) @and @false(@get(value.flag.4)) @then
 		@goto(6)
 		@look
+		@comment("...continued into Cmd 111")
 	@elseif @isroom(20) @and @true(@get(value.flag.4)) @then
 		@goto(21)
 		@look
@@ -419,6 +435,7 @@ command.10.10
 	@comment("Cmd 109 - get boo")
 	@if @here(3) @then
 		@take(3)
+		@comment("...continued into Cmd 132")
 	@elseif @isroom(2) @and @not @here(4) @then
 		@take(3)
 		@msg(message.1)
@@ -429,6 +446,7 @@ command.10.26
 	@if @here(30) @then
 		@msg(message.18)
 		@msg(message.23)
+		@comment("...continued into Cmd 84")
 	@elseif @herecarry(26) @then
 		@take(26)
 	@endif
@@ -439,6 +457,7 @@ command.10.29
 	@comment("Cmd 37 - get dub")
 	@if @here(22) @and @not @here(23) @then
 		@take(22)
+		@comment("...continued into Cmd 38")
 	@elseif @here(22) @and @here(23) @then
 		@msg(message.5)
 		@msg(message.10)
@@ -449,9 +468,11 @@ command.10.32
 	@comment("Cmd 133 - get anc")
 	@if @here(15) @and @true(@get(value.flag.10)) @then
 		@take(15)
+		@comment("...continued into Cmd 134")
 	@elseif @here(15) @and @false(@get(value.flag.10)) @then
 		@msg(message.18)
 		@msg(message.63)
+		@comment("...continued into Cmd 135")
 	@elseif @not @here(15) @then
 		@msg(message.18)
 		@msg(message.50)
@@ -461,6 +482,7 @@ command.10.38
 	@comment("Cmd 40 - get che")
 	@if @here(13) @and @here(12) @then
 		@msg(message.12)
+		@comment("...continued into Cmd 41")
 	@elseif @here(13) @and @not @here(12) @then
 		@take(13)
 	@endif
@@ -468,6 +490,7 @@ command.10.39
 	@comment("Cmd 113 - get par")
 	@if @here(24) @and @here(12) @then
 		@msg(message.12)
+		@comment("...continued into Cmd 114")
 	@elseif @here(24) @then
 		@take(24)
 		@msg(message.54)
@@ -479,6 +502,7 @@ command.10.41
 		@take(32)
 		@drop(26)
 		@sendto(30,0)
+		@comment("...continued into Cmd 123")
 	@elseif @herecarry(32) @then
 		@take(32)
 	@endif
@@ -486,6 +510,7 @@ command.10.46
 	@comment("Cmd 91 - get wat")
 	@if @not @carry(7) @then
 		@msg(message.32)
+		@comment("...continued into Cmd 92")
 	@elseif @here(40) @and @carry(7) @then
 		@sendto(7,0)
 		@take(42)
@@ -521,6 +546,7 @@ command.23.46
 		@msg(message.5)
 		@set(value.flag.dark,false)
 		@goto(33)
+		@comment("...continued into Cmd 95")
 	@elseif @carry(42) @then
 		@msg(message.5)
 		@set(value.flag.dark,false)
@@ -545,6 +571,7 @@ command.27.18
 	@if @herecarry(5) @and @false(@get(value.flag.3)) @then
 		@msg(message.4)
 		@msg(message.46)
+		@comment("...continued into Cmd 52")
 	@elseif @herecarry(5) @and @true(@get(value.flag.3)) @then
 		@msg(message.44)
 	@endif
@@ -558,17 +585,21 @@ command.27.38
 	@comment("Cmd 46 - loo che")
 	@if @carry(28) @then
 		@msg(message.16)
+		@comment("...continued into Cmd 47")
 	@elseif @herecarry(13) @then
 		@msg(message.18)
 		@msg(message.13)
+		@comment("...continued into Cmd 48")
 	@elseif @here(28) @and @false(@get(value.flag.5)) @and @false(@get(value.flag.12)) @then
 		@msg(message.15)
 		@drop(29)
 		@set(value.flag.5,true)
+		@comment("...continued into Cmd 49")
 	@elseif @false(@get(value.flag.12)) @and @here(28) @and @true(@get(value.flag.5)) @then
 		@msg(message.41)
 		@drop(45)
 		@set(value.flag.12,true)
+		@comment("...continued into Cmd 50")
 	@elseif @true(@get(value.flag.12)) @and @here(28) @then
 		@msg(message.44)
 	@endif
@@ -584,6 +615,7 @@ command.27.48
 		@msg(message.4)
 		@msg(message.47)
 		@msg(message.67)
+		@comment("...continued into Cmd 70")
 	@elseif @somewhere(52) @then
 		@msg(message.4)
 		@msg(message.47)
@@ -605,6 +637,7 @@ command.30.10
 	@comment("Cmd 28 - rea boo")
 	@if @carry(3) @then
 		@msg(message.2)
+		@comment("...continued into Cmd 64")
 	@elseif @not @carry(3) @then
 		@msg(message.18)
 		@msg(message.20)
@@ -625,10 +658,12 @@ command.32
 		@msg(message.7)
 		@goto(6)
 		@look
+		@comment("...continued into Cmd 32")
 	@elseif @not @isroom(5) @and @carry(3) @and @false(@get(value.flag.4)) @then
 		@msg(message.7)
 		@goto(5)
 		@look
+		@comment("...continued into Cmd 88")
 	@else
 		@msg(message.3)
 	@endif
@@ -664,6 +699,7 @@ command.39.18
 		@msg(message.30)
 		@drop(10)
 		@set(value.flag.3,true)
+		@comment("...continued into Cmd 90")
 	@elseif @true(@get(value.flag.3)) @then
 		@msg(message.3)
 		@msg(message.44)
@@ -672,14 +708,18 @@ command.39.37
 	@comment("Cmd 53 - ope doo")
 	@if @here(17) @then
 		@msg(message.17)
+		@comment("...continued into Cmd 54")
 	@elseif @here(18) @then
 		@msg(message.18)
 		@msg(message.13)
+		@comment("...continued into Cmd 55")
 	@elseif @here(19) @then
 		@msg(message.14)
+		@comment("...continued into Cmd 128")
 	@elseif @here(35) @then
 		@msg(message.18)
 		@msg(message.13)
+		@comment("...continued into Cmd 129")
 	@elseif @here(36) @then
 		@msg(message.14)
 	@endif
@@ -687,8 +727,10 @@ command.39.38
 	@comment("Cmd 42 - ope che")
 	@if @here(13) @and @here(12) @then
 		@msg(message.12)
+		@comment("...continued into Cmd 43")
 	@elseif @here(13) @and @not @here(12) @then
 		@msg(message.13)
+		@comment("...continued into Cmd 45")
 	@elseif @carry(13) @then
 		@msg(message.16)
 	@endif
@@ -708,10 +750,12 @@ command.41.37
 	@comment("Cmd 57 - unl doo")
 	@if @here(17) @and @here(18) @then
 		@msg(message.17)
+		@comment("...continued into Cmd 58")
 	@elseif @not @here(17) @and @here(18) @and @carry(27) @then
 		@sendto(18,0)
 		@drop(19)
 		@set(value.flag.0,true)
+		@comment("...continued into Cmd 127")
 	@elseif @here(35) @and @carry(27) @then
 		@msg(message.18)
 		@msg(message.13)
@@ -728,18 +772,24 @@ command.42
 	@comment("Cmd 36 - hel")
 	@if @isroom(5) @then
 		@msg(message.6)
+		@comment("...continued into Cmd 125")
 	@elseif @isroom(2) @then
 		@msg(message.53)
+		@comment("...continued into Cmd 139")
 	@elseif @isroom(14) @then
 		@msg(message.59)
+		@comment("...continued into Cmd 145")
 	@elseif @isroom(11) @then
 		@msg(message.66)
 		@msg(message.67)
 		@msg(message.69)
+		@comment("...continued into Cmd 147")
 	@elseif @isroom(6) @then
 		@msg(message.59)
+		@comment("...continued into Cmd 149")
 	@elseif @isroom(9) @and @here(12) @then
 		@msg(message.24)
+		@comment("...continued into Cmd 151")
 	@else
 		@msg(message.3)
 	@endif
@@ -755,8 +805,10 @@ command.47.42
 	@if @not @herecarry(29) @then
 		@msg(message.18)
 		@msg(message.45)
+		@comment("...continued into Cmd 79")
 	@elseif @herecarry(31) @and @herecarry(29) @and @herecarry(15) @and @herecarry(32) @then
 		@set(value.flag.1,true)
+		@comment("...continued into Cmd 80")
 	@else
 		@msg(message.25)
 	@endif
@@ -771,16 +823,20 @@ command.50.30
 	@comment("Cmd 87 - set sai")
 	@if @isroom(20) @and @here(12) @and @somewhere(52) @and @false(@get(value.flag.4)) @then
 		@msg(message.65)
+		@comment("...continued into Cmd 102")
 	@elseif @isroom(20) @and @not @here(12) @then
 		@msg(message.18)
 		@msg(message.37)
+		@comment("...continued into Cmd 103")
 	@elseif @isroom(20) @and @not @herecarry(45) @then
 		@msg(message.18)
 		@msg(message.38)
+		@comment("...continued into Cmd 104")
 	@elseif @isroom(20) @and @false(@get(value.flag.4)) @then
 		@msg(message.39)
 		@set(value.flag.4,true)
 		@sendto(37,21)
+		@comment("...continued into Cmd 105")
 	@elseif @isroom(20) @and @true(@get(value.flag.4)) @then
 		@msg(message.39)
 		@set(value.flag.4,false)
@@ -795,18 +851,23 @@ command.52
 		@msg(message.48)
 		@drop(47)
 		@look
+		@comment("...continued into Cmd 119")
 	@elseif @isroom(6) @and @carry(46) @then
 		@msg(message.49)
+		@comment("...continued into Cmd 120")
 	@elseif @isroom(21) @and @not @herecarry(49) @and @carry(46) @then
 		@drop(49)
 		@msg(message.48)
 		@look
+		@comment("...continued into Cmd 122")
 	@elseif @isroom(23) @and @true(@get(value.flag.7)) @and @carry(46) @and @not @herecarry(57) @then
 		@drop(57)
 		@msg(message.48)
 		@look
+		@comment("...continued into Cmd 141")
 	@elseif @carry(46) @and @false(@get(value.flag.10)) @and @here(15) @then
 		@set(value.flag.10,true)
+		@comment("...continued into Cmd 150")
 	@elseif @carry(46) @then
 		@msg(message.49)
 		@set(value.flag.8,false)
@@ -831,6 +892,7 @@ command.56.11
 		@sendto(25,0)
 		@take(7)
 		@msg(message.33)
+		@comment("...continued into Cmd 136")
 	@elseif @carry(42) @then
 		@sendto(42,0)
 		@swap(item.7.location,item.0.location)
@@ -1749,6 +1811,7 @@ script.inventory
 			@if @false(@get(temp.found)) @then
 				@set(temp.found,true)
 			@endif
+			@debug(@concat("### ITEM #",$i,"\n"))
 			@msg(item.$i.longdesc)
 		@endif
 	@endfor
@@ -1786,42 +1849,40 @@ system.dont_understand
 system.do_what_with
 	DO WHAT WITH THE "{0}"?
 system.gamename
-	PirateAdventure
+	Pirate1980
 system.gametitle
-	Pirate's Adventure
+	Pirate1980
 system.intro
-	@msg(message.1002)
-	@nl
-	@msg(message.1003)
-	@nl
-	@msg(message.1004)
-	@msg(message.1005)
-	@nl
-	@msg(message.1006)
-	@nl
-	@msg(message.1007)
-	@nl
-	@msg(message.1008)
-	@nl
-	@msg(message.1009)
-	@setoutchannel("#ASK;")
-	@setoutchannel("@script(script.askrestore)")
+	@if @false(@get(system.introdone)) @then
+		@set(system.introdone,true)
+		@msg(message.1002)
+		@nl
+		@msg(message.1003)
+		@nl
+		@msg(message.1004)
+		@msg(message.1005)
+		@nl
+		@msg(message.1006)
+		@nl
+		@msg(message.1007)
+		@modmessages
+		@nl
+		@msg(message.1008)
+		@setoutchannel("{OUTCHANNEL_ENTER}")
+		@setoutchannel("@look")
+	@endif
 system.introdone
 	false
 system.itemcount
 	60
 system.messagecount
 	71
-system.player.location
-	value.room
 system.prompt
 	\n>
 system.roomcount
 	33
 system.verbnouncount
 	59
-system.version
-	2026.05.16
 system.wordsize
 	3
 value.flag.0
