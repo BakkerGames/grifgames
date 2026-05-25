@@ -1877,12 +1877,46 @@ system.itemcount
 	60
 system.messagecount
 	71
+system.pattern.item.location
+	{itemprefix}.{item}.location
+system.pattern.item.longdesc
+	{itemprefix}.{item}.longdesc
+system.pattern.item.shortdesc
+	{itemprefix}.{item}.shortdesc
+system.pattern.room.exit
+	{roomprefix}.{room}.exit.{direction}
+system.pattern.room.longdesc
+	{roomprefix}.{room}.longdesc
+system.pattern.room.shortdesc
+	{roomprefix}.{room}.shortdesc
+system.player.location
+	value.room
+system.prefix.command
+	command
+system.prefix.direction
+	direction
+system.prefix.item
+	item
+system.prefix.message
+	message,modmsg
+system.prefix.room
+	room
+system.prefix.script
+	script,background
+system.prefix.system
+	system
+system.prefix.value
+	value
+system.prefix.vocabulary
+	verb,noun,adjective,preposition,article
 system.prompt
 	\n>
 system.roomcount
 	33
 system.verbnouncount
 	59
+system.version
+	2026.05.25
 system.wordsize
 	3
 value.flag.0
