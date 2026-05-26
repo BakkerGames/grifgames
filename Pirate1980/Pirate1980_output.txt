@@ -1,0 +1,1163 @@
+ItemCount      = 60
+CommandCount   = 151
+VerbNounCount  = 59
+RoomCount      = 33
+MaxInventory   = 5
+StartRoom      = 1
+TreasureCount  = 2
+WordLength     = 3
+LightMoves     = 200
+MessageCount   = 71
+TreasureRoom   = 1
+
+Cmd   0:     80    422    342    420    340      0  16559   8850
+Cmd   1:     80    462    482    460      0      0  15712   1705
+Cmd   2:    100    521    552    540    229    220    203   8700
+Cmd   3:      3    483      0      0      0      0  15712      0
+Cmd   4:    100    284      0      0      0      0   8550      0
+Cmd   5:    100     28    663    403     40      0   8700      0
+Cmd   6:    100     48     20    660    740    220   9055  10902
+Cmd   7:    100     28     20      0      0      0   3810      0
+Cmd   8:    100      8    700    720      0      0  10868      0
+Cmd   9:    100     48     40    640    400    300   9055   8305
+Cmd  10:     25    664      0      0      0      0   4263      0
+Cmd  11:     40    104    886      0      0      0   4411      0
+Cmd  12:     80    242    502    820     80    240   9321  10109
+Cmd  13:    100      8    140     80    500      0  10262   8850
+Cmd  14:     35    421    846    420    200      0   5162      0
+Cmd  15:    100    129    120      0      0      0   6508      0
+Cmd  16:     50    242    982    820    440    240   9321   8850
+Cmd  17:     35    483     69      0      0      0  15705      0
+Cmd  18:     10    483    249      0      0      0  15706      0
+Cmd  19:     50    484   1073   1086      0      0  17661   9150
+Cmd  20:     50    204   1086      0      0      0  16711      0
+Cmd  21:     10    209   1040   1060    300   1100  10872  10050
+Cmd  22:     10    208   1040   1060     89      0  10867      0
+Cmd  23:     85    483      8      0      0      0  15719  10200
+Cmd  24:    100      8      0      0      0      0  10200      0
+Cmd  25:    100    104      0      0      0      0   8550      0
+Cmd  26:     80    462    282    280   1160      0   1422      0
+Cmd  27:    158     82     60      0      0      0   8170   9600
+Cmd  28:   4510     61      0      0      0      0    300      0
+Cmd  29:    163     22    100      0      0      0   8170   9600
+Cmd  30:   8100      0      0      0      0      0  16200      0
+Cmd  31:   4800    104    120     61      0      0  10507   8164
+Cmd  32:   4800    107    100     61     89      0  10507   8164
+Cmd  33:   4063     22      0      0      0      0    647      0
+Cmd  34:   5570    161    203    160    180      0  10870   1264
+Cmd  35:   6170    181    180    160      0      0   8302      0
+Cmd  36:   6300    104      0      0      0      0    900      0
+Cmd  37:   1529    442    465    440      0      0   7800      0
+Cmd  38:   1529    442    462      0      0      0    760   9150
+Cmd  39:    183    322    180      0      0      0   8170   9600
+Cmd  40:   1538    262    242      0      0      0   1800      0
+Cmd  41:   1538    262    245    260      0      0   7800      0
+Cmd  42:   5888    262    242      0      0      0   1800      0
+Cmd  43:   5888    262    245      0      0      0   1950      0
+Cmd  44:   6188    262    245    541    260    560   2155   7950
+Cmd  45:   5888    261      0      0      0      0   2400      0
+Cmd  46:   4088    561      0      0      0      0   2400      0
+Cmd  47:   4088    263      0      0      0      0   2713      0
+Cmd  48:   4088    562    580    109    100    249   2303   8700
+Cmd  49:   4088    249    562    108    900    240   6203   8700
+Cmd  50:   4088    248    562      0      0      0   6600      0
+Cmd  51:   4068    103     69      0      0      0    646      0
+Cmd  52:   4068    103     68      0      0      0   6600      0
+Cmd  53:   5887    342      0      0      0      0   2550      0
+Cmd  54:   5887    362      0      0      0      0   2713      0
+Cmd  55:   5887    382      0      0      0      0   2100      0
+Cmd  56:    159    382    320      0      0      0   8170   9600
+Cmd  57:   6187    342    362      0      0      0   2550      0
+Cmd  58:   6187    345    362    541    360    380   8303  10050
+Cmd  59:   3461    503      0      0      0      0    172      0
+Cmd  60:   3750      0      0      0      0      0   9900      0
+Cmd  61:   1528      0      0      0      0      0   9900      0
+Cmd  62:   4108   1143   1012      0      0      0    646      0
+Cmd  63:   6450      0      0      0      0      0   2853      0
+Cmd  64:   4510     66      0      0      0      0   2720      0
+Cmd  65:   4950      0      0      0      0      0   9750      0
+Cmd  66:   5114      0      0      0      0      0  10650      0
+Cmd  67:   7092    592      0      0      0      0   2745      0
+Cmd  68:    185    284    140      0      0      0   8156  10564
+Cmd  69:   4098   1054      0      0      0      0    647  17550
+Cmd  70:   4098   1053      0      0      0      0    647  17400
+Cmd  71:   4083    322      0      0      0      0    647      0
+Cmd  72:   4095    762      0      0      0      0    647      0
+Cmd  73:    195    782    921      0      0      0   2727      0
+Cmd  74:    195    762    261      0      0      0   2727      0
+Cmd  75:   6900      0      0      0      0      0   9450      0
+Cmd  76:   1526    602      0      0      0      0   2723      0
+Cmd  77:   1541    621    602    640    520    600   7853   8250
+Cmd  78:    195    782    661      0      0      0   2727      0
+Cmd  79:   7092    623    583    303    643     20   8700      0
+Cmd  80:   7092      0      0      0      0      0   3750      0
+Cmd  81:    200    722    220      0      0      0  10554   9600
+Cmd  82:    195    762     61      0      0      0   2727      0
+Cmd  83:   4050      0      0      0      0      0  10564      0
+Cmd  84:   1526    523    520      0      0      0   7800      0
+Cmd  85:    195    762    340      0      0      0   8126   8464
+Cmd  86:    195    782    360      0      0      0   8157  10564
+Cmd  87:   7530    404    242   1053     89      0  17250      0
+Cmd  88:   4800      0      0      0      0      0    450      0
+Cmd  89:   5868    103    200     69     60      0   4553   8700
+Cmd  90:   5868     68      0      0      0      0    494      0
+Cmd  91:   1546    146      0      0      0      0   4800      0
+Cmd  92:   1546    802    141    140    840      0   8302      0
+Cmd  93:   2746    841    840    140      0      0   8302   4950
+Cmd  94:   3496    802      0      0      0      0    811      0
+Cmd  95:   3496    841    840    140      0      0    811   8302
+Cmd  96:   7366    822    820    240    400      0   5305   9300
+Cmd  97:   5861    503      0      0      0      0   2100      0
+Cmd  98:   8411    501    500    140      0      0   5459   7833
+Cmd  99:    192    742    400      0      0      0   8170   9600
+Cmd 100:    201    404     88    420    240    242   8170   8071
+Cmd 101:    201    404     89    120      0      0   8170   9600
+Cmd 102:   7530    404    245      0      0      0   2737      0
+Cmd 103:   7530    404    912      0      0      0   2738      0
+Cmd 104:   7530    404     89     80    740    420   5908   9300
+Cmd 105:   7530    404     88     80    740    120   5910   9300
+Cmd 106:   7671      0      0      0      0      0   6000      0
+Cmd 107:   4553    903      0      0      0      0   6300      0
+Cmd 108:   1350      0      0      0      0      0   6000      0
+Cmd 109:   1510     62     60      0      0      0   7800      0
+Cmd 110:   5860     63      0      0      0      0  18000      0
+Cmd 111:    201    404     88    420      0      0   8170   9600
+Cmd 112:    186    284    360      0      0      0   8170   9600
+Cmd 113:   1539    482    242      0      0      0   1800      0
+Cmd 114:   1539    482    480      0      0      0   7904  16800
+Cmd 115:    194    682    300      0      0      0   8170   9600
+Cmd 116:    174    149    464    140      0      0   8751      0
+Cmd 117:    174    160      0      0      0      0   8751      0
+Cmd 118:   7800    444    940    921    952      0  10548   8014
+Cmd 119:   7800    124    921      0      0      0   7350      0
+Cmd 120:   7800    424    992    980    921      0  10553   7264
+Cmd 121:   8250    104      0      0      0      0  10505   9600
+Cmd 122:   7800    464    148   1140    921   1152  10553   7264
+Cmd 123:   1541    643    640      0      0      0   7800      0
+Cmd 124:    163    104     40      0      0      0   8170   9600
+Cmd 125:   6300     44      0      0      0      0  15450      0
+Cmd 126:   4534    583      0      0      0      0   4650      0
+Cmd 127:   6187    702    541      0      0      0   2713  16050
+Cmd 128:   5887    702      0      0      0      0   2713      0
+Cmd 129:   5887      0    722      0      0      0   2100      0
+Cmd 130:    198   1022    480      0      0      0   8170   9600
+Cmd 131:    157      2     24     40      0      0   8170   9600
+Cmd 132:   1510     44     60     40     80     85   7801  10800
+Cmd 133:   1532    302    208    300      0      0   7800      0
+Cmd 134:   1532    302    209      0      0      0   2813      0
+Cmd 135:   1532    305      0      0      0      0  10518   7564
+Cmd 136:   8411    841    840    140      0      0   8922      0
+Cmd 137:    165   1122    500      0      0      0   8170   9600
+Cmd 138:   1392      0      0      0      0      0   6000      0
+Cmd 139:   6300    284      0      0      0      0  16350      0
+Cmd 140:   8582      0      0      0      0      0  17700      0
+Cmd 141:   7800    921    209    302    200      0   8700      0
+Cmd 142:   7950      0      0      0      0      0   2700      0
+Cmd 143:   5908    621   1143   1000      0      0   4553      0
+Cmd 144:   5266      0      0      0      0      0   1800      0
+Cmd 145:   6300    224      0      0      0      0  17517  17850
+Cmd 146:   1200      0      0      0      0      0  17100      0
+Cmd 147:   6300    124      0      0      0      0  16350      0
+Cmd 148:   4350    208   1040   1060      0      0  10919      0
+Cmd 149:   6300    184    242      0      0      0   3600      0
+Cmd 150:   7800    921    160    140      0      0   7410   9000
+Cmd 151:   6300      0      0      0      0      0    450      0
+
+Verb  0: AUT    Noun  0: ANY
+Verb  1: GO     Noun  1: NORTH
+Verb  2: *CLI   Noun  2: SOUTH
+Verb  3: *WAL   Noun  3: EAST
+Verb  4: *RUN   Noun  4: WEST
+Verb  5: *ENT   Noun  5: UP
+Verb  6: *PAC   Noun  6: DOWN
+Verb  7: *FOL   Noun  7: STA
+Verb  8: SAY    Noun  8: PAS
+Verb  9: SAI    Noun  9: HAL
+Verb 10: GET    Noun 10: BOO
+Verb 11: *TAK   Noun 11: BOT
+Verb 12: *CAT   Noun 12: *RUM
+Verb 13: *PIC   Noun 13: WIN
+Verb 14: *REM   Noun 14: GAM
+Verb 15: *WEA   Noun 15: MON
+Verb 16: *PUL   Noun 16: PIR
+Verb 17: FLY    Noun 17: ARO
+Verb 18: DRO    Noun 18: BAG
+Verb 19: *REL   Noun 19: *DUF
+Verb 20: *THR   Noun 20: TOR
+Verb 21: *LEA   Noun 21: OFF
+Verb 22: *GIV   Noun 22: MAT
+Verb 23: DRI    Noun 23: YOH
+Verb 24: *EAT   Noun 24: 30
+Verb 25: INV    Noun 25: LUM
+Verb 26: SAI    Noun 26: RUG
+Verb 27: LOO    Noun 27: KEY
+Verb 28: *SHO   Noun 28: INV
+Verb 29: WAI    Noun 29: DUB
+Verb 30: REA    Noun 30: SAI
+Verb 31: .      Noun 31: FIS
+Verb 32: YOH    Noun 32: ANC
+Verb 33: SCO    Noun 33: SHA
+Verb 34: SAV    Noun 34: PLA
+Verb 35: KIL    Noun 35: CAV
+Verb 36: *ATT   Noun 36: PAT
+Verb 37: LIG    Noun 37: DOO
+Verb 38: .      Noun 38: CHE
+Verb 39: OPE    Noun 39: PAR
+Verb 40: *SMA   Noun 40: HAM
+Verb 41: UNL    Noun 41: NAI
+Verb 42: HEL    Noun 42: BOA
+Verb 43: AWA    Noun 43: *SHI
+Verb 44: *BUN   Noun 44: SHE
+Verb 45:        Noun 45: CRA
+Verb 46: QUI    Noun 46: WAT
+Verb 47: BUI    Noun 47: *SAL
+Verb 48: *MAK   Noun 48: LAG
+Verb 49: WAK    Noun 49: *TID
+Verb 50: SET    Noun 50: PIT
+Verb 51: CAS    Noun 51: SHO
+Verb 52: DIG    Noun 52: *BEA
+Verb 53: BUR    Noun 53: MAP
+Verb 54: FIN    Noun 54: PAC
+Verb 55: JUM    Noun 55: BON
+Verb 56: EMP    Noun 56: HOL
+Verb 57: WEI    Noun 57: SAN
+Verb 58:        Noun 58: BOX
+Verb 59:        Noun 59: SNE
+
+Room  0: 
+
+Room  1: APARTMENT IN LONDON
+
+Room  2: ALCOVE
+         D:     1
+
+Room  3: SECRET PASSAGEWAY
+         E:     4
+         W:     2
+
+Room  4: MUSTY ATTIC
+         W:     3
+
+Room  5: *I'M OUTSIDE AN OPEN WINDOW ON A LEDGE ON THE SIDE OF A\\VERY TALL BUILDING
+
+Room  6: SANDY BEACH ON A TROPICAL ISLE
+         E:     8
+
+Room  7: MAZE OF CAVES
+         S:    12
+         E:    13
+         W:    14
+         D:    11
+
+Room  8: MEADOW
+         E:    14
+         W:     6
+
+Room  9: GRASS SHACK
+         W:     8
+
+Room 10: *I'M IN THE OCEAN
+         N:    10
+         S:    24
+         E:    10
+         W:    10
+
+Room 11: PIT
+         U:     7
+
+Room 12: MAZE OF CAVES
+         N:     7
+         E:    14
+         W:    13
+
+Room 13: MAZE OF CAVES
+         N:     7
+         S:    14
+         E:    12
+         W:    19
+
+Room 14: *I'M AT THE FOOT OF A CAVE RIDDEN HILL.\\A PATH LEADS TO THE TOP
+         W:     8
+
+Room 15: TOOL SHED
+         N:    17
+
+Room 16: LONG HALLWAY
+         E:    17
+
+Room 17: LARGE CAVERN
+         W:    16
+
+Room 18: *I'M ON TOP OF A HILL. BELOW IS PIRATES ISLAND. ACROSS THE SEA\\OFF IN THE DISTANCE I SEE *TREASURE* ISLAND
+         D:    14
+
+Room 19: MAZE OF CAVES
+         S:    14
+         E:    14
+         W:    13
+
+Room 20: *I'M ABOARD PIRATE SHIP ANCHORED OFF SHORE
+
+Room 21: *I'M ON THE BEACH AT TREASURE ISLAND
+         S:    22
+
+Room 22: SPOOKY OLD GRAVEYARD FILLED WITH PILES\\OF EMPTY AND BROKEN RUM BOTTLES
+         N:    21
+         E:    23
+
+Room 23: LARGE BARREN FIELD
+         W:    22
+
+Room 24: SHALLOW LAGOON.\\TO THE NORTH IS THE OCEAN
+         N:    10
+         S:     6
+         E:     6
+         W:     6
+
+Room 25: SACKED AND DESERTED MONASTARY
+         W:    23
+
+Room 26: 
+
+Room 27: 
+
+Room 28: 
+
+Room 29: 
+
+Room 30: 
+
+Room 31: 
+
+Room 32: .
+
+Room 33: *WELCOME TO NEVER NEVER LAND
+
+Msg   0: 
+Msg   1: THERE'S A STRANGE SOUND
+Msg   2: THE NAME OF THE BOOK IS -TREASURE ISLAND-\\THERE'S A WORD ENGRAVED IN THE FLYLEAF -YOHO-\\AND A MESSAGE -LONG JOHN SILVER LEFT 2 TREASURES ON TREASURE\\ISLAND!-
+Msg   3: NOTHING HAPPENS
+Msg   4: THERE'S SOMETHING THERE ALRIGHT. MAYBE I SHOULD
+Msg   5: THAT'S NOT VERY SAFE
+Msg   6: YOU MAY NEED MAGIC HERE
+Msg   7: EVERYTHING SPINS AROUND AND SUDDENLY YOU ARE ELSEWHERE...
+Msg   8: TORCH IS LIT
+Msg   9: I WAS WRONG. I GUESS ITS NOT A MONGOOSE CAUSE THE SNAKES BIT IT.
+Msg  10: I'M SNAKE BIT
+Msg  11: PARROT ATTACKS SNAKES AND DRIVES THEM OFF
+Msg  12: PIRATE WON'T LET ME
+Msg  13: ITS LOCKED
+Msg  14: ITS OPEN
+Msg  15: THERE ARE A SET OF PLANS IN IT
+Msg  16: NOT WHILE I'M CARRYING IT
+Msg  17: CROCS STOP ME
+Msg  18: SORRY I CAN'T
+Msg  19: WRONG GAME YOU SILLY GOOSE!
+Msg  20: I DON'T HAVE IT
+Msg  21: PIRATE GRABS RUM AND SCUTTLES OFF CHORTLING
+Msg  22: ...I THINK ITS ME. HEE HEE.
+Msg  23: ITS NAILED TO THE FLOOR!
+Msg  24: -MAGIC WORD- HO AND A ...      (WORK ON IT. YOU'LL GET IT)
+Msg  25: NO. SOMETHING IS MISSING!
+Msg  26: IT WAS A TIGHT SQUEEZE!
+Msg  27: SOMETHING WON'T FIT
+Msg  28: SINCE NOTHING IS HAPPENING
+Msg  29: I SLIPPED AND FELL...
+Msg  30: SOMETHING FALLS OUT
+Msg  31: THEY'RE PLANS TO BUILD JOLLY ROGER (A PIRATE SHIP!)\\YOU'LL NEED HAMMER NAILS LUMBER ANCHOR SAILS AND KEEL.
+Msg  32: I'VE NO CONTAINER
+Msg  33: IT SOAKS INTO THE GROUND
+Msg  34: TOO DRY. FISH VANISH.
+Msg  35: PIRATE AWAKENS. SAYS -AYE MATEY WE BE CASTING OFF SOON-\\HE THEN VANISHES\\
+Msg  36: WHAT A WASTE...
+Msg  37: I'VE NO CREW
+Msg  38: PIRATE SAYS -AYE MATEY WE BE NEEDING A MAP FIRST-
+Msg  39: AFTER A MONTH AT SEA WE SET ANCHOR OFF OF A SANDY BEACH.\\ALL ASHORE WHO'S GOING ASHORE...
+Msg  40: TRY -WEIGH ANCHOR-
+Msg  41: THERE'S A MAP IN IT
+Msg  42: ITS A MAP TO TREASURE ISLAND. AT THE BOTTOM IT SAYS\\        -30 PACES AND THEN DIG!-
+Msg  43: * WELCOME TO -PIRATES ADVENTURE- BY SCOTT & ALEXIS ADAMS *\\
+Msg  44: ITS EMPTY
+Msg  45: I'VE NO PLANS!
+Msg  46: OPEN IT?
+Msg  47: GO THERE?
+Msg  48: I FOUND SOMETHING!
+Msg  49: I DIDN'T FIND ANYTHING
+Msg  50: I DON'T SEE IT HERE
+Msg  51: OK I WALKED OFF 30 PACES.
+Msg  52: CONGRATULATIONS !!!\\BUT YOUR ADVENTURE IS NOT OVER YET...\\
+Msg  53: READING EXPANDS THE MIND
+Msg  54: THE PARROT CRYS
+Msg  55: -CHECK THE BAG MATEY-
+Msg  56: -CHECK THE CHEST MATEY-
+Msg  57: FROM THE OTHER SIDE!
+Msg  58: OPEN THE BOOK!
+Msg  59: THERE'S MULTIPLE EXITS HERE!
+Msg  60: CROCS EAT FISH AND LEAVE
+Msg  61: I'M UNDERWATER. I CAN'T SWIM. BLUB BLUB...
+Msg  62: -PIECES OF EIGHT-
+Msg  63: ITS STUCK IN THE SAND
+Msg  64: USE 1 WORD
+Msg  65: PIRATE SAYS -AYE MATEY WE BE WAITING FOR THE TIDE TO COME IN-
+Msg  66: THE TIDE IS OUT
+Msg  67: THE TIDE IS COMING IN
+Msg  68: ABOUT 20 POUNDS. TRY -SET SAIL-
+Msg  69: -TIDES A CHANGING MATEY-
+Msg  70: NOTE HERE -I BE LIKING PARROTS. THEY BE SMART MATEY-
+Msg  71: PIRATE FOLLOWS YOU ASHORE AS IF HE IS WAITING FOR SOMETHING.
+
+Item  0: Loc:  1 - FLIGHT OF STAIRS
+Item  1: Loc:  2 - OPEN WINDOW
+Item  2: Loc:  2 - BOOKS IN A BOOKCASE
+Item  3: Loc:  0 - LARGE LEATHER BOUND BOOK/BOO/
+Item  4: Loc:  0 - BOOKCASE WITH A SECRET PASSAGE BEHIND IT
+Item  5: Loc:  4 - PIRATE'S DUFFLE BAG/BAG/
+Item  6: Loc:  1 - SIGN ON WALL -RETURN TREASURES HERE. SAY SCORE-\\SIGN BY STAIRS -ANTONYM OF LIGHT IS UNLIGHT-
+Item  7: Loc:  0 - EMPTY BOTTLE/BOT/
+Item  8: Loc:  4 - UNLIT TORCH/TOR/
+Item  9: Loc:  0 - LIT TORCH/TOR/
+Item 10: Loc:  0 - MATCHES/MAT/
+Item 11: Loc:  6 - SMALL SHIP'S KEEL AND MAST
+Item 12: Loc:  9 - WICKED LOOKING PIRATE
+Item 13: Loc:  9 - TREASURE CHEST/CHE/
+Item 14: Loc:  8 - MONGOOSE/MON/
+Item 15: Loc: 24 - RUSTY ANCHOR/ANC/
+Item 16: Loc:  8 - GRASS SHACK
+Item 17: Loc: 11 - MEAN AND HUNGRY LOOKING CROCODILES
+Item 18: Loc: 11 - LOCKED DOOR
+Item 19: Loc:  0 - OPEN DOOR WITH HALL BEYOND
+Item 20: Loc: 17 - PILE OF SAILS/SAI/
+Item 21: Loc: 10 - FISH/FIS/
+Item 22: Loc: 25 - *DUBLEONS*/DUB/
+Item 23: Loc: 25 - DEADLY MAMBA SNAKES/SNA/
+Item 24: Loc:  9 - PARROT/PAR/
+Item 25: Loc:  1 - BOTTLE OF RUM/BOT/
+Item 26: Loc:  0 - RUG/RUG/
+Item 27: Loc:  0 - RING OF KEYS/KEY/
+Item 28: Loc:  0 - OPEN TREASURE CHEST/CHE/
+Item 29: Loc:  0 - SET OF PLANS/PLA/
+Item 30: Loc:  1 - RUG
+Item 31: Loc: 15 - CLAW HAMMER/HAM/
+Item 32: Loc:  0 - NAILS/NAI/
+Item 33: Loc: 17 - PILE OF PRECUT LUMBER/LUM/
+Item 34: Loc: 17 - TOOL SHED
+Item 35: Loc: 16 - LOCKED DOOR
+Item 36: Loc:  0 - OPEN DOOR WITH PIT BEYOND
+Item 37: Loc:  0 - PIRATE SHIP
+Item 38: Loc: 18 - ROCK WALL WITH NARROW CRACK IN IT
+Item 39: Loc: 17 - NARROW CRACK IN THE ROCK
+Item 40: Loc: 10 - SALT WATER
+Item 41: Loc:  0 - SLEEPING PIRATE
+Item 42: Loc:  0 - BOTTLE OF SALT WATER/BOT/
+Item 43: Loc:  4 - PIECES OF BROKEN RUM BOTTLES
+Item 44: Loc:  1 - NON-SKID SNEAKES/SNE/
+Item 45: Loc:  0 - MAP/MAP/
+Item 46: Loc: 15 - SHOVEL/SHO/
+Item 47: Loc:  0 - MOULDY OLD BONES/BON/
+Item 48: Loc:  6 - SAND/SAN/
+Item 49: Loc:  0 - BOTTLES OF RUM/BOT/
+Item 50: Loc:  0 - *RARE OLD PRICELESS STAMPS*/STA/
+Item 51: Loc:  6 - LAGOON
+Item 52: Loc: 24 - THE TIDE IS OUT
+Item 53: Loc:  0 - THE TIDE IS COMING IN
+Item 54: Loc: 15 - WATER WINGS/WIN/
+Item 55: Loc:  0 - FLOTSAM AND JETSAM
+Item 56: Loc: 23 - MONASTARY
+Item 57: Loc:  0 - PLAIN WOODEN BOX/BOX/
+Item 58: Loc:  0 - DEAD SQUIRREL
+Item 59: Loc:  0 - 
+Item 60: Loc:  0 - 
+
+Cmd   0 |     0    80 |    2  21   2  17   0  21   0  17   0   0 |  110  59  59   0
+                  80% | IF HERE(21="FISH")
+                      | IF HERE(17="MEAN AND HUNGRY LOOKING CRO...")
+                      | MESSAGE 60="CROCS EAT FISH AND LEAVE"
+                      | DESTROY 21="FISH"
+                      | DESTROY 17="MEAN AND HUNGRY LOOKING CRO..."
+Cmd   1 |     0    80 |    2  23   2  24   0  23   0   0   0   0 |  104 112  11  55
+                  80% | IF HERE(23="DEADLY MAMBA SNAKES")
+                      | IF HERE(24="PARROT")
+                      | MESSAGE 54="THE PARROT CRYS"
+                      | MESSAGE 62="-PIECES OF EIGHT-"
+                      | MESSAGE 11="PARROT ATTACKS SNAKES AND D..."
+                      | DESTROY 23="DEADLY MAMBA SNAKES"
+Cmd   2 |     0   100 |    1  26  12  27   0  27   9  11   0  11 |    1  53  58   0
+                 100% | IF CARRY(26="RUG")
+                      | IF NOT HERECARRY(27="RING OF KEYS")
+                      | IF FLAG(11)=FALSE
+                      | MESSAGE 1="THERE'S A STRANGE SOUND"
+                      | DROP 27="RING OF KEYS"
+                      | SET FLAG(11)=TRUE
+Cmd   3 |     0     3 |    3  24   0   0   0   0   0   0   0   0 |  104 112   0   0
+                   3% | IF HERECARRY(24="PARROT")
+                      | MESSAGE 54="THE PARROT CRYS"
+                      | MESSAGE 62="-PIECES OF EIGHT-"
+Cmd   4 |     0   100 |    4  14   0   0   0   0   0   0   0   0 |   57   0   0   0
+                 100% | IF ISROOM(14="AT THE FOOT OF A CAVE RIDDE...")
+                      | SET DARK=FALSE
+Cmd   5 |     0   100 |    8   1   3  33   3  20   0   2   0   0 |   58   0   0   0
+                 100% | IF FLAG(1)=TRUE
+                      | IF HERECARRY(33="PILE OF PRECUT LUMBER")
+                      | IF HERECARRY(20="PILE OF SAILS")
+                      | SET FLAG(2)=TRUE
+Cmd   6 |     0   100 |    8   2   0   1   0  33   0  37   0  11 |   60  55  72 102
+                 100% | IF FLAG(2)=TRUE
+                      | SET FLAG(1)=FALSE
+                      | DESTROY 33="PILE OF PRECUT LUMBER"
+                      | SWAP ITEMS 37="PIRATE SHIP" AND 11="SMALL SHIP'S KEEL AND MAST"
+                      | MESSAGE 52="CONGRATULATIONS !!!"
+Cmd   7 |     0   100 |    8   1   0   1   0   0   0   0   0   0 |   25  60   0   0
+                 100% | IF FLAG(1)=TRUE
+                      | MESSAGE 25="NO. SOMETHING IS MISSING!"
+                      | SET FLAG(1)=FALSE
+Cmd   8 |     0   100 |    8   0   0  35   0  36   0   0   0   0 |   72  68   0   0
+                 100% | IF FLAG(0)=TRUE
+                      | SWAP ITEMS 35="LOCKED DOOR" AND 36="OPEN DOOR WITH PIT BEYOND"
+                      | SET FLAG(0)=FALSE
+Cmd   9 |     0   100 |    8   2   0   2   0  32   0  20   0  15 |   60  55  55  55
+                 100% | IF FLAG(2)=TRUE
+                      | SET FLAG(2)=FALSE
+                      | DESTROY 32="NAILS"
+                      | DESTROY 20="PILE OF SAILS"
+                      | DESTROY 15="RUSTY ANCHOR"
+Cmd  10 |     0    25 |    4  33   0   0   0   0   0   0   0   0 |   28  63   0   0
+                  25% | IF ISROOM(33="WELCOME TO NEVER NEVER LAND")
+                      | MESSAGE 28="SINCE NOTHING IS HAPPENING"
+                      | QUIT
+Cmd  11 |     0    40 |    4   5   6  44   0   0   0   0   0   0 |   29  61   0   0
+                  40% | IF ISROOM(5="OUTSIDE AN OPEN WINDOW ON A...")
+                      | IF NOT CARRY(44="NON-SKID SNEAKES")
+                      | MESSAGE 29="I SLIPPED AND FELL..."
+                      | DEAD
+Cmd  12 |     0    80 |    2  12   2  25   0  41   0   4   0  12 |   62  21  67  59
+                  80% | IF HERE(12="WICKED LOOKING PIRATE")
+                      | IF HERE(25="BOTTLE OF RUM")
+                      | SEND 41="SLEEPING PIRATE" TO 4="MUSTY ATTIC"
+                      | MESSAGE 21="PIRATE GRABS RUM AND SCUTTL..."
+                      | SET FLAG(0)=TRUE
+                      | DESTROY 12="WICKED LOOKING PIRATE"
+Cmd  13 |     0   100 |    8   0   0   7   0   4   0  25   0   0 |   68  62  59   0
+                 100% | IF FLAG(0)=TRUE
+                      | SET FLAG(0)=FALSE
+                      | SEND 7="EMPTY BOTTLE" TO 4="MUSTY ATTIC"
+                      | DESTROY 25="BOTTLE OF RUM"
+Cmd  14 |     0    35 |    1  21   6  42   0  21   0  10   0   0 |   34  62   0   0
+                  35% | IF CARRY(21="FISH")
+                      | IF NOT CARRY(42="BOTTLE OF SALT WATER")
+                      | MESSAGE 34="TOO DRY. FISH VANISH."
+                      | SEND 21="FISH" TO 10="IN THE OCEAN"
+Cmd  15 |     0   100 |    9   6   0   6   0   0   0   0   0   0 |   43  58   0   0
+                 100% | IF FLAG(6)=FALSE
+                      | MESSAGE 43="* WELCOME TO -PIRATES ADVEN..."
+                      | SET FLAG(6)=TRUE
+Cmd  16 |     0    50 |    2  12   2  49   0  41   0  22   0  12 |   62  21  59   0
+                  50% | IF HERE(12="WICKED LOOKING PIRATE")
+                      | IF HERE(49="BOTTLES OF RUM")
+                      | SEND 41="SLEEPING PIRATE" TO 22="SPOOKY OLD GRAVEYARD FILLED..."
+                      | MESSAGE 21="PIRATE GRABS RUM AND SCUTTL..."
+                      | DESTROY 12="WICKED LOOKING PIRATE"
+Cmd  17 |     0    35 |    3  24   9   3   0   0   0   0   0   0 |  104 105   0   0
+                  35% | IF HERECARRY(24="PARROT")
+                      | IF FLAG(3)=FALSE
+                      | MESSAGE 54="THE PARROT CRYS"
+                      | MESSAGE 55="-CHECK THE BAG MATEY-"
+Cmd  18 |     0    10 |    3  24   9  12   0   0   0   0   0   0 |  104 106   0   0
+                  10% | IF HERECARRY(24="PARROT")
+                      | IF FLAG(12)=FALSE
+                      | MESSAGE 54="THE PARROT CRYS"
+                      | MESSAGE 56="-CHECK THE CHEST MATEY-"
+Cmd  19 |     0    50 |    4  24  13  53   6  54   0   0   0   0 |  117 111  61   0
+                  50% | IF ISROOM(24="SHALLOW LAGOON")
+                      | IF SOMEWHERE(53="THE TIDE IS COMING IN")
+                      | IF NOT CARRY(54="WATER WINGS")
+                      | MESSAGE 67="THE TIDE IS COMING IN"
+                      | MESSAGE 61="I'M UNDERWATER. I CAN'T SWI..."
+                      | DEAD
+Cmd  20 |     0    50 |    4  10   6  54   0   0   0   0   0   0 |  111  61   0   0
+                  50% | IF ISROOM(10="IN THE OCEAN")
+                      | IF NOT CARRY(54="WATER WINGS")
+                      | MESSAGE 61="I'M UNDERWATER. I CAN'T SWI..."
+                      | DEAD
+Cmd  21 |     0    10 |    9  10   0  52   0  53   0  15   0  55 |   72  72  67   0
+                  10% | IF FLAG(10)=FALSE
+                      | SWAP ITEMS 52="THE TIDE IS OUT" AND 53="THE TIDE IS COMING IN"
+                      | SWAP ITEMS 15="RUSTY ANCHOR" AND 55="FLOTSAM AND JETSAM"
+                      | SET FLAG(0)=TRUE
+Cmd  22 |     0    10 |    8  10   0  52   0  53   9   4   0   0 |   72  67   0   0
+                  10% | IF FLAG(10)=TRUE
+                      | IF FLAG(4)=FALSE
+                      | SWAP ITEMS 52="THE TIDE IS OUT" AND 53="THE TIDE IS COMING IN"
+                      | SET FLAG(0)=TRUE
+Cmd  23 |     0    85 |    3  24   8   0   0   0   0   0   0   0 |  104 119  68   0
+                  85% | IF HERECARRY(24="PARROT")
+                      | IF FLAG(0)=TRUE
+                      | MESSAGE 54="THE PARROT CRYS"
+                      | MESSAGE 69="-TIDES A CHANGING MATEY-"
+                      | SET FLAG(0)=FALSE
+Cmd  24 |     0   100 |    8   0   0   0   0   0   0   0   0   0 |   68   0   0   0
+                 100% | IF FLAG(0)=TRUE
+                      | SET FLAG(0)=FALSE
+Cmd  25 |     0   100 |    4   5   0   0   0   0   0   0   0   0 |   57   0   0   0
+                 100% | IF ISROOM(5="OUTSIDE AN OPEN WINDOW ON A...")
+                      | SET DARK=FALSE
+Cmd  26 |     0    80 |    2  23   2  14   0  14   0  58   0   0 |    9  72   0   0
+                  80% | IF HERE(23="DEADLY MAMBA SNAKES")
+                      | IF HERE(14="MONGOOSE")
+                      | MESSAGE 9="I WAS WRONG. I GUESS ITS NO..."
+                      | SWAP ITEMS 14="MONGOOSE" AND 58="DEAD SQUIRREL"
+Cmd  27 |     1     8 |    2   4   0   3   0   0   0   0   0   0 |   54  70  64   0
+             go   pas | IF HERE(4="BOOKCASE WITH A SECRET PASS...")
+                      | GOTO 3="SECRET PASSAGEWAY"
+                      | CLEARSCREEN
+                      | LOOK
+Cmd  28 |    30    10 |    1   3   0   0   0   0   0   0   0   0 |    2   0   0   0
+            rea   boo | IF CARRY(3="LARGE LEATHER BOUND BOOK")
+                      | MESSAGE 2="THE NAME OF THE BOOK IS -TR..."
+Cmd  29 |     1    13 |    2   1   0   5   0   0   0   0   0   0 |   54  70  64   0
+             go   win | IF HERE(1="OPEN WINDOW")
+                      | GOTO 5="OUTSIDE AN OPEN WINDOW ON A..."
+                      | CLEARSCREEN
+                      | LOOK
+Cmd  30 |    54     0 |    0   0   0   0   0   0   0   0   0   0 |  108   0   0   0
+            fin       | MESSAGE 58="OPEN THE BOOK!"
+Cmd  31 |    32     0 |    4   5   0   6   1   3   0   0   0   0 |   70   7  54  64
+            yoh       | IF ISROOM(5="OUTSIDE AN OPEN WINDOW ON A...")
+                      | IF CARRY(3="LARGE LEATHER BOUND BOOK")
+                      | CLEARSCREEN
+                      | MESSAGE 7="EVERYTHING SPINS AROUND AND..."
+                      | GOTO 6="SANDY BEACH ON A TROPICAL ISLE"
+                      | LOOK
+Cmd  32 |    32     0 |    7   5   0   5   1   3   9   4   0   0 |   70   7  54  64
+            yoh       | IF NOT ISROOM(5)
+                      | IF CARRY(3="LARGE LEATHER BOUND BOOK")
+                      | IF FLAG(4)=FALSE
+                      | CLEARSCREEN
+                      | MESSAGE 7="EVERYTHING SPINS AROUND AND..."
+                      | GOTO 5="OUTSIDE AN OPEN WINDOW ON A..."
+                      | LOOK
+Cmd  33 |    27    13 |    2   1   0   0   0   0   0   0   0   0 |    4  47   0   0
+            loo   win | IF HERE(1="OPEN WINDOW")
+                      | MESSAGE 4="THERE'S SOMETHING THERE ALR..."
+                      | MESSAGE 47="GO THERE?"
+Cmd  34 |    37    20 |    1   8   3  10   0   8   0   9   0   0 |   72  70   8  64
+            lig   tor | IF CARRY(8="UNLIT TORCH")
+                      | IF HERECARRY(10="MATCHES")
+                      | SWAP ITEMS 8="UNLIT TORCH" AND 9="LIT TORCH"
+                      | CLEARSCREEN
+                      | MESSAGE 8="TORCH IS LIT"
+                      | LOOK
+Cmd  35 |    41    20 |    1   9   0   9   0   8   0   0   0   0 |   55  52   0   0
+            unl   tor | IF CARRY(9="LIT TORCH")
+                      | DESTROY 9="LIT TORCH"
+                      | TAKE 8="UNLIT TORCH"
+Cmd  36 |    42     0 |    4   5   0   0   0   0   0   0   0   0 |    6   0   0   0
+            hel       | IF ISROOM(5="OUTSIDE AN OPEN WINDOW ON A...")
+                      | MESSAGE 6="YOU MAY NEED MAGIC HERE"
+Cmd  37 |    10    29 |    2  22   5  23   0  22   0   0   0   0 |   52   0   0   0
+            get   dub | IF HERE(22="*DUBLEONS*")
+                      | IF NOT HERE(23="DEADLY MAMBA SNAKES")
+                      | TAKE 22="*DUBLEONS*"
+Cmd  38 |    10    29 |    2  22   2  23   0   0   0   0   0   0 |    5  10  61   0
+            get   dub | IF HERE(22="*DUBLEONS*")
+                      | IF HERE(23="DEADLY MAMBA SNAKES")
+                      | MESSAGE 5="THAT'S NOT VERY SAFE"
+                      | MESSAGE 10="I'M SNAKE BIT"
+                      | DEAD
+Cmd  39 |     1    33 |    2  16   0   9   0   0   0   0   0   0 |   54  70  64   0
+             go   sha | IF HERE(16="GRASS SHACK")
+                      | GOTO 9="GRASS SHACK"
+                      | CLEARSCREEN
+                      | LOOK
+Cmd  40 |    10    38 |    2  13   2  12   0   0   0   0   0   0 |   12   0   0   0
+            get   che | IF HERE(13="TREASURE CHEST")
+                      | IF HERE(12="WICKED LOOKING PIRATE")
+                      | MESSAGE 12="PIRATE WON'T LET ME"
+Cmd  41 |    10    38 |    2  13   5  12   0  13   0   0   0   0 |   52   0   0   0
+            get   che | IF HERE(13="TREASURE CHEST")
+                      | IF NOT HERE(12="WICKED LOOKING PIRATE")
+                      | TAKE 13="TREASURE CHEST"
+Cmd  42 |    39    38 |    2  13   2  12   0   0   0   0   0   0 |   12   0   0   0
+            ope   che | IF HERE(13="TREASURE CHEST")
+                      | IF HERE(12="WICKED LOOKING PIRATE")
+                      | MESSAGE 12="PIRATE WON'T LET ME"
+Cmd  43 |    39    38 |    2  13   5  12   0   0   0   0   0   0 |   13   0   0   0
+            ope   che | IF HERE(13="TREASURE CHEST")
+                      | IF NOT HERE(12="WICKED LOOKING PIRATE")
+                      | MESSAGE 13="ITS LOCKED"
+Cmd  44 |    41    38 |    2  13   5  12   1  27   0  13   0  28 |   14  55  53   0
+            unl   che | IF HERE(13="TREASURE CHEST")
+                      | IF NOT HERE(12="WICKED LOOKING PIRATE")
+                      | IF CARRY(27="RING OF KEYS")
+                      | MESSAGE 14="ITS OPEN"
+                      | DESTROY 13="TREASURE CHEST"
+                      | DROP 28="OPEN TREASURE CHEST"
+Cmd  45 |    39    38 |    1  13   0   0   0   0   0   0   0   0 |   16   0   0   0
+            ope   che | IF CARRY(13="TREASURE CHEST")
+                      | MESSAGE 16="NOT WHILE I'M CARRYING IT"
+Cmd  46 |    27    38 |    1  28   0   0   0   0   0   0   0   0 |   16   0   0   0
+            loo   che | IF CARRY(28="OPEN TREASURE CHEST")
+                      | MESSAGE 16="NOT WHILE I'M CARRYING IT"
+Cmd  47 |    27    38 |    3  13   0   0   0   0   0   0   0   0 |   18  13   0   0
+            loo   che | IF HERECARRY(13="TREASURE CHEST")
+                      | MESSAGE 18="SORRY I CAN'T"
+                      | MESSAGE 13="ITS LOCKED"
+Cmd  48 |    27    38 |    2  28   0  29   9   5   0   5   9  12 |   15  53  58   0
+            loo   che | IF HERE(28="OPEN TREASURE CHEST")
+                      | IF FLAG(5)=FALSE
+                      | IF FLAG(12)=FALSE
+                      | MESSAGE 15="THERE ARE A SET OF PLANS IN IT"
+                      | DROP 29="SET OF PLANS"
+                      | SET FLAG(5)=TRUE
+Cmd  49 |    27    38 |    9  12   2  28   8   5   0  45   0  12 |   41  53  58   0
+            loo   che | IF FLAG(12)=FALSE
+                      | IF HERE(28="OPEN TREASURE CHEST")
+                      | IF FLAG(5)=TRUE
+                      | MESSAGE 41="THERE'S A MAP IN IT"
+                      | DROP 45="MAP"
+                      | SET FLAG(12)=TRUE
+Cmd  50 |    27    38 |    8  12   2  28   0   0   0   0   0   0 |   44   0   0   0
+            loo   che | IF FLAG(12)=TRUE
+                      | IF HERE(28="OPEN TREASURE CHEST")
+                      | MESSAGE 44="ITS EMPTY"
+Cmd  51 |    27    18 |    3   5   9   3   0   0   0   0   0   0 |    4  46   0   0
+            loo   bag | IF HERECARRY(5="PIRATE'S DUFFLE BAG")
+                      | IF FLAG(3)=FALSE
+                      | MESSAGE 4="THERE'S SOMETHING THERE ALR..."
+                      | MESSAGE 46="OPEN IT?"
+Cmd  52 |    27    18 |    3   5   8   3   0   0   0   0   0   0 |   44   0   0   0
+            loo   bag | IF HERECARRY(5="PIRATE'S DUFFLE BAG")
+                      | IF FLAG(3)=TRUE
+                      | MESSAGE 44="ITS EMPTY"
+Cmd  53 |    39    37 |    2  17   0   0   0   0   0   0   0   0 |   17   0   0   0
+            ope   doo | IF HERE(17="MEAN AND HUNGRY LOOKING CRO...")
+                      | MESSAGE 17="CROCS STOP ME"
+Cmd  54 |    39    37 |    2  18   0   0   0   0   0   0   0   0 |   18  13   0   0
+            ope   doo | IF HERE(18="LOCKED DOOR")
+                      | MESSAGE 18="SORRY I CAN'T"
+                      | MESSAGE 13="ITS LOCKED"
+Cmd  55 |    39    37 |    2  19   0   0   0   0   0   0   0   0 |   14   0   0   0
+            ope   doo | IF HERE(19="OPEN DOOR WITH HALL BEYOND")
+                      | MESSAGE 14="ITS OPEN"
+Cmd  56 |     1     9 |    2  19   0  16   0   0   0   0   0   0 |   54  70  64   0
+             go   hal | IF HERE(19="OPEN DOOR WITH HALL BEYOND")
+                      | GOTO 16="LONG HALLWAY"
+                      | CLEARSCREEN
+                      | LOOK
+Cmd  57 |    41    37 |    2  17   2  18   0   0   0   0   0   0 |   17   0   0   0
+            unl   doo | IF HERE(17="MEAN AND HUNGRY LOOKING CRO...")
+                      | IF HERE(18="LOCKED DOOR")
+                      | MESSAGE 17="CROCS STOP ME"
+Cmd  58 |    41    37 |    5  17   2  18   1  27   0  18   0  19 |   55  53  67   0
+            unl   doo | IF NOT HERE(17="MEAN AND HUNGRY LOOKING CRO...")
+                      | IF HERE(18="LOCKED DOOR")
+                      | IF CARRY(27="RING OF KEYS")
+                      | DESTROY 18="LOCKED DOOR"
+                      | DROP 19="OPEN DOOR WITH HALL BEYOND"
+                      | SET FLAG(0)=TRUE
+Cmd  59 |    23    11 |    3  25   0   0   0   0   0   0   0   0 |    1  22   0   0
+            dri   bot | IF HERECARRY(25="BOTTLE OF RUM")
+                      | MESSAGE 1="THERE'S A STRANGE SOUND"
+                      | MESSAGE 22="...I THINK ITS ME. HEE HEE."
+Cmd  60 |    25     0 |    0   0   0   0   0   0   0   0   0   0 |   66   0   0   0
+            inv       | INVENTORY
+Cmd  61 |    10    28 |    0   0   0   0   0   0   0   0   0   0 |   66   0   0   0
+            get   inv | INVENTORY
+Cmd  62 |    27    58 |    3  57  12  50   0   0   0   0   0   0 |    4  46   0   0
+            loo   box | IF HERECARRY(57="PLAIN WOODEN BOX")
+                      | IF NOT HERECARRY(50="*RARE OLD PRICELESS STAMPS*")
+                      | MESSAGE 4="THERE'S SOMETHING THERE ALR..."
+                      | MESSAGE 46="OPEN IT?"
+Cmd  63 |    43     0 |    0   0   0   0   0   0   0   0   0   0 |   19   3   0   0
+            awa       | MESSAGE 19="WRONG GAME YOU SILLY GOOSE!"
+                      | MESSAGE 3="NOTHING HAPPENS"
+Cmd  64 |    30    10 |    6   3   0   0   0   0   0   0   0   0 |   18  20   0   0
+            rea   boo | IF NOT CARRY(3="LARGE LEATHER BOUND BOOK")
+                      | MESSAGE 18="SORRY I CAN'T"
+                      | MESSAGE 20="I DON'T HAVE IT"
+Cmd  65 |    33     0 |    0   0   0   0   0   0   0   0   0   0 |   65   0   0   0
+            sco       | SCORE
+Cmd  66 |    34    14 |    0   0   0   0   0   0   0   0   0   0 |   71   0   0   0
+            sav   gam | SAVEGAME
+Cmd  67 |    47    42 |   12  29   0   0   0   0   0   0   0   0 |   18  45   0   0
+            bui   boa | IF NOT HERECARRY(29="SET OF PLANS")
+                      | MESSAGE 18="SORRY I CAN'T"
+                      | MESSAGE 45="I'VE NO PLANS!"
+Cmd  68 |     1    35 |    4  14   0   7   0   0   0   0   0   0 |   54  56  70  64
+             go   cav | IF ISROOM(14="AT THE FOOT OF A CAVE RIDDE...")
+                      | GOTO 7="MAZE OF CAVES"
+                      | SET DARK=TRUE
+                      | CLEARSCREEN
+                      | LOOK
+Cmd  69 |    27    48 |   14  52   0   0   0   0   0   0   0   0 |    4  47 117   0
+            loo   lag | IF NOWHERE(52="THE TIDE IS OUT")
+                      | MESSAGE 4="THERE'S SOMETHING THERE ALR..."
+                      | MESSAGE 47="GO THERE?"
+                      | MESSAGE 67="THE TIDE IS COMING IN"
+Cmd  70 |    27    48 |   13  52   0   0   0   0   0   0   0   0 |    4  47 116   0
+            loo   lag | IF SOMEWHERE(52="THE TIDE IS OUT")
+                      | MESSAGE 4="THERE'S SOMETHING THERE ALR..."
+                      | MESSAGE 47="GO THERE?"
+                      | MESSAGE 66="THE TIDE IS OUT"
+Cmd  71 |    27    33 |    2  16   0   0   0   0   0   0   0   0 |    4  47   0   0
+            loo   sha | IF HERE(16="GRASS SHACK")
+                      | MESSAGE 4="THERE'S SOMETHING THERE ALR..."
+                      | MESSAGE 47="GO THERE?"
+Cmd  72 |    27    45 |    2  38   0   0   0   0   0   0   0   0 |    4  47   0   0
+            loo   cra | IF HERE(38="ROCK WALL WITH NARROW CRACK...")
+                      | MESSAGE 4="THERE'S SOMETHING THERE ALR..."
+                      | MESSAGE 47="GO THERE?"
+Cmd  73 |     1    45 |    2  39   1  46   0   0   0   0   0   0 |   18  27   0   0
+             go   cra | IF HERE(39="NARROW CRACK IN THE ROCK")
+                      | IF CARRY(46="SHOVEL")
+                      | MESSAGE 18="SORRY I CAN'T"
+                      | MESSAGE 27="SOMETHING WON'T FIT"
+Cmd  74 |     1    45 |    2  38   1  13   0   0   0   0   0   0 |   18  27   0   0
+             go   cra | IF HERE(38="ROCK WALL WITH NARROW CRACK...")
+                      | IF CARRY(13="TREASURE CHEST")
+                      | MESSAGE 18="SORRY I CAN'T"
+                      | MESSAGE 27="SOMETHING WON'T FIT"
+Cmd  75 |    46     0 |    0   0   0   0   0   0   0   0   0   0 |   63   0   0   0
+            qui       | QUIT
+Cmd  76 |    10    26 |    2  30   0   0   0   0   0   0   0   0 |   18  23   0   0
+            get   rug | IF HERE(30="RUG")
+                      | MESSAGE 18="SORRY I CAN'T"
+                      | MESSAGE 23="ITS NAILED TO THE FLOOR!"
+Cmd  77 |    10    41 |    1  31   2  30   0  32   0  26   0  30 |   52  53  55   0
+            get   nai | IF CARRY(31="CLAW HAMMER")
+                      | IF HERE(30="RUG")
+                      | TAKE 32="NAILS"
+                      | DROP 26="RUG"
+                      | DESTROY 30="RUG"
+Cmd  78 |     1    45 |    2  39   1  33   0   0   0   0   0   0 |   18  27   0   0
+             go   cra | IF HERE(39="NARROW CRACK IN THE ROCK")
+                      | IF CARRY(33="PILE OF PRECUT LUMBER")
+                      | MESSAGE 18="SORRY I CAN'T"
+                      | MESSAGE 27="SOMETHING WON'T FIT"
+Cmd  79 |    47    42 |    3  31   3  29   3  15   3  32   0   1 |   58   0   0   0
+            bui   boa | IF HERECARRY(31="CLAW HAMMER")
+                      | IF HERECARRY(29="SET OF PLANS")
+                      | IF HERECARRY(15="RUSTY ANCHOR")
+                      | IF HERECARRY(32="NAILS")
+                      | SET FLAG(1)=TRUE
+Cmd  80 |    47    42 |    0   0   0   0   0   0   0   0   0   0 |   25   0   0   0
+            bui   boa | MESSAGE 25="NO. SOMETHING IS MISSING!"
+Cmd  81 |     1    50 |    2  36   0  11   0   0   0   0   0   0 |   70  54  64   0
+             go   pit | IF HERE(36="OPEN DOOR WITH PIT BEYOND")
+                      | CLEARSCREEN
+                      | GOTO 11="PIT"
+                      | LOOK
+Cmd  82 |     1    45 |    2  38   1   3   0   0   0   0   0   0 |   18  27   0   0
+             go   cra | IF HERE(38="ROCK WALL WITH NARROW CRACK...")
+                      | IF CARRY(3="LARGE LEATHER BOUND BOOK")
+                      | MESSAGE 18="SORRY I CAN'T"
+                      | MESSAGE 27="SOMETHING WON'T FIT"
+Cmd  83 |    27     0 |    0   0   0   0   0   0   0   0   0   0 |   70  64   0   0
+            loo       | CLEARSCREEN
+                      | LOOK
+Cmd  84 |    10    26 |    3  26   0  26   0   0   0   0   0   0 |   52   0   0   0
+            get   rug | IF HERECARRY(26="RUG")
+                      | TAKE 26="RUG"
+Cmd  85 |     1    45 |    2  38   0  17   0   0   0   0   0   0 |   54  26  56  64
+             go   cra | IF HERE(38="ROCK WALL WITH NARROW CRACK...")
+                      | GOTO 17="LARGE CAVERN"
+                      | MESSAGE 26="IT WAS A TIGHT SQUEEZE!"
+                      | SET DARK=TRUE
+                      | LOOK
+Cmd  86 |     1    45 |    2  39   0  18   0   0   0   0   0   0 |   54  57  70  64
+             go   cra | IF HERE(39="NARROW CRACK IN THE ROCK")
+                      | GOTO 18="ON TOP OF A HILL"
+                      | SET DARK=FALSE
+                      | CLEARSCREEN
+                      | LOOK
+Cmd  87 |    50    30 |    4  20   2  12  13  52   9   4   0   0 |  115   0   0   0
+            set   sai | IF ISROOM(20="ABOARD PIRATE SHIP ANCHORED...")
+                      | IF HERE(12="WICKED LOOKING PIRATE")
+                      | IF SOMEWHERE(52="THE TIDE IS OUT")
+                      | IF FLAG(4)=FALSE
+                      | MESSAGE 65="PIRATE SAYS -AYE MATEY WE B..."
+Cmd  88 |    32     0 |    0   0   0   0   0   0   0   0   0   0 |    3   0   0   0
+            yoh       | MESSAGE 3="NOTHING HAPPENS"
+Cmd  89 |    39    18 |    3   5   0  10   9   3   0   3   0   0 |   30  53  58   0
+            ope   bag | IF HERECARRY(5="PIRATE'S DUFFLE BAG")
+                      | IF FLAG(3)=FALSE
+                      | MESSAGE 30="SOMETHING FALLS OUT"
+                      | DROP 10="MATCHES"
+                      | SET FLAG(3)=TRUE
+Cmd  90 |    39    18 |    8   3   0   0   0   0   0   0   0   0 |    3  44   0   0
+            ope   bag | IF FLAG(3)=TRUE
+                      | MESSAGE 3="NOTHING HAPPENS"
+                      | MESSAGE 44="ITS EMPTY"
+Cmd  91 |    10    46 |    6   7   0   0   0   0   0   0   0   0 |   32   0   0   0
+            get   wat | IF NOT CARRY(7="EMPTY BOTTLE")
+                      | MESSAGE 32="I'VE NO CONTAINER"
+Cmd  92 |    10    46 |    2  40   1   7   0   7   0  42   0   0 |   55  52   0   0
+            get   wat | IF HERE(40="SALT WATER")
+                      | IF CARRY(7="EMPTY BOTTLE")
+                      | DESTROY 7="EMPTY BOTTLE"
+                      | TAKE 42="BOTTLE OF SALT WATER"
+Cmd  93 |    18    46 |    1  42   0  42   0   7   0   0   0   0 |   55  52  33   0
+            dro   wat | IF CARRY(42="BOTTLE OF SALT WATER")
+                      | DESTROY 42="BOTTLE OF SALT WATER"
+                      | TAKE 7="EMPTY BOTTLE"
+                      | MESSAGE 33="IT SOAKS INTO THE GROUND"
+Cmd  94 |    23    46 |    2  40   0   0   0   0   0   0   0   0 |    5  61   0   0
+            dri   wat | IF HERE(40="SALT WATER")
+                      | MESSAGE 5="THAT'S NOT VERY SAFE"
+                      | DEAD
+Cmd  95 |    23    46 |    1  42   0  42   0   7   0   0   0   0 |    5  61  55  52
+            dri   wat | IF CARRY(42="BOTTLE OF SALT WATER")
+                      | MESSAGE 5="THAT'S NOT VERY SAFE"
+                      | DEAD
+                      | DESTROY 42="BOTTLE OF SALT WATER"
+                      | TAKE 7="EMPTY BOTTLE"
+Cmd  96 |    49    16 |    2  41   0  41   0  12   0  20   0   0 |   35  55  62   0
+            wak   pir | IF HERE(41="SLEEPING PIRATE")
+                      | MESSAGE 35="PIRATE AWAKENS. SAYS -AYE M..."
+                      | DESTROY 41="SLEEPING PIRATE"
+                      | SEND 12="WICKED LOOKING PIRATE" TO 20="ABOARD PIRATE SHIP ANCHORED..."
+Cmd  97 |    39    11 |    3  25   0   0   0   0   0   0   0   0 |   14   0   0   0
+            ope   bot | IF HERECARRY(25="BOTTLE OF RUM")
+                      | MESSAGE 14="ITS OPEN"
+Cmd  98 |    56    11 |    1  25   0  25   0   7   0   0   0   0 |   36  59  52  33
+            emp   bot | IF CARRY(25="BOTTLE OF RUM")
+                      | MESSAGE 36="WHAT A WASTE..."
+                      | DESTROY 25="BOTTLE OF RUM"
+                      | TAKE 7="EMPTY BOTTLE"
+                      | MESSAGE 33="IT SOAKS INTO THE GROUND"
+Cmd  99 |     1    42 |    2  37   0  20   0   0   0   0   0   0 |   54  70  64   0
+             go   boa | IF HERE(37="PIRATE SHIP")
+                      | GOTO 20="ABOARD PIRATE SHIP ANCHORED..."
+                      | CLEARSCREEN
+                      | LOOK
+Cmd 100 |     1    51 |    4  20   8   4   0  21   0  12   2  12 |   54  70  53 121
+             go   sho | IF ISROOM(20="ABOARD PIRATE SHIP ANCHORED...")
+                      | IF FLAG(4)=TRUE
+                      | IF HERE(12="WICKED LOOKING PIRATE")
+                      | GOTO 21="ON THE BEACH AT TREASURE IS..."
+                      | CLEARSCREEN
+                      | DROP 12="WICKED LOOKING PIRATE"
+                      | MESSAGE 71="PIRATE FOLLOWS YOU ASHORE A..."
+Cmd 101 |     1    51 |    4  20   9   4   0   6   0   0   0   0 |   54  70  64   0
+             go   sho | IF ISROOM(20="ABOARD PIRATE SHIP ANCHORED...")
+                      | IF FLAG(4)=FALSE
+                      | GOTO 6="SANDY BEACH ON A TROPICAL ISLE"
+                      | CLEARSCREEN
+                      | LOOK
+Cmd 102 |    50    30 |    4  20   5  12   0   0   0   0   0   0 |   18  37   0   0
+            set   sai | IF ISROOM(20="ABOARD PIRATE SHIP ANCHORED...")
+                      | IF NOT HERE(12="WICKED LOOKING PIRATE")
+                      | MESSAGE 18="SORRY I CAN'T"
+                      | MESSAGE 37="I'VE NO CREW"
+Cmd 103 |    50    30 |    4  20  12  45   0   0   0   0   0   0 |   18  38   0   0
+            set   sai | IF ISROOM(20="ABOARD PIRATE SHIP ANCHORED...")
+                      | IF NOT HERECARRY(45="MAP")
+                      | MESSAGE 18="SORRY I CAN'T"
+                      | MESSAGE 38="PIRATE SAYS -AYE MATEY WE B..."
+Cmd 104 |    50    30 |    4  20   9   4   0   4   0  37   0  21 |   39  58  62   0
+            set   sai | IF ISROOM(20="ABOARD PIRATE SHIP ANCHORED...")
+                      | IF FLAG(4)=FALSE
+                      | MESSAGE 39="AFTER A MONTH AT SEA WE SET..."
+                      | SET FLAG(4)=TRUE
+                      | SEND 37="PIRATE SHIP" TO 21="ON THE BEACH AT TREASURE IS..."
+Cmd 105 |    50    30 |    4  20   8   4   0   4   0  37   0   6 |   39  60  62   0
+            set   sai | IF ISROOM(20="ABOARD PIRATE SHIP ANCHORED...")
+                      | IF FLAG(4)=TRUE
+                      | MESSAGE 39="AFTER A MONTH AT SEA WE SET..."
+                      | SET FLAG(4)=FALSE
+                      | SEND 37="PIRATE SHIP" TO 6="SANDY BEACH ON A TROPICAL ISLE"
+Cmd 106 |    51    21 |    0   0   0   0   0   0   0   0   0   0 |   40   0   0   0
+            cas   off | MESSAGE 40="TRY -WEIGH ANCHOR-"
+Cmd 107 |    30    53 |    3  45   0   0   0   0   0   0   0   0 |   42   0   0   0
+            rea   map | IF HERECARRY(45="MAP")
+                      | MESSAGE 42="ITS A MAP TO TREASURE ISLAN..."
+Cmd 108 |     9     0 |    0   0   0   0   0   0   0   0   0   0 |   40   0   0   0
+            sai       | MESSAGE 40="TRY -WEIGH ANCHOR-"
+Cmd 109 |    10    10 |    2   3   0   3   0   0   0   0   0   0 |   52   0   0   0
+            get   boo | IF HERE(3="LARGE LEATHER BOUND BOOK")
+                      | TAKE 3="LARGE LEATHER BOUND BOOK"
+Cmd 110 |    39    10 |    3   3   0   0   0   0   0   0   0   0 |  120   0   0   0
+            ope   boo | IF HERECARRY(3="LARGE LEATHER BOUND BOOK")
+                      | MESSAGE 70="NOTE HERE -I BE LIKING PARR..."
+Cmd 111 |     1    51 |    4  20   8   4   0  21   0   0   0   0 |   54  70  64   0
+             go   sho | IF ISROOM(20="ABOARD PIRATE SHIP ANCHORED...")
+                      | IF FLAG(4)=TRUE
+                      | GOTO 21="ON THE BEACH AT TREASURE IS..."
+                      | CLEARSCREEN
+                      | LOOK
+Cmd 112 |     1    36 |    4  14   0  18   0   0   0   0   0   0 |   54  70  64   0
+             go   pat | IF ISROOM(14="AT THE FOOT OF A CAVE RIDDE...")
+                      | GOTO 18="ON TOP OF A HILL"
+                      | CLEARSCREEN
+                      | LOOK
+Cmd 113 |    10    39 |    2  24   2  12   0   0   0   0   0   0 |   12   0   0   0
+            get   par | IF HERE(24="PARROT")
+                      | IF HERE(12="WICKED LOOKING PIRATE")
+                      | MESSAGE 12="PIRATE WON'T LET ME"
+Cmd 114 |    10    39 |    2  24   0  24   0   0   0   0   0   0 |   52 104 112   0
+            get   par | IF HERE(24="PARROT")
+                      | TAKE 24="PARROT"
+                      | MESSAGE 54="THE PARROT CRYS"
+                      | MESSAGE 62="-PIECES OF EIGHT-"
+Cmd 115 |     1    44 |    2  34   0  15   0   0   0   0   0   0 |   54  70  64   0
+             go   she | IF HERE(34="TOOL SHED")
+                      | GOTO 15="TOOL SHED"
+                      | CLEARSCREEN
+                      | LOOK
+Cmd 116 |     1    24 |    9   7   4  23   0   7   0   0   0   0 |   58  51   0   0
+             go    30 | IF FLAG(7)=FALSE
+                      | IF ISROOM(23="LARGE BARREN FIELD")
+                      | SET FLAG(7)=TRUE
+                      | MESSAGE 51="OK I WALKED OFF 30 PACES."
+Cmd 117 |     1    24 |    0   8   0   0   0   0   0   0   0   0 |   58  51   0   0
+             go    30 | SET FLAG(8)=TRUE
+                      | MESSAGE 51="OK I WALKED OFF 30 PACES."
+Cmd 118 |    52     0 |    4  22   0  47   1  46  12  47   0   0 |   70  48  53  64
+            dig       | IF ISROOM(22="SPOOKY OLD GRAVEYARD FILLED...")
+                      | IF CARRY(46="SHOVEL")
+                      | IF NOT HERECARRY(47="MOULDY OLD BONES")
+                      | CLEARSCREEN
+                      | MESSAGE 48="I FOUND SOMETHING!"
+                      | DROP 47="MOULDY OLD BONES"
+                      | LOOK
+Cmd 119 |    52     0 |    4   6   1  46   0   0   0   0   0   0 |   49   0   0   0
+            dig       | IF ISROOM(6="SANDY BEACH ON A TROPICAL ISLE")
+                      | IF CARRY(46="SHOVEL")
+                      | MESSAGE 49="I DIDN'T FIND ANYTHING"
+Cmd 120 |    52     0 |    4  21  12  49   0  49   1  46   0   0 |   70  53  48  64
+            dig       | IF ISROOM(21="ON THE BEACH AT TREASURE IS...")
+                      | IF NOT HERECARRY(49="BOTTLES OF RUM")
+                      | IF CARRY(46="SHOVEL")
+                      | CLEARSCREEN
+                      | DROP 49="BOTTLES OF RUM"
+                      | MESSAGE 48="I FOUND SOMETHING!"
+                      | LOOK
+Cmd 121 |    55     0 |    4   5   0   0   0   0   0   0   0   0 |   70   5  64   0
+            jum       | IF ISROOM(5="OUTSIDE AN OPEN WINDOW ON A...")
+                      | CLEARSCREEN
+                      | MESSAGE 5="THAT'S NOT VERY SAFE"
+                      | LOOK
+Cmd 122 |    52     0 |    4  23   8   7   0  57   1  46  12  57 |   70  53  48  64
+            dig       | IF ISROOM(23="LARGE BARREN FIELD")
+                      | IF FLAG(7)=TRUE
+                      | IF CARRY(46="SHOVEL")
+                      | IF NOT HERECARRY(57="PLAIN WOODEN BOX")
+                      | CLEARSCREEN
+                      | DROP 57="PLAIN WOODEN BOX"
+                      | MESSAGE 48="I FOUND SOMETHING!"
+                      | LOOK
+Cmd 123 |    10    41 |    3  32   0  32   0   0   0   0   0   0 |   52   0   0   0
+            get   nai | IF HERECARRY(32="NAILS")
+                      | TAKE 32="NAILS"
+Cmd 124 |     1    13 |    4   5   0   2   0   0   0   0   0   0 |   54  70  64   0
+             go   win | IF ISROOM(5="OUTSIDE AN OPEN WINDOW ON A...")
+                      | GOTO 2="ALCOVE"
+                      | CLEARSCREEN
+                      | LOOK
+Cmd 125 |    42     0 |    4   2   0   0   0   0   0   0   0   0 |  103   0   0   0
+            hel       | IF ISROOM(2="ALCOVE")
+                      | MESSAGE 53="READING EXPANDS THE MIND"
+Cmd 126 |    30    34 |    3  29   0   0   0   0   0   0   0   0 |   31   0   0   0
+            rea   pla | IF HERECARRY(29="SET OF PLANS")
+                      | MESSAGE 31="THEY'RE PLANS TO BUILD JOLL..."
+Cmd 127 |    41    37 |    2  35   1  27   0   0   0   0   0   0 |   18  13 107   0
+            unl   doo | IF HERE(35="LOCKED DOOR")
+                      | IF CARRY(27="RING OF KEYS")
+                      | MESSAGE 18="SORRY I CAN'T"
+                      | MESSAGE 13="ITS LOCKED"
+                      | MESSAGE 57="FROM THE OTHER SIDE!"
+Cmd 128 |    39    37 |    2  35   0   0   0   0   0   0   0   0 |   18  13   0   0
+            ope   doo | IF HERE(35="LOCKED DOOR")
+                      | MESSAGE 18="SORRY I CAN'T"
+                      | MESSAGE 13="ITS LOCKED"
+Cmd 129 |    39    37 |    0   0   2  36   0   0   0   0   0   0 |   14   0   0   0
+            ope   doo | IF HERE(36="OPEN DOOR WITH PIT BEYOND")
+                      | MESSAGE 14="ITS OPEN"
+Cmd 130 |     1    48 |    2  51   0  24   0   0   0   0   0   0 |   54  70  64   0
+             go   lag | IF HERE(51="LAGOON")
+                      | GOTO 24="SHALLOW LAGOON"
+                      | CLEARSCREEN
+                      | LOOK
+Cmd 131 |     1     7 |    2   0   4   1   0   2   0   0   0   0 |   54  70  64   0
+             go   sta | IF HERE(0="FLIGHT OF STAIRS")
+                      | IF ISROOM(1="APARTMENT IN LONDON")
+                      | GOTO 2="ALCOVE"
+                      | CLEARSCREEN
+                      | LOOK
+Cmd 132 |    10    10 |    4   2   0   3   0   2   0   4   5   4 |   52   1  72   0
+            get   boo | IF ISROOM(2="ALCOVE")
+                      | IF NOT HERE(4="BOOKCASE WITH A SECRET PASS...")
+                      | TAKE 3="LARGE LEATHER BOUND BOOK"
+                      | MESSAGE 1="THERE'S A STRANGE SOUND"
+                      | SWAP ITEMS 2="BOOKS IN A BOOKCASE" AND 4="BOOKCASE WITH A SECRET PASS..."
+Cmd 133 |    10    32 |    2  15   8  10   0  15   0   0   0   0 |   52   0   0   0
+            get   anc | IF HERE(15="RUSTY ANCHOR")
+                      | IF FLAG(10)=TRUE
+                      | TAKE 15="RUSTY ANCHOR"
+Cmd 134 |    10    32 |    2  15   9  10   0   0   0   0   0   0 |   18 113   0   0
+            get   anc | IF HERE(15="RUSTY ANCHOR")
+                      | IF FLAG(10)=FALSE
+                      | MESSAGE 18="SORRY I CAN'T"
+                      | MESSAGE 63="ITS STUCK IN THE SAND"
+Cmd 135 |    10    32 |    5  15   0   0   0   0   0   0   0   0 |   70  18  50  64
+            get   anc | IF NOT HERE(15="RUSTY ANCHOR")
+                      | CLEARSCREEN
+                      | MESSAGE 18="SORRY I CAN'T"
+                      | MESSAGE 50="I DON'T SEE IT HERE"
+                      | LOOK
+Cmd 136 |    56    11 |    1  42   0  42   0   7   0   0   0   0 |   59  72   0   0
+            emp   bot | IF CARRY(42="BOTTLE OF SALT WATER")
+                      | DESTROY 42="BOTTLE OF SALT WATER"
+                      | SWAP ITEMS 7="EMPTY BOTTLE" AND 0="FLIGHT OF STAIRS"
+Cmd 137 |     1    15 |    2  56   0  25   0   0   0   0   0   0 |   54  70  64   0
+             go   mon | IF HERE(56="MONASTARY")
+                      | GOTO 25="SACKED AND DESERTED MONASTARY"
+                      | CLEARSCREEN
+                      | LOOK
+Cmd 138 |     9    42 |    0   0   0   0   0   0   0   0   0   0 |   40   0   0   0
+            sai   boa | MESSAGE 40="TRY -WEIGH ANCHOR-"
+Cmd 139 |    42     0 |    4  14   0   0   0   0   0   0   0   0 |  109   0   0   0
+            hel       | IF ISROOM(14="AT THE FOOT OF A CAVE RIDDE...")
+                      | MESSAGE 59="THERE'S MULTIPLE EXITS HERE!"
+Cmd 140 |    57    32 |    0   0   0   0   0   0   0   0   0   0 |  118   0   0   0
+            wei   anc | MESSAGE 68="ABOUT 20 POUNDS. TRY -SET S..."
+Cmd 141 |    52     0 |    1  46   9  10   2  15   0  10   0   0 |   58   0   0   0
+            dig       | IF CARRY(46="SHOVEL")
+                      | IF FLAG(10)=FALSE
+                      | IF HERE(15="RUSTY ANCHOR")
+                      | SET FLAG(10)=TRUE
+Cmd 142 |    53     0 |    0   0   0   0   0   0   0   0   0   0 |   18   0   0   0
+            bur       | MESSAGE 18="SORRY I CAN'T"
+Cmd 143 |    39    58 |    1  31   3  57   0  50   0   0   0   0 |   30  53   0   0
+            ope   box | IF CARRY(31="CLAW HAMMER")
+                      | IF HERECARRY(57="PLAIN WOODEN BOX")
+                      | MESSAGE 30="SOMETHING FALLS OUT"
+                      | DROP 50="*RARE OLD PRICELESS STAMPS*"
+Cmd 144 |    35    16 |    0   0   0   0   0   0   0   0   0   0 |   12   0   0   0
+            kil   pir | MESSAGE 12="PIRATE WON'T LET ME"
+Cmd 145 |    42     0 |    4  11   0   0   0   0   0   0   0   0 |  116 117 119   0
+            hel       | IF ISROOM(11="PIT")
+                      | MESSAGE 66="THE TIDE IS OUT"
+                      | MESSAGE 67="THE TIDE IS COMING IN"
+                      | MESSAGE 69="-TIDES A CHANGING MATEY-"
+Cmd 146 |     8     0 |    0   0   0   0   0   0   0   0   0   0 |  114   0   0   0
+            say       | MESSAGE 64="USE 1 WORD"
+Cmd 147 |    42     0 |    4   6   0   0   0   0   0   0   0   0 |  109   0   0   0
+            hel       | IF ISROOM(6="SANDY BEACH ON A TROPICAL ISLE")
+                      | MESSAGE 59="THERE'S MULTIPLE EXITS HERE!"
+Cmd 148 |    29     0 |    8  10   0  52   0  53   0   0   0   0 |   72 119   0   0
+            wai       | IF FLAG(10)=TRUE
+                      | SWAP ITEMS 52="THE TIDE IS OUT" AND 53="THE TIDE IS COMING IN"
+                      | MESSAGE 69="-TIDES A CHANGING MATEY-"
+Cmd 149 |    42     0 |    4   9   2  12   0   0   0   0   0   0 |   24   0   0   0
+            hel       | IF ISROOM(9="GRASS SHACK")
+                      | IF HERE(12="WICKED LOOKING PIRATE")
+                      | MESSAGE 24="-MAGIC WORD- HO AND A ......"
+Cmd 150 |    52     0 |    1  46   0   8   0   7   0   0   0   0 |   49  60  60   0
+            dig       | IF CARRY(46="SHOVEL")
+                      | MESSAGE 49="I DIDN'T FIND ANYTHING"
+                      | SET FLAG(8)=FALSE
+                      | SET FLAG(7)=FALSE
+Cmd 151 |    42     0 |    0   0   0   0   0   0   0   0   0   0 |    3   0   0   0
+            hel       | MESSAGE 3="NOTHING HAPPENS"
+
+// END OF FILE

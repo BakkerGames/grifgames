@@ -1868,7 +1868,7 @@ system.intro
 		@modmessages
 		@nl
 		@msg(message.1008)
-		@setoutchannel("{OUTCHANNEL_ENTER}")
+		@setoutchannel("#ENTER;")
 		@setoutchannel("@look")
 	@endif
 system.introdone
@@ -1916,7 +1916,7 @@ system.roomcount
 system.verbnouncount
 	59
 system.version
-	2026.05.25
+	2026.05.26
 system.wordsize
 	3
 value.flag.0
