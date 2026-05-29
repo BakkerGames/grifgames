@@ -1,2 +1,5 @@
+// debug.grif - GRIF format
+modmsg.debug
+	The "debug" mod is installed. Extra debug information will be displayed.
 system.debug
 	true

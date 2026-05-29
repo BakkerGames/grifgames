@@ -1,0 +1,132 @@
+background.0
+	@if @true(@get(value.norandom)) @then
+		@return
+	@endif
+	@if @rand(75) @and @carry(8) @and @not @carry(19) @then
+		@comment("FISH ESCAPE")
+		@msg(message.67)
+		@sendto(8,10)
+	@endif
+background.1
+	@if @true(@get(value.norandom)) @then
+		@return
+	@endif
+	@if @rand(10) @and @carry(21) @and @not @isroom(33) @then
+		@comment("DIE BITES")
+		@msg(message.13)
+		@set(value.flag.dark,false)
+		@goto(33)
+	@endif
+background.2
+	@if @true(@get(value.norandom)) @then
+		@return
+	@endif
+	@if @rand(10) @and @carry(20) @and @not @carry(7) @then
+		@comment("BITE INFECT")
+		@msg(message.12)
+		@take(21)
+		@sendto(20,0)
+	@endif
+background.3
+	@if @true(@get(value.norandom)) @then
+		@return
+	@endif
+	@if @rand(8) @and @herecarry(26) @and @false(@get(value.flag.17)) @then
+		@comment("BEES DIE")
+		@msg(message.17)
+		@swap(item.26.location,item.13.location)
+	@endif
+background.6
+	@if @true(@get(value.norandom)) @then
+		@return
+	@endif
+	@if @rand(5) @and @carry(7) @and @not @carry(12) @then
+		@comment("MUD OFF")
+		@msg(message.40)
+		@sendto(7,1)
+	@endif
+background.7
+	@if @true(@get(value.norandom)) @then
+		@return
+	@endif
+	@if @rand(8) @and @not @carry(20) @and @not @carry(21) @and @here(42) @and @not @carry(7) @then
+		@comment("BIT CHIG")
+		@take(20)
+		@msg(message.45)
+	@endif
+background.8
+	@if @true(@get(value.norandom)) @then
+		@return
+	@endif
+	@if @rand(8) @and @here(24) @and @not @herecarry(7) @then
+		@comment("BEE STING")
+		@msg(message.15)
+		@set(value.flag.dark,false)
+		@goto(33)
+	@endif
+background.10
+	@if @true(@get(value.norandom)) @then
+		@return
+	@endif
+	@if @rand(50) @and @carry(8) @and @not @carry(12) @then
+		@comment("FISH DIE")
+		@msg(message.48)
+		@sendto(8,0)
+		@take(55)
+	@endif
+background.12
+	@if @true(@get(value.norandom)) @then
+		@return
+	@endif
+	@if @rand(30) @and @carry(42) @and @not @carry(21) @and @not @carry(20) @and @not @carry(7) @then
+		@comment("GET CHIG")
+		@take(20)
+		@msg(message.45)
+	@endif
+background.13
+	@if @true(@get(value.norandom)) @then
+		@return
+	@endif
+	@if @rand(50) @and @here(27) @and @herecarry(7) @then
+		@comment("MUD DRAGON")
+		@msg(message.4)
+		@set(value.flag.dark,false)
+		@goto(33)
+	@endif
+command.31.65
+	@comment("res gam")
+	@script(script.restore)
+system.pattern.item.location
+	{itemprefix}.{item}.location
+system.pattern.item.longdesc
+	{itemprefix}.{item}.longdesc
+system.pattern.item.shortdesc
+	{itemprefix}.{item}.shortdesc
+system.pattern.room.exit
+	{roomprefix}.{room}.exit.{direction}
+system.pattern.room.longdesc
+	{roomprefix}.{room}.longdesc
+system.pattern.room.shortdesc
+	{roomprefix}.{room}.shortdesc
+system.player.location
+	value.room
+system.prefix.command
+	command
+system.prefix.direction
+	direction
+system.prefix.item
+	item
+system.prefix.message
+	message,modmsg
+system.prefix.room
+	room
+system.prefix.script
+	script,background
+system.prefix.system
+	system
+system.prefix.value
+	value
+system.prefix.vocabulary
+	verb,noun,adjective,preposition,article
+verb.31
+	res,loa

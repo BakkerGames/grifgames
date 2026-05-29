@@ -1,0 +1,5 @@
+// norandom.grif - GRIF format
+modmsg.norandom
+	The "norandom" mod is installed. No random events will occur.\nGood for walkthroughs!
+value.norandom
+	true
