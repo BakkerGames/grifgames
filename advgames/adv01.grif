@@ -19,13 +19,13 @@
 @inv
 	-1
 @invcount
-	@set(temp.count,0)
+	@set(_count,0)
 	@for(x,1,@get(system.itemcount))
 		@if @carry($x) @then
-			@addto(temp.count,1)
+			@addto(_count,1)
 		@endif
 	@endfor
-	@write(@get(temp.count))
+	@write(@get(_count))
 @isroom(x)
 	@eq(@room,$x)
 @look
@@ -38,13 +38,13 @@
 		@nl
 		@msg(message.obvious_exits)
 		@msg(@concat("room.",@room,".exitlist"))
-		@set(temp.found,false)
+		@set(_found,false)
 		@for(i,0,@get(system.itemcount))
 			@if @here($i) @then
-				@if @false(@get(temp.found)) @then
+				@if @false(@get(_found)) @then
 					@nl
 					@msg(message.also_see)
-					@set(temp.found,true)
+					@set(_found,true)
 				@endif
 				@debug(@concat("### ITEM #",$i))
 				@msg(item.$i.longdesc)
@@ -227,9 +227,8 @@ background.22
 	@endif
 background.intro
 	@if @false(@get(system.introdone)) @then
-		@modmessages
-		@look
-		@set(system.introdone,true)
+		@setoutchannel("#EXISTS;")
+		@setoutchannel("@script(script.intro1)")
 	@endif
 command.1.1
 	@if @gt(@get(@concat("room.",@room,".exit.n")),0) @then
@@ -432,15 +431,15 @@ command.8.57
 		@msg(message.8)
 	@endif
 command.10.*
-	@set(temp.found,false)
+	@set(_found,false)
 	@foreachlist(x,@concat("nounitem.",@get(input.noun)))
-		@if @here($x) @and @false(@get(temp.found)) @then
+		@if @here($x) @and @false(@get(_found)) @then
 			@take($x)
-			@set(temp.found,true)
+			@set(_found,true)
 			@msg(message.ok)
 		@endif
 	@endforeachlist
-	@if @false(@get(temp.found)) @then
+	@if @false(@get(_found)) @then
 		@msg(message.dont_see)
 	@endif
 command.10.10
@@ -585,15 +584,15 @@ command.14.25
 		@msg(message.22)
 	@endif
 command.18.*
-	@set(temp.found,false)
+	@set(_found,false)
 	@foreachlist(x,@concat("nounitem.",@get(input.noun)))
-		@if @carry($x) @and @false(@get(temp.found)) @then
+		@if @carry($x) @and @false(@get(_found)) @then
 			@drop($x)
-			@set(temp.found,true)
+			@set(_found,true)
 			@msg(message.ok)
 		@endif
 	@endforeachlist
-	@if @false(@get(temp.found)) @then
+	@if @false(@get(_found)) @then
 		@msg(message.not_carrying)
 	@endif
 command.18.10
@@ -2013,19 +2012,40 @@ room.33.exitlist
 	North South East West Up Down
 room.33.longdesc
 	I'm in a large misty room with strange\nunreadable letters over all the exits.
+script.intro1
+	@set(_yorn,@getinchannel)
+	@if @true(@get(_yorn)) @then
+		@writeline("\nDo you want to restore the previous saved game?")
+		@setoutchannel("#ASK;")
+		@setoutchannel("@script(script.intro2)")
+	@else
+		@script(script.intro3)
+	@endif
+script.intro2
+	@set(_yorn,@getinchannel)
+	@if @true(@get(_yorn)) @then
+		@setoutchannel("#RESTORE;")
+		@setoutchannel("@script(script.intro3)")
+	@else
+		@script(script.intro3)
+	@endif
+script.intro3
+	@modmessages
+	@look
+	@set(system.introdone,true)
 script.inventory
 	@msg(message.carrying)
-	@set(temp.found,false)
+	@set(_found,false)
 	@for(i,0,@get(system.itemcount))
 		@if @carry($i) @then
-			@if @false(@get(temp.found)) @then
-				@set(temp.found,true)
+			@if @false(@get(_found)) @then
+				@set(_found,true)
 			@endif
 			@debug(@concat("### ITEM #",$i))
 			@msg(item.$i.longdesc)
 		@endif
 	@endfor
-	@if @false(@get(temp.found)) @then
+	@if @false(@get(_found)) @then
 		@msg(message.nothing)
 	@endif
 script.restore
@@ -2035,18 +2055,18 @@ script.save
 	@setoutchannel("#SAVE;")
 	@setoutchannel("@msg(message.1024)")
 script.score
-	@set(temp.count,0)
+	@set(_count,0)
 	@for(x,1,@get(system.itemcount))
 		@if @true(@get(item.$x.treasure)) @and @eq(@get(item.$x.location),@get(value.treasureroom)) @then
-			@addto(temp.count,1)
+			@addto(_count,1)
 		@endif
 	@endfor
-	@write(@format(@get(message.score),@get(temp.count)))
+	@write(@format(@get(message.score),@get(_count)))
 	@nl
-	@set(temp.percent,@div(@mul(@get(temp.count),100),@get(value.treasurecount)))
-	@write(@format(@get(message.percent_complete),@get(temp.percent)))
+	@set(_percent,@div(@mul(@get(_count),100),@get(value.treasurecount)))
+	@write(@format(@get(message.percent_complete),@get(_percent)))
 	@nl
-	@if @eq(@get(temp.count),@get(value.treasurecount)) @then
+	@if @eq(@get(_count),@get(value.treasurecount)) @then
 		@msg(message.well_done)
 		@quit
 	@endif
