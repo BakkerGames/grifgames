@@ -29,7 +29,7 @@
 @isroom(x)
 	@eq(@room,$x)
 @look
-	@debug(@concat("### ROOM #",@room,"\n"))
+	@debug(@concat("### ROOM #",@room))
 	@if @true(@get(value.flag.dark)) @and @not @herecarry(9) @then
 		@msg(message.cant_see)
 	@else
@@ -46,7 +46,7 @@
 					@msg(message.also_see)
 					@set(temp.found,true)
 				@endif
-				@debug(@concat("### ITEM #",$i,"\n"))
+				@debug(@concat("### ITEM #",$i))
 				@msg(item.$i.longdesc)
 			@endif
 		@endfor
@@ -1810,7 +1810,7 @@ script.inventory
 			@if @false(@get(temp.found)) @then
 				@set(temp.found,true)
 			@endif
-			@debug(@concat("### ITEM #",$i,"\n"))
+			@debug(@concat("### ITEM #",$i))
 			@msg(item.$i.longdesc)
 		@endif
 	@endfor
@@ -1855,12 +1855,46 @@ system.itemcount
 	65
 system.messagecount
 	75
+system.pattern.item.location
+	{itemprefix}.{item}.location
+system.pattern.item.longdesc
+	{itemprefix}.{item}.longdesc
+system.pattern.item.shortdesc
+	{itemprefix}.{item}.shortdesc
+system.pattern.room.exit
+	{roomprefix}.{room}.exit.{direction}
+system.pattern.room.longdesc
+	{roomprefix}.{room}.longdesc
+system.pattern.room.shortdesc
+	{roomprefix}.{room}.shortdesc
+system.player.location
+	value.room
+system.prefix.command
+	command
+system.prefix.direction
+	direction
+system.prefix.item
+	item
+system.prefix.message
+	message,modmsg
+system.prefix.room
+	room
+system.prefix.script
+	script,background
+system.prefix.system
+	system
+system.prefix.value
+	value
+system.prefix.vocabulary
+	verb,noun,adjective,preposition,article
 system.prompt
 	\n>
 system.roomcount
 	33
 system.verbnouncount
 	69
+system.version
+	2026.5.30
 system.wordsize
 	3
 value.flag.0

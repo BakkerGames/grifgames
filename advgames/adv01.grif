@@ -29,7 +29,7 @@
 @isroom(x)
 	@eq(@room,$x)
 @look
-	@debug(@concat("### ROOM #",@room,"\n"))
+	@debug(@concat("### ROOM #",@room))
 	@if @true(@get(value.flag.dark)) @and @not @herecarry(9) @then
 		@msg(message.cant_see)
 	@else
@@ -2021,7 +2021,7 @@ script.inventory
 			@if @false(@get(temp.found)) @then
 				@set(temp.found,true)
 			@endif
-			@debug(@concat("### ITEM #",$i,"\n"))
+			@debug(@concat("### ITEM #",$i))
 			@msg(item.$i.longdesc)
 		@endif
 	@endfor
@@ -2104,6 +2104,8 @@ system.roomcount
 	33
 system.verbnouncount
 	69
+system.version
+	2026.5.30
 system.wordsize
 	3
 value.flag.0
