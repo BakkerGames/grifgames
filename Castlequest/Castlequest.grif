@@ -33,6 +33,8 @@
 	@look
 @here(x)
 	@eq(@get(item.$x.location),@room)
+@hereactor(x)
+	@eq(@get(actor.$x.location),@room)
 @herecarry(x)
 	@if @eq(@get(item.$x.location),@room) @or @eq(@get(item.$x.location),@inv) @then
 		@write("true")
@@ -112,6 +114,8 @@
 	@get(value.room)
 @score
 	@script(script.score)
+@sendactorto(x,y)
+	@set(actor.$x.location,$y)
 @sendto(x,y)
 	@if @carry($x) @then
 		@subto(value.numb,1)
@@ -132,6 +136,18 @@
 			@script(item.$x.aftertake)
 		@endif
 	@endif
+actor.hunchback
+	""
+actor.hunchback.location
+	35
+actor.hunchback.longdesc
+	@if @eq(@get(value.hunch),1) @then
+		@message(message.des.421)
+	@elseif @eq(@get(value.hunch),0) @and @hereactor(hunchback) @then
+		@writeline("\n  A nasty hunchback eyes you from a corner of the room.")
+	@endif
+actor.hunchback.shortdesc
+	Hunchback
 background.1
 	@script(system.intro)
 background.2

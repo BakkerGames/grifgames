@@ -2015,7 +2015,7 @@ room.33.longdesc
 script.intro1
 	@set(_yorn,@getinchannel)
 	@if @true(@get(_yorn)) @then
-		@writeline("\nDo you want to restore the previous saved game?")
+		@writeline("\nDo you want to restore the saved game?")
 		@setoutchannel("#ASK;")
 		@setoutchannel("@script(script.intro2)")
 	@else
