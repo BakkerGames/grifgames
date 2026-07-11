@@ -212,43 +212,43 @@ background.11
 	@endfor
 command.1
 	@comment("north")
-	@set(temp.nextroom,@get(@concat("room.",@room,".exit.n")))
+	@set(value.nextroom,@get(@concat("room.",@room,".exit.n")))
 	@script(script.movenextroom)
 command.2
 	@comment("ne")
-	@set(temp.nextroom,@get(@concat("room.",@room,".exit.ne")))
+	@set(value.nextroom,@get(@concat("room.",@room,".exit.ne")))
 	@script(script.movenextroom)
 command.3
 	@comment("east")
-	@set(temp.nextroom,@get(@concat("room.",@room,".exit.e")))
+	@set(value.nextroom,@get(@concat("room.",@room,".exit.e")))
 	@script(script.movenextroom)
 command.4
 	@comment("se")
-	@set(temp.nextroom,@get(@concat("room.",@room,".exit.se")))
+	@set(value.nextroom,@get(@concat("room.",@room,".exit.se")))
 	@script(script.movenextroom)
 command.5
 	@comment("south")
-	@set(temp.nextroom,@get(@concat("room.",@room,".exit.s")))
+	@set(value.nextroom,@get(@concat("room.",@room,".exit.s")))
 	@script(script.movenextroom)
 command.6
 	@comment("sw")
-	@set(temp.nextroom,@get(@concat("room.",@room,".exit.sw")))
+	@set(value.nextroom,@get(@concat("room.",@room,".exit.sw")))
 	@script(script.movenextroom)
 command.7
 	@comment("west")
-	@set(temp.nextroom,@get(@concat("room.",@room,".exit.w")))
+	@set(value.nextroom,@get(@concat("room.",@room,".exit.w")))
 	@script(script.movenextroom)
 command.8
 	@comment("nw")
-	@set(temp.nextroom,@get(@concat("room.",@room,".exit.nw")))
+	@set(value.nextroom,@get(@concat("room.",@room,".exit.nw")))
 	@script(script.movenextroom)
 command.9
 	@comment("up")
-	@set(temp.nextroom,@get(@concat("room.",@room,".exit.u")))
+	@set(value.nextroom,@get(@concat("room.",@room,".exit.u")))
 	@script(script.movenextroom)
 command.10
 	@comment("down")
-	@set(temp.nextroom,@get(@concat("room.",@room,".exit.d")))
+	@set(value.nextroom,@get(@concat("room.",@room,".exit.d")))
 	@script(script.movenextroom)
 command.11.*
 	@comment("take something")
@@ -547,12 +547,12 @@ command.12.31
 command.13
 	@comment("enter in a direction")
 	@set(temp.x,@get(@concat("room.",@room,".exit.enter")))
-	@set(temp.nextroom,@get(@concat("room.",@room,".exit.",@get(temp.x))))
+	@set(value.nextroom,@get(@concat("room.",@room,".exit.",@get(temp.x))))
 	@script(script.movenextroom)
 command.14
 	@comment("leave in a direction")
 	@set(temp.x,@get(@concat("room.",@room,".exit.leave")))
-	@set(temp.nextroom,@get(@concat("room.",@room,".exit.",@get(temp.x))))
+	@set(value.nextroom,@get(@concat("room.",@room,".exit.",@get(temp.x))))
 	@script(script.movenextroom)
 command.15
 	@comment("attack")
@@ -577,7 +577,7 @@ command.15
 	@endif
 command.15.*
 	@comment("attack something")
-	@if @not @exists(@concat("command.15.",@get(input.noun))) @then
+	@if @isnull(@concat("command.15.",@get(input.noun))) @then
 		@msg(message.1002)
 	@else
 		@script(@concat("command.15.",@get(input.noun)))
@@ -5318,15 +5318,16 @@ script.match_moves
 		@endif
 	@endif
 script.movenextroom
+	@debug(@concat("### script.movenextroom -> \"",@get(value.nextroom),"\""))
 	@if @dark @and @false(@get(system.debug)) @then
 		@msg(message.1077)
 		@dead
-	@elseif @not @exists(temp.nextroom) @or @eq(@get(temp.nextroom),0) @then
+	@elseif @isnull(@get(value.nextroom)) @or @eq(@get(value.nextroom),0) @then
 		@msg(message.1006)
-	@elseif @isscript(temp.nextroom) @then
-		@script(temp.nextroom)
+	@elseif @isscript(value.nextroom) @then
+		@script(value.nextroom)
 	@else
-		@goto(@get(temp.nextroom))
+		@goto(@get(value.nextroom))
 	@endif
 script.move_mirror_maze
 	@if @eq(@get(value.master),4) @then
@@ -5488,7 +5489,7 @@ system.prefix.vocabulary
 system.prompt
 	\n
 system.version
-	2026.05.22
+	2026.07.11
 system.wordsize
 	4
 value.bat
