@@ -208,11 +208,11 @@ command.read.message
 			@if @lt(@get(value.scuffed),2) @then
 				@write(@get(message.readable))
 				@write(".")
-				@sleep(750)
+				@sleep(500)
 				@write(".")
-				@sleep(750)
+				@sleep(500)
 				@write(".")
-				@sleep(750)
+				@sleep(500)
 				@nl
 				@nl
 				@msg(message.you_won)
@@ -222,11 +222,11 @@ command.read.message
 			@else
 				@write(@get(message.unreadable))
 				@write(".")
-				@sleep(750)
+				@sleep(500)
 				@write(".")
-				@sleep(750)
+				@sleep(500)
 				@write(".")
-				@sleep(750)
+				@sleep(500)
 				@nl
 				@nl
 				@msg(message.you_lost)
@@ -346,10 +346,14 @@ item.hook.location
 	cloakroom
 item.hook.scenery
 	true
+item.hook.shortdesc
+	hook
 item.message.location
 	bar
 item.message.scenery
 	true
+item.message.shortdesc
+	message
 message.already_carrying
 	You are already carrying that.
 message.already_hanging
@@ -454,8 +458,6 @@ noun.up
 	up,u,climb
 noun.west
 	west,w
-player.location
-	foyer
 preposition.at
 	at
 preposition.from
@@ -591,10 +593,42 @@ system.intro
 	@endif
 system.output_width
 	80
+system.pattern.item.location
+	{itemprefix}.{item}.location
+system.pattern.item.longdesc
+	{itemprefix}.{item}.longdesc
+system.pattern.item.shortdesc
+	{itemprefix}.{item}.shortdesc
+system.pattern.room.exit
+	{roomprefix}.{room}.exit.{direction}
+system.pattern.room.longdesc
+	{roomprefix}.{room}.longdesc
+system.pattern.room.shortdesc
+	{roomprefix}.{room}.shortdesc
+system.player.location
+	value.room
+system.prefix.command
+	command
+system.prefix.direction
+	direction
+system.prefix.item
+	item
+system.prefix.message
+	message,modmsg
+system.prefix.room
+	room
+system.prefix.script
+	script,background
+system.prefix.system
+	system
+system.prefix.value
+	value
+system.prefix.vocabulary
+	verb,noun,adjective,preposition,article
 system.prompt
 	\n>
 system.version
-	2026.07.11
+	2026.7.19
 value.cloakscore
 	1
 value.cloakscore.comment
