@@ -27,12 +27,13 @@
 @godir(x)
 	@debug(@concat("going to room.",@room,".exit.",$x))
 	@set(_key,@concat("room.",@room,".exit.",$x))
-	@if @isnull(@get(_key)) @then
+	@set(_newroom,@get(@get(_key)))
+	@if @isnull(@get(_newroom)) @then
 		@msg(message.cant_go)
-	@elseif @isscript(@get(_key)) @then
-		@script(@get(_key))
+	@elseif @isscript(_newroom) @then
+		@script(_newroom)
 	@else
-		@goto(@get(@get(_key)))
+		@goto(@get(_newroom))
 	@endif
 @goto(x)
 	@debug("goto $x")
@@ -628,7 +629,7 @@ system.prefix.vocabulary
 system.prompt
 	\n>
 system.version
-	2026.7.19
+	2026.8.3
 value.cloakscore
 	1
 value.cloakscore.comment
