@@ -224,7 +224,7 @@ room.33.roommap
 	@roommap.4.d
 	@roommap.5.s
 script.before_look
-	@if @true(@get(value.roommap)) @then
+	@if @istrue(@get(value.roommap)) @then
 		@script(@concat("room.",@room,".roommap"))
 	@endif
 value.roommap

@@ -450,7 +450,7 @@ room.64.roommap
 	@roommap.4.d
 	@roommap.5.swsse
 room.65.roommap
-	@if @false(@get(value.melt)) @then
+	@if @isfalse(@get(value.melt)) @then
 		@roommap.1.0
 	@else
 		@roommap.1.n
@@ -563,7 +563,7 @@ room.82.roommap
 	@roommap.5.s
 room.83.roommap
 	@roommap.1.n
-	@if @false(@get(value.prec)) @then
+	@if @isfalse(@get(value.prec)) @then
 		@roommap.2.0
 	@else
 		@roommap.2.u
@@ -575,7 +575,7 @@ room.84.roommap
 	@roommap.1.0
 	@roommap.2.0
 	@roommap.3.we
-	@if @false(@get(value.prec)) @then
+	@if @isfalse(@get(value.prec)) @then
 		@roommap.4.0
 	@else
 		@roommap.4.d
@@ -666,7 +666,7 @@ room.98.roommap
 	@roommap.4.0
 	@roommap.5.0
 room.99.roommap
-	@if @false(@get(value.masect)) @then
+	@if @isfalse(@get(value.masect)) @then
 		@roommap.1.0
 		@roommap.2.0
 		@roommap.3.0
@@ -686,7 +686,7 @@ room.100.roommap
 	@roommap.4.0
 	@roommap.5.0
 script.roomimage
-	@if @true(@get(value.roommap)) @then
+	@if @istrue(@get(value.roommap)) @then
 		@script(@concat("room.",@room,".roommap"))
 	@endif
 system.pattern.item.location

@@ -14,9 +14,9 @@ command.90
 		@write("\n  ### ITEM ")
 		@write(@substring("$i  ",0,2))
 		@write(" - Location: ")
-		@write(@substring(@concat(@get(item.$i.location),"   "),0,3))
+		@write(@substring(@concat(@get(@concat("item.",$i,".location")),"   "),0,3))
 		@write(" - ")
-		@write(@get(item.$i.shortdesc))
+		@write(@get(@concat("item.",$i,".shortdesc")))
 	@endfor
 	@nl
 modmsg.debug

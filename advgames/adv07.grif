@@ -1,17 +1,17 @@
 // adv07.grif - GRIF format
 @atstartroom(x)
-	@eq(@get(item.$x.location),@get(value.startroom))
+	@eq(@get(@concat("item.",$x,".location")),@get(value.startroom))
 @carry(x)
-	@eq(@get(item.$x.location),@inv)
+	@eq(@get(@concat("item.",$x,".location")),@inv)
 @drop(x)
 	@sendto($x,@room)
 @goto(x)
 	@debug("### Going to room $x")
 	@set(value.room,$x)
 @here(x)
-	@eq(@get(item.$x.location),@room)
+	@eq(@get(@concat("item.",$x,".location")),@room)
 @herecarry(x)
-	@if @eq(@get(item.$x.location),@room) @or @eq(@get(item.$x.location),@inv) @then
+	@if @eq(@get(@concat("item.",$x,".location")),@room) @or @eq(@get(@concat("item.",$x,".location")),@inv) @then
 		@write("true")
 	@else
 		@write("false")
@@ -29,8 +29,8 @@
 @isroom(x)
 	@eq(@room,$x)
 @look
-	@debug(@concat("### ROOM #",@room))
-	@if @true(@get(value.flag.dark)) @and @not @herecarry(9) @then
+	@debug("### ROOM #",@room)
+	@if @istrue(@get(value.flag.dark)) @and @not @herecarry(9) @then
 		@msg(message.cant_see)
 	@else
 		@script(script.before_look)
@@ -41,23 +41,23 @@
 		@set(_found,false)
 		@for(i,0,@get(system.itemcount))
 			@if @here($i) @then
-				@if @false(@get(_found)) @then
+				@if @isfalse(@get(_found)) @then
 					@nl
 					@msg(message.also_see)
 					@set(_found,true)
 				@endif
-				@debug(@concat("### ITEM #",$i))
-				@msg(item.$i.longdesc)
+				@debug("### ITEM #",$i)
+				@msg(@concat("item.",$i,".longdesc"))
 			@endif
 		@endfor
 	@endif
 @modmessages
 	@foreachkey(i,"modmsg.")
 		@nl
-		@msg(modmsg.$i)
+		@msg(@concat("modmsg.",$i))
 	@endforeachkey
 @nowhere(x)
-	@eq(@get(item.$x.location),0)
+	@eq(@get(@concat("item.",$x,".location")),0)
 @picture(x)
 	@setoutchannel("#PICTURE;",$x)
 @quit
@@ -65,15 +65,15 @@
 @room
 	@get(value.room)
 @sendto(x,y)
-	@set(item.$x.location,$y)
+	@set(@concat("item.",$x,".location"),$y)
 @sleep(x)
 	@setoutchannel("#SLEEP;",$x)
 @somewhere(x)
-	@ne(@get(item.$x.location),0)
+	@ne(@get(@concat("item.",$x,".location")),0)
 @take(x)
 	@sendto($x,@inv)
 background.0
-	@if @false(@get(value.flag.1)) @then
+	@if @isfalse(@get(value.flag.1)) @then
 		@comment("INTRO")
 		@set(value.counter,600)
 		@set(value.flag.1,true)
@@ -95,12 +95,12 @@ background.2
 		@msg(message.17)
 	@endif
 background.3
-	@if @rand(40) @and @isroom(3) @and @false(@get(value.flag.7)) @then
+	@if @rand(40) @and @isroom(3) @and @isfalse(@get(value.flag.7)) @then
 		@comment("AIR BLAST")
 		@msg(message.88)
 	@endif
 background.4
-	@if @isroom(10) @and @false(@get(value.flag.5)) @then
+	@if @isroom(10) @and @isfalse(@get(value.flag.5)) @then
 		@comment("WALL CLOSES")
 		@set(value.flag.5,true)
 		@msg(message.84)
@@ -116,7 +116,7 @@ background.6
 		@msg(message.71)
 	@endif
 background.7
-	@if @isroom(4) @and @false(@get(value.flag.5)) @then
+	@if @isroom(4) @and @isfalse(@get(value.flag.5)) @then
 		@comment("WALL")
 		@set(value.flag.5,true)
 	@endif
@@ -131,14 +131,14 @@ background.9
 		@msg(message.42)
 	@endif
 background.10
-	@if @rand(40) @and @isroom(3) @and @true(@get(value.flag.7)) @then
+	@if @rand(40) @and @isroom(3) @and @istrue(@get(value.flag.7)) @then
 		@comment("AIR BLAST HARD")
 		@msg(message.89)
 		@set(value.flag.dark,false)
 		@goto(35)
 	@endif
 background.11
-	@if @le(@get(value.counter),0) @and @false(@get(value.flag.4)) @then
+	@if @le(@get(value.counter),0) @and @isfalse(@get(value.flag.4)) @then
 		@comment("CLOSE PARK")
 		@msg(message.10)
 		@goto(1)
@@ -238,19 +238,19 @@ background.27
 		@quit
 	@endif
 background.28
-	@if @isroom(34) @and @false(@get(value.flag.15)) @then
+	@if @isroom(34) @and @isfalse(@get(value.flag.15)) @then
 		@comment("DARK")
 		@set(value.flag.dark,true)
 		@look
 	@endif
 background.29
-	@if @isroom(26) @and @true(@get(value.flag.15)) @then
+	@if @isroom(26) @and @istrue(@get(value.flag.15)) @then
 		@comment("LIGHT")
 		@set(value.flag.dark,false)
 		@look
 	@endif
 background.30
-	@if @isroom(25) @and @true(@get(value.flag.15)) @then
+	@if @isroom(25) @and @istrue(@get(value.flag.15)) @then
 		@comment("LIGHT")
 		@set(value.flag.dark,false)
 		@look
@@ -271,7 +271,7 @@ background.33
 		@swap(item.36.location,item.74.location)
 	@endif
 background.intro
-	@if @false(@get(system.introdone)) @then
+	@if @isfalse(@get(system.introdone)) @then
 		@setoutchannel("#EXISTS;")
 		@setoutchannel("@script(script.intro1)")
 	@endif
@@ -479,13 +479,13 @@ command.1.82
 command.10.*
 	@set(_found,false)
 	@foreachlist(x,@concat("nounitem.",@get(input.noun)))
-		@if @here($x) @and @false(@get(_found)) @then
+		@if @here($x) @and @isfalse(@get(_found)) @then
 			@take($x)
 			@set(_found,true)
 			@msg(message.ok)
 		@endif
 	@endforeachlist
-	@if @false(@get(_found)) @then
+	@if @isfalse(@get(_found)) @then
 		@msg(message.dont_see)
 	@endif
 command.10.6
@@ -582,13 +582,13 @@ command.16
 command.18.*
 	@set(_found,false)
 	@foreachlist(x,@concat("nounitem.",@get(input.noun)))
-		@if @carry($x) @and @false(@get(_found)) @then
+		@if @carry($x) @and @isfalse(@get(_found)) @then
 			@drop($x)
 			@set(_found,true)
 			@msg(message.ok)
 		@endif
 	@endforeachlist
-	@if @false(@get(_found)) @then
+	@if @isfalse(@get(_found)) @then
 		@msg(message.not_carrying)
 	@endif
 command.18.9
@@ -708,7 +708,7 @@ command.35.21
 	@endif
 command.35.26
 	@comment("Cmd 171 - pull red")
-	@if @here(11) @and @false(@get(value.flag.7)) @then
+	@if @here(11) @and @isfalse(@get(value.flag.7)) @then
 		@msg(message.2)
 		@set(value.flag.7,true)
 		@msg(message.96)
@@ -732,13 +732,13 @@ command.36
 	@endif
 command.36.21
 	@comment("Cmd 139 - pres blue")
-	@if @here(73) @and @true(@get(value.flag.6)) @then
+	@if @here(73) @and @istrue(@get(value.flag.6)) @then
 		@set(value.flag.6,false)
 		@msg(message.96)
 		@msg(message.77)
 		@msg(message.43)
 		@comment("...continued into Cmd 153")
-	@elseif @here(73) @and @false(@get(value.flag.6)) @then
+	@elseif @here(73) @and @isfalse(@get(value.flag.6)) @then
 		@set(value.flag.6,true)
 		@msg(message.96)
 		@msg(message.77)
@@ -746,7 +746,7 @@ command.36.21
 	@endif
 command.36.26
 	@comment("Cmd 152 - pres red")
-	@if @here(11) @and @true(@get(value.flag.7)) @then
+	@if @here(11) @and @istrue(@get(value.flag.7)) @then
 		@set(value.flag.7,false)
 		@msg(message.2)
 		@msg(message.96)
@@ -760,11 +760,11 @@ command.38
 	@msg(message.60)
 command.38.57
 	@comment("Cmd 90 - use bran")
-	@if @false(@get(value.flag.2)) @and @here(51) @and @herecarry(55) @then
+	@if @isfalse(@get(value.flag.2)) @and @here(51) @and @herecarry(55) @then
 		@msg(message.60)
 		@msg(message.61)
 		@comment("...continued into Cmd 109")
-	@elseif @herecarry(58) @and @false(@get(value.flag.2)) @and @here(51) @then
+	@elseif @herecarry(58) @and @isfalse(@get(value.flag.2)) @and @here(51) @then
 		@msg(message.2)
 		@take(54)
 		@msg(message.56)
@@ -915,7 +915,7 @@ command.44.40
 	@endif
 command.44.47
 	@comment("Cmd 96 - look grat")
-	@if @here(51) @and @false(@get(value.flag.2)) @then
+	@if @here(51) @and @isfalse(@get(value.flag.2)) @then
 		@msg(message.2)
 		@msg(message.54)
 		@msg(message.83)
@@ -980,13 +980,13 @@ command.47.66
 	@endif
 command.48
 	@comment("Cmd 165 - brea")
-	@if @false(@get(value.flag.4)) @then
+	@if @isfalse(@get(value.flag.4)) @then
 		@msg(message.10)
 		@msg(message.32)
 		@sendto(23,0)
 		@goto(1)
 		@comment("...continued into Cmd 170")
-	@elseif @true(@get(value.flag.4)) @then
+	@elseif @istrue(@get(value.flag.4)) @then
 		@msg(message.26)
 	@endif
 command.48.57
@@ -1012,12 +1012,12 @@ command.51
 		@msg(message.58)
 		@msg(message.70)
 		@comment("...continued into Cmd 134")
-	@elseif @here(34) @and @true(@get(value.flag.3)) @then
+	@elseif @here(34) @and @istrue(@get(value.flag.3)) @then
 		@msg(message.2)
 		@set(value.flag.3,false)
 		@swap(item.29.location,item.31.location)
 		@comment("...continued into Cmd 135")
-	@elseif @here(34) @and @false(@get(value.flag.3)) @then
+	@elseif @here(34) @and @isfalse(@get(value.flag.3)) @then
 		@msg(message.2)
 		@set(value.flag.3,true)
 		@swap(item.29.location,item.31.location)
@@ -1111,11 +1111,11 @@ command.64.85
 	@endif
 command.66
 	@comment("Cmd 34 - jump")
-	@if @isroom(22) @and @here(1) @and @true(@get(value.flag.6)) @then
+	@if @isroom(22) @and @here(1) @and @istrue(@get(value.flag.6)) @then
 		@msg(message.1)
 		@goto(33)
 		@comment("...continued into Cmd 37")
-	@elseif @isroom(22) @and @false(@get(value.flag.6)) @then
+	@elseif @isroom(22) @and @isfalse(@get(value.flag.6)) @then
 		@msg(message.86)
 		@msg(message.87)
 		@set(value.flag.dark,false)
@@ -2322,7 +2322,7 @@ room.35.longdesc
 	I'm in a Lot of TROUBLE!
 script.intro1
 	@set(_yorn,@getinchannel)
-	@if @true(@get(_yorn)) @then
+	@if @istrue(@get(_yorn)) @then
 		@writeline("\nDo you want to restore the saved game?")
 		@setoutchannel("#ASK;")
 		@setoutchannel("@script(script.intro2)")
@@ -2331,7 +2331,7 @@ script.intro1
 	@endif
 script.intro2
 	@set(_yorn,@getinchannel)
-	@if @true(@get(_yorn)) @then
+	@if @istrue(@get(_yorn)) @then
 		@setoutchannel("#RESTORE;")
 		@setoutchannel("@script(script.intro3)")
 	@else
@@ -2346,14 +2346,14 @@ script.inventory
 	@set(_found,false)
 	@for(i,0,@get(system.itemcount))
 		@if @carry($i) @then
-			@if @false(@get(_found)) @then
+			@if @isfalse(@get(_found)) @then
 				@set(_found,true)
 			@endif
-			@debug(@concat("### ITEM #",$i))
-			@msg(item.$i.longdesc)
+			@debug("### ITEM #",$i)
+			@msg(@concat("item.",$i,".longdesc"))
 		@endif
 	@endfor
-	@if @false(@get(_found)) @then
+	@if @isfalse(@get(_found)) @then
 		@msg(message.nothing)
 	@endif
 script.restore
@@ -2365,7 +2365,7 @@ script.save
 script.score
 	@set(_count,0)
 	@for(x,1,@get(system.itemcount))
-		@if @true(@get(item.$x.treasure)) @and @eq(@get(item.$x.location),@get(value.treasureroom)) @then
+		@if @istrue(@get(@concat("item.",$x,".treasure"))) @and @eq(@get(@concat("item.",$x,".location")),@get(value.treasureroom)) @then
 			@addto(_count,1)
 		@endif
 	@endfor
