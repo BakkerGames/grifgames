@@ -1,17 +1,17 @@
 // adv04.grif - GRIF format
 @atstartroom(x)
-	@eq(@get(@concat("item.",$x,".location")),@get(value.startroom))
+	@eq(@loc($x),@get(value.startroom))
 @carry(x)
-	@eq(@get(@concat("item.",$x,".location")),@inv)
+	@eq(@loc($x),@inv)
 @drop(x)
 	@sendto($x,@room)
 @goto(x)
-	@debug("### Going to room $x")
+	@debug("### Going to room ",$x)
 	@set(value.room,$x)
 @here(x)
-	@eq(@get(@concat("item.",$x,".location")),@room)
+	@eq(@loc($x),@room)
 @herecarry(x)
-	@if @eq(@get(@concat("item.",$x,".location")),@room) @or @eq(@get(@concat("item.",$x,".location")),@inv) @then
+	@if @eq(@loc($x),@room) @or @eq(@loc($x),@inv) @then
 		@write("true")
 	@else
 		@write("false")
@@ -28,6 +28,8 @@
 	@write(@get(_count))
 @isroom(x)
 	@eq(@room,$x)
+@loc(x)
+	@get(@concat("item.",$x,".location"))
 @look
 	@debug("### ROOM #",@room)
 	@if @istrue(@get(value.flag.dark)) @and @not @herecarry(9) @then
@@ -57,7 +59,7 @@
 		@msg(@concat("modmsg.",$i))
 	@endforeachkey
 @nowhere(x)
-	@eq(@get(@concat("item.",$x,".location")),0)
+	@eq(@loc($x),0)
 @picture(x)
 	@setoutchannel("#PICTURE;",$x)
 @quit
@@ -69,7 +71,7 @@
 @sleep(x)
 	@setoutchannel("#SLEEP;",$x)
 @somewhere(x)
-	@ne(@get(@concat("item.",$x,".location")),0)
+	@ne(@loc($x),0)
 @take(x)
 	@sendto($x,@inv)
 background.0
@@ -2081,7 +2083,7 @@ script.save
 script.score
 	@set(_count,0)
 	@for(x,1,@get(system.itemcount))
-		@if @istrue(@get(@concat("item.",$x,".treasure"))) @and @eq(@get(@concat("item.",$x,".location")),@get(value.treasureroom)) @then
+		@if @istrue(@get(@concat("item.",$x,".treasure"))) @and @eq(@loc($x),@get(value.treasureroom)) @then
 			@addto(_count,1)
 		@endif
 	@endfor
@@ -2149,7 +2151,7 @@ system.roomcount
 system.verbnouncount
 	89
 system.version
-	2026.5.30
+	2026.8.9
 system.wordsize
 	3
 value.flag.0

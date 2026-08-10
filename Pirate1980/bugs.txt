@@ -1,6 +1,0 @@
-immediately after starting the game:
-
-### ERROR: Error processing command at index 41: Invalid @if syntax
->
-
-
