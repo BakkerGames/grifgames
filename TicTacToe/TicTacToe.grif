@@ -226,7 +226,7 @@ system.prompt
 		@write(@nl,@piece(@get(value.player)),"'s turn>")
 	@endif
 system.version
-	2026.01.06
+	2026.8.9
 value.intro
 	false
 value.moves

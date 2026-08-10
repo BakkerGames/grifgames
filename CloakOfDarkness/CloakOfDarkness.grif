@@ -11,7 +11,7 @@
 		@nl
 	@endif
 @carry(x)
-	@if @eq(@getvalue(@concat("item.",$x,".location")),@inv) @then
+	@if @eq(@loc($x),@inv) @then
 		@write(true)
 	@else
 		@write(false)
@@ -44,7 +44,7 @@
 		@look
 	@endif
 @here(x)
-	@if @eq(@getvalue(@concat("item.",$x,".location")),@room) @then
+	@if @eq(@loc($x),@room) @then
 		@write(true)
 	@else
 		@write(false)
@@ -58,7 +58,7 @@
 @herechild(x)
 	@set(_here,false)
 	@foreachkey(y,"item.",".location")
-		@if @eq(@getvalue(@concat("item.",$y,".location")),@room) @and @eq(@getvalue(@concat("item.",$x,".location")),$y) @then
+		@if @eq(@loc($y),@room) @and @eq(@loc($x),$y) @then
 			@set(_here,true)
 		@endif
 	@endforeachkey
@@ -67,6 +67,8 @@
 	inventory
 @isroom(x)
 	@eq(@room,$x)
+@loc(x)
+	@getvalue(@concat("item.",$x,".location"))
 @look
 	@if @dark @then
 		@msg(message.too_dark)
@@ -170,6 +172,7 @@ command.help
 command.inventory
 	@set(_count,0)
 	@foreachkey(x,"item.",".location")
+		@debug($x," - ",@loc($x))
 		@if @carry($x) @then
 			@if @eq(@get(_count),0) @then
 				@msg(message.carrying)
@@ -629,7 +632,7 @@ system.prefix.vocabulary
 system.prompt
 	\n>
 system.version
-	2026.8.3
+	2026.8.9
 value.cloakscore
 	1
 value.cloakscore.comment
