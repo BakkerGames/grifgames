@@ -146,6 +146,11 @@ actor.hunchback.longdesc
 	@elseif @eq(@get(value.hunch),0) @and @hereactor(hunchback) @then
 		@writeline("\n  A nasty hunchback eyes you from a corner of the room.")
 	@endif
+actor.hunchback.move
+	@if @eq(@get(value.hunch),1) @and @ne(@get(actor.hunchback.location),@room) @then
+		@set(actor.hunchback.location,@room)
+		@message(message.des.421)
+	@endif
 actor.hunchback.shortdesc
 	Hunchback
 background.1
@@ -5454,42 +5459,14 @@ system.intro
 	@endif
 system.output_width
 	-1
-system.pattern.item.location
-	{itemprefix}.{item}.location
-system.pattern.item.longdesc
-	{itemprefix}.{item}.longdesc
-system.pattern.item.shortdesc
-	{itemprefix}.{item}.shortdesc
-system.pattern.room.exit
-	{roomprefix}.{room}.exit.{direction}
-system.pattern.room.longdesc
-	{roomprefix}.{room}.longdesc
-system.pattern.room.shortdesc
-	{roomprefix}.{room}.shortdesc
 system.player.location
 	value.room
-system.prefix.command
-	command
-system.prefix.direction
-	direction
-system.prefix.item
-	item
 system.prefix.message
 	message,modmsg
-system.prefix.room
-	room
-system.prefix.script
-	script,background
-system.prefix.system
-	system
-system.prefix.value
-	value
-system.prefix.vocabulary
-	verb,noun,adjective,preposition,article
 system.prompt
 	\n
 system.version
-	2026.8.23
+	2026.8.24
 system.wordsize
 	4
 value.bat

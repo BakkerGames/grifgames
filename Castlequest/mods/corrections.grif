@@ -27,43 +27,13 @@ room.25.longdesc
 	\n  You are in a storage room filled with empty cardboard boxes\n  and some large crates filled with dirt.  The door goes east.
 room.27.longdesc
 	\n  This is the mirror maze.  A myriad of mirrors reflect your\n  image in a dazzling array of light.  The reflections make it\n  impossible to discern a direction.
+room.31.longdesc
+	\n  You are in a small pantry full of various foodstuffs.  To\n  your left is a beautiful china closet filled with dishes\n  pilfered from various restaurants.  On your right is an\n  open drawer full of plastic knives and forks.
 room.80.longdesc
 	\n  You are in the remains of an old wine cellar, apparently the\n  victim of a cave in.  Casks of once fine wine lie crushed in\n  the rubble.  A battered keg of GENESEE sits off in the corner.\n  The room smells like a Rathskellar band party.  A muddy path\n  goes east, and steps lead up to a door in the ceiling.
 room.89.longdesc
 	\n  You are in an extremely cold chamber embedded deep\n  within the glacier.  Stalactites of ice hang from\n  the ceiling far above you.  An ominous tunnel leaves\n  to the west.
 room.100.longdesc
 	\n  You feel the elevator jump as you are whisked up towards\n  ground level.  You emerge in the open air in the village\n  square amidst cheers from the local villagers.  Banners\n  proclaiming the death of count Vladimir hang from most\n  of the old buildings around the square.  The mayor\n  presents you with a key to the city and makes your\n  birthday a holiday.  You watch the sun rise as you\n  bask in your newfound fame.
-system.pattern.item.location
-	{itemprefix}.{item}.location
-system.pattern.item.longdesc
-	{itemprefix}.{item}.longdesc
-system.pattern.item.shortdesc
-	{itemprefix}.{item}.shortdesc
-system.pattern.room.exit
-	{roomprefix}.{room}.exit.{direction}
-system.pattern.room.longdesc
-	{roomprefix}.{room}.longdesc
-system.pattern.room.shortdesc
-	{roomprefix}.{room}.shortdesc
-system.player.location
-	value.room
-system.prefix.command
-	command
-system.prefix.direction
-	direction
-system.prefix.item
-	item
 system.prefix.message
 	message,modmsg
-system.prefix.room
-	room
-system.prefix.script
-	script,background
-system.prefix.system
-	system
-system.prefix.value
-	value
-system.prefix.vocabulary
-	verb,noun,adjective,preposition,article
-room.31.longdesc
-	\n  You are in a small pantry full of various foodstuffs.  To\n  your left is a beautiful china closet filled with dishes\n  pilfered from various restaurants.  On your right is an\n  open drawer full of plastic knives and forks.
