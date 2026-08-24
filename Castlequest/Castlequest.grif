@@ -1171,7 +1171,7 @@ command.26
 		@endif
 		@for(i,1,@get(value.nitems))
 			@if @ne($i,8) @and @carry($i) @then
-				@write("     ",@get(@concat("item.",$i,".shortdesc")))
+				@write("     ",@getvalue(@concat("item.",$i,".shortdesc")))
 				@nl
 			@endif
 		@endfor
@@ -5489,7 +5489,7 @@ system.prefix.vocabulary
 system.prompt
 	\n
 system.version
-	2026.07.11
+	2026.8.23
 system.wordsize
 	4
 value.bat
