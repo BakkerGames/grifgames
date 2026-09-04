@@ -5,10 +5,14 @@ message.1064
 	\n  It is now pitch dark.  If you procede you may stumble and fall.
 message.1083
 	\n  Your lamp is getting dim.  Perhaps you should look for more fuel.
+message.1119
+	\n  The cyclops turns to you and says:\n     "Hey buddy!  Got a light??"
 message.hint.14
 	\n  Try opening the book by Shakespeare.
 message.hint.31
 	\n  The object of the game is to find the master of the castle\n  and kill him, while accumulating as many treasures as possible.\n  You get maximum points for depositing the treasures in the\n  vault.  Notice that the descriptions of treasures have an\n  exclamation point.  Be wary, as many dangers await you in\n  the castle.
+message.hint.32
+	\n  To supress the long room descriptions, type "BRIEF".  To\n  return to the long room descriptions, use the command "LONG".\n  "SCORE" will give you your present score in the game.  "HELP"\n  will give you a hint about an object in the room, but it will\n  cost you some points.  To end your explorations, say "QUIT".\n  Good luck. (You'll need it).
 message.hint.33
 	\n  To aid you in your travels, you may ask for a hint by\n  saying "HELP object", where "object" is the item that you\n  need help with (e.g. "HELP CROSS").  Saying "HELP ROOM"\n  will give you some help concerning the room you're in.
 message.hint.1003

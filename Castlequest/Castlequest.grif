@@ -100,6 +100,9 @@
 				@endif
 			@endif
 		@endfor
+		@if @carry(8) @then
+			@msg(message.des.421)
+		@endif
 	@endif
 @lookfull
 	@set(value.lookfull,true)
@@ -155,11 +158,11 @@ actor.hunchback.shortdesc
 	Hunchback
 background.1
 	@script(system.intro)
-background.2
-	@comment("hunchback following")
-	@if @carry(8) @then
-		@msg(message.des.421)
-	@endif
+// background.2
+//     @comment("hunchback following")
+//     @if @carry(8) @then
+//         @msg(message.des.421)
+//     @endif
 background.3
 	@comment("move hunchback around maze")
 	@if @ge(@get(item.8.location),57) @and @le(@get(item.8.location),64) @then
@@ -5466,7 +5469,7 @@ system.prefix.message
 system.prompt
 	\n
 system.version
-	2026.8.24
+	2026.9.3
 system.wordsize
 	4
 value.bat
