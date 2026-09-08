@@ -4,7 +4,7 @@
 
   Port to GRIF by Scott Bakker (C) 2024
 
-  Version 2026.8.24
+  Version 2026.9.3
 
   Welcome to CASTLEQUEST!! Would you like instructions?
 
@@ -34,7 +34,7 @@ YES
   "SCORE" will give you your present score in the game.  "HELP"
   will give you a hint about an object in the room, but it will
   cost you some points.  To end your explorations, say "QUIT".
-  Good luck. (you'll need it).
+  Good luck. (You'll need it).
 
   Would you like more detailed instructions?
 
@@ -1338,7 +1338,7 @@ W
 THROW CIGAR
 
   The cyclops turns to you and says:
-     "Hey buddy!.  Got a light??"
+     "Hey buddy!  Got a light??"
 
 LIGHT MATCH
 
