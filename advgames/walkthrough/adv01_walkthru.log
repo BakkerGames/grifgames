@@ -892,34 +892,108 @@ You can see:
 Ring of skeleton keys
 Open door with a hallway beyond
 
->Unlight Lamp
-OK
-Lamp is off
-You can't see. It is too dark!
+>Go Up
+
+  +-------+  
+  |     U |  
+  |       |  
+  |       |  
+  +-------+  
+I'm in a root chamber under the stump.
+
+Obvious exits:
+Up
+
+You can see:
+Dark hole
 
 >Go Up
-You can't see. It is too dark!
+
+  +-------+  
+  |     U |  
+  |       |  
+  | D     |  
+  +-------+  
+I'm in a damp hollow stump in the swamp.
+
+Obvious exits:
+Up Down
+
+You can see:
+*Pot of RUBIES*
+*GOLDEN FISH*
+Rusty axe (Magic word `BUNYON` on it)
+Water in bottle
+Sign `Leave *TREASURES* here, then say: SCORE`
+*GOLDEN NET*
+*JEWELED FRUIT*
+*Small statue of a BLUE OX*
+*DIAMOND RING*
+*DIAMOND BRACELET*
 
 >Go Up
-You can't see. It is too dark!
 
->Go Up
-You can't see. It is too dark!
+      |      
+  +---N---+  
+  |       |  
+--W       E--
+  |       |  
+  +-------+  
+I'm in a dismal swamp.
+
+Obvious exits:
+North East West
+
+You can see:
+-HOLLOW- stump and remains of a felled tree
+Evil smelling mud
+Swamp gas
+Patches of `OILY` slime
+Chiggers
 
 >Take Gas
 OK
 
 >Go Stump
-You can't see. It is too dark!
+
+  +-------+  
+  |     U |  
+  |       |  
+  | D     |  
+  +-------+  
+I'm in a damp hollow stump in the swamp.
+
+Obvious exits:
+Up Down
+
+You can see:
+*Pot of RUBIES*
+*GOLDEN FISH*
+Rusty axe (Magic word `BUNYON` on it)
+Water in bottle
+Sign `Leave *TREASURES* here, then say: SCORE`
+*GOLDEN NET*
+*JEWELED FRUIT*
+*Small statue of a BLUE OX*
+*DIAMOND RING*
+*DIAMOND BRACELET*
 
 >Go Down
-You can't see. It is too dark!
+
+  +-------+  
+  |     U |  
+  |       |  
+  |       |  
+  +-------+  
+I'm in a root chamber under the stump.
+
+Obvious exits:
+Up
+
+You can see:
+Dark hole
 
 >Go Hole
-You can't see. It is too dark!
-
->Light Lamp
-Lamp burns with a cold flameless blue glow.
 
   +-------+  
   |     U |  
@@ -1164,16 +1238,44 @@ You can see:
 Ring of skeleton keys
 Open door with a hallway beyond
 
->Unlight Lamp
-OK
-Lamp is off
-You can't see. It is too dark!
+>Go Up
+
+  +-------+  
+  |     U |  
+  |       |  
+  |       |  
+  +-------+  
+I'm in a root chamber under the stump.
+
+Obvious exits:
+Up
+
+You can see:
+Dark hole
 
 >Go Up
-You can't see. It is too dark!
 
->Go Up
-You can't see. It is too dark!
+  +-------+  
+  |     U |  
+  |       |  
+  | D     |  
+  +-------+  
+I'm in a damp hollow stump in the swamp.
+
+Obvious exits:
+Up Down
+
+You can see:
+*Pot of RUBIES*
+*GOLDEN FISH*
+Rusty axe (Magic word `BUNYON` on it)
+Water in bottle
+Sign `Leave *TREASURES* here, then say: SCORE`
+*GOLDEN NET*
+*JEWELED FRUIT*
+*Small statue of a BLUE OX*
+*DIAMOND RING*
+*DIAMOND BRACELET*
 
 >Drop Crown
 OK
@@ -1192,13 +1294,21 @@ OK
 OK
 
 >Go Down
-You can't see. It is too dark!
+
+  +-------+  
+  |     U |  
+  |       |  
+  |       |  
+  +-------+  
+I'm in a root chamber under the stump.
+
+Obvious exits:
+Up
+
+You can see:
+Dark hole
 
 >Go Hole
-You can't see. It is too dark!
-
->Light Lamp
-Lamp burns with a cold flameless blue glow.
 
   +-------+  
   |     U |  

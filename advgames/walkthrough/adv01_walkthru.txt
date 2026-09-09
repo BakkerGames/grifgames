@@ -70,7 +70,6 @@ Take Bladder
 Go North
 Go Up
 Go Up
-Unlight Lamp
 Go Up
 Go Up
 Go Up
@@ -78,7 +77,6 @@ Take Gas
 Go Stump
 Go Down
 Go Hole
-Light Lamp
 Go Hall
 Go Down
 Go South
@@ -99,7 +97,6 @@ Go Down
 Go North
 Go Up
 Go Up
-Unlight Lamp
 Go Up
 Go Up
 Drop Crown
@@ -109,7 +106,6 @@ Take Rug
 Take Bottle
 Go Down
 Go Hole
-Light Lamp
 Go Hall
 Go Down
 Go Down
