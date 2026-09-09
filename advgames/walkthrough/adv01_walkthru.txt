@@ -63,6 +63,7 @@ Drop Bottle
 Go Down
 Go Hole
 Light Lamp
+Go Hall
 Go Down
 Go South
 Take Bladder

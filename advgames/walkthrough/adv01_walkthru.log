@@ -6,14 +6,10 @@ In this Adventure you're to find *TREASURES* & store them away.
 To see how well you're doing say: `SCORE`
 Remember you can always say `HELP`
 
-The "debug" mod is installed. Extra debug information will be displayed.
-
 The "roommaps" mod is installed. Room images will show current exits.
 
 The "norandom" mod is installed. No random events will occur.
 Good for walkthroughs!
-### ROOM #11
-
 
       |      
   +---N---+  
@@ -28,13 +24,9 @@ Obvious exits:
 North South East West
 
 You can see:
-### ITEM #58
 Trees
 
 >Go East
-### Going to room 23
-### ROOM #23
-
 
   +-------+  
   |       |  
@@ -48,15 +40,10 @@ Obvious exits:
 South East West
 
 You can see:
-### ITEM #27
 Large sleeping dragon
-### ITEM #33
 Sign here says `In many cases mud is good. In others...`
 
 >Go East
-### Going to room 10
-### ROOM #10
-
 
       |      
   +---N---+  
@@ -71,22 +58,15 @@ Obvious exits:
 North South West
 
 You can see:
-### ITEM #6
 Water
-### ITEM #8
 *GOLDEN FISH*
-### ITEM #11
 Rusty axe (Magic word `BUNYON` on it)
-### ITEM #53
 Sign says `No swimming allowed here`
 
 >Take Axe
 OK
 
 >Go North
-### Going to room 26
-### ROOM #26
-
 
   +-------+  
   |       |  
@@ -99,7 +79,6 @@ Obvious exits:
 none!
 
 You can see:
-### ITEM #47
 *Small statue of a BLUE OX*
 
 >Take Ox
@@ -112,9 +91,6 @@ You are carrying:
 Nothing.
 
 >Swim
-### Going to room 10
-### ROOM #10
-
 
       |      
   +---N---+  
@@ -129,17 +105,11 @@ Obvious exits:
 North South West
 
 You can see:
-### ITEM #6
 Water
-### ITEM #8
 *GOLDEN FISH*
-### ITEM #53
 Sign says `No swimming allowed here`
 
 >Go South
-### Going to room 29
-### ROOM #29
-
 
       |      
   +---N---+  
@@ -153,15 +123,10 @@ Obvious exits:
 North West
 
 You can see:
-### ITEM #62
 Large outdoor Advertisement
-### ITEM #63
 Hole
 
 >Go Hole
-### Going to room 30
-### ROOM #30
-
 
   +-------+  
   |     U |  
@@ -175,16 +140,12 @@ Obvious exits:
 Up Down
 
 You can see:
-### ITEM #28
 Flint & steel
 
 >Take Flint
 OK
 
 >Go Up
-### Going to room 29
-### ROOM #29
-
 
       |      
   +---N---+  
@@ -198,15 +159,10 @@ Obvious exits:
 North West
 
 You can see:
-### ITEM #62
 Large outdoor Advertisement
-### ITEM #63
 Hole
 
 >Go West
-### Going to room 1
-### ROOM #1
-
 
       |      
   +---N---+  
@@ -220,21 +176,13 @@ Obvious exits:
 North East West
 
 You can see:
-### ITEM #5
 Cypress tree
-### ITEM #7
 Evil smelling mud
-### ITEM #18
 Swamp gas
-### ITEM #22
 Patches of `OILY` slime
-### ITEM #42
 Chiggers
 
 >Go West
-### Going to room 25
-### ROOM #25
-
 
       |      
   +---N---+  
@@ -248,13 +196,9 @@ Obvious exits:
 North East
 
 You can see:
-### ITEM #11
 Rusty axe (Magic word `BUNYON` on it)
-### ITEM #46
 *JEWELED FRUIT*
-### ITEM #47
 *Small statue of a BLUE OX*
-### ITEM #57
 Sign says `Paul's place`
 
 >Take Axe
@@ -267,9 +211,6 @@ OK
 OK
 
 >Go East
-### Going to room 1
-### ROOM #1
-
 
       |      
   +---N---+  
@@ -283,21 +224,13 @@ Obvious exits:
 North East West
 
 You can see:
-### ITEM #5
 Cypress tree
-### ITEM #7
 Evil smelling mud
-### ITEM #18
 Swamp gas
-### ITEM #22
 Patches of `OILY` slime
-### ITEM #42
 Chiggers
 
 >Climb Tree
-### Going to room 2
-### ROOM #2
-
 
   +-------+  
   |       |  
@@ -310,18 +243,13 @@ Obvious exits:
 Down
 
 You can see:
-### ITEM #3
 Spider web with writing on it
-### ITEM #14
 Ring of skeleton keys
 
 >Take Keys
 OK
 
 >Go Down
-### Going to room 1
-### ROOM #1
-
 
       |      
   +---N---+  
@@ -335,24 +263,16 @@ Obvious exits:
 North East West
 
 You can see:
-### ITEM #5
 Cypress tree
-### ITEM #7
 Evil smelling mud
-### ITEM #18
 Swamp gas
-### ITEM #22
 Patches of `OILY` slime
-### ITEM #42
 Chiggers
 
 >Cut Tree
 TIMBER!
 
 >Go Stump
-### Going to room 3
-### ROOM #3
-
 
   +-------+  
   |     U |  
@@ -365,11 +285,8 @@ Obvious exits:
 Up Down
 
 You can see:
-### ITEM #10
 Old fashioned brass lamp
-### ITEM #12
 Water in bottle
-### ITEM #15
 Sign `Leave *TREASURES* here, then say: SCORE`
 
 >Drop Axe
@@ -391,9 +308,6 @@ A glowing Genie appears, drops somehting, then vanishes.
 OK
 
 >Go Down
-### Going to room 4
-### ROOM #4
-
 
   +-------+  
   |     U |  
@@ -406,18 +320,13 @@ Obvious exits:
 Up
 
 You can see:
-### ITEM #1
 Dark hole
-### ITEM #2
 *Pot of RUBIES*
 
 >Take Rubies
 OK
 
 >Go Up
-### Going to room 3
-### ROOM #3
-
 
   +-------+  
   |     U |  
@@ -430,28 +339,18 @@ Obvious exits:
 Up Down
 
 You can see:
-### ITEM #11
 Rusty axe (Magic word `BUNYON` on it)
-### ITEM #12
 Water in bottle
-### ITEM #15
 Sign `Leave *TREASURES* here, then say: SCORE`
-### ITEM #46
 *JEWELED FRUIT*
-### ITEM #47
 *Small statue of a BLUE OX*
-### ITEM #48
 *DIAMOND RING*
-### ITEM #49
 *DIAMOND BRACELET*
 
 >Drop Rubies
 OK
 
 >Go Down
-### Going to room 4
-### ROOM #4
-
 
   +-------+  
   |     U |  
@@ -464,13 +363,9 @@ Obvious exits:
 Up
 
 You can see:
-### ITEM #1
 Dark hole
 
 >Go Hole
-### Going to room 5
-### ROOM #5
-
 
   +-------+  
   |     U |  
@@ -483,12 +378,9 @@ Obvious exits:
 Up
 
 You can see:
-### ITEM #16
 Locked door
 
 >Open Door
-### ROOM #5
-
 
   +-------+  
   |     U |  
@@ -501,7 +393,6 @@ Obvious exits:
 Up
 
 You can see:
-### ITEM #17
 Open door with a hallway beyond
 
 >Drop Keys
@@ -509,8 +400,6 @@ OK
 
 >Light Lamp
 Lamp burns with a cold flameless blue glow.
-### ROOM #5
-
 
   +-------+  
   |     U |  
@@ -523,15 +412,10 @@ Obvious exits:
 Up
 
 You can see:
-### ITEM #14
 Ring of skeleton keys
-### ITEM #17
 Open door with a hallway beyond
 
 >Go Hall
-### Going to room 6
-### ROOM #6
-
 
   +-------+  
   |     U |  
@@ -544,9 +428,6 @@ Obvious exits:
 Up Down
 
 >Go Down
-### Going to room 7
-### ROOM #7
-
 
       |      
   +---N---+  
@@ -561,9 +442,6 @@ Obvious exits:
 North South West Up Down
 
 >Go Down
-### Going to room 12
-### ROOM #12
-
 
       |      
   +---N---+  
@@ -578,13 +456,9 @@ Obvious exits:
 North South East Down
 
 You can see:
-### ITEM #59
 Sign here says `Opposite of LIGHT is UNLIGHT`
 
 >Go Down
-### Going to room 13
-### ROOM #13
-
 
   +-------+  
   |     U |  
@@ -597,9 +471,6 @@ Obvious exits:
 West Up
 
 >Go West
-### Going to room 14
-### ROOM #14
-
 
       |      
   +---N---+  
@@ -614,13 +485,9 @@ Obvious exits:
 North South East West Up Down
 
 You can see:
-### ITEM #50
 Strange scratchings on rock says: `ALADIN was here`
 
 >Go Down
-### Going to room 17
-### ROOM #17
-
 
       |      
   +---N---+  
@@ -635,18 +502,13 @@ Obvious exits:
 North South East West Up Down
 
 You can see:
-### ITEM #29
 *Thick PERSIAN RUG*
-### ITEM #54
 Arrow pointing down
 
 >Take Rug
 OK
 
 >Go Down
-### Going to room 18
-### ROOM #18
-
 
   +-------+  
   |     U |  
@@ -661,22 +523,16 @@ Obvious exits:
 Up
 
 You can see:
-### ITEM #19
 *GOLDEN NET*
-### ITEM #30
 Sign: `magic word's AWAY! Look la...`
 (Rest of sign is missing!)
-### ITEM #34
 Stream of lava
 
 >Take Net
 OK
 
 >Say Away
-### Going to room 17
 Something I'm holding vibrates and...
-### ROOM #17
-
 
       |      
   +---N---+  
@@ -691,14 +547,10 @@ Obvious exits:
 North South East West Up Down
 
 You can see:
-### ITEM #54
 Arrow pointing down
 
 >Say Away
-### Going to room 23
 Something I'm holding vibrates and...
-### ROOM #23
-
 
   +-------+  
   |       |  
@@ -712,16 +564,12 @@ Obvious exits:
 South East West
 
 You can see:
-### ITEM #27
 Large sleeping dragon
-### ITEM #33
 Sign here says `In many cases mud is good. In others...`
 
 >Unlight Lamp
 OK
 Lamp is off
-### ROOM #23
-
 
   +-------+  
   |       |  
@@ -735,15 +583,10 @@ Obvious exits:
 South East West
 
 You can see:
-### ITEM #27
 Large sleeping dragon
-### ITEM #33
 Sign here says `In many cases mud is good. In others...`
 
 >Go South
-### Going to room 1
-### ROOM #1
-
 
       |      
   +---N---+  
@@ -757,21 +600,13 @@ Obvious exits:
 North East West
 
 You can see:
-### ITEM #4
 -HOLLOW- stump and remains of a felled tree
-### ITEM #7
 Evil smelling mud
-### ITEM #18
 Swamp gas
-### ITEM #22
 Patches of `OILY` slime
-### ITEM #42
 Chiggers
 
 >Go Stump
-### Going to room 3
-### ROOM #3
-
 
   +-------+  
   |     U |  
@@ -784,30 +619,19 @@ Obvious exits:
 Up Down
 
 You can see:
-### ITEM #2
 *Pot of RUBIES*
-### ITEM #11
 Rusty axe (Magic word `BUNYON` on it)
-### ITEM #12
 Water in bottle
-### ITEM #15
 Sign `Leave *TREASURES* here, then say: SCORE`
-### ITEM #46
 *JEWELED FRUIT*
-### ITEM #47
 *Small statue of a BLUE OX*
-### ITEM #48
 *DIAMOND RING*
-### ITEM #49
 *DIAMOND BRACELET*
 
 >Take Bottle
 OK
 
 >Go Up
-### Going to room 1
-### ROOM #1
-
 
       |      
   +---N---+  
@@ -821,21 +645,13 @@ Obvious exits:
 North East West
 
 You can see:
-### ITEM #4
 -HOLLOW- stump and remains of a felled tree
-### ITEM #7
 Evil smelling mud
-### ITEM #18
 Swamp gas
-### ITEM #22
 Patches of `OILY` slime
-### ITEM #42
 Chiggers
 
 >Go East
-### Going to room 29
-### ROOM #29
-
 
       |      
   +---N---+  
@@ -849,15 +665,10 @@ Obvious exits:
 North West
 
 You can see:
-### ITEM #62
 Large outdoor Advertisement
-### ITEM #63
 Hole
 
 >Go North
-### Going to room 10
-### ROOM #10
-
 
       |      
   +---N---+  
@@ -872,20 +683,14 @@ Obvious exits:
 North South West
 
 You can see:
-### ITEM #6
 Water
-### ITEM #8
 *GOLDEN FISH*
-### ITEM #53
 Sign says `No swimming allowed here`
 
 >Catch Fish
 OK
 
 >Go South
-### Going to room 29
-### ROOM #29
-
 
       |      
   +---N---+  
@@ -899,15 +704,10 @@ Obvious exits:
 North West
 
 You can see:
-### ITEM #62
 Large outdoor Advertisement
-### ITEM #63
 Hole
 
 >Go West
-### Going to room 1
-### ROOM #1
-
 
       |      
   +---N---+  
@@ -921,21 +721,13 @@ Obvious exits:
 North East West
 
 You can see:
-### ITEM #4
 -HOLLOW- stump and remains of a felled tree
-### ITEM #7
 Evil smelling mud
-### ITEM #18
 Swamp gas
-### ITEM #22
 Patches of `OILY` slime
-### ITEM #42
 Chiggers
 
 >Go Stump
-### Going to room 3
-### ROOM #3
-
 
   +-------+  
   |     U |  
@@ -948,19 +740,12 @@ Obvious exits:
 Up Down
 
 You can see:
-### ITEM #2
 *Pot of RUBIES*
-### ITEM #11
 Rusty axe (Magic word `BUNYON` on it)
-### ITEM #15
 Sign `Leave *TREASURES* here, then say: SCORE`
-### ITEM #46
 *JEWELED FRUIT*
-### ITEM #47
 *Small statue of a BLUE OX*
-### ITEM #48
 *DIAMOND RING*
-### ITEM #49
 *DIAMOND BRACELET*
 
 >Drop Fish
@@ -973,9 +758,6 @@ OK
 OK
 
 >Go Down
-### Going to room 4
-### ROOM #4
-
 
   +-------+  
   |     U |  
@@ -988,13 +770,9 @@ Obvious exits:
 Up
 
 You can see:
-### ITEM #1
 Dark hole
 
 >Go Hole
-### Going to room 5
-### ROOM #5
-
 
   +-------+  
   |     U |  
@@ -1007,15 +785,11 @@ Obvious exits:
 Up
 
 You can see:
-### ITEM #14
 Ring of skeleton keys
-### ITEM #17
 Open door with a hallway beyond
 
 >Light Lamp
 Lamp burns with a cold flameless blue glow.
-### ROOM #5
-
 
   +-------+  
   |     U |  
@@ -1028,256 +802,10 @@ Obvious exits:
 Up
 
 You can see:
-### ITEM #14
 Ring of skeleton keys
-### ITEM #17
-Open door with a hallway beyond
-
->Go Down
-Can't go that way.
-
->Go South
-Can't go that way.
-
->Take Bladder
-I don't see that here.
-
->Go North
-Can't go that way.
-
->Go Up
-### Going to room 4
-### ROOM #4
-
-
-  +-------+  
-  |     U |  
-  |       |  
-  |       |  
-  +-------+  
-I'm in a root chamber under the stump.
-
-Obvious exits:
-Up
-
-You can see:
-### ITEM #1
-Dark hole
-
->Go Up
-### Going to room 3
-### ROOM #3
-
-
-  +-------+  
-  |     U |  
-  |       |  
-  | D     |  
-  +-------+  
-I'm in a damp hollow stump in the swamp.
-
-Obvious exits:
-Up Down
-
-You can see:
-### ITEM #2
-*Pot of RUBIES*
-### ITEM #8
-*GOLDEN FISH*
-### ITEM #11
-Rusty axe (Magic word `BUNYON` on it)
-### ITEM #12
-Water in bottle
-### ITEM #15
-Sign `Leave *TREASURES* here, then say: SCORE`
-### ITEM #19
-*GOLDEN NET*
-### ITEM #46
-*JEWELED FRUIT*
-### ITEM #47
-*Small statue of a BLUE OX*
-### ITEM #48
-*DIAMOND RING*
-### ITEM #49
-*DIAMOND BRACELET*
-
->Unlight Lamp
-OK
-Lamp is off
-### ROOM #3
-
-
-  +-------+  
-  |     U |  
-  |       |  
-  | D     |  
-  +-------+  
-I'm in a damp hollow stump in the swamp.
-
-Obvious exits:
-Up Down
-
-You can see:
-### ITEM #2
-*Pot of RUBIES*
-### ITEM #8
-*GOLDEN FISH*
-### ITEM #11
-Rusty axe (Magic word `BUNYON` on it)
-### ITEM #12
-Water in bottle
-### ITEM #15
-Sign `Leave *TREASURES* here, then say: SCORE`
-### ITEM #19
-*GOLDEN NET*
-### ITEM #46
-*JEWELED FRUIT*
-### ITEM #47
-*Small statue of a BLUE OX*
-### ITEM #48
-*DIAMOND RING*
-### ITEM #49
-*DIAMOND BRACELET*
-
->Go Up
-### Going to room 1
-### ROOM #1
-
-
-      |      
-  +---N---+  
-  |       |  
---W       E--
-  |       |  
-  +-------+  
-I'm in a dismal swamp.
-
-Obvious exits:
-North East West
-
-You can see:
-### ITEM #4
--HOLLOW- stump and remains of a felled tree
-### ITEM #7
-Evil smelling mud
-### ITEM #18
-Swamp gas
-### ITEM #22
-Patches of `OILY` slime
-### ITEM #42
-Chiggers
-
->Go Up
-Can't go that way.
-
->Go Up
-Can't go that way.
-
->Take Gas
-First I need an empty container.
-
->Go Stump
-### Going to room 3
-### ROOM #3
-
-
-  +-------+  
-  |     U |  
-  |       |  
-  | D     |  
-  +-------+  
-I'm in a damp hollow stump in the swamp.
-
-Obvious exits:
-Up Down
-
-You can see:
-### ITEM #2
-*Pot of RUBIES*
-### ITEM #8
-*GOLDEN FISH*
-### ITEM #11
-Rusty axe (Magic word `BUNYON` on it)
-### ITEM #12
-Water in bottle
-### ITEM #15
-Sign `Leave *TREASURES* here, then say: SCORE`
-### ITEM #19
-*GOLDEN NET*
-### ITEM #46
-*JEWELED FRUIT*
-### ITEM #47
-*Small statue of a BLUE OX*
-### ITEM #48
-*DIAMOND RING*
-### ITEM #49
-*DIAMOND BRACELET*
-
->Go Down
-### Going to room 4
-### ROOM #4
-
-
-  +-------+  
-  |     U |  
-  |       |  
-  |       |  
-  +-------+  
-I'm in a root chamber under the stump.
-
-Obvious exits:
-Up
-
-You can see:
-### ITEM #1
-Dark hole
-
->Go Hole
-### Going to room 5
-### ROOM #5
-
-
-  +-------+  
-  |     U |  
-  |       |  
-  |       |  
-  +-------+  
-I'm in a semi-dark hole by the root chamber.
-
-Obvious exits:
-Up
-
-You can see:
-### ITEM #14
-Ring of skeleton keys
-### ITEM #17
-Open door with a hallway beyond
-
->Light Lamp
-Lamp burns with a cold flameless blue glow.
-### ROOM #5
-
-
-  +-------+  
-  |     U |  
-  |       |  
-  |       |  
-  +-------+  
-I'm in a semi-dark hole by the root chamber.
-
-Obvious exits:
-Up
-
-You can see:
-### ITEM #14
-Ring of skeleton keys
-### ITEM #17
 Open door with a hallway beyond
 
 >Go Hall
-### Going to room 6
-### ROOM #6
-
 
   +-------+  
   |     U |  
@@ -1290,9 +818,6 @@ Obvious exits:
 Up Down
 
 >Go Down
-### Going to room 7
-### ROOM #7
-
 
       |      
   +---N---+  
@@ -1307,9 +832,6 @@ Obvious exits:
 North South West Up Down
 
 >Go South
-### Going to room 9
-### ROOM #9
-
 
       |      
   +---N---+  
@@ -1323,13 +845,136 @@ Obvious exits:
 North Up
 
 You can see:
-### ITEM #40
 Empty wine bladder
 
->Go Up
-### Going to room 20
-### ROOM #20
+>Take Bladder
+OK
 
+>Go North
+
+      |      
+  +---N---+  
+  |     U |  
+--W       |  
+  | D     |  
+  +---S---+  
+      |      
+I'm in a large cavern.
+
+Obvious exits:
+North South West Up Down
+
+>Go Up
+
+  +-------+  
+  |     U |  
+  |       |  
+  | D     |  
+  +-------+  
+I'm in a long down sloping hall.
+
+Obvious exits:
+Up Down
+
+>Go Up
+
+  +-------+  
+  |     U |  
+  |       |  
+  |       |  
+  +-------+  
+I'm in a semi-dark hole by the root chamber.
+
+Obvious exits:
+Up
+
+You can see:
+Ring of skeleton keys
+Open door with a hallway beyond
+
+>Unlight Lamp
+OK
+Lamp is off
+You can't see. It is too dark!
+
+>Go Up
+You can't see. It is too dark!
+
+>Go Up
+You can't see. It is too dark!
+
+>Go Up
+You can't see. It is too dark!
+
+>Take Gas
+OK
+
+>Go Stump
+You can't see. It is too dark!
+
+>Go Down
+You can't see. It is too dark!
+
+>Go Hole
+You can't see. It is too dark!
+
+>Light Lamp
+Lamp burns with a cold flameless blue glow.
+
+  +-------+  
+  |     U |  
+  |       |  
+  |       |  
+  +-------+  
+I'm in a semi-dark hole by the root chamber.
+
+Obvious exits:
+Up
+
+You can see:
+Ring of skeleton keys
+Open door with a hallway beyond
+
+>Go Hall
+
+  +-------+  
+  |     U |  
+  |       |  
+  | D     |  
+  +-------+  
+I'm in a long down sloping hall.
+
+Obvious exits:
+Up Down
+
+>Go Down
+
+      |      
+  +---N---+  
+  |     U |  
+--W       |  
+  | D     |  
+  +---S---+  
+      |      
+I'm in a large cavern.
+
+Obvious exits:
+North South West Up Down
+
+>Go South
+
+      |      
+  +---N---+  
+  |     U |  
+  |       |  
+  |       |  
+  +-------+  
+I'm in a royal anteroom.
+
+Obvious exits:
+North Up
+
+>Go Up
 
   +-------+  
   |       |  
@@ -1342,44 +987,129 @@ Obvious exits:
 Down
 
 You can see:
-### ITEM #32
 Bricked up window
 
 >Drop Bladder
-You aren't carrying that.
+OK
 
 >Ignite Gas
+Gas bladder blew up
+
+  +-------+  
+  |       |  
+  |       |  
+  | D     |  
+  +-------+  
+I'm in a royal chamber.
+
+Obvious exits:
+Down
+
+You can see:
+Bricked up window with a hole in it
+Loose fire bricks
 
 >Go Hole
 
+  +-------+  
+  |       |  
+--W       |  
+  |       |  
+  +-------+  
+I'm on a narrow ledge by a chasm. Across the chasm is
+the Throne-room.
+
+Obvious exits:
+West
+
 >Jump
-Not here.
+
+  +-------+  
+  |       |  
+  |       |  
+  |       |  
+  +-------+  
+I'm on a narrow ledge by a Throne-room
+Across the chasm is another ledge.
+
+Obvious exits:
+none!
+
+You can see:
+Very thin black bear
+*MAGIC MIRROR*
 
 >Scream
-Nothing happens
+Bear is so startled that he FELL off the ledge!
 
 >Take Mirror
+OK
 
 >Go Throne
 
+  +-------+  
+  |       |  
+--W       |  
+  |       |  
+  +-------+  
+I'm in a throne room.
+
+Obvious exits:
+West
+
+You can see:
+*GOLD CROWN*
+
 >Take Crown
-I don't see that here.
+OK
 
 >Go West
-Can't go that way.
+
+  +-------+  
+  |       |  
+  |       |  
+  |       |  
+  +-------+  
+I'm on a narrow ledge by a Throne-room
+Across the chasm is another ledge.
+
+Obvious exits:
+none!
 
 >Jump
-Not here.
+
+  +-------+  
+  |       |  
+--W       |  
+  |       |  
+  +-------+  
+I'm on a narrow ledge by a chasm. Across the chasm is
+the Throne-room.
+
+Obvious exits:
+West
 
 >Go West
-Can't go that way.
+
+  +-------+  
+  |       |  
+  |       |  
+  | D     |  
+  +-------+  
+I'm in a royal chamber.
+
+Obvious exits:
+Down
+
+You can see:
+Bricked up window with a hole in it
+Loose fire bricks
 
 >Take Bricks
+OK
+Its heavy!
 
 >Go Down
-### Going to room 9
-### ROOM #9
-
 
       |      
   +---N---+  
@@ -1392,14 +1122,7 @@ I'm in a royal anteroom.
 Obvious exits:
 North Up
 
-You can see:
-### ITEM #40
-Empty wine bladder
-
 >Go North
-### Going to room 7
-### ROOM #7
-
 
       |      
   +---N---+  
@@ -1414,9 +1137,6 @@ Obvious exits:
 North South West Up Down
 
 >Go Up
-### Going to room 6
-### ROOM #6
-
 
   +-------+  
   |     U |  
@@ -1429,9 +1149,6 @@ Obvious exits:
 Up Down
 
 >Go Up
-### Going to room 5
-### ROOM #5
-
 
   +-------+  
   |     U |  
@@ -1444,37 +1161,29 @@ Obvious exits:
 Up
 
 You can see:
-### ITEM #14
 Ring of skeleton keys
-### ITEM #17
 Open door with a hallway beyond
 
 >Unlight Lamp
 OK
 Lamp is off
-### ROOM #5
-
 You can't see. It is too dark!
 
 >Go Up
-### Going to room 4
-### ROOM #4
-
 You can't see. It is too dark!
 
 >Go Up
-### Going to room 3
-### ROOM #3
-
 You can't see. It is too dark!
 
 >Drop Crown
-You aren't carrying that.
+OK
 
 >Drop Rug
 OK
 
 >Drop Mirror
+Mirror lands softly on rug, lights up and says:
+` DRAGON STING ` and fades. I don't get it, I hope you do.
 
 >Take Rug
 OK
@@ -1483,21 +1192,13 @@ OK
 OK
 
 >Go Down
-### Going to room 4
-### ROOM #4
-
 You can't see. It is too dark!
 
 >Go Hole
-### Going to room 5
-### ROOM #5
-
 You can't see. It is too dark!
 
 >Light Lamp
 Lamp burns with a cold flameless blue glow.
-### ROOM #5
-
 
   +-------+  
   |     U |  
@@ -1510,15 +1211,10 @@ Obvious exits:
 Up
 
 You can see:
-### ITEM #14
 Ring of skeleton keys
-### ITEM #17
 Open door with a hallway beyond
 
 >Go Hall
-### Going to room 6
-### ROOM #6
-
 
   +-------+  
   |     U |  
@@ -1531,9 +1227,6 @@ Obvious exits:
 Up Down
 
 >Go Down
-### Going to room 7
-### ROOM #7
-
 
       |      
   +---N---+  
@@ -1548,9 +1241,6 @@ Obvious exits:
 North South West Up Down
 
 >Go Down
-### Going to room 12
-### ROOM #12
-
 
       |      
   +---N---+  
@@ -1565,13 +1255,9 @@ Obvious exits:
 North South East Down
 
 You can see:
-### ITEM #59
 Sign here says `Opposite of LIGHT is UNLIGHT`
 
 >Go Down
-### Going to room 13
-### ROOM #13
-
 
   +-------+  
   |     U |  
@@ -1584,9 +1270,6 @@ Obvious exits:
 West Up
 
 >Go West
-### Going to room 14
-### ROOM #14
-
 
       |      
   +---N---+  
@@ -1601,13 +1284,9 @@ Obvious exits:
 North South East West Up Down
 
 You can see:
-### ITEM #50
 Strange scratchings on rock says: `ALADIN was here`
 
 >Go Down
-### Going to room 17
-### ROOM #17
-
 
       |      
   +---N---+  
@@ -1622,13 +1301,9 @@ Obvious exits:
 North South East West Up Down
 
 You can see:
-### ITEM #54
 Arrow pointing down
 
 >Go Down
-### Going to room 18
-### ROOM #18
-
 
   +-------+  
   |     U |  
@@ -1643,24 +1318,40 @@ Obvious exits:
 Up
 
 You can see:
-### ITEM #30
 Sign: `magic word's AWAY! Look la...`
 (Rest of sign is missing!)
-### ITEM #34
 Stream of lava
+Slightly woozy bear
 
 >Dam Lava
+
+  +-------+  
+  |     U |  
+  |       |  
+  |       |  
+  +-------+  
+I'm at the bottom of a very deep chasm. High above me is
+a pair of ledges. One has a bricked up window across its face
+the other faces a Throne-room.
+
+Obvious exits:
+Up
+
+You can see:
+Glowing *FIRESTONE*
+Sign: `magic word's AWAY! Look la...`
+(Rest of sign is missing!)
+Slightly woozy bear
+Lava stream with brick dam
 
 >Pour Water
 Sizzle...
 
 >Take Firestone
+OK
 
 >Say Away
-### Going to room 17
 Something I'm holding vibrates and...
-### ROOM #17
-
 
       |      
   +---N---+  
@@ -1675,14 +1366,10 @@ Obvious exits:
 North South East West Up Down
 
 You can see:
-### ITEM #54
 Arrow pointing down
 
 >Say Away
-### Going to room 23
 Something I'm holding vibrates and...
-### ROOM #23
-
 
   +-------+  
   |       |  
@@ -1696,15 +1383,10 @@ Obvious exits:
 South East West
 
 You can see:
-### ITEM #27
 Large sleeping dragon
-### ITEM #33
 Sign here says `In many cases mud is good. In others...`
 
 >Go South
-### Going to room 1
-### ROOM #1
-
 
       |      
   +---N---+  
@@ -1718,21 +1400,13 @@ Obvious exits:
 North East West
 
 You can see:
-### ITEM #4
 -HOLLOW- stump and remains of a felled tree
-### ITEM #7
 Evil smelling mud
-### ITEM #18
 Swamp gas
-### ITEM #22
 Patches of `OILY` slime
-### ITEM #42
 Chiggers
 
 >Go Stump
-### Going to room 3
-### ROOM #3
-
 
   +-------+  
   |     U |  
@@ -1745,35 +1419,25 @@ Obvious exits:
 Up Down
 
 You can see:
-### ITEM #2
 *Pot of RUBIES*
-### ITEM #8
 *GOLDEN FISH*
-### ITEM #11
 Rusty axe (Magic word `BUNYON` on it)
-### ITEM #15
 Sign `Leave *TREASURES* here, then say: SCORE`
-### ITEM #19
 *GOLDEN NET*
-### ITEM #46
+*GOLD CROWN*
+*MAGIC MIRROR*
 *JEWELED FRUIT*
-### ITEM #47
 *Small statue of a BLUE OX*
-### ITEM #48
 *DIAMOND RING*
-### ITEM #49
 *DIAMOND BRACELET*
 
 >Drop Firestone
-You aren't carrying that.
+OK
 
 >Drop Bricks
-You aren't carrying that.
+OK
 
 >Go Up
-### Going to room 1
-### ROOM #1
-
 
       |      
   +---N---+  
@@ -1787,24 +1451,16 @@ Obvious exits:
 North East West
 
 You can see:
-### ITEM #4
 -HOLLOW- stump and remains of a felled tree
-### ITEM #7
 Evil smelling mud
-### ITEM #18
 Swamp gas
-### ITEM #22
 Patches of `OILY` slime
-### ITEM #42
 Chiggers
 
 >Take Mud
 OK
 
 >Go Stump
-### Going to room 3
-### ROOM #3
-
 
   +-------+  
   |     U |  
@@ -1817,29 +1473,21 @@ Obvious exits:
 Up Down
 
 You can see:
-### ITEM #2
 *Pot of RUBIES*
-### ITEM #8
 *GOLDEN FISH*
-### ITEM #11
 Rusty axe (Magic word `BUNYON` on it)
-### ITEM #15
 Sign `Leave *TREASURES* here, then say: SCORE`
-### ITEM #19
 *GOLDEN NET*
-### ITEM #46
+Loose fire bricks
+*GOLD CROWN*
+*MAGIC MIRROR*
 *JEWELED FRUIT*
-### ITEM #47
 *Small statue of a BLUE OX*
-### ITEM #48
 *DIAMOND RING*
-### ITEM #49
 *DIAMOND BRACELET*
+*FIRESTONE* (cold now)
 
 >Go Down
-### Going to room 4
-### ROOM #4
-
 
   +-------+  
   |     U |  
@@ -1852,13 +1500,9 @@ Obvious exits:
 Up
 
 You can see:
-### ITEM #1
 Dark hole
 
 >Go Hole
-### Going to room 5
-### ROOM #5
-
 
   +-------+  
   |     U |  
@@ -1871,15 +1515,10 @@ Obvious exits:
 Up
 
 You can see:
-### ITEM #14
 Ring of skeleton keys
-### ITEM #17
 Open door with a hallway beyond
 
 >Go Hall
-### Going to room 6
-### ROOM #6
-
 
   +-------+  
   |     U |  
@@ -1895,9 +1534,6 @@ Up Down
 Lamp burns with a cold flameless blue glow.
 
 >Go Down
-### Going to room 7
-### ROOM #7
-
 
       |      
   +---N---+  
@@ -1912,9 +1548,6 @@ Obvious exits:
 North South West Up Down
 
 >Go North
-### Going to room 31
-### ROOM #31
-
 
       |      
   +---N---+  
@@ -1929,9 +1562,6 @@ Obvious exits:
 North South
 
 >Go North
-### Going to room 8
-### ROOM #8
-
 
   +-------+  
   |       |  
@@ -1945,9 +1575,7 @@ Obvious exits:
 South
 
 You can see:
-### ITEM #23
 *ROYAL HONEY*
-### ITEM #24
 Large african bees
 
 >Catch Bees
@@ -1960,10 +1588,7 @@ OK
 OK
 
 >Say Away
-### Going to room 17
 Something I'm holding vibrates and...
-### ROOM #17
-
 
       |      
   +---N---+  
@@ -1978,14 +1603,10 @@ Obvious exits:
 North South East West Up Down
 
 You can see:
-### ITEM #54
 Arrow pointing down
 
 >Say Away
-### Going to room 23
 Something I'm holding vibrates and...
-### ROOM #23
-
 
   +-------+  
   |       |  
@@ -1999,9 +1620,7 @@ Obvious exits:
 South East West
 
 You can see:
-### ITEM #27
 Large sleeping dragon
-### ITEM #33
 Sign here says `In many cases mud is good. In others...`
 
 >Release Bees
@@ -2012,9 +1631,6 @@ and flys away...
 OK
 
 >Go South
-### Going to room 1
-### ROOM #1
-
 
       |      
   +---N---+  
@@ -2028,19 +1644,12 @@ Obvious exits:
 North East West
 
 You can see:
-### ITEM #4
 -HOLLOW- stump and remains of a felled tree
-### ITEM #18
 Swamp gas
-### ITEM #22
 Patches of `OILY` slime
-### ITEM #42
 Chiggers
 
 >Go Stump
-### Going to room 3
-### ROOM #3
-
 
   +-------+  
   |     U |  
@@ -2053,24 +1662,19 @@ Obvious exits:
 Up Down
 
 You can see:
-### ITEM #2
 *Pot of RUBIES*
-### ITEM #8
 *GOLDEN FISH*
-### ITEM #11
 Rusty axe (Magic word `BUNYON` on it)
-### ITEM #15
 Sign `Leave *TREASURES* here, then say: SCORE`
-### ITEM #19
 *GOLDEN NET*
-### ITEM #46
+Loose fire bricks
+*GOLD CROWN*
+*MAGIC MIRROR*
 *JEWELED FRUIT*
-### ITEM #47
 *Small statue of a BLUE OX*
-### ITEM #48
 *DIAMOND RING*
-### ITEM #49
 *DIAMOND BRACELET*
+*FIRESTONE* (cold now)
 
 >Drop Honey
 
@@ -2081,11 +1685,6 @@ OK
 OK
 
 >Score
-I've stored 10 treasures.
-On a scale of 0 to 100 that rates a 76.
-
->q
-I don't understand "q".
->quit
-I've stored 10 treasures.
-On a scale of 0 to 100 that rates a 76.
+I've stored 13 treasures.
+On a scale of 0 to 100 that rates a 100.
+Well done.
