@@ -1,0 +1,996 @@
+* Welcome to Adventure number 2: `pirate adventure`
+by Alexis & Scott Adams, dedicated: Ted Heeren & Paul Sharland
+Remember you can always ask for `help`.
+
+I'm in a Flat in london.
+
+Obvious exits:
+none!
+
+You can see:
+Flight of stairs
+Sign says: `Bring *TREASURES* here, say: SCORE`
+Bottle of rum
+Rug
+Safety sneakers
+Sack of crackers
+
+>TAKE RUM
+OK
+
+>WEAR SNEAKERS
+OK
+
+>CLIMB STAIRS
+I'm in an alcove.
+
+Obvious exits:
+Down
+
+You can see:
+Open window
+Books in a bookcase
+
+>TAKE BOOK
+There's a strange sound
+
+>OPEN BOOK
+OK
+Something falls out
+
+>READ BOOK
+The book is in bad condtion but I can make out the title:
+`Treasure Island`. There's a word written in blood in the
+flyleaf: `YOHO` and a message:
+
+`Long John Silver left 2 treasures on Treasure Island`
+
+>ENTER PASSAGE
+I'm in a secret passageway.
+
+Obvious exits:
+East West
+
+>GO EAST
+I'm in a musty attic.
+
+Obvious exits:
+West
+
+You can see:
+Pirate's duffel bag
+Unlit torch
+Rum bottle smashed into pieces.
+Sign `Opposite of LIGHT is Unlight`
+
+>TAKE TORCH
+OK
+
+>OPEN BAG
+Something falls out
+
+>LOOK
+I'm in a musty attic.
+
+Obvious exits:
+West
+
+You can see:
+Pirate's duffel bag
+Matches
+Rum bottle smashed into pieces.
+Sign `Opposite of LIGHT is Unlight`
+OK
+I see nothing special
+
+>TAKE MATCHES
+OK
+
+>GO WEST
+I'm in a secret passageway.
+
+Obvious exits:
+East West
+
+>GO WEST
+I'm in an alcove.
+
+Obvious exits:
+Down
+
+You can see:
+Open window
+Bookcase with secret passage beyond
+Small advertising flyer
+
+>GO WINDOW
+I'M outside an open window
+on the ledge of a very tall building.
+
+Obvious exits:
+none!
+
+>SAY YOHO
+Everything spins around and suddenly I'm elsewhere...
+I'm in a sandy beach on a tropical isle.
+
+Obvious exits:
+East
+
+You can see:
+Small ship's keel and mast
+Sand
+Lagoon
+Sign in the sand says:
+`Welcome to Pirates Island, watch out for the tide!`
+
+>DROP BOOK
+OK
+
+>DROP BOTTLE
+OK
+
+>DROP SNEAKERS
+OK
+
+>GO EAST
+I'm in a meadow.
+
+Obvious exits:
+East West
+
+You can see:
+Mongoose
+Grass shack
+
+>GO EAST
+I'm at the foot of a cave ridden hill, a pathway
+leads on up to the top.
+
+Obvious exits:
+West
+
+>GO PATH
+I'm on top of a hill. Below is Pirates Island. Across the sea
+way off in the distance I see Treasure Island.
+
+Obvious exits:
+Down
+
+You can see:
+Rock wall with narrow crack in it
+
+>LIGHT TORCH
+Torch is lit
+I'm on top of a hill. Below is Pirates Island. Across the sea
+way off in the distance I see Treasure Island.
+
+Obvious exits:
+Down
+
+You can see:
+Rock wall with narrow crack in it
+
+>ENTER CRACK
+It was a tight squeeze!
+I'm in a large cavern.
+
+Obvious exits:
+West
+
+You can see:
+Pile of sails
+Pile of precut lumber
+Tool shed
+Narrow crack in the rock
+
+>TAKE SAILS
+OK
+
+>ENTER SHED
+I'm in a tool shed.
+
+Obvious exits:
+North
+
+You can see:
+Claw hammer
+Shovel
+Water wings
+
+>TAKE HAMMER
+OK
+
+>WEAR WINGS
+OK
+
+>GO NORTH
+I'm in a large cavern.
+
+Obvious exits:
+West
+
+You can see:
+Pile of precut lumber
+Tool shed
+Narrow crack in the rock
+
+>GO CRACK
+I'm on top of a hill. Below is Pirates Island. Across the sea
+way off in the distance I see Treasure Island.
+
+Obvious exits:
+Down
+
+You can see:
+Rock wall with narrow crack in it
+
+>UNLIGHT TORCH
+OK
+I'm on top of a hill. Below is Pirates Island. Across the sea
+way off in the distance I see Treasure Island.
+
+Obvious exits:
+Down
+
+You can see:
+Rock wall with narrow crack in it
+
+>GO DOWN
+I'm at the foot of a cave ridden hill, a pathway
+leads on up to the top.
+
+Obvious exits:
+West
+
+>GO WEST
+I'm in a meadow.
+
+Obvious exits:
+East West
+
+You can see:
+Mongoose
+Grass shack
+
+>GO WEST
+I'm in a sandy beach on a tropical isle.
+
+Obvious exits:
+East
+
+You can see:
+Large blood soaked book
+Small ship's keel and mast
+Bottle of rum
+Safety sneakers
+Sand
+Lagoon
+Sign in the sand says:
+`Welcome to Pirates Island, watch out for the tide!`
+
+>DROP SAILS
+OK
+
+>DROP TORCH
+OK
+
+>DROP MATCHES
+OK
+
+>DROP WINGS
+OK
+
+>TAKE BOOK
+OK
+
+>WEAR SNEAKERS
+OK
+
+>SAY YOHO
+Everything spins around and suddenly I'm elsewhere...
+I'M outside an open window
+on the ledge of a very tall building.
+
+Obvious exits:
+none!
+
+>ENTER WINDOW
+I'm in an alcove.
+
+Obvious exits:
+Down
+
+You can see:
+Open window
+Bookcase with secret passage beyond
+Small advertising flyer
+
+>GO DOWN
+I'm in a Flat in london.
+
+Obvious exits:
+none!
+
+You can see:
+Flight of stairs
+Sign says: `Bring *TREASURES* here, say: SCORE`
+Rug
+Sack of crackers
+
+>REMOVE NAILS
+OK
+
+>TAKE RUG
+OK
+There's a strange sound
+
+>LOOK
+I'm in a Flat in london.
+
+Obvious exits:
+none!
+
+You can see:
+Flight of stairs
+Sign says: `Bring *TREASURES* here, say: SCORE`
+Ring of keys
+Sack of crackers
+OK
+I see nothing special
+
+>DROP RUG
+OK
+
+>TAKE KEYS
+OK
+
+>CLIMB STAIRS
+I'm in an alcove.
+
+Obvious exits:
+Down
+
+You can see:
+Open window
+Bookcase with secret passage beyond
+Small advertising flyer
+
+>ENTER WINDOW
+I'M outside an open window
+on the ledge of a very tall building.
+
+Obvious exits:
+none!
+
+>SAY YOHO
+Everything spins around and suddenly I'm elsewhere...
+I'm in a sandy beach on a tropical isle.
+
+Obvious exits:
+East
+
+You can see:
+Unlit torch
+Matches
+Small ship's keel and mast
+Pile of sails
+Bottle of rum
+Sand
+Lagoon
+Water wings
+Sign in the sand says:
+`Welcome to Pirates Island, watch out for the tide!`
+
+>DROP NAILS
+OK
+
+>DROP HAMMER
+OK
+
+>DROP BOOK
+OK
+
+>DROP SNEAKERS
+OK
+
+>GET BOTTLE
+OK
+
+>GO EAST
+I'm in a meadow.
+
+Obvious exits:
+East West
+
+You can see:
+Mongoose
+Grass shack
+
+>ENTER SHACK
+I'm in a grass shack.
+
+Obvious exits:
+West
+
+You can see:
+Wicked looking pirate
+Treasure chest
+Parrot
+
+>GIVE BOTTLE
+OK
+
+>UNLOCK CHEST
+Pirate grabs rum and scuttles off chortling
+
+>LOOK CHEST
+Sorry I can't
+Its locked
+
+>TAKE PLANS
+I don't see that here.
+Bird flys off looking very unhappy
+
+>LOOK CHEST
+Sorry I can't
+Its locked
+
+>TAKE MAP
+I don't see that here.
+
+>READ MAP
+
+>INVENTORY
+You are carrying:
+Ring of keys
+
+>TAKE PARROT
+
+>GO WEST
+I'm in a meadow.
+
+Obvious exits:
+East West
+
+You can see:
+Mongoose
+Grass shack
+
+>GO WEST
+I'm in a sandy beach on a tropical isle.
+
+Obvious exits:
+East
+
+You can see:
+Large blood soaked book
+Unlit torch
+Matches
+Small ship's keel and mast
+Pile of sails
+Claw hammer
+Nails
+Safety sneakers
+Sand
+Lagoon
+Water wings
+Sign in the sand says:
+`Welcome to Pirates Island, watch out for the tide!`
+
+>DROP MAP
+You aren't carrying that.
+
+>DROP PLANS
+You aren't carrying that.
+
+>DROP PARROT
+You aren't carrying that.
+
+>GET BOOK
+OK
+
+>WEAR SNEAKERS
+OK
+
+>SAY YOHO
+Everything spins around and suddenly I'm elsewhere...
+I'M outside an open window
+on the ledge of a very tall building.
+
+Obvious exits:
+none!
+
+>ENTER WINDOW
+I'm in an alcove.
+
+Obvious exits:
+Down
+
+You can see:
+Open window
+Bookcase with secret passage beyond
+Small advertising flyer
+
+>ENTER PASSAGE
+I'm in a secret passageway.
+
+Obvious exits:
+East West
+
+>GO EAST
+I'm in a musty attic.
+
+Obvious exits:
+West
+
+You can see:
+Pirate's duffel bag
+Empty bottle
+Sleeping pirate
+Rum bottle smashed into pieces.
+Sign `Opposite of LIGHT is Unlight`
+
+>TAKE BOTTLE
+OK
+
+>GO WEST
+I'm in a secret passageway.
+
+Obvious exits:
+East West
+
+>GO WEST
+I'm in an alcove.
+
+Obvious exits:
+Down
+
+You can see:
+Open window
+Bookcase with secret passage beyond
+Small advertising flyer
+
+>GO WINDOW
+I'M outside an open window
+on the ledge of a very tall building.
+
+Obvious exits:
+none!
+
+>SAY YOHO
+Everything spins around and suddenly I'm elsewhere...
+I'm in a sandy beach on a tropical isle.
+
+Obvious exits:
+East
+
+You can see:
+Unlit torch
+Matches
+Small ship's keel and mast
+Pile of sails
+Claw hammer
+Nails
+Sand
+Lagoon
+Water wings
+Sign in the sand says:
+`Welcome to Pirates Island, watch out for the tide!`
+
+>DROP BOOK
+OK
+
+>DROP SNEAKERS
+OK
+
+>WEAR WINGS
+OK
+
+>GO TIDE
+I'm in a shallow lagoon.
+to the north is the ocean.
+
+Obvious exits:
+North South East West
+
+You can see:
+The tide is coming in
+Flotsam and jetsam
+
+>GO NORTH
+I'm in the ocean.
+
+Obvious exits:
+North South East West
+
+You can see:
+Fish
+Salt water
+
+>TAKE WATER
+OK
+
+>GET FISH
+OK
+
+>GO SOUTH
+I'm in a shallow lagoon.
+to the north is the ocean.
+
+Obvious exits:
+North South East West
+
+You can see:
+The tide is coming in
+Flotsam and jetsam
+
+>GO SOUTH
+I'm in a sandy beach on a tropical isle.
+
+Obvious exits:
+East
+
+You can see:
+Large blood soaked book
+Unlit torch
+Matches
+Small ship's keel and mast
+Pile of sails
+Claw hammer
+Nails
+Safety sneakers
+Sand
+Lagoon
+Sign in the sand says:
+`Welcome to Pirates Island, watch out for the tide!`
+
+>DROP WINGS
+OK
+
+>GET TORCH
+OK
+
+>TAKE MATCHES
+OK
+
+>GO EAST
+I'm in a meadow.
+
+Obvious exits:
+East West
+
+You can see:
+Mongoose
+Grass shack
+
+>GO EAST
+I'm at the foot of a cave ridden hill, a pathway
+leads on up to the top.
+
+Obvious exits:
+West
+
+>LIGHT TORCH
+Torch is lit
+I'm at the foot of a cave ridden hill, a pathway
+leads on up to the top.
+
+Obvious exits:
+West
+
+>ENTER CAVE
+I'm in a maze of caves.
+
+Obvious exits:
+South East West Down
+
+>CLIMB DOWN
+I'm in a pit.
+
+Obvious exits:
+Up
+
+You can see:
+Mean and hungry looking crocodiles
+Locked door
+
+>GIVE FISH
+OK
+Crocs eat fish and leave
+
+>DROP BOTTLE
+OK
+
+>UNLOCK DOOR
+OK
+
+>LOOK
+I'm in a pit.
+
+Obvious exits:
+Up
+
+You can see:
+Open door with hall beyond
+Bottle of salt water
+OK
+I see nothing special
+
+>ENTER HALL
+I'm in a long hallway.
+
+Obvious exits:
+East
+
+You can see:
+Open door with pit beyond
+
+>GO EAST
+I'm in a large cavern.
+
+Obvious exits:
+West
+
+You can see:
+Pile of precut lumber
+Tool shed
+Narrow crack in the rock
+
+>TAKE LUMBER
+OK
+
+>ENTER SHED
+I'm in a tool shed.
+
+Obvious exits:
+North
+
+You can see:
+Shovel
+
+>TAKE SHOVEL
+OK
+
+>GO NORTH
+I'm in a large cavern.
+
+Obvious exits:
+West
+
+You can see:
+Tool shed
+Narrow crack in the rock
+
+>GO WEST
+I'm in a long hallway.
+
+Obvious exits:
+East
+
+You can see:
+Open door with pit beyond
+
+>ENTER PIT
+I'm in a pit.
+
+Obvious exits:
+Up
+
+You can see:
+Open door with hall beyond
+Bottle of salt water
+
+>CLIMB UP
+I'm in a maze of caves.
+
+Obvious exits:
+South East West Down
+
+>GO WEST
+I'm at the foot of a cave ridden hill, a pathway
+leads on up to the top.
+
+Obvious exits:
+West
+
+>UNLIGHT TORCH
+OK
+You can't see. It is too dark!
+
+>GO WEST
+You can't see. It is too dark!
+
+>GO WEST
+You can't see. It is too dark!
+
+>DROP LUMBER
+OK
+
+>LOOK TIDE
+There's something there all right. Maybe I should
+go there?
+The tide is out
+
+>GO TIDE
+You can't see. It is too dark!
+
+>DIG
+OK
+
+>TAKE ANCHOR
+OK
+
+>GO SOUTH
+You can't see. It is too dark!
+
+>DROP TORCH
+OK
+
+>DROP MATCHES
+OK
+
+>DROP KEYS
+OK
+
+>DROP ANCHOR
+OK
+
+>TAKE PLANS
+I don't see that here.
+
+>BUILD SHIP
+Sorry I can't
+I've no plans!
+
+>TAKE BOOK
+OK
+
+>WEAR SNEAKERS
+OK
+
+>SAY YOHO
+Everything spins around and suddenly I'm elsewhere...
+You can't see. It is too dark!
+
+>ENTER WINDOW
+You can't see. It is too dark!
+
+>ENTER PASSAGE
+You can't see. It is too dark!
+
+>GO EAST
+You can't see. It is too dark!
+
+>WAKE PIRATE
+Pirate awakens and says `Aye matey we be casting off soon`
+He then VANISHES!
+
+>GO WEST
+You can't see. It is too dark!
+
+>GO WEST
+You can't see. It is too dark!
+
+>GO WINDOW
+You can't see. It is too dark!
+
+>SAY YOHO
+Everything spins around and suddenly I'm elsewhere...
+You can't see. It is too dark!
+
+>DROP SNEAKERS
+OK
+
+>DROP BOOK
+OK
+
+>GET PARROT
+
+>GET HAMMER
+OK
+
+>TAKE MAP
+I don't see that here.
+
+>ENTER SHIP
+
+>DROP MAP
+You aren't carrying that.
+
+>SET SAIL
+
+>ENTER BEACH
+
+>GO 30
+OK I walked off 30 paces.
+
+>DIG
+I didn't find anything
+
+>GO SOUTH
+Can't go that way.
+
+>GO EAST
+You can't see. It is too dark!
+
+>GO 30
+OK I walked off 30 paces.
+
+>DIG
+I didn't find anything
+
+>TAKE BOX
+I don't see that here.
+
+>OPEN BOX
+
+>DROP BOX
+You aren't carrying that.
+
+>LOOK
+You can't see. It is too dark!
+OK
+I see nothing special
+
+>TAKE STAMPS
+I don't see that here.
+
+>ENTER MONASTARY
+
+>DROP PARROT
+You aren't carrying that.
+
+>TAKE DUBLEONS
+
+>GO WEST
+You can't see. It is too dark!
+
+>GO WEST
+Can't go that way.
+
+>WAKE PIRATE
+
+>GO NORTH
+Can't go that way.
+
+>ENTER SHIP
+
+>SET SAIL
+
+>ENTER BEACH
+
+>DROP HAMMER
+OK
+
+>DROP SHOVEL
+OK
+
+>TAKE BOOK
+OK
+
+>WEAR SNEAKERS
+OK
+
+>SAY YOHO
+Everything spins around and suddenly I'm elsewhere...
+You can't see. It is too dark!
+
+>ENTER WINDOW
+You can't see. It is too dark!
+
+>CLIMB DOWN
+You can't see. It is too dark!
+Parrot ate a cracker.
+
+>DROP STAMPS
+You aren't carrying that.
+
+>DROP DUBLEONS
+You aren't carrying that.
+
+>SCORE
+I've stored 0 treasures.
+On a scale of 0 to 100 that rates a 0.
+
+>quit

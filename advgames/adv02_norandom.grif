@@ -1,0 +1,169 @@
+// adv02_norandom.grif - GRIF format
+background.0
+	@if @rand(80) @or @istrue(@get(value.norandom)) @then
+		@if @here(21) @and @here(17) @then
+			@comment("CROCODILES")
+			@msg(message.60)
+			@sendto(21,0)
+			@sendto(17,0)
+		@endif
+	@endif
+background.1
+	@if @rand(80) @or @istrue(@get(value.norandom)) @then
+		@if @here(23) @and @here(24) @then
+			@comment("SNAKES")
+			@msg(message.54)
+			@msg(message.62)
+			@msg(message.11)
+			@sendto(23,0)
+		@endif
+	@endif
+background.3
+	@if @rand(3) @or @istrue(@get(value.norandom)) @then
+		@if @herecarry(24) @then
+			@comment("PARROT PIECES 8")
+			@msg(message.54)
+			@msg(message.62)
+		@endif
+	@endif
+background.10
+	@if @rand(19) @or @istrue(@get(value.norandom)) @then
+		@if @isroom(26) @then
+			@comment("END GAME")
+			@script(script.score)
+			@msg(message.28)
+			@quit
+		@endif
+	@endif
+background.11
+	@if @rand(40) @or @istrue(@get(value.norandom)) @then
+		@if @isroom(5) @and @not @carry(44) @then
+			@comment("SLIPPED NO SHOES")
+			@msg(message.29)
+			@set(value.flag.dark,false)
+			@goto(26)
+		@endif
+	@endif
+background.12
+	@if @rand(80) @or @istrue(@get(value.norandom)) @then
+		@if @here(12) @and @here(25) @then
+			@comment("PIRATE RUM FLAG 0")
+			@sendto(41,4)
+			@msg(message.21)
+			@set(value.flag.0,true)
+			@sendto(12,0)
+		@endif
+	@endif
+background.14
+	@if @rand(25) @or @istrue(@get(value.norandom)) @then
+		@if @carry(21) @and @not @carry(42) @then
+			@comment("FISH ESCAPE")
+			@msg(message.34)
+			@sendto(21,10)
+		@endif
+	@endif
+background.16
+	@if @rand(50) @or @istrue(@get(value.norandom)) @then
+		@if @here(12) @and @here(49) @then
+			@comment("PIRATE RUM AGAIN")
+			@sendto(41,22)
+			@msg(message.21)
+			@sendto(12,0)
+		@endif
+	@endif
+background.17
+	@if @rand(35) @or @istrue(@get(value.norandom)) @then
+		@if @herecarry(24) @and @isfalse(@get(value.flag.3)) @then
+			@comment("PARROT BAG")
+			@msg(message.54)
+			@msg(message.55)
+		@endif
+	@endif
+background.18
+	@if @rand(7) @or @istrue(@get(value.norandom)) @then
+		@if @herecarry(24) @and @isfalse(@get(value.flag.12)) @then
+			@comment("PARROT CHEST")
+			@msg(message.54)
+			@msg(message.56)
+		@endif
+	@endif
+background.19
+	@if @rand(50) @or @istrue(@get(value.norandom)) @then
+		@if @isroom(24) @and @somewhere(53) @and @not @carry(54) @then
+			@comment("TIDE IN DROWN")
+			@msg(message.67)
+			@msg(message.61)
+			@set(value.flag.dark,false)
+			@goto(26)
+		@endif
+	@endif
+background.20
+	@if @rand(50) @or @istrue(@get(value.norandom)) @then
+		@if @isroom(10) @and @not @carry(54) @then
+			@comment("DROWN OCEAN")
+			@msg(message.61)
+			@set(value.flag.dark,false)
+			@goto(26)
+		@endif
+	@endif
+background.21
+	@if @rand(10) @or @istrue(@get(value.norandom)) @then
+		@if @isfalse(@get(value.flag.10)) @then
+			@comment("TIDE WITH ANCHOR")
+			@swap(item.52.location,item.53.location)
+			@swap(item.15.location,item.55.location)
+			@set(value.flag.0,true)
+		@endif
+	@endif
+background.22
+	@if @rand(10) @or @istrue(@get(value.norandom)) @then
+		@if @istrue(@get(value.flag.10)) @and @isfalse(@get(value.flag.4)) @then
+			@comment("TIDE NO ANCHOR NOT T.I.")
+			@swap(item.52.location,item.53.location)
+			@set(value.flag.0,true)
+		@endif
+	@endif
+background.26
+	@if @rand(80) @or @istrue(@get(value.norandom)) @then
+		@if @here(23) @and @here(14) @then
+			@comment("MONGOOSE")
+			@msg(message.9)
+			@swap(item.14.location,item.58.location)
+		@endif
+	@endif
+background.27
+	@if @rand(80) @or @istrue(@get(value.norandom)) @then
+		@if @here(17) @and @here(24) @then
+			@comment("BIRD & CROCS")
+			@msg(message.74)
+			@msg(message.75)
+			@sendto(24,13)
+		@endif
+	@endif
+background.28
+	@if @rand(30) @or @istrue(@get(value.norandom)) @then
+		@if @herecarry(24) @and @not @herecarry(60) @and @not @herecarry(12) @then
+			@comment("BIRD FOLLOWS CRACKERS")
+			@msg(message.75)
+			@sendto(24,@get(item.60.location))
+		@endif
+	@endif
+background.29
+	@if @rand(20) @or @istrue(@get(value.norandom)) @then
+		@if @herecarry(24) @and @herecarry(60) @then
+			@comment("PARROT EAT CRACKS")
+			@msg(message.76)
+		@endif
+	@endif
+background.30
+	@if @rand(25) @or @istrue(@get(value.norandom)) @then
+		@if @nowhere(61) @and @herecarry(24) @and @herecarry(3) @then
+			@comment("PARROT BOOK")
+			@msg(message.54)
+			@msg(message.83)
+		@endif
+	@endif
+modmsg.norandom
+	The "norandom" mod is installed. Random events will now always happen or never happen.
+value.norandom
+	true

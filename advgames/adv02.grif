@@ -475,7 +475,7 @@ command.1.68
 command.8
 	@comment("Cmd 146 - say")
 	@msg(message.64)
-	@write(@get(input.noun))
+	@write(@get(input.nounword))
 	@nl
 	@msg(message.3)
 command.8.23

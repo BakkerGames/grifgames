@@ -1009,7 +1009,7 @@ command.37.75
 command.41
 	@comment("Cmd 198 - say")
 	@msg(message.3)
-	@write(@get(input.noun))
+	@write(@get(input.nounword))
 	@nl
 command.45.14
 	@comment("Cmd 151 - drin flas")

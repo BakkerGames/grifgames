@@ -630,7 +630,7 @@ command.7
 		@comment("...continued into Cmd 247")
 	@else
 		@msg(message.1)
-		@write(@get(input.noun))
+		@write(@get(input.nounword))
 		@nl
 		@set(value.flag.13,false)
 	@endif

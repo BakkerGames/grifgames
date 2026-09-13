@@ -1145,7 +1145,7 @@ command.29
 		@comment("...continued into Cmd 222")
 	@elseif @isfalse(@get(value.flag.7)) @and @isfalse(@get(value.flag.12)) @and @isfalse(@get(value.flag.18)) @then
 		@msg(message.1)
-		@write(@get(input.noun))
+		@write(@get(input.nounword))
 		@nl
 	@endif
 command.29.13
@@ -1440,7 +1440,7 @@ command.61.38
 command.62
 	@comment("Cmd 226 - thin")
 	@msg(message.1)
-	@write(@get(input.noun))
+	@write(@get(input.nounword))
 	@nl
 command.63.38
 	@comment("Cmd 144 - clos eyes")

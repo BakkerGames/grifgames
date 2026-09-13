@@ -1403,7 +1403,7 @@ command.49.36
 command.51
 	@comment("Cmd 192 - with")
 	@set(value.flag.20,false)
-	@write(@get(input.noun))
+	@write(@get(input.nounword))
 	@msg(message.37)
 	@set(value.flag.27,false)
 command.51.20
@@ -1559,7 +1559,7 @@ command.66
 	@comment("Cmd 199 - yell")
 	@if @here(20) @then
 		@msg(message.1)
-		@write(@get(input.noun))
+		@write(@get(input.nounword))
 		@nl
 		@msg(message.15)
 		@set(value.flag.dark,false)
@@ -1607,20 +1607,20 @@ command.72
 	@comment("Cmd 175 - ask")
 	@if @here(44) @then
 		@msg(message.1)
-		@write(@get(input.noun))
+		@write(@get(input.nounword))
 		@nl
 		@msg(message.68)
 		@msg(message.45)
 		@comment("...continued into Cmd 198")
 	@else
 		@msg(message.1)
-		@write(@get(input.noun))
+		@write(@get(input.nounword))
 		@nl
 	@endif
 command.72.51
 	@comment("Cmd 126 - ask free")
 	@if @here(52) @and @isfalse(@get(value.flag.22)) @then
-		@write(@get(input.noun))
+		@write(@get(input.nounword))
 		@nl
 		@msg(message.82)
 		@msg(message.84)

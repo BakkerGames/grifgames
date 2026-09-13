@@ -1379,14 +1379,14 @@ command.53
 command.54
 	@comment("Cmd 218 - say")
 	@msg(message.12)
-	@write(@get(input.noun))
+	@write(@get(input.nounword))
 	@nl
 	@msg(message.62)
 command.54.61
 	@comment("Cmd 217 - say sun")
 	@if @isroom(14) @and @herecarry(68) @then
 		@msg(message.12)
-		@write(@get(input.noun))
+		@write(@get(input.nounword))
 		@nl
 		@msg(message.37)
 		@drop(12)

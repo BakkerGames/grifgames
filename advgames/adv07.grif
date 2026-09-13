@@ -1070,14 +1070,14 @@ command.56
 	@comment("Cmd 175 - say")
 	@msg(message.2)
 	@msg(message.66)
-	@write(@get(input.noun))
+	@write(@get(input.nounword))
 	@nl
 	@msg(message.27)
 command.56.35
 	@comment("Cmd 89 - say tick")
 	@if @isroom(1) @then
 		@msg(message.2)
-		@write(@get(input.noun))
+		@write(@get(input.nounword))
 		@nl
 		@msg(message.53)
 	@endif

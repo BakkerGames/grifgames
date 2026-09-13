@@ -703,19 +703,19 @@ command.32
 command.33
 	@comment("Cmd 181 - say")
 	@msg(message.1)
-	@write(@get(input.noun))
+	@write(@get(input.nounword))
 	@nl
 command.33.55
 	@comment("Cmd 128 - say gidd")
 	@if @isroom(25) @and @isfalse(@get(value.flag.20)) @then
 		@msg(message.1)
-		@write(@get(input.noun))
+		@write(@get(input.nounword))
 		@nl
 		@msg(message.68)
 		@comment("...continued into Cmd 174")
 	@elseif @isroom(25) @and @istrue(@get(value.flag.20)) @then
 		@msg(message.1)
-		@write(@get(input.noun))
+		@write(@get(input.nounword))
 		@nl
 		@comment("continue")
 		@msg(message.90)
@@ -974,12 +974,12 @@ command.57
 command.58
 	@comment("Cmd 80 - with")
 	@if @here(2) @and @isfalse(@get(value.flag.11)) @then
-		@write(@get(input.noun))
+		@write(@get(input.nounword))
 		@msg(message.27)
 		@comment("...continued into Cmd 235")
 	@else
 		@msg(message.6)
-		@write(@get(input.noun))
+		@write(@get(input.nounword))
 		@msg(message.27)
 	@endif
 command.58.13

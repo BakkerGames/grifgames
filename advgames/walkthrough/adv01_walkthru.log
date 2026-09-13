@@ -8,8 +8,7 @@ Remember you can always say `HELP`
 
 The "roommaps" mod is installed. Room images will show current exits.
 
-The "norandom" mod is installed. No random events will occur.
-Good for walkthroughs!
+The "norandom" mod is installed. Random events will now always happen or never happen.
 
       |      
   +---N---+  
@@ -85,7 +84,7 @@ You can see:
 OK
 
 >Say Bunyon
-32
+Bunyon
 Something I'm holding vibrates and...
 You are carrying:
 Nothing.

@@ -1376,7 +1376,7 @@ command.48.44
 command.49
 	@comment("Cmd 188 - say")
 	@msg(message.1)
-	@write(@get(input.noun))
+	@write(@get(input.nounword))
 	@nl
 	@msg(message.30)
 	@msg(message.29)

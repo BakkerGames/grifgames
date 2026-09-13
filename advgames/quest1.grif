@@ -860,7 +860,7 @@ command.32
 	@else
 		@set(value.flag.6,false)
 		@msg(message.1)
-		@write(@get(input.noun))
+		@write(@get(input.nounword))
 		@nl
 	@endif
 command.32.72

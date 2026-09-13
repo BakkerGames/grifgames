@@ -1104,7 +1104,7 @@ command.38.14
 command.40
 	@comment("Cmd 197 - thr")
 	@msg(message.20)
-	@write(@get(input.noun))
+	@write(@get(input.nounword))
 	@nl
 command.40.29
 	@comment("Cmd 124 - thr rop")
