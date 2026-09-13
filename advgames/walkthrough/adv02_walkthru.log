@@ -2,6 +2,16 @@
 by Alexis & Scott Adams, dedicated: Ted Heeren & Paul Sharland
 Remember you can always ask for `help`.
 
+
+The "roommaps" mod is installed. Room images will show current exits.
+
+The "norandom" mod is installed. Random events will now always happen or never happen.
+
+  +-------+  
+  |       |  
+  |       |  
+  |       |  
+  +-------+  
 I'm in a Flat in london.
 
 Obvious exits:
@@ -21,7 +31,16 @@ OK
 >WEAR SNEAKERS
 OK
 
+>TAKE CRACKERS
+OK
+
 >CLIMB STAIRS
+
+  +-------+  
+  |       |  
+  |       |  
+  | D     |  
+  +-------+  
 I'm in an alcove.
 
 Obvious exits:
@@ -46,12 +65,24 @@ flyleaf: `YOHO` and a message:
 `Long John Silver left 2 treasures on Treasure Island`
 
 >ENTER PASSAGE
+
+  +-------+  
+  |       |  
+--W       E--
+  |       |  
+  +-------+  
 I'm in a secret passageway.
 
 Obvious exits:
 East West
 
 >GO EAST
+
+  +-------+  
+  |       |  
+--W       |  
+  |       |  
+  +-------+  
 I'm in a musty attic.
 
 Obvious exits:
@@ -70,6 +101,12 @@ OK
 Something falls out
 
 >LOOK
+
+  +-------+  
+  |       |  
+--W       |  
+  |       |  
+  +-------+  
 I'm in a musty attic.
 
 Obvious exits:
@@ -87,12 +124,24 @@ I see nothing special
 OK
 
 >GO WEST
+
+  +-------+  
+  |       |  
+--W       E--
+  |       |  
+  +-------+  
 I'm in a secret passageway.
 
 Obvious exits:
 East West
 
 >GO WEST
+
+  +-------+  
+  |       |  
+  |       |  
+  | D     |  
+  +-------+  
 I'm in an alcove.
 
 Obvious exits:
@@ -104,6 +153,12 @@ Bookcase with secret passage beyond
 Small advertising flyer
 
 >GO WINDOW
+
+  +-------+  
+  |       |  
+  |       |  
+  |       |  
+  +-------+  
 I'M outside an open window
 on the ledge of a very tall building.
 
@@ -112,6 +167,12 @@ none!
 
 >SAY YOHO
 Everything spins around and suddenly I'm elsewhere...
+
+  +-------+  
+  |       |  
+  |       E--
+  |       |  
+  +-------+  
 I'm in a sandy beach on a tropical isle.
 
 Obvious exits:
@@ -133,7 +194,16 @@ OK
 >DROP SNEAKERS
 OK
 
+>DROP CRACKERS
+OK
+
 >GO EAST
+
+  +-------+  
+  |       |  
+--W       E--
+  |       |  
+  +-------+  
 I'm in a meadow.
 
 Obvious exits:
@@ -144,6 +214,12 @@ Mongoose
 Grass shack
 
 >GO EAST
+
+  +-------+  
+  |       |  
+--W       |  
+  |       |  
+  +-------+  
 I'm at the foot of a cave ridden hill, a pathway
 leads on up to the top.
 
@@ -151,6 +227,12 @@ Obvious exits:
 West
 
 >GO PATH
+
+  +-------+  
+  |       |  
+  |       |  
+  | D     |  
+  +-------+  
 I'm on top of a hill. Below is Pirates Island. Across the sea
 way off in the distance I see Treasure Island.
 
@@ -162,6 +244,12 @@ Rock wall with narrow crack in it
 
 >LIGHT TORCH
 Torch is lit
+
+  +-------+  
+  |       |  
+  |       |  
+  | D     |  
+  +-------+  
 I'm on top of a hill. Below is Pirates Island. Across the sea
 way off in the distance I see Treasure Island.
 
@@ -173,6 +261,12 @@ Rock wall with narrow crack in it
 
 >ENTER CRACK
 It was a tight squeeze!
+
+  +-------+  
+  |       |  
+--W       |  
+  |       |  
+  +-------+  
 I'm in a large cavern.
 
 Obvious exits:
@@ -188,6 +282,13 @@ Narrow crack in the rock
 OK
 
 >ENTER SHED
+
+      |      
+  +---N---+  
+  |       |  
+  |       |  
+  |       |  
+  +-------+  
 I'm in a tool shed.
 
 Obvious exits:
@@ -205,6 +306,12 @@ OK
 OK
 
 >GO NORTH
+
+  +-------+  
+  |       |  
+--W       |  
+  |       |  
+  +-------+  
 I'm in a large cavern.
 
 Obvious exits:
@@ -216,6 +323,12 @@ Tool shed
 Narrow crack in the rock
 
 >GO CRACK
+
+  +-------+  
+  |       |  
+  |       |  
+  | D     |  
+  +-------+  
 I'm on top of a hill. Below is Pirates Island. Across the sea
 way off in the distance I see Treasure Island.
 
@@ -227,6 +340,12 @@ Rock wall with narrow crack in it
 
 >UNLIGHT TORCH
 OK
+
+  +-------+  
+  |       |  
+  |       |  
+  | D     |  
+  +-------+  
 I'm on top of a hill. Below is Pirates Island. Across the sea
 way off in the distance I see Treasure Island.
 
@@ -237,6 +356,12 @@ You can see:
 Rock wall with narrow crack in it
 
 >GO DOWN
+
+  +-------+  
+  |       |  
+--W       |  
+  |       |  
+  +-------+  
 I'm at the foot of a cave ridden hill, a pathway
 leads on up to the top.
 
@@ -244,6 +369,12 @@ Obvious exits:
 West
 
 >GO WEST
+
+  +-------+  
+  |       |  
+--W       E--
+  |       |  
+  +-------+  
 I'm in a meadow.
 
 Obvious exits:
@@ -254,6 +385,12 @@ Mongoose
 Grass shack
 
 >GO WEST
+
+  +-------+  
+  |       |  
+  |       E--
+  |       |  
+  +-------+  
 I'm in a sandy beach on a tropical isle.
 
 Obvious exits:
@@ -268,6 +405,7 @@ Sand
 Lagoon
 Sign in the sand says:
 `Welcome to Pirates Island, watch out for the tide!`
+Sack of crackers
 
 >DROP SAILS
 OK
@@ -289,6 +427,12 @@ OK
 
 >SAY YOHO
 Everything spins around and suddenly I'm elsewhere...
+
+  +-------+  
+  |       |  
+  |       |  
+  |       |  
+  +-------+  
 I'M outside an open window
 on the ledge of a very tall building.
 
@@ -296,6 +440,12 @@ Obvious exits:
 none!
 
 >ENTER WINDOW
+
+  +-------+  
+  |       |  
+  |       |  
+  | D     |  
+  +-------+  
 I'm in an alcove.
 
 Obvious exits:
@@ -307,6 +457,12 @@ Bookcase with secret passage beyond
 Small advertising flyer
 
 >GO DOWN
+
+  +-------+  
+  |       |  
+  |       |  
+  |       |  
+  +-------+  
 I'm in a Flat in london.
 
 Obvious exits:
@@ -316,7 +472,6 @@ You can see:
 Flight of stairs
 Sign says: `Bring *TREASURES* here, say: SCORE`
 Rug
-Sack of crackers
 
 >REMOVE NAILS
 OK
@@ -326,6 +481,12 @@ OK
 There's a strange sound
 
 >LOOK
+
+  +-------+  
+  |       |  
+  |       |  
+  |       |  
+  +-------+  
 I'm in a Flat in london.
 
 Obvious exits:
@@ -335,7 +496,6 @@ You can see:
 Flight of stairs
 Sign says: `Bring *TREASURES* here, say: SCORE`
 Ring of keys
-Sack of crackers
 OK
 I see nothing special
 
@@ -346,6 +506,12 @@ OK
 OK
 
 >CLIMB STAIRS
+
+  +-------+  
+  |       |  
+  |       |  
+  | D     |  
+  +-------+  
 I'm in an alcove.
 
 Obvious exits:
@@ -357,6 +523,12 @@ Bookcase with secret passage beyond
 Small advertising flyer
 
 >ENTER WINDOW
+
+  +-------+  
+  |       |  
+  |       |  
+  |       |  
+  +-------+  
 I'M outside an open window
 on the ledge of a very tall building.
 
@@ -365,6 +537,12 @@ none!
 
 >SAY YOHO
 Everything spins around and suddenly I'm elsewhere...
+
+  +-------+  
+  |       |  
+  |       E--
+  |       |  
+  +-------+  
 I'm in a sandy beach on a tropical isle.
 
 Obvious exits:
@@ -381,6 +559,7 @@ Lagoon
 Water wings
 Sign in the sand says:
 `Welcome to Pirates Island, watch out for the tide!`
+Sack of crackers
 
 >DROP NAILS
 OK
@@ -397,7 +576,16 @@ OK
 >GET BOTTLE
 OK
 
+>TAKE CRACKERS
+OK
+
 >GO EAST
+
+  +-------+  
+  |       |  
+--W       E--
+  |       |  
+  +-------+  
 I'm in a meadow.
 
 Obvious exits:
@@ -408,6 +596,12 @@ Mongoose
 Grass shack
 
 >ENTER SHACK
+
+  +-------+  
+  |       |  
+--W       |  
+  |       |  
+  +-------+  
 I'm in a grass shack.
 
 Obvious exits:
@@ -420,34 +614,38 @@ Parrot
 
 >GIVE BOTTLE
 OK
-
->UNLOCK CHEST
 Pirate grabs rum and scuttles off chortling
 
+>UNLOCK CHEST
+Its open
+
 >LOOK CHEST
-Sorry I can't
-Its locked
+There are a set of plans in it
 
 >TAKE PLANS
-I don't see that here.
-Bird flys off looking very unhappy
+OK
 
 >LOOK CHEST
-Sorry I can't
-Its locked
+There's a map in it
 
 >TAKE MAP
-I don't see that here.
+OK
 
 >READ MAP
-
->INVENTORY
-You are carrying:
-Ring of keys
+Its a map to Treasure Island. At the bottom it says:
+`30 paces then dig!`
 
 >TAKE PARROT
+The Parrot crys:
+`Pieces of eight`
 
 >GO WEST
+
+  +-------+  
+  |       |  
+--W       E--
+  |       |  
+  +-------+  
 I'm in a meadow.
 
 Obvious exits:
@@ -458,6 +656,12 @@ Mongoose
 Grass shack
 
 >GO WEST
+
+  +-------+  
+  |       |  
+  |       E--
+  |       |  
+  +-------+  
 I'm in a sandy beach on a tropical isle.
 
 Obvious exits:
@@ -479,13 +683,16 @@ Sign in the sand says:
 `Welcome to Pirates Island, watch out for the tide!`
 
 >DROP MAP
-You aren't carrying that.
+OK
 
 >DROP PLANS
-You aren't carrying that.
+OK
+
+>DROP CRACKERS
+OK
 
 >DROP PARROT
-You aren't carrying that.
+OK
 
 >GET BOOK
 OK
@@ -495,6 +702,12 @@ OK
 
 >SAY YOHO
 Everything spins around and suddenly I'm elsewhere...
+
+  +-------+  
+  |       |  
+  |       |  
+  |       |  
+  +-------+  
 I'M outside an open window
 on the ledge of a very tall building.
 
@@ -502,6 +715,12 @@ Obvious exits:
 none!
 
 >ENTER WINDOW
+
+  +-------+  
+  |       |  
+  |       |  
+  | D     |  
+  +-------+  
 I'm in an alcove.
 
 Obvious exits:
@@ -513,12 +732,24 @@ Bookcase with secret passage beyond
 Small advertising flyer
 
 >ENTER PASSAGE
+
+  +-------+  
+  |       |  
+--W       E--
+  |       |  
+  +-------+  
 I'm in a secret passageway.
 
 Obvious exits:
 East West
 
 >GO EAST
+
+  +-------+  
+  |       |  
+--W       |  
+  |       |  
+  +-------+  
 I'm in a musty attic.
 
 Obvious exits:
@@ -526,21 +757,33 @@ West
 
 You can see:
 Pirate's duffel bag
-Empty bottle
 Sleeping pirate
+### NO EMPTY BOTTLE ###
 Rum bottle smashed into pieces.
 Sign `Opposite of LIGHT is Unlight`
 
 >TAKE BOTTLE
-OK
+I don't see that here.
 
 >GO WEST
+
+  +-------+  
+  |       |  
+--W       E--
+  |       |  
+  +-------+  
 I'm in a secret passageway.
 
 Obvious exits:
 East West
 
 >GO WEST
+
+  +-------+  
+  |       |  
+  |       |  
+  | D     |  
+  +-------+  
 I'm in an alcove.
 
 Obvious exits:
@@ -552,6 +795,12 @@ Bookcase with secret passage beyond
 Small advertising flyer
 
 >GO WINDOW
+
+  +-------+  
+  |       |  
+  |       |  
+  |       |  
+  +-------+  
 I'M outside an open window
 on the ledge of a very tall building.
 
@@ -560,6 +809,12 @@ none!
 
 >SAY YOHO
 Everything spins around and suddenly I'm elsewhere...
+
+  +-------+  
+  |       |  
+  |       E--
+  |       |  
+  +-------+  
 I'm in a sandy beach on a tropical isle.
 
 Obvious exits:
@@ -570,13 +825,17 @@ Unlit torch
 Matches
 Small ship's keel and mast
 Pile of sails
+Parrot
+Set of plans
 Claw hammer
 Nails
+Map
 Sand
 Lagoon
 Water wings
 Sign in the sand says:
 `Welcome to Pirates Island, watch out for the tide!`
+Sack of crackers
 
 >DROP BOOK
 OK
@@ -588,6 +847,14 @@ OK
 OK
 
 >GO TIDE
+
+      |      
+  +---N---+  
+  |       |  
+--W       E--
+  |       |  
+  +---S---+  
+      |      
 I'm in a shallow lagoon.
 to the north is the ocean.
 
@@ -595,10 +862,18 @@ Obvious exits:
 North South East West
 
 You can see:
-The tide is coming in
-Flotsam and jetsam
+Rusty anchor
+The tide is out
 
 >GO NORTH
+
+      |      
+  +---N---+  
+  |       |  
+--W       E--
+  |       |  
+  +---S---+  
+      |      
 I'm in the ocean.
 
 Obvious exits:
@@ -609,12 +884,21 @@ Fish
 Salt water
 
 >TAKE WATER
-OK
+I've no container
 
 >GET FISH
 OK
+Too dry, fish vanish.
 
 >GO SOUTH
+
+      |      
+  +---N---+  
+  |       |  
+--W       E--
+  |       |  
+  +---S---+  
+      |      
 I'm in a shallow lagoon.
 to the north is the ocean.
 
@@ -622,10 +906,16 @@ Obvious exits:
 North South East West
 
 You can see:
-The tide is coming in
-Flotsam and jetsam
+Rusty anchor
+The tide is out
 
 >GO SOUTH
+
+  +-------+  
+  |       |  
+  |       E--
+  |       |  
+  +-------+  
 I'm in a sandy beach on a tropical isle.
 
 Obvious exits:
@@ -637,13 +927,17 @@ Unlit torch
 Matches
 Small ship's keel and mast
 Pile of sails
+Parrot
+Set of plans
 Claw hammer
 Nails
 Safety sneakers
+Map
 Sand
 Lagoon
 Sign in the sand says:
 `Welcome to Pirates Island, watch out for the tide!`
+Sack of crackers
 
 >DROP WINGS
 OK
@@ -655,6 +949,12 @@ OK
 OK
 
 >GO EAST
+
+  +-------+  
+  |       |  
+--W       E--
+  |       |  
+  +-------+  
 I'm in a meadow.
 
 Obvious exits:
@@ -665,6 +965,12 @@ Mongoose
 Grass shack
 
 >GO EAST
+
+  +-------+  
+  |       |  
+--W       |  
+  |       |  
+  +-------+  
 I'm at the foot of a cave ridden hill, a pathway
 leads on up to the top.
 
@@ -673,6 +979,12 @@ West
 
 >LIGHT TORCH
 Torch is lit
+
+  +-------+  
+  |       |  
+--W       |  
+  |       |  
+  +-------+  
 I'm at the foot of a cave ridden hill, a pathway
 leads on up to the top.
 
@@ -680,12 +992,25 @@ Obvious exits:
 West
 
 >ENTER CAVE
+
+  +-------+  
+  |       |  
+--W       E--
+  | D     |  
+  +---S---+  
+      |      
 I'm in a maze of caves.
 
 Obvious exits:
 South East West Down
 
 >CLIMB DOWN
+
+  +-------+  
+  |     U |  
+  |       |  
+  |       |  
+  +-------+  
 I'm in a pit.
 
 Obvious exits:
@@ -696,98 +1021,73 @@ Mean and hungry looking crocodiles
 Locked door
 
 >GIVE FISH
-OK
-Crocs eat fish and leave
+You aren't carrying that.
 
 >DROP BOTTLE
-OK
+You aren't carrying that.
 
 >UNLOCK DOOR
-OK
+Crocs stop me
 
 >LOOK
+
+  +-------+  
+  |     U |  
+  |       |  
+  |       |  
+  +-------+  
 I'm in a pit.
 
 Obvious exits:
 Up
 
 You can see:
-Open door with hall beyond
-Bottle of salt water
+Mean and hungry looking crocodiles
+Locked door
 OK
 I see nothing special
 
 >ENTER HALL
-I'm in a long hallway.
-
-Obvious exits:
-East
-
-You can see:
-Open door with pit beyond
 
 >GO EAST
-I'm in a large cavern.
-
-Obvious exits:
-West
-
-You can see:
-Pile of precut lumber
-Tool shed
-Narrow crack in the rock
+Can't go that way.
 
 >TAKE LUMBER
-OK
+I don't see that here.
 
 >ENTER SHED
-I'm in a tool shed.
-
-Obvious exits:
-North
-
-You can see:
-Shovel
 
 >TAKE SHOVEL
-OK
+I don't see that here.
 
 >GO NORTH
-I'm in a large cavern.
-
-Obvious exits:
-West
-
-You can see:
-Tool shed
-Narrow crack in the rock
+Can't go that way.
 
 >GO WEST
-I'm in a long hallway.
-
-Obvious exits:
-East
-
-You can see:
-Open door with pit beyond
+Can't go that way.
 
 >ENTER PIT
-I'm in a pit.
-
-Obvious exits:
-Up
-
-You can see:
-Open door with hall beyond
-Bottle of salt water
 
 >CLIMB UP
+
+  +-------+  
+  |       |  
+--W       E--
+  | D     |  
+  +---S---+  
+      |      
 I'm in a maze of caves.
 
 Obvious exits:
 South East West Down
 
 >GO WEST
+
+  +-------+  
+  |       |  
+--W       |  
+  |       |  
+  +-------+  
 I'm at the foot of a cave ridden hill, a pathway
 leads on up to the top.
 
@@ -805,7 +1105,7 @@ You can't see. It is too dark!
 You can't see. It is too dark!
 
 >DROP LUMBER
-OK
+You aren't carrying that.
 
 >LOOK TIDE
 There's something there all right. Maybe I should
@@ -814,183 +1114,10 @@ The tide is out
 
 >GO TIDE
 You can't see. It is too dark!
+The tide is coming in
+I'm underwater, I guess I don't swim well. Blub Blub...
 
 >DIG
-OK
-
->TAKE ANCHOR
-OK
-
->GO SOUTH
-You can't see. It is too dark!
-
->DROP TORCH
-OK
-
->DROP MATCHES
-OK
-
->DROP KEYS
-OK
-
->DROP ANCHOR
-OK
-
->TAKE PLANS
-I don't see that here.
-
->BUILD SHIP
-Sorry I can't
-I've no plans!
-
->TAKE BOOK
-OK
-
->WEAR SNEAKERS
-OK
-
->SAY YOHO
-Everything spins around and suddenly I'm elsewhere...
-You can't see. It is too dark!
-
->ENTER WINDOW
-You can't see. It is too dark!
-
->ENTER PASSAGE
-You can't see. It is too dark!
-
->GO EAST
-You can't see. It is too dark!
-
->WAKE PIRATE
-Pirate awakens and says `Aye matey we be casting off soon`
-He then VANISHES!
-
->GO WEST
-You can't see. It is too dark!
-
->GO WEST
-You can't see. It is too dark!
-
->GO WINDOW
-You can't see. It is too dark!
-
->SAY YOHO
-Everything spins around and suddenly I'm elsewhere...
-You can't see. It is too dark!
-
->DROP SNEAKERS
-OK
-
->DROP BOOK
-OK
-
->GET PARROT
-
->GET HAMMER
-OK
-
->TAKE MAP
-I don't see that here.
-
->ENTER SHIP
-
->DROP MAP
-You aren't carrying that.
-
->SET SAIL
-
->ENTER BEACH
-
->GO 30
-OK I walked off 30 paces.
-
->DIG
-I didn't find anything
-
->GO SOUTH
-Can't go that way.
-
->GO EAST
-You can't see. It is too dark!
-
->GO 30
-OK I walked off 30 paces.
-
->DIG
-I didn't find anything
-
->TAKE BOX
-I don't see that here.
-
->OPEN BOX
-
->DROP BOX
-You aren't carrying that.
-
->LOOK
-You can't see. It is too dark!
-OK
-I see nothing special
-
->TAKE STAMPS
-I don't see that here.
-
->ENTER MONASTARY
-
->DROP PARROT
-You aren't carrying that.
-
->TAKE DUBLEONS
-
->GO WEST
-You can't see. It is too dark!
-
->GO WEST
-Can't go that way.
-
->WAKE PIRATE
-
->GO NORTH
-Can't go that way.
-
->ENTER SHIP
-
->SET SAIL
-
->ENTER BEACH
-
->DROP HAMMER
-OK
-
->DROP SHOVEL
-OK
-
->TAKE BOOK
-OK
-
->WEAR SNEAKERS
-OK
-
->SAY YOHO
-Everything spins around and suddenly I'm elsewhere...
-You can't see. It is too dark!
-
->ENTER WINDOW
-You can't see. It is too dark!
-
->CLIMB DOWN
-You can't see. It is too dark!
-Parrot ate a cracker.
-
->DROP STAMPS
-You aren't carrying that.
-
->DROP DUBLEONS
-You aren't carrying that.
-
->SCORE
 I've stored 0 treasures.
 On a scale of 0 to 100 that rates a 0.
-
->quit
+Since nothing is happening

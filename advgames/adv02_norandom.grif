@@ -19,7 +19,7 @@ background.1
 		@endif
 	@endif
 background.3
-	@if @rand(3) @or @istrue(@get(value.norandom)) @then
+	@if @rand(3) @and @isfalse(@get(value.norandom)) @then
 		@if @herecarry(24) @then
 			@comment("PARROT PIECES 8")
 			@msg(message.54)
@@ -72,7 +72,7 @@ background.16
 		@endif
 	@endif
 background.17
-	@if @rand(35) @or @istrue(@get(value.norandom)) @then
+	@if @rand(35) @and @isfalse(@get(value.norandom)) @then
 		@if @herecarry(24) @and @isfalse(@get(value.flag.3)) @then
 			@comment("PARROT BAG")
 			@msg(message.54)
@@ -80,7 +80,7 @@ background.17
 		@endif
 	@endif
 background.18
-	@if @rand(7) @or @istrue(@get(value.norandom)) @then
+	@if @rand(7) @and @isfalse(@get(value.norandom)) @then
 		@if @herecarry(24) @and @isfalse(@get(value.flag.12)) @then
 			@comment("PARROT CHEST")
 			@msg(message.54)
@@ -149,14 +149,14 @@ background.28
 		@endif
 	@endif
 background.29
-	@if @rand(20) @or @istrue(@get(value.norandom)) @then
+	@if @rand(20) @and @isfalse(@get(value.norandom)) @then
 		@if @herecarry(24) @and @herecarry(60) @then
 			@comment("PARROT EAT CRACKS")
 			@msg(message.76)
 		@endif
 	@endif
 background.30
-	@if @rand(25) @or @istrue(@get(value.norandom)) @then
+	@if @rand(25) @and @isfalse(@get(value.norandom)) @then
 		@if @nowhere(61) @and @herecarry(24) @and @herecarry(3) @then
 			@comment("PARROT BOOK")
 			@msg(message.54)
