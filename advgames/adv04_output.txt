@@ -587,7 +587,7 @@ Cmd   9 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0 
 Cmd  10 |     0   100 |    4  15   8  15   0   0   0   0   0   0 |   57  76   0   0 |
                  100% | IF ISROOM(15="large fireplace")
                       | IF FLAG(15)=TRUE
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | LOOK
 Cmd  11 |     0    50 |    1  21   0  11   4  10   0   0   0   0 |   40  54   0   0 |
                   50% | IF CARRY(21="Soot")
@@ -597,7 +597,7 @@ Cmd  11 |     0    50 |    1  21   0  11   4  10   0   0   0   0 |   40  54   0 
 Cmd  12 |     0   100 |    4   3   8  15   0   0   0   0   0   0 |   57  76   0   0 |
                  100% | IF ISROOM(3="room in the castle")
                       | IF FLAG(15)=TRUE
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | LOOK
 Cmd  13 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
 Cmd  14 |     0   100 |    4  18  13  35   0   0   0   0   0   0 |  104   0   0   0 |
@@ -716,13 +716,13 @@ Cmd  41 |    39    35 |    2  13   0  12   0  13   0  11   0   0 |   72  20  59 
 Cmd  42 |     1    12 |    2   6   0  16   0   0   0   0   0   0 |   54  56  70  64 |
              go   hol | IF HERE(6="Dark hole")
                       | GOTO 16="room in the castle"
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | CLEARSCREEN
                       | LOOK
 Cmd  43 |     1    35 |    4  15   2  13   0  14   0   0   0   0 |   56  54  70  64 |
              go   flu | IF ISROOM(15="large fireplace")
                       | IF HERE(13="Open Flue")
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | GOTO 14="Chimney"
                       | CLEARSCREEN
                       | LOOK
@@ -821,7 +821,7 @@ Cmd  64 |     0     0 |   14  32   3   9   1   0   0   3   0   0 |   58  32  56 
                       | IF CARRY(0="Bloody Knife")
                       | SET FLAG(3)=TRUE
                       | MESSAGE 32="There's a CLAP OF THUNDER!"
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | MESSAGE 64="Its very dark, the only lig..."
 Cmd  65 |    42    42 |    3  40   0   0   0   0   0   0   0   0 |  119   0   0   0 |
             loo   che | IF HERECARRY(40="Mixed Chemicals")
@@ -879,7 +879,7 @@ Cmd  74 |    64    23 |   14  23   4   6   0  23   0   0   0   0 |   20  85  53 
 Cmd  75 |     1    24 |    2  13   0  14   0   0   0   0   0   0 |   54  56  76   0 |
              go   chi | IF HERE(13="Open Flue")
                       | GOTO 14="Chimney"
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | LOOK
 Cmd  76 |    35    19 |    3  38   0   0   0   0   0   0   0   0 |   17   0   0   0 |
             rea   lab | IF HERECARRY(38="Labeled chemicals")

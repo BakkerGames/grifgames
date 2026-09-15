@@ -40,7 +40,7 @@ background.11
 		@if @isroom(5) @and @not @carry(44) @then
 			@comment("SLIPPED NO SHOES")
 			@msg(message.29)
-			@set(value.flag.dark,false)
+			@set(value.flag.15,false)
 			@goto(26)
 		@endif
 	@endif
@@ -93,7 +93,7 @@ background.19
 			@comment("TIDE IN DROWN")
 			@msg(message.67)
 			@msg(message.61)
-			@set(value.flag.dark,false)
+			@set(value.flag.15,false)
 			@goto(26)
 		@endif
 	@endif
@@ -102,7 +102,7 @@ background.20
 		@if @isroom(10) @and @not @carry(54) @then
 			@comment("DROWN OCEAN")
 			@msg(message.61)
-			@set(value.flag.dark,false)
+			@set(value.flag.15,false)
 			@goto(26)
 		@endif
 	@endif

@@ -1272,12 +1272,12 @@ Cmd 136 |    10    61 |    0  10   0   0   0   0   0   0   0   0 |    1  58   0 
 Cmd 137 |   125    62 |    0  11   0   0   0   0   0   0   0   0 |    1  58  56  76 |
            clos  eyes | MESSAGE 1="O.K."
                       | SET FLAG(11)=TRUE
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | LOOK
 Cmd 138 |    99    62 |    0  11   0   0   0   0   0   0   0   0 |    1  60  57  76 |
            open  eyes | MESSAGE 1="O.K."
                       | SET FLAG(11)=FALSE
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | LOOK
 Cmd 139 |    93    64 |    0  13   0   0   0   0   0   0   0   0 |   39  40  58  47 |
            plug  ears | MESSAGE 39="With what?"

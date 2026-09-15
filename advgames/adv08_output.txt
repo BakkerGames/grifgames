@@ -755,7 +755,7 @@ Cmd  24 |     0    20 |    2  95   0   0   0   0   0   0   0   0 |  120  61   0 
 Cmd  25 |     0   100 |    4  23   8  15   0   0   0   0   0   0 |   57  76   0   0 |
                  100% | IF ISROOM(23="on top of a pyramid")
                       | IF FLAG(15)=TRUE
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | LOOK
 Cmd  26 |     0   100 |    4  25   3   9   0   9   0   8   0   0 |   72 134  76   0 | MIRROR ROOM
                  100% | IF ISROOM(25="")
@@ -883,7 +883,7 @@ Cmd  55 |     1    10 |    2  17   4   4   0   6   0   0   0   0 |   54  56  76 
              go   doo | IF HERE(17="Open door")
                       | IF ISROOM(4="desert next to a pyramid")
                       | GOTO 6="rocky entrance-way"
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | LOOK
 Cmd  56 |     1    10 |    2  16   4   4   0   0   0   0   0   0 |   13   0   0   0 |
              go   doo | IF HERE(16="Door with large keyhole")
@@ -948,7 +948,7 @@ Cmd  70 |     1    14 |    2  22   0   7   0   0   0   0   0   0 |   54  76  56 
              go   sar | IF HERE(22="Open sarcophagus")
                       | GOTO 7="sarcophagus"
                       | LOOK
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
 Cmd  71 |    13    13 |    2  54   0  24   0  54   0   0   0   0 |   18  19  72   0 |
             bre   ske | IF HERE(54="Decapitated skeleton")
                       | MESSAGE 18="Crash!!!"
@@ -963,7 +963,7 @@ Cmd  73 |     1    10 |    4   6   2  25   0   4   0   0   0   0 |   54  57  76 
              go   doo | IF ISROOM(6="rocky entrance-way")
                       | IF HERE(25="Open door")
                       | GOTO 4="desert next to a pyramid"
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | LOOK
 Cmd  74 |     1    23 |    2  29   2  37   0   0   0   0   0   0 |   33  34   0   0 |
              go   alc | IF HERE(29="Fearsome mummy")

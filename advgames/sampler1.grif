@@ -32,7 +32,7 @@
 	@get(@concat("item.",$x,".location"))
 @look
 	@debug("### ROOM #",@room)
-	@if @istrue(@get(value.flag.dark)) @and @not @herecarry(9) @then
+	@if @istrue(@get(value.flag.15)) @and @not @herecarry(9) @then
 		@msg(message.cant_see)
 	@else
 		@script(script.before_look)
@@ -82,7 +82,7 @@ background.0
 background.1
 	@if @rand(10) @and @carry(21) @and @not @isroom(33) @then
 		@msg(message.13)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@goto(33)
 	@endif
 background.2
@@ -121,12 +121,12 @@ background.7
 background.8
 	@if @rand(8) @and @here(24) @and @not @herecarry(7) @then
 		@msg(message.15)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@goto(33)
 	@endif
 background.9
 	@if @isroom(5) @and @istrue(@get(value.flag.15)) @then
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@look
 	@endif
 background.10
@@ -149,7 +149,7 @@ background.12
 background.13
 	@if @rand(50) @and @here(27) @and @herecarry(7) @then
 		@msg(message.4)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@goto(33)
 	@endif
 background.14
@@ -173,7 +173,7 @@ background.17
 	@if @istrue(@get(value.flag.14)) @then
 		@take(13)
 		@set(value.flag.14,false)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@goto(33)
 	@endif
 background.18
@@ -299,7 +299,7 @@ command.1.56
 	@comment("Cmd 134 - go hal")
 	@if @here(17) @then
 		@goto(6)
-		@set(value.flag.dark,true)
+		@set(value.flag.15,true)
 		@look
 	@endif
 command.1.57
@@ -328,7 +328,7 @@ command.6
 		@comment("...continued into Cmd 70")
 	@elseif @isroom(19) @and @carry(36) @then
 		@msg(message.33)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@goto(33)
 		@comment("...continued into Cmd 164")
 	@else
@@ -462,7 +462,7 @@ command.10.23
 	@comment("Cmd 30 - get bee")
 	@if @here(24) @and @not @carry(7) @then
 		@msg(message.15)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@goto(33)
 		@comment("...continued into Cmd 31")
 	@elseif @here(24) @and @carry(7) @and @not @carry(13) @then
@@ -495,7 +495,7 @@ command.10.42
 	@comment("Cmd 26 - get hon")
 	@if @here(23) @and @not @carry(7) @and @here(24) @then
 		@msg(message.15)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@goto(33)
 		@comment("...continued into Cmd 148")
 	@elseif @here(23) @then
@@ -510,7 +510,7 @@ command.10.51
 	@comment("Cmd 137 - get web")
 	@if @here(3) @then
 		@msg(message.11)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@goto(33)
 	@endif
 command.10.54
@@ -550,7 +550,7 @@ command.14.25
 	@if @carry(31) @and @carry(28) @then
 		@msg(message.20)
 		@msg(message.21)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@goto(33)
 		@sendto(31,0)
 		@comment("...continued into Cmd 40")
@@ -687,14 +687,14 @@ command.28.17
 	@elseif @herecarry(10) @and @istrue(@get(value.flag.10)) @then
 		@msg(message.50)
 		@set(value.flag.11,true)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@goto(33)
 		@sendto(48,0)
 		@comment("...continued into Cmd 110")
 	@elseif @herecarry(10) @and @istrue(@get(value.flag.9)) @then
 		@msg(message.50)
 		@set(value.flag.10,true)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@goto(33)
 		@sendto(49,0)
 		@comment("...continued into Cmd 111")
@@ -901,13 +901,13 @@ command.48.9
 	@if @carry(29) @and @isroom(17) @then
 		@goto(23)
 		@msg(message.18)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@look
 		@comment("...continued into Cmd 142")
 	@elseif @carry(29) @and @not @isroom(17) @and @not @isroom(33) @and @not @isroom(26) @then
 		@goto(17)
 		@msg(message.18)
-		@set(value.flag.dark,true)
+		@set(value.flag.15,true)
 		@look
 	@endif
 command.48.32
@@ -953,7 +953,7 @@ command.51
 	@elseif @carry(21) @then
 		@msg(message.3)
 		@msg(message.13)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@goto(33)
 		@comment("...continued into Cmd 141")
 	@else
@@ -1950,8 +1950,6 @@ value.flag.13
 value.flag.14
 	false
 value.flag.15
-	false
-value.flag.dark
 	false
 value.lightmoves
 	125

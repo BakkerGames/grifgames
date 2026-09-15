@@ -657,7 +657,7 @@ Cmd   3 |     0   100 |    8   4   1  10   0  10   0  14   0   0 |   62   0   0 
 Cmd   4 |     0   100 |    9   2   9   3   0   0   0   0   0   0 |   57   0   0   0 |
                  100% | IF FLAG(2)=FALSE
                       | IF FLAG(3)=FALSE
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
 Cmd   5 |     0     8 |    9  21   1  18   9  22   0  22   0  18 |   58  60   0   0 |
                    8% | IF FLAG(21)=FALSE
                       | IF CARRY(18="which I'm wearing")
@@ -678,7 +678,7 @@ Cmd   8 |     0   100 |    9   1   0  40   0   3   0   0   0   0 |   79  81  73 
                       | SWAP COUNTER WITH COUNTER(3)
                       | CONTINUE_NEXT_LINE
 Cmd   9 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |   56  70  64   2 |
-            continued | SET DARK=TRUE
+            continued | SET FLAG(15)=TRUE
                       | CLEARSCREEN
                       | LOOK
                       | MESSAGE 2="Adventure 14 by Scott Adams."
@@ -790,7 +790,7 @@ Cmd  32 |     0   100 |    8  22   1  18   0   2   0   0   0   0 |   38  58  56 
                       | IF CARRY(18="which I'm wearing")
                       | MESSAGE 38="My mask's fogged up!"
                       | SET FLAG(2)=TRUE
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
 Cmd  33 |     0   100 |    8   5   1  56   0  62   0  56   0   0 |   72   0   0   0 |
                  100% | IF FLAG(5)=TRUE
                       | IF CARRY(56="*Rare Book*")
@@ -819,7 +819,7 @@ Cmd  37 |     0   100 |    6  17   1  18   0  18   0   2   0  18 |   55  58  60 
 Cmd  38 |     0   100 |    9  18   8   3   0  18   0   0   0   0 |   56  58  70  64 |
                  100% | IF FLAG(18)=FALSE
                       | IF FLAG(3)=TRUE
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | SET FLAG(18)=TRUE
                       | CLEARSCREEN
                       | LOOK
@@ -836,13 +836,13 @@ Cmd  41 |     0   100 |    8  18   9   2   0  18   9   3   0   0 |   57  60  76 
                  100% | IF FLAG(18)=TRUE
                       | IF FLAG(2)=FALSE
                       | IF FLAG(3)=FALSE
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | SET FLAG(18)=FALSE
                       | LOOK
 Cmd  42 |     0   100 |    9  18   8   2   0  18   0   0   0   0 |   56  58  76   0 |
                  100% | IF FLAG(18)=FALSE
                       | IF FLAG(2)=TRUE
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | SET FLAG(18)=TRUE
                       | LOOK
 Cmd  43 |     0    25 |    8   4   8  20   0  20   0  13   0   0 |   60  58   0   0 |
@@ -1030,13 +1030,13 @@ Cmd  79 |    34    32 |    1  18   0  18   0   2   0   0   0   0 |    1  59  58 
                       | MESSAGE 1="O.K."
                       | DESTROY 18="which I'm wearing"
                       | SET FLAG(2)=TRUE
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
 Cmd  80 |    34     7 |    1   2   0   2   0   2   0   0   0   0 |    1  59  58  56 |
            remo  glas | IF CARRY(2="which I'm wearing")
                       | MESSAGE 1="O.K."
                       | DESTROY 2="which I'm wearing"
                       | SET FLAG(2)=TRUE
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
 Cmd  81 |     1    57 |    0   0   0   0   0   0   0   0   0   0 |   41   0   0   0 |
              go  cloc | MESSAGE 41="I don't know where it is."
 Cmd  82 |    61     7 |    3   2   0   0   0   0   0   0   0   0 |    1   0   0   0 |
@@ -1170,7 +1170,7 @@ Cmd 108 |    39     0 |    0   0   0   0   0   0   0   0   0   0 |    3  30  29 
                       | MESSAGE 29="happens."
 Cmd 109 |     1    13 |    4   7   0   8   0   3   0  16   0   0 |   56  54  58  58 |
              go  crac | IF ISROOM(7="on top of a small hill")
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | GOTO 8="cavern"
                       | SET FLAG(3)=TRUE
                       | SET FLAG(16)=TRUE
@@ -1797,7 +1797,7 @@ Cmd 221 |    80     0 |    8   2   9   3   9   4   6  18   0   2 |   60  57  76 
                       | IF FLAG(4)=FALSE
                       | IF NOT CARRY(18="which I'm wearing")
                       | SET FLAG(2)=FALSE
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | LOOK
                       | CONTINUE_NEXT_LINE
 Cmd 222 |     0     0 |    0  18   0   2   0   0   0   0   0   0 |   60  88  58  70 |
@@ -1884,7 +1884,7 @@ Cmd 238 |     0     0 |   14  60   0  60   0   0   0   0   0   0 |   21  10  22 
 Cmd 239 |    73    11 |    4   2  13  32   0  32   0   4   0   3 |   56  72  58  73 |
            sail  ship | IF ISROOM(2="ship's cabin")
                       | IF SOMEWHERE(32="Dock")
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | SWAP ITEMS 32="Dock" AND 4="Isle off in distance"
                       | SET FLAG(3)=TRUE
                       | CONTINUE_NEXT_LINE
@@ -1992,7 +1992,7 @@ Cmd 258 |    73    11 |    4   2  14  32   0  32   0   4   0   3 |   73  72  60 
                       | CONTINUE_NEXT_LINE
                       | SWAP ITEMS 32="Dock" AND 4="Isle off in distance"
                       | SET FLAG(3)=FALSE
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
 Cmd 259 |     0     0 |    0   3   0  15   0  31   0   0   0   0 |   81  83   1  60 |
             continued | SWAP COUNTER WITH COUNTER(3)
                       | SUBTO COUNTER 15
@@ -2065,7 +2065,7 @@ Cmd 273 |     1    43 |    1   2   0   1   0   2   0   0   0   0 |   24  53  73 
                       | DESTROY 2="which I'm wearing"
 Cmd 274 |     0     0 |    0   2   0   0   0   0   0   0   0   0 |   58  56   0   0 |
             continued | SET FLAG(2)=TRUE
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
 Cmd 275 |     0     0 |   10   0   0   0   0   0   0   0   0   0 |    3  26  10 111 |
             continued | IF GT(INVCOUNT,0)
                       | MESSAGE 3="Sorry,"

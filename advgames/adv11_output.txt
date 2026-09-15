@@ -1292,7 +1292,7 @@ Cmd 134 |     0     0 |    0  17   0   8   0   7   0  14   0   0 |   53  59  59 
 Cmd 135 |     0     0 |    0  13   0  12   0   0   0   0   0   0 |   54  58  56  76 |
             continued | GOTO 13="red metal room"
                       | SET FLAG(12)=TRUE
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | LOOK
 Cmd 136 |     0     0 |    0  19   0  13   0   0   0   0   0   0 |   28  40  58  60 |
             continued | MESSAGE 28="I feel"
@@ -1314,7 +1314,7 @@ Cmd 139 |    23    46 |    4  27   9  15   0   0   0   0   0   0 |   17 141   0 
 Cmd 140 |    61    38 |    8  15   0   0   0   0   0   0   0   0 |    1  57  76   0 |
            open  eyes | IF FLAG(15)=TRUE
                       | MESSAGE 1="OK"
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | LOOK
 Cmd 141 |    23    36 |    9  15   8  12   0   0   0   0   0   0 |    1  17  31  41 |
            look  self | IF FLAG(15)=FALSE
@@ -1338,7 +1338,7 @@ Cmd 143 |    29    34 |    2  16   8  13   9  14   9  12   0  14 |   58   8  36 
                       | MESSAGE 12="`Ready`"
 Cmd 144 |    63    38 |    0   0   0   0   0   0   0   0   0   0 |    1  56  76   0 |
            clos  eyes | MESSAGE 1="OK"
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | LOOK
 Cmd 145 |    40    30 |    3   4   0   4   0   0   0   0   0   0 |    1  59   0   0 |
             eat  plan | IF HERECARRY(4="Plants")

@@ -753,7 +753,7 @@ Cmd  41 |     0     0 |   15   1   0   9   0  10   0   0   0   0 |   60  58   0 
 Cmd  42 |     0     0 |    1  52   1  51   0  55   0   0   0   0 |   57  53  76   0 | WEARING GOOD
             continued | IF CARRY(52="which I'm wearing")
                       | IF CARRY(51="Strange looking goggles")
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | DROP 55="EVERYTHING HAS A BLUEISH TINT"
                       | LOOK
 Cmd  43 |     0     0 |    0   5   0   0   0   0   0   0   0   0 |   81   0   0   0 |
@@ -762,7 +762,7 @@ Cmd  44 |     0   100 |    1  52   9   9   9  15   0   0   0   0 |   56  76   0 
                  100% | IF CARRY(52="which I'm wearing")
                       | IF FLAG(9)=FALSE
                       | IF FLAG(15)=FALSE
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | LOOK
 Cmd  45 |    37    74 |    3   6   0   0   0   0   0   0   0   0 |  110   0   0   0 |
            look  gaug | IF HERECARRY(6="Space suit")
@@ -1494,7 +1494,7 @@ Cmd 186 |    18    75 |    1  51   0  51   0  52   0   0   0   0 |   53  59  57 
            drop  gogg | IF CARRY(51="Strange looking goggles")
                       | DROP 51="Strange looking goggles"
                       | DESTROY 52="which I'm wearing"
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | CONTINUE_NEXT_LINE
 Cmd 187 |     0     0 |    0  55   0   0   0   0   0   0   0   0 |    3  59  76   0 |
             continued | MESSAGE 3="OK"
@@ -1612,7 +1612,7 @@ Cmd 216 |    48    20 |    1   7   0   7   0   0   0   0   0   0 |    3  59   0 
                       | DESTROY 7="which I'm wearing"
 Cmd 217 |    48    75 |    1  52   0  52   0  55   0   0   0   0 |   57  59  59  76 |
            remo  gogg | IF CARRY(52="which I'm wearing")
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | DESTROY 52="which I'm wearing"
                       | DESTROY 55="EVERYTHING HAS A BLUEISH TINT"
                       | LOOK

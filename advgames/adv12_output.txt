@@ -650,11 +650,11 @@ Cmd   4 |     0   100 |   19   0   0   0   0   0   0   0   0   0 |   48   0   0 
 Cmd   5 |     0   100 |   12   9  15   0   0   0   0   0   0   0 |   56   0   0   0 |
                  100% | IF NOT HERECARRY(9="Lit torch")
                       | IF LE(COUNTER,0)
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
 Cmd   6 |     0   100 |    8  14   0  16   0   0   0   0   0   0 |   58  56  64  23 |
                  100% | IF FLAG(14)=TRUE
                       | SET FLAG(16)=TRUE
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | LOOK
                       | MESSAGE 23="I'm blind!"
 Cmd   7 |     0   100 |    4  22   9  14   0   8   0   0   0   0 |   60   0   0   0 |
@@ -676,7 +676,7 @@ Cmd   9 |     0   100 |    8  29  13  62   4  29   0  29   0  62 |  129  60  61 
 Cmd  10 |     0   100 |    3   9   9  14   0   0   0   0   0   0 |   57   0   0   0 |
                  100% | IF HERECARRY(9="Lit torch")
                       | IF FLAG(14)=FALSE
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
 Cmd  11 |     0   100 |    8  29   0   0   0   0   0   0   0   0 |   88  73   0   0 |
                  100% | IF FLAG(29)=TRUE
                       | SLEEP 2 SECONDS
@@ -690,7 +690,7 @@ Cmd  12 |     0     0 |    7  29   0   0   0   0   0   0   0   0 |   49  61  41 
 Cmd  13 |     0   100 |    8  29   0   0   0   0   0   0   0   0 |   88  57  73   0 |
                  100% | IF FLAG(29)=TRUE
                       | SLEEP 2 SECONDS
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | CONTINUE_NEXT_LINE
 Cmd  14 |     0     0 |    0 215   0   0   0   1   0   0   0   0 |   79  81  83  43 |
             continued | SET COUNTER=215
@@ -772,7 +772,7 @@ Cmd  27 |     0    70 |    8  25   1  63   0  25   0   0   0   0 |  107  60   0 
 Cmd  28 |     0    39 |    8  25   0  25   0   0   0   0   0   0 |  106  57  61  60 |
                   39% | IF FLAG(25)=TRUE
                       | MESSAGE 56="I've been cut in two!"
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | DEAD
                       | SET FLAG(25)=FALSE
 Cmd  29 |     0   100 |    8  25   0  25   0   0   0   0   0   0 |  105  60   0   0 |
@@ -845,7 +845,7 @@ Cmd  42 |     0     0 |    0  24   0  68   0   0   0   0   0   0 |   59  53   0 
 Cmd  43 |     0   100 |   12   9   8   8   0   0   0   0   0   0 |   56  64   0   0 |
                  100% | IF NOT HERECARRY(9="Lit torch")
                       | IF FLAG(8)=TRUE
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | LOOK
 Cmd  44 |     0   100 |   15  10  16   0   0   0   0   0   0   0 |   42   0   0   0 |
                  100% | IF LE(COUNTER,10)
@@ -854,13 +854,13 @@ Cmd  44 |     0   100 |   15  10  16   0   0   0   0   0   0   0 |   42   0   0 
 Cmd  45 |     0   100 |    4  16  12   9   0   0   0   0   0   0 |   56  64   0   0 |
                  100% | IF ISROOM(16="dark cavern")
                       | IF NOT HERECARRY(9="Lit torch")
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | LOOK
 Cmd  46 |     0   100 |    4  14  16   0   9  14   0   0   0   0 |   57  64   0   0 |
                  100% | IF ISROOM(14="on a small island")
                       | IF GE(COUNTER,0)
                       | IF FLAG(14)=FALSE
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | LOOK
 Cmd  47 |     0    60 |    9  19   2   4   0   4   0   0   0   0 |  111  55   0   0 |
                   60% | IF FLAG(19)=FALSE
@@ -875,11 +875,11 @@ Cmd  48 |     0   100 |    8   0   4   6   8  22   0  64   0   0 |   53   0   0 
 Cmd  49 |     0   100 |   12   9   8  15   0   0   0   0   0   0 |   56  64   0   0 |
                  100% | IF NOT HERECARRY(9="Lit torch")
                       | IF FLAG(15)=TRUE
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | LOOK
 Cmd  50 |     0   100 |    4  37   0   0   0   0   0   0   0   0 |   57  64  41  63 |
                  100% | IF ISROOM(37="LOT OF TROUBLE!")
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | LOOK
                       | MESSAGE 41="I have failed my mission"
                       | QUIT
@@ -911,13 +911,13 @@ Cmd  55 |     0   100 |    8   5   4  12   8  28   0  65   0   0 |   53   0   0 
 Cmd  56 |     0   100 |    9  15   9  14   0   0   0   0   0   0 |   57  64   0   0 |
                  100% | IF FLAG(15)=FALSE
                       | IF FLAG(14)=FALSE
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | LOOK
 Cmd  57 |     0   100 |    4  10  16   0   9  14   0   8   0   0 |   57  64  60   0 |
                  100% | IF ISROOM(10="dense jungle")
                       | IF GE(COUNTER,0)
                       | IF FLAG(14)=FALSE
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | LOOK
                       | SET FLAG(8)=FALSE
 Cmd  58 |     0   100 |    4   6   8  17   0  78   0   0   0   0 |   53   0   0   0 |
@@ -939,7 +939,7 @@ Cmd  61 |     0   100 |    4  34   0  18   0   0   0   0   0   0 |   58   0   0 
 Cmd  62 |     0   100 |    4  22  16   0   0   0   0   0   0   0 |   57  64   0   0 |
                  100% | IF ISROOM(22="sacred temple")
                       | IF GE(COUNTER,0)
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | LOOK
 Cmd  63 |     0   100 |    4  34   1  73   0  73   0  33   0   0 |   62   0   0   0 |
                  100% | IF ISROOM(34="deep pit")
@@ -1012,7 +1012,7 @@ Cmd  75 |     1    21 |    2  15   0  23   0   8   0   0   0   0 |   12  54  56 
              go  pass | IF HERE(15="Hidden passage")
                       | MESSAGE 12="OK"
                       | GOTO 23="hidden chamber"
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | SET FLAG(8)=TRUE
 Cmd  76 |     1    22 |    2  76   0  27   0   0   0   0   0   0 |   12  54   0   0 |
              go  hall | IF HERE(76="Dark hallway")

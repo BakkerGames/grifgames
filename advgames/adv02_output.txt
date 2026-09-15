@@ -555,7 +555,7 @@ Cmd   3 |     0     3 |    3  24   0   0   0   0   0   0   0   0 |  104 112   0 
 Cmd   4 |     0   100 |    4  14   8  15   0   0   0   0   0   0 |   57  76   0   0 | LITE
                  100% | IF ISROOM(14="at the foot of a cave ridde...")
                       | IF FLAG(15)=TRUE
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | LOOK
 Cmd   5 |     0   100 |    8   1   3  33   3  20   0   2   0   0 |   58   0   0   0 | FLAG 1. BUILD BOAT. NEED SAIL/LUMBER/BEACH
                  100% | IF FLAG(1)=TRUE
@@ -663,7 +663,7 @@ Cmd  24 |     0   100 |    8   0   0   0   0   0   0   0   0   0 |   68   0   0 
 Cmd  25 |     0   100 |    4   5   8  15   0   0   0   0   0   0 |   57  76   0   0 | LITE
                  100% | IF ISROOM(5="outside an open window")
                       | IF FLAG(15)=TRUE
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | LOOK
 Cmd  26 |     0    80 |    2  23   2  14   0  14   0  58   0   0 |    9  72   0   0 | MONGOOSE
                   80% | IF HERE(23="Deadly mamba snakes")
@@ -862,7 +862,7 @@ Cmd  67 |    47    42 |   12  29   0   0   0   0   0   0   0   0 |   18  45   0 
 Cmd  68 |     1    35 |    4  14   0   7   0   0   0   0   0   0 |   54  56  70  64 |
              go   cav | IF ISROOM(14="at the foot of a cave ridde...")
                       | GOTO 7="maze of caves"
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | CLEARSCREEN
                       | LOOK
 Cmd  69 |    27    48 |   14  52   0   0   0   0   0   0   0   0 |    4  47 117   0 |
@@ -944,12 +944,12 @@ Cmd  85 |     1    45 |    2  38   0  17   0   0   0   0   0   0 |   54  26  56 
              go   cra | IF HERE(38="Rock wall with narrow crack...")
                       | GOTO 17="large cavern"
                       | MESSAGE 26="It was a tight squeeze!"
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | LOOK
 Cmd  86 |     1    45 |    2  39   0  18   0   0   0   0   0   0 |   54  57  70  64 | LITE
              go   cra | IF HERE(39="Narrow crack in the rock")
                       | GOTO 18="on top of a hill"
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | CLEARSCREEN
                       | LOOK
 Cmd  87 |    50    30 |    4  20   2  12  13  52   9   4   0   0 |  115   0   0   0 | WAIT FOR FOR TIDE

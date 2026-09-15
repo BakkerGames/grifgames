@@ -751,17 +751,17 @@ Cmd  27 |     0   100 |    1  67   0   0   0   0   0   0   0   0 |  141  63   0 
 Cmd  28 |     0   100 |    4  34   9  15   0   0   0   0   0   0 |   56  76   0   0 | DARK
                  100% | IF ISROOM(34="long tunnel")
                       | IF FLAG(15)=FALSE
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | LOOK
 Cmd  29 |     0   100 |    4  26   8  15   0   0   0   0   0   0 |   57  76   0   0 | LIGHT
                  100% | IF ISROOM(26="Parking lot")
                       | IF FLAG(15)=TRUE
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | LOOK
 Cmd  30 |     0   100 |    4  25   8  15   0   0   0   0   0   0 |   57  76   0   0 | LIGHT
                  100% | IF ISROOM(25="large room")
                       | IF FLAG(15)=TRUE
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | LOOK
 Cmd  31 |     0     5 |   14  56   0  56   0  57  14  37   0   0 |   72   0   0   0 | GUM HARDENS
                    5% | IF NOWHERE(56="Hard dry chewing gum")
@@ -1364,7 +1364,7 @@ Cmd 161 |    64    31 |    4   5   2  27   0   0   0   0   0   0 |    2  22   0 
 Cmd 162 |     1    82 |    2  26   0  13   0   4   0   0   0   0 |    2  56  54  58 |
              go  hole | IF HERE(26="Dark manhole")
                       | MESSAGE 2="OK"
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | GOTO 13="Manhole"
                       | SET FLAG(4)=TRUE
 Cmd 163 |    10    80 |    0   0   0   0   0   0   0   0   0   0 |   26   0   0   0 |

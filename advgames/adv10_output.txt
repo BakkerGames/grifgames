@@ -715,7 +715,7 @@ Cmd  12 |     0     0 |   15   0   0   2   9   2   9  17   9  18 |   58   6  56 
                       | IF FLAG(18)=FALSE
                       | SET FLAG(2)=TRUE
                       | MESSAGE 6="Sunset"
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | LOOK
 Cmd  13 |     0     0 |    0   1   0   3   0   0   0   0   0   0 |   81  81  77   0 |
             continued | SWAP COUNTER WITH COUNTER(1)
@@ -961,22 +961,22 @@ Cmd  60 |     0   100 |    9   4  13  31   0  31   0   0   0   0 |   59   0   0 
                       | DESTROY 31="WIND----->"
 Cmd  61 |     0   100 |    4  24   0   0   0   0   0   0   0   0 |   56  76   0   0 | DARK ROOM
                  100% | IF ISROOM(24="rock room")
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | LOOK
 Cmd  62 |     0   100 |    4  23   0   0   0   0   0   0   0   0 |   57  76   0   0 | LITE ROOM
                  100% | IF ISROOM(23="dimly lit rock room")
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | LOOK
 Cmd  63 |     0   100 |    4   9   0   0   0   0   0   0   0   0 |   57  76   0   0 | LITE TUNNELS
                  100% | IF ISROOM(9="metal lined tunnel")
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | LOOK
 Cmd  64 |     0   100 |    4  17   0  17   0  18   9   2   0   0 |   60  60  57   0 | OUT TUNLS LITE
                  100% | IF ISROOM(17="ancient cave")
                       | IF FLAG(2)=FALSE
                       | SET FLAG(17)=FALSE
                       | SET FLAG(18)=FALSE
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
 Cmd  65 |     0   100 |    4   8   0  18   0   0   0   0   0   0 |   60   0   0   0 | LEFT CAVES
                  100% | IF ISROOM(8="volcano")
                       | SET FLAG(18)=FALSE
@@ -985,7 +985,7 @@ Cmd  66 |     0   100 |    4  17   0  17   0  18   8   2   0   0 |   60  60  56 
                       | IF FLAG(2)=TRUE
                       | SET FLAG(17)=FALSE
                       | SET FLAG(18)=FALSE
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | LOOK
 Cmd  67 |     0   100 |   13  44   5  44   0  44   7  30   7  31 |   53  76   0   0 | MAN FOLLOWS
                  100% | IF SOMEWHERE(44="Neanderthal")
@@ -1414,7 +1414,7 @@ Cmd 150 |     0     0 |    8   4   0   0   0   0   0   0   0   0 |  106  11  61 
                       | MESSAGE 11="storm lifts me out to sea"
                       | DEAD
 Cmd 151 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |   57 108  76   0 |
-            continued | SET DARK=FALSE
+            continued | SET FLAG(15)=FALSE
                       | MESSAGE 58="Morning!"
                       | LOOK
 Cmd 152 |     1    32 |    2  15   0   0   0   0   0   0   0   0 |   19 107   0   0 |
@@ -1651,7 +1651,7 @@ Cmd 201 |     1    72 |    2  48   0  25   0   0   0   0   0   0 |    1  54  56 
              go  open | IF HERE(48="Dark opening")
                       | MESSAGE 1="OK"
                       | GOTO 25="maze of caves"
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | LOOK
 Cmd 202 |     1    72 |    2  49   0  11   0   0   0   0   0   0 |    1  54  76  73 |
              go  open | IF HERE(49="Opening")
@@ -1661,7 +1661,7 @@ Cmd 202 |     1    72 |    2  49   0  11   0   0   0   0   0   0 |    1  54  76 
                       | CONTINUE_NEXT_LINE
 Cmd 203 |     0     0 |    9   2   0   0   0   0   0   0   0   0 |   57  76   0   0 | NOT NITE
             continued | IF FLAG(2)=FALSE
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | LOOK
 Cmd 204 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |    0   0   0   0 |
 Cmd 205 |     1    38 |    2  53   0  32   6  28   6  25   0   0 |    1  54  76   0 |

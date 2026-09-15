@@ -611,33 +611,51 @@ You can see:
 Wicked looking pirate
 Treasure chest
 Parrot
+The Parrot crys:
+`Tides be a changing matey`
 
 >GIVE BOTTLE
 OK
 Pirate grabs rum and scuttles off chortling
+The Parrot crys:
+`Tides be a changing matey`
 
 >UNLOCK CHEST
 Its open
+The Parrot crys:
+`Tides be a changing matey`
 
 >LOOK CHEST
 There are a set of plans in it
+The Parrot crys:
+`Tides be a changing matey`
 
 >TAKE PLANS
 OK
+The Parrot crys:
+`Tides be a changing matey`
 
 >LOOK CHEST
 There's a map in it
+The Parrot crys:
+`Tides be a changing matey`
 
 >TAKE MAP
 OK
+The Parrot crys:
+`Tides be a changing matey`
 
 >READ MAP
 Its a map to Treasure Island. At the bottom it says:
 `30 paces then dig!`
+The Parrot crys:
+`Tides be a changing matey`
 
 >TAKE PARROT
 The Parrot crys:
 `Pieces of eight`
+The Parrot crys:
+`Tides be a changing matey`
 
 >GO WEST
 
@@ -654,6 +672,8 @@ East West
 You can see:
 Mongoose
 Grass shack
+The Parrot crys:
+`Tides be a changing matey`
 
 >GO WEST
 
@@ -681,24 +701,38 @@ Lagoon
 Water wings
 Sign in the sand says:
 `Welcome to Pirates Island, watch out for the tide!`
+The Parrot crys:
+`Tides be a changing matey`
 
 >DROP MAP
 OK
+The Parrot crys:
+`Tides be a changing matey`
 
 >DROP PLANS
 OK
+The Parrot crys:
+`Tides be a changing matey`
 
 >DROP CRACKERS
 OK
+The Parrot crys:
+`Tides be a changing matey`
 
 >DROP PARROT
 OK
+The Parrot crys:
+`Tides be a changing matey`
 
 >GET BOOK
 OK
+The Parrot crys:
+`Tides be a changing matey`
 
 >WEAR SNEAKERS
 OK
+The Parrot crys:
+`Tides be a changing matey`
 
 >SAY YOHO
 Everything spins around and suddenly I'm elsewhere...
@@ -757,13 +791,13 @@ West
 
 You can see:
 Pirate's duffel bag
+Empty bottle
 Sleeping pirate
-### NO EMPTY BOTTLE ###
 Rum bottle smashed into pieces.
 Sign `Opposite of LIGHT is Unlight`
 
 >TAKE BOTTLE
-I don't see that here.
+OK
 
 >GO WEST
 
@@ -836,15 +870,23 @@ Water wings
 Sign in the sand says:
 `Welcome to Pirates Island, watch out for the tide!`
 Sack of crackers
+The Parrot crys:
+`Tides be a changing matey`
 
 >DROP BOOK
 OK
+The Parrot crys:
+`Tides be a changing matey`
 
 >DROP SNEAKERS
 OK
+The Parrot crys:
+`Tides be a changing matey`
 
 >WEAR WINGS
 OK
+The Parrot crys:
+`Tides be a changing matey`
 
 >GO TIDE
 
@@ -884,11 +926,10 @@ Fish
 Salt water
 
 >TAKE WATER
-I've no container
+OK
 
 >GET FISH
 OK
-Too dry, fish vanish.
 
 >GO SOUTH
 
@@ -938,15 +979,23 @@ Lagoon
 Sign in the sand says:
 `Welcome to Pirates Island, watch out for the tide!`
 Sack of crackers
+The Parrot crys:
+`Tides be a changing matey`
 
 >DROP WINGS
 OK
+The Parrot crys:
+`Tides be a changing matey`
 
 >GET TORCH
 OK
+The Parrot crys:
+`Tides be a changing matey`
 
 >TAKE MATCHES
 OK
+The Parrot crys:
+`Tides be a changing matey`
 
 >GO EAST
 
@@ -1021,13 +1070,14 @@ Mean and hungry looking crocodiles
 Locked door
 
 >GIVE FISH
-You aren't carrying that.
+OK
+Crocs eat fish and leave
 
 >DROP BOTTLE
-You aren't carrying that.
+OK
 
 >UNLOCK DOOR
-Crocs stop me
+OK
 
 >LOOK
 
@@ -1042,31 +1092,111 @@ Obvious exits:
 Up
 
 You can see:
-Mean and hungry looking crocodiles
-Locked door
+Open door with hall beyond
+Bottle of salt water
 OK
 I see nothing special
 
 >ENTER HALL
 
+  +-------+  
+  |       |  
+  |       E--
+  |       |  
+  +-------+  
+I'm in a long hallway.
+
+Obvious exits:
+East
+
+You can see:
+Open door with pit beyond
+
 >GO EAST
-Can't go that way.
+
+  +-------+  
+  |       |  
+--W       |  
+  |       |  
+  +-------+  
+I'm in a large cavern.
+
+Obvious exits:
+West
+
+You can see:
+Pile of precut lumber
+Tool shed
+Narrow crack in the rock
 
 >TAKE LUMBER
-I don't see that here.
+OK
 
 >ENTER SHED
 
+      |      
+  +---N---+  
+  |       |  
+  |       |  
+  |       |  
+  +-------+  
+I'm in a tool shed.
+
+Obvious exits:
+North
+
+You can see:
+Shovel
+
 >TAKE SHOVEL
-I don't see that here.
+OK
 
 >GO NORTH
-Can't go that way.
+
+  +-------+  
+  |       |  
+--W       |  
+  |       |  
+  +-------+  
+I'm in a large cavern.
+
+Obvious exits:
+West
+
+You can see:
+Tool shed
+Narrow crack in the rock
 
 >GO WEST
-Can't go that way.
+
+  +-------+  
+  |       |  
+  |       E--
+  |       |  
+  +-------+  
+I'm in a long hallway.
+
+Obvious exits:
+East
+
+You can see:
+Open door with pit beyond
 
 >ENTER PIT
+
+  +-------+  
+  |     U |  
+  |       |  
+  |       |  
+  +-------+  
+I'm in a pit.
+
+Obvious exits:
+Up
+
+You can see:
+Open door with hall beyond
+Bottle of salt water
 
 >CLIMB UP
 
@@ -1094,30 +1224,113 @@ leads on up to the top.
 Obvious exits:
 West
 
+  +-------+  
+  |       |  
+--W       |  
+  |       |  
+  +-------+  
+I'm at the foot of a cave ridden hill, a pathway
+leads on up to the top.
+
+Obvious exits:
+West
+
 >UNLIGHT TORCH
 OK
-You can't see. It is too dark!
+
+  +-------+  
+  |       |  
+--W       |  
+  |       |  
+  +-------+  
+I'm at the foot of a cave ridden hill, a pathway
+leads on up to the top.
+
+Obvious exits:
+West
 
 >GO WEST
-You can't see. It is too dark!
+
+  +-------+  
+  |       |  
+--W       E--
+  |       |  
+  +-------+  
+I'm in a meadow.
+
+Obvious exits:
+East West
+
+You can see:
+Mongoose
+Grass shack
 
 >GO WEST
-You can't see. It is too dark!
+
+  +-------+  
+  |       |  
+  |       E--
+  |       |  
+  +-------+  
+I'm in a sandy beach on a tropical isle.
+
+Obvious exits:
+East
+
+You can see:
+Large blood soaked book
+Small ship's keel and mast
+Pile of sails
+Parrot
+Set of plans
+Claw hammer
+Nails
+Safety sneakers
+Map
+Sand
+Lagoon
+Water wings
+Sign in the sand says:
+`Welcome to Pirates Island, watch out for the tide!`
+Sack of crackers
+The Parrot crys:
+`Tides be a changing matey`
 
 >DROP LUMBER
-You aren't carrying that.
+OK
+The Parrot crys:
+`Tides be a changing matey`
 
 >LOOK TIDE
 There's something there all right. Maybe I should
 go there?
 The tide is out
+The Parrot crys:
+`Tides be a changing matey`
 
 >GO TIDE
-You can't see. It is too dark!
+
+      |      
+  +---N---+  
+  |       |  
+--W       E--
+  |       |  
+  +---S---+  
+      |      
+I'm in a shallow lagoon.
+to the north is the ocean.
+
+Obvious exits:
+North South East West
+
+You can see:
+The tide is coming in
+Flotsam and jetsam
 The tide is coming in
 I'm underwater, I guess I don't swim well. Blub Blub...
 
 >DIG
+I didn't find anything
 I've stored 0 treasures.
 On a scale of 0 to 100 that rates a 0.
 Since nothing is happening

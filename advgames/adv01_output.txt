@@ -603,7 +603,7 @@ Cmd   8 |     0     8 |    2  24  12   7   0   0   0   0   0   0 |   15  61   0 
 Cmd   9 |     0   100 |    4   5   8  15   0   0   0   0   0   0 |   57  76   0   0 | LITE
                  100% | IF ISROOM(5="semi-dark hole by the root...")
                       | IF FLAG(15)=TRUE
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | LOOK
 Cmd  10 |     0    50 |    1   8   6  12   0   8   0  55   0   0 |   48  59  52   0 | FISH DIE
                   50% | IF CARRY(8="*GOLDEN FISH*")
@@ -740,7 +740,7 @@ Cmd  36 |    48     9 |    1  29   4  17   0  23   0   0   0   0 |   54  18  57 
                       | IF ISROOM(17="maze of pits")
                       | GOTO 23="sunny meadow"
                       | MESSAGE 18="Something I'm holding vibra..."
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | LOOK
 Cmd  37 |    14     0 |    6  28   0   0   0   0   0   0   0   0 |   19   0   0   0 |
             lig       | IF NOT CARRY(28="Flint & steel")
@@ -1199,7 +1199,7 @@ Cmd 133 |    37    20 |    1  14   2  16   0  17   0  16   0   0 |   53  55   0 
 Cmd 134 |     1    56 |    2  17   0   6   0   0   0   0   0   0 |   54  56  70  64 |
              go   hal | IF HERE(17="Open door with a hallway be...")
                       | GOTO 6="long down sloping hall"
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | CLEARSCREEN
                       | LOOK
 Cmd 135 |    14    17 |    3  10   0  10   0   9   0   0   0   0 |   72  10  76   0 |
@@ -1238,7 +1238,7 @@ Cmd 142 |    48     9 |    1  29   7  17   0  17   7  33   7  26 |   54  18  56 
                       | IF NOT ISROOM(26)
                       | GOTO 17="maze of pits"
                       | MESSAGE 18="Something I'm holding vibra..."
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | LOOK
 Cmd 143 |    47     0 |    4   1   0   0   0   0   0   0   0   0 |  110 105   0   0 |
             hel       | IF ISROOM(1="dismal swamp")

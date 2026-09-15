@@ -654,14 +654,14 @@ MagicNumber     = 735
 Cmd   0 |     0   100 |    4  19   9  15   0   0   0   0   0   0 |   56  70  76   0 | IN TREE
                  100% | IF ISROOM(19="hollow tree sign says drop")
                       | IF FLAG(15)=FALSE
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | CLEARSCREEN
                       | LOOK
 Cmd   1 |     0   100 |    4  23   5  47   9  15   0   0   0   0 |   56  70  76   0 | IN BOX
                  100% | IF ISROOM(23="box")
                       | IF NOT HERE(47="Hole")
                       | IF FLAG(15)=FALSE
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | CLEARSCREEN
                       | LOOK
 Cmd   2 |     0   100 |    8  15   7  23   7  19   7  12   0   0 |   57  76   0   0 | NOT DARK
@@ -669,7 +669,7 @@ Cmd   2 |     0   100 |    8  15   7  23   7  19   7  12   0   0 |   57  76   0 
                       | IF NOT ISROOM(23)
                       | IF NOT ISROOM(19)
                       | IF NOT ISROOM(12)
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | LOOK
 Cmd   3 |     0   100 |    8   8   6  51   0  51   0   0   0   0 |   74   0   0   0 | WATER FOUNTAIN
                  100% | IF FLAG(8)=TRUE
@@ -700,7 +700,7 @@ Cmd   8 |     0   100 |    4  17   3  65   0  65   0  62   0   0 |   72   0   0 
 Cmd   9 |     0   100 |    2  29   9  15   0   0   0   0   0   0 |   56  70  76   0 | IN CELL DARK
                  100% | IF HERE(29="Oak door")
                       | IF FLAG(15)=FALSE
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | CLEARSCREEN
                       | LOOK
 Cmd  10 |     0   100 |    9   1   0   1   0  31   0   0   0   0 |   58  13  79  73 | INTRO
@@ -854,7 +854,7 @@ Cmd  44 |     0   100 |    8  20  14  32   0  29   0  30   0   0 |   72  57  73 
                  100% | IF FLAG(20)=TRUE
                       | IF NOWHERE(32="Open door")
                       | SWAP ITEMS 29="Oak door" AND 30="Open door"
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | CONTINUE_NEXT_LINE
 Cmd  45 |     0     0 |    0  31   0  32   0   0   0   0   0   0 |   72  76   0   0 |
             continued | SWAP ITEMS 31="Oak door" AND 32="Open door"
@@ -1775,7 +1775,7 @@ Cmd 233 |     0     0 |    8  15   2  42   0  42   0   0   0   0 |   59  18  57 
                       | IF HERE(42="Piece of wood")
                       | DESTROY 42="Piece of wood"
                       | MESSAGE 18="it starts to burn."
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | LOOK
 Cmd 234 |     0     0 |   14  42   0   0   0   0   0   0   0   0 |   88  88  88  88 |
             continued | IF NOWHERE(42="Piece of wood")
@@ -1786,7 +1786,7 @@ Cmd 234 |     0     0 |   14  42   0   0   0   0   0   0   0   0 |   88  88  88 
 Cmd 235 |     0     0 |   14  42   0   0   0   0   0   0   0   0 |   88  56  70  76 |
             continued | IF NOWHERE(42="Piece of wood")
                       | SLEEP 2 SECONDS
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | CLEARSCREEN
                       | LOOK
 Cmd 236 |     0     0 |    0  42   0   0   0   0   0   0   0   0 |   59   0   0   0 |

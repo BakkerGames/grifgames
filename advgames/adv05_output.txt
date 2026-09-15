@@ -575,7 +575,7 @@ Cmd   4 |     0     0 |   15   4   9   4  16   1   9   2   0   0 |   20   0   0 
                       | MESSAGE 20="I'm getting very tired"
 Cmd   5 |     0     0 |   19   1   0   0   0   0   0   0   0   0 |   56  21  64   0 | SUNSET
             continued | IF EQ(COUNTER,1)
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | MESSAGE 21="The sun has set!"
                       | LOOK
 Cmd   6 |     0   100 |    2  35   4   3   0  35   0  10   0   0 |   72   0   0   0 | SHEET OVER LEDGE
@@ -685,7 +685,7 @@ Cmd  25 |     0     0 |    8   9   0   9   0   1   0   0   0   0 |   60  54 107 
                       | MESSAGE 57="I've a hunch I've been robbed!"
 Cmd  26 |     0     0 |    0   1   0   0   0   0   0   0   0   0 |   54  57   2  53 | PUT TO BED
             continued | GOTO 1="lying in a large brass bed"
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | MESSAGE 2="I see I was put to bed. Its..."
                       | DROP 0="Sheets"
 Cmd  27 |     0     0 |    3  18   0   3   0  18   0  19   0   0 |   60  72 108   0 | GET BLOOD
@@ -755,13 +755,13 @@ Cmd  40 |     0   100 |    9   1   0   1   0   0   0   0   0   0 |   58   0   0 
 Cmd  41 |     0   100 |   15   1  12   9   0   0   0   0   0   0 |   56  64   0   0 | SUNSET?
                  100% | IF LE(COUNTER,1)
                       | IF NOT HERECARRY(9="LIT torch")
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | LOOK
 Cmd  42 |     0   100 |    4  10  16   0   8  15   0   0   0   0 |   57  76   0   0 | LITE DOORLW
                  100% | IF ISROOM(10="DOORLESS room")
                       | IF GE(COUNTER,0)
                       | IF FLAG(15)=TRUE
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | LOOK
 Cmd  43 |     0    29 |   15  39  14  47   0  47   0   9   7   9 |   62  42   0   0 | DELIVER POSTCARD
                   29% | IF LE(COUNTER,39)
@@ -1107,7 +1107,7 @@ Cmd 109 |    61    39 |   12  41   0   0   0   0   0   0   0   0 |    1 107   0 
 Cmd 110 |     1    32 |    2  56   0  19   0   0   0   0   0   0 |   54  56  76  39 |
              go   pas | IF HERE(56="DARK foreboding passage")
                       | GOTO 19="Dark passage"
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | LOOK
                       | MESSAGE 39="OK"
 Cmd 111 |    26     0 |    0   0   0   0   0   0   0   0   0   0 |    1  48   0   0 |
@@ -1127,12 +1127,12 @@ Cmd 114 |    28     0 |    2  35   4  18   0  16   0   0   0   0 |   54  57  76 
             cli       | IF HERE(35="The other end of the sheet")
                       | IF ISROOM(18="Pit")
                       | GOTO 16="Dungeon"
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | LOOK
                       | MESSAGE 39="OK"
 Cmd 115 |    28     0 |    2  32   0  18   0   0   0   0   0   0 |   56  54  76  39 |
             cli       | IF HERE(32="DARK pit")
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | GOTO 18="Pit"
                       | LOOK
                       | MESSAGE 39="OK"
@@ -1140,7 +1140,7 @@ Cmd 116 |     1     7 |    0   0   0   0   0   0   0   0   0   0 |   50   0   0 
              go   she | MESSAGE 50="Try: `CLIMB SHEET`"
 Cmd 117 |     1    18 |    2  32   0  18   0   0   0   0   0   0 |   56  54  76  39 |
              go   pit | IF HERE(32="DARK pit")
-                      | SET DARK=TRUE
+                      | SET FLAG(15)=TRUE
                       | GOTO 18="Pit"
                       | LOOK
                       | MESSAGE 39="OK"
@@ -1234,7 +1234,7 @@ Cmd 136 |    27     0 |    2  14   0   0   0   0   0   0   0   0 |   51   0   0 
 Cmd 137 |    45    22 |    3  21   8  15   0   0   0   0   0   0 |   57  76 122  73 |
             lig   mat | IF HERECARRY(21="Sulfur mAtches")
                       | IF FLAG(15)=TRUE
-                      | SET DARK=FALSE
+                      | SET FLAG(15)=FALSE
                       | LOOK
                       | MESSAGE 72="The match flares up briefly..."
                       | CONTINUE_NEXT_LINE
@@ -1244,7 +1244,7 @@ Cmd 138 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |   88  88  88 
                       | SLEEP 2 SECONDS
                       | MESSAGE 82="and then goes out!"
 Cmd 139 |     0     0 |    0   0   0   0   0   0   0   0   0   0 |   56  76   0   0 |
-            continued | SET DARK=TRUE
+            continued | SET FLAG(15)=TRUE
                       | LOOK
 Cmd 140 |    48     0 |    4   3   0  22   0   0   0   0   0   0 |   12 113 112  54 |
             jum       | IF ISROOM(3="on A ledge outside An open...")

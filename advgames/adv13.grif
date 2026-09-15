@@ -32,7 +32,7 @@
 	@get(@concat("item.",$x,".location"))
 @look
 	@debug("### ROOM #",@room)
-	@if @istrue(@get(value.flag.dark)) @and @not @herecarry(9) @then
+	@if @istrue(@get(value.flag.15)) @and @not @herecarry(9) @then
 		@msg(message.cant_see)
 	@else
 		@script(script.before_look)
@@ -77,19 +77,19 @@
 background.0
 	@if @isroom(19) @and @isfalse(@get(value.flag.15)) @then
 		@comment("IN TREE")
-		@set(value.flag.dark,true)
+		@set(value.flag.15,true)
 		@look
 	@endif
 background.1
 	@if @isroom(23) @and @not @here(47) @and @isfalse(@get(value.flag.15)) @then
 		@comment("IN BOX")
-		@set(value.flag.dark,true)
+		@set(value.flag.15,true)
 		@look
 	@endif
 background.2
 	@if @istrue(@get(value.flag.15)) @and @not @isroom(23) @and @not @isroom(19) @and @not @isroom(12) @then
 		@comment("NOT DARK")
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@look
 	@endif
 background.3
@@ -130,7 +130,7 @@ background.8
 background.9
 	@if @here(29) @and @isfalse(@get(value.flag.15)) @then
 		@comment("IN CELL DARK")
-		@set(value.flag.dark,true)
+		@set(value.flag.15,true)
 		@look
 	@endif
 background.10
@@ -190,12 +190,12 @@ background.20
 	@sendto(52,0)
 	@comment("...continued into Cmd 21")
 	@if @le(@get(value.counter),0) @then
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@goto(32)
 	@endif
 	@comment("...continued into Cmd 22")
 	@if @ge(@get(value.counter),100) @then
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@goto(32)
 	@endif
 	@comment("...continued into Cmd 23")
@@ -216,7 +216,7 @@ background.26
 		@sleep(2000)
 		@sleep(2000)
 		@msg(message.49)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@goto(32)
 	@endif
 background.27
@@ -229,7 +229,7 @@ background.27
 		@comment("...continued into Cmd 28")
 		@if @here(26) @then
 			@msg(message.20)
-			@set(value.flag.dark,false)
+			@set(value.flag.15,false)
 			@goto(32)
 		@endif
 	@endif
@@ -252,7 +252,7 @@ background.32
 	@if @isroom(5) @and @isfalse(@get(value.flag.4)) @then
 		@comment("LAVA")
 		@msg(message.15)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@goto(32)
 	@endif
 background.33
@@ -298,7 +298,7 @@ background.40
 	@if @isroom(17) @and @isfalse(@get(value.flag.13)) @then
 		@comment("DROWN")
 		@msg(message.40)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@goto(32)
 	@endif
 background.41
@@ -327,7 +327,7 @@ background.44
 	@if @istrue(@get(value.flag.20)) @and @nowhere(32) @then
 		@comment("OPEN DOORS")
 		@swap(item.29.location,item.30.location)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@comment("continue")
 		@comment("...continued into Cmd 45")
 		@swap(item.31.location,item.32.location)
@@ -518,7 +518,7 @@ command.1.36
 		@comment("BURNT")
 		@msg(message.1)
 		@msg(message.15)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@goto(32)
 		@comment("...continued into Cmd 113")
 	@elseif @here(21) @and @istrue(@get(value.flag.4)) @then
@@ -620,7 +620,7 @@ command.7
 		@msg(message.54)
 		@msg(message.56)
 		@msg(message.49)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@goto(32)
 		@comment("...continued into Cmd 229")
 	@elseif @isroom(17) @then
@@ -785,14 +785,14 @@ command.25.34
 		@comment("...continued into Cmd 232")
 		@if @carry(42) @then
 			@msg(message.15)
-			@set(value.flag.dark,false)
+			@set(value.flag.15,false)
 			@goto(32)
 		@endif
 		@comment("...continued into Cmd 233")
 		@if @istrue(@get(value.flag.15)) @and @here(42) @then
 			@sendto(42,0)
 			@msg(message.18)
-			@set(value.flag.dark,false)
+			@set(value.flag.15,false)
 			@look
 		@endif
 		@comment("...continued into Cmd 234")
@@ -805,7 +805,7 @@ command.25.34
 		@comment("...continued into Cmd 235")
 		@if @nowhere(42) @then
 			@sleep(2000)
-			@set(value.flag.dark,true)
+			@set(value.flag.15,true)
 			@look
 		@endif
 		@comment("...continued into Cmd 236")
@@ -816,7 +816,7 @@ command.25.50
 	@if @istrue(@get(value.flag.10)) @and @isroom(14) @and @isroom(14) @then
 		@msg(message.37)
 		@msg(message.15)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@goto(32)
 	@endif
 command.25.52
@@ -825,14 +825,14 @@ command.25.52
 		@msg(message.54)
 		@msg(message.56)
 		@msg(message.49)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@goto(32)
 		@comment("...continued into Cmd 75")
 	@elseif @istrue(@get(value.flag.10)) @and @here(58) @then
 		@msg(message.54)
 		@msg(message.56)
 		@msg(message.49)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@goto(32)
 	@endif
 command.25.58
@@ -876,7 +876,7 @@ command.25.103
 		@comment("FIRE")
 		@msg(message.37)
 		@msg(message.15)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@goto(32)
 	@endif
 command.27.39
@@ -1392,7 +1392,7 @@ command.50.61
 			@msg(message.58)
 			@msg(message.19)
 			@msg(message.20)
-			@set(value.flag.dark,false)
+			@set(value.flag.15,false)
 			@goto(32)
 		@endif
 	@endif
@@ -1495,7 +1495,7 @@ command.60
 		@msg(message.1)
 		@msg(message.30)
 		@msg(message.33)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@goto(32)
 		@comment("...continued into Cmd 192")
 	@elseif @isroom(15) @and @istrue(@get(value.flag.4)) @then
@@ -1548,7 +1548,7 @@ command.70
 		@msg(message.35)
 		@msg(message.42)
 		@msg(message.57)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@goto(32)
 		@comment("...continued into Cmd 237")
 	@elseif @isroom(16) @then
@@ -2842,8 +2842,6 @@ value.flag.13
 value.flag.14
 	false
 value.flag.15
-	false
-value.flag.dark
 	false
 value.lightmoves
 	3000

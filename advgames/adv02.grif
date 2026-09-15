@@ -32,7 +32,7 @@
 	@get(@concat("item.",$x,".location"))
 @look
 	@debug("### ROOM #",@room)
-	@if @istrue(@get(value.flag.dark)) @and @not @herecarry(9) @then
+	@if @istrue(@get(value.flag.15)) @and @not @herecarry(9) @then
 		@msg(message.cant_see)
 	@else
 		@script(script.before_look)
@@ -105,7 +105,7 @@ background.3
 background.4
 	@if @isroom(14) @and @istrue(@get(value.flag.15)) @then
 		@comment("LITE")
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@look
 	@endif
 background.5
@@ -152,7 +152,7 @@ background.11
 	@if @rand(40) @and @isroom(5) @and @not @carry(44) @then
 		@comment("SLIPPED NO SHOES")
 		@msg(message.29)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@goto(26)
 	@endif
 background.12
@@ -206,14 +206,14 @@ background.19
 		@comment("TIDE IN DROWN")
 		@msg(message.67)
 		@msg(message.61)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@goto(26)
 	@endif
 background.20
 	@if @rand(50) @and @isroom(10) @and @not @carry(54) @then
 		@comment("DROWN OCEAN")
 		@msg(message.61)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@goto(26)
 	@endif
 background.21
@@ -244,7 +244,7 @@ background.24
 background.25
 	@if @isroom(5) @and @istrue(@get(value.flag.15)) @then
 		@comment("LITE")
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@look
 	@endif
 background.26
@@ -381,7 +381,7 @@ command.1.35
 	@comment("Cmd 68 - go cav")
 	@if @isroom(14) @then
 		@goto(7)
-		@set(value.flag.dark,true)
+		@set(value.flag.15,true)
 		@look
 	@endif
 command.1.42
@@ -422,13 +422,13 @@ command.1.45
 		@comment("DARK")
 		@goto(17)
 		@msg(message.26)
-		@set(value.flag.dark,true)
+		@set(value.flag.15,true)
 		@look
 		@comment("...continued into Cmd 86")
 	@elseif @here(39) @then
 		@comment("LITE")
 		@goto(18)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@look
 	@endif
 command.1.48
@@ -545,7 +545,7 @@ command.10.29
 	@elseif @here(22) @and @here(23) @then
 		@msg(message.5)
 		@msg(message.10)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@goto(26)
 	@endif
 command.10.32
@@ -613,7 +613,7 @@ command.10.78
 	@if @here(23) @then
 		@msg(message.5)
 		@msg(message.10)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@goto(26)
 	@endif
 command.17
@@ -658,12 +658,12 @@ command.23.46
 	@comment("Cmd 94 - dri wat")
 	@if @here(40) @then
 		@msg(message.5)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@goto(26)
 		@comment("...continued into Cmd 95")
 	@elseif @carry(42) @then
 		@msg(message.5)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@goto(26)
 		@sendto(42,0)
 		@take(7)
@@ -1046,7 +1046,7 @@ command.55
 	@comment("Cmd 121 - jum")
 	@if @isroom(5) @then
 		@msg(message.5)
-		@set(value.flag.dark,false)
+		@set(value.flag.15,false)
 		@goto(26)
 		@comment("...continued into Cmd 175")
 	@else
@@ -2132,8 +2132,6 @@ value.flag.13
 value.flag.14
 	false
 value.flag.15
-	false
-value.flag.dark
 	false
 value.lightmoves
 	150
